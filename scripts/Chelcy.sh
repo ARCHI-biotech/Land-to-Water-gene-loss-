@@ -1,3 +1,6 @@
+# Retrieve human query sequences from annotation
+# gene F12:
+efetch -db nucleotide -id NM_000505.4 -format fasta_cds_na > F12_human_CDS.fasta
 # Downloading the genome:
 # Manis javanica
  wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/040/802/235/GCF_040802235.1_MJ_LKY/GCF_040802235.1_MJ_LKY_genomic.fna.gz
