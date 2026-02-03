@@ -17,3 +17,42 @@ To identify homologous genomic loci of **human genes** across **vertebrate speci
 7. Validate orthology  
 
 ---
+
+## Step 1: Retrieve Human Query Sequences
+
+## Step 2: Download Vertebrate Genome Assemblies
+
+Genome assemblies for vertebrate species were downloaded from:
+
+- Ensembl FTP
+- NCBI RefSeq or GenBank
+- UCSC Genome Browser
+
+Example:
+
+```bash
+wget ftp://ftp.ensembl.org/pub/release-XXX/fasta/species/dna/*.fa.gz
+gunzip *.fa.gz
+```
+
+Assemblies at chromosome or scaffold level were preferred.
+
+---
+
+## Step 3: Create BLAST Databases
+
+BLAST+ (NCBI) was used to generate nucleotide databases for each species.
+
+```bash
+makeblastdb \
+  -in species_genome.fa \
+  -dbtype nucl \
+  -parse_seqids \
+  -out species_genome_db
+```
+
+Each species was indexed as an independent BLAST database.
+
+---
+
+## Step 4: Perform BLASTN Searches
