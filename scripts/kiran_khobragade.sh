@@ -23,7 +23,7 @@ gunzip GCF_030028045.1_mHipAmp2.hap2_genomic.fna.gz
 -dbtype nucl \
 -parse_seqids \
 -out Hippo_hap2_genome_db
-#downloaded the genome assigned to me
+#Downloaded the genome assigned to me
 #Eubalaena_japonica
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/363/455/GCA_004363455.1_EubJap_v1_BIUU/GCA_004363455.1_EubJap_v1_BIUU_genomic.fna.gz
 #Command to unzip the file
@@ -40,3 +40,10 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/023/091/745/GCF_023091745.1_Ta
 #Command for unzip the file
 gunzip GCF_023091745.1_Takin1.1_genomic.fna.gz
 #Create BLAST Database
+makeblastdb \
+-in GCF_023091745.1_Takin1.1_genomic.fna \
+-dbtype nucl \
+-parse_seqids \
+-out Budorcas_taxicolor_genome_db
+
+
