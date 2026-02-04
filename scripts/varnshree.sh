@@ -22,3 +22,11 @@ makeblastdb \
   -dbtype nucl \
   -parse_seqids \
   -out Physeter_macrocephalus_genome_db
+
+   #Bos_taurus
+     wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/263/795/GCF_002263795.3_ARS-UCD2.0/GCF_002263795.3_ARS-UCD2.0_cds_from_genomic.fna.gz
+     #Command to unzip the file
+      gunzip GCF_002263795.3_ARS-UCD2.0_cds_from_genomic.fna.gz
+      #Create BLAST Database
+      makeblastdb -in GCF_002263795.1_ARS-UCD1.3_genomic.fna -dbtype nucl -out bos_taurus_db
+      
