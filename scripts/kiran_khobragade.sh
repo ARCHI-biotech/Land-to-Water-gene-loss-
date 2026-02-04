@@ -27,3 +27,6 @@ gunzip GCF_030028045.1_mHipAmp2.hap2_genomic.fna.gz
 #Eubalaena_japonica
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/363/455/GCA_004363455.1_EubJap_v1_BIUU/GCA_004363455.1_EubJap_v1_BIUU_genomic.fna.gz
 #Command to unzip the file
+gunzip GCA_004363455.1_EubJap_v1_BIUU_genomic.fna.gz
+#Create BLAST Database
+
