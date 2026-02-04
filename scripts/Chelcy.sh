@@ -11,16 +11,34 @@ grep -c "^>" F12_exons.fasta
 gunzip GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna.gz
 # Creating the Database for Blast:
 makeblastdb -in GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna -dbtype nucl -out PlaMin_Genome_DB
-# Running BLASTN: Human F12 Exons vs Dolphin Genome:
-blastn -query F12_exons.fasta \
--db PlaMin_Genome_DB \
--out F12_vs_Platanista_pairwise.txt \
--outfmt 0 \
--evalue 1e-10 \
--max_target_seqs 3 \
--max_hsps 1
+
+
 
 # Downloading the genome of Okapia johnstoni:
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/024/291/935/GCA_024291935.2_TBG_Okapi_asm_v1/GCA_024291935.2_TBG_Okapi_asm_v1_genomic.fna.gz
 # Unziping the file:
 gunzip GCA_024291935.2_TBG_Okapi_asm_v1_genomic.fna.gz
+
+
+# Downloading the genome of Giraffa camelopardolis:
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/017/591/445/GCA_017591445.1_ASM1759144v1/GCA_017591445.1_ASM1759144v1_genomic.fna.gz
+# Unziping the file:
+gunzip GCA_017591445.1_ASM1759144v1_genomic.fna.gz
+
+
+# Downloading the genome of Antilocapra americano:
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/051/176/615/GCA_051176615.1_mAntAme2_p1.1/GCA_051176615.1_mAntAme2_p1.1_genomic.fna.gz
+# Unziping the file:
+gunzip GCA_051176615.1_mAntAme2_p1.1_genomic.fna.gz
+
+
+# Downloading the genome of Tragulas javanicus:
+ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/024/965/GCA_004024965.2_ASM402496v2/GCA_004024965.2_ASM402496v2_genomic.fna.gz
+# Unziping the file:
+gunzip GCA_004024965.2_ASM402496v2_genomic.fna.gz
+
+ 
+# Downloading the genome of Sousa chinensis:
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/007/760/645/GCA_007760645.1_ASM776064v1/GCA_007760645.1_ASM776064v1_genomic.gbff.gz
+# Unziping the file:
+gunzip GCA_007760645.1_ASM776064v1_genomic.gbff.gz
