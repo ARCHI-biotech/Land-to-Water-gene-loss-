@@ -11,3 +11,10 @@ makeblastdb \
 -in GCF_937001465.1_mOrcOrc1.1_genomic.fna \
 -dbtype nucl \
 -out orca_db
+
+Neophocaena asiaeeorientalis
+wger https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/031/525/GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1/GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1_genomic.fna.gz
+#gunzip
+gunzip GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1_genomic.fna.gz
+#create databse
+makeblastdb -in GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1_genomic.fna -dbtype nucl -out porpoise_db
