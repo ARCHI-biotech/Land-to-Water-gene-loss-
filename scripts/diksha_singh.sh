@@ -25,3 +25,25 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/008/692/025/GCF_008692025.1_mP
 gunzip GCF_008692025.1_mPhoSin1.pri_genomic.fna.gz
 #create database
 makeblastdb -in GCF_008692025.1_mPhoSin1.pri_genomic.fna -dbtype nucl -out phocoena_db
+
+Lagenorhynchus obliquidens
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/676/395/GCF_003676395.1_ASM367639v1/GCF_003676395.1_ASM367639v1_genomic.fna.gz
+#gunzip
+gunzip GCF_003676395.1_ASM367639v1_genomic.fna.gz
+#create database
+makeblastdb -in GCF_003676395.1_ASM367639v1_genomic.fna -dbtype nucl -out lageno_db
+
+Globicephla melas
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/963/455/315/GCF_963455315.2_mGloMel1.2/GCF_963455315.2_mGloMel1.2_genomic.fna.gz
+#gunzip
+gunzip GCF_963455315.2_mGloMel1.2_genomic.fna.gz
+#create databse
+ makeblastdb -in GCF_963455315.2_mGloMel1.2_genomic.fna -dbtype nucl -out glo_db
+
+Muntiacus muntjac
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/008/782/695/GCA_008782695.1_UCB_Mmun_1.0/GCA_008782695.1_UCB_Mmun_1.0_genomic.fna.gz
+#gunzip
+ gunzip GCF_963455315.2_mGloMel1.2_genomic.fna.gz
+ #create database
+ makeblastdb -in GCF_963455315.2_mGloMel1.2_genomic.fna -dbtype nucl -out glo_db
+
