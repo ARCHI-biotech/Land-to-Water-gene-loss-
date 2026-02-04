@@ -43,7 +43,7 @@ gunzip GCF_963455315.2_mGloMel1.2_genomic.fna.gz
 Muntiacus muntjac
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/008/782/695/GCA_008782695.1_UCB_Mmun_1.0/GCA_008782695.1_UCB_Mmun_1.0_genomic.fna.gz
 #gunzip
- gunzip GCF_963455315.2_mGloMel1.2_genomic.fna.gz
+ GCA_008782695.1_UCB_Mmun_1.0_genomic.fna.gz
  #create database
- makeblastdb -in GCF_963455315.2_mGloMel1.2_genomic.fna -dbtype nucl -out glo_db
+makeblastdb -in GCA_008782695.1_UCB_Mmun_1.0_genomic.fna -dbtype nucl -out glo_db
 
