@@ -67,3 +67,64 @@ makeblastdb \
 -dbtype nucl \
 -parse_seqids \
 -out Camelus_bactrianus_genome_db
+# Forloop command for dc-megablast 
+QUERY="/home/arijit/kiran/query.fasta"
+BASE_DIR="/home/arijit/kiran"
+
+for species in \
+  Balaenoptera_musculus \
+  Budorcas_taxicolor \
+  Camelus_bactrianus \
+  Eubalaena_japonica \
+  Hippo_hap2 \
+  sus_scrofa
+do
+    echo "=============================================="
+    echo "Running DC-MEGABLAST (outfmt 6) for $species"
+    echo "=============================================="
+
+    cd "$BASE_DIR/$species" || continue
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "${species}_genome_db" \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -outfmt 6 \
+      -out "Human_F12_vs_${species}.tsv"
+
+    cd "$BASE_DIR"
+done
+#Forloop command for short blastn
+QUERY="/home/arijit/kiran/query.fasta"
+BASE_DIR="/home/arijit/kiran"
+
+for species in \
+  Balaenoptera_musculus \
+  Budorcas_taxicolor \
+  Camelus_bactrianus \
+  Eubalaena_japonica \
+  Hippo_hap2 \
+  sus_scrofa
+do
+    echo "=============================================="
+    echo "Running genome BLAST for $species"
+    echo "=============================================="
+
+    cd "$BASE_DIR/$species" || continue
+
+    blastn \
+      -task blastn \
+      -query "$QUERY" \
+      -db "${species}_genome_db" \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -outfmt 3 \
+      -out "Human_F12_vs_${species}_query_anchored.blast"
+
+    cd "$BASE_DIR"
+done
+
