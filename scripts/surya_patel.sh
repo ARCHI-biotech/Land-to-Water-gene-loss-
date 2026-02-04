@@ -43,3 +43,14 @@ makeblastdb -in Capra_hircus/*.fna -dbtype nucl -parse_seqids -out Capra_hircus/
 #wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/772/045/GCF_016772045.2_ARS-UI_Ramb_v3.0/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna.g
 # Create BLAST database
 makeblastdb -in GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna -dbtype nucl -out Ovis_db
+
+############################################
+# PATHS
+############################################
+BASE_DIR="$HOME/Dissertation"
+GENOMES_DIR="$BASE_DIR/GENOMES"
+GENE_DIR="$BASE_DIR/GENE"
+RESULTS_DIR="$BASE_DIR/RESULTS"
+QUERY="$GENE_DIR/query.fasta"
+THREADS=8
+mkdir -p "$RESULTS_DIR"
