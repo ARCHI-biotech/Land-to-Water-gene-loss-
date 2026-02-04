@@ -29,4 +29,14 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/363/455/GCA_004363455.1_Eu
 #Command to unzip the file
 gunzip GCA_004363455.1_EubJap_v1_BIUU_genomic.fna.gz
 #Create BLAST Database
-
+makeblastdb \
+-in GCA_004363455.1_EubJap_v1_BIUU_genomic.fna \
+-dbtype nucl \
+-parse_seqids \
+-out Eubalaena_japonica_genome_db
+#Downloaded the genome assigned to me
+#Budorcas_taxicolor
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/023/091/745/GCF_023091745.1_Takin1.1/GCF_023091745.1_Takin1.1_genomic.fna.gz
+#Command for unzip the file
+gunzip GCF_023091745.1_Takin1.1_genomic.fna.gz
+#Create BLAST Database
