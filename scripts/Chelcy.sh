@@ -1,6 +1,7 @@
 # Download Human F12 mRNA (GenBank format)
 efetch -db nucleotide -id NM_000505.4 -format gb > F12.gbk
 # Extract Exon Sequences from F12
+seqret -sequence F12.gbk -feature -type exon -outseq F12_exons.fasta
 extractfeat -sequence F12.gbk -type exon -outseq F12_exons.fasta
 # Verifing Extracted Exons and Counting them:
 head F12_exons.fasta
@@ -42,3 +43,6 @@ gunzip GCA_004024965.2_ASM402496v2_genomic.fna.gz
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/007/760/645/GCA_007760645.1_ASM776064v1/GCA_007760645.1_ASM776064v1_genomic.gbff.gz
 # Unziping the file:
 gunzip GCA_007760645.1_ASM776064v1_genomic.gbff.gz
+
+
+
