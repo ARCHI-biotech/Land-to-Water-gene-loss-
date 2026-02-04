@@ -45,5 +45,25 @@ makeblastdb \
 -dbtype nucl \
 -parse_seqids \
 -out Budorcas_taxicolor_genome_db
-
-
+#Downloaded the genome assigned to me
+#Balaenoptera_musculus
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/873/245/GCF_009873245.2_mBalMus1.pri.v3/GCF_009873245.2_mBalMus1.pri.v3_genomic.fna.gz
+#Command for unzip the file
+gunzip GCF_009873245.2_mValMus1.pri.v3_genomic.fna.gz
+#Create BLAST Database
+makeblastdb \
+-in GCF_009873245.2_mValMus1.pri.v3_genomic.fna \
+-dbtype nucl \
+-parse_seqids \
+-out Balaenoptera_musculus_genome_db
+#Downloaded the genome assigned to me
+#Camelus_bactrianus
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/048/773/025/GCF_048773025.1_ASM4877302v1/GCF_048773025.1_ASM4877302v1_genomic.fna.gz
+#Command for unzip the file
+gunzip GCF_048773025.1_ASM4877302v1_genomic.fna.gz
+#Create BLAST Database
+makeblastdb \
+-in GCF_048773025.1_ASM4877302v1_genomic.fna \
+-dbtype nucl \
+-parse_seqids \
+-out Camelus_bactrianus_genome_db
