@@ -17,19 +17,29 @@ blastn -query query.fasta -db balaenoptera_db -out query_vs_whale_dcmegablast.tx
 #Cervu_candensis
 #Downloading the genome
 #wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/320/065/GCF_019320065.1_ASM1932006v1/GCF_019320065.1_ASM1932006v1_genomic.fna.gz
+# Create BLAST database
+makeblastdb -in GCF_019320065.1_ASM1932006v1_genomic.fna -dbtype nucl -out cervus_db
 
 #Hydropotes_inermis
 #Downloading the genome
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/020/226/075/GCA_020226075.1_ASM2022607v1/GCA_020226075.1_ASM2022607v1_genomic.fna.gz
+# Create BLAST database
+makeblastdb -in GCA_020226075.1_ASM2022607v1_genomic.fna -dbtype nucl -out Hydropotes_db
 
 #Odocoileus_virginianus
 #Downloading the genome
 weget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/023/699/985/GCF_023699985.2_Ovbor_1.2/GCF_023699985.2_Ovbor_1.2_genomic.fna.gz
+# Create BLAST database
+makeblastdb -in GCF_023699985.2_Ovbor_1.2_genomic.fna -dbtype nucl -out Odocoileus_db
 
 #Capra_hircus
 #Downloading the genome
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/704/415/GCF_001704415.2_ARS1.2/GCF_001704415.2_ARS1.2_genomic.fna.g
+# Create BLAST database
+makeblastdb -in Capra_hircus/*.fna -dbtype nucl -parse_seqids -out Capra_hircus/Capra_hircus
 
 #Ovis_aries
 #Downloading the genome
 #wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/772/045/GCF_016772045.2_ARS-UI_Ramb_v3.0/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna.g
+# Create BLAST database
+makeblastdb -in GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna -dbtype nucl -out Ovis_db
