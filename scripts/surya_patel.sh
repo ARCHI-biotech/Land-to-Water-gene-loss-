@@ -7,6 +7,12 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/949/987/535/GCF_949987535.1_mB
 gunzip GCF_949987535.1_mBalAcu1.1_genomic.fna.gz
 # Create BLAST database
 makeblastdb -in GCF_949987535.1_mBalAcu1.1_genomic.fna -dbtype nucl -out balaenoptera_db
+#Sort blast command with outfmt 3,6
+blastn -task blastn-short -query query.fasta -db balaenoptera_db -outfmt 3 -evalue 0.001 -dust no -num_threads 8 -out query_vs_whale_shortblast.txt
+blastn -task blastn-short -query query.fasta -db balaenoptera_db -outfmt 6 -evalue 0.001 -dust no -num_threads 8 -out query_vs_whale_shortblast.txt
+#Dc-mega blast command with outfmt 3,6
+blastn -query query.fasta -db balaenoptera_db -out query_vs_whale_dcmegablast.txt -outfmt 3 -task dc-megablast
+blastn -query query.fasta -db balaenoptera_db -out query_vs_whale_dcmegablast.txt -outfmt 6 -task dc-megablast
 
 #Cervu_candensis
 #Downloading the genome
