@@ -5,7 +5,7 @@ extractfeat -sequence F12.gbk -type exon -outseq F12_exons.fasta
 # Verifing Extracted Exons and Counting them:
 head F12_exons.fasta
 grep -c "^>" F12_exons.fasta
-# Downloading the genomeof Platanista minor:
+# Downloading the genome of Platanista minor:
  wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/363/435/GCA_004363435.1_PlaMin_v1_BIUU/GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna.gz
 # Unziping the file:
 gunzip GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna.gz
@@ -19,3 +19,8 @@ blastn -query F12_exons.fasta \
 -evalue 1e-10 \
 -max_target_seqs 3 \
 -max_hsps 1
+
+# Downloading the genome of Okapia johnstoni:
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/024/291/935/GCA_024291935.2_TBG_Okapi_asm_v1/GCA_024291935.2_TBG_Okapi_asm_v1_genomic.fna.gz
+# Unziping the file:
+gunzip GCA_024291935.2_TBG_Okapi_asm_v1_genomic.fna.gz
