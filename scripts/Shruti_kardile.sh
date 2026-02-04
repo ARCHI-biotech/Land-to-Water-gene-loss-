@@ -45,3 +45,25 @@ makeblastdb \
   -dbtype nucl \
   -parse_seqids \
   -out Physeter_macrocephalus_genome_db
+  #Downloaded the genome assigned to me
+  #Tursiops_trunctus
+  wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/011/762/595/GCF_011762595.2_mTurTru1.mat.Y/GCF_011762595.2_mTurTru1.mat.Y_genomic.fna.gz
+  #Command to unzip the file
+  gunzip GCF_011762595.2_mTurTru1.mat.Y_genomic.fna.gz
+  #Create BLAST Database
+  makeblastdb \
+  -in GCF_011762595.2_mTurTru1.mat.Y_genomic.fna \
+  -dbtype nucl \
+  -parse_seqids \
+  -out Bottlenose_dolphin_genome_db
+  #Downloaded the genome assigned to me
+  #Ziphius_cavirostris
+  wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/364/475/GCA_004364475.1_ZipCav_v1_BIUU/GCA_004364475.1_ZipCav_v1_BIUU_genomic.fna.gz
+  #Command to unzip the file
+  gunzip GCA_04364475.1_ZipCav_v1_BIUU_genomic.fna.gz
+  #Create BLAST Database
+  makeblastdb \
+  -in GCA_04364475.1_ZipCav_v1_BIUU_genomic.fna \
+  -dbtype nucl \
+  -parse_seqids \
+  -out Ziphius_cavirostris_genome_db
