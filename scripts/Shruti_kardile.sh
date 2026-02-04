@@ -23,3 +23,16 @@ makeblastdb \
   -dbtype nucl \
   -parse_seqids \
   -out Eschrichtius_robustus_genome_db
+  #Downloaded the genome assigned to me
+  #Kogia_breviceps
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/026/419/965/GCF_026419965.1_mKogBre1_haplotype_1/GCF_026419965.1_mKogBre1_haplotype_1_genomic.fna.gz
+#Command to unzip the file
+gunzip GCF_026419965.1_mKogBre1_haplotype_1_genomic.fna.gz
+#Create BLAST Database
+makeblastdb \
+  -in GCF_026419965.1_mKogBre1_haplotype_1_genomic.fna \
+  -dbtype nucl \
+  -parse_seqids \
+  -out Kogia_breviceps_genome_db
+  #Downloaded the genome assigned to me
+  #Physeter_catodon
