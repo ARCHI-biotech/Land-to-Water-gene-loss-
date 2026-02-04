@@ -49,3 +49,33 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/442/215/GCF_000442215.2_Li
 
     cd ..
 done
+# Command for performing Short Blastn on the Given Species mentioned Above
+# Running a single code
+QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running genome BLAST (blastn-short) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}.blast"
+
+    cd ..
+done
