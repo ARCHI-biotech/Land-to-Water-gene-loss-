@@ -1,19 +1,21 @@
-# Retrieve human query sequences from annotation
-# gene F12:
-efetch -db nucleotide -id NM_000505.4 -format fasta_cds_na > F12_human_CDS.fasta
-# Downloading the genome:
-# Manis javanica
- wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/040/802/235/GCF_040802235.1_MJ_LKY/GCF_040802235.1_MJ_LKY_genomic.fna.gz
- # Unziping the file:
- gunzip GCF_040802235.1_MJ_LKY_genomic.fna.gz
- # Creating the Database for Blast:
-  makeblastdb \
--in GCF_040802235.1_MJ_LKY_genomic.fna \
--dbtype nucl \
--out Manis_javanica_genome
-
-# Canis lupus
-wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/011/100/685/GCF_011100685.1_UU_Cfam_GSD_1.0/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna.gz
+# Download Human F12 mRNA (GenBank format)
+efetch -db nucleotide -id NM_000505.4 -format gb > F12.gbk
+# Extract Exon Sequences from F12
+extractfeat -sequence F12.gbk -type exon -outseq F12_exons.fasta
+# Verifing Extracted Exons and Counting them:
+head F12_exons.fasta
+grep -c "^>" F12_exons.fasta
+# Downloading the genomeof Platanista minor:
+ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/363/435/GCA_004363435.1_PlaMin_v1_BIUU/GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna.gz
 # Unziping the file:
-gunzip 
-#
+gunzip GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna.gz
+# Creating the Database for Blast:
+makeblastdb -in GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna -dbtype nucl -out PlaMin_Genome_DB
+# Running BLASTN: Human F12 Exons vs Dolphin Genome:
+blastn -query F12_exons.fasta \
+-db PlaMin_Genome_DB \
+-out F12_vs_Platanista_pairwise.txt \
+-outfmt 0 \
+-evalue 1e-10 \
+-max_target_seqs 3 \
+-max_hsps 1
