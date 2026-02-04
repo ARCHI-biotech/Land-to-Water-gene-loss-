@@ -35,4 +35,13 @@ makeblastdb \
   -parse_seqids \
   -out Kogia_breviceps_genome_db
   #Downloaded the genome assigned to me
-  #Physeter_catodon
+  #Physeter_macrocephalus
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/837/175/GCF_002837175.3_ASM283717v5/GCF_002837175.3_ASM283717v5_genomic.fna.gz
+#Command to unzip the file
+gunzip GCF_002837175.3_ASM283717v5_genomic.fna.gz
+#Create BLAST Database
+makeblastdb \
+  -in GCF_002837175.3_ASM283717v5_genomic.fna \
+  -dbtype nucl \
+  -parse_seqids \
+  -out Physeter_macrocephalus_genome_db
