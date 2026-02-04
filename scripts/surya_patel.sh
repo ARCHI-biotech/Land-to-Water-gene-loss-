@@ -9,6 +9,7 @@ gunzip GCF_949987535.1_mBalAcu1.1_genomic.fna.gz
 makeblastdb -in GCF_949987535.1_mBalAcu1.1_genomic.fna -dbtype nucl -out balaenoptera_db
 
 #Cervu_candensis
+#Downloading the genome
 #wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/320/065/GCF_019320065.1_ASM1932006v1/GCF_019320065.1_ASM1932006v1_genomic.fna.gz
 
 #Hydropotes_inermis
