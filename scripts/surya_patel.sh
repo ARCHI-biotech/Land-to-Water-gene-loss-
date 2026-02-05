@@ -117,3 +117,47 @@ for dir in */; do
 
     cd ..
 done
+
+# Command for performing DC - Mega Blastn on the Given Species mentioned Above
+# Running a single code for OutFmt-6
+############################################
+# PART 4: dc-megablast (outfmt 6)
+############################################
+for dir in "$GENOMES_DIR"/*/; do
+    species=$(basename "$dir")
+
+    echo "Running dc-megablast (outfmt 6) for $species"
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$dir/$species" \
+      -outfmt "6 qseqid sseqid pident length evalue bitscore stitle" \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads $THREADS \
+      -out "$RESULTS_DIR/Human_vs_${species}_dcmegablast.tsv"
+done
+
+# Command for performing DC - Mega Blastn on the Given Species mentioned Above
+# Running a single code for OutFmt-3
+############################################
+# PART 5: dc-megablast (outfmt 3)
+############################################
+for dir in "$GENOMES_DIR"/*/; do
+    species=$(basename "$dir")
+
+    echo "Running dc-megablast (outfmt 3) for $species"
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$dir/$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads $THREADS \
+      -out "$RESULTS_DIR/Human_vs_${species}_dcmegablast.txt"
+done
+
+echo "✅ PIPELINE COMPLETED SUCCESSFULLY"
