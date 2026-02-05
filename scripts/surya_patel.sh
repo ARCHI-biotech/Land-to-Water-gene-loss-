@@ -58,7 +58,7 @@ mkdir -p "$RESULTS_DIR"
 # Command for performing Short Blastn on the Given Species mentioned Above
 # Running a single code
 # OutFmt-3
-QUERY="/home/surya/gene/GENE/Query.fasta"
+QUERY="/home/surya/GENE/Query.fasta"
 
 for dir in */; do
     # Skip GENE folder
@@ -89,7 +89,7 @@ done
 # Command for performing Short Blastn on the Given Species mentioned Above
 # Running a single code
 # OutFmt-6
-QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
+QUERY="/home/surya/GENE/Query.fasta"
 
 for dir in */; do
     # Skip GENE folder
