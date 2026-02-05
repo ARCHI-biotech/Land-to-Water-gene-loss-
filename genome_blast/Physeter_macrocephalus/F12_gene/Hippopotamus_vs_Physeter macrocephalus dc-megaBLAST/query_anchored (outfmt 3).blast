@@ -1,0 +1,430 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002837175.3_ASM283717v5_genomic.fna
+           12,169 sequences; 2,496,225,537 total letters
+
+
+
+Query= exon_1
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  77.9    5e-13
+
+
+
+Query_1      1        ATGAGGGCTCCACTGCTCCTGGGGGCCCTGCTGGTGAGCCTGGAGTCAGCGGTTT  55
+NC_041215.1  8131432  ..........TGT............T.......................T.....  8131378
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 72380659345
+
+
+Query= exon_2
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  79.7    1e-13
+
+
+
+Query_2      3        TCCACCTTTAAAAGCCCCCAAGCAGCATAAGCTCATAGAGAGCGAGCACACAGTGG  58
+NC_041215.1  8131007  ........GG.....T...............T..........T.............  8130952
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74876544150
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  150     6e-35
+
+
+
+Query_3      1        TTCTCACTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATC  60
+NC_041215.1  8123004  .............C.........................A....................  8122945
+
+Query_3      61       ACAAATGCATCCACAGAGGCCGGCCCGGCCCCCGACCCTG  100
+NC_041215.1  8122944  .......T............T.......-........T..  8122906
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 177206957156
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  110     1e-22
+
+
+
+Query_4      1        GTGTGCTACCACCCCCAACTTCGAGAAGGATCAGCGA--TGGGCATACTGCCTGGAGCCA  58
+NC_041215.1  8122193  ................G....T...............TG.....................  8122134
+
+Query_4      59       AAGAAAGTGAAA  70
+NC_041215.1  8122133  ............  8122122
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 104826650712
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  165     3e-39
+
+
+
+Query_5      1        ATCACTGCAGCAAACACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATG  60
+NC_041215.1  8121837  ...............................A........................A.CA  8121778
+
+Query_5      61       GCCCACACTGCATCTGTCCAGATCCCTTCACTGGGAATCACTGCCAGCGAG  111
+NC_041215.1  8121777  ...............A........A............G.........A...  8121727
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202164697827
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  181     5e-44
+
+
+
+Query_6      3        AAGTGCTTTGAGCCCCAGCTTCTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTT  62
+NC_041215.1  8121585  .......................T.G..........G................T...C..  8121526
+
+Query_6      63       GGGCTGGCAGGTGTGGCCAAGTGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCACTG  122
+NC_041215.1  8121525  .A............A...........G.....G...C.....G...............A.  8121466
+
+Query_6      123      GCCAGCCAGG  132
+NC_041215.1  8121465  ..........  8121456
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 254577767634
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  123     3e-26
+
+
+
+Query_7      2        CTGCCCTACCAACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCT  61
+NC_041215.1  8121293  .....G.........A........T.C............A..........G.........  8121234
+
+Query_7      62       GTG----CCGTTGCCCCACCGGCTACGCGGGACGCTTGTGCGA  100
+NC_041215.1  8121233  ...TCGTT...........G..A.....T..............  8121191
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 187189535025
+
+
+Query= exon_8
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  239     3e-61
+
+
+
+Query_8      1        ACCTCAAGGCGAACTGCTACGACGACCGCGACCGCGGGCTCAGCTACCGCGGCGTGGCCC  60
+NC_041215.1  8121039  ................G....................A......G.......T.......  8120980
+
+Query_8      61       GCACCACGCTCTCGGGTGCACCCTGTGAGCCGTGGACCTCCGAGGCCACCTACTGGAATA  120
+NC_041215.1  8120979  .G..T.A...................C.......CG.................C.....G  8120920
+
+Query_8      121      TGACCGCAGAGCAAGCGCTGAACTGGGGCCTGGGCAACCACGCCTTCTGCCG  172
+NC_041215.1  8120919  .......................GA.A........G................  8120868
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 354412186314
+
+
+Query= exon_9
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  211     2e-52
+
+
+
+Query_9      2        AACCCGGACAACGACACCCGCCCGTGGTGCTTTGTTTGGAGAGGCGACCGACTGAGCTGG  61
+NC_041215.1  8120781  ....A.....G.................A...............................  8120722
+
+Query_9      62       AATTACTGCCGCCTGGCACGGTGCCA------------GGCGGGGCCCCCAAACCCTCCT  109
+NC_041215.1  8120721  ..C..T....................GGCCCCAGCCCC.....C...........T....  8120662
+
+Query_9      110      CCGACCCGGATCCCCTCTGGCGACCAGCACTTGCCCTCGCCCTCGCTTTCCTCTTT----  165
+NC_041215.1  8120661  ..A.T.......T.A.....GC.....T....C..T.T.....T......GG....GCAG  8120602
+
+Query_9      166      -----GCAGTCCACGACCGAGGCCCCGCTTCAATCCCTGACCCCAG  206
+NC_041215.1  8120601  AAACC.............C..A.........G.C........T...  8120556
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 436773452150
+
+
+Query= exon_10
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  292     9e-77
+
+
+
+Query_10     1        CCTGGGCTTCTCCCACAGGCTGGTGCTCGCCGCCCGAACAGCAGATTCCCCTGCCCGGCG  60
+NC_041215.1  8120471  ................................A....G....G..C...A......A...  8120412
+
+Query_10     61       TGGGCCCGGCGGGATGCGGACAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCG  120
+NC_041215.1  8120411  C............-------------..C.A.............T..........C....  8120365
+
+Query_10     121      TCGGAGGACTGGTGGCGCTCCCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCC  180
+NC_041215.1  8120364  ....G.......................G..T..............C..G..GCA.....  8120305
+
+Query_10     181      GAAATTTCTGCGCCGGCAGCCTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCC  240
+NC_041215.1  8120304  A..........A...................C............................  8120245
+
+Query_10     241      TGCAGAACCG  250
+NC_041215.1  8120244  C.T.......  8120235
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 546590777262
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  221     6e-56
+
+
+
+Query_11     1        ACCCGCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGTGA  60
+NC_041215.1  8119990  ...T...A....................................................  8119931
+
+Query_11     61       GCAGTGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGCCCATCAC  120
+NC_041215.1  8119930  ................................C....................GT.....  8119871
+
+Query_11     121      CTACCAGCACGACCTGG  137
+NC_041215.1  8119870  ...G.............  8119854
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 267057069969
+
+
+Query= exon_12
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  223     2e-56
+
+
+
+Query_12     1        CTCTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCGCACCTGTCGCCTTTCGTTC  60
+NC_041215.1  8119758  ..T.............G............................C..........T...  8119699
+
+Query_12     61       AGCCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAATCCGAAGCCGAGCTCTGCG  120
+NC_041215.1  8119698  ....A..................G......G....................C........  8119639
+
+Query_12     121      AAGTGGCCGGCTGGGGTTACCAGTTCGA  148
+NC_041215.1  8119638  .................C.......A..  8119611
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 299503256040
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  200     2e-49
+
+
+
+Query_13     6        GGGGAATATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCCGAGCGCTGC  65
+NC_041215.1  8119040  ........................T..A..............A..C....G.........  8118981
+
+Query_13     66       TCCGCCCCCGCCGTGCACGGAGCAGCCTTCA-CCCGCGGCATGCTCTGCGCTGGCTTCCT  124
+NC_041215.1  8118980  ..........AT...........C.......T...C............T...........  8118921
+
+Query_13     125      TGAGGGCGGCACTGACGCGTGCCAG  149
+NC_041215.1  8118920  C.....T..................  8118896
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 297007395573
+
+
+Query= exon_14
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_041215.1 Physeter macrocephalus isolate SW-GA chromosome 2, AS...  227     2e-57
+
+
+
+Query_14     1        GGTGACTCTGGGGGCCCTCTGGTGTGTGAGGATGAGACCGCAGGGCGCCCCCTCATCCTG  60
+NC_041215.1  8118813  ...A....GA.................................A.....AG.........  8118754
+
+Query_14     61       CGAGGCATCGTCAGCTGGGGCTCCGGTTGCGGCGACCGCTACAAGCCGGGTGTGTACACC  120
+NC_041215.1  8118753  ....................T..A...............C...T..T......A......  8118694
+
+Query_14     121      GACGTGGCCAACTACCTAGCCTGGATCCAGGAGCACACCTCTTTCTGA  168
+NC_041215.1  8118693  ...A........................G.........TG...C....  8118646
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 344428744446
+
+
+  Database: GCF_002837175.3_ASM283717v5_genomic.fna
+    Posted date:  Feb 4, 2026  1:45 PM
+  Number of letters in database: 2,496,225,537
+  Number of sequences in database:  12,169
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
