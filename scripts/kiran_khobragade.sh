@@ -67,7 +67,7 @@ makeblastdb \
 -dbtype nucl \
 -parse_seqids \
 -out Camelus_bactrianus_genome_db
-# Forloop command for dc-megablast 
+# Forloop command for dc-megablast (HumanF12 vs Species) 
 QUERY="/home/arijit/kiran/query.fasta"
 BASE_DIR="/home/arijit/kiran"
 
@@ -97,7 +97,7 @@ do
 
     cd "$BASE_DIR"
 done
-#Forloop command for short blastn
+#Forloop command for short blastn (HumanF12 vs Species)
 QUERY="/home/arijit/kiran/query.fasta"
 BASE_DIR="/home/arijit/kiran"
 
@@ -125,6 +125,41 @@ do
       -outfmt 3 \
       -out "Human_F12_vs_${species}_query_anchored.blast"
 
+    cd "$BASE_DIR"
+done
+#Forloop command for blastn (HippopotamusF12 vs Species) 
+# Path to your query FASTA (single file)
+QUERY="/home/arijit/kiran/Hippopotamus_query.fasta"
+BASE_DIR="/home/arijit/kiran"
+
+# List of species to run genome BLAST against
+for species in \
+  Balaenoptera_musculus \
+  Budorcas_taxicolor \
+  Camelus_bactrianus \
+  Eubalaena_japonica \
+  Hippo_hap2 \
+  sus_scrofa
+do
+    echo "=============================================="
+    echo "Running genome BLAST for $species"
+    echo "=============================================="
+
+    # Go to species folder
+    cd "$BASE_DIR/$species" || { echo "Folder $BASE_DIR/$species not found, skipping"; continue; }
+
+    # Run blastn in query-anchored human-readable format
+    blastn \
+      -task blastn \
+      -query "$QUERY" \
+      -db "${species}_genome_db" \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -outfmt 3 \
+      -out "Hippof12_vs_${species}.blast"
+
+    # Return to base directory
     cd "$BASE_DIR"
 done
 
