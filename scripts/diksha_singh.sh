@@ -82,5 +82,15 @@ Muntiacus muntjac
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/008/782/695/GCA_008782695.1_UCB_Mmun_1.0/GCA_008782695.1_UCB_Mmun_1.0_genomic.fna.gz
 #gunzip
 GCA_008782695.1_UCB_Mmun_1.0_genomic.fna.gz
- 
+#create blast database
+makeblastdb -in GCF_008782695.1_UCB_Mmun_1.0_genomic.fna -dbtype nucl -out muntiacus_muntjac_db
+#short blast-outfmt3 evalue0.001
+blastn -task blastn-short -query query.fasta -db muntiacus_muntjac_db -outfmt 3 -evalue 0.001 -dust no -num_threads 8 -max_target_seqs 10 -out short_fmt3_muntiacus.blast
+#short blast-outfmt6 evalue0.001
+blastn -task blastn-short -query query.fasta -db muntiacus_muntjac_db -outfmt 6 -evalue 0.001 -dust no -num_threads 8 -max_target_seqs 10 -out short_fmt6_muntiacus.txt
+#short dc-megablast-outfmt3 evalue0.001
+blastn -task dc-megablast -query query.fasta -db muntiacus_muntjac_db -outfmt 3 -evalue 0.001 -dust no -num_threads 8 -out dcmegablast_fmt3_muntiacus.blast
+#short dc-megablast-outfmt6 evalue0.001
+blastn -task dc-megablast -query query.fasta -db muntiacus_muntjac_db -outfmt 6 -evalue 0.001 -dust no -num_threads 8 -out dcmegablast_fmt6_muntiacus.txt
+
 
