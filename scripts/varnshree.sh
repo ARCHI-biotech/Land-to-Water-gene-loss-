@@ -22,6 +22,15 @@ makeblastdb \
   -dbtype nucl \
   -parse_seqids \
   -out Physeter_macrocephalus_genome_db
+  #short blast-outfmt3 evalue0.001
+blastn -task blastn-short -query query.fasta -db Physeter_macrocephalus_genome_db -outfmt 3 -evalue 0.001 -dust no -num_threads 8 -max_target_seqs 10 -out short_fmt3.blast
+ #short blast-outfmt6 evalue0.001
+blastn -task blastn-short -query query.fasta -db Physeter_macrocephalus_genome_db -outfmt 6 -evalue 0.001 -dust no -num_threads 8 -max_target_seqs 10 -out short_fmt6.txt
+ #short blast-outfmt3 evalue0.001
+blastn -task dc-megablast -query query.fasta -db Physeter_macrocephalus_genome_db -outfmt 3 -evalue 0.001 -dust no -num_threads 8 -out dcmegablast_fmt3.blast
+ #short blast-outfmt6 evalue0.001
+blastn -task dc-megablast -query query.fasta -db Physeter_macrocephalus_genome_db -outfmt 6 -evalue 0.001 -dust no -num_threads 8 -out dcmegablast_fmt6.txt
+
 
    #Bos_taurus
      wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/263/795/GCF_002263795.3_ARS-UCD2.0/GCF_002263795.3_ARS-UCD2.0_cds_from_genomic.fna.gz
