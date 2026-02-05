@@ -50,6 +50,7 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/442/215/GCF_000442215.2_Li
     cd ..
 done
 # Command for performing Short Blastn on the Given Species mentioned Above
+# For Human Query
 # Running a single code
 # OutFmt-3
 QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
@@ -81,6 +82,7 @@ for dir in */; do
     cd ..
 done
 # Command for performing Short Blastn on the Given Species mentioned Above
+# Human Query
 # Running a single code
 # OutFmt-6
 QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
@@ -111,4 +113,168 @@ for dir in */; do
 
     cd ..
 done
+# Command For Performing dc-Mega Blast For the given species
+# Human Query
+# Running a single code
+# Outfmt 3
+QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
 
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running genome BLAST (dc-megablast) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}_dc-megablast_pairwise.blast"
+
+    cd ..
+done
+# Command For Performing dc-Mega Blast For the given species
+# Human Query
+# Running a single code
+# Outfmt 6
+QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running genome BLAST (dc-megablast) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 6 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}_dc-megablast_pairwise.tsv"
+
+    cd ..
+done
+# Command For Performing normal Blast For the given species
+# Hippopotamus Query
+# Running a single code
+# OutFmt 3
+QUERY="/home/arijit/Archi/GENE/Hippopotamus_query.fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=================================================="
+    echo "Running genome BLAST (blastn) for $species"
+    echo "Query: Hippopotamus"
+    echo "=================================================="
+
+    cd "$dir" || continue
+
+    # Create result directory if it does not exist
+    mkdir -p Result_Hippopotamus
+
+    blastn \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Result_Hippopotamus/Hippopotamus_vs_${species}.blast"
+
+    cd ..
+done
+# Command For Performing Short Blast For the given species
+# Hippopotamus Query
+# Running a single code
+# OutFmt 3
+QUERY="/home/arijit/Archi/GENE/Hippopotamus_query.fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "======================================================"
+    echo "Running SHORT genome BLAST (blastn-short) for $species"
+    echo "Query: Hippopotamus"
+    echo "======================================================"
+
+    cd "$dir" || continue
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Result_Hippopotamus/Hippopotamus_vs_${species}_ShortBLAST.blast"
+
+    cd ..
+done
+# Command For Performing dc-Mega Blast For the given species
+# Hippopotamus Query
+# Running a single code
+# OutFmt 3
+QUERY="/home/arijit/Archi/GENE/Hippopotamus_query.fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "======================================================"
+    echo "Running DC-MEGABLAST for $species"
+    echo "Query: Hippopotamus"
+    echo "======================================================"
+
+    cd "$dir" || continue
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Result_Hippopotamus/Hippopotamus_vs_${species}_DCMEGABLAST.blast"
+
+    cd ..
+done
