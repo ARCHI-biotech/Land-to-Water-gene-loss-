@@ -1,4 +1,4 @@
-#Retrieve human query sequences from annotation
+ #Retrieve human query sequences from annotation
 #gene F12
 efetch -db nucleotide -id NM_000505.4 -format fasta_cds_na > F12_human_CDS.fasta
 # Balaenoptera_acutorostrata [minke_whale]
@@ -54,3 +54,66 @@ RESULTS_DIR="$BASE_DIR/RESULTS"
 QUERY="$GENE_DIR/query.fasta"
 THREADS=8
 mkdir -p "$RESULTS_DIR"
+
+# Command for performing Short Blastn on the Given Species mentioned Above
+# Running a single code
+# OutFmt-3
+QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running genome BLAST (blastn-short) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}.blast"
+
+    cd ..
+done
+# Command for performing Short Blastn on the Given Species mentioned Above
+# Running a single code
+# OutFmt-6
+QUERY="/home/arijit/Archi/GENE/F12_Query(Human).fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running genome BLAST (blastn-short) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 6 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}_pairwise.blast"
+
+    cd ..
+done
