@@ -158,6 +158,7 @@ do
       -num_threads 8 \
       -outfmt 3 \
       -out "Hippof12_vs_${species}.blast"
+      
 
     # Return to base directory
     cd "$BASE_DIR"
