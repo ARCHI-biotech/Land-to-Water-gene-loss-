@@ -1,0 +1,424 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_023091745.1_Takin1.1_genomic.fna
+           1,363 sequences; 2,851,654,952 total letters
+
+
+
+Query= exon_1
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  86.0    1e-15
+
+
+
+Query_1      1         ATGAGGGCTCCACTGCTCCTGGGGGCCCTGCTGGTGAGCCTGGAGTCAGCGGTTTCG  57
+NC_068916.1  38797066  ........A.TG....................................A........  38797010
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82696886852
+
+
+Query= exon_2
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  74.3    7e-12
+
+
+
+Query_2      1         ACTCCACCTTTAAAAGCCCCCAAGCAGCATAAGCTCATAGAGAGCGAGCACACAGTGG  58
+NC_068916.1  38796643  ..........GG....G.......A............C......T..T..........  38796586
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82696847325
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  154     6e-36
+
+
+
+Query_3      1         TTCTCACTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATC  60
+NC_068916.1  38793466  .............C.....A...................A....................  38793407
+
+Query_3      61        ACAAATGCATCCACAGAGGCCGGCCCGGCCCCCGACCCTG  100
+NC_068916.1  38793406  .T.......................A...........T..  38793367
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 199612984340
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  106     2e-21
+
+
+
+Query_4      1         GTGTGCTACCACCCCCAACTTCGAGAAGGATCAGCGATGGGCATACTGCCTGGAGCCAAA  60
+NC_068916.1  38792513  .........T...........T........C..A.......................C..  38792454
+
+Query_4      61        GAAAGTGAAAG  71
+NC_068916.1  38792453  ...........  38792443
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119767847850
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  159     2e-37
+
+
+
+Query_5      5         CTGCAGCAAACACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATGGCCC  64
+NC_068916.1  38792155  ...............T...................................G........  38792096
+
+Query_5      65        ACACTGCATCTGTCCAGATCCCTTCACTGGGAATCACTGCCAG  107
+NC_068916.1  38792095  ..G..........G......A............G.........  38792053
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 230980739022
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  159     7e-37
+
+
+
+Query_6      3         AAGTGCTTTGAGCCCCAGCTTCTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTT  62
+NC_068916.1  38791924  ..................T..T...G.........CG..G.............T...C..  38791865
+
+Query_6      63        GGGCTGGCAGGTGTGGCCAAGTGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCACTG  122
+NC_068916.1  38791864  .A..CA..........T.........G.....G...C..C..G.................  38791805
+
+Query_6      123       GCCAGCCAGG  132
+NC_068916.1  38791804  ..........  38791795
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 290864634324
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  121     1e-25
+
+
+
+Query_7      2         CTGCCCTACCAACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCT  61
+NC_068916.1  38791644  .....GC.............................T..A..........G.....T...  38791585
+
+Query_7      62        GTGCCGTTGCCCCACCGGCTACGCGGGACGCTTGTGCGA  100
+NC_068916.1  38791584  ......A.....GC.TA...T.........T........  38791546
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 213871054650
+
+
+Query= exon_8
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  230     2e-58
+
+
+
+Query_8      1         ACCTCAAGGCGAACTGCTACGACGACCGCGACCGCGGGCTCAGCTACCGCGGCGTGGCCC  60
+NC_068916.1  38791381  ......G.....GT.......................A...............A.....G  38791322
+
+Query_8      61        GCACCACGCTCTCGGGTGCACCCTGTGAGCCGTGGACCTCCGAGGCCACCTACTGGAATA  120
+NC_068916.1  38791321  .G..T.....G..C..C.........C..T.....G.......................G  38791262
+
+Query_8      121       TGACCGCAGAGCAAGCGCTGAACTGGGGCCTGGGCAACCACGCCTTCTGCCG  172
+NC_068916.1  38791261  ...............T............A......G................  38791210
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 402077390559
+
+
+Query= exon_9
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  131     2e-28
+
+
+
+Query_9      2         AACCCGGACAACGACACCCGCCCGTGGTGCTTTGTTTGGAGAGGCGACCGACTGAGCTGG  61
+NC_068916.1  38791107  .....C..........................CA......A...................  38791048
+
+Query_9      62        AATTACTGCCGCCTGGCACGGTGCCAG  88
+NC_068916.1  38791047  ...................CT......  38791021
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 499032222325
+
+
+Query= exon_10
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  343     2e-92
+
+
+
+Query_10     1         CCTGGGCTTCTCCCACAGGCTGGTGCTCGCCGCCCGAACAGCAGATTCCCCTGCCCGGCG  60
+NC_068916.1  38790843  ........C.................................C..C...T...G..A...  38790784
+
+Query_10     61        TGGGCCCGGCGGGATGCGGACAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCG  120
+NC_068916.1  38790783  CA.....C.G...C..T...........C......T........T......A...C....  38790724
+
+Query_10     121       TCGGAGGACTGGTGGCGCTCCCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCC  180
+NC_068916.1  38790723  ............................G....................G..........  38790664
+
+Query_10     181       GAAATTTCTGCGCCGGCAGCCTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCC  240
+NC_068916.1  38790663  A.C......................T.....C..............T.............  38790604
+
+Query_10     241       TGCAGAACCG  250
+NC_068916.1  38790603  ..........  38790594
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 624503181081
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  207     2e-51
+
+
+
+Query_11     1         ACCCGCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGTGA  60
+NC_068916.1  38790343  ..........A..........C.....A.................C..............  38790284
+
+Query_11     61        GCAGTGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGCCCATCAC  120
+NC_068916.1  38790283  ..................A.....G.A............T...............G....  38790224
+
+Query_11     121       CTACCAGCACGACCTGG  137
+NC_068916.1  38790223  .................  38790207
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 305122704634
+
+
+Query= exon_12
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  217     1e-54
+
+
+
+Query_12     1         CTCTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCGCACCTGTCGCCTTTCGTTC  60
+NC_068916.1  38790111  ................G...........C................C..............  38790052
+
+Query_12     61        AGCCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAATCCGAAGCCGAGCTCTGCG  120
+NC_068916.1  38790051  ....A..................G......G...A................CAG......  38789992
+
+Query_12     121       AAGTGGCCGGCTGGGGTTACCAGTTCGAGG  150
+NC_068916.1  38789991  .G...............C............  38789962
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 342193687440
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  193     4e-47
+
+
+
+Query_13     6         GGGGAATATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCCGAGCGCTGC  65
+NC_068916.1  38789378  ...................................A......A.TGAC..G........T  38789319
+
+Query_13     66        TCCGCCCCCGCCGTGCACGGAGCAGCCTTCACCCGCGGCATGCTCTGCGCTGGCTTCCTT  125
+NC_068916.1  38789318  ..........A..................T...A......................T..C  38789259
+
+Query_13     126       GAGGGCGGCACTGACGCGTGCCAG  149
+NC_068916.1  38789258  ...........C.....A......  38789235
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 339342073378
+
+
+Query= exon_14
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_068916.1 Budorcas taxicolor isolate Tak-1 chromosome 7, Takin1...  232     5e-59
+
+
+
+Query_14     1         GGTGACTCTGGGGGCCCTCTGGTGTGTGAGGATGAGACCGCAGGGCGCCCCCTCATCCTG  60
+NC_068916.1  38789143  ........C..A...........................C.T.A.....AG.........  38789084
+
+Query_14     61        CGAGGCATCGTCAGCTGGGGCTCCGGTTGCGGCGACCGCTACAAGCCGGGTGTGTACACC  120
+NC_068916.1  38789083  ........A..............A.........A......T...................  38789024
+
+Query_14     121       GACGTGGCCAACTACCTAGCCTGGATCCAGGAGCACACCTCTT  163
+NC_068916.1  38789023  ..........................T.G..........G...  38788981
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 390670939763
+
+
+  Database: GCF_023091745.1_Takin1.1_genomic.fna
+    Posted date:  Feb 4, 2026  5:59 PM
+  Number of letters in database: 2,851,654,952
+  Number of sequences in database:  1,363
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
