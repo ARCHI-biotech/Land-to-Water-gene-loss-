@@ -1,0 +1,361 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019923935.1_NDDB_SH_1_genomic.fna
+           26 sequences; 2,622,460,639 total letters
+
+
+
+Query= exon_1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  60.0    3e-07
+
+
+
+Query_1  53        GGCCCAAGTGGGACAACAAGGCCCAGTACCTCCTGAGCTGCACTGGGTTTGCCGTGGGAC  112
+18       71043095  ......................G......A.G....C....GTG..C..CTG......C.  71043036
+18       71025599         ............ACT.........GT........GTG..C..C........C.  71025547
+
+Query_1  113       TGGGGAACATTTGGCGGTTCCCATACCTGTGCCAGAC  149
+18       71043035  ....C...G.G.....C.....C.............   71043000
+18       71025546  ....C...C.C...........G..............  71025510
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 367144416660
+
+
+Query= exon_2
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  127     1e-27
+
+
+
+Query_2  3         GCCTTCCTCATCCCCTACGTCATCGCGCTGGTCTTCGAGGGGATCCCCATTTTCCACGTC  62
+18       71021205  .....................G....C....C.........C.....GC.G......A.T  71021146
+
+Query_2  63        GAGCTCGCCATCGGCCAGCGGCTGCGGAAGGGCAGCGTCGGCGTGTGGACGGCCATCTCC  122
+18       71021145  .........G..........C.....C.G............G.................G  71021086
+18       71037178      ..........G...........C...........G.....C....             71037134
+
+Query_2  123       CCGTACCT  130
+18       71021085  ..C.....  71021078
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 319940137690
+
+
+Query= exon_3
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  157     2e-36
+
+
+
+Query_3  1         GGCTGGGCTGTGTCACGCTGTCCTTCCTGATCAGCCTGTACTACAACACCATCGTGGCGT  60
+18       71020475  ..........CT....CG...........G.......................C..A.C.  71020416
+18       71036346                                           ............A.C..C.  71036328
+
+Query_3  61        GGGTGCTGTGGTACCTCCTCAACTCCTTCCAGCACCCGCTGCCCTGGAGCTCCTGCCCAC  120
+18       71020415  .......C..........................................G.......G.  71020356
+18       71036327  ....CA........T..T..............G.G..C............            71036278
+
+Query_3  121       CGGACCTCAAC  131
+18       71020355  TC.........  71020345
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 312072757255
+
+
+Query= exon_4
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  105     7e-21
+
+
+
+Query_4  10        AGGAGTGCCAGGGCAGCAGCGCCGTGAGCTACTTCTGGTACCGGCAGACACTGAACATCA  69
+18       71019838  .........G..A.......C.T......................G...G......G..T  71019779
+
+Query_4  70        CAGCCGACATCAATGACAGTGGCTCCATCCAGTGGTGGCTGCTCATCTGCTTGGCAGCCT  129
+18       71019778  .G.........GGC...G.....C.GG........C.......GC.....C....G.T..  71019719
+
+Query_4  130       CCTGGGCAGTCGTGTACATGTGTGTCATCAGGGGCATTGAGACTACAGGGAAG  182
+18       71019718  .......C.C.......C....CA.............C.....C..T......  71019666
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 424838539278
+
+
+Query= exon_5
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 241266333340
+
+
+Query= exon_6
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  145     5e-33
+NC_059177.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  48.1    8e-04
+
+
+
+Query_6  13        CAGAACCCCCGGGTGTGGCTGGACGCAGCCACCCAGATATTCTTCTCTCTGTCCCTGGCC  72
+18       71016913  ..........................C....................C............  71016854
+20       54921590             ............T..G...........C........               54921625
+
+Query_6  73        TTCGGAGGACACATCGCTTTTGCAAGTTACAACTCGCCCAG  113
+18       71016853  ..............T.....C..C..C......C.......  71016813
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 246511253630
+
+
+Query= exon_7
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  67.9    1e-09
+
+
+
+Query_7  35        CTGGTCAACAGGATGACCTCCCTGTACGCGTCCATCGCTGTCTTCTCTGTCCTGGGGTTC  94
+18       71012940  .....G.....C.....G.....C....................T...A..T........  71012881
+
+Query_7  95        AA  96
+18       71012880  ..  71012879
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 288470615950
+
+
+Query= exon_8
+
+Length=157
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 359277036303
+
+
+Query= exon_9
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  143     4e-32
+
+
+
+Query_9  1         AGTGCCTCGGGCCCGGGCCTGGCCTTCGTCGTCTTCACGGAGACCGACCTCCACATGCCG  60
+18       71010725  ............A..............A..............G...TG...........C  71010666
+
+Query_9  61        GGGGCTCCTGTGTGGGCCATGCTCTTCTTCGGGATGCTGTTCACCTTGGGGCTATCGACC  120
+18       71010665  ..T..G..G..C......G...................C....G.C....C..G...T..  71010606
+
+Query_9  121       ATGTTCGGGACCGTGGAGGCGGTCATCACACCCCTGCTGGACGTGGGGGTCCTGCCTAGA  180
+18       71010605  ..........A.A....AAGCA.......G..G..C......C........A....C...  71010546
+
+Query_9  181       TGGGTCCCCAAGGAGG  196
+18       71010545  A...............  71010530
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 485155122015
+
+
+Query= exon_10
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  85.7    6e-15
+
+
+
+Query_10  3         CTGGTCTGCCTGGTCTGCTTCCTCTCCGCCACCTGCTTCACGCTGCAGTCTGGGAACTAC  62
+18        71010309  ....C.......C.G.........GTG...................G...G....G....  71010250
+
+Query_10  63        TGGCTGGAGATTTTCGACAATTTTGCCGCTTCCCCGAACCTGCTCATGTTGGCCTTTCTC  122
+18        71010249  ...........C......C.G.AC.....GG...T.......A..C.CC.......CT..  71010190
+
+Query_10  123       GAGGTTGTGGGTGTCGTTTATGTTTATGGAATGAA  157
+18        71010189  .....G..C..G........C........G.....  71010155
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 367144416660
+
+
+Query= exon_11
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  77.8    1e-12
+
+
+
+Query_11  1         GTTCTGCGATGACATTGCGTGGATGACCGGGAGGCGGCCCAGCCCCTACTGGCGGCTGAC  60
+18        71009130  ...............A..C........T............G..TT..........GCA..  71009071
+18        70928760                       ..........C............T..........       70928793
+
+Query_11  61        CTGGAGGGTGGTCAGTCCCCTGCT---GCTGACCATCTTTGTGGC  102
+18        71009070  .....A...C..G..C........GCT..................  71009026
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 367144416660
+
+
+Query= exon_12
+
+Length=231
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_059175.1 Bubalus bubalis isolate 160015118507 breed Murrah chr...  93.7    4e-17
+
+
+
+Query_12  1         GAGCTGTTCCCCTCGCGTCAGGAGAAGCTCTACCCGGGCTGGGCGCGCGCCGCCTGTGTG  60
+18        71007979  ....G........T...G..........C..............T..TG...A........  71007920
+
+Query_12  61        CTGCTGTCCTTGCTGCCCGTGCTGTGGGTCCCGGTGGCCGCGCTTGCTCAGCTGCTCACC  120
+18        71007919  ..C........C......ACC................TG......TGC.........G..  71007860
+
+Query_12  121       CGG  123
+18        71007859  ...  71007857
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 553339085109
+
+
+  Database: GCF_019923935.1_NDDB_SH_1_genomic.fna
+    Posted date:  Feb 4, 2026  8:40 AM
+  Number of letters in database: 2,622,460,639
+  Number of sequences in database:  26
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
