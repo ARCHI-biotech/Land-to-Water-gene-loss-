@@ -1,0 +1,91 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Hydropotes_inermis/GCA_020226075.1_ASM2022607v1_genomic.fna
+           1,712 sequences; 2,540,444,434 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035271.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 3, w...  222     4e-55
+
+
+
+Query_1     115       GTTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTAC  174
+CM035271.1  36299170  ....................A......................................T  36299111
+
+Query_1     175       CACAAATGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAAC  234
+CM035271.1  36299110  ..T.....C.T.....GA..............                              36299079
+
+Query_1     235       TTTGATCAGGACCAGCGATGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGC  294
+
+Query_1     295       AGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCAC  354
+
+Query_1     355       TGTCTCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAGAGAAGTGCTTTGAGCCT  414
+
+Query_1     415       CAGCTTCTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAACTGAGCAAGCAGCTGTG  474
+
+Query_1     475       GCCAGATGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGCTGGCCAGCCAGGCCTGC  534
+
+Query_1     535       CGCACCAACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCTGTGC  594
+
+Query_1     595       CACTGCCCGGTGGGCTACACCGGAGCCTTCTGCGACGTGGACACCAAGGCAAGCTGCTAT  654
+
+Query_1     655       GATGGCCGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGT  714
+
+Query_1     715       CAGCCGTGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGG  774
+
+Query_1     775       GGACTGGGCGGCCACGCCTTCTGCCGGAACCCGGACAACGACATCCGCCCGTGGTGCTTC  834
+
+Query_1     835       GTGCTGAACCGCGACCGGCTGAGCTGGGAGTACTGCGACCTGGCACAGTGCCAGACCCCA  894
+
+Query_1     895       ACCCAGGCGGCGCCTCCGACCCCGGTGTCCCCTAGGCTTCATGTCCCACTCATGCCCGCG  954
+
+Query_1     955       CAGCCGGCACCGCCGAAGCCTCAGCCCACGACCCGGACCCCGCCTCAGTCCCAGACCCCG  1014
+
+Query_1     1015      GGAGCCTTGCCGGCGAAGCGGGAGCAGCCGCCTTCCCTGACCAGGAACGGCCCACTGAGC  1074
+CM035271.1  36296372                                                            ..  36296371
+
+Query_1     1075      TGCGGGCAGCGGCTCCGCAAGAGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGTG  1134
+CM035271.1  36296370  ..T..A..............AT.G.....C...C...A.........C..A..A......  36296311
+
+Query_1     1135      GCGCTACGCGGGGCGCACCCCTACATCGCCGCGCTGTACTGGGGCCA-CAGTTTCTGCGC  1193
+CM035271.1  36296310  .....C.C.......................................A..-.........  36296252
+
+Query_1     1194      CGGCAGCCTCATCGCCCCCTGCTGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCGGC  1252
+CM035271.1  36296251  ...............T.....T...........T..G...............A......  36296193
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4615891104754
+
+
+  Database: Hydropotes_inermis/GCA_020226075.1_ASM2022607v1_genomic.fna
+    Posted date:  Feb 4, 2026  5:40 PM
+  Number of letters in database: 2,540,444,434
+  Number of sequences in database:  1,712
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
