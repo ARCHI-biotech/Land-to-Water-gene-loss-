@@ -1,0 +1,352 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000754665.1_Bison_UMD1.0_genomic.fna
+           128,431 sequences; 2,828,031,685 total letters
+
+
+
+Query= exon_1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  69.9    4e-10
+
+
+
+Query_1         62      GGGACAACAAGGCCCAGTACCTCCTGAGCTGCACTGGGTTTGCCGTGGGACTGGGGAACA  121
+NW_011494949.1  544625  ..........ACT.........G.........GTG..C..C..T.....C.....C...C  544684
+
+Query_1         122     TTTGGCGGTTCCCATACCTGTGCCAGACCTATGGAGGAG  160
+NW_011494949.1  544685  .C...........G..............G..........  544723
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 395564829100
+
+
+Query= exon_2
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  93.7    2e-17
+
+
+
+Query_2         3       GCCTTCCTCATCCCCTACGTCATCGCGCTGGTCTTCGAGGGGATCCCCATTTTCCACGTC  62
+NW_011494949.1  549286  .....................G....C....C.........C.....GC.G......A.T  549345
+
+Query_2         63      GAGCTCGCCATCGGCCAGCGGCTGCGGAAGGGCAGCGTCGGCGTGTGGACGGCCATCTC  121
+NW_011494949.1  549346  .....T..TG..........C.....C.G.......A....G........A........  549404
+NW_011494949.1  532293      ..........G...........C...........G.....C....            532337
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 341881030865
+
+
+Query= exon_3
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  139     4e-31
+
+
+
+Query_3         1       GGCTGGGCTGTGTCACGCTGTCCTTCCTGATCAGCCTGTACTACAACACCATCGTGGCGT  60
+NW_011494949.1  550111  ..........CT....CG..G........G....................G..C..A.C.  550170
+NW_011494949.1  533201                                           ............A.C..C.  533219
+
+Query_3         61      GGGTGCTGTGGTACCTCCTCAACTCCTTCCAGCACCCGCTGCCCTGGAGCTCCTGCCC  118
+NW_011494949.1  550171  .......C..........................................G.......  550228
+NW_011494949.1  533220  ....CA........T..T..............G....C............          533269
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 333404641670
+
+
+Query= exon_4
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  141     1e-31
+
+
+
+Query_4         4       TTGTGGAGGAGTGCCAGGGCAGCAGCGCCGTGAGCTACTTCTGGTACCGGCAGACACTGA  63
+NW_011494949.1  550714  .....C.........G..........C........................G...C....  550773
+
+Query_4         64      ACATCACAGCCGACATCAATGACAGTGGCTCCATCCAGTGGTGGCTGCTCATCTGCTTGG  123
+NW_011494949.1  550774  ..G..T.G.........GG....G.C...C.GG........C.......GG.....C...  550833
+
+Query_4         124     CAGCCTCCTGGGCAGTCGTGTACATGTGTGTCATCAGGGGCATTGAGACTACAGGGAAG  182
+NW_011494949.1  550834  .C.T.........C.........C....C..............C.....C..T......  550892
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 457725016530
+
+
+Query= exon_5
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 259954417632
+
+
+Query= exon_6
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  137     1e-30
+NW_011495042.1 Bison bison bison isolate TAMUID 2011002044 unplac...  48.1    9e-04
+
+
+
+Query_6         13       CAGAACCCCCGGGTGTGGCTGGACGCAGCCACCCAGATATTCTTCTCTCTGTCCCTGGCC  72
+NW_011494949.1  553536   ..........................C....................C............  553595
+NW_011495042.1  3514325             ............T..G...........C........               3514360
+
+Query_6         73       TTCGGAGGACACATCGCTTTTGCAAGTTACAAC  105
+NW_011494949.1  553596   ..G.................C..C..C......  553628
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 265605600624
+
+
+Query= exon_7
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  73.8    2e-11
+
+
+
+Query_7         28      CATCGCCCTGGTCAACAGGATGACCTCCCTGTACGCGTCCATCGCTGTCTTCTCTGTCCT  87
+NW_011494949.1  554385  ......G.....G.....C.....G.....C..............G.....T......T.  554444
+
+Query_7         88      GGGGTTCAA  96
+NW_011494949.1  554445  .........  554453
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 310815064560
+
+
+Query= exon_8
+
+Length=157
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 387088439905
+
+
+Query= exon_9
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  143     4e-32
+
+
+
+Query_9         1       AGTGCCTCGGGCCCGGGCCTGGCCTTCGTCGTCTTCACGGAGACCGACCTCCACATGCCG  60
+NW_011494949.1  556765  ............A..............A..............G...TG...........C  556824
+
+Query_9         61      GGGGCTCCTGTGTGGGCCATGCTCTTCTTCGGGATGCTGTTCACCTTGGGGCTATCGACC  120
+NW_011494949.1  556825  ..C..G..G..C.....TG...................C....G.C....C..G...T..  556884
+
+Query_9         121     ATGTTCGGGACCGTGGAGGCGGTCATCACACCCCTGCTGGACGTGGGGGTCCTGCCTAGA  180
+NW_011494949.1  556885  ..........A.A.....AGCA.......G..G..C......C........A....C...  556944
+
+Query_9         181     TGGGTCCCCAAGGAGG  196
+NW_011494949.1  556945  A...............  556960
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 522710667025
+
+
+Query= exon_10
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  77.8    1e-12
+
+
+
+Query_10        3       CTGGTCTGCCTGGTCTGCTTCCTCTCCGCCACCTGCTTCACGCTGCAGTCTGGGAACTAC  62
+NW_011494949.1  557181  ....C.......C.G......T..A.G...................G...C....G....  557240
+
+Query_10        63      TGGCTGGAGATTTTCGACAATTTTGCCGCTTCCCCGAACCTGCTCATGTTGGCCTTTCTC  122
+NW_011494949.1  557241  ...........C......C.G.AC.....AG...T.......A..C.CC.......CT..  557300
+
+Query_10        123     GAGGTTGTGGGTGTCGTTTATGTTTATGGAATGAA  157
+NW_011494949.1  557301  .....G..C..G....C...C........G.....  557335
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 395564829100
+
+
+Query= exon_11
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  63.9    2e-08
+
+
+
+Query_11        1       GTTCTGCGATGACATTGCGTGGATGACCGGGAGGCGGCCCAGCCCCTACTGGCGGCTGAC  60
+NW_011494949.1  558354  .........C.....A..C........G............G..TT..........GCA..  558413
+
+Query_11        61      CTGGAGGGTGGTCAGTCCCCTGCTGCTG  88
+NW_011494949.1  558414  .....A...C..G..C............  558441
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 395564829100
+
+
+Query= exon_12
+
+Length=231
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_011494949.1 Bison bison bison isolate TAMUID 2011002044 unplac...  109     6e-22
+
+
+
+Query_12        1       GAGCTGTTCCCCTCGCGTCAGGAGAAGCTCTACCCGGGCTGGGCGCGCGCCGCCTGTGTG  60
+NW_011494949.1  559518  ....G........T...G..........C..............T..TG............  559577
+
+Query_12        61      CTGCTGTCCTTGCTGCCCGTGCTGTGGGTCCCGGTGGCCGCGCTTGCTCAGCTGCTCACC  120
+NW_011494949.1  559578  ..C........C......ACC................TG.....G.GC............  559637
+
+Query_12        121     CGG  123
+NW_011494949.1  559638  ...  559640
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 596172706715
+
+
+  Database: GCF_000754665.1_Bison_UMD1.0_genomic.fna
+    Posted date:  Feb 4, 2026  5:11 AM
+  Number of letters in database: 2,828,031,685
+  Number of sequences in database:  128,431
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
