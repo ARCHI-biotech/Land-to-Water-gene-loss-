@@ -1,0 +1,136 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Capra_hircus/GCF_001704415.2_ARS1.2_genomic.fna
+           29,886 sequences; 2,922,617,086 total letters
+
+
+
+Query= lcl|XM_057746997.1_cds_XP_057602980.1_1 [gene=F12]
+[db_xref=GeneID:130859523] [protein=coagulation factor XII isoform
+X1] [protein_id=XP_057602980.1] [location=23..1888] [gbkey=CDS]
+
+Length=1866
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030814.1 Capra hircus breed San Clemente chromosome 7, ASM1704...  335     6e-89
+
+
+
+Query_1      1         ATGAGGGCTCCACTGCTCCTGGGGGCCCTGCTGGTGAGCCTGGAGTCAGCGGTTTCGACT  60
+NC_030814.1  71709532  ........A.TG....................................A........     71709588
+
+Query_1      61        CCACCTTTAAAAGCCCCCAAGCAGCATAAGCTCATAGAGAGCGAGCACACAGTGGTTCTC  120
+
+Query_1      121       ACTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATCACAAA  180
+
+Query_1      181       TGCATCCACAGAGGCCGGCCCGGCCCCCGACCCTGGTGTGCTACCACCCCCAACTTCGAG  240
+
+Query_1      241       AAGGATCAGCGATGGGCATACTGCCTGGAGCCAAAGAAAGTGAAAGATCACTGCAGCAAA  300
+NC_030814.1  71714468                                              ...C............  71714483
+
+Query_1      301       CACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATGGCCCACACTGCATC  360
+NC_030814.1  71714484  .....T...................................G..........G.......  71714543
+
+Query_1      361       TGTCCAGATCCCTTCACTGGGAATCACTGCCAGCGAGAAAAGTGCTTTGAGCCCCAGCTT  420
+NC_030814.1  71714544  ...G......A............G.........                             71714576
+
+Query_1      421       CTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTTGGGCTGGCAGGTGTGGCCAAG  480
+
+Query_1      481       TGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCACTGGCCAGCCAGGCCTGCCCTACC  540
+NC_030814.1  71714985                                                    .....GC...  71714994
+
+Query_1      541       AACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCTGTGCCGTTGC  600
+NC_030814.1  71714995  ..........................T..A..........G...............A...  71715054
+
+Query_1      601       CCCACCGGCTACGCGGGACGCTTGTGCGACTTGGACCTCAAGGCGAACTGCTACGACGAC  660
+NC_030814.1  71715055  ..GC.TA...T.........T........                                 71715083
+
+Query_1      661       CGCGACCGCGGGCTCAGCTACCGCGGCGTGGCCCGCACCACGCTCTCGGGTGCACCCTGT  720
+
+Query_1      721       GAGCCGTGGACCTCCGAGGCCACCTACTGGAATATGACCGCAGAGCAAGCGCTGAACTGG  780
+
+Query_1      781       GGCCTGGGCAACCACGCCTTCTGCCGCAACCCGGACAACGACACCCGCCCGTGGTGCTTT  840
+NC_030814.1  71715522                             .....C..........................C  71715554
+
+Query_1      841       GTTTGGAGAGGCGACCGACTGAGCTGGAATTACTGCCGCCTGGCACGGTGCCAGGCGGGG  900
+NC_030814.1  71715555  A......A........A.............................C.........      71715610
+
+Query_1      901       CCCCCAAACCCTCCTCCGACCCGGATCCCCTCTGGCGACCAGCACTTGCCCTCGCCCTCG  960
+
+Query_1      961       CTTTCCTCTTTGCAGTCCACGACCGAGGCCCCGCTTCAATCCCTGACCCCAGCCTGGGCT  1020
+NC_030814.1  71715780                                                ..T...........  71715793
+
+Query_1      1021      TCTCCCACAGGCTGGTGCTCGCCGCCCGAACAGCAGATTCCCCTGCCCGGCGTGGGCCCG  1080
+NC_030814.1  71715794  C.................................C..C...T...G..A...CA.....T  71715853
+
+Query_1      1081      GCGGGATGCGGACAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCGTCGGAGGA  1140
+NC_030814.1  71715854  .G...C..T...........C......T........T...G..A...C............  71715913
+
+Query_1      1141      CTGGTGGCGCTCCCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCCGAAATTTC  1200
+NC_030814.1  71715914  ....................G....................G..........A.C.....  71715973
+
+Query_1      1201      TGCGCCGGCAGCCTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCCTGCAGAAC  1260
+NC_030814.1  71715974  .......................C..............T.....................  71716033
+
+Query_1      1261      CGACCCGCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGT  1320
+NC_030814.1  71716034  ..                                                            71716035
+NC_030814.1  71716285   ......A....A..........C.......................C............  71716343
+
+Query_1      1321      GAGCAGTGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGCCCATC  1380
+NC_030814.1  71716344  ....................A.....G.A............T...............G..  71716403
+
+Query_1      1381      ACCTACCAGCACGACCTGGCTCTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCG  1440
+NC_030814.1  71716404  ...................                                           71716422
+
+Query_1      1441      CACCTGTCGCCTTTCGTTCAGCCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAA  1500
+
+Query_1      1501      TCCGAAGCCGAGCTCTGCGAAGTGGCCGGCTGGGGTTACCAGTTCGAGGGGGCGGGGGAA  1560
+NC_030814.1  71717248                                                        ......  71717253
+
+Query_1      1561      TATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCC-GAGCGCTGCTCCGC  1619
+NC_030814.1  71717254  .............................A......A.T-.A...G........T.....  71717312
+
+Query_1      1620      CCCCGCCGTGCACGGAGCAGCCTTCACCCGCGGCATGCTCTGCGCTGGCTTCCTTGAGGG  1679
+NC_030814.1  71717313  ...A.A..................T...A......................T..C.....  71717372
+
+Query_1      1680      CGGCACTGACGCGTGCCAGGGTGACTCTGGGGGCCCTCTGGTGTGTGAGGATGAGACCGC  1739
+NC_030814.1  71717479                 ............C..A...........................C.  71717523
+NC_030814.1  71717373  ......C.....A.......-...GC......C...                          71717407
+
+Query_1      1740      AGGGCGCCCCCTCATCCTGCGAGGCATCGTCAGCTGGGGCTCCGGTTGCGGCGACCGCTA  1799
+NC_030814.1  71717524  T.A.....AG.................A..............A.........A......T  71717583
+
+Query_1      1800      CAAGCCGGGTGTGTACACCGACGTGGCCAACTACCTAGCCTGGATCCAGGAGCACACCTC  1859
+NC_030814.1  71717584  .............................................T.G..........G.  71717643
+
+Query_1      1860      TT  1861
+NC_030814.1  71717644  ..  71717645
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5361302287700
+
+
+  Database: Capra_hircus/GCF_001704415.2_ARS1.2_genomic.fna
+    Posted date:  Feb 4, 2026  5:39 PM
+  Number of letters in database: 2,922,617,086
+  Number of sequences in database:  29,886
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
