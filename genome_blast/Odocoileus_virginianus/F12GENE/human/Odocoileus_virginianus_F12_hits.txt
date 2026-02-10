@@ -1,0 +1,91 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Odocoileus_virginianus/GCF_023699985.2_Ovbor_1.2_genomic.fna
+           481 sequences; 2,423,263,331 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069676.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  211     9e-52
+
+
+
+Query_1      115       GTTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTAC  174
+NC_069676.1  35695953  ....................A......................................T  35695894
+
+Query_1      175       CACAAATGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAAC  234
+NC_069676.1  35695893  ..T.....C.T.....GA..............                              35695862
+
+Query_1      235       TTTGATCAGGACCAGCGATGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGC  294
+
+Query_1      295       AGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCAC  354
+
+Query_1      355       TGTCTCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAGAGAAGTGCTTTGAGCCT  414
+
+Query_1      415       CAGCTTCTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAACTGAGCAAGCAGCTGTG  474
+
+Query_1      475       GCCAGATGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGCTGGCCAGCCAGGCCTGC  534
+
+Query_1      535       CGCACCAACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCTGTGC  594
+
+Query_1      595       CACTGCCCGGTGGGCTACACCGGAGCCTTCTGCGACGTGGACACCAAGGCAAGCTGCTAT  654
+
+Query_1      655       GATGGCCGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGT  714
+
+Query_1      715       CAGCCGTGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGG  774
+
+Query_1      775       GGACTGGGCGGCCACGCCTTCTGCCGGAACCCGGACAACGACATCCGCCCGTGGTGCTTC  834
+
+Query_1      835       GTGCTGAACCGCGACCGGCTGAGCTGGGAGTACTGCGACCTGGCACAGTGCCAGACCCCA  894
+
+Query_1      895       ACCCAGGCGGCGCCTCCGACCCCGGTGTCCCCTAGGCTTCATGTCCCACTCATGCCCGCG  954
+
+Query_1      955       CAGCCGGCACCGCCGAAGCCTCAGCCCACGACCCGGACCCCGCCTCAGTCCCAGACCCCG  1014
+
+Query_1      1015      GGAGCCTTGCCGGCGAAGCGGGAGCAGCCGCCTTCCCTGACCAGGAACGGCCCACTGAGC  1074
+NC_069676.1  35693133                                                            ..  35693132
+
+Query_1      1075      TGCGGGCAGCGGCTCCGCAAGAGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGTG  1134
+NC_069676.1  35693131  ..T..A..............AG.G.....C...C...A.........C..A..A......  35693072
+
+Query_1      1135      GCGCTACGCGGGGCGCACCCCTACATCGCCGCGCTGTACTGGGGCCA-CAGTTTCTGCGC  1193
+NC_069676.1  35693071  .....C.C......A................................A..-.........  35693013
+
+Query_1      1194      CGGCAGCCTCATCGCCCCCTGCTGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCGGC  1252
+NC_069676.1  35693012  ............T..T.....T...........T..G...............A......  35692954
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4403042379140
+
+
+  Database: Odocoileus_virginianus/GCF_023699985.2_Ovbor_1.2_genomic.fna
+    Posted date:  Feb 4, 2026  5:40 PM
+  Number of letters in database: 2,423,263,331
+  Number of sequences in database:  481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
