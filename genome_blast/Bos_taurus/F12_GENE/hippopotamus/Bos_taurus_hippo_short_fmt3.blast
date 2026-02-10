@@ -1,0 +1,595 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002263795.3_ARS-UCD2.0_cds_from_genomic.fna
+           64,900 sequences; 133,203,668 total letters
+
+
+
+Query= exon_1
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  89.7    5e-18
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  89.7    5e-18
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  89.7    5e-18
+
+
+
+Query_1  1   ATGAGGGCTCCACTGCTCCTGGGGGCCCTGCTGGTGAGCCTGGAGTCAGCGGTTTCG  57
+18610    1   ..........TG....................................A........  57
+18609    1   ..........TG....................................A........  57
+18608    1   ..........TG....................................A........  57
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 5418775988
+
+
+Query= exon_2
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  60.0    5e-09
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  60.0    5e-09
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  60.0    5e-09
+
+
+
+Query_2  1    ACTCCACCTTTAAAAGCCCCCAAGCAGCATAAGCTCATAGAGAGCGAGCACACAGTGG  58
+18610    58   ..........GG..G.G.......A............C......T.............  115
+18609    58   ..........GG..G.G.......A............C......T.............  115
+18608    58   ..........GG..G.G.......A............C......T.............  115
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 5550941256
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  137     5e-32
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  137     5e-32
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  137     5e-32
+lcl|NC_037337.1_cds_NP_001193837.1_26297 [gene=SEL1L] [db_xref=Ge...  48.1    4e-05
+
+
+
+Query_3  1    TTCTCACTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATC  60
+18610    116  .............C.....A...................A................C...  175
+18609    116  .............C.....A...................A................C...  175
+18608    116  .............C.....A...................A................C...  175
+26296    370                ....................T.......                    397
+
+Query_3  61   ACAAATGCATCCACAGAGGCCGGCCCGGCCCCCGACC  97
+18610    176  .T.......C...............A...........  212
+18609    176  .T.......C...............A...........  212
+18608    176  .T.......C...............A...........  212
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 10964330544
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  101     2e-21
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  101     2e-21
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  101     2e-21
+
+
+
+Query_4  1    GTGTGCTACCACCCCCAACTTCGAGAAGGATCAGCGATGGGCATACTGCCTGGAGCCAAA  60
+18610    216  .........T...........T........C..A.......................C..  275
+18609    216  .........T...........T........C..A.......................C..  275
+18608    216  .........T...........T........C..A.......................C..  275
+
+Query_4  61   GAAAGTGAAAG  71
+18610    276  ...........  286
+18609    276  ...........  286
+18608    276  ...........  286
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 7133419872
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  161     4e-39
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  161     4e-39
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  161     4e-39
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  73.8    7e-13
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  73.8    7e-13
+
+
+
+Query_5  3    CACTGCAGCAAACACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATGGC  62
+18610    289  .................T...................................G......  348
+18609    289  .................T...................................G......  348
+18608    289  .................T...................................G......  348
+18612    1                                                    .....G......  12
+18611    1                                                    .....G......  12
+
+Query_5  63   CCACACTGCATCTGTCCAGATCCCTTCACTGGGAATCACTGCCAG  107
+18610    349  ....G..........G......A............G.........  393
+18609    349  ....G..........G......A............G.........  393
+18608    349  ....G..........G......A............G.........  393
+18612    13   ....G..........G......A............G.........  57
+18611    13   ....G..........G......A............G.........  57
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 12417434592
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  123     1e-27
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  123     1e-27
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  123     1e-27
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  123     1e-27
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  123     1e-27
+
+
+
+Query_6  3    AAGTGCTTTGAGCCCCAGCTTCTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTT  62
+18612    64   ..................T..T...G.........TG................T...C..  123
+18611    64   ..................T..T...G.........TG................T...C..  123
+18610    400  ..................T..T...G.........TG................T...C..  459
+18609    400  ..................T..T...G.........TG................T...C..  459
+18608    400  ..................T..T...G.........TG................T...C..  459
+
+Query_6  63   GGGCTGGCAGGTGTGGCCAAGTGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCACTG  122
+18612    124  .A..CA..........T.........G.....G...C.A...G....A............  183
+18611    124  .A..CA..........T.........G.....G...C.A...G....A............  183
+18610    460  .A..CA..........T.........G.....G...C.A...G....A............  519
+18609    460  .A..CA..........T.........G.....G...C.A...G....A............  519
+18608    460  .A..CA..........T.........G.....G...C.A...G....A............  519
+
+Query_6  123  GCCAGCCAGG  132
+18612    184  ..........  193
+18611    184  ..........  193
+18610    520  ..........  529
+18609    520  ..........  529
+18608    520  ..........  529
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 15191542320
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  111     3e-24
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  111     3e-24
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  111     3e-24
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  111     3e-24
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  111     3e-24
+
+
+
+Query_7  9    ACCAACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCTGTGCCGT  68
+18612    202  ...........................................G...T............  261
+18611    202  ...........................................G...T............  261
+18610    538  ...........................................G...T............  597
+18609    538  ...........................................G...T............  597
+18608    538  ...........................................G...T............  597
+
+Query_7  69   TGCCCCACCGGCTACGCGGGACGCTTGTGCGA  100
+18612    262  ..TG..C.TA...T.........T........  293
+18611    262  ..TG..C.TA...T.........T........  293
+18610    598  ..TG..C.TA...T.........T........  629
+18609    598  ..TG..C.TA...T.........T........  629
+18608    598  ..TG..C.TA...T.........T........  629
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 11624832384
+
+
+Query= exon_8
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  198     3e-50
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  198     3e-50
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  198     3e-50
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  198     3e-50
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  198     3e-50
+
+
+
+Query_8  1    ACCTCAAGGCGAACTGCTACGACGACCGCGACCGCGGGCTCAGCTACCGCGGCGTGGCCC  60
+18612    299  ............GT.......................T...............A....GG  358
+18611    299  ............GT.......................T...............A....GG  358
+18610    635  ............GT.......................T...............A....GG  694
+18609    635  ............GT.......................T...............A....GG  694
+18608    635  ............GT.......................T...............A....GG  694
+
+Query_8  61   GCACCACGCTCTCGGGTGCACCCTGTGAGCCGTGGACCTCCGAGGCCACCTACTGGAATA  120
+18612    359  .G..T.....G..C..C.........C..T.....G.......................G  418
+18611    359  .G..T.....G..C..C.........C..T.....G.......................G  418
+18610    695  .G..T.....G..C..C.........C..T.....G.......................G  754
+18609    695  .G..T.....G..C..C.........C..T.....G.......................G  754
+18608    695  .G..T.....G..C..C.........C..T.....G.......................G  754
+
+Query_8  121  TGACCGCAGAGCAAGCGCTGAACTGGGGCCTGGGCAACCACGCCTTCTGCCG  172
+18612    419  ...............T............A......G................  470
+18611    419  ...............T............A......G................  470
+18610    755  ...............T............A......G................  806
+18609    755  ...............T............A......G................  806
+18608    755  ...............T............A......G................  806
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 20475557040
+
+
+Query= exon_9
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  129     3e-29
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  129     3e-29
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  129     3e-29
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  129     3e-29
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  129     3e-29
+
+
+
+Query_9  2    AACCCGGACAACGACACCCGCCCGTGGTGCTTTGTTTGGAGAGGCGACCGACTGAGCTGG  61
+18612    472  .....C.................T........CA......A...................  531
+18611    472  .....C.................T........CA......A...................  531
+18610    835  .....C.................T........CA......A...................  894
+18609    808  .....C.................T........CA......A...................  867
+18608    808  .....C.................T........CA......A...................  867
+
+Query_9  62   AATTACTGCCGCCTGGCACGGTGCCAGGC  90
+18612    532  ...................C.........  560
+18611    532  ...................C.........  560
+18610    895  ...................C.........  923
+18609    868  ...................C.........  896
+18608    868  ...................C.........  896
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 24822667984
+
+
+Query= exon_10
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  226     2e-58
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  226     2e-58
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  226     2e-58
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  226     2e-58
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  226     2e-58
+
+
+
+Query_10  81    CAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCGTCGGAGGACTGGTGGCGCTC  140
+18612     706   ........C......T........T......A...C........................  765
+18611     706   ........C......T........T......A...C........................  765
+18610     1069  ........C......T........T......A...C........................  1128
+18609     1042  ........C......T........T......A...C........................  1101
+18608     1042  ........C......T........T......A...C........................  1101
+
+Query_10  141   CCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCCGAAATTTCTGCGCCGGCAGC  200
+18612     766   ........G....................G.......A..A.C.................  825
+18611     766   ........G....................G.......A..A.C.................  825
+18610     1129  ........G....................G.......A..A.C.................  1188
+18609     1102  ........G....................G.......A..A.C.................  1161
+18608     1102  ........G....................G.......A..A.C.................  1161
+
+Query_10  201   CTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCCTGCAGAACCG  250
+18612     826   ........T..C..............T...........T...........  875
+18611     826   ........T..C..............T...........T...........  875
+18610     1189  ........T..C..............T...........T...........  1238
+18609     1162  ........T..C..............T...........T...........  1211
+18608     1162  ........T..C..............T...........T...........  1211
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 30632228576
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  224     4e-58
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  224     4e-58
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  224     4e-58
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  224     4e-58
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  224     4e-58
+
+
+
+Query_11  1     ACCCGCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGTGA  60
+18612     876   ..........A..........C.......................C..............  935
+18611     876   ..........A..........C.......................C..............  935
+18610     1239  ..........A..........C.......................C..............  1298
+18609     1212  ..........A..........C.......................C..............  1271
+18608     1212  ..........A..........C.......................C..............  1271
+
+Query_11  61    GCAGTGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGCCCATCAC  120
+18612     936   ..................A.....G.A.................................  995
+18611     936   ..................A.....G.A.................................  995
+18610     1299  ..................A.....G.A.................................  1358
+18609     1272  ..................A.....G.A.................................  1331
+18608     1272  ..................A.....G.A.................................  1331
+
+Query_11  121   CTACCAGCACGACCTGG  137
+18612     996   .................  1012
+18611     996   .................  1012
+18610     1359  .................  1375
+18609     1332  .................  1348
+18608     1332  .................  1348
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 15852044160
+
+
+Query= exon_12
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  194     4e-49
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  194     4e-49
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  194     4e-49
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  194     4e-49
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  194     4e-49
+
+
+
+Query_12  1     CTCTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCGCACCTGTCGCCTTTCGTTC  60
+18612     1013  ................G...........C................C..............  1072
+18611     1013  ................G...........C................C..............  1072
+18610     1376  ................G...........C................C..............  1435
+18609     1349  ................G...........C................C..............  1408
+18608     1349  ................G...........C................C..............  1408
+
+Query_12  61    AGCCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAATCCGAAGCCGAGCTCTGCG  120
+18612     1073  ....A................C.G......G...C................CAG......  1132
+18611     1073  ....A................C.G......G...C................CAG......  1132
+18610     1436  ....A................C.G......G...C................CAG......  1495
+18609     1409  ....A................C.G......G...C................CAG......  1468
+18608     1409  ....A................C.G......G...C................CAG......  1468
+
+Query_12  121   AAGTGGCCGGCTGGGGTTACCAGTTCGAGG  150
+18612     1133  .G...............C............  1162
+18611     1133  .G...............C............  1162
+18610     1496  .G...............C............  1525
+18609     1469  .G...............C............  1498
+18608     1469  .G...............C............  1498
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 17569348944
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  184     4e-46
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  184     4e-46
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  184     4e-46
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  184     4e-46
+lcl|NC_037334.1_cds_XP_059743898.1_18609 [gene=F12] [db_xref=Gene...  184     4e-46
+lcl|NC_037338.1_cds_XP_059747720.1_27173 [gene=PREPL] [db_xref=Ge...  44.1    0.001
+lcl|NC_037338.1_cds_XP_024855159.1_27172 [gene=PREPL] [db_xref=Ge...  44.1    0.001
+lcl|NC_037338.1_cds_XP_024855156.1_27171 [gene=PREPL] [db_xref=Ge...  44.1    0.001
+lcl|NC_037338.1_cds_XP_024855157.1_27170 [gene=PREPL] [db_xref=Ge...  44.1    0.001
+
+
+
+Query_13  6     GGGGAATATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCCG-AGCGCTG  64
+18612     1165  ......................................A...A..-.A....C.......  1223
+18611     1165  ......................................A...A..-.A....C.......  1223
+18610     1528  ......................................A...A..-.A....C.......  1586
+18609     1501  ......................................A...A..-.A....C.......  1559
+18608     1501  ......................................A...A..-.A....C.......  1559
+
+Query_13  65    CTCCGCCCCCGCCGTGCACGGAGCAGCCTTCACCCGCGGCATGCTCTGCGCTGGCTTCCT  124
+18612     1224  ...........A.......................AG.......................  1283
+18611     1224  ...........A.......................AG.......................  1283
+18610     1587  ...........A.......................AG.......................  1646
+18609     1560  ...........A.......................AG.......................  1619
+18608     1560  ...........A.......................AG.......................  1619
+27172     1736                                        ............A.........  1715
+27171     1736                                        ............A.........  1715
+27170     2003                                        ............A.........  1982
+27169     2000                                        ............A.........  1979
+
+Query_13  125   TGAGGGCGGCACTGACGCGTGCCAG  149
+18612     1284  C...........C.....A......  1308
+18611     1284  C...........C.....A......  1308
+18610     1647  C...........C.....A......  1671
+18609     1620  C...........C.....A......  1644
+18608     1620  C...........C.....A......  1644
+27172     1714  ....                       1711
+27171     1714  ....                       1711
+27170     1981  ....                       1978
+27169     1978  ....                       1975
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 17437248576
+
+
+Query= exon_14
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037334.1_cds_XP_059743900.1_18613 [gene=F12] [db_xref=Gene...  182     2e-45
+lcl|NC_037334.1_cds_XP_059743899.1_18612 [gene=F12] [db_xref=Gene...  182     2e-45
+lcl|NC_037334.1_cds_NP_001068587.1_18611 [gene=F12] [db_xref=Gene...  182     2e-45
+lcl|NC_037334.1_cds_XP_024849584.1_18610 [gene=F12] [db_xref=Gene...  182     2e-45
+
+
+
+Query_14  1     GGTGACTCTGGGGGCCCTCTGGTGTGTGAGGATGAGACCGCAGGGCGCCCCCTCATCCTG  60
+18612     1309  ........C..A........A..................C.T.A.....AG.........  1368
+18611     1309  ........C..A........A..................C.T.A.....AG.........  1368
+18610     1672  ........C..A........A..................C.T.A.....AG.........  1731
+18609     1645  ........C..A........A..................C.T.A.....AG.........  1704
+
+Query_14  61    CGAGGCATCGTCAGCTGGGGCTCCGGTTGCGGCGACCGCTACAAGCCGGGTGTGTACACC  120
+18612     1369  ........A..............A.........A.....CT......A...........A  1428
+18611     1369  ........A..............A.........A.....CT......A...........A  1428
+18610     1732  ........A..............A.........A.....CT......A...........A  1791
+18609     1705  ........A..............A.........A.....CT......A...........A  1764
+
+Query_14  121   GACGTGGCCAACTACCTAGCCTGGATCCAGGAGCACACCTCTTTCTGA  168
+18612     1429  ..........................T.G..........G...C....  1476
+18611     1429  ..........................T.G..........G...C....  1476
+18610     1792  ..........................T.G..........G...C....  1839
+18609     1765  ..........................T.G..........G...C....  1812
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 19947155568
+
+
+  Database: GCF_002263795.3_ARS-UCD2.0_cds_from_genomic.fna
+    Posted date:  Feb 5, 2026  3:35 AM
+  Number of letters in database: 133,203,668
+  Number of sequences in database:  64,900
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

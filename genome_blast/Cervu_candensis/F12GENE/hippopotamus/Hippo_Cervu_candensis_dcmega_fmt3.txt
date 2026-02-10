@@ -1,0 +1,437 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_019320065.1_ASM1932006v1_genomic.fna
+           185 sequences; 2,526,613,007 total letters
+
+
+
+Query= exon_1
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  112     4e-23
+
+
+
+Query_1      1         GTTGGACTGATAGACAGACGCCATGAGGGCTCCACTGCTCCTGGGGGCCCTGCTGGTGAG  60
+NC_057389.1  69127303  .......CA.C...G.................TG..........................  69127362
+
+Query_1      61        CCTGGAGTCAGCGGTTTCG  79
+NC_057389.1  69127363  ..........A........  69127381
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126330382100
+
+
+Query= exon_2
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  74.3    6e-12
+
+
+
+Query_2      1         ACTCCACCTTTAAAAGCCCCCAAGCAGCATAAGCTCATAGAGAGCGAGCACACAGTGG  58
+NC_057389.1  69127748  ..........GG....G.......A.......A....C......T.............  69127805
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 75798234810
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  154     5e-36
+
+
+
+Query_3      1         TTCTCACTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATC  60
+NC_057389.1  69130912  .............C.....A...................A....................  69130971
+
+Query_3      61        ACAAATGCATCCACAGAGGCCGGCCCGGCCCCCGACCCTG  100
+NC_057389.1  69130972  .T.......................A...........T..  69131011
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 176862521990
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  106     1e-21
+
+
+
+Query_4      1         GTGTGCTACCACCCCCAACTTCGAGAAGGATCAGCGATGGGCATACTGCCTGGAGCCAAA  60
+NC_057389.1  69131982  .....................T........C..A....................A..C..  69132041
+
+Query_4      61        GAAAGTGAAAG  71
+NC_057389.1  69132042  ...........  69132052
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106117520964
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  159     5e-37
+
+
+
+Query_5      3         CACTGCAGCAAACACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATGGC  62
+NC_057389.1  69132339  .................T........................A..........C......  69132398
+
+Query_5      63        CCACACTGCATCTGTCCAGATCCCTTCACTGGGAATCACTGCCAG  107
+NC_057389.1  69132399  ...............G......A.C..........G.........  69132443
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 204655204017
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  172     3e-41
+
+
+
+Query_6      3         AAGTGCTTTGAGCCCCAGCTTCTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTT  62
+NC_057389.1  69132572  ..................T..T.............CG................T...C..  69132631
+
+Query_6      63        GGGCTGGCAGGTGTGGCCAAGTGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCACTG  122
+NC_057389.1  69132632  .A..CA..........T...............G...C.....G....A............  69132691
+
+Query_6      123       GCCAGCCAGG  132
+NC_057389.1  69132692  ..........  69132701
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 257713960614
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  136     1e-30
+
+
+
+Query_7      2         CTGCCCTACCAACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCT  61
+NC_057389.1  69132852  .....GC................................A..........G.........  69132911
+
+Query_7      62        GTGCCGTTGCCCCACCGGCTACGCGGGACGCTTGTGCGAC  101
+NC_057389.1  69132912  ............TG.TA...T.........T.........  69132951
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189495559275
+
+
+Query= exon_8
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  226     2e-57
+
+
+
+Query_8      3         CTCAAGGCGAACTGCTACGACGACCGCGACCGCGGGCTCAGCTACCGCGGCGTGGCCCGC  62
+NC_057389.1  69133119  ..........GT.......................A...............AC....A.G  69133178
+
+Query_8      63        ACCACGCTCTCGGGTGCACCCTGTGAGCCGTGGACCTCCGAGGCCACCTACTGGAATATG  122
+NC_057389.1  69133179  ........G..C..A.T.......C..T.....G.......................G..  69133238
+
+Query_8      123       ACCGCAGAGCAAGCGCTGAACTGGGGCCTGGGCAACCACGCCTTCTGCCG  172
+NC_057389.1  69133239  .............T............A......G................  69133288
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 358778258894
+
+
+Query= exon_9
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  130     5e-28
+
+
+
+Query_9      2         AACCCGGACAACGACACCCGCCCGTGGTGCTTTGTTTGGAGAGGCGACCGACTGAGCTGG  61
+NC_057389.1  69133391  .....C..........................CA......A........A..........  69133450
+
+Query_9      62        AATTACTGCCGCCTGGCACGGTGCCAGGC  90
+NC_057389.1  69133451  ...................CT........  69133479
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 442156272600
+
+
+Query= exon_10
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  325     4e-87
+
+
+
+Query_10     1         CCTGGGCTTCTCCCACAGGCTGGTGCTCGCCGCCCGAACAGCAGATTCCCCTGCCCGGCG  60
+NC_057389.1  69133655  ........CT.............CA.................C..C..TT...G......  69133714
+
+Query_10     61        TGGGCCCGGCGGGATGCGGACAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCG  120
+NC_057389.1  69133715  CA.....C.G...C..T...........C......T........T......A...C....  69133774
+
+Query_10     121       TCGGAGGACTGGTGGCGCTCCCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCC  180
+NC_057389.1  69133775  ............................G..T.................G..........  69133834
+
+Query_10     181       GAAATTTCTGCGCCGGCAGCCTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCC  240
+NC_057389.1  69133835  A.C.........................T..C..............T.............  69133894
+
+Query_10     241       TGCAGAACCG  250
+NC_057389.1  69133895  ..........  69133904
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 553326992568
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  216     3e-54
+
+
+
+Query_11     1         ACCCGCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGTGA  60
+NC_057389.1  69134155  ...T.................C.......................C..............  69134214
+
+Query_11     61        GCAGTGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGCCCATCAC  120
+NC_057389.1  69134215  ..................A.....G.A............T....................  69134274
+
+Query_11     121       CTACCAGCACGACCTGG  137
+NC_057389.1  69134275  .................  69134291
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 270346997899
+
+
+Query= exon_12
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  204     2e-50
+
+
+
+Query_12     1         CTCTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCGCACCTGTCGCCTTTCGTTC  60
+NC_057389.1  69134387  ...........T....G....A......C..............T.C..............  69134446
+
+Query_12     61        AGCCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAATCCGAAGCCGAGCTCTGCG  120
+NC_057389.1  69134447  ....A..................G......G...C................CAG......  69134506
+
+Query_12     121       AAGTGGCCGGCTGGGGTTACCAGTTCGAGG  150
+NC_057389.1  69134507  .G...............C............  69134536
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 303192894840
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  224     6e-57
+
+
+
+Query_13     6         GGGGAATATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCCGAGCGCTGC  65
+NC_057389.1  69135097  ..........................................A..GAC..G.........  69135156
+
+Query_13     66        TCCGCCCCCGCCGTGCACGGAGCAGCCTTCACCCGCGGCATGCTCTGCGCTGGCTTCCTT  125
+NC_057389.1  69135157  ..........A................................................C  69135216
+
+Query_13     126       GAGGGCGGCACTGACGCGTGCCAG  149
+NC_057389.1  69135217  ..............T.........  69135240
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300666287383
+
+
+Query= exon_14
+
+Length=280
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_057389.1 Cervus canadensis isolate Bull #8, Minnesota chromoso...  304     2e-80
+
+
+
+Query_14     1         GGTGACTCTGGGGGCCCTCTGGTGTGTGAGGATGAGACCGCAGGGCGCCCCCTCATCCTG  60
+NC_057389.1  69135330  ........C..A...........................C.T.A.....AG.........  69135389
+
+Query_14     61        CGAGGCATCGTCAGCTGGGGCTCCGGTTGCGGCGACCGCTACAAGCCGGGTGTGTACACC  120
+NC_057389.1  69135390  ........A..............A.........A......TG.................T  69135449
+
+Query_14     121       GACGTGGCCAACTACCTAGCCTGGATCCAGGAGCACACCTCTTTCTGACCGCCTGG-GAC  179[Ma1]
+NC_057389.1  69135450  ..........................T.G.........GG...C.....A...C..C...  69135509
+
+Query_14     180       TCATCTTTCCCTCCTGGGCAATTCTGGGATGGAAGCGTGGCTGAGGC--GTGATCATGGA  237[Ma2]
+NC_057389.1  69135510  .-G.........T...A...G......A................C..GG.G...T.....  69135568[Ma3]
+
+Query_14     238       TAGCAAGGACTGTGTTCCATCCCCCCCAACCCCCCCAACCC  278
+NC_057389.1  69135569  ....C.A..T...T......T.T.....G.G.TT...G...  69135609
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 629125210728
+
+
+  Database: GCF_019320065.1_ASM1932006v1_genomic.fna
+    Posted date:  Feb 4, 2026  6:05 PM
+  Number of letters in database: 2,526,613,007
+  Number of sequences in database:  185
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
+
+[Ma1]+1 insertion in exon 14
+[Ma2]+2 insertion in exon 14
+[Ma3]-1 deletion in exon 14

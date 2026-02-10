@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047036.1 Tursiops truncatus isolate mTurTru1 chromosome 3, mTu...  180     2e-42
+
+
+
+Query_1      1036       GAGCAGCCGCCTTCCCTGACCAGGAACGGCCCACTGAGCTGCGGGCAGCGGCTCCGCAAG  1095
+NC_047036.1  152078574  .......G.A..C.....C....CGCG.....GGC.G....T..A.G.T......A...A  152078515
+
+Query_1      1096       AGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGTGGCGCTACGCGGGGCGCACCCC  1155
+NC_047036.1  152078514  C.G.....C...C...G.........C..G..A...A.......C.C.............  152078455
+
+Query_1      1156       TACATCGCCGCGCTGTACTGGGGCCACAGTTTCTGCGCCGGCAGCCTCATCGCCCCCTGC  1215
+NC_047036.1  152078454  .................ACA......A.A.......A......................T  152078395
+
+Query_1      1216       TGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCGGC  1252
+NC_047036.1  152078394  ..A........C..G...............A......  152078358
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4321724749978
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

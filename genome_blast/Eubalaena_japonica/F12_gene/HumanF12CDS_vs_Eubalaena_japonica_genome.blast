@@ -1,0 +1,171 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004363455.1_EubJap_v1_BIUU_genomic.fna
+           1,353,963 sequences; 2,693,575,300 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWP010011949.1 Eubalaena japonica isolate BS61 EubJap_flattened_...  225     1e-55
+RJWP010000738.1 Eubalaena japonica isolate BS61 EubJap_flattened_...  78.8    9e-12
+RJWP010000528.1 Eubalaena japonica isolate BS61 EubJap_flattened_...  70.7    5e-09
+RJWP010025495.1 Eubalaena japonica isolate BS61 EubJap_flattened_...  60.8    2e-06
+RJWP010001980.1 Eubalaena japonica isolate BS61 EubJap_flattened_...  60.8    2e-06
+
+
+
+Query_1          1      ATGAGGGCTCTGCTGCTCCTGGGGTTCCTGCTGGTGAGCTTGGAGTCAACACTTTCGATT  60
+RJWP010000738.1  4496                                                           ..C.  4493
+RJWP010000738.1  4918   ........................G..............C........              4871
+
+Query_1          61     CCACCTTGGGAAGCCCCCAAGGAGCATAAGTACAAAGCTGAAGAGCACACAGTCGTTCTC  120
+RJWP010011949.1  50684                                                        ......  50679
+RJWP010000738.1  4492   .........A...........C.........T..T..AGAGT...........         4440
+
+Query_1          121    ACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTACCACAAA  180
+RJWP010011949.1  50678  .........A...........................................T......  50619
+
+Query_1          181    TGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAACTTTGAT  240
+RJWP010011949.1  50618  ....T.....GA...T....C.....-.GA.......                         50583
+RJWP010011949.1  49873                                    .........................G  49848
+
+Query_1          241    CAGGACCAGCGA--TGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGCAGCA  298
+RJWP010011949.1  49518                                                ...T.G........  49505
+RJWP010011949.1  49847  A....T...T..TG....C.C....CC.......A.............              49800
+
+Query_1          299    AACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCACTGTC  358
+RJWP010011949.1  49504  ......A......................................A......A.....CA  49445
+
+Query_1          359    TCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAGAGAAGTGCTTTGAGCCTCAGC  418
+RJWP010011949.1  49268                                       ..................C....  49246
+RJWP010011949.1  49444  ........G.T...T.......G..G..........G..                       49406
+
+Query_1          419    TTCTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAACTGAGCAAGCAGCTGTGGCCA  478
+RJWP010011949.1  49245  ....TT....C.....G........AG.....C....GCT.....TG....G...A....  49186
+
+Query_1          479    GATGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGCTGGCCAGCCAGGCCTGCCGCA  538
+RJWP010011949.1  49185  AG.................GA.......G...A...CA.............           49135
+RJWP010011949.1  48970                                                      ......T.  48963
+
+Query_1          539    CCAACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCTGTGCCACT  598
+RJWP010011949.1  48962  .......A..T...A.......CA........C...CA...................GT.  48903
+
+Query_1          599    GCCCGGTGGGCTACACCGGAGCCTTCTGCGACGTGGACACCAAGGCAAGCTGCTATGATG  658
+RJWP010011949.1  48902  ....CAC.......G.T...CG...G.....A....                          48867
+
+Query_1          659    GCCGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGTCAGC  718
+RJWP010011949.1  48689   ......................G.....C....T.A............A..........  48631
+
+Query_1          719    CGTGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGGGGAC  778
+RJWP010011949.1  48630  ..........C............T....T.....C..A..........T...TC..A...  48571
+
+Query_1          779    TGGGCGGCCACGCCTTCTGCCGGAACCCGGACAACGACATCCGCCCGTGGTGCTTCGTGC  838
+RJWP010011949.1  48570  ......A................                                       48548
+RJWP010011949.1  48464                       ......A...........C...............T..TT  48426
+
+Query_1          839    TGAACCGCGACCGGCTGAGCTGGGAGTACTGCGACCTGGCACAGTGCCAGACCCCAACCC  898
+RJWP010011949.1  48425  G..GAG.......A.........A.T..T...CG........G.......G.....G...  48366
+
+Query_1          899    AGGCGGCGCCTCCGACCCCGGTGTCCCC----TAGGCT-TCAT----GTCCCA-------  942
+RJWP010011949.1  48365  C.........C.AA.T...----...T.CGAT.C..A.C....CGGG..A...GTACTTC  48310
+
+Query_1          943    CTCATGCCCGCGCAGCCGGCACCGCCGAAGCCTCAGCCCACGACCCGGACCCCGCCTCAG  1002
+RJWP010011949.1  48309  .CTT.....T...TTT....TTT..A...A................A........T..GA  48250
+
+Query_1          1003   TCCCAGACCCCGGGAGCCTTGCCGGCGAAGCGGGAGCAGCCGCCTTCCCTGACCAGGAAC  1062
+RJWP010011949.1  48117                                   .......G.A..C.....C....CGCG  48091
+RJWP010011949.1  48249  C...T....                                                     48241
+
+Query_1          1063   GGCCCACTGAGCTGCGGGCAGCGGCTCCGCAAGAGTCTGTCTTCGATGACCCGCGTCGTT  1122
+RJWP010011949.1  48090  .....GGC.G....T..A..........A...AC.G.....C...C...G.........C  48031
+
+Query_1          1123   GGCGGGCTGGTGGCGCTACGCGGGGCGCACCCCTACATCGCCGCGCTGTACTGGGGCCAC  1182
+RJWP010011949.1  48030  ..G.AA...........C.C..............................GCA......G  47971
+RJWP010025495.1  20368                                                      ........  20375
+
+Query_1          1183   AGTTTCTGCGCCGGCAGCCTCATCGCCCCCTGCTGGGTGCTGACGGCCGCTCACTGCCTG  1242
+RJWP010011949.1  47970  .A.......A......................T...........C..G............  47911
+RJWP010025495.1  20376  .---......GG...TC............G.C......C..CT.............      20428
+
+Query_1          1243   CAGGACCGGCCCGCACCCGAGGATCTGACGGTGGTGCTCGGCCAGGAACGCCGTAACCAC  1302
+RJWP010011949.1  47910  ...A......                                                    47901
+RJWP010011949.1  47654           ..T..G..G.....A.....A.................C.....         47611
+
+Query_1          1303   AGCTGTGAGCCGTGCCAGACGTTGGCCGTGCGCTCCTACCGCTTGCACGAGGCCTTCTCG  1362
+RJWP010011949.1  47612                     ..C...........G......C.C.................  47572
+
+Query_1          1363   CCCGTCAGCTACCAGCACGACCTGGCTCTGTTGCGCCTTCAGGAGGATGCGGACGGCAGC  1422
+RJWP010011949.1  47452                          ......G.......G......AGC..T..A...T..  47417
+RJWP010011949.1  47571  .GTA...C.................                                     47547
+
+Query_1          1423   TGCGCGCTCCTGTCGCCTTACGTTCAGCCGGTGTGCCTGCCAAGCGGCGCCGCGCGACC-  1481
+RJWP010011949.1  47416  .......A..C..T.....T.........A...........G.ATA.......C..C..G  47357
+
+Query_1          1482   -----CTCCGAGACCACGCTCTGCCAGGTGGCCGGCTGGGGCCACCAGTTCGAGGGGGCG  1536
+RJWP010011949.1  47356  GCCGAA.....AG..G........G.A..............T........A..         47304
+RJWP010011949.1  46745                                                  ....CA...T.A  46734
+
+Query_1          1537   GAGGAATATGCCAGCTTCCTGCAGGAG---------GCG-----CAGGTACCGTTCCTCT  1582
+RJWP010011949.1  46733  .G.......T..............T..AAGGAAGAA...GCACT.....G...C..A..C  46674
+
+Query_1          1583   CCCTGGAGCGCTGCTCAGCCCCGGACGTGCACGGATCCTCCATC-CTCCCCGGCATGCTC  1641
+RJWP010011949.1  46673  GT.C............C.....C............G..G..T..A.C.............  46614
+
+Query_1          1642   TGCGCAGGGTTCCTCGAGGGCGGCACCGATGCGTGCCAGGGTGATTCCGGAGGCCCGCTG  1701
+RJWP010011949.1  46487                                     .........C...A.G.....T...  46463
+RJWP010011949.1  46613  .....T..C...........T.....T..C..........                      46574
+RJWP010001980.1  28734                                      .....C..C...........C...  28757
+RJWP010001980.1  88934                                      .....C..C...........C...  88911
+
+Query_1          1702   GTGTGTGAGGACCAAGCTGCAGAGCGCCGGCTCACCCTGCAAGGCATCATCAGCTGGGGA  1761
+RJWP010011949.1  46462  ...........TG.GA.C.......T..A.....T.T...G.......G..........T  46403
+RJWP010000528.1  90440                                     ....T.C...C.............T  90464
+RJWP010001980.1  28758  A....CC...T.G.-..-...C----.T....G---...GCG...G.............C  28808
+RJWP010001980.1  88910  A....CC...T.G.-..-...C----.T....G---...GCG...G.............C  88860
+
+Query_1          1762   TCGGGCTGTGGTGACCGCAACAAGCCAGGCGTCTACACCGATGTGGCCTACTACCTGGCC  1821
+RJWP010011949.1  46402  ..A..T..C..C......C.......G..T..A........C......A.......A...  46343
+RJWP010000528.1  90465  GAC.....C..GC.G.C.........C............CGC......AGT...G...A.  90524
+RJWP010001980.1  28809  GA........CG..G......CG...C..........                         28845
+RJWP010001980.1  88859  GA........CG..G......CG...C..........                         88823
+
+Query_1          1822   TGGATCCGGGAGCACACCGTTTCCTGA  1848
+RJWP010011949.1  46342  ......G............C.......  46316
+RJWP010000528.1  90525  ......                       90530
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4802638572212
+
+
+  Database: GCA_004363455.1_EubJap_v1_BIUU_genomic.fna
+    Posted date:  Feb 4, 2026  5:25 PM
+  Number of letters in database: 2,693,575,300
+  Number of sequences in database:  1,353,963
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
