@@ -1,0 +1,886 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003676395.1_ASM367639v1_genomic.fna
+           5,422 sequences; 2,334,467,171 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  69.9    8e-11
+NW_020837986.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.1  
+NW_020837959.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.1  
+NW_020838018.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020838001.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837997.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837982.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837979.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837974.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837962.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837953.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+NW_020837950.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    4.4  
+
+
+
+Query_1  1         CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+27       1293200   ......T........C.........AG............A...............  1293254
+27       13985843                 .................                         13985859
+41       10444251              ..................                           10444234
+14       3688802                   ..................                       3688785
+73       7056529                       .................                    7056513
+56       10930120             .............T..A........                     10930096
+52       1122240                .................                           1122224
+37       7074652                  .................                         7074636
+34       271569                       .................                     271553
+29       12814298       .................                                   12814282
+17       18913043                                     .................     18913059
+8        15746779                                      .................    15746763
+8        20935909                       .................                   20935925
+6        20880802                               .........A...........       20880822
+5        71914492                     .................                     71914476
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 86371674275
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  121     4e-26
+NW_020838018.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.43 
+NW_020837987.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.7  
+NW_020837981.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.7  
+NW_020837976.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.7  
+NW_020837949.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.7  
+NW_020838091.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020838048.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020838020.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837968.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837960.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837954.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837953.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837950.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837948.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837946.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+NW_020837945.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    6.7  
+
+
+
+Query_2  1         GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+27       1294108   ..........................................C..A..............  1294167
+27       1336091             ...............C....CAGT.....G.....A...........T..  1336042
+73       449612                ...................                               449630
+42       3857170              ..................                                 3857187
+36       11362190                            ..................                  11362207
+31       2746981                                                        .......  2746975
+4        36359479                ...............A.....                           36359459
+4        71939782              ..................                                71939765
+146      55592                             .................                     55608
+103      2779908                                                   ............  2779897
+75       5126193         .................                                       5126209
+23       5339733        .................                                        5339717
+15       31080983                           .................                    31080999
+9        14178647                              .................                 14178663
+8        16726045                             .................                  16726029
+6        20240002             ......C..............                              20240022
+5        59882087                      .................                         59882103
+5        75576423                              .................                 75576439
+3        28918568       .................                                        28918584
+1        25645506                                                ..............  25645493
+1        87267589                                                 .............  87267577
+0        2552395                                           .......T.....C......  2552376
+0        38604846          .................                                     38604830
+
+Query_2  61        CCTGCGCTGGCTCCG  75
+27       1294168   T............    1294180
+27       1336041   ...............  1336027
+31       2746974   ...........      2746964
+103      2779896   .....            2779892
+1        25645492  ...              25645490
+1        87267576  ....             87267573
+0        2552375   ....T....        2552367
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 130724392568
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  58.0    2e-07
+NW_020837965.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.21 
+NW_020838035.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838030.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838018.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838017.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838013.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837992.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837980.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837969.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837966.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837964.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837960.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837954.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837953.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837952.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837950.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837947.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837946.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837945.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838048.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838024.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838009.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837995.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837988.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837987.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837974.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837958.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837957.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020837949.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    0.81 
+NW_020838040.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020838025.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020838020.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020838015.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020837983.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020837963.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020837962.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020837956.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020838049.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020838027.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020838004.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020838001.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+NW_020837955.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    3.2  
+
+
+
+Query_3  1         GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+27       1294470   ....A......C........................T...A....  1294514
+27       1331334            ..............G..T..............      1331303
+27       11154706                            ..................   11154723
+27       15651196                            ..................   15651179
+20       16435494                           ...................   16435512
+20       12770345                            ..................   12770328
+20       26085341                            ..................   26085324
+90       5241772                             ..................   5241789
+85       2857036                             ..................   2857053
+73       3734842                             ..................   3734859
+72       6685454                             ..................   6685471
+72       4868356                             .................    4868340
+68       9729858                             ..................   9729875
+47       16037531                            ..................   16037548
+47       4259841           .................                      4259825
+35       1829551                             ..................   1829568
+35       18038466                            ..................   18038483
+35       19203667                            ..................   19203650
+35       16063082                     .................           16063066
+24       22563923                            ..................   22563940
+24       11964972                            ..................   11964955
+21       2371955                             ..................   2371972
+21       19616349                            ..................   19616366
+21       447630                              ..................   447613
+19       20413113                            ..................   20413130
+15       1481829                             ..................   1481846
+9        27209                  ..................                27226
+9        727501                              ..................   727518
+9        19310936                            ..................   19310953
+9        29140892                            ..................   29140909
+9        11725826                            ..................   11725809
+9        24747084                            ..................   24747067
+8        30371843                            ..................   30371860
+8        11670791                            ..................   11670774
+8        46243776                            ..................   46243759
+7        3746134                             ..................   3746151
+7        7359560                             ..................   7359577
+7        17596853                            ..................   17596836
+7        53829128                        ..................       53829111
+5        57980892                            ..................   57980909
+2        36687877                      ..................         36687894
+2        72505803                            ..................   72505820
+2        41428757                            ..................   41428740
+2        57689229                            ..................   57689212
+2        81195155                            ..................   81195138
+1        8196969                             ..................   8196986
+1        30185598               ..................                30185615
+1        60008260                            ..................   60008277
+1        64922873                            ..................   64922890
+0        8914695                             ..................   8914712
+0        70238168                            ..................   70238185
+0        14532844                            ..................   14532827
+103      2052672                             ..................   2052655
+79       4133522                             ..................   4133505
+79       5757785                             ..................   5757768
+64       9351501                             ..................   9351484
+50       2267140                             ..................   2267123
+50       6988312                             ..................   6988295
+43       6837725                             ..................   6837708
+42       6011667                             ..................   6011650
+29       12686304                            ..................   12686287
+13       2722187                             ..................   2722170
+12       22104394                            ..................   22104377
+12       25703465                            ..................   25703448
+6        14413203            .........T...........                14413223
+6        19298994                            ..................   19298977
+4        11373978                            ..................   11373961
+4        52617685                            ..................   52617668
+4        35800072        .................                        35800056
+95       1260005                  .................               1260021
+80       472223            .................                      472239
+75       3903287                              .................   3903303
+70       4952605        .................                         4952621
+38       826144          ..............T......                    826164
+38       13887686                 .................               13887702
+18       8234368           .................                      8234384
+17       17493649               .................                 17493665
+17       3865095       .................                          3865079
+17       3874380       .................                          3874364
+11       42005761        ...........T.....T.......                42005785
+104      325304                     .................             325288
+82       7325107                 .................                7325091
+59       5889965                              .................   5889949
+56       10282                                .................   10266
+10       24306118                            .................    24306102
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 63027978525
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  73.8    6e-12
+NW_020838030.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.0  
+NW_020838005.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.0  
+NW_020837988.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.0  
+NW_020837962.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.0  
+NW_020837961.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.0  
+NW_020837956.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.0  
+NW_020837947.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.0  
+
+
+
+Query_4  1         GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+27       1294649   ...................A...................A.-C..T..............  1294707
+85       1410622                                         .................       1410638
+60       8123618                                        .................        8123634
+43       10796868                            .................                   10796852
+17       615395                        .........G...........                     615415
+16       26263273                                      .................         26263257
+11       41142753                                            .................   41142737
+2        4452172                                               ................  4452157
+
+Query_4  61        G  61
+27       1294708   .  1294708
+2        4452156   .  4452156
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 98043294426
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  301     6e-80
+NW_020837996.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.3  
+NW_020837967.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.3  
+NW_020837952.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.3  
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.3  
+NW_020838039.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.3  
+NW_020837984.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.3  
+NW_020837971.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.3  
+NW_020838030.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837997.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837966.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837964.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837958.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837954.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020838002.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837983.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837979.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+NW_020837970.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    5.1  
+
+
+
+Query_5  1         GGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCGT  60
+27       1295686   ..........................C...........G.....A............T..  1295745
+27       1330582                         ......A....C.....C....TG..T.........A.  1330545
+94       961698                             ...................                  961680
+39       653593                     ...................                          653575
+26       22632734                 ...................                            22632716
+52       14050632                   ..................                           14050649
+13       37123055                     ..................                         37123038
+57       6438581                    ..................                           6438564
+38       6815501        ..................                                       6815484
+34       622006                  ...............C......                          621985
+25       10380069                      ..................                        10380052
+
+Query_5  61        GTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGCA  120
+27       1295746   ..........................................T..G..T...........  1295805
+27       1330544   C.....C........T..A..T..G..TG.......T......C......C......A..  1330485
+27       20217356                                            ..................  20217339
+51       13626607                             ..............C........            13626629
+7        1369877                                                ...............  1369891
+6        13930248                                        ..................G...  13930269
+85       252523                              ..................                  252540
+21       12104196                                              ................  12104211
+19       6843093                                   ..................            6843110
+13       34652395                                      ......T...............    34652416
+9        22036578                                          ..................    22036595
+
+Query_5  121       GGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGCA  180
+27       1295806   ....................................C.........A.............  1295865
+27       1330484   ....T..G..............C.......C....                           1330450
+27       20217338  ..                                                            20217337
+22       4720209           ...............T.......                               4720231
+7        1369892   ....                                                          1369895
+6        13930270  .                                                             13930270
+21       12104212  .C....                                                        12104217
+
+Query_5  181       GACAGAGC  188
+27       1295866   ........  1295873
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 396840984270
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  176     1e-42
+NW_020837982.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020837971.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020837967.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020837965.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020837963.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020837952.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020837950.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020837948.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.3  
+NW_020838760.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020838759.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020838057.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020838039.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837999.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837998.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837978.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837976.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837975.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837974.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837957.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837955.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837953.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837949.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837947.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+NW_020837945.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    9.3  
+
+
+
+Query_6  1         GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+27       1296795   ........G...................................................  1296854
+37       13119298                                          ................A...  13119279
+26       9076349     ..................                                          9076332
+20       11934722    ..................                                          11934739
+18       29597737                                                ..............  29597750
+7        55202771    ..................                                          55202754
+7        1461393                                                ...............  1461379
+5        40047688                                              ................  40047673
+5        26460793   .................                                            26460777
+3        30971221                           ..................                   30971204
+3        2889580        .................                                        2889564
+3        6839257   .................                                             6839273
+3        32045451                                                          ....  32045448
+112      610761     .................                                            610745
+54       7894655                                                    ...........  7894645
+53       10128349                                            .................   10128333
+33       9630529       .................                                         9630513
+31       18557902                            .................                   18557918
+30       1248816                                                          .....  1248812
+29       20373139         .................                                      20373123
+12       25204283                       ..........G..........                    25204303
+10       12584083                                               ...............  12584069
+8        4413091                            ............C........                4413111
+6        51289812                                               ........A......  51289826
+6        8818133                                              .................  8818117
+4        1964792                                  .................              1964808
+4        22580946                            .................                   22580930
+2        42825709     .................                                          42825693
+
+Query_6  61        GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+27       1296855   ..................G..................  1296891
+37       13119278  ..                                     13119277
+22       24270191                     ..................  24270208
+18       29597751  ....                                   29597754
+7        1461378   ..                                     1461377
+5        40047672  ..                                     40047671
+3        32045447  .............                          32045435
+815      8087                   .................         8071
+814      8087                   .................         8071
+94       1140453    .................                     1140469
+54       7894644   ......                                 7894639
+30       1248811   ............                           1248800
+10       12584068  ..                                     12584067
+6        51289827  .G........                             51289836
+0        22479523    .................                    22479507
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 182080403934
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  115     2e-24
+NW_020837959.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.33 
+NW_020838006.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.3  
+NW_020838034.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.3  
+NW_020837962.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.3  
+NW_020837955.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.3  
+NW_020837949.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.3  
+NW_020837948.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.3  
+NW_020838003.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837998.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837947.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837977.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837976.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837968.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837965.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837957.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+NW_020837945.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    5.1  
+
+
+
+Query_7  1         GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+27       1297560   .........C..................................................  1297619
+27       11374697                                             .................  11374681
+14       20607200                  ...................                           20607182
+14       1395749                            .................                    1395765
+61       1271567     ..............T.......                                      1271588
+89       5420487                        ..................                       5420470
+17       7459254                                        ..................       7459237
+10       16780980                               ..................               16780963
+4        23926169          ..................                                    23926152
+4        28453749          ..................                                    28453732
+3        81040598           ..................                                   81040581
+3        21815612                              .................                 21815596
+58       479263                             .................                    479279
+53       6337861                       .................                         6337877
+6        4874380                            .................                    4874396
+2        52596964   .................                                            52596980
+32       8861746        .................                                        8861730
+32       17074605                                  .................             17074589
+31       3102695           .................                                     3102679
+31       5859096                                               ................  5859081
+23       12350870                                          .................     12350854
+20       2411895                 .................                               2411879
+12       5321843                     .................                           5321827
+0        99554797           .................                                    99554781
+
+Query_7  61        AG  62
+27       1297620   ..  1297621
+27       11374680  .   11374680
+31       5859080   .   5859080
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 100377658579
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  109     2e-22
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  42.1    0.031
+NW_020838062.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020838021.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020837976.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020837948.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020838071.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020838020.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020838007.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020837990.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020837966.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020837956.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020837949.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    1.9  
+NW_020838027.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020838008.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837999.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837963.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837958.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837954.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837953.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837952.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837946.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837945.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020838074.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020838056.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837986.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837957.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+NW_020837947.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  34.2    7.6  
+
+
+
+Query_8  1         CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+27       1298783   ..................A....................C........T..........A  1298842
+27       1328699     ....G.....T.......CC..T........C..A..C...C....T...........  1328642
+6        62858597                            .....................               62858577
+6        12957631     ....A................                                      12957611
+117      2566981     ..................                                          2566998
+76       5539936         ..................                                      5539953
+31       20537430                               ..................               20537447
+3        10307657                               ..................               10307674
+3        66780717           .................                                    66780733
+126      927371                       ..................                         927354
+62       3207628                              ..................                 3207611
+45       7537029   ..................                                            7537012
+21       23865791     ..................                                         23865774
+11       29008288  ..................                                            29008271
+4        44261465                                        ..................      44261448
+82       6404783      .................                                          6404799
+63       7505286                                 .................               7505302
+63       10121500                  .................                             10121516
+54       13141610  ......G..............                                         13141630
+18       6866891                                 .................               6866907
+18       10378859           .................                                    10378875
+13       37594559                     .................                          37594575
+9        24644730              .................                                 24644746
+9        45388377                                .................               45388361
+8        41891865                              ....G................             41891885
+8        45843707    ........G............                                       45843687
+7        33633339          .................                                     33633355
+7        57498200                              .................                 57498184
+0        13322444                              .................                 13322460
+129      783216               .................                                  783200
+111      208939                                                     ...........  208929
+41       4607437                                .................                4607421
+12       23400902                                .................               23400886
+
+Query_8  61        CAGGAAAATTGTAGTGTTGGGAA  83
+27       1298843   ..........A.CA.........  1298865
+3        82373307    .................      82373323
+75       4113337   ..................       4113320
+7        11065789        .................  11065773
+1        60115789    .................      60115805
+111      208928    ......                   208923
+2        68458269       .................   68458253
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 149399305792
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  165     4e-39
+NW_020838000.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  40.1    0.17 
+NW_020837986.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.66 
+NW_020837985.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.66 
+NW_020837959.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.66 
+NW_020837952.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.66 
+NW_020837992.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.6  
+NW_020837988.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.6  
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.6  
+NW_020837989.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.6  
+NW_020837978.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.6  
+NW_020837974.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    2.6  
+
+
+
+Query_9  1         CAACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGG  60
+27       1300450      ....................................A....................  1300506
+27       1278332                                                        .......  1278338
+27       692500                                            ..................    692517
+27       22416623                                                ..............  22416636
+55       122423                                             ...................  122405
+40       8886684                  ...................                            8886702
+14       17378742                ...................                             17378760
+7        55132916                       ............G..........                  55132938
+47       11735915                                     ..................         11735932
+43       1734581                                        ..................       1734598
+6        39535638  ..................                                            39535655
+44       7416855                                ..................               7416838
+44       15181965                                       ..................       15181948
+
+Query_9  61        GGGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+27       1300507   ............CA.....................AT.........  1300552
+27       1278339   .......A....T...A.C.....C........               1278371
+27       22416637  ....                                            22416640
+55       122404    .                                               122404
+41       9720853   ...................                             9720871
+33       20627919                      ..................          20627902
+29       9151302   ..................                              9151285
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 203089681311
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  230     1e-58
+NW_020837982.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.93 
+NW_020838002.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.7  
+NW_020837958.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.7  
+NW_020837951.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.7  
+
+
+
+Query_10  10        TGGTGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTAAGTACGAGCA  69
+27        1300956   ................................A................C..........  1301015
+
+Query_10  70        CTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATCCTGTTCCCAGG  129
+27        1301016   ..T......G..................................................  1301075
+27        1324855                      ........C.....A........T..A..T..C..T.....  1324815
+27        1278563                                     ......A...................  1278588
+37        536196                                                        ........  536189
+57        10899530                                              ...........T....  10899545
+13        28058588                             ..................                 28058605
+6         11031549                                                  .....G......  11031560
+
+Query_10  130       CTGTGTCCTCAG  141
+27        1301076   ............  1301087
+27        1324814   ...C........  1324803
+27        1278589   ......G.....  1278600
+37        536188    ...........   536178
+57        10899546  ......        10899551
+6         11031561  ..........    11031570
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 284792426666
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  200     1e-49
+NW_020837949.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  40.1    0.29 
+NW_020837953.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    1.1  
+NW_020838027.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837983.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837979.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837969.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837955.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837950.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020838113.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837990.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837988.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+NW_020837986.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    4.5  
+
+
+
+Query_11  1         GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+27        1301186   ............C......CA...A...................................  1301245
+27        1324656   ...........A.G..G......T.G.....C..T..T...A................AG  1324597
+27        1278717                             .....A............................  1278750
+4         43870862                                          ....................  43870881
+8         51072761                                                            ..  51072760
+38        12124443            ..................                                  12124426
+24        12818378                                          .........A..........  12818359
+5         47182839                                            ..................  47182822
+168       52777                                ..................                 52794
+43        207875     ..................                                           207892
+41        6328131                                        ..................       6328148
+
+Query_11  61        TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+27        1301246   ........T.G...T....T...TT..............A..T..A..............  1301305
+27        1324596   ..........G...A....A...........A........TT...A....A.G.....T.  1324537
+27        1278751   ....A.....G...................T......T.....................A  1278810
+8         51072759  .................                                             51072743
+82        1186179                          ..................                     1186162
+34        88332                                    .....A.............A......     88307
+24        12818358  ..                                                            12818357
+45        13404613              ...........A..........                            13404634
+
+Query_11  121       CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+27        1301306   .....C.......T.....T.....A.........A.G.....T.......  1301356
+27        1324536   .....C....C..T.....T....C..........                  1324502
+27        1278811   .....C.............................                  1278845
+10        42672873          ..................                           42672856
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 352488168381
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837972.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  145     5e-33
+NW_020837955.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  40.1    0.20 
+NW_020837976.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.79 
+NW_020837959.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.79 
+NW_020837953.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  38.2    0.79 
+NW_020838046.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.1  
+NW_020838030.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.1  
+NW_020837994.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.1  
+NW_020837986.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.1  
+NW_020837952.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  36.2    3.1  
+
+
+
+Query_12  1         GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+27        1302171   .........A....T.....T..................A....G..............A  1302230
+27        1319689   ...........G..T...........C.....CA.T..T..A..G........T..T..C  1319630
+27        1280011      ...........T...........C...C.GA.G..T.....G.G........A...T  1280067
+10        16046498                                                             .  16046498
+8         24012123                  ...................                           24012141
+7         7876599                                          ..................     7876582
+
+Query_12  61        GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+27        1302231   ...T....G.....T.TG....................A.....................  1302290
+27        1319629   ........C.....T.....                                          1319610
+27        1280068   ........G........                                             1280084
+10        16046497  ...................                                           16046479
+31        4874232    ...................                                          4874250
+14        29611233                    ...................                         29611215
+101       804227            ..................                                    804244
+85        2315378      .....G................                                     2315399
+49        3308448                                              .................  3308464
+41        9714343   ..................                                            9714360
+
+Query_12  121       T  121
+27        1302291   .  1302291
+49        3308465   .  3308465
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 242773871912
+
+
+  Database: GCF_003676395.1_ASM367639v1_genomic.fna
+    Posted date:  Feb 4, 2026  11:50 AM
+  Number of letters in database: 2,334,467,171
+  Number of sequences in database:  5,422
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
