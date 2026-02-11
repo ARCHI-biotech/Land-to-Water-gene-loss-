@@ -1,0 +1,389 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1_genomic.fna
+           13,696 sequences; 2,284,626,297 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  77.9    4e-13
+
+
+
+Query_1  1        CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+3800     1426014  ......T........C.........AG............A...............  1425960
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61674555843
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  91.5    3e-17
+
+
+
+Query_2  1        GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+3800     1382955  ...T..G..G...............C....CA.T.....G.....A...........T..  1383014
+3800     1425094                      ......................C..A.......G......  1425055
+
+Query_2  61       CCTGCGCTGGCTCCG  75
+3800     1383015  ...............  1383029
+3800     1425054  T............    1425042
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 105074539198
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  64.4    2e-09
+
+
+
+Query_3  1        GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+3800     1424773  ....A......C........................T...A....  1424729
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38832127753
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  89.7    8e-17
+
+
+
+Query_4  1        GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+3800     1424594  ...................A...................A.-...T..............  1424536
+
+Query_4  61       G  61
+3800     1424535  .  1424535
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 75380012697
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  307     8e-82
+
+
+
+Query_5  1        GGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCGT  60
+3800     1423558  ..........................C...........G.....A............T..  1423499
+3800     1388454  ....G....AC....TC.CT.A......A....C.....C....TG..T.........A.  1388513
+3800     1444219                                 ......C.C...AAC..G...A.....A.  1444191
+
+Query_5  61       GTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGCA  120
+3800     1423498  ..........................................T.....T...........  1423439
+3800     1388514  C.....C........T..A..T..G..TG.......T......C....G.C......A..  1388573
+3800     1444190  .C....CC........A.AGGC..G....T.........C...C....CA..T...GA..  1444131
+
+Query_5  121      GGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTG-C  179
+3800     1423438  ....................................C.........A...........-.  1423380
+3800     1388574  ....T..G..............C.......C....TGC.T....GG.....C.-....C.  1388632
+3800     1444130  A..G.......G.G.....                                           1444112
+
+Query_5  180      AGACAGAGCGG  190
+3800     1423379  ...........  1423369
+3800     1388633  ....C..      1388639
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 365474466720
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  167     7e-40
+
+
+
+Query_6  1        GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+3800     1422457  ........G...................................................  1422398
+3800     1389686     ......C.....A.........ACCC....T.A.........G..G..T..T..C..  1389742
+
+Query_6  61       GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+3800     1422397  ..................G..................  1422361
+3800     1389743  A..TC.......G..                        1389757
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 155327579684
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  104     4e-21
+
+
+
+Query_7  1        GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+3800     1421688  ...T.....C..................................................  1421629
+
+Query_7  61       AG  62
+3800     1421628  ..  1421627
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 77664255506
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  128     5e-28
+
+
+
+Query_8  1        CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+3800     1420464  .......................................C........T..........A  1420405
+3800     1390323    ....G.....T.......CC..T........C..A..C...C....T...........  1390380
+
+Query_8  61       CAGGAAAATTGTAGTGTTGGGAA  83
+3800     1420404  ..........A.C..........  1420382
+3800     1390381  T.A...G..                1390389
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123348372102
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  165     3e-39
+
+
+
+Query_9  1        CAACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGG  60
+3800     1418845  ..G...........................G........A....................  1418786
+3800     1393874   ...........G.T...A..G...TATG....C.....CC.G.......TGG...A...  1393932
+3800     1441675                             ..C...C..C..CC.G.......TGG.......  1441643
+
+Query_9  61       GGGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+3800     1418785  ............C......................AT.........  1418740
+3800     1393933  ...C...A....T.....T.....AG.......G..            1393968
+3800     1441642  .......A....T...A.C.....C........G...C.G..C...  1441597
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175885641701
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  217     7e-55
+
+
+
+Query_10  1        GATCAACTATGGTGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTAA  60
+3800      1394060  ............G..T..C.........AAGTAT........A...........ACAGCG  1394119
+3800      1441521  ............G..C...G.G....G.AA.TAC...C....CA.........G.GTGC.  1441462
+3800      1418343   ....C...................................A................C.  1418285
+
+Query_10  61       GTACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATCCT  120
+3800      1394120  ......A...AGT.....G..TTC...G........C.....A........T..A..T..  1394179
+3800      1441461  ....A.....CA....ACCG.GG....A........C.TGT........A..........  1441402
+3800      1418284  ...........T......G.......A.A......................T........  1418225
+
+Query_10  121      GTTCCCAGGCTGTGTCCTCAG  141
+3800      1394180  C..T........C........  1394200
+3800      1441401  ...............G.....  1441381
+3800      1418224  .....................  1418204
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 253547911287
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  213     4e-53
+
+
+
+Query_11  1        GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+3800      1418105  ............C......C....A................................T..  1418046
+3800      1441290  ...........GC..TG....AG.TG.....C............................  1441231
+3800      1394347  ...........A.G..G......T.G.....C..T..T...A................A.  1394406
+
+Query_11  61       TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+3800      1418045  ........T.G...T....T...TT..............A..T..A...........G..  1417986
+3800      1441230  ..........G...................T......T............T....A...A  1441171
+3800      1394407  ..........G...A....A...........A........TG.T.A....A.G.....T.  1394466
+
+Query_11  121      CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+3800      1417985  ..T..C..A....T.....T.....A.........A.G.....T..T....  1417935
+3800      1441170  .....C.............................CTCC.G.........   1441121
+3800      1394467  .....C....C..T.....T....C..........                  1394501
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 322074373797
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020175443.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  163     1e-38
+
+
+
+Query_12  1        GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+3800      1417120  ..............T.....T..................A....G..............A  1417061
+3800      1399318  ...........G..T...........C.....CA.T..T..A..G........T.....C  1399377
+
+Query_12  61       GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGAC-AAGGAGCTCACCCCTGT  119
+3800      1417060  ...T....G.....T.TG....................A...A.................  1417001
+3800      1399378  ........C.....T.....                                          1399397
+
+Query_12  120      CT  121
+3800      1417000  ..  1416999
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 212432033781
+
+
+  Database: GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1_genomic.fna
+    Posted date:  Feb 4, 2026  10:57 AM
+  Number of letters in database: 2,284,626,297
+  Number of sequences in database:  13,696
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
