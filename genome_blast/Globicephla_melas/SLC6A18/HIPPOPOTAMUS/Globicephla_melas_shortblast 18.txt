@@ -1,0 +1,420 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+           992 sequences; 2,651,276,051 total letters
+
+
+
+Query= exon_1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  161     1e-37
+NC_083335.1 Globicephala melas chromosome X, mGloMel1.2, whole ge...  61.9    8e-08
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  61.9    8e-08
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  60.0    3e-07
+
+
+
+Query_1  42         CGAGCGGGCCACGTGGGACAACAAGCTGCAGTACCTCCTGAGCTGCGTCGGGTTCGCCGT  101
+2        666086     .......C...A...............C....G.........T...........T.....  666145
+2        646732                 .............GCT......A.G..C.C......G..C...TG...  646779
+2        785539                                                         .....T..  785532
+21       2020043                                              ......G..C........  2020026
+10       41671397                                                         ......  41671402
+0        91527609                                                             ..  91527608
+0        152083146                                                         .....  152083150
+
+Query_1  102        GGGCCTGGGCAACCTCTGGCGGTTCCCGTACCTGTGCCAGACCTACGGGGGAG  154
+2        666146     ...................A...C.............................  666198
+2        646780     ......A......G.G.....C.....C.............              646820
+2        785531     ..A.....C....G.............T.........                  785495
+21       2020025    .............G.G.....C.....C.........                  2019989
+10       41671403   .............G.G.....C.....C.............              41671443
+0        91527607   ......T......A.....A.......C.............              91527567
+0        152083151  .............G.......C...........                      152083183
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 355268332274
+
+
+Query= exon_2
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  97.6    1e-18
+
+
+
+Query_2  4       CCTTCCTCATCCCCTACCTCATCGCCCTGGCCCTCGAGGGCATCCCTCTCTTCCACGTCG  63
+2        670968  .....A.....................-....T.........G..G---.......A...  671023
+
+Query_2  64      AGCTCGCCGTCGGCCAGCGCCTGCGCCGGGGCAGCACAGGCGTGTGGACGGCCATCTCGC  123
+2        671024  .....A..A.T............T..A........CTC..-...................  671082
+
+Query_2  124     CCTACCTGGGC  134
+2        671083  ...........  671093
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 320802001531
+
+
+Query= exon_3
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  83.8    2e-14
+
+
+
+Query_3  60      TGGGTGCTGTGGTACCTCCTCAACTCCTTCCAACACCCGCTGCCCTGGAGCACCTGCCCA  119
+2        672256  ...................C........C.....--...........C...G.......G  672313
+
+Query_3  120     CCGGACCTCAACC  132
+2        672314  .............  672326
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 315499607157
+
+
+Query= exon_4
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  167     2e-39
+
+
+
+Query_4  15      TGCCGGGACAGCAGCCCCGTGAGCTACTTCTGGTACCGGCAGACGCTGAACATCACGGCC  74
+2        672874  ........T......G.T......CT....C.............................  672933
+
+Query_4  75      AACATCAACGACAGTGGCTCTGTCCAGTGGCGACTGCTGGTCTGCTTGGCGGCCTCCTGG  134
+2        672934  G...C......................C.CT.G....G..........A...........  672993
+
+Query_4  135     GCCATCGTATACCTCTGTGTCATCAGAGGTATTGAGACCACTGGGAAG  182
+2        672994  .....G..GC....G..C...........C.C................  673041
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 429503506182
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  81.8    6e-14
+
+
+
+Query_5  29      ACCTGGTCCTCACGGTTTTCCTCGTCAGAGGGCTCACCCTGCCCGGGGCGACCGAAGGAC  88
+2        675049  .....C.....T...........A.......A.C.........T................  675108
+
+Query_5  89      TGACCTACC  97
+2        675109  A........  675117
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 243915662676
+
+
+Query= exon_6
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  109     3e-22
+
+
+
+Query_6  31      CTGGATGCAGCAACCCAGATATTCTTCTCTCTGTCCCTGGCCTTCGGAGGGCACATCGCT  90
+2        675973  ...........C.........C....T.......................A...G..A..  676032
+
+Query_6  91      TTTGCGAGTTACAACCCGCCCAG  113
+2        676033  .....A.................  676055
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 249218177082
+
+
+Query= exon_7
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  163     2e-38
+
+
+
+Query_7  13      GAGGGACGCGGTGACCATCGCCCTGGTCAACAGCATGACCTCCCTCTACGCTTCCATTGC  72
+2        676705  ...............................G...............G...--.....A.  676762
+
+Query_7  73      TGTCTTCTCTGTCCTGGGGTTCAAGGCGGCCCACGACCACGGGCGCTGCCTGGATGG  129
+2        676763  ...............................AG...............A........  676819
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 291638292330
+
+
+Query= exon_8
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  168     5e-40
+
+
+
+Query_8  13      CCTCCTCAACGCCTTCGACCTCCCCGACCAGAGCATCTCCAGGGACGACTACGCCGCTGC  72
+2        678197  ....G.............T..........................G.....T..G.....  678256
+
+Query_8  73      CCTCGTGCACCTGAACGCCACCCGGCCCGGGCGGGTGGCCCAGCTCCCCCTGGAGGCCTG  132
+2        678257  ............TG..T.....T......A........-.GG..................  678315
+
+Query_8  133     CCGCCTGGAGGACTTCCTGGATAAG  157
+2        678316  .T.......................  678340
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 363222100907
+
+
+Query= exon_9
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  115     9e-24
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  50.1    4e-04
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  50.1    4e-04
+
+
+
+Query_9  9         GGGCACGGGCCTGGCCTTCATCGTCTTCACGGAGGCCGTCCTCCACATGCCGGCGGGCCC  68
+2        660110    ......C..G.....G........G.....C......A..AC.AGG..........C...  660169
+2        678895                                              ...........G..C...  678912
+10       41706172  ......C...................A...A......                         41706208
+0        91500335  ......A................C......C......                         91500299
+
+Query_9  69        CGTCTGGGCCGTGCTCTTCTTCGGGATGCTGTTCAGCCTGGGCCTGTCGTCCATGTTCGG  128
+2        660170    GC.....T.............TATC.........T.T.......................  660229
+2        678913    ..........-.........CA.....A..................A......C.C..A.  678971
+
+Query_9  129       GAACATGGAAAGCATCCTCACCCCGCTCCTGGACGCGGGGCTCATGCCCAGATGGGTCCC  188
+2        660230    .........                                                     660238
+2        678972    .....C.......G..G....A..A.........TT.AA.GC..C...............  679031
+
+Query_9  189       CAAGGAGGCCCT  200
+2        679032    ............  679043
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 490482399035
+
+
+Query= exon_10
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  109     4e-22
+
+
+
+Query_10  34      CCTGCTTCACGTTGCAGTCCGGAAACTACTGGCTCGAGATCTTCGACCGCTACGTCGCTT  93
+2         679325  ...........C...G.G.G..C......C.............T..............C.  679384
+
+Query_10  94      CCCTGAACCTGATCTTCTTTGCGTTCTTCGAGGTGGTCGGAGTCATTTATGTTTACGGGA  153
+2         679385  .....GG.....A.C....C.......C.......ACT..T...................  679444
+
+Query_10  154     TGAAACG  160
+2         679445  .......  679451
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 371175869540
+
+
+Query= exon_11
+
+Length=163
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  115     7e-24
+
+
+
+Query_11  36      AGCCCGGCCTCTACTGGCAGGTGACCTGGAAGGTGGTCAGCCCCCTGCTGCTGCTGAGCA  95
+2         680611   ....................C...........CC...................C..C..  680669
+2         662169  .....A..A...T.........C..G....G......G...........CA......C..  662228
+
+Query_11  96      TCTTCGTGGCCTACACTGCCCTCCTGGCCAGCTCGCCGCCGGCTTACAAGGCCTGGAACC  155
+2         680670  C...T.........GT..................A..-....GC.G.G............  680728
+2         662229  .....                                                         662233
+
+Query_11  156     CCC  158
+2         680729  ...  680731
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 379129638173
+
+
+Query= exon_12
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  65.9    5e-09
+
+
+
+Query_12  33      CCCGGGATGGGTGCAGGCCGTCTGCGTGCTCCTGTCCCTCCTGCCTGCGCTGTGGGTCCC  92
+2         681744  ......C............AC.....C..........TC.........A...........  681803
+
+Query_12  93      G  93
+2         681804  .  681804
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 328755770164
+
+
+Query= exon_13
+
+Length=276
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  52.0    1e-04
+
+
+
+Query_13  140     GGGGTCCCGACGGCCAGGCCCGCGGCGGGGGCGTGTCTGGGAAGGCCCAGCTACACCCCA  199
+2         682141  .....G.....A........A....TA....G.CA..........T.....C........  682200
+
+Query_13  200     CAGCTGAGGG  209
+2         682201  ....C.....  682210
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 678721590016
+
+
+  Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+    Posted date:  Feb 4, 2026  12:11 PM
+  Number of letters in database: 2,651,276,051
+  Number of sequences in database:  992
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
