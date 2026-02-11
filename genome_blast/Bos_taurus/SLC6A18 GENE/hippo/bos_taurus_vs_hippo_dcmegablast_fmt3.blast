@@ -1,0 +1,382 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002263795.3_ARS-UCD2.0_cds_from_genomic.fna
+           64,900 sequences; 133,203,668 total letters
+
+
+
+Query= exon_1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037347.1_cds_NP_001095583.1_48257 [gene=SLC6A18] [db_xref=...  155     5e-37
+lcl|NC_037347.1_cds_XP_024837319.1_48258 [gene=SLC6A19] [db_xref=...  123     3e-27
+lcl|NC_037330.1_cds_NP_001160045.1_6966 [gene=SLC6A17] [db_xref=G...  86.9    2e-16
+lcl|NC_037330.1_cds_XP_024841025.1_6965 [gene=SLC6A17] [db_xref=G...  86.9    2e-16
+lcl|NC_037330.1_cds_XP_024841022.1_6964 [gene=SLC6A17] [db_xref=G...  86.9    2e-16
+lcl|NC_037330.1_cds_XP_024841021.1_6963 [gene=SLC6A17] [db_xref=G...  86.9    2e-16
+lcl|NC_037349.1_cds_NP_001422089.1_51567 [gene=SLC6A20] [db_xref=...  84.2    7e-16
+lcl|NC_037357.1_cds_NP_777036.1_62203 [gene=SLC6A8] [db_xref=Gene...  68.9    6e-11
+lcl|NC_037347.1_cds_XP_024837318.1_48249 [gene=SLC6A3] [db_xref=G...  68.9    6e-11
+
+
+
+Query_1  1    ATGGCGGACGCCCCGGGGCCTGAGCCGCCCGCGGACGGTGGCG------AGCGGGCCACG  54
+48256    1    ......CG.A....A.....C..C.AA..T.T......C....GGGAGG.....C.AG..  60
+48257    93                                                     ....C.....  102
+51566    21                                                              .  21
+
+Query_1  55   TGGGACAACAAGCTGCAGTACCTCCTGAGCTGCGTCGGGTTCGCCGTGGGCCTGGGCAAC  114
+48256    61   ...........A..C........G...........G..C.....T...............  120
+48257    103  ............GC.......A.G....C......G..C...TG................  162
+6965     187  ...A...G.............A.....GC.CAGA.T..C...T.T........C......  246
+6964     187  ...A...G.............A.....GC.CAGA.T..C...T.T........C......  246
+6963     187  ...A...G.............A.....GC.CAGA.T..C...T.T........C......  246
+6962     187  ...A...G.............A.....GC.CAGA.T..C...T.T........C......  246
+51566    22   ....C..C.CC........T.G.GT.CGC....A..TC..A...................  81
+62202    193                                .....G..C..T..................  222
+48248    221                                    ....C..........A.....C....  246
+
+Query_1  115  CTCTGGCGGTTCCCGTACCTGTGCCAGACCTACGGGGGAG  154
+48256    121  ........C....................GC.T.......  160
+48257    163  G.G.....C.....C.............G.C....C....  202
+6965     247  A.....A.......T.............AAA....A....  286
+6964     247  A.....A.......T.............AAA....A....  286
+6963     247  A.....A.......T.............AAA....A....  286
+6962     247  A.....A.......T.............AAA....A....  286
+51566    82   G.G.....C.....C.............TG.....C....  121
+62202    223  G.G.....C.....C.........T.C.AGA....C....  262
+48248    247  G.............A.........                  270
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16834082304
+
+
+Query= exon_2
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037347.1_cds_NP_001095583.1_48257 [gene=SLC6A18] [db_xref=...  167     7e-41
+lcl|NC_037330.1_cds_NP_001160045.1_6966 [gene=SLC6A17] [db_xref=G...  53.6    1e-06
+lcl|NC_037330.1_cds_XP_024841025.1_6965 [gene=SLC6A17] [db_xref=G...  53.6    1e-06
+lcl|NC_037330.1_cds_XP_024841022.1_6964 [gene=SLC6A17] [db_xref=G...  53.6    1e-06
+lcl|NC_037330.1_cds_XP_024841021.1_6963 [gene=SLC6A17] [db_xref=G...  53.6    1e-06
+
+
+
+Query_2  3    GCCTTCCTCATCCCCTACCTCATCGCCCTGGCCCTCGAGGGCATCCCTCTCTTCCACGTC  62
+48256    163  ..................A..............T.............G..G......A.T  222
+6965     328                                         ..G.....G......TT.C.G  348
+6964     328                                         ..G.....G......TT.C.G  348
+6963     328                                         ..G.....G......TT.C.G  348
+6962     328                                         ..G.....G......TT.C.G  348
+
+Query_2  63   GAGCTCGCCGTCGGCCAGCGCCTGCGCCGGGGCAGCACAGGCGTGTGGACGGCCATCTCG  122
+48256    223  .....T..T..................A........GTC..G.C......A.........  282
+6965     349  .....G..T..G......A.GA.C.....T.......TC.........              396
+6964     349  .....G..T..G......A.GA.C.....T.......TC.........              396
+6963     349  .....G..T..G......A.GA.C.....T.......TC.........              396
+6962     349  .....G..T..G......A.GA.C.....T.......TC.........              396
+
+Query_2  123  CCCTACCTGGGCGGAAT  139
+48256    283  .....T.....G..C..  299
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 15124370820
+
+
+Query= exon_3
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037347.1_cds_NP_001095583.1_48257 [gene=SLC6A18] [db_xref=...  191     6e-48
+
+
+
+Query_3  1    GGCTGGGCTGCTTCCTCCTGTCCGTCCTGGTCAGCCTGTACTACAACACGGTCCTAACTT  60
+48256    302  ..............AC.G.....T.........................C.....G..C.  361
+
+Query_3  61   GGGTGCTGTGGTACCTCCTCAACTCCTTCCAACACCCGCTGCCCTGGAGCACCTGCCCAC  120
+48256    362  .......C.......................G..................G.......G.  421
+
+Query_3  121  CGGACCTCAACCGCACAG  138
+48256    422  TC................  439
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 14729822016
+
+
+Query= exon_4
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037347.1_cds_NP_001095583.1_48257 [gene=SLC6A18] [db_xref=...  213     3e-54
+
+
+
+Query_4  3    CTCTTGCGGGAATGCCGGGACAGCAGCCCCGTGAGCTACTTCTGGTACCGGCAGACGCTG  62
+48256    442  ...G...A...G........................................G...C...  501
+
+Query_4  63   AACATCACGGCCAACATCAACGACAGTGGCTCTGTCCAGTGGCGACTGCTGGTCTGCTTG  122
+48256    502  ...G..T.....G.....GGT.....C...C.G...........G............C..  561
+
+Query_4  123  GCGGCCTCCTGGGCCATCGTATACCTCTGTGTCATCAGAGGTATTGAGACCACTGGGAAG  182
+48256    562  ..C.T..........G....G.....G..C........G..C..C...............  621
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 20374962040
+
+
+Query= exon_5
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 11178882780
+
+
+Query= exon_6
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037346.1_cds_XP_059733713.1_44686 [gene=SLC6A4] [db_xref=G...  73.4    9e-13
+lcl|NC_037346.1_cds_NP_777034.1_44685 [gene=SLC6A4] [db_xref=Gene...  73.4    9e-13
+lcl|NC_037346.1_cds_XP_024835400.1_44684 [gene=SLC6A4] [db_xref=G...  73.4    9e-13
+lcl|NC_037346.1_cds_XP_024835399.1_44683 [gene=SLC6A4] [db_xref=G...  73.4    9e-13
+
+
+
+Query_6  23    GGGTGTGGCTGGATGCAGCAACCCAGATATTCTTCTCTCT-GTCCCTGGCCTTCGGAGGG  81
+44685    971   ........G..........CG.......C...........C.G......-...T..G.TC  1029
+44684    971   ........G..........CG.......C...........C.G......-...T..G.TC  1029
+44683    971   ........G..........CG.......C...........C.G......-...T..G.TC  1029
+44682    971   ........G..........CG.......C...........C.G......-...T..G.TC  1029
+
+Query_6  82    CACATCGCTTTTGCGAGTTACAAC  105
+44685    1030  .TAC.G...........C......  1053
+44684    1030  .TAC.G...........C......  1053
+44683    1030  .TAC.G...........C......  1053
+44682    1030  .TAC.G...........C......  1053
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 11441915316
+
+
+Query= exon_7
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 13546175604
+
+
+Query= exon_8
+
+Length=157
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17088677840
+
+
+Query= exon_9
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|NC_037347.1_cds_XP_024837319.1_48258 [gene=SLC6A19] [db_xref=...  148     1e-34
+
+
+
+Query_9  9     GGGCACGGGCCTGGCCTTCATCGTCTTCACGGAGGCCGTCCTCCACATGCCGGCGGGCCC  68
+48257    1182  ......C..G....................C......A..AC.A.G.......T..CG..  1241
+
+Query_9  69    CGTCTGGGCCGTGCTCTTCTTCGGGATGCTGTTCAGCCTGGGCCTGTCGTCCATGTTCGG  128
+48257    1242  .C.....T....C..........TC.....C...T.........................  1301
+
+Query_9  129   GAACATGGA  137
+48257    1302  C........  1310
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 23398343504
+
+
+Query= exon_10
+
+Length=160
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17483031944
+
+
+Query= exon_11
+
+Length=163
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17877386048
+
+
+Query= exon_12
+
+Length=144
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 15518919624
+
+
+Query= exon_13
+
+Length=276
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 32731390632
+
+
+  Database: GCF_002263795.3_ARS-UCD2.0_cds_from_genomic.fna
+    Posted date:  Feb 5, 2026  3:35 AM
+  Number of letters in database: 133,203,668
+  Number of sequences in database:  64,900
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
