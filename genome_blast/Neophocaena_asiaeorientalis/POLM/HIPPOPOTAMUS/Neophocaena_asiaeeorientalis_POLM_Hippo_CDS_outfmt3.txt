@@ -1,0 +1,117 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1_genomic.fna
+           13,696 sequences; 2,284,626,297 total letters
+
+
+
+Query= lcl|XM_057731758.1_cds_XP_057587741.1_1 [gene=POLM]
+[db_xref=GeneID:130851436] [protein=DNA-directed DNA/RNA polymerase
+mu isoform X3] [protein_id=XP_057587741.1] [location=72..1688]
+[gbkey=CDS]
+
+Length=1617
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020171804.1 Neophocaena asiaeorientalis asiaeorientalis breed ...  254     1e-64
+
+
+
+Query_1  174    CAGCCCAGAGGTAACACACGTCGTGATGGAGGGGACGTCAGCAGAGGAGGCCGTCTGCTG  233
+162      47324  ....T.......G.......................C.....................CA  47265
+
+Query_1  234    GCAGGAGCGCTGGACGGTGGCCCTTCCCCCAGGTTGCGCCCGCCCAGCACTCTTAGACAT  293
+162      47264  ..........A......C........A......A...A.........TG.........G.  47205
+
+Query_1  294    AAGCTGGTTCACGGAGAGCATGGCGGCCGGACAGCCTGTCCCCGTGGAGTGCCGGCACCG  353
+162      47204  ...........................T..G.....A.....T...............T.  47145
+
+Query_1  354    CCTGGAGGTG-GCTGTGCCCAGGAAGGGGCTGCCAAGCCCAGCGTGGATGCTGCCGTATG  412
+162      47144  ..........A....                                               47130
+
+Query_1  413    CCTGCCAGCGTCCCACACCCCTCACGCACCACAACGCCAGCCTCTCGGAGGCTCTGGAGA  472
+
+Query_1  473    CGCTGGCAGAGGCCGCGGGCTTCGATGGCAGCGAGGGCCGCCAGCTCTCCTTCTGCAGAG  532
+
+Query_1  533    CGGCCTCAGTGCTCAAGGCTCTTCCCAGCCCAGTCACAACGCTGAACCAGCTGCAGGGCC  592
+
+Query_1  593    TGCCCCACTTCGGAGAACACTCCCGCAGGGTCATCCAGGAGCTGCTGGAACACGGAGTGT  652
+162      45183                                     ................G........  45159
+
+Query_1  653    GTGAGGAGGTGGAGAGAGTCAGGCTCTCAGAGAGGTACCAGACCATGAAGCTCTTCACTC  712
+162      43179                                                  ............  43168
+162      45158  ....................C.......G............G........            45109
+
+Query_1  713    AGATTTTTGGCGTTGGGGTAAGGACTGCGGACCGGTGGTATCGGGATGGGCTGCGGACGC  772
+162      43167  ....C.....G..C...........C..T...........C.A...G.............  43108
+
+Query_1  773    TGGATGACCTCCGAGAGCAGCCCCAGAGACTGACCCAGCAGCAGAGAGTAGGACTCCAGC  832
+162      41729                                                   ...........  41719
+162      43107  ....C.............................G....G........C...          43056
+
+Query_1  833    ACCACCAGGACCTGAGCTCCCTGATCCTGCGGTCAGATGTGCAGGCCCTGCAGCACGTGG  892
+162      41718  .................A...G...................G..A..........G....  41659
+
+Query_1  893    TGGAGGCAGCCGTGGGGCAGGCCCTTCCTGGGGCCACCGTCACACTGACTGGCGGCTTCC  952
+162      41658  ...........A.........................G...G.G.....C..........  41599
+
+Query_1  953    GGAGGGGGAAGTTGCAGGGCCACGACGTGGACTTCCTCATCACCCACCCTCAGGAGGGCC  1012
+162      41598  A....                                                         41594
+162      41454                ...................................C..........  41409
+
+Query_1  1013   AGGAGGCAGGGCTGCTGCCCAGAGTTCTGTGCTGCCTGAAGGAGCAGGGCCTGGTCCTCT  1072
+162      41408  G........................GA...A..........A......              41361
+
+Query_1  1073   ACCACCAGGACCACCAGAGCCAACAGGGAGACCCCACCCACCTGATGCGGCAGAGCCACA  1132
+
+Query_1  1133   CCATGGACGCCTTTGAGAGGAGTTTCTGCATTTTCCGCCTGCCACAACCCCCAGGGGATG  1192
+
+Query_1  1193   CCGTAGGGGGCTCCCAGAAGCCCTGCGCCTCCTGGAAGGCTGTGCGGGTGGACCTGGTGG  1252
+
+Query_1  1253   TTGCCCCCATCAGCCAGTTCCCTTTTGCCCTCCTCGGCTGGACTGGCTCCAAGCATTTCG  1312
+
+Query_1  1313   AGCGGGAGCTGCGCCGCTTCAGCCGGAAGGAGAGGGGGCTTTGGCTGAACAGCCATGGTC  1372
+
+Query_1  1373   TGTTTGATCCAGAGCAGGGAAGCTGCCACGGTGGTGGGGGTGACTCCCAGGCACTAATAC  1432
+162      40691                  ...........G.........-A...G......A.....CG.G.  40649
+
+Query_1  1433   TTGCACTCTGTTACAGAAGGCGTTTTCCCACGTGGTTTCAGAGGAAGATATCTTCAGACT  1492
+162      40648  ............G......A.....CT........C............C...........  40589
+
+Query_1  1493   CTTGGGCCTTGAGTACCTTCCCCCAGAGCAGAGAAACGCCTGATCCTATTAGGTGGCCCC  1552
+162      40588  .......................TCC...C......T...............C.......  40529
+
+Query_1  1553   CACTTCCACTCTTTGGAAATGGAGGGGGCCATTTGAGCCAGACCCTATGGGTGTTTTGC-  1611
+162      40528  ......TG....C.............T....C..........TG..G........C..GT  40469
+
+Query_1  1612   CCCTGA  1617
+162      40468  ......  40463
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3625049866779
+
+
+  Database: GCF_003031525.2_Neophocaena_asiaeorientalis_V1.1_genomic.fna
+    Posted date:  Feb 4, 2026  10:57 AM
+  Number of letters in database: 2,284,626,297
+  Number of sequences in database:  13,696
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
