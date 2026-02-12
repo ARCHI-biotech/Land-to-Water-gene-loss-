@@ -1,0 +1,94 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_937001465.1_mOrcOrc1.1_genomic.fna
+           448 sequences; 2,647,351,467 total letters
+
+
+
+Query= lcl|NM_174975.5_cds_NP_777635.1_1 [gene=SEC14L3]
+[db_xref=CCDS:CCDS13877.1] [protein=SEC14-like protein 3 isoform 1]
+[protein_id=NP_777635.1] [location=60..1262] [gbkey=CDS]
+
+Length=1203
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  270     1e-69
+
+
+
+Query_1  173       AGTACATGGAGTTCCGGAAGACCATGGATATTGACCATATCCTTGATTGGCAGCCCCCAG  232
+14       66489185  ............................C.......GC..A.-...............C.  66489243
+
+Query_1  233       AGGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGATGGCTGCCCCG  292
+14       66490221  ........................A..C...........G.....A............T.  66490280
+14       66489244  ......G...                                                    66489253
+
+Query_1  293       TGTGGTATGACATCATTGGGCCACTTGATCCCAAGGGGTTGCTCTTCTCAGTCACCAAGC  352
+14       66490281  ................C.....G.....C........CC....T.....T..........  66490340
+
+Query_1  353       AGGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGCATCCTGCATGAGTGTGACCTGC  412
+14       66490341  ..............................................CA............  66490400
+
+Query_1  413       AGACAGAGAGGCTAGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAGGGCC  472
+14       66490401  ........                                                      66490408
+
+Query_1  473       TGGGACTGAAACACTTCTGGAAACCTCTGGTAGAAGTGTACCAGGAGTTCTTTGGCCTCC  532
+14       66492082                                               ...............  66492096
+
+Query_1  533       TTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATCGTGAAAGCTACCAAACTGT  592
+14       66492097  ........................................T.......              66492144
+
+Query_1  593       TCCCTGTGGGCTACAACCTCATGAAGCCATTCCTGAGTGAGGACACTCGCAGGAAAATTA  652
+
+Query_1  653       TTGTGTTGGGAAATAACTGGAAGGAAGGTTTGCTGAAACTCATCAGTCCTGAGGAACTGC  712
+
+Query_1  713       CTGCCCAGTTTGGGGGCACCCTGACTGACCCAGATGGGAACCCCAAATGTTTAACCAAGA  772
+14       66495475                                                         ...-.  66495478
+
+Query_1  773       TTAACTATGGCGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTCAGT  832
+14       66495479  .C........T.................................................  66495538
+
+Query_1  833       ACGAGCACTCGGTGCAGATCAACCGCGGCTCATCACACCAAGTGGAATACGAGATCCTAT  892
+14       66495539  .........T...........G....A....C..G.....G.....G...........G.  66495598
+
+Query_1  893       TTCCAGGCTGCGTTCTCAGGTGGCAGTTCTCATCTGATGGTGCGGACATCGGCTTCGGAG  952
+14       66473211                  .............G....G..C.AG.T.......A.......G.  66473254
+14       66495599  .C........T..C.......                                         66495619
+
+Query_1  953       TTTTCCTGAAGACCAAGATGGGGGAGCGACAGCGGGCAGGGGAGATGACAGATGTTCTAC  1012
+14       66473255  ............................G........C..........TG..G.....G.  66473314
+
+Query_1  1013      CCAGCCAGCGCTATAACGCCCACATGGTGCCCGAGGATGGGAACCTCACCTGC-TCAGAG  1071
+14       66473315  .............C...A.....C..................G..........C..C-..  66473373
+
+Query_1  1072      GCCGGCGTC  1080
+14       66473374  .........  66473382
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3105327505671
+
+
+  Database: GCF_937001465.1_mOrcOrc1.1_genomic.fna
+    Posted date:  Feb 4, 2026  5:47 AM
+  Number of letters in database: 2,647,351,467
+  Number of sequences in database:  448
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
