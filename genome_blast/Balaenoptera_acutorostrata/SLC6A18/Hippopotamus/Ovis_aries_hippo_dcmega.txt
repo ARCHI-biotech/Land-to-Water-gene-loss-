@@ -1,0 +1,398 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Ovis_aries/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
+           143 sequences; 2,654,063,983 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  82.4    1e-14
+
+
+
+Query_1      1         CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+NC_056070.1  69442705  .........................AGT...........A...............  69442651
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 71659619433
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  113     1e-23
+
+
+
+Query_2      1         GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+NC_056070.1  69441777  .....................C........C.........G.C.................  69441718
+NC_056070.1  69401959  ...T..G..G...............C....C........G.....A...........T..  69402018
+
+Query_2      61        CCTGCGCTGGCTCCG  75
+NC_056070.1  69441717  T..............  69441703
+NC_056070.1  69402019  ...............  69402033
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122086752456
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  77.9    3e-13
+
+
+
+Query_3      1         GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+NC_056070.1  69441435  ...........C.................................  69441391
+NC_056070.1  69462624  ..C.....C.............G........A.........T...  69462580
+NC_056070.1  69406841               .............C..............G...  69406872
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45119019643
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  102     1e-20
+
+
+
+Query_4      1         GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+NC_056070.1  69441285  ...................A.........................A..............  69441226
+NC_056070.1  69407218    ..G..............CAA.A..........A.....A.GAG.........T..A..  69407275
+
+Query_4      61        G  61
+NC_056070.1  69441225  .  69441225
+NC_056070.1  69407276  .  69407276
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 84929914752
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  298     5e-79
+
+
+
+Query_5      1         GGTGATCCAGAAGTAC-ATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCG  59
+NC_056070.1  69440003  ................-........A....................A..T..........  69439945
+NC_056070.1  69407816  ....G.....C.....-C..T.A......A....C.....C...TTG..A....C....A  69407874
+NC_056070.1  69462105  ....G.....CG....G.C...-..C........C.....C...TA...G..........  69462047
+
+Query_5      60        TGTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGC  119
+NC_056070.1  69439944  .......C.................G.......................G..........  69439885
+NC_056070.1  69407875  .C.....C........T..T..C..G...G..............C......C..G.....  69407934
+NC_056070.1  69462046  ......TC............A.CA.G..............C...C.A....C.T......  69461987
+
+Query_5      120       AGGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGC  179
+NC_056070.1  69439884  .....................................C................C.....  69439825
+NC_056070.1  69407935  .....T..T..............C.......C....TGC.G.....G..A....T..GC.  69407994
+NC_056070.1  69461986  ....G...A..CG..AGCGC..C....T...C....TGC.TT.............G.A..  69461927
+
+Query_5      180       AGACAGAGCGG  190
+NC_056070.1  69439824  ....CC.....  69439814
+NC_056070.1  69407995  ...          69407997
+NC_056070.1  69461926  ...          69461924
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 421995468450
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  144     9e-33
+
+
+
+Query_6      1         GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+NC_056070.1  69438944  ........G........................T..C.....C..G..G...........  69438885
+NC_056070.1  69411220    .............A.......C.ACCC....C.A......C..G........T..C..  69411277
+
+Query_6      61        GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+NC_056070.1  69438884  ..................G..................  69438848
+NC_056070.1  69411278  ...TC.......G..AGC......               69411301
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 177821999431
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  99.6    2e-19
+
+
+
+Query_7      1         GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+NC_056070.1  69437977  ......CA.C..................................................  69437918
+
+Query_7      61        AG  62
+NC_056070.1  69437917  ..  69437916
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87583974588
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  137     1e-30
+
+
+
+Query_8      1         CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+NC_056070.1  69436759  .......................................C........T........G..  69436700
+NC_056070.1  69411924    ....G.............CC.....T...G.C..A..C...C....T...........  69411981
+
+Query_8      61        CAGGAAAATTGTAGTGTTGGGAA  83
+NC_056070.1  69436699  .......................  69436677
+NC_056070.1  69411982  T.A...G..                69411990
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 143319231144
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  169     3e-40
+
+
+
+Query_9      1         CAACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGG  60
+NC_056070.1  69435850  ...............A........................C...................  69435791
+NC_056070.1  69415884   ...........G.T......G...TAT.....C..C..CC.GT......TGG...AC..  69415942
+
+Query_9      61        GGGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+NC_056070.1  69435790  ............C.......................T.....C...  69435745
+NC_056070.1  69415943  ...C...A....T.....T.....A..T........            69415978
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 201708536668
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  224     2e-56
+
+
+
+Query_10     1         GATCAACTATGGTGGGGAGATCCCCAAGTCCATG--TACGTGCGGGACCAGGTGAAGACT  58
+NC_056070.1  69435353  ..................................--...........T............  69435296
+NC_056070.1  69416075  .........C..G..T..C.........AAGTAT--.............G.......CAG  69416132
+NC_056070.1  69458393  .........C..G..C..CG.G...C..--...TAC...C....CA....T....G.GTG  69458336
+NC_056070.1  69479540  .........C..G..C..CG.G...C..--...TAC...C..T.CA....T....G.GTG  69479483
+
+Query_10     59        AAGTACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATC  118
+NC_056070.1  69435295  C.............A.C...G................................T......  69435236
+NC_056070.1  69416133  C....T......AGC.....G..TTC...G........C.....A...............  69416192
+NC_056070.1  69458335  C.......C...CA..C.ACCG.GG....A........C.TG........CA........  69458276
+NC_056070.1  69479482  C.......C...CA..C.ACCG.GG....A........C.TG........CA........  69479423
+
+Query_10     119       CTGTTCCCAGGCTGTGTCCTCAG  141
+NC_056070.1  69435235  .................T.....  69435213
+NC_056070.1  69416193  ..C.....G..............  69416215
+NC_056070.1  69458275  ........G.....C..G.....  69458253
+NC_056070.1  69479422  ........G.....C..G.....  69479400
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 294600625923
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  228     6e-58
+
+
+
+Query_11     1         GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+NC_056070.1  69458154  ...........GCG..A..C..A.GG.....C.......................T....  69458095
+NC_056070.1  69479303  ..........TGCG..G..C..A.GG.....C.......................T....  69479244
+NC_056070.1  69435111  ..........TGCG..G..C..A.GG.....C............................  69435052
+NC_056070.1  69416362  ...........A.G..G......T.G........T..T...A..................  69416421
+
+Query_11     61        TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+NC_056070.1  69458094  ..........G...........A..................G.........A......T.  69458035
+NC_056070.1  69479243  ..........G..............................G................T.  69479184
+NC_056070.1  69435051  ..........G..........CA...........A......G..................  69434992
+NC_056070.1  69416422  .......A..G........T..........A..............A....A.G.......  69416481
+
+Query_11     121       CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+NC_056070.1  69458034  .............G.....................A.G.............  69457984
+NC_056070.1  69479183  .............T.....T...............A.G.............  69479133
+NC_056070.1  69434991  .............G.....................A.G...C.......    69434943
+NC_056070.1  69416482  .T...C.............T....C..........                  69416516
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 374222416713
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056070.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  187     1e-45
+
+
+
+Query_12     1         GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+NC_056070.1  69434078  ..............T.......................T.....G..............A  69434019
+NC_056070.1  69422017  ...........G..T...........C..T..CA.T.....A..G........T.....T  69422076
+
+Query_12     61        GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+NC_056070.1  69434018  ........G........G.....................A....A...............  69433959
+NC_056070.1  69422077  ........C.....T.....                                          69422096
+
+Query_12     121       TAG  123
+NC_056070.1  69433958  ...  69433956
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 246827551449
+
+
+  Database: Ovis_aries/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
+    Posted date:  Feb 4, 2026  5:41 PM
+  Number of letters in database: 2,654,063,983
+  Number of sequences in database:  143
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

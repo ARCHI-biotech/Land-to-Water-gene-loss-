@@ -1,0 +1,386 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Balaenoptera_acutorostrata/GCF_949987535.1_mBalAcu1.1_genomic.fna
+           1,374 sequences; 2,772,885,358 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  73.4    6e-12
+
+
+
+Query_1      1         CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+NC_080076.1  72269631  ....G.T........C.........AG............A...............  72269577
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74866865922
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  119     3e-25
+
+
+
+Query_2      1         GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+NC_080076.1  72228561  ...T..G..G..C............C....CA.T.....G.....A...........T..  72228620
+NC_080076.1  72268707  ..........................................C..A..............  72268648
+
+Query_2      61        CCTGCGCTGGCTCCG  75
+NC_080076.1  72228621  ...............  72228635
+NC_080076.1  72268647  T............    72268635
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127550893552
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  68.9    2e-10
+
+
+
+Query_3      1         GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+NC_080076.1  72268346  ....A...............................T...A....  72268302
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 47138397062
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  89.7    9e-17
+
+
+
+Query_4      1         GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+NC_080076.1  72268167  ...................A...................A.-...T..............  72268109
+
+Query_4      61        G  61
+NC_080076.1  72268108  .  72268108
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 88731056384
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  303     4e-80
+
+
+
+Query_5      1         GGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCGT  60
+NC_080076.1  72267130  ..........................C.................A............T..  72267071
+NC_080076.1  72233316  ....G....AC....TC.CT.A......A...............TG..T.........A.  72233375
+
+Query_5      61        GTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGCA  120
+NC_080076.1  72267070  .....................A....................T.....C...........  72267011
+NC_080076.1  72233376  C.....C........T..A..T..G..TG.......T......C......C......A..  72233435
+
+Query_5      121       GGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTG-C  179
+NC_080076.1  72267010  ..................................T.C.......G.............-.  72266952
+NC_080076.1  72233436  ....T..G..............C.......C....TGC.T....GG.....C.-....C.  72233494
+
+Query_5      180       AGACAGAGCGG  190
+NC_080076.1  72266951  ...........  72266941
+NC_080076.1  72233495  ....C..      72233501
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 440881999476
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  162     4e-38
+
+
+
+Query_6      1         GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+NC_080076.1  72265999  ........G...A...............................................  72265940
+NC_080076.1  72234547     ............A.........ACCC....T.A.........G..G..T..C..C..  72234603
+
+Query_6      61        GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+NC_080076.1  72265939  ..................G..................  72265903
+NC_080076.1  72234604  A..TC.......G..                        72234618
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 185780557246
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  99.6    2e-19
+
+
+
+Query_7      1         GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+NC_080076.1  72265226  ........AC................................................G.  72265167
+
+Query_7      61        AG  62
+NC_080076.1  72265166  ..  72265165
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91503901896
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  128     6e-28
+
+
+
+Query_8      1         CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+NC_080076.1  72263971  ............T..........................C........T..........A  72263912
+NC_080076.1  72235259    ....G.....T.......CC..T........C..A..C...C....T...........  72235316
+
+Query_8      61        CAGGAAAATTGTAGTGTTGGGAA  83
+NC_080076.1  72263911  ..........A............  72263889
+NC_080076.1  72235317  T.A...G..                72235325
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 149733657648
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  156     2e-36
+
+
+
+Query_9      1         CAACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGG  60
+NC_080076.1  72262300  .....................G..................................C...  72262241
+NC_080076.1  72283405  ..........C...AGC...CC..GT.......C.....CC.G.......TGG.......  72283346
+NC_080076.1  72238460   ...........G.T...A..G....ATG....C.....CC.G.......TGG...A...  72238518
+
+Query_9      61        GGGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+NC_080076.1  72262240  ....G.......C...T........G.........AT.........  72262195
+NC_080076.1  72283345  .......A..G.T.....C.....C........G...C.G..C...  72283300
+NC_080076.1  72238519  ...T...A....T.....T.....AG.......G..            72238554
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 210736154488
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  226     2e-57
+
+
+
+Query_10     1         GATCAACTATGGTGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTAA  60
+NC_080076.1  72238646  .........C..G..T..C.........AAGTAT........A...........ACAGC.  72238705
+NC_080076.1  72283225  .........C..G..CA..G.G....G.AG.TAC...C..T.CA.........G.GTGC.  72283166
+NC_080076.1  72261800   ....................................A...A................C.  72261742
+
+Query_10     61        GTACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATCCT  120
+NC_080076.1  72238706  ......A...AGT.....G..TTC...G........C.....A........T..A..T..  72238765
+NC_080076.1  72283165  ..........CA....ACCG.GG....A........C.TG.........A..........  72283106
+NC_080076.1  72261741  ...........T......G.........A...............................  72261682
+
+Query_10     121       GTTCCCAGGCTGTGTCCTCAG  141
+NC_080076.1  72238766  C....................  72238786
+NC_080076.1  72283105  ......G........G..T..  72283085
+NC_080076.1  72261681  .....................  72261661
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 307785699318
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  224     3e-56
+
+
+
+Query_11     1         GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+NC_080076.1  72261562  ....T.......C...G..CA..........C.................A.........G  72261503
+NC_080076.1  72238933  ...........A.G..G......T.G.....C..T..T...A................A.  72238992
+NC_080076.1  72282994  ............C...G..C.AG..G.....C............................  72282935
+
+Query_11     61        TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+NC_080076.1  72261502  ........T.G..A.....T...................A..G.................  72261443
+NC_080076.1  72238993  ..........G...A....A...........A.........G...A....A.G.....T.  72239052
+NC_080076.1  72282934  CA........GT..T...............T......T...............C.....A  72282875
+
+Query_11     121       CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+NC_080076.1  72261442  .....C.............T...............A.G.....T.......  72261392
+NC_080076.1  72239053  .....C....C..T.....T....C..........                  72239087
+NC_080076.1  72282874  .....C............GT.............                    72282842
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 388197986960
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080076.1 Balaenoptera acutorostrata chromosome 13, mBalAcu1.1,...  178     7e-43
+
+
+
+Query_12     1         GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+NC_080076.1  72260566  ..............T........................A....G..........A...A  72260507
+NC_080076.1  72243886  ...........G..T........T..C.....CA.T..T..A..G........T.....C  72243945
+
+Query_12     61        GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+NC_080076.1  72260506  ...T....G.....T..G....................T.....................  72260447
+NC_080076.1  72243946  ........C.....T.....                                          72243965
+
+Query_12     121       TAG  123
+NC_080076.1  72260446  ...  72260444
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 257874504834
+
+
+  Database: Balaenoptera_acutorostrata/GCF_949987535.1_mBalAcu1.1_genomic.fna
+    Posted date:  Feb 4, 2026  5:39 PM
+  Number of letters in database: 2,772,885,358
+  Number of sequences in database:  1,374
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

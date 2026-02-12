@@ -1,0 +1,401 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_020226075.1_ASM2022607v1_genomic.fna
+           1,712 sequences; 2,540,444,434 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  82.4    1e-14
+
+
+
+Query_1  1        CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+13       3301736  .........................AGT...........A...............  3301790
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 68590705446
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  118     2e-25
+
+
+
+Query_2  1        GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+13       3302663  .....................C........C...........C.................  3302722
+13       3340551  ...T..G..G...............C.............G.....A..C........T..  3340492
+13       3280702  ......G..G..CA.T........CC..G.C.T........GCA.C........C.....  3280761
+
+Query_2  61       CCTGCGCTGGCTCCG  75
+13       3302723  T..............  3302737
+13       3340491  ...............  3340477
+13       3280762  ...C..A........  3280776
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 116858160156
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  77.9    3e-13
+JAGTXW010001663.1 Hydropotes inermis isolate NWPU-IOZ-05 HiC_scaf...  64.4    2e-09
+
+
+
+Query_3  1        GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+13       3303003  ...........C.................................  3303047
+13       3335582        ..C..C..............C..............G...  3335544
+766      56863    ..C.....C......................A.........T...  56819
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43186740466
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  97.8    6e-19
+
+
+
+Query_4  1        GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+13       3303166  ...................A.........................A...........T..  3303225
+
+Query_4  61       G  61
+13       3303226  .  3303226
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81292633152
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  289     2e-76
+JAGTXW010001663.1 Hydropotes inermis isolate NWPU-IOZ-05 HiC_scaf...  116     3e-24
+
+
+
+Query_5  1        GGTGATCCAGAAGTAC-ATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCG  59
+13       3304440  ................-.................C.....C.....A...........T.  3304498
+13       3334595  ....G.G...C.....-C..T.A......A....C.....C...TTG..A....C....A  3334537
+766      56325    ....G.....C.....G.C...-..T........C.....C...TAC..G..........  56267
+
+Query_5  60       TGTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGC  119
+13       3304499  .......C.................G.......................G..........  3304558
+13       3334536  .C.....C........T..T..C..G...G.......T......C....G.C..G.....  3334477
+766      56266    ......TC............A.CA.G.......G......C...C.G....C.T.T....  56207
+
+Query_5  120      AGGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGC  179
+13       3304559  ................T....................C........T...........C.  3304618
+13       3334476  .....T.................C.......C....TGC.G.....G..A..C.T..GC.  3334417
+766      56206    ....G...A..CG..AGCGC..C..A.T...C...TTGC.TT.............A.A..  56147
+
+Query_5  180      AGACAGAGCGG  190
+13       3304619  ....C......  3304629
+13       3334416  ...          3334414
+766      56146    ...          56144
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 403922226558
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  135     5e-30
+
+
+
+Query_6  1        GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+13       3305501  ........G..G............T...........C.....C..G..G...........  3305560
+13       3332738    .............A.......C.ACCC....C.A......C..G........T..C..  3332681
+
+Query_6  61       GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+13       3305561  ..................G..A...............  3305597
+13       3332680  ...TC.......G..AGC......               3332657
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 172746845448
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  95.1    2e-18
+
+
+
+Query_7  1        GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+13       3306440  ...T..C..C............................................C.....  3306499
+
+Query_7  61       AG  62
+13       3306500  ..  3306501
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 83833027938
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  135     4e-30
+
+
+
+Query_8  2        ACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCGC  61
+13       3307629  ..A............................................T.....T......  3307688
+13       3332062   ....G.............CC.........G.C..A..G...C....T..A........T  3332004
+
+Query_8  62       AGGAAAATTGTAGTGTTGGGAA  83
+13       3307689  ......................  3307710
+13       3332003  .A...G..                3331996
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137181318444
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  165     3e-39
+
+
+
+Query_9  1        CAACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGG  60
+13       3308542  ...............A..............T.........C...................  3308601
+13       3286696  ..........C...AG.....G...T.......C..C..CC.G.......TGG....C..  3286755
+
+Query_9  61       GGGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+13       3308602  ............C.......................T.....C...  3308647
+13       3286756  .......A....T.....C.....C........G...C.G..C...  3286801
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 193069873624
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  219     2e-55
+JAGTXW010001663.1 Hydropotes inermis isolate NWPU-IOZ-05 HiC_scaf...  64.4    1e-08
+
+
+
+Query_10  1        GATCAACTATGGTGGGGAGATCCCCAAGTCCATG--TA---CGTGCGGGACCAGGTGAAG  55
+13        3309033  .........C..C.....................--..---T..................  3309087
+13        3328268  .........C..G..T..C.......G.---.A.--..TCA...........G.......  3328214
+766       52630    .........C..G..C..CG.G...CG.--...TAC..---......AA.T..C....G.  52576
+
+Query_10  56       ACTAAGTACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAG  115
+13        3309088  ...C...............C...G.................C...........A......  3309147
+13        3328213  CAGC.......A...AGT.....G..TTC...G........C.....A........T...  3328154
+766       52575    GTGC.......C...CA..C.ACCG.GG....A........C.TG........CAG....  52516
+
+Query_10  116      ATCCTGTTCCCAGGCTGTGTCCTCAG  141
+13        3309148  ..........................  3309173
+13        3328153  .....C.....G.....C........  3328128
+766       52515    ...........G.....C..G.....  52490
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 281983631214
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JAGTXW010001663.1 Hydropotes inermis isolate NWPU-IOZ-05 HiC_scaf...  242     9e-62
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  242     9e-62
+
+
+
+Query_11  1        GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+766       52395    ...........GCG..G..C..A.GG.....C............................  52336
+13        3287110  ...........GCG..G..C..A.GG.....C............................  3287169
+13        3309274  ...........GCG..G.....G.GT.....C............................  3309333
+13        3327984  ...........A.G..G......T.G.....C..T..T...A..................  3327925
+
+Query_11  61       TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+766       52335    ..........G..............................G...C..............  52276
+13        3287170  ..........G..............................G...C..............  3287229
+13        3309334  ..........G.........TC.........A.........G..................  3309393
+13        3327924  ..........G...................G..............A....A.G.......  3327865
+
+Query_11  121      CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+766       52275    .....T...............................G.....T.......  52225
+13        3287230  .....T...............................G.........A...  3287280
+13        3309394  ...................................A.G.............  3309444
+13        3327864  .T...C..................C..........                  3327830
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 358195423434
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM035282.1 Hydropotes inermis isolate NWPU-IOZ-05 chromosome 14, ...  191     1e-46
+
+
+
+Query_12  1        GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+13        3310287  ..C...........T.............................G..............A  3310346
+13        3288917  ..........................C.....GA.A........G...A......A...C  3288976
+13        3322481  ...........G..T...........C..T..CA.T..T..A..G........T.....C  3322422
+
+Query_12  61       GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+13        3310347  ........G........G..........................A...............  3310406
+13        3288977  ..A.....G........C..                                          3288996
+13        3322421  ........C.....T..G..                                          3322402
+
+Query_12  121      TAG  123
+13        3310407  ...  3310409
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 236256555882
+
+
+  Database: GCA_020226075.1_ASM2022607v1_genomic.fna
+    Posted date:  Feb 4, 2026  2:54 PM
+  Number of letters in database: 2,540,444,434
+  Number of sequences in database:  1,712
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

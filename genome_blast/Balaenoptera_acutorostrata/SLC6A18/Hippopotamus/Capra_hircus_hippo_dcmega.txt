@@ -1,0 +1,399 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001704415.2_ARS1.2_genomic.fna
+           29,886 sequences; 2,922,617,086 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  82.4    1e-14
+
+
+
+Query_1  1        CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+16       1825738  .........................AGT...........A...............  1825792
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 78888067506
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  118     3e-25
+
+
+
+Query_2  1        GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+16       1826659  .....................C........C...........C.................  1826718
+16       1866500  ...T..G..G...............C....C........G.....A...........T..  1866441
+
+Query_2  61       CCTGCGCTGGCTCCG  75
+16       1826719  T..............  1826733
+16       1866440  ...............  1866426
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134400518032
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  77.9    3e-13
+
+
+
+Query_3  1        GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+16       1827001  ...........C.................................  1827045
+16       1806441  ..C.....C.............G........A.........T...  1806485
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49670264726
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  102     2e-20
+
+
+
+Query_4  1        GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+16       1827154  ...................A.........................A..............  1827213
+16       1861240    ..G..............CAA.A..........A.....A.GAG.........T..A..  1861183
+
+Query_4  61       G  61
+16       1827214  .  1827214
+16       1861182  .  1861182
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 93496012544
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  307     1e-81
+
+
+
+Query_5  1        GGTGATCCAGAAGTAC-ATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCG  59
+16       1828441  ................-........A....................A.............  1828499
+16       1860646  ....G.....C.....-C..T.A......A....C.....C...TTG..A....CA...A  1860588
+16       1806958  ....G.....C.....G.C...-..C........C.....C...TAC..G..........  1807016
+
+Query_5  60       TGTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGC  119
+16       1828500  .......C.................G.......................G..........  1828559
+16       1860587  .C.....C........T..T..C..G...G..............C....G.C..G.....  1860528
+16       1807017  ......TC............A.CA.G..............C...C.A....C.T......  1807076
+
+Query_5  120      AGGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGC  179
+16       1828560  ...............................C.....C......................  1828619
+16       1860527  .....T..T..............C.......C....TGC.G.....G..A....T..GC.  1860468
+16       1807077  ....G...A..CG..AGCGC..C....T...C....TGC.TT.............G.A..  1807136
+
+Query_5  180      AGACAGAGCGG  190
+16       1828620  ....C......  1828630
+16       1860467  ...          1860465
+16       1807137  ...          1807139
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 464548808580
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  144     1e-32
+
+
+
+Query_6  1        GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+16       1829503  ........G........................T..C.....C..G..G...........  1829562
+16       1857280    .............A.......C.ACCC....C.A.........G........T..C..  1857223
+
+Query_6  61       GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+16       1829563  ..................G..................  1829599
+16       1857222  ...TC.......G..GGC......               1857199
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195755273902
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  99.6    2e-19
+
+
+
+Query_7  1        GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+16       1830470  ......CA.C..................................................  1830529
+
+Query_7  61       AG  62
+16       1830530  ..  1830531
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 96417762936
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  137     1e-30
+
+
+
+Query_8  1        CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+16       1831751  .......................................C........T........G..  1831810
+16       1856576    ....G.............CC.........G.C..A..C...C....T...........  1856519
+
+Query_8  61       CAGGAAAATTGTAGTGTTGGGAA  83
+16       1831811  .......................  1831833
+16       1856518  T.A...G..                1856510
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 157774521168
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  165     4e-39
+
+
+
+Query_9  1        CAACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGG  60
+16       1832661  ...............A........G...............C...................  1832720
+16       1789690  ..........C...AGC....G...T.G.....C.....CC.G.....A.TGG....C..  1789749
+16       1810489  ..........C...AG....CT..GT.......C.....CC.G.....C.TGG....C..  1810548
+
+Query_9  61       GGGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+16       1832721  ............C.......................T.....C...  1832766
+16       1789750  .......A....T.....C..C..C........G...C.G..C...  1789795
+16       1810549  .......A....T.....C..C..C........G...C.G..C...  1810594
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 222050758456
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  228     5e-58
+
+
+
+Query_10  1        GATCAACTATGGTGGGGAGATCCCCAAGTCCATG--TACGTGCGGGACCAGGTGAAGACT  58
+16        1833158  .........C........................--........................  1833215
+16        1852442  .........C..G..T..C.........AAGTAT--.............G.......CAG  1852385
+16        1789869  .........C..G..CT.CG.G...C..--...TAC...C....CA....C....G.GTG  1789926
+16        1810668  .........C..G..C..CG.G...C..--...TAC...C..T.CA....C....G.GTG  1810725
+
+Query_10  59       AAGTACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATC  118
+16        1833216  C...............C...G................................T......  1833275
+16        1852384  C....T......AGC.....G..TTC...G........C.....A...............  1852325
+16        1789927  C.......C...CA..C.ACCG.GG....A........C.TG........CA........  1789986
+16        1810726  C.......C...CA..C.ACCG.GG....A........C.TG........CA.T......  1810785
+
+Query_10  119      CTGTTCCCAGGCTGTGTCCTCAG  141
+16        1833276  .................T.....  1833298
+16        1852324  ..C.....G..............  1852302
+16        1789987  ........G.....C..G.....  1790009
+16        1810786  ........G.....C..G.....  1810808
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 324310976166
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  233     5e-59
+
+
+
+Query_11  1        GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+16        1810907  ...........GCG..A..C..A.GG.....C.......................T....  1810966
+16        1790107  ..........TGCG..A..C..A.GG.....C............................  1790166
+16        1833400  ..........TGCG..G..C..A.GG.....C............................  1833459
+16        1852155  ...........A.G..G......T.G........T..T...A..................  1852096
+
+Query_11  61       TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+16        1810967  ..........G...........A..................G................T.  1811026
+16        1790167  ..........G...........A..................G................T.  1790226
+16        1833460  ..........G........T.CA..................G..................  1833519
+16        1852095  .......A..G........T..........A..............A....A.G.......  1852036
+
+Query_11  121      CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+16        1811027  .............G.....................A.G.............  1811077
+16        1790227  .............G.....................A.G.....T.......  1790277
+16        1833520  .............G.....................A.G.............  1833570
+16        1852035  .T...C.............T....C..........                  1852001
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 409036686800
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_030824.1 Capra hircus breed San Clemente chromosome 17, ASM170...  191     1e-46
+
+
+
+Query_12  1        GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+16        1834435  ..............T.......................T.....G..............A  1834494
+16        1846516  ...........G..T...........C..T..CA.T.....A..G........T.....T  1846457
+
+Query_12  61       GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+16        1834495  ........G........G..........................A...............  1834554
+16        1846456  ........C.....T.....                                          1846437
+
+Query_12  121      TAG  123
+16        1834555  ...  1834557
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 271720007058
+
+
+  Database: GCF_001704415.2_ARS1.2_genomic.fna
+    Posted date:  Feb 4, 2026  3:13 PM
+  Number of letters in database: 2,922,617,086
+  Number of sequences in database:  29,886
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
