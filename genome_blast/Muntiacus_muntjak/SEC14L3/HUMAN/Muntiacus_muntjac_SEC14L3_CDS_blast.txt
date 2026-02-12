@@ -1,0 +1,114 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_008782695.1_UCB_Mmun_1.0_genomic.fna
+           25,651 sequences; 2,573,529,099 total letters
+
+
+
+Query= lcl|NM_174975.5_cds_NP_777635.1_1 [gene=SEC14L3]
+[db_xref=CCDS:CCDS13877.1] [protein=SEC14-like protein 3 isoform 1]
+[protein_id=NP_777635.1] [location=60..1262] [gbkey=CDS]
+
+Length=1203
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM018501.1 Muntiacus muntjak isolate UTSW_UCB_Mm chromosome 1, wh...  270     1e-69
+
+
+
+Query_1     173        AGTACATGGAGTTCCGGAAGACCATGGATATTGACCATATCCTTGATTGGCAGCCCCCAG  232
+CM018501.1  329864744                                                           ..C  329864746
+CM018501.1  329863471  ............................C........C........A...........T.  329863530
+
+Query_1     233        AGGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGATGGCTGCCCCG  292
+CM018501.1  329864747  ..................................C...........A..C..........  329864806
+CM018501.1  329863531  ......G....                                                   329863541
+
+Query_1     293        TGTGGTATGACATCATTGGGCCACTTGATCCCAAGGGGTTGCTCTTCTCAGTCACCAAGC  352
+CM018501.1  329864807  .......C........C.....G..G..C........CC....T.....T..........  329864866
+
+Query_1     353        AGGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGCATCCTGCATGAGTGTGACCTGC  412
+CM018501.1  329864867  ..........................................................C.  329864926
+
+Query_1     413        AGACAGAGAGGCTAGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAGGGCC  472
+CM018501.1  329864927  ....G...                                                      329864934
+
+Query_1     473        TGGGACTGAAACACTTCTGGAAACCTCTGGTAGAAGTGTACCAGGAGTTCTTTGGCCTCC  532
+CM018501.1  329866755                                               .......CA......  329866769
+
+Query_1     533        TTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATCGTGAAAGCTACCAAACTGT  592
+CM018501.1  329866770  ................................................              329866817
+
+Query_1     593        TCCCTGTGGGCTACAACCTCATGAAGCCATTCCTGAGTGAGGACACTCGCAGGAAAATTA  652
+
+Query_1     653        TTGTGTTGGGAAATAACTGGAAGGAAGGTTTGCTGAAACTCATCAGTCCTGAGGAACTGC  712
+CM018501.1  329868865                ..............A.....A........T.........C......  329868910
+
+Query_1     713        CTGCCCAGTTTGGGGGCACCCTGACTGACCCAGATGGGAACCCCAAATGTTTAACCA-AG  771
+CM018501.1  329869353                                                        ...C..  329869358
+CM018501.1  329868911  ................G........C...............................-..  329868969
+
+Query_1     772        ATTAACTATGGCGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTCAG  831
+CM018501.1  329869359  ..C.....C..T................................................  329869418
+
+Query_1     832        TACGAGCACTCGGTGCAGATCAACCGCGGCTCATCACACCAAGTGGAATACGAGATCCTA  891
+CM018501.1  329869419  .............C........G.........C..C.....G.................G  329869478
+
+Query_1     892        TTTCCAGGCTGCGTTCTCAGGT-GGCAGTTCTCATCTGATGGTGCGGACATCGGCTTCGG  950
+CM018501.1  329847367                   .....-........G.G..G..C..A.G...............  329847408
+CM018501.1  329869598                   .....-........G.G..G.....G.GT..............  329869639
+CM018501.1  329827022                   .....-........G.G..G..C..A.G...............  329827063
+CM018501.1  329888412                   .....-........ATG..G.....CT..........T..T..  329888371
+CM018501.1  329869479  ..C........T..........A...                                    329869504
+
+Query_1     951        AGTTTTCCTGAAGACCAAGATGGGGGAGCGACAGCGGGCAGGGGAGATGACAGATGTTCT  1010
+CM018501.1  329847409  G.............................G........C...........G..G..G..  329847468
+CM018501.1  329869640  G.............................G........C.CA...........G..G..  329869699
+CM018501.1  329827064  G.............................G........C...........G..G..G..  329827123
+CM018501.1  329888370  GA............................G........C..........GG..G..G..  329888311
+
+Query_1     1011       ACCCAGCCAGCGCTATAACGCCCACATGGTGCCCGAGGATGGGAACCTCACCTGCTCAGA  1070
+CM018501.1  329847469  GG.............C.......................C....G..........A.G..  329847528
+CM018501.1  329869700  GG.............C.......................C....G..........A.G..  329869759
+CM018501.1  329827124  GG.............C.......................C....G.T........       329827178
+CM018501.1  329888310  GG........A.G..C.....T...C.............C....C..........       329888256
+
+Query_1     1071       GGCCGGCGTCTATGTCCTACGCTTCGACAACACCTATAGCTTTGTCCACGCCAAGAAGGT  1130
+CM018501.1  329847529  A..........                                                   329847539
+CM018501.1  329869760  A..........                                                   329869770
+CM018501.1  329870623               .....G.....T........G..........................  329870669
+
+Query_1     1131       CAGCTTCACAGTGGAGGTCCTGCTCCCTGACGAGGGCATGCAGAAATATGATAAGGAGCT  1190
+CM018501.1  329870670  ..................G........G..T.................C..C..A.....  329870729
+
+Query_1     1191       CACCCCTGTCTAG  1203
+CM018501.1  329870730  ....G........  329870742
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3017846974437
+
+
+  Database: GCA_008782695.1_UCB_Mmun_1.0_genomic.fna
+    Posted date:  Feb 5, 2026  2:33 PM
+  Number of letters in database: 2,573,529,099
+  Number of sequences in database:  25,651
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
