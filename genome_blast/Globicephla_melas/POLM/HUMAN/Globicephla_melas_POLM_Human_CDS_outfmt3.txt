@@ -1,0 +1,64 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+           992 sequences; 2,651,276,051 total letters
+
+
+
+Query= lcl|NM_013284.4_cds_NP_037416.1_1 [gene=POLM]
+[db_xref=CCDS:CCDS34625.1] [protein=DNA-directed DNA/RNA polymerase
+mu isoform 1] [protein_id=NP_037416.1] [location=93..1577]
+[gbkey=CDS]
+
+Length=1485
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083322.1 Globicephala melas chromosome 9, mGloMel1.2, whole ge...  172     4e-40
+
+
+
+Query_1  640       CAGGAGCTGCTGGAGCATGGAGTGTGTGAGGAGGTGGAGAGAGTTCGGCGCTCAGAGAGG  699
+8        95682512  ..............A.GC...............................T...G......  95682453
+
+Query_1  700       TACCAGACCATGAAGCTCTTCACCCAGATCTTCGGGGTCGGTGTGAAGACTGCTGACCGG  759
+8        95682452  ......G........                                               95682438
+
+Query_1  760       TGGTACCGGGAAGGACTGCGAACCTTAGATGACCTCCGAGAGCAGCCCCAGAAACTAACC  819
+
+Query_1  820       CAACAGCAGAAAGCGGGGCTCCAGCACCACCAGGACCTGAGCACCCCAGTCCTGCGGTCC  879
+8        95679219                    ............................GGA..........A  95679178
+
+Query_1  880       GATGTAGATGCCCTGCAGCAGGTGGTGGAGGAAGCTGTGGGGCAGGCCCTGCCTGGGGCC  939
+8        95679177  .....G..GA............C........C...C..............T.........  95679118
+
+Query_1  940       ACCGTCACGCTGACCGGCGGCTTCCGCAGG  969
+8        95679117  ..G.......................G...  95679088
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3854910664746
+
+
+  Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+    Posted date:  Feb 4, 2026  12:11 PM
+  Number of letters in database: 2,651,276,051
+  Number of sequences in database:  992
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
