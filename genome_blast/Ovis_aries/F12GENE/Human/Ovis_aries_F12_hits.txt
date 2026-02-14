@@ -1,0 +1,91 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Ovis_aries/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
+           143 sequences; 2,654,063,983 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_056058.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet ...  224     1e-55
+
+
+
+Query_1      115       GTTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTAC  174
+NC_056058.1  36611408  ....................A......................................T  36611349
+
+Query_1      175       CACAAATGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAAC  234
+NC_056058.1  36611348  ..T.....C.T.....GA..............                              36611317
+
+Query_1      235       TTTGATCAGGACCAGCGATGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGC  294
+
+Query_1      295       AGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCAC  354
+
+Query_1      355       TGTCTCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAGAGAAGTGCTTTGAGCCT  414
+
+Query_1      415       CAGCTTCTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAACTGAGCAAGCAGCTGTG  474
+
+Query_1      475       GCCAGATGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGCTGGCCAGCCAGGCCTGC  534
+
+Query_1      535       CGCACCAACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCTGTGC  594
+
+Query_1      595       CACTGCCCGGTGGGCTACACCGGAGCCTTCTGCGACGTGGACACCAAGGCAAGCTGCTAT  654
+
+Query_1      655       GATGGCCGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGT  714
+
+Query_1      715       CAGCCGTGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGG  774
+
+Query_1      775       GGACTGGGCGGCCACGCCTTCTGCCGGAACCCGGACAACGACATCCGCCCGTGGTGCTTC  834
+
+Query_1      835       GTGCTGAACCGCGACCGGCTGAGCTGGGAGTACTGCGACCTGGCACAGTGCCAGACCCCA  894
+
+Query_1      895       ACCCAGGCGGCGCCTCCGACCCCGGTGTCCCCTAGGCTTCATGTCCCACTCATGCCCGCG  954
+
+Query_1      955       CAGCCGGCACCGCCGAAGCCTCAGCCCACGACCCGGACCCCGCCTCAGTCCCAGACCCCG  1014
+
+Query_1      1015      GGAGCCTTGCCGGCGAAGCGGGAGCAGCCGCCTTCCCTGACCAG-GAACGGCCCACTGAG  1073
+NC_056058.1  36608774                          ......A..C.T...G....C.C.-.....CGG.G.  36608740
+
+Query_1      1074      CTGCGGGCAGCGGCTCCGCAAGAGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGT  1133
+NC_056058.1  36608739  ...T..A..............AT.G.....C...CG..A.........C..A..A.....  36608680
+
+Query_1      1134      GGCGCTACGCGGGGCGCACCCCTACATCGCCGCGCTGTACTGGGGCCA-CAGTTTCTGCG  1192
+NC_056058.1  36608679  ......C.C.......................................A..-........  36608621
+
+Query_1      1193      CCGGCAGCCTCATCGCCCCCTGCTGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCGGC  1252
+NC_056058.1  36608620  ......................T...........T..G...............A......  36608561
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4822426202350
+
+
+  Database: Ovis_aries/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
+    Posted date:  Feb 4, 2026  5:41 PM
+  Number of letters in database: 2,654,063,983
+  Number of sequences in database:  143
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,786 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+           992 sequences; 2,651,276,051 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  69.9    9e-11
+NC_083331.1 Globicephala melas chromosome 18, mGloMel1.2, whole g...  36.2    1.2  
+NC_083328.1 Globicephala melas chromosome 15, mGloMel1.2, whole g...  36.2    1.2  
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  34.2    4.9  
+NC_083325.1 Globicephala melas chromosome 12, mGloMel1.2, whole g...  34.2    4.9  
+NC_083319.1 Globicephala melas chromosome 6, mGloMel1.2, whole ge...  34.2    4.9  
+NC_083318.1 Globicephala melas chromosome 5, mGloMel1.2, whole ge...  34.2    4.9  
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  34.2    4.9  
+
+
+
+Query_1  1          CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+12       66762133   ......T........C.........AG............A...............  66762187
+12       79421167                  .................                         79421183
+17       75230786                   ..................                       75230803
+14       75550994              .............T..A........                     75551018
+14       62928283               ..................                           62928300
+14       12917598        .................                                   12917582
+19       8118423                   .................                         8118407
+11       1088042                       .................                     1088026
+5        21400584                                .........A...........       21400604
+4        4141420                       .................                     4141436
+0        150768954                                      .................    150768938
+0        156025005                       .................                   156025021
+0        168125859                         .................                 168125843
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 95445259308
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  105     2e-21
+NC_083319.1 Globicephala melas chromosome 6, mGloMel1.2, whole ge...  38.2    0.48 
+NC_083332.1 Globicephala melas chromosome 19, mGloMel1.2, whole g...  36.2    1.9  
+NC_083329.1 Globicephala melas chromosome 16, mGloMel1.2, whole g...  36.2    1.9  
+NC_083322.1 Globicephala melas chromosome 9, mGloMel1.2, whole ge...  36.2    1.9  
+NC_083335.1 Globicephala melas chromosome X, mGloMel1.2, whole ge...  34.2    7.6  
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  34.2    7.6  
+NC_083331.1 Globicephala melas chromosome 18, mGloMel1.2, whole g...  34.2    7.6  
+NC_083321.1 Globicephala melas chromosome 8, mGloMel1.2, whole ge...  34.2    7.6  
+NC_083320.1 Globicephala melas chromosome 7, mGloMel1.2, whole ge...  34.2    7.6  
+NC_083318.1 Globicephala melas chromosome 5, mGloMel1.2, whole ge...  34.2    7.6  
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  34.2    7.6  
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  34.2    7.6  
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  34.2    7.6  
+
+
+
+Query_2  1          GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+12       66763045   ....T.....................................C..A..............  66763104
+12       66805020             ...............C....CAGT.....G.....A...........T..  66804971
+12       49949549                                                        .......  49949555
+5        20728952              ......C..............                              20728972
+5        92007353               ...................                               92007371
+18       17514600              ..................                                 17514583
+15       58852325                             ..................                  58852342
+8        36294356                 ...............A.....                           36294336
+8        71857798               ..................                                71857781
+21       81898763                           .................                     81898779
+21       114845416                                                  ............  114845427
+19       41495872                                                   ............  41495861
+17       3214406                             .................                    3214390
+17       39409016         .................                                       39409032
+7        105668346                              .................                 105668362
+6        25766921                                                 ..............  25766908
+6        87394499                                                  .............  87394487
+4        16183868                       .................                         16183852
+2        88389739        .................                                        88389723
+1        116874785                              .................                 116874801
+0        9474434         .................                                        9474418
+0        151838060                             .................                  151838044
+0        186214493               .................                                186214509
+
+Query_2  61         CCTGCGCTGGCTCCG  75
+12       66763105   T...T........    66763117
+12       66804970   ...............  66804956
+12       49949556   ...........      49949566
+21       114845428  .....            114845432
+19       41495860   .....            41495856
+6        25766907   ...              25766905
+6        87394486   ....             87394483
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 148470403368
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  58.0    3e-07
+NC_083328.1 Globicephala melas chromosome 15, mGloMel1.2, whole g...  38.2    0.23 
+NC_083325.1 Globicephala melas chromosome 12, mGloMel1.2, whole g...  38.2    0.23 
+NC_083335.1 Globicephala melas chromosome X, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083334.1 Globicephala melas chromosome 21, mGloMel1.2, whole g...  36.2    0.92 
+NC_083332.1 Globicephala melas chromosome 19, mGloMel1.2, whole g...  36.2    0.92 
+NC_083327.1 Globicephala melas chromosome 14, mGloMel1.2, whole g...  36.2    0.92 
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  36.2    0.92 
+NC_083323.1 Globicephala melas chromosome 10, mGloMel1.2, whole g...  36.2    0.92 
+NC_083320.1 Globicephala melas chromosome 7, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083319.1 Globicephala melas chromosome 6, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083318.1 Globicephala melas chromosome 5, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083317.1 Globicephala melas chromosome 4, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  36.2    0.92 
+NC_083331.1 Globicephala melas chromosome 18, mGloMel1.2, whole g...  36.2    0.92 
+NC_083329.1 Globicephala melas chromosome 16, mGloMel1.2, whole g...  36.2    0.92 
+NC_083322.1 Globicephala melas chromosome 9, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083321.1 Globicephala melas chromosome 8, mGloMel1.2, whole ge...  36.2    0.92 
+NC_083330.1 Globicephala melas chromosome 17, mGloMel1.2, whole g...  34.2    3.6  
+NW_027207267.1 Globicephala melas unplaced genomic scaffold, mGlo...  34.2    3.6  
+
+
+
+Query_3  1          GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+12       66763407   ....A......C........................T...A....  66763451
+12       66800257            ..............G..T..................  66800222
+12       81085013                             ..................   81084996
+12       8420344            .................                      8420360
+14       19204069                ...................               19204087
+14       12790548                             ..................   12790531
+14       42011521                .................                 42011537
+14       86719885                              .................   86719901
+14       28323517       .................                          28323501
+14       28332840       .................                          28332824
+11       88553314         ...........T.....T.......                88553338
+11       71243624                             ...................  71243642
+11       38220564                             ..................   38220581
+11       24008416                  .................               24008400
+11       24029166                  .................               24029150
+11       24049928                  .................               24049912
+21       105121578                            ..................   105121595
+21       122892720                            ..................   122892737
+21       89447941        .................                         89447925
+20       22513653                             ..................   22513670
+20       23095890                             ..................   23095873
+18       15354325                             ..................   15354342
+18       33866475                             ..................   33866492
+18       99221                                ..................   99204
+18       42362426                             ..................   42362409
+13       7469243                              ..................   7469260
+13       30931402                             ..................   30931419
+13       47207825                             ..................   47207842
+13       16116353                             ..................   16116336
+13       51956814                       ..................         51956797
+13       61054711                             .................    61054727
+10       37489404                             ..................   37489421
+10       44812708                             ..................   44812725
+10       35581583                             ..................   35581566
+9        11045307                         ..................       11045324
+9        47202927                             ..................   47202944
+9        58154831                             ..................   58154848
+9        76254981                             ..................   76254998
+9        57468260                             ..................   57468243
+9        93599746                             ..................   93599729
+9        95095871                 .................                95095887
+6        15334858                             ..................   15334875
+6        30310522                ..................                30310539
+6        65021199                             ..................   65021216
+5        14934363             .........T...........                14934383
+5        95279830                             ..................   95279847
+4        27483191                             ..................   27483208
+3        8904722                              ..................   8904739
+3        70141132                             ..................   70141149
+3        111840639          .................                      111840655
+2        17752528                             ..................   17752545
+2        26286214                             ..................   26286231
+2        27936404                             ..................   27936421
+2        61264873                             ..................   61264890
+2        104615375                            ..................   104615392
+1        62127706                             ..................   62127723
+1        94629116                             ..................   94629133
+1        99336190                             ..................   99336207
+1        102646206               ..................                102646223
+1        103348881                            ..................   103348898
+1        121995534                            ..................   121995551
+1        131799396                            ..................   131799413
+1        36583484                             ..................   36583467
+1        114424508                            ..................   114424491
+1        161664616                            ..................   161664599
+1        174985985                            ..................   174985968
+0        47805420                             ..................   47805437
+0        109263817                            ..................   109263834
+0        112882315                            ..................   112882332
+0        165508966                            ..................   165508983
+0        134733526                            ..................   134733509
+0        146714868                            ..................   146714851
+0        160368257                            ..................   160368240
+0        181326005                            ..................   181325988
+0        18646661                              .................   18646645
+0        36037156           .................                      36037140
+19       27778039                             ..................   27778022
+17       22015213                             ..................   22015196
+17       32870027                             ..................   32870010
+15       70078238                             ..................   70078221
+8        11329629                             ..................   11329612
+8        35725423         .................                        35725407
+7        328645                               ..................   328628
+7        12795401                             ..................   12795384
+16       34279843         ..............T......                    34279863
+16       47359818                  .................               47359834
+80       766126                                .................   766110
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 71583971265
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  81.8    3e-14
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  34.2    5.7  
+NC_083328.1 Globicephala melas chromosome 15, mGloMel1.2, whole g...  34.2    5.7  
+NC_083325.1 Globicephala melas chromosome 12, mGloMel1.2, whole g...  34.2    5.7  
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  34.2    5.7  
+
+
+
+Query_4  1         GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+12       66763585  ...................A...................A.-...T..............  66763643
+19       31741605                            .................                   31741589
+14       25076232                      .........G...........                     25076252
+11       87686704                                            .................   87686688
+10       3764679                                         .................       3764695
+
+Query_4  61        G  61
+12       66763644  .  66763644
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 111352802526
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  281     6e-74
+NC_083325.1 Globicephala melas chromosome 12, mGloMel1.2, whole g...  38.2    1.5  
+NC_083319.1 Globicephala melas chromosome 6, mGloMel1.2, whole ge...  38.2    1.5  
+NC_083318.1 Globicephala melas chromosome 5, mGloMel1.2, whole ge...  38.2    1.5  
+NC_083317.1 Globicephala melas chromosome 4, mGloMel1.2, whole ge...  38.2    1.5  
+NC_083323.1 Globicephala melas chromosome 10, mGloMel1.2, whole g...  38.2    1.5  
+NC_083322.1 Globicephala melas chromosome 9, mGloMel1.2, whole ge...  38.2    1.5  
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  38.2    1.5  
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  38.2    1.5  
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  36.2    5.8  
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  36.2    5.8  
+NC_083321.1 Globicephala melas chromosome 8, mGloMel1.2, whole ge...  36.2    5.8  
+NC_083320.1 Globicephala melas chromosome 7, mGloMel1.2, whole ge...  36.2    5.8  
+NC_083332.1 Globicephala melas chromosome 19, mGloMel1.2, whole g...  36.2    5.8  
+
+
+
+Query_5  1          GGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCGT  60
+12       66764622   ..........................C...........G.....A..TT........T..  66764681
+12       66799505                         ......A....C..........TG..T.........A.  66799468
+11       1441687                  ...............C......                          1441666
+11       44845786                    ...................                          44845804
+4        104575321                           ...................                  104575339
+9        22315461                 ..................                              22315444
+8        102661710                 ...................                            102661692
+2        170797622                   ..................                           170797639
+1        70489956                       ..................                        70489973
+19       51929446                    ..................                           51929463
+7        47214463                      ..................                         47214446
+6        85047817     .....T................                                      85047838
+
+Query_5  61         GTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGCA  120
+12       66764682   .............G............................T.....T...........  66764741
+12       66799467   C.....C........T..A..T..G..TG.......T......C......C......A..  66799408
+12       85656570                                             ..................  85656553
+5        14450097                                         ..................G...  14450118
+5        72253665                    ..................                           72253682
+3        3621423                                   ................G......        3621445
+9        63504938                                                ...............  63504924
+2        136476377                             ..............C........            136476355
+1        124695863                                          ..................    124695880
+10       25868430                                               ................  25868415
+10       2579875                              ..................                  2579892
+7        44734761                                       ......T...............    44734782
+18       55971505                                   ..................            55971488
+
+Query_5  121        GGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGCA  180
+12       66764742   ..................................G.C.........A.............  66764801
+12       66799407   ....T..G..............C.......C....                           66799373
+12       85656552   ..                                                            85656551
+5        14450119   .                                                             14450119
+9        63504923   ....                                                          63504920
+1        22389475           ...............T.......                               22389453
+10       25868414   .C....                                                        25868409
+7        51874441               ..........G...........                            51874420
+
+Query_5  181        GACAGAGCGG  190
+12       66764802   ..........  66764811
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 450713555870
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  168     3e-40
+NC_083335.1 Globicephala melas chromosome X, mGloMel1.2, whole ge...  36.2    2.7  
+NC_083334.1 Globicephala melas chromosome 21, mGloMel1.2, whole g...  36.2    2.7  
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  36.2    2.7  
+NC_083323.1 Globicephala melas chromosome 10, mGloMel1.2, whole g...  36.2    2.7  
+NC_083322.1 Globicephala melas chromosome 9, mGloMel1.2, whole ge...  36.2    2.7  
+NC_083318.1 Globicephala melas chromosome 5, mGloMel1.2, whole ge...  36.2    2.7  
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  36.2    2.7  
+
+
+
+Query_6  1          GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+12       66765731   ........G................A..................................  66765790
+12       29883376                                                 ..............  29883389
+20       7568299                                                           .....  7568303
+19       14266013                                           ................A...  14265994
+9        9658834      ..................                                          9658851
+8        89006475     ..................                                          89006458
+4        35996180                                               ................  35996195
+1        160823127    ..................                                          160823144
+
+Query_6  61         GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+12       66765791   ..................G..................  66765827
+12       29883390   ....                                   29883393
+21       105444232      ..................                 105444249
+20       7568304    .............                          7568316
+19       14265993   ..                                     14265992
+4        35996196   ..                                     35996197
+1        2830526                       ..................  2830509
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 206798061834
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  115     2e-24
+NC_083331.1 Globicephala melas chromosome 18, mGloMel1.2, whole g...  38.2    0.37 
+NC_083329.1 Globicephala melas chromosome 16, mGloMel1.2, whole g...  36.2    1.5  
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  36.2    1.5  
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  36.2    1.5  
+NC_083328.1 Globicephala melas chromosome 15, mGloMel1.2, whole g...  36.2    1.5  
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  36.2    1.5  
+NC_083322.1 Globicephala melas chromosome 9, mGloMel1.2, whole ge...  36.2    1.5  
+NC_083321.1 Globicephala melas chromosome 8, mGloMel1.2, whole ge...  36.2    1.5  
+NC_083330.1 Globicephala melas chromosome 17, mGloMel1.2, whole g...  34.2    5.8  
+NC_083319.1 Globicephala melas chromosome 6, mGloMel1.2, whole ge...  34.2    5.8  
+NC_083318.1 Globicephala melas chromosome 5, mGloMel1.2, whole ge...  34.2    5.8  
+NC_083335.1 Globicephala melas chromosome X, mGloMel1.2, whole ge...  34.2    5.8  
+NC_083327.1 Globicephala melas chromosome 14, mGloMel1.2, whole g...  34.2    5.8  
+NC_083317.1 Globicephala melas chromosome 4, mGloMel1.2, whole ge...  34.2    5.8  
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  34.2    5.8  
+
+
+
+Query_7  1          GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+12       66766496   .........C..................................................  66766555
+12       49594910          ..................                                     49594927
+12       76820078                                              .................  76820062
+12       46808766                                               ................  46808781
+17       58311189                   ...................                           58311207
+17       77539854                            .................                    77539838
+15       28847892                                ..................               28847909
+2        36129825            ..................                                   36129842
+0        72037530                        ..................                       72037547
+0        129651112                    .................                           129651128
+0        16447154                                           .................     16447138
+14       31929323                                        ..................       31929306
+10       55578811     ..............T.......                                      55578790
+8        23888278           ..................                                    23888261
+8        28417612           ..................                                    28417595
+7        27207856                                    ..................           27207839
+16       4616021                                    .................             4616037
+16       44711779                                   .................             44711763
+5        5359727                             .................                    5359743
+4        89535869                            .................                    89535885
+4        131016920                          .................                     131016936
+21       49752620                       .................                         49752604
+13       36043790    .................                                            36043774
+3        99599017            .................                                    99599001
+1        151289995                .................                               151289979
+
+Query_7  61         AG  62
+12       66766556   ..  66766557
+12       76820061   .   76820061
+12       46808782   .   46808782
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 114004059729
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  117     7e-25
+NC_083319.1 Globicephala melas chromosome 6, mGloMel1.2, whole ge...  42.1    0.035
+NC_083335.1 Globicephala melas chromosome X, mGloMel1.2, whole ge...  36.2    2.2  
+NC_083321.1 Globicephala melas chromosome 8, mGloMel1.2, whole ge...  36.2    2.2  
+NC_083331.1 Globicephala melas chromosome 18, mGloMel1.2, whole g...  36.2    2.2  
+NC_083325.1 Globicephala melas chromosome 12, mGloMel1.2, whole g...  36.2    2.2  
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  36.2    2.2  
+NC_083328.1 Globicephala melas chromosome 15, mGloMel1.2, whole g...  34.2    8.6  
+NC_083327.1 Globicephala melas chromosome 14, mGloMel1.2, whole g...  34.2    8.6  
+NC_083323.1 Globicephala melas chromosome 10, mGloMel1.2, whole g...  34.2    8.6  
+NC_083320.1 Globicephala melas chromosome 7, mGloMel1.2, whole ge...  34.2    8.6  
+NC_083317.1 Globicephala melas chromosome 4, mGloMel1.2, whole ge...  34.2    8.6  
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  34.2    8.6  
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  34.2    8.6  
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  34.2    8.6  
+
+
+
+Query_8  1          CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+12       66767718   .......................................C........T..........A  66767777
+12       66797623     ....G.....T.......CC..T........C..A..C...C....T...........  66797566
+12       10619294            ..................                                   10619311
+12       61922254                              ..................                 61922271
+12       32100162                                ..................               32100145
+12       7057945                                  .................               7057961
+5        63463997                             .....................               63463977
+5        74179514                                 .................               74179498
+21       92515536                        ..............G......                    92515556
+21       24017573         ..................                                      24017590
+21       96218381                      ..................                         96218398
+21       2242726      ..................                                          2242709
+7        92378096   ..................                                            92378113
+7        47690222                      .................                          47690238
+11       75555676   ..................                                            75555659
+11       10824131            .................                                    10824147
+2        106942593                               ..................               106942576
+2        50469241            .................                                    50469225
+14       68781776                                .................                68781792
+13       36077594                                 .................               36077578
+9        7363601                                .................                 7363617
+9        31212281           .................                                     31212265
+9        96010887      .................                                          96010871
+3        13284511                               .................                 13284527
+1        127299874              .................                                 127299890
+1        148043050                                .................               148043034
+0        61774939   ......G..............                                         61774959
+0        176982458                              ....G................             176982478
+0        180925841    ........G............                                       180925821
+0        70163637              .................                                  70163653
+0        111580810                                .................               111580826
+0        80765949                                                           ....  80765946
+10       78555504                       ......G...........A......                 78555480
+
+Query_8  61         CAGGAAAATTGTAGTGTTGGGAA  83
+12       66767778   ..........A.CA.........  66767800
+17       38367311   ..................       38367294
+2        34809036    ..................      34809019
+13       20191015        .................   20191031
+9        53735293         .................  53735309
+6        60221385     .................      60221401
+3        36315384   .................        36315400
+0        80765945   .............            80765933
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 169680460992
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  172     2e-41
+NC_083331.1 Globicephala melas chromosome 18, mGloMel1.2, whole g...  44.1    0.012
+NC_083330.1 Globicephala melas chromosome 17, mGloMel1.2, whole g...  38.2    0.75 
+NC_083328.1 Globicephala melas chromosome 15, mGloMel1.2, whole g...  38.2    0.75 
+NC_083323.1 Globicephala melas chromosome 10, mGloMel1.2, whole g...  38.2    0.75 
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  36.2    3.0  
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  36.2    3.0  
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  36.2    3.0  
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  36.2    3.0  
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  36.2    3.0  
+NC_083336.1 Globicephala melas chromosome Y, mGloMel1.2, whole ge...  36.2    3.0  
+NC_083320.1 Globicephala melas chromosome 7, mGloMel1.2, whole ge...  36.2    3.0  
+NC_083318.1 Globicephala melas chromosome 5, mGloMel1.2, whole ge...  36.2    3.0  
+
+
+
+Query_9  2          AACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGGG  61
+12       66769379     ....................................A.....................  66769436
+12       66747286                                                       ........  66747293
+12       66157132                                          ..................     66157149
+12       87855984                                                ...............  87855998
+17       28848075            ......................                               28848096
+17       61548165                ...................                              61548147
+16       71041225                 ...................                             71041243
+14       63650955                                                              .  63650955
+14       9258053                                                               .  9258053
+9        9727093                        ............G..........                   9727071
+19       22711394                                       ..................        22711411
+2        119067724                                      ..................        119067741
+1        144060564                ..................                              144060581
+0        43492120                                     ..................          43492137
+22       237070                                 ..................                237053
+6        79562713                                                       ........  79562706
+4        17895220   .....C................                                        17895199
+
+Query_9  62         GGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+12       66769437   ...........C......................AT.........  66769481
+12       66747294   ......A....T...A.C.....C........               66747325
+12       87855999   ...                                            87856001
+14       63650954   ..................                             63650937
+14       7678512                   ..................              7678529
+14       9258052    .................                              9258036
+10       82166724                      ..................          82166741
+6        79562705   ....A.........                                 79562692
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 230659376661
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  222     3e-56
+NC_083333.1 Globicephala melas chromosome 20, mGloMel1.2, whole g...  38.2    1.0  
+NC_083329.1 Globicephala melas chromosome 16, mGloMel1.2, whole g...  38.2    1.0  
+NC_083321.1 Globicephala melas chromosome 8, mGloMel1.2, whole ge...  36.2    4.1  
+
+
+
+Query_10  10        TGGTGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTAAGTACGAGCA  69
+12        66769885  ................................A................C..........  66769944
+15        6090161                                             ..................  6090144
+
+Query_10  70        CTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATCCTGTTCCCAGG  129
+12        66769945  ..T......G.................................A................  66770004
+12        66793786                     ........C.....A........T..A..T..C..T.....  66793746
+12        66747514                                 .........A...................  66747542
+19        16422638                                                 .............  16422650
+19        47516093                                              ...........T....  47516078
+19        1590140                                                       ........  1590133
+15        6090143   .                                                             6090143
+7         38193522                             ..................                 38193539
+
+Query_10  130       CTGTGTCCTCAG  141
+12        66770005  ............  66770016
+12        66793745  ...C........  66793734
+12        66747543  ......G.....  66747554
+19        16422651  ...C.....     16422659
+19        47516077  ......        47516072
+19        1590132   ...........   1590122
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 320802001531
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  192     4e-47
+NC_083322.1 Globicephala melas chromosome 9, mGloMel1.2, whole ge...  40.1    0.33 
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  38.2    1.3  
+NC_083335.1 Globicephala melas chromosome X, mGloMel1.2, whole ge...  36.2    5.2  
+NC_083334.1 Globicephala melas chromosome 21, mGloMel1.2, whole g...  36.2    5.2  
+NC_083330.1 Globicephala melas chromosome 17, mGloMel1.2, whole g...  36.2    5.2  
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  36.2    5.2  
+NC_083315.2 Globicephala melas chromosome 2, mGloMel1.2, whole ge...  36.2    5.2  
+NC_083329.1 Globicephala melas chromosome 16, mGloMel1.2, whole g...  36.2    5.2  
+NC_083323.1 Globicephala melas chromosome 10, mGloMel1.2, whole g...  36.2    5.2  
+
+
+
+Query_11  1          GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+12        66770115   ...................CA...A...................................  66770174
+12        66793587   ...........A.G..G......T.G.....C..T..T...A................AG  66793528
+12        66747671                             .....A............................  66747704
+8         43803753                                           ....................  43803772
+0         186146086                                                            ..  186146085
+21        76842509                              ..................                 76842492
+20        12797728                                           .........A..........  12797709
+16        45595644             ..................                                  45595627
+2         118460537                                                          ....  118460534
+
+Query_11  61         TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+12        66770175   ........T.G...T....T...TT..............A..T..A..............  66770234
+12        66793527   ..........G...A....A...........A........TT...A....A.G.....T.  66793468
+12        66747705   ........T.G...T...............T......T.....................A  66747764
+0         186146084  .................                                             186146068
+20        12797708   ..                                                            12797707
+2         118460533  ..............                                                118460520
+1         42988582                                                           ....  42988579
+9         101250993                         ..................                     101251010
+
+Query_11  121        CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+12        66770235   .....C.......T.....T.....A.........A.G.....T.......  66770285
+12        66793467   .....C....C..T.....T....C..........                  66793433
+12        66747765   .....C.............................                  66747799
+1         42988578   ..............                                       42988565
+15        2948673            ..................                           2948690
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 400339687861
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083326.1 Globicephala melas chromosome 13, mGloMel1.2, whole g...  145     5e-33
+NC_083329.1 Globicephala melas chromosome 16, mGloMel1.2, whole g...  40.1    0.23 
+NC_083314.1 Globicephala melas chromosome 1, mGloMel1.2, whole ge...  38.2    0.90 
+NC_083328.1 Globicephala melas chromosome 15, mGloMel1.2, whole g...  36.2    3.6  
+NC_083324.2 Globicephala melas chromosome 11, mGloMel1.2, whole g...  36.2    3.6  
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  36.2    3.6  
+
+
+
+Query_12  1          GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+12        66771100   ..............T.....TG.................A....G..............A  66771159
+12        66788618   ...........G..T...........C.....CA.T..T..A..G........T..T..C  66788559
+12        66748965      ...........T...........C...C.GA.G..T....GG..........A...T  66749021
+15        29570951                                                              .  29570951
+0         159139882                  ...................                           159139900
+10        24712923                                                              .  24712923
+
+Query_12  61         GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+12        66771160   ...T....G.....T.TG....................A.....................  66771219
+12        66788558   ........C.....T.....                                          66788539
+12        66749022   ........G........                                             66749038
+15        29570952   ...................                                           29570970
+14        63657461   ..................                                            63657444
+10        4658936       .....G................                                     4658957
+10        24712924   .................                                             24712940
+2         153852996          ..................                                    153853013
+
+Query_12  121        T  121
+12        66771220   .  66771220
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 275730749112
+
+
+  Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+    Posted date:  Feb 4, 2026  12:11 PM
+  Number of letters in database: 2,651,276,051
+  Number of sequences in database:  992
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

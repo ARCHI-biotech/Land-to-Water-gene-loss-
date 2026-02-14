@@ -1,0 +1,73 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_008692025.1_mPhoSin1.pri_genomic.fna
+           64 sequences; 2,371,524,154 total letters
+
+
+
+Query= lcl|XM_057708465.1_cds_XP_057564448.1_1 [gene=SLC6A18]
+[db_xref=GeneID:130836451] [protein=inactive sodium-dependent
+neutral amino acid transporter B(0)AT3] [protein_id=XP_057564448.1]
+[location=18..2090] [gbkey=CDS]
+
+Length=2073
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  217     2e-53
+
+
+
+Query_1      834        GCCCAGGAACAACTGCGCGAGGGACGCGGTGACCATCGCCCTGGTCAACAGCATGACCTC  893
+NC_045765.1  173501648  ...............TAA................T.............TG..........  173501589
+
+Query_1      894        CCTCTACGCTTCCATTGCTGTCTTCTCTGTCCTGGGGTTCAAGGCGGCCCACGACCACGG  953
+NC_045765.1  173501588  .....GT..GC.....A................................AG.........  173501529
+
+Query_1      954        GCGCTGCCTGGATGGAAACATCCTCCACCTCCTCAACGCCTTCGACCTCCCCGACCAGAG  1013
+NC_045765.1  173501528  ......A.....C..                                               173501514
+
+Query_1      1014       CATCTCCAGGGACGACTACGCCGCTGCCCTCGTGCACCTGAACGCCACCCGGCCCGGGCG  1073
+
+Query_1      1074       GGTGGCCCAGCTCCCCCTGGAGGCCTGCCGCCTGGAGGACTTCCTGGATAAGAGCGCCTC  1133
+NC_045765.1  173499532                                                    ........C.  173499523
+
+Query_1      1134       GGGCACGGGCCTGGCCTTCATCGTCTTCACGGAGGCCGTCCTCCACATGCCGGCGGGCCC  1193
+NC_045765.1  173499522  ......A..........C.......G..........-.-..............G..C...  173499465
+
+Query_1      1194       CGTCTGGGCCGTGCTCTTCTTCGGGATGCTGTTCAGCCTGGGCCTGTCGTCCATGTTCGG  1253
+NC_045765.1  173499464  ..........A..T......CA........................A......C.C..A.  173499405
+
+Query_1      1254       GAACATGGAAAGCATCCTCACCCCGCTCCTGGACGCG-GGGCTCATGCCCAGATGGGTCC  1312
+NC_045765.1  173499404  .....C.......G..G....A..A.C.T.....TT.AA...-..C..............  173499346
+
+Query_1      1313       CCAAGGAGGCCCTGACCGG  1331
+NC_045765.1  173499345  ................A..  173499327
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4842648271140
+
+
+  Database: GCF_008692025.1_mPhoSin1.pri_genomic.fna
+    Posted date:  Feb 5, 2026  2:42 PM
+  Number of letters in database: 2,371,524,154
+  Number of sequences in database:  64
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

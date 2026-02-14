@@ -1,0 +1,349 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_937001465.1_mOrcOrc1.1_genomic.fna
+           448 sequences; 2,647,351,467 total letters
+
+
+
+Query= exon_1
+
+Length=188
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  157     4e-36
+
+
+
+Query_1      1         ATGCTCCCCAAACGGCGGCGAGCGCGGGTCGGGTCCCCTAGCGGCGATGCCGCTTCCTCC  60
+NC_064567.1  95936767  .....A..A........................A....G------..CA....CC.....  95936714
+
+Query_1      61        ACGCCGCCCTCGACGCGCTTCCCGGGAGTCGCCATCTACCTGGTCGAGCCTCGCATGGGT  120
+NC_064567.1  95936713  T.------.G..G.A........T..G.C.A.TG.........CT.....A........C  95936660
+
+Query_1      121       CGCAGCCGCCGGGCCTTCCTCACAGGCCTGGCGCGCTCCAAAGGCTTCCGCGTCCTTGAC  180
+NC_064567.1  95936659  ....A...................C.......T.T......G..............G...  95936600
+
+Query_1      181       GCCTGCAG  188
+NC_064567.1  95936599  ....A...  95936592
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 415631999903
+
+
+Query= exon_2
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  170     2e-40
+
+
+
+Query_2      1         CTCCGAAGCGACACATGTTGTGATGGAAGAGACCTCAGCAGAGGAGGCCGTCAGCTGGCA  60
+NC_064567.1  95935286  ...A..G.T......C..CA.......G.G......................T..CA...  95935227
+
+Query_2      61        GGAGCGCAGGATGGCAGCTGCTCCCCCGGGTTGCAcccccccAGCTCTGCTGGACATAAG  120
+NC_064567.1  95935226  ....A......C...G..CCT..A...A..A.......G.....TG..CT.A...G....  95935167
+
+Query_2      121       CTGGTTAACAGAGAGCCTGGGAGCTGGGCAGCCTGTACCTGTGGAGTGCCGGCACCGCCT  180
+NC_064567.1  95935166  ......C..G......A...CG..C........A..C..................T....  95935107
+
+Query_2      181       GGAG  184
+NC_064567.1  95935106  ....  95935103
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 405042649587
+
+
+Query= exon_3
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  83.3    3e-14
+
+
+
+Query_3      1         GTGGCTGGGCCAAGGAAGGGGCCTCTGAGCCCAGCATGGATGCCTGCCTATGCCTGCCAG  60
+NC_064567.1  95934372  .......T.TGCG..........G.CAC............G..TGC...G..........  95934313
+
+Query_3      61        CGCCCTACGCCCCTCACACACCACAACACTGGCCTCTC  98
+NC_064567.1  95934312  ..G..C..A........G......C..G.C........  95934275
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 182666323863
+
+
+Query= exon_4
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  168     2e-39
+
+
+
+Query_4      2         AGGCTCTGGAGATACTGGCCGAGGCAGCAGGCTTTGAAGGCAGTGAGGGCCGCCTCCTCA  61
+NC_064567.1  95934148  ............CG..A..G.....C..G.....C.CC............T...AA...T  95934089
+
+Query_4      62        CCTTCTGCAGAGCAGCCTCGGTGCTCAAGGCCCTTCCCAGCCCTGTCACAACCCTGAGCC  121
+NC_064567.1  95934088  ....G..............A.CA....................G.....GG.........  95934029
+
+Query_4      122       AGCTGCAGGGGCTTCCCCACTTTGGAGAACACTCCTCTAGGGTTGTCCAG  171
+NC_064567.1  95934028  ......GT..C..GG...............G...G.GC.....C..G...  95933979
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 373274661807
+
+
+Query= exon_5
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  95.1    3e-18
+
+
+
+Query_5      1         GAGCTGCTGGAGCATGGAGTGTGTGAGGAGGTGGAGAGAGTTCGGCGCTCAGAGAGGTAC  60
+NC_064567.1  95933130  ...........A.GC..........................C....T...G......G..  95933071
+
+Query_5      61        CAGACCATGAAG  72
+NC_064567.1  95933070  ...G........  95933059
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113835554425
+
+
+Query= exon_6
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  130     3e-28
+
+
+
+Query_6      1         CTCTTCACCCAGATCTTCGGGGTCGGTGTGAAGACTGCTGACCGGTGGTACCGGGAAGGA  60
+NC_064567.1  95931282  ........T........T........GC.A.G...C................A...G..G  95931223
+
+Query_6      61        CTGCGAACCTTAGATGACCTCCGAGAGCAGCCCCAGAAACTAACCCAACAGCAGAAAGC  119
+NC_064567.1  95931222  .....G..GC.G..C......................G...G.....G.......G...  95931164
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 240907760457
+
+
+Query= exon_7
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  165     4e-39
+
+
+
+Query_7      3         CTCCAGCACCACCAGGACCTGAGCACCCCAGTCCTGCGGTCCGATGTAGATGCCCTGCAG  62
+NC_064567.1  95929818  ............................GGA..........A.....G..GA........  95929759
+
+Query_7      63        CAGGTGGTGGAGGAAGCTGTGGGGCAGGCCCTGCCTGGGGCCACCGTCACGCTGACCGGC  122
+NC_064567.1  95929758  ....C........C..TC..............T........T..A...G...........  95929699
+
+Query_7      123       GGCTTCCGCAG  133
+NC_064567.1  95929698  ........G..  95929688
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 272675816781
+
+
+Query= exon_8
+
+Length=103
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  123     1e-26
+
+
+
+Query_8      11        CAGGGCCATGACGTGGACTTCCTCATCACCCACCCCAAGGAGGGTCAGGAGGCGGGGCTG  70
+NC_064567.1  95929547  ........C...........................C.......C.G......A......  95929488
+
+Query_8      71        CTGCCTAGAGTGATGTGCCGCCTGCAGGACCAG  103
+NC_064567.1  95929487  .....C............T.....A..A.G...  95929455
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 193255675971
+
+
+Query= exon_9
+
+Length=243
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  144     3e-32
+
+
+
+Query_9      8         TCCTGTACCACCAGCACCAGCACAGCTG-CTGTGAGTC--CCCTACCCGCCTGGCCCAAC  64
+NC_064567.1  95929347  .........G...........G....C.G.A.GC..A.GA...C....A....CA..GG.  95929288
+
+Query_9      65        AGAGCCACA---TGGACGCTTTTGAGAGAAGTTTCTGCATTTTCCGCCTACCACAACCTC  121
+NC_064567.1  95929287  .........CCA....T..C..C...G.G.C..............A...G........C.  95929228
+
+Query_9      122       CAGGGGCTGCTGTGGGGGGATCCACGAGGCCCTGCCCATCCTGGAAGGCCGTGAGAGTGG  181
+NC_064567.1  95929227  ......A......A....CGC...-............CA..CC..---..----------  95929182
+
+Query_9      182       ACTTGGTAGTTGCACCCGTCAGCCAGTTCCCTTTCGCCCTGCTCGGTTGGACTGGCTCCA  241
+NC_064567.1  95929181  ..C....G..CA.C...A.............C.CT..G..A.....C.............  95929122
+
+Query_9      242       AG  243
+NC_064567.1  95929121  ..  95929120
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 561235566748
+
+
+Query= exon_10
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  95.1    4e-18
+
+
+
+Query_10     3         TTTCCAGCGGGAGCTGCGCCGCTTCAGCCGGAAGGAGA-----AGGGCCTGTGGCTGAAC  57
+NC_064567.1  95929042  ....G...........T...........T.........GCCGG.A..G..C.........  95928983
+
+Query_10     58        AGCCATGGGCTGTTTGACCCGGAGCAG  84
+NC_064567.1  95928982  ........T........T....G....  95928956
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 145603616125
+
+
+Query= exon_11
+
+Length=87
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  99.6    3e-19
+
+
+
+Query_11     1         AAGACATTTTTCCAAGCGGCTTCAGAGGAAGACATCTTCAGACACCTGGGCCTTGAGTAC  60
+NC_064567.1  95928726  .....G...C....C.T...............T..........T.T..............  95928667
+
+Query_11     61        CTTCCTCCAGAGCAGAGAAACGCCTGA  87
+NC_064567.1  95928666  .....C.TCC...C......T......  95928640
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 153545631550
+
+
+  Database: GCF_937001465.1_mOrcOrc1.1_genomic.fna
+    Posted date:  Feb 5, 2026  2:44 PM
+  Number of letters in database: 2,647,351,467
+  Number of sequences in database:  448
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

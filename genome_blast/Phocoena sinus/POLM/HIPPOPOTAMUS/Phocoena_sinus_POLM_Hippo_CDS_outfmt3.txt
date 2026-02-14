@@ -1,0 +1,116 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_008692025.1_mPhoSin1.pri_genomic.fna
+           64 sequences; 2,371,524,154 total letters
+
+
+
+Query= lcl|XM_057731758.1_cds_XP_057587741.1_1 [gene=POLM]
+[db_xref=GeneID:130851436] [protein=DNA-directed DNA/RNA polymerase
+mu isoform X3] [protein_id=XP_057587741.1] [location=72..1688]
+[gbkey=CDS]
+
+Length=1617
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045771.1 Phocoena sinus isolate mPhoSin1 chromosome 9, mPhoSin...  257     9e-66
+
+
+
+Query_1      174       CAGCCCAGAGGTAACACACGTCGTGATGGAGGGGACGTCAGCAGAGGAGGCCGTCTGCTG  233
+NC_045771.1  97193267  ....T.......G.......................C.....................CA  97193208
+
+Query_1      234       GCAGGAGCGCTGGACGGTGGCCCTTCCCCCAGGTTGCGCCCGCCCAGCACTCTTAGACAT  293
+NC_045771.1  97193207  ..........A......C........A......A...A.........TG.........G.  97193148
+
+Query_1      294       AAGCTGGTTCACGGAGAGCATGGCGGCCGGACAGCCTGTCCCCGTGGAGTGCCGGCACCG  353
+NC_045771.1  97193147  ...........................T..G.....A...T.T...............T.  97193088
+
+Query_1      354       CCTGGAGGTG-GCTGTGCCCAGGAAGGGGCTGCCAAGCCCAGCGTGGATGCTGCCGTATG  412
+NC_045771.1  97193087  ..........A....                                               97193073
+
+Query_1      413       CCTGCCAGCGTCCCACACCCCTCACGCACCACAACGCCAGCCTCTCGGAGGCTCTGGAGA  472
+
+Query_1      473       CGCTGGCAGAGGCCGCGGGCTTCGATGGCAGCGAGGGCCGCCAGCTCTCCTTCTGCAGAG  532
+
+Query_1      533       CGGCCTCAGTGCTCAAGGCTCTTCCCAGCCCAGTCACAACGCTGAACCAGCTGCAGGGCC  592
+
+Query_1      593       TGCCCCACTTCGGAGAACACTCCCGCAGGGTCATCCAGGAGCTGCTGGAACACGGAGTGT  652
+NC_045771.1  97190908                                     ................G........  97190884
+
+Query_1      653       GTGAGGAGGTGGAGAGAGTCAGGCTCTCAGAGAGGTACCAGACCATGAAGCTCTTCACTC  712
+NC_045771.1  97189060                                                  ............  97189049
+NC_045771.1  97190883  ....................C.......G............G........            97190834
+
+Query_1      713       AGATTTTTGGCGTTGGGGTAAGGACTGCGGACCGGTGGTATCGGGATGGGCTGCGGACGC  772
+NC_045771.1  97189048  ....C.....G..C...........C..T...........C.A...G.............  97188989
+
+Query_1      773       TGGATGACCTCCGAGAGCAGCCCCAGAGACTGACCCAGCAGCAGAGAGTAGGACTCCAGC  832
+NC_045771.1  97188988  ....C.............................G....G........C...          97188937
+
+Query_1      833       ACCACCAGGACCTGAGCTCCCTGATCCTGCGGTCAGATGTGCAGGCCCTGCAGCACGTGG  892
+
+Query_1      893       TGGAGGCAGCCGTGGGGCAGGCCCTTCCTGGGGCCACCGTCACACTGACTGGCGGCTTCC  952
+
+Query_1      953       GGAGGGGGAAGTTGCAGGGCCACGACGTGGACTTCCTCATCACCCACCCTCAGGAGGGCC  1012
+NC_045771.1  97187335                ..................................GC..........  97187290
+
+Query_1      1013      AGGAGGCAGGGCTGCTGCCCAGAGTTCTGTGCTGCCTGAAGGAGCAGGGCCTGGTCCTCT  1072
+NC_045771.1  97187289  G........................GA...A..........A......              97187242
+
+Query_1      1073      ACCACCAGGACCACCAGAGCCAACAGGGAGACCCCACCCACCTGATGCGGCAGAGCCACA  1132
+
+Query_1      1133      CCATGGACGCCTTTGAGAGGAGTTTCTGCATTTTCCGCCTGCCACAACCCCCAGGGGATG  1192
+
+Query_1      1193      CCGTAGGGGGCTCCCAGAAGCCCTGCGCCTCCTGGAAGGCTGTGCGGGTGGACCTGGTGG  1252
+
+Query_1      1253      TTGCCCCCATCAGCCAGTTCCCTTTTGCCCTCCTCGGCTGGACTGGCTCCAAGCATTTCG  1312
+NC_045771.1  97186834                                                     ...G...T.  97186826
+
+Query_1      1313      AGCGGGAGCTGCGCCGCTTCAGCCGGAAGGAGAG---G--GGGCTTTGGCTGAACAGCCA  1367
+NC_045771.1  97186825  ...........T...........T..........CCG.AA.....C..............  97186766
+
+Query_1      1368      TGGTCTGTTTGATCCAGAGCAGGGAAGCTGCCACGGTGGTGGGGGTGACTCCCAGGCACT  1427
+NC_045771.1  97186572                       ...........G.........-A...G......A.....  97186535
+NC_045771.1  97186765  ...............G.G.....                                       97186743
+
+Query_1      1428      AATACTTGCACTCTGTTACAGAAGGCGTTTTCCCACGTGGTTTCAGAGGAAGATATCTTC  1487
+NC_045771.1  97186534  CG.G.............G......A.....CT........C............C......  97186475
+
+Query_1      1488      AGACTCTTGGGCCTTGAGTACCTTCCCCCAGAGCAGAGAAACGCCTGATCCTATTAGGTG  1547
+NC_045771.1  97186474  ............................TCC...C......T...............C..  97186415
+
+Query_1      1548      GCCCCCACTTCCACTCTTTGGAAATGGAGGGGGCCATTTGAGCCAGACCCTATGGGTGTT  1607
+NC_045771.1  97186414  ...........TG....C.............T...............TG..G........  97186355
+
+Query_1      1608      TTGC-CCCTGA  1617
+NC_045771.1  97186354  C..GT......  97186344
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3761234161620
+
+
+  Database: GCF_008692025.1_mPhoSin1.pri_genomic.fna
+    Posted date:  Feb 5, 2026  2:42 PM
+  Number of letters in database: 2,371,524,154
+  Number of sequences in database:  64
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

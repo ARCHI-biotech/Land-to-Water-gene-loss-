@@ -1,0 +1,392 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_029378745.1_NIAB-ARS_B.indTharparkar_mat_pri_1.0_genomic.fna
+           67 sequences; 2,663,005,763 total letters
+
+
+
+Query= exon_1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  107     1e-21
+NC_091762.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  64.4    1e-08
+NC_091781.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  60.8    2e-07
+NC_091789.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  56.3    7e-06
+
+
+
+Query_1  42        CGGGGATGAGAGGCCCAAGTGGGACAACAAGGCCCAGTACCTCCTGAGCTGCACTGGGTT  101
+19       70923171  ......G...C....AGC............ACT.........G.........GTG..C..  70923112
+2        33648118                     ...A...G....CTG......A.....GC.CAG.T...C..  33648078
+29       38956202                                                         ..C..  38956206
+
+Query_1  102       TGCCGTGGGACTGGGGAACATTTGGCGGTTCCCATACCTGTGCCAGACCTATGGAGGAG  160
+19       70923111  C..T.....C.....C...C.C.....C.....G..............GC....G....  70923053
+2        33648077  CT.T.....C..C..C.....C...A.......T.............AAA.C.......  33648019
+21       53472824   ........C.....C...G.G.....C.....C.............TG..C..C....  53472881
+29       38956207  .........C.....C...G.G.....C.....C.........                  38956249
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 346190487890
+
+
+Query= exon_2
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  137     2e-30
+
+
+
+Query_2  3         GCCTTCCTCATCCCCTACGTCATCGCGCTGGTCTTCGAGGGGATCCCCATTTTCCACGTC  62
+19       70934897  ..G...A.G..T..A.T.C.....CT.......C.G...........GC.AC.G...C.G  70934838
+19       70918574  ..................A.......C....C.........C.....GC.G......A.T  70918515
+
+Query_2  63        GAGCTCGCCATCGGCCAGCGGCTGCGGAAGGGCAGCGTCGGCGTGTGGACGGCCATCTCC  122
+19       70934837  ...T..........G...........C...........G.....C....GC......CA.  70934778
+19       70918514  .....T..TG..........C.....C.G............G.C......A........G  70918455
+
+Query_2  123       CCGTACCTCAGTGGAGTAG  141
+19       70934777  ...GC.....AG..C....  70934759
+19       70918454  ..C..T..             70918447
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 295593416583
+
+
+Query= exon_3
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  178     7e-43
+
+
+
+Query_3  1         GGCTGGGCTGTGTCACGCTGTCCTTCCTGATCAGCCTGTACTACAACACCATCGTGGCGT  60
+19       70917838  ..........CT....CG...........G....................G..C..A.C.  70917779
+
+Query_3  61        GGGTGCTGTGGTACCTCCTCAACTCCTTCCAGCACCCGCTGCCCTGGAGCTCCTGCCCAC  120
+19       70917778  .......C..........................................G.......G.  70917719
+
+Query_3  121       CGGACCTCAACAGAACAG  138
+19       70917718  TC.........C.C....  70917701
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 287604405324
+
+
+Query= exon_4
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  198     1e-48
+
+
+
+Query_4  6         GTGGAGGAGTGCCAGGGCAGCAGCGCCGTGAGCTACTTCTGGTACCGGCAGACACTGAAC  65
+19       70917233  ...C.........G..A.......C........................G...C......  70917174
+
+Query_4  66        ATCACAGCCGACATCAATGACAGTGGCTCCATCCAGTGGTGGCTGCTCATCTGCTTGGCA  125
+19       70917173  G..T.G.........GG......C...C.GG........C.......GG.....C....C  70917114
+
+Query_4  126       GCCTCCTGGGCAGTCGTGTACATGTGTGTCATCAGGGGCATTGAGACTACAGGGAAG  182
+19       70917113  .T.........C.........C....C..............C.....C..T......  70917057
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 402113556586
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  85.1    9e-15
+
+
+
+Query_5  4         ATTTACTTCACAGCTTTGTTCCCTTACCTGGTCCTGACCATCTTTCTCATCAGAGGGCTG  63
+19       70915315  .....T.....G..CC....T...........G..C..GG....C..GG..........C  70915256
+
+Query_5  64        ACCCTGCCAGGGGCAACAAAAGGACTCATCTACTTGTTCACTCC  107
+19       70915255  ..G.....C.....G.TGC.......G.C....C.......C..  70915212
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 215703303993
+
+
+Query= exon_6
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  143     1e-32
+
+
+
+Query_6  10        CTCCAGAACCCCCGGGTGTGGCTGGACGCAGCCACCCAGATATTCTTCTCTCTGTCCCTG  69
+19       70914445  ..A..........................C....................C........C  70914386
+
+Query_6  70        GCCTTCGGAGGACACATCGCTTTTGCAAGTTACAACTCGCCCAG  113
+19       70914385  .....G.................C..C..C......C.A.....  70914342
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 221029311499
+
+
+Query= exon_7
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  122     5e-26
+
+
+
+Query_7  6         ACTGCCAGAAGGATGCGGTGGTCATCGCCCTGGTCAACAGGATGACCTCCCTGTACGCGT  65
+19       70913615  .....AG..G...C......AG......G.....G.....C.....G.....C.......  70913556
+
+Query_7  66        CCATCGCTGTCTTCTCTGTCCTGGGGTTCAAAGCAACTAATGACTACGAGCACTGCCTGG  125
+19       70913555  .............T......T..........G...G.C.GC...C...G..GG.......  70913496
+
+Query_7  126       AC  127
+19       70913495  ..  70913494
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 263637371547
+
+
+Query= exon_8
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  113     3e-23
+
+
+
+Query_8  1         AAACATCCTCAGCCTCATCAACGACTTTGACTTCCCAGAGCAGAGCATCTCCAGGGACGA  60
+19       70912227  ..........CA...........C...C...C.G..G.........G.G.........AC  70912168
+
+Query_8  61        CTACCCAGCCGTCCTCATGCACCTGAACGC----CACCTGGCCCAAGAGGGTGGCCCAGC  116
+19       70912167  ....A.T.TG.C...GGC..GT........CTCA..G.C...T..----.......GG..  70912112
+
+Query_8  117       TCCCCCTGAAGGCCTGCCTCCTGGAAGACTTTCTGGATAAG  157
+19       70912111  ........G.........G......G.....C.....C...  70912071
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 338201476631
+
+
+Query= exon_9
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  218     1e-54
+
+
+
+Query_9  1         AGTGCCTCGGGCCCGGGCCTGGCCTTCGTCGTCTTCACGGAGACCGACCTCCACATGCCG  60
+19       70911324  ............A..............A..............G...TG...........C  70911265
+
+Query_9  61        GGGGCTCCTGTGTGGGCCATGCTCTTCTTCGGGATGCTGTTCACCTTGGGGCTATCGACC  120
+19       70911264  ..C..G..G..C.....TG...................C....G.C....C..G...T..  70911205
+
+Query_9  121       ATGTTCGGGACCGTGGAGGCGGTCATCACACCCCTGCTGGACGTGGGGGTCCTGCCTAGA  180
+19       70911204  ..........A.A.....AGCA.......G..G..C......C........A....C...  70911145
+
+Query_9  181       TGGGTCCCCAAGGAGGCCCTGAC  203
+19       70911144  A...............TG.....  70911122
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 463362641364
+
+
+Query= exon_10
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  150     1e-34
+
+
+
+Query_10  3         CTGGTCTGCCTGGTCTGCTTCCTCTCCGCCACCTGCTTCACGCTGCAGTCTGGGAACTAC  62
+19        70910908  ....C.......C.G......T..A.G...................G...G....G....  70910849
+
+Query_10  63        TGGCTGGAGATTTTCGACAATTTTGCCGCTTCCCCGAACCTGCTCATGTTGGCCTTTCTC  122
+19        70910848  ...........C......C.G.AC.....GG...T.......A..C.CC.......CT..  70910789
+
+Query_10  123       GAGGTTGTGGGTGTCGTTTATGTTTATGGAATGAAACG  160
+19        70910788  .....G..C..G....C...C........G.....G..  70910751
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 346190487890
+
+
+Query= exon_11
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  131     1e-28
+
+
+
+Query_11  1         GTTCTGCGATGACATTGCGTGGATGACCGGGAGGCGGCCCAGCCCCTACTGGCGGCTGAC  60
+19        70909715  .........C.....A..C.....................G..TT..........GCA..  70909656
+19        70827944  ....A....C.....CAA.CA..........C............T.............TG  70828003
+
+Query_11  61        CTGGAGGGTGGTCAGTCCC---CTGCTGCTGACCATCTTTGTGGCTTACATCATCCTCCT  117
+19        70909655  .....A...C..G..C...CTG.................CC....C..TG.TGC......  70909596
+19        70828004  .....A.T.C.....-...---.....                                   70828026
+
+Query_11  118       GTTCTGGAAGCCACTGAGATACAAGGCCTGGAACCCCAAATAC  160
+19        70909595  .GC.A.CTC.....C.CAC..................CG....  70909553
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 346190487890
+
+
+Query= exon_12
+
+Length=231
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_091779.1 Bos indicus isolate NIAB-ARS_2022 breed Sahiwal x Tha...  143     3e-32
+
+
+
+Query_12  1         GAGCTGTTCCCCTCGCGTCAGGAGAAGCTCTACCCGGGCTGGGCGCGCGCCGCCTGTGTG  60
+19        70908551  ....G........T...G..........C..............T..TG............  70908492
+
+Query_12  61        CTGCTGTCCTTGCTGCCCGTGCTGTGGGTCCCGGTGGCCGCGCTTGCTCAGCTGCTCACC  120
+19        70908491  ..C........C......ACC................TG.....G.GC.........G..  70908432
+
+Query_12  121       CGGCGGAGGCGGACGTGGAGGGAC  144
+19        70908431  ...T.C..A.A..A.AC.C.....  70908408
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 532600737200
+
+
+  Database: GCF_029378745.1_NIAB-ARS_B.indTharparkar_mat_pri_1.0_genomic.fna
+    Posted date:  Feb 5, 2026  5:25 AM
+  Number of letters in database: 2,663,005,763
+  Number of sequences in database:  67
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

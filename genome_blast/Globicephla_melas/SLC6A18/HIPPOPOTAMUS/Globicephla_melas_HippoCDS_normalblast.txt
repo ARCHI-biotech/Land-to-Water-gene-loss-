@@ -1,0 +1,117 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+           992 sequences; 2,651,276,051 total letters
+
+
+
+Query= lcl|XM_057708465.1_cds_XP_057564448.1_1 [gene=SLC6A18]
+[db_xref=GeneID:130836451] [protein=inactive sodium-dependent
+neutral amino acid transporter B(0)AT3] [protein_id=XP_057564448.1]
+[location=18..2090] [gbkey=CDS]
+
+Length=2073
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_083316.1 Globicephala melas chromosome 3, mGloMel1.2, whole ge...  198     8e-48
+
+
+
+Query_1  42      CGAGCGGGCCACGTGGGACAACAAGCTGCAGTACCTCCTGAGCTGCGTCGGGTTCGCCGT  101
+2        666086  .......C...A...............C....G.........T...........T.....  666145
+
+Query_1  102     GGGCCTGGGCAACCTCTGGCGGTTCCCGTACCTGTGCCAGACCTACGGGGGAGGCGCCTT  161
+2        666146  ...................A...C..............................        666199
+2        670968                                                          ....  670971
+
+Query_1  162     CCTCATCCCCTACCTCATCGCCCTGGCCCTCGAGGGCATCCCTCTCTTCCACGTCGAGCT  221
+2        670972  .A.....................-....T.........G..G---.......A.......  671027
+
+Query_1  222     CGCCGTCGGCCAGCGCCTGCGCCGGGGCAGCACAGGCGTGTGGACGGCCATCTCGCCCTA  281
+2        671028  .A..A.T............T..A........CTC..-.......................  671086
+
+Query_1  282     CCTGGGCGGAATAGGGCTGGGCTGCTTCCTCCTGTCCGTCCTGGTCAGCCTGTACTACAA  341
+2        671087  .......                                                       671093
+
+Query_1  342     CACGGTCCTAACTTGGGTGCTGTGGTACCTCCTCAACTCCTTCCAACACCCGCTGCCCTG  401
+
+Query_1  402     GAGCACCTGCCCACCGGACCTCAACCGCACAGGGCTCTTGCGGGAATGCCGGGACAGCAG  461
+2        672867                                         ..T...G........T.....  672887
+
+Query_1  462     CCCCGTGAGCTACTTCTGGTACCGGCAGACGCTGAACATCACGGCCAACATCAACGACAG  521
+2        672888  .G.T......CT....C.............................G...C.........  672947
+
+Query_1  522     TGGCTCTGTCCAGTGGCGACTGCTGGTCTGCTTGGCGGCCTCCTGGGCCATCGTATACCT  581
+2        672948  .............C.CT.G....G..........A................G..GC....  673007
+
+Query_1  582     CTGTGTCATCAGAGGTATTGAGACCACTGGGAAGGCAATTTATTTCACGGTCTTGTTCCC  641
+2        673008  G..C...........C.C.................                           673042
+
+Query_1  642     TTACCTGGTCCTCACGGTTTTCCTCGTCAGAGGGCTCACCCTGCCCGGGGCGACCGAAGG  701
+
+Query_1  702     ACTGACCTACCTGTTCACGCCTGATATGCAGGTCCTGCAGAGCCCCCGGGTGTGGCTGGA  761
+
+Query_1  762     TGCAGCAACCCAGATATTCTTCTCTCTGTCCCTGGCCTTCGGAGGGCACATCGCTTTTGC  821
+
+Query_1  822     GAGTTACAACCCGCCCAGGAACAACTGCGCGAGGGACGCGGTGACCATCGCCCTGGTCAA  881
+2        676687              ...............TAA..............................  676734
+
+Query_1  882     CAGCATGACCTCCCTCTACGCTTCCATTGCTGTCTTCTCTGTCCTGGGGTTCAAGGCGGC  941
+2        676735  .G...............G...--.....A...............................  676792
+
+Query_1  942     CCACGACCACGGGCGCTGCCTGGATGGAAACATCCTCCACCTCCTCAACGCCTTCGACCT  1001
+2        676793  .AG...............A........                                   676819
+
+Query_1  1002    CCCCGACCAGAGCATCTCCAGGGACGACTACGCCGCTGCCCTCGTGCACCTGAACGCCAC  1061
+
+Query_1  1062    CCGGCCCGGGCGGGTGGCCCAGCTCCCCCTGGAGGCCTGCCGCCTGGAGGACTTCCTGGA  1121
+
+Query_1  1122    TAAGAGCGCCTCGGGCACGGGCCTGGCCTTCATCGTCTTCACGGAGGCCGTCCTCCA-CA  1180
+2        660110              ......C..G.....G........G.....C......A..-A...GG.  660156
+
+Query_1  1181    TGCCGGCGGGCCCCG-TCTGGGCCGTGCTCTTCTTCGGGATGCTGTTCAGCCTGGGCCTG  1239
+2        660157  .......-.......C.....T.............TATC.........T.T.........  660215
+
+Query_1  1240    TCGTCCATGTTCGGGAACATGGAAAGCATCCTCACCCCGCTCCTGGACGCGGGGCTCATG  1299
+2        660216  .......................                                       660238
+
+Query_1  1300    CCCAGATGGGTCCCCAAGGAGGCCCTGACCGGGCTGGTCTGCCTGGTCTGCTTCCTCTTG  1359
+2        679318                                                            ..  679319
+
+Query_1  1360    G-CCACCTGCTTCACGTTGCAGTCCGGAAACTACTGGCTCGAGATCTTCGACCGCTACGT  1418
+2        679320  .C..G...........C...G.G.G..C......C.............T...........  679379
+
+Query_1  1419    CGCTTCCCTGAACCTGATCTTCTTTGCGTTCTTCGAGGTGGTCGGAGTCATTTATGTTTA  1478
+2        679380  ...C......GG.....A.C....C.......C.......ACT..T..............  679439
+
+Query_1  1479    CGGGATGAAACGGT  1492
+2        679440  ..............  679453
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5413842900558
+
+
+  Database: GCF_963455315.2_mGloMel1.2_genomic.fna
+    Posted date:  Feb 4, 2026  12:11 PM
+  Number of letters in database: 2,651,276,051
+  Number of sequences in database:  992
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

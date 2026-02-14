@@ -1,0 +1,796 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_008692025.1_mPhoSin1.pri_genomic.fna
+           64 sequences; 2,371,524,154 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  69.9    8e-11
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  40.1    0.072
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  40.1    0.072
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  36.2    1.1  
+NC_045769.1 Phocoena sinus isolate mPhoSin1 chromosome 7, mPhoSin...  36.2    1.1  
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  36.2    1.1  
+NC_045784.1 Phocoena sinus isolate mPhoSin1 chromosome X, mPhoSin...  34.2    4.5  
+NC_045782.1 Phocoena sinus isolate mPhoSin1 chromosome 20, mPhoSi...  34.2    4.5  
+NC_045771.1 Phocoena sinus isolate mPhoSin1 chromosome 9, mPhoSin...  34.2    4.5  
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  34.2    4.5  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  34.2    4.5  
+
+
+
+Query_1      1          CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+NC_045776.1  66468034   ......T........C.........AG............A...............  66468088
+NC_045776.1  79244900                  .................                         79244916
+NC_045777.1  11102729              .............T..A........                     11102705
+NC_045777.1  53461478                            .............T..........        53461501
+NC_045777.1  23974528               ..................                           23974511
+NC_045777.1  75164716        .................                                   75164732
+NC_045765.1  61868051              ....................                          61868070
+NC_045780.1  76133796                   ..................                       76133813
+NC_045769.1  18650783                                   ..................       18650766
+NC_045763.1  65947187                                  ..................        65947170
+NC_045763.1  32307964                        .................                   32307948
+NC_045784.1  11761                      .................                        11745
+NC_045782.1  12525126                  .................                         12525142
+NC_045771.1  14118715         .................                                  14118699
+NC_045768.1  21241962                                .........A...........       21241982
+NC_045768.1  94154353       ........G............                                94154333
+NC_045767.1  4173269                       .................                     4173285
+NC_045767.1  122086697                  .................                        122086713
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 87746351074
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  73.8    8e-12
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  38.2    0.43 
+NC_045781.1 Phocoena sinus isolate mPhoSin1 chromosome 19, mPhoSi...  36.2    1.7  
+NC_045778.1 Phocoena sinus isolate mPhoSin1 chromosome 16, mPhoSi...  36.2    1.7  
+NC_045771.1 Phocoena sinus isolate mPhoSin1 chromosome 9, mPhoSin...  36.2    1.7  
+NC_045784.1 Phocoena sinus isolate mPhoSin1 chromosome X, mPhoSin...  34.2    6.8  
+NC_045782.1 Phocoena sinus isolate mPhoSin1 chromosome 20, mPhoSi...  34.2    6.8  
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  34.2    6.8  
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  34.2    6.8  
+NC_045769.1 Phocoena sinus isolate mPhoSin1 chromosome 7, mPhoSin...  34.2    6.8  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  34.2    6.8  
+NC_045766.1 Phocoena sinus isolate mPhoSin1 chromosome 4, mPhoSin...  34.2    6.8  
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  34.2    6.8  
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  34.2    6.8  
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  34.2    6.8  
+
+
+
+Query_2      6          GAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCTCCTGC  65
+NC_045776.1  66510881        ...............C....CA.T.....G.....A...........T.......  66510827
+NC_045776.1  66468954                  ......................C..A.......G......T....  66468998
+NC_045776.1  50523356                                                   ............  50523367
+NC_045776.1  32633443    .................                                            32633459
+NC_045768.1  92371816          ...................                                    92371834
+NC_045781.1  17371958         ..................                                      17371941
+NC_045778.1  25562204                        ..................                       25562187
+NC_045771.1  37023265            ...............A.....                                37023245
+NC_045771.1  73102843          ..................                                     73102826
+NC_045784.1  46642276                      .................                          46642260
+NC_045782.1  38203730                                              .................  38203746
+NC_045780.1  3347932                        .................                         3347916
+NC_045780.1  40935766    .................                                            40935782
+NC_045770.1  14130965                                              .................  14130949
+NC_045769.1  26089461                                            .................    26089445
+NC_045769.1  38585209                     .................                           38585225
+NC_045769.1  89002749                                             .................   89002733
+NC_045767.1  467911                            .................                      467895
+NC_045767.1  16373259                  .................                              16373243
+NC_045766.1  143513575                                     .......T.....C..........T  143513599
+NC_045766.1  106408475     .................                                          106408491
+NC_045765.1  83916031   .................                                             83916047
+NC_045764.1  93929875                                                        .......  93929869
+NC_045764.1  116749459                         .................                      116749475
+NC_045763.1  1723061            .................                                     1723045
+NC_045763.1  36543117                         .................                       36543133
+NC_045763.1  176416287  .................                                             176416303
+
+Query_2      66         GCTGGCTCCG  75
+NC_045776.1  66510826   ..........  66510817
+NC_045776.1  66468999   A.......    66469006
+NC_045776.1  50523368   .......     50523374
+NC_045766.1  143513600  ....        143513603
+NC_045764.1  93929868   ..........  93929859
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 132805284528
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  58.0    2e-07
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  38.2    0.21 
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  38.2    0.21 
+NC_045783.1 Phocoena sinus isolate mPhoSin1 chromosome 21, mPhoSi...  36.2    0.83 
+NC_045782.1 Phocoena sinus isolate mPhoSin1 chromosome 20, mPhoSi...  36.2    0.83 
+NC_045781.1 Phocoena sinus isolate mPhoSin1 chromosome 19, mPhoSi...  36.2    0.83 
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  36.2    0.83 
+NC_045778.1 Phocoena sinus isolate mPhoSin1 chromosome 16, mPhoSi...  36.2    0.83 
+NC_045775.1 Phocoena sinus isolate mPhoSin1 chromosome 13, mPhoSi...  36.2    0.83 
+NC_045774.1 Phocoena sinus isolate mPhoSin1 chromosome 12, mPhoSi...  36.2    0.83 
+NC_045772.1 Phocoena sinus isolate mPhoSin1 chromosome 10, mPhoSi...  36.2    0.83 
+NC_045771.1 Phocoena sinus isolate mPhoSin1 chromosome 9, mPhoSin...  36.2    0.83 
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  36.2    0.83 
+NC_045769.1 Phocoena sinus isolate mPhoSin1 chromosome 7, mPhoSin...  36.2    0.83 
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  36.2    0.83 
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  36.2    0.83 
+NC_045766.1 Phocoena sinus isolate mPhoSin1 chromosome 4, mPhoSin...  36.2    0.83 
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  36.2    0.83 
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  36.2    0.83 
+NC_045784.1 Phocoena sinus isolate mPhoSin1 chromosome X, mPhoSin...  34.2    3.3  
+NC_045779.1 Phocoena sinus isolate mPhoSin1 chromosome 17, mPhoSi...  34.2    3.3  
+NC_045773.1 Phocoena sinus isolate mPhoSin1 chromosome 11, mPhoSi...  34.2    3.3  
+
+
+
+Query_3      1          GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+NC_045776.1  66469275   ....A......C........................T...A....  66469319
+NC_045776.1  66506120            ..............G..T..............      66506089
+NC_045776.1  11857171                          .................       11857155
+NC_045776.1  21943268           .................                      21943252
+NC_045776.1  83267190                     .................            83267174
+NC_045763.1  167001911                           ...................   167001929
+NC_045763.1  6732572                              ..................   6732589
+NC_045763.1  27955907                             ..................   27955924
+NC_045763.1  82763133                             ..................   82763150
+NC_045763.1  79963320                             ..................   79963303
+NC_045763.1  138336804                            ..................   138336787
+NC_045763.1  150267172          .................                      150267188
+NC_045777.1  68816389                ...................               68816371
+NC_045777.1  52316025                             ..................   52316008
+NC_045777.1  59537262       .................                          59537278
+NC_045777.1  19291                                 .................   19275
+NC_045777.1  45594271                .................                 45594255
+NC_045783.1  23111000                             ..................   23111017
+NC_045783.1  24939885                             ..................   24939868
+NC_045783.1  30193252                             .................    30193268
+NC_045782.1  51973792                             ..................   51973809
+NC_045781.1  15166342                             ..................   15166359
+NC_045781.1  18062380                             ..................   18062397
+NC_045781.1  30230118                             ..................   30230135
+NC_045781.1  38793431                             ..................   38793414
+NC_045780.1  78822473                             ..................   78822490
+NC_045780.1  33751933                             ..................   33751916
+NC_045778.1  5196705                              ..................   5196722
+NC_045778.1  53990486                             ..................   53990503
+NC_045778.1  54912818                             ..................   54912801
+NC_045778.1  63517766                             ..................   63517749
+NC_045775.1  20213045                             ..................   20213062
+NC_045775.1  40619327                             ..................   40619344
+NC_045775.1  31232249                        .................         31232233
+NC_045774.1  37287001                       ..................         37287018
+NC_045774.1  58786094                             ..................   58786077
+NC_045774.1  83103065                             ..................   83103048
+NC_045772.1  17774423                 .....C................           17774402
+NC_045772.1  48095339                             ..................   48095356
+NC_045772.1  76511624                             ..................   76511641
+NC_045771.1  86155398                             ..................   86155415
+NC_045770.1  49883934                             ..................   49883951
+NC_045770.1  97508130                             ..................   97508147
+NC_045770.1  110072030                            ..................   110072047
+NC_045770.1  10041160                  .................               10041176
+NC_045769.1  15471872                             ..................   15471889
+NC_045769.1  30723323                ..................                30723340
+NC_045769.1  66365466                             ..................   66365483
+NC_045769.1  30639314                .................                 30639298
+NC_045769.1  95150389                    .................             95150373
+NC_045768.1  95686163                             ..................   95686180
+NC_045768.1  64538974                             ..................   64538957
+NC_045768.1  40154924                              .................   40154940
+NC_045767.1  27838439                             ..................   27838456
+NC_045767.1  18307230                             ..................   18307213
+NC_045766.1  88744067                             ..................   88744084
+NC_045766.1  137063547                            ..................   137063530
+NC_045766.1  34420583           .................                      34420567
+NC_045765.1  60060908                             ..................   60060925
+NC_045765.1  28107514                             .................    28107498
+NC_045765.1  145791654                            .................    145791638
+NC_045764.1  108679288                 .....A...............           108679268
+NC_045764.1  63470869                             ..................   63470886
+NC_045764.1  85919746                             ..................   85919763
+NC_045764.1  95038919                             ..................   95038936
+NC_045764.1  102329872               ..................                102329889
+NC_045764.1  103019149                            ..................   103019166
+NC_045764.1  122042218                            ..................   122042235
+NC_045764.1  165986138                            ..................   165986155
+NC_045764.1  37129499                             ..................   37129482
+NC_045764.1  100675970                            ..................   100675953
+NC_045764.1  175868996                            ..................   175868979
+NC_045784.1  38503148        .................                         38503164
+NC_045779.1  47542614                  .................               47542630
+NC_045773.1  41841376                          .................       41841360
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 64031121054
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  81.8    2e-14
+NC_045782.1 Phocoena sinus isolate mPhoSin1 chromosome 20, mPhoSi...  34.2    5.1  
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  34.2    5.1  
+NC_045775.1 Phocoena sinus isolate mPhoSin1 chromosome 13, mPhoSi...  34.2    5.1  
+NC_045773.1 Phocoena sinus isolate mPhoSin1 chromosome 11, mPhoSi...  34.2    5.1  
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  34.2    5.1  
+NC_045766.1 Phocoena sinus isolate mPhoSin1 chromosome 4, mPhoSin...  34.2    5.1  
+
+
+
+Query_4      1          GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+NC_045776.1  66469454   ...................A...................A.-...T..............  66469512
+NC_045782.1  47992791                             .................                   47992807
+NC_045777.1  62831626                       .........G...........                     62831606
+NC_045775.1  2310971                                              .................   2310987
+NC_045773.1  3496914                                          .................       3496930
+NC_045768.1  109093521                                       .................        109093537
+NC_045766.1  79401695                                               ................  79401710
+
+Query_4      61         G  61
+NC_045776.1  66469513   .  66469513
+NC_045766.1  79401711   .  79401711
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 99603963396
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  297     9e-79
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  38.2    1.3  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  38.2    1.3  
+NC_045775.1 Phocoena sinus isolate mPhoSin1 chromosome 13, mPhoSi...  38.2    1.3  
+NC_045772.1 Phocoena sinus isolate mPhoSin1 chromosome 10, mPhoSi...  38.2    1.3  
+NC_045766.1 Phocoena sinus isolate mPhoSin1 chromosome 4, mPhoSin...  38.2    1.3  
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  38.2    1.3  
+NC_045779.1 Phocoena sinus isolate mPhoSin1 chromosome 17, mPhoSi...  36.2    5.2  
+NC_045773.1 Phocoena sinus isolate mPhoSin1 chromosome 11, mPhoSi...  36.2    5.2  
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  36.2    5.2  
+NC_045769.1 Phocoena sinus isolate mPhoSin1 chromosome 7, mPhoSin...  36.2    5.2  
+NC_045784.1 Phocoena sinus isolate mPhoSin1 chromosome X, mPhoSin...  36.2    5.2  
+NC_045781.1 Phocoena sinus isolate mPhoSin1 chromosome 19, mPhoSi...  36.2    5.2  
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  36.2    5.2  
+
+
+
+Query_5      1          GGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCGT  60
+NC_045776.1  66470490   ..........................C...........G.....A............T..  66470549
+NC_045776.1  66505368                         ......A....C.....C....TG..T.........A.  66505331
+NC_045767.1  104025192                           ...................                  104025210
+NC_045775.1  89802652                 ............A.........                          89802673
+NC_045775.1  45441637                    ...................                          45441619
+NC_045764.1  71818965                       ..................                        71818982
+NC_045779.1  879924                       ..................                          879941
+NC_045779.1  40272692        ..................                                       40272675
+NC_045769.1  86646803     .....T................                                      86646824
+NC_045769.1  114517                      ..................                           114500
+NC_045784.1  23488887                              ..................                 23488870
+NC_045765.1  643345                      ..................                           643328
+
+Query_5      61         GTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGCA  120
+NC_045776.1  66470550   ................A.........................T.....T...........  66470609
+NC_045776.1  66505330   C.....C........T..A..T..G..TG.......T......C......C......A..  66505271
+NC_045768.1  14123762                                         ..................G...  14123783
+NC_045772.1  64626147                                                ...............  64626133
+NC_045766.1  142394828                                 ................G......        142394806
+NC_045773.1  2333899                              ..................                  2333916
+NC_045770.1  64968732                                       ......T...............    64968711
+NC_045781.1  52543613                                   ..................            52543596
+
+Query_5      121        GGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGCA  180
+NC_045776.1  66470610   ........................A...........C.........A.............  66470669
+NC_045776.1  66505270   ....T..G..............C.......C....                           66505236
+NC_045768.1  14123784   .                                                             14123784
+NC_045768.1  88646111     ..................                                          88646128
+NC_045772.1  64626132   ....                                                          64626129
+NC_045764.1  22617260           ...............T.......                               22617238
+NC_045770.1  57702551               ..........G...........                            57702572
+NC_045769.1  7110692             ..................                                   7110709
+
+Query_5      181        GACAGAGCGG  190
+NC_045776.1  66470670   ..........  66470679
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 403158888580
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  176     1e-42
+NC_045782.1 Phocoena sinus isolate mPhoSin1 chromosome 20, mPhoSi...  36.2    2.4  
+NC_045772.1 Phocoena sinus isolate mPhoSin1 chromosome 10, mPhoSi...  36.2    2.4  
+NC_045771.1 Phocoena sinus isolate mPhoSin1 chromosome 9, mPhoSin...  36.2    2.4  
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  36.2    2.4  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  36.2    2.4  
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  36.2    2.4  
+NC_045784.1 Phocoena sinus isolate mPhoSin1 chromosome X, mPhoSin...  34.2    9.4  
+NC_045781.1 Phocoena sinus isolate mPhoSin1 chromosome 19, mPhoSi...  34.2    9.4  
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  34.2    9.4  
+NC_045779.1 Phocoena sinus isolate mPhoSin1 chromosome 17, mPhoSi...  34.2    9.4  
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  34.2    9.4  
+NC_045774.1 Phocoena sinus isolate mPhoSin1 chromosome 12, mPhoSi...  34.2    9.4  
+NC_045773.1 Phocoena sinus isolate mPhoSin1 chromosome 11, mPhoSi...  34.2    9.4  
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  34.2    9.4  
+NC_045769.1 Phocoena sinus isolate mPhoSin1 chromosome 7, mPhoSin...  34.2    9.4  
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  34.2    9.4  
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  34.2    9.4  
+
+
+
+Query_6      1          GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+NC_045776.1  66471590   ........G...................................................  66471649
+NC_045776.1  65558                                                    ..............  65545
+NC_045776.1  34196071                             .................                   34196055
+NC_045782.1  6331245                                            ................A...  6331264
+NC_045782.1  3193615                               ..................                 3193598
+NC_045772.1  9870089      ..................                                          9870106
+NC_045772.1  64534767                                                ...............  64534781
+NC_045771.1  90451941     ..................                                          90451924
+NC_045771.1  1964963                                   .................              1964979
+NC_045768.1  25995751     ..................                                          25995734
+NC_045767.1  15268135                                   ....A................         15268155
+NC_045767.1  26435008        ..................                                       26435025
+NC_045767.1  36569991                                               ................  36570006
+NC_045764.1  161493383    ..................                                          161493400
+NC_045764.1  113351044                                        .................       113351060
+NC_045784.1  82077093                                             .................   82077077
+NC_045781.1  587848      .................                                            587832
+NC_045780.1  61656433   .................                                             61656449
+NC_045779.1  4772532                                            .................     4772516
+NC_045774.1  43614961      .................                                          43614945
+NC_045773.1  58605127                                                          .....  58605123
+NC_045773.1  94491800       .................                                         94491816
+NC_045770.1  96422945                                                         ......  96422940
+NC_045769.1  69516591                                                             ..  69516592
+NC_045765.1  61203361   .................                                             61203377
+NC_045765.1  87109992                                                           ....  87109989
+NC_045763.1  49107821                            ............C........                49107801
+NC_045763.1  19530573                                          .................      19530589
+NC_045763.1  129531994                                                   ...........  129532004
+
+Query_6      61         GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+NC_045776.1  66471650   ..................G..................  66471686
+NC_045776.1  65544      ....                                   65541
+NC_045782.1  6331265    .                                      6331265
+NC_045772.1  64534782   ..                                     64534783
+NC_045768.1  23370311    .................                     23370327
+NC_045767.1  36570007   ..                                     36570008
+NC_045767.1  103850577   .................                     103850561
+NC_045764.1  2909220                       ..................  2909203
+NC_045777.1  12712109                .................         12712125
+NC_045773.1  58605122   ............                           58605111
+NC_045770.1  96422939   ...........                            96422929
+NC_045769.1  69516593   ...............                        69516607
+NC_045765.1  87109988   .............                          87109976
+NC_045763.1  129532005  ......                                 129532010
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 184978789164
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  107     4e-22
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  38.2    0.33 
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  36.2    1.3  
+NC_045771.1 Phocoena sinus isolate mPhoSin1 chromosome 9, mPhoSin...  36.2    1.3  
+NC_045778.1 Phocoena sinus isolate mPhoSin1 chromosome 16, mPhoSi...  36.2    1.3  
+NC_045773.1 Phocoena sinus isolate mPhoSin1 chromosome 11, mPhoSi...  36.2    1.3  
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  36.2    1.3  
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  36.2    1.3  
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  36.2    1.3  
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  36.2    1.3  
+NC_045784.1 Phocoena sinus isolate mPhoSin1 chromosome X, mPhoSin...  34.2    5.2  
+NC_045775.1 Phocoena sinus isolate mPhoSin1 chromosome 13, mPhoSi...  34.2    5.2  
+NC_045774.1 Phocoena sinus isolate mPhoSin1 chromosome 12, mPhoSi...  34.2    5.2  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  34.2    5.2  
+NC_045766.1 Phocoena sinus isolate mPhoSin1 chromosome 4, mPhoSin...  34.2    5.2  
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  34.2    5.2  
+NC_045779.1 Phocoena sinus isolate mPhoSin1 chromosome 17, mPhoSi...  34.2    5.2  
+
+
+
+Query_7      2          TTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAAA  61
+NC_045776.1  66472363      .....C...................................................  66472419
+NC_045776.1  47336538                                              .................  47336554
+NC_045780.1  58925832                  ...................                            58925850
+NC_045780.1  38384459             .................                                   38384443
+NC_045777.1  55874562                                       ..................        55874579
+NC_045771.1  76901356                           ..................                    76901373
+NC_045771.1  28992526          ..................                                     28992509
+NC_045771.1  24316393          .................                                      24316377
+NC_045771.1  38440587                           .................                     38440571
+NC_045778.1  55878634                               ..................                55878617
+NC_045773.1  55917896    ..............T.......                                       55917875
+NC_045770.1  50028639                   ..................                            50028622
+NC_045768.1  5816532                                      ..................          5816515
+NC_045768.1  113305500   .................                                            113305484
+NC_045765.1  137338835          ..................                                    137338818
+NC_045763.1  117680601                      ..................                        117680584
+NC_045763.1  58974215                    .................                            58974199
+NC_045784.1  78461203                      .................                          78461219
+NC_045775.1  57889377                            .................                    57889393
+NC_045774.1  53533456   .................                                             53533472
+NC_045767.1  89007933                           .................                     89007949
+NC_045766.1  44487225           .................                                     44487241
+NC_045764.1  15200071                      .................                          15200087
+NC_045779.1  44841743                                  .................              44841727
+
+Query_7      62         G  62
+NC_045776.1  66472420   .  66472420
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 101975486334
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  125     3e-27
+NC_045784.1 Phocoena sinus isolate mPhoSin1 chromosome X, mPhoSin...  36.2    2.0  
+NC_045775.1 Phocoena sinus isolate mPhoSin1 chromosome 13, mPhoSi...  36.2    2.0  
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  36.2    2.0  
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  36.2    2.0  
+NC_045773.1 Phocoena sinus isolate mPhoSin1 chromosome 11, mPhoSi...  36.2    2.0  
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  36.2    2.0  
+NC_045772.1 Phocoena sinus isolate mPhoSin1 chromosome 10, mPhoSi...  34.2    7.7  
+NC_045769.1 Phocoena sinus isolate mPhoSin1 chromosome 7, mPhoSin...  34.2    7.7  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  34.2    7.7  
+NC_045766.1 Phocoena sinus isolate mPhoSin1 chromosome 4, mPhoSin...  34.2    7.7  
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  34.2    7.7  
+NC_045768.1 Phocoena sinus isolate mPhoSin1 chromosome 6, mPhoSin...  34.2    7.7  
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  34.2    7.7  
+
+
+
+Query_8      1          CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+NC_045776.1  66473579   .......................................C........T..........A  66473638
+NC_045776.1  66503438     ....G.....T.......CC..T........C..A..C...C....T...........  66503381
+NC_045776.1  19658719            ..................                                   19658702
+NC_045776.1  32118426                                ..................               32118409
+NC_045776.1  23338588                                 .................               23338572
+NC_045784.1  129304134    ..................                                          129304151
+NC_045784.1  104996082        ..................                                      104996065
+NC_045775.1  14814404   ..................                                            14814421
+NC_045765.1  64824682                                ..................               64824699
+NC_045765.1  53771594                                 .................               53771610
+NC_045773.1  82218820                                ..................               82218803
+NC_045770.1  15704483   ..................                                            15704466
+NC_045772.1  7541892                                .................                 7541908
+NC_045772.1  31747364           .................                                     31747348
+NC_045772.1  93715881                        .................                        93715865
+NC_045772.1  96343893      .................                                          96343877
+NC_045769.1  112319286                                  .................             112319302
+NC_045766.1  2358255             .................                                    2358271
+NC_045766.1  132607142                              .................                 132607126
+NC_045764.1  127578654              .................                                 127578670
+NC_045764.1  148584174                                .................               148584158
+NC_045764.1  153244212                           .................                    153244196
+NC_045768.1  63849555                             ...........G.........               63849535
+NC_045768.1  74610013                                 .................               74609997
+NC_045763.1  14586505                               .................                 14586489
+NC_045763.1  119694358             .................                                  119694342
+
+Query_8      61         CAGGAAAATTGTAGTGTTGGGAA  83
+NC_045776.1  66473639   ..........A.C..........  66473661
+NC_045765.1  138692880    .................      138692896
+NC_045780.1  39833894   ..................       39833877
+NC_045769.1  61420234     .................      61420250
+NC_045767.1  116410096   .................       116410112
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 151777468032
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  149     3e-34
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  44.1    0.011
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  38.2    0.67 
+NC_045772.1 Phocoena sinus isolate mPhoSin1 chromosome 10, mPhoSi...  38.2    0.67 
+NC_045782.1 Phocoena sinus isolate mPhoSin1 chromosome 20, mPhoSi...  36.2    2.7  
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  36.2    2.7  
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  36.2    2.7  
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  36.2    2.7  
+
+
+
+Query_9      4          CTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGGGGG  63
+NC_045776.1  66475201   ...........................G........A.....A.................  66475260
+NC_045776.1  65864137                                        ..................       65864154
+NC_045780.1  29579710          ......................                                 29579731
+NC_045780.1  62176842              ...................                                62176824
+NC_045777.1  23241980                                                            ...  23241982
+NC_045777.1  78919771                                                            ...  78919773
+NC_045772.1  9940586                      ............G..........                     9940564
+NC_045782.1  57196220                                     ..................          57196203
+NC_045765.1  44668457                             ..................                  44668440
+NC_045763.1  142666501                                  ..................            142666484
+
+Query_9      64         GACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+NC_045776.1  66475261   .........C.........A............AT.........  66475303
+NC_045777.1  23241983   ................                             23241998
+NC_045777.1  78919774   ...............                              78919788
+NC_045777.1  80554056                ..................              80554039
+NC_045764.1  33556688             ..................                 33556671
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 206322495606
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  214     7e-54
+NC_045782.1 Phocoena sinus isolate mPhoSin1 chromosome 20, mPhoSi...  38.2    0.94 
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  36.2    3.7  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  36.2    3.7  
+
+
+
+Query_10     2         ATCAACTATGGTGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTAAG  61
+NC_045776.1  66475700  ....C...................................A................C..  66475759
+NC_045767.1  88712454       ..................                                       88712471
+
+Query_10     62        TACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATCCTG  121
+NC_045776.1  66475760  ..........T......G.......A.A......................T.........  66475819
+NC_045776.1  66453363                        ....A........C.TG.........A...........  66453400
+NC_045776.1  66499595                             ........C.....A........T..A..T..C  66499563
+NC_045782.1  32087080                                                      ........  32087087
+NC_045782.1  18673379                                                       .......  18673373
+NC_045770.1  14710449                   ..................                           14710466
+NC_045770.1  45602162                                                        ......  45602157
+NC_045770.1  71607561                                     ..................         71607544
+
+Query_10     122       TTCCCAGGCTGTGTCCTCAG  141
+NC_045776.1  66475820  ....................  66475839
+NC_045776.1  66453401  ..............G.....  66453420
+NC_045776.1  66499562  ..T........C........  66499543
+NC_045782.1  32087088  ...T..........        32087101
+NC_045782.1  19095347  ...................   19095365
+NC_045782.1  18673372  ...........           18673362
+NC_045770.1  45602156  ............          45602145
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 289325798436
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  192     3e-47
+NC_045771.1 Phocoena sinus isolate mPhoSin1 chromosome 9, mPhoSin...  40.1    0.30 
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  38.2    1.2  
+NC_045783.1 Phocoena sinus isolate mPhoSin1 chromosome 21, mPhoSi...  36.2    4.6  
+NC_045781.1 Phocoena sinus isolate mPhoSin1 chromosome 19, mPhoSi...  36.2    4.6  
+NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin...  36.2    4.6  
+NC_045767.1 Phocoena sinus isolate mPhoSin1 chromosome 5, mPhoSin...  36.2    4.6  
+NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin...  36.2    4.6  
+NC_045763.1 Phocoena sinus isolate mPhoSin1 chromosome 1, mPhoSin...  36.2    4.6  
+
+
+
+Query_11     1          GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+NC_045776.1  66475938   ............C......C....A................................T..  66475997
+NC_045776.1  66453537                             ............A.....................  66453570
+NC_045776.1  66499397   ...........A.G..G......T.G.....C..T..T...A................A.  66499338
+NC_045771.1  44682724                                           ....................  44682743
+NC_045783.1  13122061                                           .........A..........  13122042
+NC_045781.1  15887033                    ..................                           15887050
+NC_045767.1  29277871                                             ..................  29277888
+
+Query_11     61         TGG--GGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAA  118
+NC_045776.1  66475998   ...--.....T.G...T....T...TT..............A..T..A...........G  66476055
+NC_045776.1  66453571   ...--.......G...................T......T............T....A..  66453628
+NC_045776.1  66499337   ...TT.......G...A...-.A..........A........TG.T.A....A.G.....  66499279
+NC_045777.1  31447282                             ..................                  31447265
+NC_045783.1  13122041   ..                                                            13122040
+NC_045770.1  21677631                 ...........A..........                          21677652
+NC_045764.1  176944468                                ..............G.......          176944489
+NC_045763.1  23893386                                    ..................           23893403
+
+Query_11     119        CGCCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+NC_045776.1  66476056   .......C..A....T.....T.....A.........A.G.....T.......  66476108
+NC_045776.1  66453629   .A.....C.............................                  66453665
+NC_045776.1  66499278   T......C....C..T.....T....C..........                  66499242
+NC_045777.1  25833438                     ...................                  25833456
+NC_045783.1  32789178           ..................                             32789195
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 358099953974
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_045776.1 Phocoena sinus isolate mPhoSin1 chromosome 14, mPhoSi...  153     2e-35
+NC_045778.1 Phocoena sinus isolate mPhoSin1 chromosome 16, mPhoSi...  40.1    0.20 
+NC_045780.1 Phocoena sinus isolate mPhoSin1 chromosome 18, mPhoSi...  38.2    0.80 
+NC_045777.1 Phocoena sinus isolate mPhoSin1 chromosome 15, mPhoSi...  38.2    0.80 
+NC_045773.1 Phocoena sinus isolate mPhoSin1 chromosome 11, mPhoSi...  36.2    3.2  
+NC_045772.1 Phocoena sinus isolate mPhoSin1 chromosome 10, mPhoSi...  36.2    3.2  
+NC_045765.1 Phocoena sinus isolate mPhoSin1 chromosome 3, mPhoSin...  36.2    3.2  
+
+
+
+Query_12     1         GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+NC_045776.1  66476923  ..............T.....T..................A....G..............A  66476982
+NC_045776.1  66494428  ...........G..T...........C.....CA.T..T..A..G........T.....C  66494369
+NC_045776.1  66454832     ...........T...........C...C.GA.G..T.....G.G.......CA...T  66454888
+NC_045778.1  55169652                                                             .  55169652
+NC_045777.1  62592599                                                             .  62592599
+NC_045773.1  24769289                                                             .  24769289
+NC_045772.1  57970575                                         ..................     57970592
+
+Query_12     61        GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+NC_045776.1  66476983  ...T....G.....T.TG....................A.....................  66477042
+NC_045776.1  66494368  ........C.....T.....                                          66494349
+NC_045776.1  66454889  ........G........                                             66454905
+NC_045778.1  55169651  ...................                                           55169633
+NC_045780.1  49741366                    ...................                         49741384
+NC_045777.1  62592600  ..........A...........                                        62592621
+NC_045777.1  23235459  ..................                                            23235476
+NC_045773.1  4409083      .....G................                                     4409104
+NC_045773.1  24769290  .................                                             24769306
+NC_045765.1  17558931          ..................                                    17558914
+
+Query_12     121       T  121
+NC_045776.1  66477043  .  66477043
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 246638385552
+
+
+  Database: GCF_008692025.1_mPhoSin1.pri_genomic.fna
+    Posted date:  Feb 5, 2026  2:42 PM
+  Number of letters in database: 2,371,524,154
+  Number of sequences in database:  64
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

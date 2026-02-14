@@ -1,0 +1,335 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003676395.1_ASM367639v1_genomic.fna
+           5,422 sequences; 2,334,467,171 total letters
+
+
+
+Query= exon_1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  91.7    8e-17
+
+
+
+Query_1  43      GGGGATGAGAGGCCCAAGTGGGACAACAAGGCCCAGTACCTCCTGAGCTGCACTGGGTTT  102
+28       721061  .....C...C....................CT.....G..G..........GTC......  721120
+28       702177            ......................T......                       702205
+
+Query_1  103     GCCGTGGGACTGGGGAACATTTGGCGGTTCCCATACCTGTGCCAGACCTA  152
+28       721121  ........C.....C...C.C...A...C...G.................  721170
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 326810222340
+
+
+Query= exon_2
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  65.9    4e-09
+
+
+
+Query_2  4       CCTTCCTCATCCCCTACGTCATCGCGCTGGTCTTCGAGGGGATCCCCATTTTCCACGTCG  63
+28       708548                           .......C.G............C.GC.G...C.G.  708582
+28       725962  .................C.......C.-..C.........C.G..G.---......A...  726017
+
+Query_2  64      AGCTCGCCATCGGCCAGCGGCTGCGGAAGGGCAGCGTCGGCGTGTGGACGGCCATCTCCC  123
+28       708583  ..T..........G.................G.....G.....C....              708630
+28       726018  .....A....T........C.....C.G.......C....-.......T.........G.  726076
+
+Query_2  124     CGTACCT  130
+28       726077  .C.....  726083
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 284792426666
+
+
+Query= exon_3
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  63.9    2e-08
+
+
+
+Query_3  39      TACTACAACACCATCGTGGCGTGGGTGCTGTGGTACCTCCTCAACTCCTTCCAGCACCCG  98
+28       709112  ...............A.C..C.....CA........T..T..............G....C  709171
+28       727050                  ....A...................C..G.....C...--.....  727091
+
+Query_3  99      CTGCCCTGGAGCTCCTGCCCACCGGACCTCAAC  131
+28       709172  .....G......                       709183
+28       727092  ........C..TG.......G.T..........  727124
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 277789334207
+
+
+Query= exon_4
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  127     2e-27
+
+
+
+Query_4  11      GGAGTGCCAGGGCAGCAGCGCCGTGAGCTACTTCTGGTACCGGCAGACACTGAACATCAC  70
+28       727668  ........G..A.........T......CT....C................A...G....  727727
+
+Query_4  71      AGCCGACATCAATGACAGTGGCTCCATCCAGTGGTGGCTGCTCATCTGCTTGGCAGCCTC  130
+28       727728  G.......C...C...........TG.......C.......GGG........A.G.....  727787
+
+Query_4  131     CTGGGCAGTCGTGTACATGTGTGTCATCAGGGGCATTGAGACTACAGGGAAG  182
+28       727788  ......CA.G......C.............A....C......C..T......  727839
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 378166114422
+
+
+Query= exon_5
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 214761502076
+
+
+Query= exon_6
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  153     2e-35
+NW_020838027.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  48.1    7e-04
+
+
+
+Query_6  13       CAGAACCCCCGGGTGTGGCTGGACGCAGCCACCCAGATATTCTTCTCTCTGTCCCTGGCC  72
+28       730766   ....G..................T...............C....T...............  730825
+82       2679812             .......A.........G.........C........               2679847
+82       2705946             .......A.........G.........C........               2705981
+
+Query_6  73       TTCGGAGGACACATCGCTTTTGCAAGTTACAACTCGCCCAG  113
+28       730826   ...............A.................C.......  730866
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 219430230382
+
+
+Query= exon_7
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  65.9    4e-09
+
+
+
+Query_7  28      CATCGCCCTGGTCAACAGGATGACCTCCCTGTACGCGTCCATCGCTGTCTTCTCTGTCCT  87
+28       731533  ................G.C...........C.GT.T.C....TA................  731592
+
+Query_7  88      GGGGTTCAA  96
+28       731593  .........  731601
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 256780056830
+
+
+Query= exon_8
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  73.8    2e-11
+
+
+
+Query_8  1       AAACATCCTCAGCCTCATCAACGACTTTGACTTCCCAGAGCAGAGCATCTCCAGGGACGA  60
+28       732988  ........G.T.....G......C...C..TC....C..C.................G..  733047
+
+Query_8  61      CTACCCAGCCGTCCTCATGCACCTGAACGCCACCTGGCCCAAGAGGGTGGCCCAGCTCCC  120
+28       733048  ....G.G..T.C....GC......TG..T...........G..C......-.GG......  733106
+
+Query_8  121     CCTGAAGGCCTGCCTCCTGGAAGACTTTCTGGATAAG  157
+28       733107  ....G........TG......G.....C.........  733143
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 319807146147
+
+
+Query= exon_9
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  50.1    4e-04
+
+
+
+Query_9  51      CCACATGCCGGGGGCTCCTGTGTGGGCCATGCTCTTCTTCGGGATGCTGTTCA  103
+28       733746  ....G..........C..C..T................CA.T...........  733798
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 431856365235
+
+
+Query= exon_10
+
+Length=160
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 326810222340
+
+
+Query= exon_11
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_020837973.1 Sagmatias obliquidens isolate GAN/ISIS:26980383/99...  50.1    3e-04
+
+
+
+Query_11  22      GATGACCGGGAGGCGGCCCAGCCCCTACTGGCGGCTG  58
+28        815882  ..........CA...........T.............  815846
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 326810222340
+
+
+Query= exon_12
+
+Length=231
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 492549692241
+
+
+  Database: GCF_003676395.1_ASM367639v1_genomic.fna
+    Posted date:  Feb 4, 2026  11:50 AM
+  Number of letters in database: 2,334,467,171
+  Number of sequences in database:  5,422
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

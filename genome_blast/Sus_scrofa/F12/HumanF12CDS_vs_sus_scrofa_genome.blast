@@ -1,0 +1,162 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000003025.7_T2T-Sscrofa_genomic.fna
+           21 sequences; 2,688,421,282 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM000813.6 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 2...  219     4e-54
+CM000819.6 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 8...  70.7    5e-09
+CM000814.6 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 3...  59.9    8e-06
+CM000828.6 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 1...  54.5    4e-04
+
+
+
+Query_1     1         ATGAGGGCTCTGCTGCTCCTGGGGTTCCTGCTGGTGAGCTTGGAGTCAACACTTTCGATT  60
+CM000813.6  90512421  ..................T.....A..............C........G.T....       90512475
+
+Query_1     61        CCACCTTGGGAAGCCCCCAAGGAGCATAAGTACAAAGCTGAAGAGCACACAGTCGTTCTC  120
+CM000813.6  90516803                                                        ......  90516808
+
+Query_1     121       ACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTACCACAAA  180
+CM000813.6  90516809  ..C.....G...........T................................TT....G  90516868
+
+Query_1     181       TGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAACTTTGAT  240
+CM000813.6  90516869  ..C.T...A.GA....A..GT.....C.GA.......                         90516905
+CM000813.6  90517574                                    ..........A...........C..G  90517599
+
+Query_1     241       CAGGACCAGCGATGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGCAGCAAA  300
+CM000813.6  90517919                                              ...........A....  90517934
+CM000813.6  90517600  A...............C......CC.........T...........                90517645
+
+Query_1     301       CACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCACTGTCTC  360
+CM000813.6  90517935  GG..A......................................AT.....A.....CA..  90517994
+
+Query_1     361       TGTCCACAACACCTCACTGGAAACCACTGCCAGAAAGAGAAGTGCTTTGAGCCTCAGCTT  420
+CM000813.6  90518163                                     ............C.....C...T.C  90518187
+CM000813.6  90517995  ......G.T...T.......G..G.....T.......                         90518031
+
+Query_1     421       CTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAACTGAGCAAGCAGCTGTGGCCAGA  480
+CM000813.6  90518188  ....A...C..T..AG.......A......C....GTT.....CT..T.G....T...AG  90518247
+
+Query_1     481       TGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGCTGGCCAGCCAGGCCTGCCGCACC  540
+CM000813.6  90518248  ...........A......A.G.....A...A...CAG............             90518296
+CM000813.6  90518435                                                    ....A.....  90518444
+
+Query_1     541       AACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCTGTGCCACTGC  600
+CM000813.6  90518445  ........T...A.......CA.......GC..ACT.................T.GT...  90518504
+
+Query_1     601       CCGGTGGGCTACACCGGAGCCTTCTGCGACGTGGACACCAAGGCAAGCTGCTATGATGGC  660
+CM000813.6  90518695                                        .....AG..G.....CAG..A.  90518716
+CM000813.6  90518505  ..CACT.....TG.A...CG.C.G..T.......                            90518538
+
+Query_1     661       CGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGTCAGCCG  720
+CM000813.6  90518717  ..G..................A.....CA...T...........A..A............  90518776
+
+Query_1     721       TGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGGGGACTG  780
+CM000813.6  90518777  .....................T.....A....C..A........T.T.............  90518836
+
+Query_1     781       GGCGGCCACGCCTTCTGCCGGAACCCGGACAACGACATCCGCCCGTGGTGCTTCGTGCTG  840
+CM000813.6  90518837  ..A.A...T............                                         90518857
+CM000813.6  90518963                     ..................C..................TTG.  90519003
+CM000828.6  25133450                                   ....C..AG..T......CA.......  25133424
+
+Query_1     841       AACCGCGACCGGCTGAGCTGGGAGTACTGCGACCTGGCACAGTGCCAGACCCCAACCCAG  900
+CM000813.6  90519004  .GAG......AA.........C.A..T...CG........GC......G.T..T.T.GG.  90519063
+CM000828.6  25133423  ..GGA.C.TAA.....C............T......C.T......                 25133379
+
+Query_1     901       GCGGCGCCTCCGACCCCGGTGTCCCCTAGGCTTCATGTCCCACTCATGCCCGCGCAGCCG  960
+CM000813.6  90519064  .AA.....C..                                                   90519074
+
+Query_1     961       GCACCGCCGAAGCCTCAGCCCACGACCCGGACCCCGCCTCAGTCCCAGACCCCGGGAGCC  1020
+
+Query_1     1021      TTGCCGGCGAAGCGGGAGCAGCCGCCTTCCCTGACCAGGAACGGCCCACTGAGCTGCGGG  1080
+CM000813.6  90519295             ..C........GTGG.C.T...C....TGCG....TGG..G.......A  90519343
+
+Query_1     1081      CAGCGGCTCCGCAAGAGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGTGGCGCTA  1140
+CM000813.6  90519344  .....A........AC.G........TC...A....A....C..G..A........T..C  90519403
+
+Query_1     1141      CGCGGGGCGCACCCCTACATCGCCGCGCTGTACTGGGGCCACAGTTTCTGCGCCGGCAGC  1200
+CM000813.6  90519404  .C....................................T..A.A.........A.....T  90519463
+CM000814.6  17137620                                    .........---......GG...TC.  17137642
+
+Query_1     1201      CTCATCGCCCCCTGCTGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCGGCCCGCACCC  1260
+CM000813.6  90519464  ..............T...........C..G...............A......          90519515
+CM000813.6  90519775                                     .....C....-......G.----.G  90519794
+CM000814.6  17137643  .............C......C..CT.C..G........                        17137680
+
+Query_1     1261      GAGGATCTGACGGTGGTGCTCGGCCAGGAACGCCGTAACCACAGCTGTGAGCCGTGCCAG  1320
+CM000813.6  90519795  .....G.....T.................C....A...T..G..T.......A......A  90519854
+
+Query_1     1321      ACGTTGGCCGTGCGCTCCTACCGCTTGCACGAGGCCTTCTCGCCCGTCAGCTACCAGCAC  1380
+CM000813.6  90519855  ...C....A...............C........T...A...A...AAG.C..........  90519914
+
+Query_1     1381      GACCTGGCTCTGTTGCGCCTTCAGGAGGATGCGGACGGCAGCTGCGCGCTCCTGTCGCCT  1440
+CM000813.6  90519915  .......                                                       90519921
+CM000813.6  90520015        ......G.A.....GA.....ACA.........T.......A.A..C.......  90520068
+
+Query_1     1441      TACGTTCAGCCGGTGTGCCTGCCAAGCGGCGCCGCGCGACCCTCCGA----GA--CCACG  1494
+CM000813.6  90520069  .T............A...........AA.T.T...CA.CT..G....ACCC..AGG.G..  90520128
+
+Query_1     1495      CTCTGCCAGGTGGCCGGCTGGGGCCACCAGTTCGAGGGGGCGGAGGAATATGCCAGCTTC  1554
+CM000813.6  90520710                                      ...............T....T...  90520733
+CM000813.6  90520129  ......G...................T........A..                        90520166
+
+Query_1     1555      CTGCAGGAGGCGCAGGTACCGTTCCTCTCCCTGGAGCGCTGCTCAGCCCCGGACGTGCAC  1614
+CM000813.6  90520734  ...........T.....G...C..A..AGT.C............C...G.C.........  90520793
+
+Query_1     1615      GGATCCTCCATCCTCCCCGGCATGCTCTGCGCAGGGTTCCTCGAGGGCGGCACCGATGCG  1674
+CM000813.6  90520794  ...G..G.TT..ACT.................T..T........A...........C...  90520853
+
+Query_1     1675      TGCCAGGGTGATTCCGGAGGCCCGCTGGTGTGTGAGGACCAAGCTGCAGAGCGCC-GGCT  1733
+CM000813.6  90520946    .........C.....T.....T...........A...G.GA.C..........-A...  90521002
+CM000813.6  90520854  .......                                                       90520860
+CM000814.6  49179692     .....C..C.....G.....C...A....------.....TC.-..G..A..T....  49179643
+
+Query_1     1734      CACCCTGCAAGGCATCATCAGCTGGGGATCGGGCTGTGGTGACCGCAACAAGCCAGGCGT  1793
+CM000813.6  90521003  .GT....AG.......G....T.....T..A..T.....C......CT......C..T..  90521062
+CM000819.6  2085074      ....T.C..T..............GGAC.....C..GCG..T.........C..T..  2085130
+CM000814.6  49179642  G---...GCC...G.............CGA........CG..G......CG...T.....  49179586
+
+Query_1     1794      CTACACCGATGTGGCCTACTACCTGGCCTGGATCCGGGAGCACACCGTTTCCTGA  1848
+CM000813.6  90521063  G.....G..C......A.....T............A..........AC.......  90521117
+CM000819.6  2085131   .......CGC......A.T...G...A.......                       2085164
+CM000814.6  49179585  .....                                                    49179581
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4876794910352
+
+
+  Database: GCA_000003025.7_T2T-Sscrofa_genomic.fna
+    Posted date:  Feb 4, 2026  4:49 PM
+  Number of letters in database: 2,688,421,282
+  Number of sequences in database:  21
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

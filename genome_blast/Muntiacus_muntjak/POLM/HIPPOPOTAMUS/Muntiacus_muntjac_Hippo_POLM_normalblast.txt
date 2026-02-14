@@ -1,0 +1,290 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_008782695.1_UCB_Mmun_1.0_genomic.fna
+           25,651 sequences; 2,573,529,099 total letters
+
+
+
+Query= exon_1
+
+Length=176
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 380776008908
+
+
+Query= exon_2
+
+Length=184
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 401358495876
+
+
+Query= exon_3
+
+Length=99
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 185244229584
+
+
+Query= exon_4
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM018503.1 Muntiacus muntjak isolate UTSW_UCB_Mm chromosome 3_X, ...  211     7e-53
+
+
+
+Query_4     1          GAGGCTCTGGAGACGCTGGCAGAGGCCGCGGGCTTCGATGGCAGCGAGGGCCGCCAGCTC  60
+CM018503.1  255568257  ..............T..............T.....T......T.T..A.........A..  255568316
+
+Query_4     61         TCCTTCTGCAGAGCGGCCTCAGTGCTCAAGGCTCTTCCCAGCCCAGTCACAACGCTGAAC  120
+CM018503.1  255568317  G......A............G...........C..C........G......G.C....G.  255568376
+
+Query_4     121        CAGCTGCAGGGCCTGCCCCACTTCGGAGAACACTCCCGCAGGGTCATCCAG  171
+CM018503.1  255568377  ....................................T.......TG.....  255568427
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 367911954553
+
+
+Query= exon_5
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM018503.1 Muntiacus muntjak isolate UTSW_UCB_Mm chromosome 3_X, ...  117     5e-25
+
+
+
+Query_5     1          GAGCTGCTGGAACACGGAGTGTGTGAGGAGGTGGAGAGAGTCAGGCTCTCAGAGAGGTAC  60
+CM018503.1  255569745  ...................C.....................TC.................  255569804
+
+Query_5     61         CAGACCATGAAG  72
+CM018503.1  255569805  ............  255569816
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 118351659958
+
+
+Query= exon_6
+
+Length=121
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 241846633068
+
+
+Query= exon_7
+
+Length=133
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 272720671332
+
+
+Query= exon_8
+
+Length=103
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM018503.1 Muntiacus muntjak isolate UTSW_UCB_Mm chromosome 3_X, ...  163     1e-38
+
+
+
+Query_8     1          GGGGAAGTTGCAGGGCCACGACGTGGACTTCCTCATCACCCACCCTCAGGAGGGCCAGGA  60
+CM018503.1  255573282  .............................................C..............  255573341
+
+Query_8     61         GGCAGGGCTGCTGCCCAGAGTTCTGTGCTGCCTGAAGGAGCAG  103
+CM018503.1  255573342  .....................GA......A.......A.....  255573384
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 195535575672
+
+
+Query= exon_9
+
+Length=246
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM018503.1 Muntiacus muntjak isolate UTSW_UCB_Mm chromosome 3_X, ...  241     1e-61
+
+
+
+Query_9     1          GGCCTGGTCCTCTACCACCAGGACCACCAGAGCCAACAGGGAGACCCCACCCACCTGATG  60
+CM018503.1  255573488  .....T.....G.........C....G..T.....C..........TG.....------.  255573541
+
+Query_9     61         CGGCAGAGCCACACCATGGACGCCTTTGAGAGGAGTTTCTGCATTTTCCGCCTGCCACAA  120
+CM018503.1  255573542  .-.--...............T..........A............................  255573598
+
+Query_9     121        CCCCCAGGGGATGCCGTAGGGGGCTCCCAGAAGCCCTGCGCCTCCTGGAAGGCTGTGCGG  180
+CM018503.1  255573599  ..........C...TC.G..T..TG..............TTTG..........G......  255573658
+
+Query_9     181        GTGGACCTGGTGGTTGCCCCCATCAGCCAGTTCCCTTTTGCCCTCCTCGGCTGGACTGGC  240
+CM018503.1  255573659  ....................TG.............C........G..T....T.......  255573718
+
+Query_9     241        TCCAAG  246
+CM018503.1  255573719  ......  255573724
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 560872769878
+
+
+Query= exon_10
+
+Length=84
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 146651681754
+
+
+Query= exon_11
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM018503.1 Muntiacus muntjak isolate UTSW_UCB_Mm chromosome 3_X, ...  196     3e-48
+
+
+
+Query_11    1          GGAAGCTGCCACGGTGGTGGGGGTGACTCCCAGGCACTAATACTTGCACTCTGTTACAGA  60
+CM018503.1  255574059  ....T....TG......A...AAC.G.C.......C.....G.C....T......G....  255574118
+
+Query_11    61         AGGCGTTTTCCCACGTGGTTTCAGAGGAAGATATCTTCAGACTCTTGGGCCTTGAGTACC  120
+CM018503.1  255574119  ..A..G...T........CC...........C............C...A...........  255574178
+
+Query_11    121        TTCCCCCAGAGCAGAGAAACGCCTGATCCTATTAGGTGGCCCCCACTTCCACTCTTTGGA  180
+CM018503.1  255574179  ...................T............C.A----....-..C..T....--....  255574231
+
+Query_11    181        AATGGAGGGGGCCATTTGAGCCAGACCCTATGGGTGTTTT-G-CCCCT  226
+CM018503.1  255574232  ...........T..............T....T........T.G.....  255574279
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 514562174200
+
+
+  Database: GCA_008782695.1_UCB_Mmun_1.0_genomic.fna
+    Posted date:  Feb 5, 2026  2:33 PM
+  Number of letters in database: 2,573,529,099
+  Number of sequences in database:  25,651
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

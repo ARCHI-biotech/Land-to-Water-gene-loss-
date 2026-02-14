@@ -1,0 +1,785 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_937001465.1_mOrcOrc1.1_genomic.fna
+           448 sequences; 2,647,351,467 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  69.9    9e-11
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  36.2    1.2  
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  34.2    4.9  
+NC_064576.1 Orcinus orca chromosome 18, mOrcOrc1.1, whole genome ...  34.2    4.9  
+NC_064571.1 Orcinus orca chromosome 13, mOrcOrc1.1, whole genome ...  34.2    4.9  
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  34.2    4.9  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  34.2    4.9  
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  34.2    4.9  
+
+
+
+Query_1  1          CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+14       66487730   ......T........C.........AG............A...............  66487784
+14       79174506                  .................                         79174522
+15       11853582              .............T..A........                     11853558
+15       24528353               ..................                           24528336
+15       44128767                                      .................     44128751
+15       75013799        .................                                   75013815
+18       8317835                   .................                         8317819
+17       3701776                     .................                       3701760
+12       548764                        .................                     548748
+5        99798386                                .........A...........       99798366
+3        150763931                     .................                     150763915
+0        175531136                                      .................    175531120
+0        180797413                       .................                   180797429
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 95304346380
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  121     4e-26
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  38.2    0.48 
+NC_064578.1 Orcinus orca chromosome 20, mOrcOrc1.1, whole genome ...  36.2    1.9  
+NC_064572.1 Orcinus orca chromosome 14, mOrcOrc1.1, whole genome ...  36.2    1.9  
+NC_064571.1 Orcinus orca chromosome 13, mOrcOrc1.1, whole genome ...  36.2    1.9  
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  36.2    1.9  
+NC_064580.1 Orcinus orca chromosome X, mOrcOrc1.1, whole genome s...  34.2    7.5  
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  34.2    7.5  
+NC_064576.1 Orcinus orca chromosome 18, mOrcOrc1.1, whole genome ...  34.2    7.5  
+NC_064565.1 Orcinus orca chromosome 7, mOrcOrc1.1, whole genome s...  34.2    7.5  
+NC_064563.1 Orcinus orca chromosome 5, mOrcOrc1.1, whole genome s...  34.2    7.5  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  34.2    7.5  
+NC_064561.1 Orcinus orca chromosome 3, mOrcOrc1.1, whole genome s...  34.2    7.5  
+NC_064560.1 Orcinus orca chromosome 2, mOrcOrc1.1, whole genome s...  34.2    7.5  
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  34.2    7.5  
+
+
+
+Query_2  1          GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+14       66488645   ..........................................C..A..............  66488704
+14       66530676             ...............C....CAGT.....A.....A...........T..  66530627
+14       50181009                                                        .......  50181015
+5        100500294             ......C..............                              100500274
+5        28260522               ...................                               28260504
+19       41751410              ..................                                 41751427
+13       31521522                             ..................                  31521505
+12       11691385                                                ...............  11691371
+8        36461470                 ...............A.....                           36461450
+8        72130744               ..................                                72130727
+21       47004077                           .................                     47004061
+18       40157283                        .................                        40157299
+18       42043288                                                   ............  42043277
+17       4683197                                                    .....C......  4683208
+17       38897003         .................                                       38896987
+17       75271744                            .................                    75271760
+6        32978191                                                  .............  32978203
+6        94913531                                                 ..............  94913544
+4        146703336                                          .......T.....C......  146703355
+4        99365002                  .................                              99365018
+3        138666641                      .................                         138666657
+2        96773943        .................                                        96773959
+1        117749105                                                            ..  117749104
+1        140820792                              .................                 140820808
+0        176552329                             .................                  176552313
+
+Query_2  61         CCTGCGCTGGCTCCG  75
+14       66488705   T............    66488717
+14       66530626   ...............  66530612
+14       50181016   ...........      50181026
+12       11691370   ...              11691368
+18       42043276   .....            42043272
+17       4683209    .........        4683217
+6        32978204   ....             32978207
+6        94913545   ...              94913547
+4        146703356  ....T....        146703364
+1        117749103  ...............  117749089
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 148251205480
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  48.1    2e-04
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  38.2    0.23 
+NC_064580.1 Orcinus orca chromosome X, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064578.1 Orcinus orca chromosome 20, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064576.1 Orcinus orca chromosome 18, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064572.1 Orcinus orca chromosome 14, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064571.1 Orcinus orca chromosome 13, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064570.1 Orcinus orca chromosome 12, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064569.1 Orcinus orca chromosome 11, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064568.1 Orcinus orca chromosome 10, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064560.1 Orcinus orca chromosome 2, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064579.1 Orcinus orca chromosome 21, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  36.2    0.92 
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064566.1 Orcinus orca chromosome 8, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064565.1 Orcinus orca chromosome 7, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064563.1 Orcinus orca chromosome 5, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064561.1 Orcinus orca chromosome 3, mOrcOrc1.1, whole genome s...  36.2    0.92 
+NC_064575.1 Orcinus orca chromosome 17, mOrcOrc1.1, whole genome ...  34.2    3.6  
+
+
+
+Query_3  1          GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+14       66489007   ....A......CA..................T....T...A....  66489051
+14       66525924            ..............G..T..............      66525893
+14       54652403                             ..................   54652386
+14       21652708           .................                      21652692
+0        164230070             ...................                 164230088
+0        49096922                             ..................   49096939
+0        133855378                            ..................   133855395
+0        190273568                            ..................   190273585
+0        171440749                            ..................   171440732
+0        185134301                            ..................   185134284
+0        206130062                            ..................   206130045
+0        14218124                              .................   14218140
+0        37273420           .................                      37273404
+21       5228054                              ..................   5228071
+21       38972184        .................                         38972200
+19       20476526                             ..................   20476543
+19       43909059                             ..................   43909042
+17       45581613                             ..................   45581630
+15       75141103                             ..................   75141120
+15       59227874       .................                          59227890
+15       855783                                .................   855767
+15       45544867                .................                 45544851
+13       20682300                             ..................   20682317
+12       90094852         ...........T.....T.......                90094876
+12       39987980                             ..................   39987997
+12       13866026                             ..................   13866009
+12       23460549                  .................               23460533
+11       36722500                       ..................         36722517
+11       72728014                             ..................   72728031
+11       57809383                             ..................   57809366
+11       81427771                             ..................   81427754
+11       27601963                             .................    27601947
+10       41739907                             ..................   41739924
+10       45408737                             ..................   45408754
+10       26538325                             ..................   26538308
+10       55682242                             ..................   55682225
+10       91923707                         ..................       91923690
+10       7958445                  .................                7958429
+9        5128749                              ..................   5128766
+9        37437112                             ..................   37437129
+9        35517901                             ..................   35517884
+5        101452463                            ..................   101452480
+5        24975371                             ..................   24975354
+1        8408050                              ..................   8408067
+1        118841284                            ..................   118841301
+1        123585750                            ..................   123585767
+1        126564694               ..................                126564711
+1        127268292                            ..................   127268309
+1        61390024                             ..................   61390007
+1        138346952                            ..................   138346935
+1        185813683                            ..................   185813666
+1        109953119                   .................             109953135
+1        175946991                .................                175947007
+20       12743681                             ..................   12743664
+18       28367365                             ..................   28367348
+8        11375426                             ..................   11375409
+8        35885208         .................                        35885192
+7        340136                               ..................   340119
+7        12898054                             ..................   12898037
+7        71958080                              .................   71958064
+6        83729575                             ..................   83729558
+6        90317281                ..................                90317264
+4        100052110                            ..................   100052093
+4        140345753                            ..................   140345736
+4        146963247                            ..................   146963230
+4        15699995           .................                      15700011
+3        127331040                            ..................   127331023
+3        28500179                             .................    28500163
+2        30340824                             ..................   30340807
+2        80422939                             ..................   80422922
+2        123875788                            ..................   123875771
+2        151604436                            ..................   151604419
+2        157167597                            ..................   157167580
+2        157314692                            ..................   157314675
+2        158815576                            ..................   158815559
+16       41998316         ..............T......                    41998336
+16       55085697                  .................               55085713
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 71478271881
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  73.8    7e-12
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  34.2    5.7  
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  34.2    5.7  
+NC_064568.1 Orcinus orca chromosome 10, mOrcOrc1.1, whole genome ...  34.2    5.7  
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  34.2    5.7  
+
+
+
+Query_4  1         GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+14       66489186  ...................A...............G...A.-...T..............  66489244
+18       32343642                            .................                   32343626
+15       62494338                      .........G...........                     62494318
+9        3678160                                         .................       3678176
+5        11754606                                       .................        11754590
+
+Query_4  61        G  61
+14       66489245  .  66489245
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 111188404110
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  297     1e-78
+NC_064566.1 Orcinus orca chromosome 8, mOrcOrc1.1, whole genome s...  42.1    0.094
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  40.1    0.37 
+NC_064571.1 Orcinus orca chromosome 13, mOrcOrc1.1, whole genome ...  38.2    1.5  
+NC_064569.1 Orcinus orca chromosome 11, mOrcOrc1.1, whole genome ...  38.2    1.5  
+NC_064561.1 Orcinus orca chromosome 3, mOrcOrc1.1, whole genome s...  38.2    1.5  
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  38.2    1.5  
+NC_064563.1 Orcinus orca chromosome 5, mOrcOrc1.1, whole genome s...  38.2    1.5  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  38.2    1.5  
+NC_064560.1 Orcinus orca chromosome 2, mOrcOrc1.1, whole genome s...  38.2    1.5  
+NC_064578.1 Orcinus orca chromosome 20, mOrcOrc1.1, whole genome ...  36.2    5.8  
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  36.2    5.8  
+NC_064568.1 Orcinus orca chromosome 10, mOrcOrc1.1, whole genome ...  36.2    5.8  
+NC_064565.1 Orcinus orca chromosome 7, mOrcOrc1.1, whole genome s...  36.2    5.8  
+NC_064575.1 Orcinus orca chromosome 17, mOrcOrc1.1, whole genome ...  36.2    5.8  
+
+
+
+Query_5  1          GGTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCGT  60
+14       66490222   .......................A..C...........G.....A...T........T..  66490281
+14       66525172                         ......A....C.....C....TG..T.........A.  66525135
+7        47465427                      ..................                         47465410
+8        102990521                 ...................                            102990503
+12       46626391                    ...................                          46626409
+2        478951                      ..................                           478934
+3        37231278                            ...................                  37231260
+1        95445748                       ..................                        95445765
+18       52561675                    ..................                           52561692
+6        120582764                   ..................                           120582781
+16       47979997        ..................                                       47979980
+
+Query_5  61         GTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGCA  120
+14       66490282   ..........................................T.....T...........  66490341
+14       66525134   C.....C........T..A..T..G..TG.......T......C......C......A..  66525075
+14       85416793                                             ..................  85416776
+7        45010868                                       ......T.................  45010891
+8        76565503                                               ................  76565518
+10       39369860                                                ...............  39369874
+2        37436827                              ..............C........            37436849
+5        106811165                                        ..................G...  106811144
+4        145638838                                 ................G......        145638816
+1        148682309                                          ..................    148682326
+19       6885455                                    ..................            6885472
+9        25838753                                               ................  25838738
+9        2499062                              ..................                  2499079
+
+Query_5  121        GGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGCA  180
+14       66490342   ....................................C.........A.............  66490401
+14       66525074   ....T..G..............C.......C....                           66525040
+14       85416775   ..                                                            85416774
+7        45010892   .                                                             45010892
+7        52223146               ..........G...........                            52223125
+8        76565519   ....                                                          76565522
+12       12075059    ..................                                           12075042
+10       39369875   ....                                                          39369878
+5        106811143  .                                                             106811143
+1        22620186           ...............T.......                               22620164
+9        25838737   .C....                                                        25838732
+
+Query_5  181        GACAGAGCGG  190
+14       66490402   ..........  66490411
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 450048226190
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  153     2e-35
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  36.2    2.7  
+NC_064569.1 Orcinus orca chromosome 11, mOrcOrc1.1, whole genome ...  36.2    2.7  
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  36.2    2.7  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  36.2    2.7  
+NC_064560.1 Orcinus orca chromosome 2, mOrcOrc1.1, whole genome s...  36.2    2.7  
+
+
+
+Query_6  1          GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+14       66491318   ........G............T...A....................A.............  66491377
+14       164207                                                   ..............  164194
+18       14473157                                           ................A...  14473138
+10       93307038     ..................                                          93307021
+8        89322180     ..................                                          89322163
+3        118760743                                              ................  118760728
+1        184983207    ..................                                          184983224
+
+Query_6  61         GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+14       66491378   ..................G..................  66491414
+14       164193     ....                                   164190
+18       14473137   ..                                     14473136
+3        118760727  ..                                     118760726
+1        2855647                       ..................  2855630
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 206492750490
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  115     2e-24
+NC_064578.1 Orcinus orca chromosome 20, mOrcOrc1.1, whole genome ...  36.2    1.5  
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  36.2    1.5  
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  36.2    1.5  
+NC_064576.1 Orcinus orca chromosome 18, mOrcOrc1.1, whole genome ...  36.2    1.5  
+NC_064572.1 Orcinus orca chromosome 14, mOrcOrc1.1, whole genome ...  36.2    1.5  
+NC_064568.1 Orcinus orca chromosome 10, mOrcOrc1.1, whole genome ...  36.2    1.5  
+NC_064567.1 Orcinus orca chromosome 9, mOrcOrc1.1, whole genome s...  36.2    1.5  
+NC_064566.1 Orcinus orca chromosome 8, mOrcOrc1.1, whole genome s...  36.2    1.5  
+NC_064561.1 Orcinus orca chromosome 3, mOrcOrc1.1, whole genome s...  36.2    1.5  
+NC_064580.1 Orcinus orca chromosome X, mOrcOrc1.1, whole genome s...  34.2    5.8  
+NC_064575.1 Orcinus orca chromosome 17, mOrcOrc1.1, whole genome ...  34.2    5.8  
+NC_064570.1 Orcinus orca chromosome 12, mOrcOrc1.1, whole genome ...  34.2    5.8  
+NC_064563.1 Orcinus orca chromosome 5, mOrcOrc1.1, whole genome s...  34.2    5.8  
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  34.2    5.8  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  34.2    5.8  
+
+
+
+Query_7  1          GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+14       66492083   .........C..................................................  66492142
+14       76568368                                              .................  76568352
+14       47035982                                               ................  47035997
+14       49822329           .................                                     49822345
+19       7758978     .........G............                                       7758999
+15       55630864                                        ..................       55630881
+0        96351757                        ..................                       96351774
+0        16416605                                           .................     16416621
+0        154280909                    .................                           154280925
+17       20656278                   ..................                            20656261
+17       1405723                             .................                    1405739
+13       61644030                                ..................               61644013
+9        55624636     ..............T.......                                      55624615
+9        44592481       .................                                         44592497
+8        23972420           ..................                                    23972403
+8        28567263           ..................                                    28567246
+7        27361397                                    ..................           27361380
+2        148968586           ..................                                   148968569
+21       80791385                       .................                         80791401
+16       4671914                                    .................             4671930
+11       52675243    .................                                            52675259
+4        49527655            .................                                    49527671
+5        115838053                           .................                    115838037
+3        52541404                            .................                    52541388
+
+Query_7  61         AG  62
+14       66492143   ..  66492144
+14       76568351   .   76568351
+14       47035998   .   47035998
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 113835747065
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  125     3e-27
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  42.1    0.035
+NC_064580.1 Orcinus orca chromosome X, mOrcOrc1.1, whole genome s...  36.2    2.2  
+NC_064566.1 Orcinus orca chromosome 8, mOrcOrc1.1, whole genome s...  36.2    2.2  
+NC_064561.1 Orcinus orca chromosome 3, mOrcOrc1.1, whole genome s...  36.2    2.2  
+NC_064575.1 Orcinus orca chromosome 17, mOrcOrc1.1, whole genome ...  34.2    8.6  
+NC_064569.1 Orcinus orca chromosome 11, mOrcOrc1.1, whole genome ...  34.2    8.6  
+NC_064568.1 Orcinus orca chromosome 10, mOrcOrc1.1, whole genome ...  34.2    8.6  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  34.2    8.6  
+NC_064560.1 Orcinus orca chromosome 2, mOrcOrc1.1, whole genome s...  34.2    8.6  
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  34.2    8.6  
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  34.2    8.6  
+NC_064571.1 Orcinus orca chromosome 13, mOrcOrc1.1, whole genome ...  34.2    8.6  
+NC_064570.1 Orcinus orca chromosome 12, mOrcOrc1.1, whole genome ...  34.2    8.6  
+NC_064565.1 Orcinus orca chromosome 7, mOrcOrc1.1, whole genome s...  34.2    8.6  
+NC_064563.1 Orcinus orca chromosome 5, mOrcOrc1.1, whole genome s...  34.2    8.6  
+
+
+
+Query_8  1          CACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCG  60
+14       66493307   .......................................C........T..........A  66493366
+14       66523244     ....G.....T.......CC..T........C..A..C...C....T...........  66523187
+14       61710413                              ..................                 61710430
+14       32261954                                ..................               32261937
+14       19463375            .................                                    19463359
+14       23029939                                 .................               23029923
+5        57683974                             .....................               57683994
+5        46967681                                 .................               46967697
+5        49597024                   .................                             49597040
+21       130480284    ..................                                          130480301
+21       32010961                      ..................                         32010944
+21       107036101        ..................                                      107036084
+7        93533016   ..................                                            93533033
+7        47939847                      .................                          47939863
+2        78100526                                ..................               78100543
+2        134671411           .................                                    134671427
+16       48684236      .................                                          48684252
+10       7030605       .................                                          7030621
+10       71698260           .................                                     71698276
+10       95602255                               .................                 95602239
+9        81298209                       ......G...........A......                 81298185
+9        45025364                                                    ...........  45025374
+3        90979051                               .................                 90979067
+1        151292866              .................                                 151292882
+1        172188925                                .................               172188909
+0        63124645   ......G..............                                         63124665
+0        201786682                              ....G................             201786702
+0        205731020    ........G............                                       205731000
+0        94397199              .................                                  94397215
+0        105165451                                                          ....  105165454
+0        136160186                                .................               136160202
+0        198314876                              .................                 198314892
+0        55830163                                 .................               55830147
+0        105235827                                                          ....  105235824
+0        105256233                                                          ....  105256230
+15       18651151                                .................                18651135
+12       77023310   .................                                             77023294
+4        135940430                              .................                 135940414
+
+Query_8  61         CAGGAAAATTGTAGTGTTGGGAA  83
+14       66493367   ..........A.C..........  66493389
+2        150301722   ..................      150301739
+2        152898556  .................        152898572
+10       49144858         .................  49144842
+9        45025375   ......                   45025380
+0        105165455  .............            105165467
+0        105235823  .............            105235811
+0        105256229  .............            105256217
+11       68647891        .................   68647875
+6        60261691     .................      60261675
+4        112815069  .................        112815053
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 169429949120
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  165     5e-39
+NC_064576.1 Orcinus orca chromosome 18, mOrcOrc1.1, whole genome ...  44.1    0.012
+NC_064575.1 Orcinus orca chromosome 17, mOrcOrc1.1, whole genome ...  38.2    0.75 
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  38.2    0.75 
+NC_064569.1 Orcinus orca chromosome 11, mOrcOrc1.1, whole genome ...  38.2    0.75 
+NC_064578.1 Orcinus orca chromosome 20, mOrcOrc1.1, whole genome ...  36.2    3.0  
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  36.2    3.0  
+NC_064568.1 Orcinus orca chromosome 10, mOrcOrc1.1, whole genome ...  36.2    3.0  
+NC_064565.1 Orcinus orca chromosome 7, mOrcOrc1.1, whole genome s...  36.2    3.0  
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  36.2    3.0  
+NC_064561.1 Orcinus orca chromosome 3, mOrcOrc1.1, whole genome s...  36.2    3.0  
+
+
+
+Query_9  4         CTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGGGGG  63
+14       66494971  .......A............................A.......................  66495030
+14       65872595                                       ..................       65872612
+17       49590948         ......................                                 49590927
+17       17432968             ...................                                17432986
+16       78571318              ...................                               78571336
+15       23805695                                                           ...  23805697
+15       78679822                                                           ...  78679824
+10       93237253                    ............G..........                     93237275
+19       9348577    ..........T...........                                       9348598
+18       23246745                                    ..................          23246762
+6        40860341                                                    ..........  40860350
+0        44748048                                  ..................            44748065
+2        58114771                            ..................                  58114754
+2        65987966                                    ..................          65987949
+
+Query_9  64        GACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+14       66495031  .........C......................AT.........  66495073
+15       23805698  ................                             23805713
+15       78679825  ...............                              78679839
+15       80321535               ..................              80321518
+9        85398845                   ..................          85398862
+6        40860351  ..A.........                                 40860362
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 230318837085
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  246     2e-63
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  36.2    4.1  
+NC_064566.1 Orcinus orca chromosome 8, mOrcOrc1.1, whole genome s...  36.2    4.1  
+NC_064564.1 Orcinus orca chromosome 6, mOrcOrc1.1, whole genome s...  36.2    4.1  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  36.2    4.1  
+
+
+
+Query_10  2          ATCAACTATGGTGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTAAG  61
+14        66495478   .........................................................C..  66495537
+3         52840047        ..................                                       52840030
+
+Query_10  62         TACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATCCTG  121
+14        66495538   ..........T......G.........A................................  66495597
+14        66519399                              ........C.....A........T..A..T..C  66519367
+14        66473085                                             ......A...........  66473102
+18        48090635                                                       ........  48090628
+7         38425740                                      ..................         38425757
+5         109698911                                                          ....  109698908
+
+Query_10  122        TTCCCAGGCTGTGTCCTCAG  141
+14        66495598   ....................  66495617
+14        66519366   ..T........C........  66519347
+14        66473103   ..............        66473116
+18        48090627   ...T..........        48090614
+18        1767137    ..................    1767120
+5         109698907  .G................    109698890
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 320328443347
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  194     9e-48
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  38.2    1.3  
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  38.2    1.3  
+NC_064575.1 Orcinus orca chromosome 17, mOrcOrc1.1, whole genome ...  36.2    5.2  
+NC_064572.1 Orcinus orca chromosome 14, mOrcOrc1.1, whole genome ...  36.2    5.2  
+NC_064569.1 Orcinus orca chromosome 11, mOrcOrc1.1, whole genome ...  36.2    5.2  
+NC_064566.1 Orcinus orca chromosome 8, mOrcOrc1.1, whole genome s...  36.2    5.2  
+NC_064562.1 Orcinus orca chromosome 4, mOrcOrc1.1, whole genome s...  36.2    5.2  
+NC_064580.1 Orcinus orca chromosome X, mOrcOrc1.1, whole genome s...  36.2    5.2  
+NC_064579.1 Orcinus orca chromosome 21, mOrcOrc1.1, whole genome ...  36.2    5.2  
+NC_064577.1 Orcinus orca chromosome 19, mOrcOrc1.1, whole genome ...  36.2    5.2  
+
+
+
+Query_11  1          GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+14        66495716   ............A......C....A....................C..............  66495775
+14        66519200   ...........A.G..G......T.G.....C..T..T...A................AG  66519141
+14        66473246                                    ...........................  66473272
+0         210952372                                                            ..  210952371
+15        20399146                                        ..................       20399163
+16        53298772             ..................                                  53298755
+3         125915397                                            ..................  125915380
+21        52492535                              ..................                 52492552
+20        22439368                                           .........A..........  22439387
+18        21720734    ..................                                           21720751
+
+Query_11  61         TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+14        66495776   ........T.G...T....T...TT..............A..T..A..............  66495835
+14        66519140   ..........G...A....A...........A........TT...A....A.G.....T.  66519081
+14        66473273   ..........G...................T......T.....................A  66473332
+0         210952370  .................                                             210952354
+10        1798008                           ..................                     1797991
+7         87635640               ...........A..........                            87635619
+20        22439388   ..                                                            22439389
+18        18282070                              ..................                 18282087
+
+Query_11  121        CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGC  155
+14        66495836   .....C.......T.....T.....A.........  66495870
+14        66519080   .....C....C..T.....T....C..........  66519046
+14        66473333   .....C.............T...............  66473367
+15        26402379                   ...................  26402397
+13        87541932           ..................           87541915
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 399748718557
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_064573.1 Orcinus orca chromosome 15, mOrcOrc1.1, whole genome ...  153     2e-35
+NC_064572.1 Orcinus orca chromosome 14, mOrcOrc1.1, whole genome ...  40.1    0.23 
+NC_064576.1 Orcinus orca chromosome 18, mOrcOrc1.1, whole genome ...  38.2    0.90 
+NC_064559.1 Orcinus orca chromosome 1, mOrcOrc1.1, whole genome s...  38.2    0.90 
+NC_064574.1 Orcinus orca chromosome 16, mOrcOrc1.1, whole genome ...  36.2    3.5  
+NC_064569.1 Orcinus orca chromosome 11, mOrcOrc1.1, whole genome ...  36.2    3.5  
+NC_064568.1 Orcinus orca chromosome 10, mOrcOrc1.1, whole genome ...  36.2    3.5  
+NC_064561.1 Orcinus orca chromosome 3, mOrcOrc1.1, whole genome s...  36.2    3.5  
+
+
+
+Query_12  1          GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+14        66496701   ..............T.....T..................A....G..............A  66496760
+14        66514231   ...........G..T...........C.....CA.T..T..A..G........T..T..C  66514172
+14        66474534      ...........T...........C...C.GA.G..T....GG..........A...T  66474590
+13        60914594                                                              .  60914594
+0         183903791                  ...................                           183903809
+10        45927114                                          ..................     45927097
+
+Query_12  61         GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+14        66496761   ...T....G.....T.TG....................A.....................  66496820
+14        66514171   ........C.....T.....                                          66514152
+14        66474591   ........G........                                             66474607
+14        48033089    ...................                                          48033071
+13        60914593   ...................                                           60914575
+17        29767106                     ...................                         29767088
+15        1697177                ..................                                1697160
+15        23799202   ..................                                            23799219
+9         4586495       .....G................                                     4586516
+2         17500521           ..................                                    17500504
+
+Query_12  121        T  121
+14        66496821   .  66496821
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 275323667320
+
+
+  Database: GCF_937001465.1_mOrcOrc1.1_genomic.fna
+    Posted date:  Feb 4, 2026  5:47 AM
+  Number of letters in database: 2,647,351,467
+  Number of sequences in database:  448
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

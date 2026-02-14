@@ -1,0 +1,158 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004364475.1_ZipCav_v1_BIUU_genomic.fna
+           3,758,276 sequences; 3,150,417,206 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWS010176968.1 Ziphius cavirostris isolate BS68 ZipCav_flattened...  212     7e-52
+RJWS010489042.1 Ziphius cavirostris isolate BS68 ZipCav_flattened...  138     1e-29
+RJWS010029150.1 Ziphius cavirostris isolate BS68 ZipCav_flattened...  82.4    8e-13
+RJWS010000089.1 Ziphius cavirostris isolate BS68 ZipCav_flattened...  70.7    5e-09
+RJWS010078059.1 Ziphius cavirostris isolate BS68 ZipCav_flattened...  65.3    2e-07
+RJWS010007791.1 Ziphius cavirostris isolate BS68 ZipCav_flattened...  65.3    2e-07
+
+
+
+Query_1          1      ATGAGGGCTCTGCTGCTCCTGGGGTTCCTGCTGGTGAGCTTGGAGTCAACACTTTCGATT  60
+RJWS010029150.1  11590                                                          ..C.  11593
+RJWS010029150.1  11167  ........................G..............C........G..G...       11221
+
+Query_1          61     CCACCTTGGGAAGCCCCCAAGGAGCATAAGTACAAAGCTGAAGAGCACACAGTCGTTCTC  120
+RJWS010489042.1  690                                                          ......  685
+RJWS010029150.1  11594  .........A...........C.........T..T..AGAGT..........          11645
+
+Query_1          121    ACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTACCACAAA  180
+RJWS010489042.1  684    .....T...............................................T......  625
+
+Query_1          181    TGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAACTTTGAT  240
+RJWS010489042.1  624    ...CT.....GA...T....C.....-..A.......                         589
+
+Query_1          241    CAGGACCAGCGATGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGCAGCAAA  300
+
+Query_1          301    CACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCACTGTCTC  360
+
+Query_1          361    TGTCCACAACACCTCACTGGAAACCACTGCCAGAAAGAGAAGTGCTTTGAGCCTCAGCTT  420
+
+Query_1          421    CTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAACTGAGCAAGCAGCTGTGGCCAGA  480
+
+Query_1          481    TGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGCTGGCCAGCCAGGCCTGCCGCACC  540
+RJWS010176968.1  3268                                                     ......T...  3259
+
+Query_1          541    AACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCTGTGCCACTGC  600
+RJWS010176968.1  3258   ...T.A..T...A.......CA........C...C....................GT...  3199
+
+Query_1          601    CCGGTGGGCTACACCGGAGCCTTCTGCGACGTGGACACCAAGGCAAGCTGCTATGATGGC  660
+RJWS010176968.1  2987                                                              .  2987
+RJWS010176968.1  3198   ..CAC..C....G.T...CG...G...                                   3172
+
+Query_1          661    CGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGTCAGCCG  720
+RJWS010176968.1  2986   ...........G.........G.....C....T.A.....G......A............  2927
+
+Query_1          721    TGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGGGGACTG  780
+RJWS010176968.1  2926   ........C............T....T.....C..A..........T....G..A.....  2867
+
+Query_1          781    GGCGGCCACGCCTTCTGCCGGAACCCGGACAACGACATCCGCCCGTGGTGCTTCGTGCTG  840
+RJWS010176968.1  2866   ....A................                                         2846
+RJWS010176968.1  2766                  ...A......A...........C...........A...T..TTG.  2722
+
+Query_1          841    AACCGCGACCGGCTGAGCTGGGAGTACTGCGACCTGGCACAGTGCCAGACCCCAACCCAG  900
+RJWS010176968.1  2721   .GAG....A..A.........A.T..T...CG........G.......G.....G...C.  2662
+
+Query_1          901    GCGGCGCCTCCGACCCCGGTGTCCCCTAGGCTTCATGTCCCACTCATGCCCGCGCAGCCG  960
+RJWS010176968.1  2661   ........                                                      2654
+
+Query_1          961    GCACCGCCGAAGCCTCAGCCCACGACCCGGACCCCGCCTCAGTCCCAGACCCCGGGAGCC  1020
+
+Query_1          1021   TTGCCGGCGAAGCGGGAGCAGCCGCCTTCCCTGACCAGGAACGGCCCACTGAGCTGCGGG  1080
+RJWS010176968.1  2415                  .......G.A..CT..G.C....CGCG.....GGC.G....T..A  2371
+
+Query_1          1081   CAGCGGCTCCGCAAGAGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGTGGCGCTA  1140
+RJWS010176968.1  2370   ...T......A...ACTG.........C...G.........C..G..A...........C  2311
+
+Query_1          1141   CGCGGGGCGCACCCCTACATCGCCGCGCTGTACTGGGGCCACAGTTTCTGCGCCGGCAGC  1200
+RJWS010176968.1  2310   .C.........T....................GCA......A.A.......A........  2251
+RJWS010007791.1  22884                                    .........---......GG...TC.  22906
+
+Query_1          1201   CTCATCGCCCCCTGCTGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCGGCCCGCACCC  1260
+RJWS010176968.1  2250   ..............T...........C..G...............A......          2199
+RJWS010007791.1  22907  .............C......C..CT.............                        22944
+
+Query_1          1261   GAGGATCTGACGGTGGTGCTCGGCCAGGAACGCCGTAACCACAGCTGTGAGCCGTGCCAG  1320
+RJWS010176968.1  1942    ....G.....A........G........C....A......G..........A.......  1884
+
+Query_1          1321   ACGTTGGCCGTGCGCTCCTACCGCTTGCACGAGGCCTTCTCGCCCGTCAGCTACCAGCAC  1380
+RJWS010176968.1  1883   ...C...........G......C.C..................GTA...C..........  1824
+
+Query_1          1381   GACCTGGCTCTGTTGCGCCTTCAGGAGGATGCGGACGGCAGCTGCGCGCTCCTGTCGCCT  1440
+RJWS010176968.1  1823   .......                                                       1817
+RJWS010176968.1  1722         ......G.......G......AGC..T..A...T.........A..C.......  1669
+
+Query_1          1441   TACGTTCAGCCGGTGTGCCTGCCAAGCGGCGCCGCGCGACC------CTCCGAGACCACG  1494
+RJWS010176968.1  1668   .T.........A...........G..TA.......C..C..GGCCGAA.....AG..G..  1609
+
+Query_1          1495   CTCTGCCAGGTGGCCGGCTGGGGCCACCAGTTCGAGGGGGCGGAGGAATATGCCAGCTTC  1554
+RJWS010176968.1  1016                                .....CA...A.A.G.......TA.......  986
+RJWS010176968.1  1608   ......G.A..............T........A..A..                        1571
+
+Query_1          1555   CTGCAGGAGGCGCAGGTACCGTTCCTCTCCCTGGAGCGCTGCTCAGCCCCGGACGTGCAC  1614
+RJWS010176968.1  985    ......T..C.T.....G...C..A..CGT.C............C.....C.........  926
+
+Query_1          1615   GGATCCTCCAT---------------CCTCCCCGGCATGCTCTGCGCAGGGTTCCTCGAG  1659
+RJWS010176968.1  925    ...G..G..T.CACACACACCACCCC.......-.............T..C....A....  867
+
+Query_1          1660   GGCGGCACCGATGCGTGCCAGGGTGATTCCGGAGGCCCGCTGGTGTGTGAGGACCAAGCT  1719
+RJWS010176968.1  758                     .......A.C...A.......T..............TG.GA.C  716
+RJWS010176968.1  866    ..T.....T..C..........                                        845
+RJWS010078059.1  4127                     .....C..C...........C...A....CC...T.G.-..-  4166
+
+Query_1          1720   GCAGAGCGCCGGCTCACCCTGCAAGGCATCATCAGCTGGGGATCGGGCTGTGGTGACCGC  1779
+RJWS010176968.1  715    ......G...A.....T.....G.......G..........T..A..T..C..C......  656
+RJWS010000089.1  10478                   ....T.C...C.............TGAC.....C..GC.G.T.  10436
+RJWS010078059.1  4167   ...C----.T....G---...GCG.................CGA........CG..G...  4219
+
+Query_1          1780   AACAAGCCAGGCGTCTACACCGATGTGGCCTACTACCTGGCCTGGATCCGGGAGCACACC  1839
+RJWS010176968.1  655    C...T...G..T..AC.......C......A.......A....................T  596
+RJWS010000089.1  10435  ........C............CGC......AGT...G...A.......              10388
+RJWS010078059.1  4220   ...CG...C..........                                           4238
+
+Query_1          1840   GTTTCCTGA  1848
+RJWS010176968.1  595    .C.......  587
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5483061381108
+
+
+  Database: GCA_004364475.1_ZipCav_v1_BIUU_genomic.fna
+    Posted date:  Feb 4, 2026  3:18 PM
+  Number of letters in database: 3,150,417,206
+  Number of sequences in database:  3,758,276
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

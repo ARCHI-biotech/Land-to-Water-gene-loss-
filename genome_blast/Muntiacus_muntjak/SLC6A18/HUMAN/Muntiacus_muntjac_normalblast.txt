@@ -1,0 +1,56 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_008782695.1_UCB_Mmun_1.0_genomic.fna
+           25,651 sequences; 2,573,529,099 total letters
+
+
+
+Query= lcl|NM_182632.3_cds_NP_872438.2_1 [gene=SLC6A18]
+[db_xref=CCDS:CCDS3860.1] [protein=inactive sodium-dependent neutral
+amino acid transporter B(0)AT3] [protein_id=NP_872438.2]
+[location=98..1984] [gbkey=CDS]
+
+Length=1887
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM018502.1 Muntiacus muntjak isolate UTSW_UCB_Mm chromosome 2, wh...  167     2e-38
+
+
+
+Query_1     300        AGGGCTGGGCTGTGTCACGCTGTCCTTCCTGATCAGCCTGTACTACAACACCATCGTGGC  359
+CM018502.1  408159521  ............CT....CG....T......G.................G.G...C....  408159580
+
+Query_1     360        GTGGGTGCTGTGGTACCTCCTCAACTCCTTCCAGCACCCGCTGCCCTGGAGCTCCTGCCC  419
+CM018502.1  408159581  C........C.......................................G..G.......  408159640
+
+Query_1     420        ACCGGACCTCAACAGAACAGG  440
+CM018502.1  408159641  G..C.........C.C.....  408159661
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4774994151808
+
+
+  Database: GCA_008782695.1_UCB_Mmun_1.0_genomic.fna
+    Posted date:  Feb 5, 2026  2:33 PM
+  Number of letters in database: 2,573,529,099
+  Number of sequences in database:  25,651
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

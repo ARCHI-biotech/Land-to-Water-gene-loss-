@@ -1,4 +1,4 @@
-#Retrieve human query sequences from annotation
+ #Retrieve human query sequences from annotation
 #gene F12
 efetch -db nucleotide -id NM_000505.4 -format fasta_cds_na > F12_human_CDS.fasta
 # Balaenoptera_acutorostrata [minke_whale]
@@ -17,19 +17,147 @@ blastn -query query.fasta -db balaenoptera_db -out query_vs_whale_dcmegablast.tx
 #Cervu_candensis
 #Downloading the genome
 #wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/320/065/GCF_019320065.1_ASM1932006v1/GCF_019320065.1_ASM1932006v1_genomic.fna.gz
+# Create BLAST database
+makeblastdb -in GCF_019320065.1_ASM1932006v1_genomic.fna -dbtype nucl -out cervus_db
 
 #Hydropotes_inermis
 #Downloading the genome
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/020/226/075/GCA_020226075.1_ASM2022607v1/GCA_020226075.1_ASM2022607v1_genomic.fna.gz
+# Create BLAST database
+makeblastdb -in GCA_020226075.1_ASM2022607v1_genomic.fna -dbtype nucl -out Hydropotes_db
 
 #Odocoileus_virginianus
 #Downloading the genome
 weget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/023/699/985/GCF_023699985.2_Ovbor_1.2/GCF_023699985.2_Ovbor_1.2_genomic.fna.gz
+# Create BLAST database
+makeblastdb -in GCF_023699985.2_Ovbor_1.2_genomic.fna -dbtype nucl -out Odocoileus_db
 
 #Capra_hircus
 #Downloading the genome
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/704/415/GCF_001704415.2_ARS1.2/GCF_001704415.2_ARS1.2_genomic.fna.g
+# Create BLAST database
+makeblastdb -in Capra_hircus/*.fna -dbtype nucl -parse_seqids -out Capra_hircus/Capra_hircus
 
 #Ovis_aries
 #Downloading the genome
 #wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/772/045/GCF_016772045.2_ARS-UI_Ramb_v3.0/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna.g
+# Create BLAST database
+makeblastdb -in GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna -dbtype nucl -out Ovis_db
+
+############################################
+# PATHS
+############################################
+BASE_DIR="$HOME/Dissertation"
+GENOMES_DIR="$BASE_DIR/GENOMES"
+GENE_DIR="$BASE_DIR/GENE"
+RESULTS_DIR="$BASE_DIR/RESULTS"
+QUERY="$GENE_DIR/query.fasta"
+THREADS=8
+mkdir -p "$RESULTS_DIR"
+
+# Command for performing Short Blastn on the Given Species mentioned Above
+# Running a single code
+# OutFmt-3
+QUERY="/home/surya/GENE/Query.fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running genome BLAST (blastn-short) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}.blast"
+
+    cd ..
+done
+# Command for performing Short Blastn on the Given Species mentioned Above
+# Running a single code
+# OutFmt-6
+QUERY="/home/surya/GENE/Query.fasta"
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running genome BLAST (blastn-short) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$species" \
+      -outfmt 6 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}_pairwise.blast"
+
+    cd ..
+done
+
+# Command for performing DC - Mega Blastn on the Given Species mentioned Above
+# Running a single code for OutFmt-6
+############################################
+# PART 4: dc-megablast (outfmt 6)
+############################################
+for dir in "$GENOMES_DIR"/*/; do
+    species=$(basename "$dir")
+
+    echo "Running dc-megablast (outfmt 6) for $species"
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$dir/$species" \
+      -outfmt "6 qseqid sseqid pident length evalue bitscore stitle" \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads $THREADS \
+      -out "$RESULTS_DIR/Human_vs_${species}_dcmegablast.tsv"
+done
+
+# Command for performing DC - Mega Blastn on the Given Species mentioned Above
+# Running a single code for OutFmt-3
+############################################
+# PART 5: dc-megablast (outfmt 3)
+############################################
+for dir in "$GENOMES_DIR"/*/; do
+    species=$(basename "$dir")
+
+    echo "Running dc-megablast (outfmt 3) for $species"
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$dir/$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads $THREADS \
+      -out "$RESULTS_DIR/Human_vs_${species}_dcmegablast.txt"
+done
+
+echo "✅ PIPELINE COMPLETED SUCCESSFULLY"

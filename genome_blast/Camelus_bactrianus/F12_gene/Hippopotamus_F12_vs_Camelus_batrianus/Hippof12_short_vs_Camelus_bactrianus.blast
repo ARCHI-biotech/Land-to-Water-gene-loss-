@@ -1,0 +1,424 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_048773025.1_ASM4877302v1_genomic.fna
+           158 sequences; 2,473,918,224 total letters
+
+
+
+Query= exon_1
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  73.8    6e-12
+
+
+
+Query_1      1        ATGAGGGCTCCACTGCTCCTGGGGGCCCTGCTGGTGAGCCTGGAGTCAGCGGTTTCG  57
+NC_133560.1  7388502  ..........TG..............T............T...........C.....  7388558
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 94008778436
+
+
+Query= exon_2
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  50.1    8e-05
+
+
+
+Query_2      2        CTCCACCTTTAAAAGCCCCCAAGCAGCATAAGCTCATAGAGAGCGAGCACACAGTGG  58
+NC_133560.1  7388921  .........GG............G.A......T...G..C...T.............  7388977
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 96482693658
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  174     4e-42
+
+
+
+Query_3      1        TTCTCACTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATC  60
+NC_133560.1  7391543  .............C.........................A.......G............  7391602
+
+Query_3      61       ACAAATGCATCCACAGAGGCCGGCCCGGCCCCCGACCCTG  100
+NC_133560.1  7391603  ........................................  7391642
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 200387132982
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  109     1e-22
+
+
+
+Query_4      1        GTGTGCTACCACCCCCAACTTCGAGAAGGATCAGCGATGGGCATACTGCCTGGAGCCAAA  60
+NC_133560.1  7392334  .................T............C..........................C..  7392393
+
+Query_4      61       GAAAGTGAAAG  71
+NC_133560.1  7392394  ..C........  7392404
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 128643591544
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  145     4e-33
+
+
+
+Query_5      3        CACTGCAGCAAACACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATGGC  62
+NC_133560.1  7392697  .........................G............................A.....  7392756
+
+Query_5      63       CCACACTGCATCTGTCCAGATCCCTTCACTGGGAATCACTGCCAG  107
+NC_133560.1  7392757  ...AG.................A..CT........G.........  7392801
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 227600200424
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  131     8e-29
+
+
+
+Query_6      3        AAGTGCTTTGAGCCCCAGCTTCTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTT  62
+NC_133560.1  7392946  ........C...T............G..........G................T...C..  7393005
+
+Query_6      63       GGGCTGGCAGGTGTGGCCAAGTGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCACTG  122
+NC_133560.1  7393006  .A..G.....................G.....G...C.T...G....C.....A...G..  7393065
+
+Query_6      123      GCCAGCCAGG  132
+NC_133560.1  7393066  ..........  7393075
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 279552420086
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  137     1e-30
+
+
+
+Query_7      9        ACCAACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCTGTGCCGT  68
+NC_133560.1  7393231  ................................A.....A....G................  7393290
+
+Query_7      69       TGCCCCACCGGCTACGCGGGACGCTTGTGCGAC  101
+NC_133560.1  7393291  ......G.G...............C........  7393323
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 212756709092
+
+
+Query= exon_8
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  172     3e-41
+
+
+
+Query_8      30       GACCGCGGGCTCAGCTACCGCGGCGTGGCCCGCACCACGCTCTCGGGTGCACCCTGTGAG  89
+NC_133560.1  7393490  ............GA.................AG..T...........C.........C..  7393549
+
+Query_8      90       CCGTGGACCTCCGAGGCCACCTACTGGAATATGACCGCAGAGCAAGCGCTGAACTGGGGC  149
+NC_133560.1  7393550  ......G....G..........T.......G....T.......................A  7393609
+
+Query_8      150      CTGGGCAACCACGCCTTCTGCCG  172
+NC_133560.1  7393610  ......G................  7393632
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 376035089728
+
+
+Query= exon_9
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  97.6    2e-18
+
+
+
+Query_9      2        AACCCGGACAACGACACCCGCCCGTGGTGCTTTGTTTGGAGAGGCGACCGACTGAGCTGG  61
+NC_133560.1  7393741  ................TT.....A........C................A..........  7393800
+
+Query_9      62       AATTACTGCCGCCTGGCACGGTGCCAGGCGGGGCCCCCAAACCCTCCTCCGACCCGGATC  121
+NC_133560.1  7393801  C.A..T.............A...T.....                                 7393829
+NC_133560.1  7393856                                             .................  7393872
+
+Query_9      122      CCCTCTGGCGACCAGCACTTGCCCTCGCCCTCGCTTTCCTCTTTGCAG  169
+NC_133560.1  7393873  T.......GCC....G....C....T......C.....GG........  7393920
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 460148201904
+
+
+Query= exon_10
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  283     2e-74
+
+
+
+Query_10     20       CTGGTGCTCGCCGCCCGAACAGCAGATTCCCCTGCCCGGCGTGGGCCCGGCGGGATGCGG  79
+NC_133560.1  7394072  .......G.......G..G....G...C........TA...A.C..........C.....  7394131
+
+Query_10     80       ACAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCGTCGGAGGACTGGTGGCGCT  139
+NC_133560.1  7394132  T.....C..C..A............T..........C........G...........C..  7394191
+
+Query_10     140      CCCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCCGAAATTTCTGCGCCGGCAG  199
+NC_133560.1  7394192  ...T..........................G..........A..................  7394251
+
+Query_10     200      CCTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCCTGCAGAACCG  250
+NC_133560.1  7394252  ............C......................................  7394302
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 569000464720
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  192     3e-47
+
+
+
+Query_11     1        ACCCGCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGTGA  60
+NC_133560.1  7394550  ......T..C...........G.....A..T.............................  7394609
+
+Query_11     61       GCAGTGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGCCCATCAC  120
+NC_133560.1  7394610  T......................T.A................A.G...............  7394669
+
+Query_11     121      CTACCAGCACGACCTGG  137
+NC_133560.1  7394670  .................  7394686
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 291921996196
+
+
+Query= exon_12
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  159     4e-37
+
+
+
+Query_12     3        CTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCGCACCTGTCGCCTTTCGTTCAG  62
+NC_133560.1  7394783  ........A.....G...........C...............TC.........T......  7394842
+
+Query_12     63       CCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAATCCGAAGCCGAGCTCTGCGAA  122
+NC_133560.1  7394843  ..G..................G......G.T.C......C.........CA........G  7394902
+
+Query_12     123      GTGGCCGGCTGGGGTTACCAGTTCGAGG  150
+NC_133560.1  7394903  ..............CC............  7394930
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 321608958320
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  192     3e-47
+
+
+
+Query_13     1        GGGCGGGGGAATATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCCGAGC  60
+NC_133560.1  7395496  ......A...G...G.........................T......A............  7395555
+
+Query_13     61       GCTGCTCCGCCCCCGCCGTGCACGGAGCAGCCTTCACCCGCGGCATGCTCTGCGCTGGCT  120
+NC_133560.1  7395556  ...............A...........AC........T.CT...................  7395615
+
+Query_13     121      TCCTTGAGGGCGGCACTGACGCGTGCCAG  149
+NC_133560.1  7395616  ....C...........C............  7395644
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 319135043256
+
+
+Query= exon_14
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_133560.1 Camelus bactrianus isolate YW-2024 breed Bactrian cam...  170     1e-40
+
+
+
+Query_14     1        GGTGACTCTGGGGGCCCTCTGGTGTGTGAGGATGAGACCGCAGGGCGCCCCCTCATCCTG  60
+NC_133560.1  7395736  ........C........G..............CC....G....A..AT.AG.........  7395795
+
+Query_14     61       CGAGGCATCGTCAGCTGGGGCTCCGGTTGCGGCGACCGCTACAAGCCGGGTGTGTACACC  120
+NC_133560.1  7395796  .......................A..C..T.........C.G..................  7395855
+
+Query_14     121      GACGTGGCCAACTACCTAGCCTGGATCCAGGAGCACAC  158
+NC_133560.1  7395856  .....A...........G........T...........  7395893
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 366139429472
+
+
+  Database: GCF_048773025.1_ASM4877302v1_genomic.fna
+    Posted date:  Feb 4, 2026  4:09 PM
+  Number of letters in database: 2,473,918,224
+  Number of sequences in database:  158
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

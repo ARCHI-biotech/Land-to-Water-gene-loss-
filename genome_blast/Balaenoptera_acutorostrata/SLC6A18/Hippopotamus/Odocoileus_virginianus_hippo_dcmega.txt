@@ -1,0 +1,396 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_023699985.2_Ovbor_1.2_genomic.fna
+           481 sequences; 2,423,263,331 total letters
+
+
+
+Query= exon_1
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  82.4    1e-14
+
+
+
+Query_1  1         CATGAGCGGCCGAGTGGGAGACCTGTCCCCCAAGCAGGCGGAGACCCTGGCCAAG  55
+11       65013420  .........................AGT...........A...............  65013366
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 65427746301
+
+
+Query= exon_2
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  118     2e-25
+
+
+
+Query_2  1         GTTCCGAGAAAATGTCCAGGATGTGTTGCCTGCCCTGCCCAATCCGGATGACTATTTCCT  60
+11       65012498  .....................C........C...........C.................  65012439
+11       64974714  ...T..G..G...............C....C........G.....A..C........T..  64974773
+
+Query_2  61        CCTGCGCTGGCTCCG  75
+11       65012438  T..............  65012424
+11       64974774  ...............  64974788
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111469471572
+
+
+Query= exon_3
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  77.9    3e-13
+
+
+
+Query_3  1         GCTCGGAATTTTGACCTGCAGAAATCAGAGGCCATGCTCCGCAAG  45
+11       65012157  ...........C.................................  65012113
+11       65032472  ..C.....C......................A.........T...  65032428
+11       64979711        ..C..C..............T..............G...  64979749
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41195247671
+
+
+Query= exon_4
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  106     1e-21
+
+
+
+Query_4  1         GTACATGGAGTTCCGGAAGGCCATGGACATTGACCACATCCTTGACTGGCAGCCCCCCGA  60
+11       65012007  .............................................A..............  65011948
+
+Query_4  61        G  61
+11       65011947  .  65011947
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 79967245479
+
+
+Query= exon_5
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  298     4e-79
+
+
+
+Query_5  1         GGTGATCCAGAAGTAC-ATGCCTGGGGGCCTGTGTGGCTATGACCGTGACGGCTGCCCCG  59
+11       65010755  ................-.................C...........A..A........T.  65010697
+11       64980637  ....G.....C.....-C..T.A......A..........C...TTG..A....C....A  64980695
+11       65031939  ....G.....CG....G.....-..T...T....C.....C...TA...G..........  65031881
+
+Query_5  60        TGTGGTATGACATCATCGGGCCGCTTGACCCCAAGGGCCTGCTCTTCTCAGTCACCAAGC  119
+11       65010696  .........................G.......................G..........  65010637
+11       64980696  .C..............T..T..C..G...G.......T......C....G.C..G.....  64980755
+11       65031880  ......TC............A.CA.G.......G......C...C.G....C.T......  65031821
+
+Query_5  120       AGGACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGAATCCTGCACGAGTGTGACCTGC  179
+11       65010636  .....................................C........T...........C.  65010577
+11       64980756  .....T......G..........C.......C....TGC.G.....G..A....T..GC.  64980815
+11       65031820  ....G...A..CG..AGCGC..C..A.T...C...TTGC.TT.............A.A..  65031761
+
+Query_5  180       AGACAGAGCGG  190
+11       65010576  .......A...  65010566
+11       64980816  ...          64980818
+11       65031760  ...          65031758
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 385296498780
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  144     9e-33
+
+
+
+Query_6  1         GCTGGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAAGGCCTGGGGCTGAA  60
+11       65009686  ........G...........................C.....C..G..G...........  65009627
+11       64982488    .............A.........ACCC....C.A......C..G........T..C..  64982545
+
+Query_6  61        GCACTTCTGGAAACCCCTCGTGGAAGTGTACCAGGAG  97
+11       65009626  ..................G..A...............  65009590
+11       64982546  ...TC.......G..GGC......               64982569
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164780957976
+
+
+Query= exon_7
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  99.6    2e-19
+
+
+
+Query_7  1         GTTCTTTGGTCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATTGTGAA  60
+11       65008746  ......C..C............................................C.....  65008687
+
+Query_7  61        AG  62
+11       65008686  ..  65008685
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82390495342
+
+
+Query= exon_8
+
+Length=83
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  126     2e-27
+
+
+
+Query_8  2         ACCAAACTGTTCCCTGTGGGATACAACCTCATGAAGCCTTTCTTGAGCGAGGACACTCGC  61
+11       65007533  ..A...................................C..T.....T........G...  65007474
+11       64983162   ....G.............CC.........G.C..A..G...C....T...........T  64983220
+
+Query_8  62        AGGAAAATTGTAGTGTTGGGAA  83
+11       65007473  ......................  65007452
+11       64983221  .A...G..                64983228
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 130855466628
+
+
+Query= exon_9
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  156     2e-36
+
+
+
+Query_9  1         CAACTGGAAGGAAGGTTTGCTAAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGG  60
+11       65006623  ...............A.....G........T.........C...................  65006564
+11       64986760   ...........G.T......G...TAT.....C..C..CC.GT......TGG...AC..  64986818
+
+Query_9  61        GGGGACCCTGACAGACCCAGATGGGAACCCCAAATGCTTAACTAAG  106
+11       65006563  ............C....................G..T.....C...  65006518
+11       64986819  ...C...A....T.....T.....A...........            64986854
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 184166916476
+
+
+Query= exon_10
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  224     2e-56
+
+
+
+Query_10  1         GATCAACTATGGTGGGGAGATCCCCAAGTCCATG--TACGTGCGGGACCAGGTGAAGACT  58
+11        65006130  .........C..C.....................--........................  65006073
+11        64986950  ............G..T..C.........AAGTAT--.....................CAG  64987007
+11        65048367  .........C..G..C..CG.G...CC.--...TAC...C...ACA....C....G.GTG  65048310
+11        65028272  .........C..G..T..CG.G...C..--...TAC...C...ACA....C....G.GTG  65028215
+
+Query_10  59        AAGTACGAGCACTCGGTGCATATCAGCCGCGGCTCCTCGCACCAGGTGGAGTACGAGATC  118
+11        65006072  C...............C...G.................C...........A.........  65006013
+11        64987008  C.......A...AGC.....G..TTC...G........C.....A........T......  64987067
+11        65048309  ........C...CA..C.ACCG.GG....A........C.TG........CA........  65048250
+11        65028214  C.......C...CA..C.ACCG.GG....A........C.TG........CAG....G..  65028155
+
+Query_10  119       CTGTTCCCAGGCTGTGTCCTCAG  141
+11        65006012  .......................  65005990
+11        64987068  ..C.....G.....C........  64987090
+11        65048249  ........G.....C..G.....  65048227
+11        65028154  ........G.....C..G.....  65028132
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 268980628011
+
+
+Query= exon_11
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  242     9e-62
+
+
+
+Query_11  1         GGTGGCAGTTCTTATCTGATGGTGCAGACATTGGCTTCGGGGTTTTCCTGAAGACCAAGA  60
+11        65048131  ...........GCG..G..C..A.GG.....C............................  65048072
+11        65005889  ...........GCG..G.....G.GT.....C............................  65005830
+11        65028035  .........A.GCG..G..C..A.GG.....C............................  65027976
+11        64987237  ...........A.G..G......T.G.....C..T..T...A.................G  64987296
+
+Query_11  61        TGGGGGAGCGACAGCGGGCCGGGGAGATGACGGAGGTGCTGCCCAGCCAGCGCTACAACG  120
+11        65048071  ..........G...................T..........G..................  65048012
+11        65005829  ..........G..........CA.......T..........G.................A  65005770
+11        65027975  ..........G..............................G................T.  65027916
+11        64987297  ..........G........T..........G..............A....A.G.......  64987356
+
+Query_11  121       CCCACATGGTGCCCGAGGACGGGAGCCTCACCTGCGCAGAAGCCGGCGTCT  171
+11        65048011  .............T.....................A.G.............  65047961
+11        65005769  ...................................A.G.............  65005719
+11        65027915  ...................T...............A.G.............  65027865
+11        64987357  .T...C..................C..........                  64987391
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 341678095041
+
+
+Query= exon_12
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_069685.1 Odocoileus virginianus isolate 20LAN1187 ecotype Illi...  191     9e-47
+
+
+
+Query_12  1         GATGTCCTGCGCTTCGACAACACCTATAGCTTTGTCCACGCCAAAAAGGTCAGCTTCACG  60
+11        65004870  ..C...........T.............................G..............A  65004811
+11        64992757  ...........G..T...........C..T..CA.T..T..A..G........T.....C  64992816
+
+Query_12  61        GTGGAGGTTCTGCTCCCAGATGAGGGCATGCAGAAATACGACAAGGAGCTCACCCCTGTC  120
+11        65004810  ........G........G..........................A...............  65004751
+11        64992817  ........C.....T.....                                          64992836
+
+Query_12  121       TAG  123
+11        65004750  ...  65004748
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 225362147793
+
+
+  Database: GCF_023699985.2_Ovbor_1.2_genomic.fna
+    Posted date:  Feb 4, 2026  2:58 PM
+  Number of letters in database: 2,423,263,331
+  Number of sequences in database:  481
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
