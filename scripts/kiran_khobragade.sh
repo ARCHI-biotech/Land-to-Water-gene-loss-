@@ -248,4 +248,42 @@ for species in "${species_list[@]}"; do
 done
 
 echo "✅ ALL BLAST RUNS COMPLETED."
+#Forloop command for running blast human CDS against species
+#!/bin/bash
+
+species_list=(
+"sus_scrofa"
+"Hippo_hap2"
+"Eubalaena_japonica"
+"Camelus_bactrianus"
+"Budorcas_taxicolor"
+"Balaenoptera_musculus"
+)
+
+for query in Human_CDS/*.fasta
+do
+    filename=$(basename "$query")
+    gene=${filename%%_*}
+
+    echo "Processing gene: $gene"
+
+    for sp in "${species_list[@]}"
+    do
+        db="$sp/${sp}_genome_db"
+        result_dir="$sp/HUMAN_Results/$gene"
+
+        echo "  Running BLAST against $sp"
+
+        blastn \
+            -query "$query" \
+            -db "$db" \
+            -out "$result_dir/${gene}_CDS_blast.blast" \
+            -outfmt 3 \
+            -evalue 0.001 \
+            -dust no \
+            -num_threads 8
+    done
+done
+
+echo "All BLAST runs completed successfully!"
 
