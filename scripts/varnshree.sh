@@ -218,3 +218,60 @@ for gene_folder in "$GENE_DIR"/*/; do
 done
 
 echo "✅ FULL PIPELINE COMPLETED SUCCESSFULLY"
+
+#pipeline for extracting Hippopotamus exons 
+# ---------- STEP 1: Create working directory ----------
+mkdir -p ~/hippo
+cd ~/hippo
+
+# ---------- STEP 2: Download hippo genome ----------
+wget -c https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/030/028/045/GCF_030028045.1_mHipAmp2/GCF_030028045.1_mHipAmp2.hap2_genomic.fna.gz
+
+# ---------- STEP 3: Unzip genome ----------
+gunzip GCF_030028045.1_mHipAmp2.hap2_genomic.fna.gz
+
+# ---------- STEP 4: Make BLAST database ----------
+makeblastdb -in GCF_030028045.1_mHipAmp2.hap2_genomic.fna \
+-dbtype nucl \
+-parse_seqids \
+-out hippo_db
+
+# ---------- STEP 5: Place human exon file ----------
+# Copy your exon file into this folder if needed
+# cp /path/to/PAPL_Human_exon.fasta ~/hippo/
+
+# ---------- STEP 6: Run BLAST ----------
+blastn -task blastn-short \
+-query PAPL_Human_exon.fasta \
+-db hippo_db \
+-out PAPL_vs_hippo.tsv \
+-outfmt 6 \
+-evalue 1e-5
+
+# ---------- STEP 7: Convert hits ----------
+awk '{if ($9<$10) print $2"\t"$9"\t"$10; else print $2"\t"$10"\t"$9}' \
+PAPL_vs_hippo.tsv > PAPL_hits.bed
+
+# ---------- STEP 8: Sort hits ----------
+sort -k1,1 -k2,2n PAPL_hits.bed > PAPL_sorted.bed
+
+# ---------- STEP 9: Merge overlaps ----------
+bedtools merge -i PAPL_sorted.bed > PAPL_merged.bed
+
+# ---------- STEP 10: Convert coordinates ----------
+awk '{print $1":"$2+1"-"$3}' \
+PAPL_merged.bed > hippo_PAPL_exons.coords
+
+# ---------- STEP 11: Extract exons ----------
+samtools faidx GCF_030028045.1_mHipAmp2.hap2_genomic.fna \
+-r hippo_PAPL_exons.coords \
+> hippo_PAPL_exons_raw.fasta
+
+# ---------- STEP 12: Format like human exon file ----------
+awk '/^>/{print ">exon_"++i; next} {print}' \
+hippo_PAPL_exons_raw.fasta > PAPL_Hippo_exons.fasta
+
+# ---------- STEP 13: Check result ----------
+grep ">" PAPL_Hippo_exons.fasta
+
+
