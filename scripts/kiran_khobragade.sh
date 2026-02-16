@@ -163,4 +163,89 @@ do
     # Return to base directory
     cd "$BASE_DIR"
 done
+#Genome BLAST Automation Pipeline for Multi-Species Gene Analysis
+#For human query for 80 genes
+#!/bin/bash
+
+# ==============================
+# PATHS
+# ==============================
+BASE_DIR="/home/arijit/kiran"
+QUERY_DIR="$BASE_DIR/GENES (human)"
+
+# ==============================
+# SPECIES
+# ==============================
+species_list=(
+sus_scrofa
+Hippo_hap2
+Eubalaena_japonica
+Camelus_bactrianus
+Budorcas_taxicolor
+Balaenoptera_musculus
+)
+
+# ==============================
+# MAIN LOOP
+# ==============================
+for species in "${species_list[@]}"; do
+
+    echo "===================================="
+    echo "Running BLAST for $species"
+    echo "===================================="
+
+    # your real blast database name
+    db="$BASE_DIR/$species/${species}_genome_db"
+
+    # ALL FILES inside GENES (human)
+    for query in "$QUERY_DIR"/*; do
+
+        [ -f "$query" ] || continue
+
+        filename=$(basename "$query")
+
+        # 🔥 GENE NAME = FIRST PART BEFORE "_"
+        gene=$(echo "$filename" | cut -d'_' -f1)
+
+        result_dir="$BASE_DIR/$species/HUMAN_Results/$gene"
+        mkdir -p "$result_dir"
+
+        echo "→ $filename  vs  $species"
+
+        # 1️⃣ NORMAL GENOME BLAST
+        blastn \
+            -query "$query" \
+            -db "$db" \
+            -out "$result_dir/${gene}_blast.blast" \
+            -outfmt 3 \
+            -evalue 0.001 \
+            -dust no \
+            -num_threads 8
+
+        # 2️⃣ SHORT BLAST
+        blastn \
+            -task blastn-short \
+            -query "$query" \
+            -db "$db" \
+            -out "$result_dir/${gene}_short.blast" \
+            -outfmt 3 \
+            -evalue 0.001 \
+            -dust no \
+            -num_threads 8
+
+        # 3️⃣ DC-MEGABLAST
+        blastn \
+            -task dc-megablast \
+            -query "$query" \
+            -db "$db" \
+            -out "$result_dir/${gene}_dcmegablast.blast" \
+            -outfmt 3 \
+            -evalue 0.001 \
+            -dust no \
+            -num_threads 8
+
+    done
+done
+
+echo "✅ ALL BLAST RUNS COMPLETED."
 
