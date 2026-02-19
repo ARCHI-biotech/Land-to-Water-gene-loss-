@@ -286,4 +286,157 @@ do
 done
 
 echo "All BLAST runs completed successfully!"
+# Command for making word file
+python3 - << 'EOF'
+import os
+from docx import Document
+from docx.shared import Pt, RGBColor
+from docx.enum.section import WD_ORIENT
+from docx.enum.text import WD_COLOR_INDEX
+
+# ==========================
+# BASE DIRECTORY
+# ==========================
+BASE_DIR = "/home/arijit/kiran"
+
+# Ignore these folders at base level
+IGNORE = {
+    "Human_CDS",
+    "Hippo_CDS",
+    "GENES_hippo",
+    "GENES_human",
+}
+
+# ==========================
+# FUNCTION: Detect Indels
+# ==========================
+def detect_indels(query_seq, subject_seq):
+    insertions = 0
+    deletions = 0
+
+    for q, s in zip(query_seq, subject_seq):
+        # Query has '-' → insertion in subject
+        if q == "-" and s != "-":
+            insertions += 1
+        # Subject has '-' → deletion in subject
+        elif s == "-" and q != "-":
+            deletions += 1
+
+    comments = []
+
+    if insertions > 0:
+        frame = "frame-preserving" if insertions % 3 == 0 else "frameshift"
+        comments.append(f"[Insertion of {insertions} bp – {frame}]")
+
+    if deletions > 0:
+        frame = "frame-preserving" if deletions % 3 == 0 else "frameshift"
+        comments.append(f"[Deletion of {deletions} bp – {frame}]")
+
+    return " ".join(comments) if comments else None
+
+
+species_count = 0
+gene_count = 0
+file_count = 0
+
+# ==========================
+# MAIN LOOP
+# ==========================
+for species in os.listdir(BASE_DIR):
+
+    if species in IGNORE:
+        continue
+
+    species_path = os.path.join(BASE_DIR, species)
+
+    if not os.path.isdir(species_path):
+        continue
+
+    human_results = os.path.join(species_path, "HUMAN_Results")
+
+    if not os.path.exists(human_results):
+        continue
+
+    species_count += 1
+    print(f"\nProcessing species: {species}")
+
+    for gene in os.listdir(human_results):
+
+        gene_path = os.path.join(human_results, gene)
+
+        if not os.path.isdir(gene_path):
+            continue
+
+        gene_count += 1
+        print(f"  Processing gene: {gene}")
+
+        for file in os.listdir(gene_path):
+
+            # Ignore CDS files
+            if "CDS" in file:
+                continue
+
+            # Process only BLAST alignment files
+            if not file.endswith(("_blast.blast", "dcmegablast.blast", "short.blast")):
+                continue
+
+            file_count += 1
+
+            inp = os.path.join(gene_path, file)
+            out = os.path.join(gene_path, file.replace(".blast", "_with_comments.docx"))
+
+            doc = Document()
+
+            # Page setup
+            sec = doc.sections[0]
+            sec.orientation = WD_ORIENT.LANDSCAPE
+            sec.page_width, sec.page_height = sec.page_height, sec.page_width
+            sec.top_margin = sec.bottom_margin = Pt(36)
+            sec.left_margin = sec.right_margin = Pt(36)
+
+            with open(inp) as f:
+                query_seq = ""
+                subject_seq = ""
+
+                for line in f:
+                    L = line.rstrip()
+
+                    p = doc.add_paragraph()
+                    r = p.add_run(L)
+                    r.font.name = "Consolas"
+                    r.font.size = Pt(9)
+
+                    parts = L.split()
+
+                    if L.startswith("Query_") and len(parts) >= 3:
+                        query_seq = parts[2]
+
+                    elif len(parts) >= 3 and parts[1].isdigit():
+                        subject_seq = parts[2]
+
+                        if query_seq and subject_seq:
+                            comment = detect_indels(query_seq, subject_seq)
+
+                            if comment:
+                                rc = p.add_run(" " + comment)
+                                rc.font.name = "Consolas"
+                                rc.font.size = Pt(9)
+                                rc.font.bold = True
+                                rc.font.color.rgb = RGBColor(200, 0, 0)
+                                rc.font.highlight_color = WD_COLOR_INDEX.YELLOW
+
+                            query_seq = ""
+                            subject_seq = ""
+
+            doc.save(out)
+            print(f"    Saved → {out}")
+
+print("\n=================================")
+print(f"Species processed: {species_count}")
+print(f"Genes processed: {gene_count}")
+print(f"Files converted: {file_count}")
+print("DONE ✅ All Word files created successfully")
+print("=================================")
+
+EOF
 
