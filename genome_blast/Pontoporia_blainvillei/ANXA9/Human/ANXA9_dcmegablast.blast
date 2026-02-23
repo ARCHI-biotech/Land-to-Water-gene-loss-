@@ -1,0 +1,525 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=2123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01069882.1 Pontoporia blainvillei isolate BP203 contig70966, ...  456     3e-125
+PGGH01117536.1 Pontoporia blainvillei isolate BP203 contig119286,...  85.1    2e-13 
+PGGH01167874.1 Pontoporia blainvillei isolate BP203 contig170232,...  83.3    6e-13 
+PGGH01064315.1 Pontoporia blainvillei isolate BP203 contig65308, ...  83.3    6e-13 
+PGGH01011885.1 Pontoporia blainvillei isolate BP203 contig12061, ...  77.0    3e-11 
+PGGH01265899.1 Pontoporia blainvillei isolate BP203 contig269335,...  70.7    4e-09 
+PGGH01200669.1 Pontoporia blainvillei isolate BP203 contig203416,...  69.8    4e-09 
+PGGH01354988.1 Pontoporia blainvillei isolate BP203 contig359194,...  68.9    1e-08 
+PGGH01096576.1 Pontoporia blainvillei isolate BP203 contig98034, ...  68.0    1e-08 
+PGGH01348611.1 Pontoporia blainvillei isolate BP203 contig352773,...  66.2    5e-08 
+PGGH01149217.1 Pontoporia blainvillei isolate BP203 contig151359,...  59.0    7e-06 
+
+
+
+Query_1         376    TGGTGGCACATGCCTGTAGTTCCAGCTACTTTGGAGGCTGAGGCAGGAGAATTGCTTGAA  435
+PGGH01117536.1  4875    ......G.GC.........C.........CG.................G..C......G  4933
+PGGH01167874.1  2242    ......G.G..........C.........CG....................CA.....G  2300
+PGGH01064315.1  351    ......TG............C.......A..G...................CCT......  292
+PGGH01011885.1  90      ......G.GC.........C.........CG.................G..C......G  32
+PGGH01265899.1  1036            ...........C.........CA....T............G....A....G  1086
+PGGH01200669.1  7569              .......A.G...C.....CA.................G.........G  7521
+PGGH01354988.1  60      ......G.GC.........CT........CG.................G..C......   3
+PGGH01096576.1  1845              .........C.........CG......C..........G.....G...G  1893
+
+Query_1         436    CCTAGGAGGGTGAGGTTGCAGTGAGCCGAGATCATGCCACTGCCCTCCAGCCTGGCAACA  495
+PGGH01117536.1  4934   ..C.....                                                      4941
+PGGH01167874.1  2301   ..C.....                                                      2308
+PGGH01064315.1  291    ..C.....                                                      284
+PGGH01011885.1  31     ..C.....                                                      24
+PGGH01265899.1  1087   ..C..T..                                                      1094
+PGGH01200669.1  7520   .TC......                                                     7512
+PGGH01096576.1  1894   ..C.....                                                      1901
+
+Query_1         496    GAGTGAGACTCCATCTCAAAAATAAATAAAAGGCTGGGTGCAGTGATTCATGCCTATAAT  555
+
+Query_1         556    TCCAGCACTTTGGGAGGCCGAGGTGGGCGGATAACCTGAGGTCAAGAGTTTGGGACCAGC  615
+
+Query_1         616    CTGGCCAACATGGTGAAACCCTGTCTCTACTAAAAATACAAAAATTAGCTGGGTGTGGTG  675
+PGGH01117536.1  4861                                             ..A....C.....C....  4878
+PGGH01167874.1  2232                                                 ...C...C.C....  2245
+PGGH01064315.1  354                                                        ........  347
+PGGH01011885.1  99                                                    ..C...C.C....  87
+PGGH01354988.1  69                                                    ..C...C.C....  57
+
+Query_1         676    GTGGGC-CCTGTAATCCCAGCTACTCGGGAGGCTGAG---GAAGGAGAATCACTTGAACC  731
+PGGH01117536.1  4879   .C.C..G......G.......................---.C.....G...G.....G..  4935
+PGGH01167874.1  2246   .C.C.TG......G.......................---.C...............G..  2302
+PGGH01064315.1  346    ...CATG......G.........A.T...........---.C.......C.T........  290
+PGGH01011885.1  86     .C.C..G......G.......................---.C.....G...G.....G..  30
+PGGH01354988.1  56     .C.C..G......G..T....................---.C.....G...G.....     3
+PGGH01149217.1  10812          .....G.......................GCA.G.....G...G.....G..  10863
+
+Query_1         732    TGGGAGGCAGAGGTTACAGTGAGCTGAGATCACACCACTGCACTCCAGCCTGGGTGACAG  791
+PGGH01117536.1  4936   CA....                                                        4941
+PGGH01167874.1  2303   CA....                                                        2308
+PGGH01064315.1  289    CA....                                                        284
+PGGH01011885.1  29     CA....                                                        24
+PGGH01149217.1  10864  CA....                                                        10869
+
+Query_1         792    AGTAAGACTCGGTCTCAATAAATAAATAAATAAAAGCAATGTGGGACTTGGAGGCTGAAG  851
+
+Query_1         852    AGGTGGACATGCATGAACAGTGGAGGCGGTGTATGTGGCTGCCTTTCCCCTGTATTCCAC  911
+
+Query_1         912    TGAGAGGGAGCCCAAATCTGCCTCGCCTGCATTGAGGGATGAAGAAAACACTGAGAGGCA  971
+PGGH01069882.1  268                                    ....T.....GA............---.  292
+
+Query_1         972    GCTGAGAAACATGGATGCTAGTTCCAACTCCATGGCCTCGGGAAGTCACTCAGACTCCTT  1031
+PGGH01069882.1  293    .T.AG..G..C.....T..G....T...A.T........T.............C......  352
+
+Query_1         1032   GAGTCAGTAATGAAAAGGTAGTAGATTAGAGGCTGGGCGCAGTGGCTCATGCCTGTAATC  1091
+PGGH01069882.1  353    ..........                                                    362
+
+Query_1         1092   CCAACACTTTGGGAGGCCGAGGTGGGCGGATCACAAGGTCAGGAGTTCAAGACCAGCCTG  1151
+
+Query_1         1152   GCCAACATGGTGAAACACTGTCTCTACTAAAAATACAAAAATTAGCTGGGCATGGTGGTG  1211
+PGGH01117536.1  4861                                          ..A....C...TGC.....C.  4881
+PGGH01167874.1  2232                                              ...C....GC.....C.  2248
+PGGH01064315.1  351                                                        ........  344
+PGGH01011885.1  99                                                 ..C....GC.....C.  84
+PGGH01265899.1  1031                                                         .....-  1035
+PGGH01354988.1  69                                                 ..C....GC.....C.  54
+PGGH01096576.1  1839                                                            ...  1841
+PGGH01348611.1  815                                                          ....CA  820
+PGGH01149217.1  10801                                                        ....C.  10806
+
+Query_1         1212   CATGCCTGTAATCCCAGCTACTCAGGAGGTTGAGGC---AGGAGAATTGCTTGAACCAGG  1268
+PGGH01117536.1  4882   .GC.......G............G.....C......---.....G..C......G..CA.  4938
+PGGH01167874.1  2249   .G........G............G.....C......---........CA.....G..CA.  2305
+PGGH01064315.1  343    ..........G.........A.TG.....C......---.......CCT........CA.  287
+PGGH01011885.1  83     .GC.......G............G.....C......---.....G..C......G..CA.  27
+PGGH01265899.1  1036   -.........G.................TC......---.....G....A....G..     1088
+PGGH01200669.1  7569      .........G...C............C......---.....G.........        7522
+PGGH01354988.1  53     .GC.......G..T.........G.....C......---.....G..C......        3
+PGGH01096576.1  1842   .TC.......G............G.....CC.....---.....G.....G...G..CA.  1898
+PGGH01348611.1  821    .......A..GC.................C.A....---.....G..G.....GG...-.  876
+PGGH01149217.1  10807  .GC.T.....G............G.....C......AGG.....G..C......G..CA.  10866
+
+Query_1         1269   GAGTCGGAGGTTGCAATGAGCCGAGATCGCGCCATTGCACTCTAACCTGGGCAACAGAGT  1328
+PGGH01117536.1  4939   ....                                                          4942
+PGGH01167874.1  2306   ....                                                          2309
+PGGH01064315.1  286    ....                                                          283
+PGGH01011885.1  26     ....                                                          23
+PGGH01096576.1  1899   ...                                                           1901
+PGGH01348611.1  877    ....TCC...C....                                               891
+PGGH01149217.1  10867  ....                                                          10870
+
+Query_1         1329   GAGACTCTGTCTCAAAAAAAAGAAAAGAAAAGGTGGTAGATTAGATCCTCTCTAAGATTT  1388
+PGGH01069882.1  369                                   ......T..CC..G..A..C.......C.  397
+
+Query_1         1389   CCTCCAACTCTGCAATTCTAAAATGTACAACATGGGGAAGGAAGGTGA-TCAGTACAACT  1447
+PGGH01069882.1  398    ............A...........T..G.G.......GT...G.....T.T....A.T..  457
+
+Query_1         1448   GTAAACAACTGCAATCCGGCCCTGAAGTTGAACAAAACAAAACCTAGGG---AGAGGAAT  1504
+PGGH01069882.1  458    .A.......CT.....T.......G...................C....ACA.A....G.  517
+
+Query_1         1505   GAGTTTGTAGCAGGTTTCAATGCAGCGATTGTGAACGCATCACACACACACTCCTCACAG  1564
+PGGH01069882.1  518    ...A..CC.C..-.C....GGCG...AT....A...A..................---..  573
+
+Query_1         1565   GCA---AGGACTTCGCTTCTGCCATGTGACTGAGACTCTGTTGGACTTCTCCAAATTCAG  1621
+PGGH01069882.1  574    ...ACC.....CA.T.......--------------------------............  607
+
+Query_1         1622   AGTTCAGCCTGGCATGCCGGCCAGGAGCCCCTTGGAGAGATTCGGCGTGAGGAAACAGGA  1681
+PGGH01069882.1  608    GA........T...G.T.A.....C..AA...C.C....G..T..AC..G..........  667
+
+Query_1         1682   GGCCTCACGCTTCCTTCGGTTCTCCCTAAATCTGCTGGGCAGGT--AGCCAGAAGAAACT  1739
+PGGH01069882.1  668    .C....T.T.GC.....AT...CT.....GC.....T..A.C..GCGC...A....G.T.  727
+
+Query_1         1740   CTGAAGGGTACAGAAAGCCGAGGGCCAGGGGGACCCCGGCTGCGGAGCTGCAGTACCGTG  1799
+PGGH01069882.1  728    ................A..A.A..-..C........T.....T.....C..T....TAC.  786
+
+Query_1         1800   TTTACCCAGCCTAACTGCGGTCACCCAGTCTCCTGCATGTGT-CTGAGGTCAGCCTC-GG  1857
+PGGH01069882.1  787    G.A..........-----------GA................C........T.T...A.C  835
+
+Query_1         1858   GGGCTCCCCTGAGTAGGTATCTACCTGAGGCTCTTCCCCTGATGCTACCTGCATACCAAT  1917
+PGGH01069882.1  836    A..G..G.T..T....A.G.............A......-..CT..G.....CC.....G  894
+
+Query_1         1918   TCCACCCAGGAACCTGGCGTCCTCAGGAGGCTGCACTTCCCAA---GTGGGCTGAGACAG  1974
+PGGH01069882.1  895    .T....T.........AT......G....A...TG........CAG......CA...G..  954
+
+Query_1         1975   CCCCTTAATATGTGGGGCTGGAGC--------CAGAGACCTCAAGGGGCCACTAGGGGGC  2026
+PGGH01069882.1  955    .....GG....C..T.........CAGAGCCT.............T....G.C.....T.  1014
+
+Query_1         2027   TCGAG----ACTCTCAGTGGCTGCTGACGCCCTCTTGTGGCCATTTTGGGGATTGGCCAG  2082
+PGGH01069882.1  1015   .....GCTCT..........G.TTC..T.G.............GA............A..  1074
+
+Query_1         2083   AA--AAGTTTCAGAAGCGAGCCAAGATCGGAATTCTTAAGGAG  2123
+PGGH01069882.1  1075   ..AG.....A...G..A........G.T..........G....  1117
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4167491122558
+
+
+Query= exon_2
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 261599578326
+
+
+Query= exon_3
+
+Length=79
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99871841350
+
+
+Query= exon_4
+
+Length=97
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135825704236
+
+
+Query= exon_5
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01069882.1 Pontoporia blainvillei isolate BP203 contig70966, ...  106     2e-21
+
+
+
+Query_5         1     GGCAACCAGTAGCACCATGTCTGTGACTGGCGGGAAGATGGCACCGTCCCTCACCCAGGA  60
+PGGH01069882.1  3869  ....T.....CT...............CA............G..TA.....GG.T.....  3928
+
+Query_5         61    GATCCTCAGCCACCTGGGCCTGGCCAGCAAG  91
+PGGH01069882.1  3929  .....................T....A....  3959
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123841083274
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01069882.1 Pontoporia blainvillei isolate BP203 contig70966, ...  81.5    7e-14
+
+
+
+Query_6         21    GGGCACCCTCAGGACCTTCTTGAACTTCAGCGTGGACAAGGATGCGCAGAGGCTACTGAG  80
+PGGH01069882.1  4145  .....T......A..........G......TA.A..........T.........G.CA..  4204
+
+Query_6         81    GGCCATTACTGGCCAAG  97
+PGGH01069882.1  4205  .....C.G.A.......  4221
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135825704236
+
+
+Query= exon_7
+
+Length=95
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 131830830582
+
+
+Query= expn_8
+
+Length=114
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 169782130295
+
+
+Query= exon_9
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123841083274
+
+
+Query= exon_10
+
+Length=80
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101869278177
+
+
+Query= exon_11
+
+Length=60
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 63933769856
+
+
+Query= exon_12
+
+Length=85
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 111856462312
+
+
+Query= exon_13
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 133828267409
+
+
+Query= exon_14
+
+Length=59
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 61935839548
+
+
+Query= exon_15
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01364967.1 Pontoporia blainvillei isolate BP203 contig369252,...  160     1e-37
+
+
+
+Query_15        1    GAAACTGAGCCCAATTACCAAGTCCTGATTCGCATCCTTATCTCTCGATGTGAGACTGAC  60
+PGGH01364967.1  319  .........AA-.................G...........T......A..........T  377
+
+Query_15        61   CTTCTGAGTATCAGAGCTGAGTTCAGGAAGAAATTTGGGAAGTCCCTCTACTCTTCTCTC  120
+PGGH01364967.1  378  .....A......C...........GAA.............................C...  437
+
+Query_15        121  CAG  123
+PGGH01364967.1  438  ...  440
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 185715731178
+
+
+Query= exon_16
+
+Length=375
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01364967.1 Pontoporia blainvillei isolate BP203 contig369252,...  322     7e-86
+
+
+
+Query_16        2     ATGCAGTGAAAGGGGATTGCCAGTCAGCCCTCCTGGCCTTGTGCAGGGCTGAAGACATGT  61
+PGGH01364967.1  671   ..............A.A....G.........A..A...C.................C.T.  730
+
+Query_16        62    GAGACTTCCCTGCCCCACCCCACATGACATCCGAGGATCTGAGATTTCCGTGTTTGGCTG  121
+PGGH01364967.1  731   .....C..AT-------....T......C.T.A..--.........C..A...A......  781
+
+Query_16        122   AACCTG--GGAGACCAGCTGGGCCTCCAAGTAGGATAACCCCTCACT-GAGCACCACATT  178
+PGGH01364967.1  782   .G....CA.....................A..A......T.......T...........G  841
+
+Query_16        179   CTCTAGCTTCTTGTTGAGGCTGGAACT----GTTTCTTTAAAATCCCTTAATTTTCC-CA  233
+PGGH01364967.1  842   T..C..........G...T........CCAA...C..C.T..............C..T..  901
+
+Query_16        234   TCTCAAAATTATATCTGTACCTGGGTCATCCAGCTCCTTCTTGGGTGTGGGGAAATGAGT  293
+PGGH01364967.1  902   ......GG.G.......C.........CC.T.....TG.T......A..CAAT....G.A  961
+
+Query_16        294   TTTCTTTGATAGTTTCTGCCTCACTCATCCCTCCTGTACCCTGGCCAGAACATCTCACTG  353
+PGGH01364967.1  962   .C.................TCT......T.T.T.C.A.TT........C...........  1021
+
+Query_16        354   ATACTCGAATTCTTTTGGCAAA  375
+PGGH01364967.1  1022  ...T.T................  1043
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 686778753560
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

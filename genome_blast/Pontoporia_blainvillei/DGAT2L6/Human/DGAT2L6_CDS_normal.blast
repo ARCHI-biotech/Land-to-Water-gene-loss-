@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|NM_198512.3_cds_NP_940914.1_1 [gene=DGAT2L6]
+[db_xref=CCDS:CCDS14397.1] [protein=diacylglycerol O-acyltransferase
+2-like protein 6] [protein_id=NP_940914.1] [location=101..1114]
+[gbkey=CDS]
+
+Length=1014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01276246.1 Pontoporia blainvillei isolate BP203 contig279774,...  228     4e-57
+
+
+
+Query_1         650    CATACCTTGTCCCTTCATATTCCTTTGGTGAGAACGAAGTTTTCAATCAGGAGACCTTCC  709
+PGGH01276246.1  10169  ..........T..C..C...........A.....T..G...CA......A.........A  10110
+
+Query_1         710    CTGAGGGCACGTGGTTAAGGTTGTTCCAAA-AAACCTTCCAGGACACATTCAAAAAAA--  766
+PGGH01276246.1  10109  ..............C.......C.......T.......G.......G.A.........AA  10050
+
+Query_1         767    ---TCCTGGGACT-AAATTTCTGTACCTTCCATGGCCGGGGCTTCACTCGCGGATCCTGG  822
+PGGH01276246.1  10049  AAAC....A....T..G...............C.........C.......A.........  9990
+
+Query_1         823    GGCTTCCTGCCTTTCAATCGGCCCATTACCACTGTTG  859
+PGGH01276246.1  9989   ......T.A............................  9953
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1964992252464
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

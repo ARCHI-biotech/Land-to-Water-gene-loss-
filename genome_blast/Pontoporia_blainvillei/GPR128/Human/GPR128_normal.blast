@@ -1,0 +1,2080 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01398048.1 Pontoporia blainvillei isolate BP203 contig402582,...  296     2e-78
+
+
+
+Query_1         8     GCTGGGGAGGTGGGGGCA--G-ATCACATCAACATCCTGGCATTGGGCTGGGTCGGCGTG  64
+PGGH01398048.1  1431  ....T...........A.TG.TG.....C...T.C.G...AG............T.A...  1372
+
+Query_1         65    GAGCCCCAGAAATGTTCCCAAGCCCATTCTTACCAAGAACCAATGAGTAAAATCAGGGGC  124
+PGGH01398048.1  1371  .........GG........C.......C...C.....................T...A..  1312
+
+Query_1         125   CTCCCACCTGAGGTCAGGGAACCAGGCCCTGGAGTGGAACTTGGGGTGGAAAATGGCCTT  184
+PGGH01398048.1  1311  ................T..................................G.C.....C  1252
+
+Query_1         185   CTTTGTCAACTGATTCATTCTCCAGAATTCAATTTGTTCTCCAACTCGGTGGTGTTTGAA  244
+PGGH01398048.1  1251  ..C.......................G.....C........TG.................  1192
+
+Query_1         245   AGCAACTTTATCCAG  259
+PGGH01398048.1  1191  ..T............  1177
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 461521901148
+
+
+Query= exon_2
+
+Length=185
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01273496.1 Pontoporia blainvillei isolate BP203 contig277000,...  237     1e-60
+
+
+
+Query_2         1     GTCACTAAGCCCGGGAACTGGAGAGATGTCTGTGAAGGGTCTGCCACCGTGATCCTCGGG  60
+PGGH01273496.1  3080  ........A...A.........TG...........C......A..G.T............  3021
+
+Query_2         61    GTCACCTCCTCGGTGCCCTCCCTGCCACTCCCCAATGTCCTCCTGATGGCCAATGTTACC  120
+PGGH01273496.1  3020  ..G..................T..................................C...  2961
+
+Query_2         121   TGGCCCCAGGGTCCATTTACCACCTGGAGCACACCTGGTGACGCCCCAGTCATCAACCTC  180
+PGGH01273496.1  2960  .............AG.C.T..................A.AG..............C....  2901
+
+Query_2         181   AGCAG  185
+PGGH01273496.1  2900  .....  2896
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 313675058356
+
+
+Query= exon_3
+
+Length=250
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 443540528376
+
+
+Query= exon_4
+
+Length=119
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 183854988588
+
+
+Query= exon_5
+
+Length=4914
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01221976.1 Pontoporia blainvillei isolate BP203 contig224974,...  399     4e-108
+PGGH01167874.1 Pontoporia blainvillei isolate BP203 contig170232,...  76.8    7e-11 
+PGGH01363951.1 Pontoporia blainvillei isolate BP203 contig368226,...  75.0    3e-10 
+PGGH01214770.1 Pontoporia blainvillei isolate BP203 contig217690,...  75.0    3e-10 
+PGGH01117536.1 Pontoporia blainvillei isolate BP203 contig119286,...  75.0    3e-10 
+PGGH01011885.1 Pontoporia blainvillei isolate BP203 contig12061, ...  75.0    3e-10 
+PGGH01466126.1 Pontoporia blainvillei isolate BP203 contig471134,...  73.1    9e-10 
+PGGH01203110.1 Pontoporia blainvillei isolate BP203 contig205884,...  73.1    9e-10 
+PGGH01199842.1 Pontoporia blainvillei isolate BP203 contig202576,...  73.1    9e-10 
+PGGH01176182.1 Pontoporia blainvillei isolate BP203 contig178632,...  73.1    9e-10 
+PGGH01063804.1 Pontoporia blainvillei isolate BP203 contig64789, ...  73.1    9e-10 
+PGGH01015148.1 Pontoporia blainvillei isolate BP203 contig15366, ...  73.1    9e-10 
+PGGH01014397.1 Pontoporia blainvillei isolate BP203 contig14606, ...  73.1    9e-10 
+PGGH01425287.1 Pontoporia blainvillei isolate BP203 contig430021,...  71.3    3e-09 
+PGGH01405485.1 Pontoporia blainvillei isolate BP203 contig410081,...  71.3    3e-09 
+PGGH01372187.1 Pontoporia blainvillei isolate BP203 contig376544,...  71.3    3e-09 
+PGGH01363780.1 Pontoporia blainvillei isolate BP203 contig368055,...  71.3    3e-09 
+PGGH01255776.1 Pontoporia blainvillei isolate BP203 contig259120,...  71.3    3e-09 
+PGGH01250082.1 Pontoporia blainvillei isolate BP203 contig253368,...  71.3    3e-09 
+PGGH01211577.1 Pontoporia blainvillei isolate BP203 contig214453,...  71.3    3e-09 
+PGGH01170718.1 Pontoporia blainvillei isolate BP203 contig173103,...  71.3    3e-09 
+PGGH01169640.1 Pontoporia blainvillei isolate BP203 contig172016,...  71.3    3e-09 
+PGGH01162860.1 Pontoporia blainvillei isolate BP203 contig165170,...  71.3    3e-09 
+PGGH01152430.1 Pontoporia blainvillei isolate BP203 contig154609,...  71.3    3e-09 
+PGGH01150003.1 Pontoporia blainvillei isolate BP203 contig152154,...  71.3    3e-09 
+PGGH01138666.1 Pontoporia blainvillei isolate BP203 contig140691,...  71.3    3e-09 
+PGGH01132468.1 Pontoporia blainvillei isolate BP203 contig134407,...  71.3    3e-09 
+PGGH01120868.1 Pontoporia blainvillei isolate BP203 contig122664,...  71.3    3e-09 
+PGGH01075588.1 Pontoporia blainvillei isolate BP203 contig76757, ...  71.3    3e-09 
+PGGH01073765.1 Pontoporia blainvillei isolate BP203 contig74913, ...  71.3    3e-09 
+PGGH01057159.1 Pontoporia blainvillei isolate BP203 contig58055, ...  71.3    3e-09 
+PGGH01048351.1 Pontoporia blainvillei isolate BP203 contig49111, ...  71.3    3e-09 
+PGGH01031786.1 Pontoporia blainvillei isolate BP203 contig32283, ...  71.3    3e-09 
+PGGH01027879.1 Pontoporia blainvillei isolate BP203 contig28308, ...  71.3    3e-09 
+PGGH01000163.1 Pontoporia blainvillei isolate BP203 contig165, wh...  71.3    3e-09 
+PGGH01446118.1 Pontoporia blainvillei isolate BP203 contig451004,...  69.4    1e-08 
+PGGH01431234.1 Pontoporia blainvillei isolate BP203 contig436015,...  69.4    1e-08 
+PGGH01419678.1 Pontoporia blainvillei isolate BP203 contig424376,...  69.4    1e-08 
+PGGH01414423.1 Pontoporia blainvillei isolate BP203 contig419084,...  69.4    1e-08 
+PGGH01384544.1 Pontoporia blainvillei isolate BP203 contig388990,...  69.4    1e-08 
+PGGH01365414.1 Pontoporia blainvillei isolate BP203 contig369700,...  69.4    1e-08 
+PGGH01360592.1 Pontoporia blainvillei isolate BP203 contig364838,...  69.4    1e-08 
+PGGH01350059.1 Pontoporia blainvillei isolate BP203 contig354231,...  69.4    1e-08 
+PGGH01327353.1 Pontoporia blainvillei isolate BP203 contig331342,...  69.4    1e-08 
+PGGH01325340.1 Pontoporia blainvillei isolate BP203 contig329312,...  69.4    1e-08 
+PGGH01320930.1 Pontoporia blainvillei isolate BP203 contig324867,...  69.4    1e-08 
+PGGH01317119.1 Pontoporia blainvillei isolate BP203 contig321021,...  69.4    1e-08 
+PGGH01313931.1 Pontoporia blainvillei isolate BP203 contig317808,...  69.4    1e-08 
+PGGH01293825.1 Pontoporia blainvillei isolate BP203 contig297524,...  69.4    1e-08 
+PGGH01287471.1 Pontoporia blainvillei isolate BP203 contig291112,...  69.4    1e-08 
+PGGH01284701.1 Pontoporia blainvillei isolate BP203 contig288320,...  69.4    1e-08 
+PGGH01282613.1 Pontoporia blainvillei isolate BP203 contig286208,...  69.4    1e-08 
+PGGH01278297.1 Pontoporia blainvillei isolate BP203 contig281846,...  69.4    1e-08 
+PGGH01272437.1 Pontoporia blainvillei isolate BP203 contig275933,...  69.4    1e-08 
+PGGH01267798.1 Pontoporia blainvillei isolate BP203 contig271247,...  69.4    1e-08 
+PGGH01256247.1 Pontoporia blainvillei isolate BP203 contig259595,...  69.4    1e-08 
+PGGH01233528.1 Pontoporia blainvillei isolate BP203 contig236641,...  69.4    1e-08 
+PGGH01226070.1 Pontoporia blainvillei isolate BP203 contig229112,...  69.4    1e-08 
+PGGH01223060.1 Pontoporia blainvillei isolate BP203 contig226069,...  69.4    1e-08 
+PGGH01213792.1 Pontoporia blainvillei isolate BP203 contig216700,...  69.4    1e-08 
+PGGH01199215.1 Pontoporia blainvillei isolate BP203 contig201942,...  69.4    1e-08 
+PGGH01198873.1 Pontoporia blainvillei isolate BP203 contig201596,...  69.4    1e-08 
+PGGH01195428.1 Pontoporia blainvillei isolate BP203 contig198110,...  69.4    1e-08 
+PGGH01193044.1 Pontoporia blainvillei isolate BP203 contig195693,...  69.4    1e-08 
+PGGH01188896.1 Pontoporia blainvillei isolate BP203 contig191488,...  69.4    1e-08 
+PGGH01181037.1 Pontoporia blainvillei isolate BP203 contig183545,...  69.4    1e-08 
+PGGH01179020.1 Pontoporia blainvillei isolate BP203 contig181506,...  69.4    1e-08 
+PGGH01172974.1 Pontoporia blainvillei isolate BP203 contig175386,...  69.4    1e-08 
+PGGH01163708.1 Pontoporia blainvillei isolate BP203 contig166024,...  69.4    1e-08 
+PGGH01161350.1 Pontoporia blainvillei isolate BP203 contig163642,...  69.4    1e-08 
+PGGH01160812.1 Pontoporia blainvillei isolate BP203 contig163096,...  69.4    1e-08 
+PGGH01154103.1 Pontoporia blainvillei isolate BP203 contig156305,...  69.4    1e-08 
+PGGH01150033.1 Pontoporia blainvillei isolate BP203 contig152184,...  69.4    1e-08 
+PGGH01149655.1 Pontoporia blainvillei isolate BP203 contig151802,...  69.4    1e-08 
+PGGH01132219.1 Pontoporia blainvillei isolate BP203 contig134155,...  69.4    1e-08 
+PGGH01129348.1 Pontoporia blainvillei isolate BP203 contig131253,...  69.4    1e-08 
+PGGH01122597.1 Pontoporia blainvillei isolate BP203 contig124417,...  69.4    1e-08 
+PGGH01117810.1 Pontoporia blainvillei isolate BP203 contig119564,...  69.4    1e-08 
+PGGH01111072.1 Pontoporia blainvillei isolate BP203 contig112743,...  69.4    1e-08 
+PGGH01098992.1 Pontoporia blainvillei isolate BP203 contig100482,...  69.4    1e-08 
+PGGH01090606.1 Pontoporia blainvillei isolate BP203 contig91965, ...  69.4    1e-08 
+PGGH01090279.1 Pontoporia blainvillei isolate BP203 contig91632, ...  69.4    1e-08 
+PGGH01085358.1 Pontoporia blainvillei isolate BP203 contig86652, ...  69.4    1e-08 
+PGGH01082854.1 Pontoporia blainvillei isolate BP203 contig84124, ...  69.4    1e-08 
+PGGH01076859.1 Pontoporia blainvillei isolate BP203 contig78046, ...  69.4    1e-08 
+PGGH01076200.1 Pontoporia blainvillei isolate BP203 contig77377, ...  69.4    1e-08 
+PGGH01065330.1 Pontoporia blainvillei isolate BP203 contig66338, ...  69.4    1e-08 
+PGGH01065188.1 Pontoporia blainvillei isolate BP203 contig66193, ...  69.4    1e-08 
+PGGH01061463.1 Pontoporia blainvillei isolate BP203 contig62415, ...  69.4    1e-08 
+PGGH01056492.1 Pontoporia blainvillei isolate BP203 contig57370, ...  69.4    1e-08 
+PGGH01043503.1 Pontoporia blainvillei isolate BP203 contig44170, ...  69.4    1e-08 
+PGGH01020830.1 Pontoporia blainvillei isolate BP203 contig21147, ...  69.4    1e-08 
+PGGH01016704.1 Pontoporia blainvillei isolate BP203 contig16947, ...  69.4    1e-08 
+PGGH01016331.1 Pontoporia blainvillei isolate BP203 contig16567, ...  69.4    1e-08 
+PGGH01015871.1 Pontoporia blainvillei isolate BP203 contig16094, ...  69.4    1e-08 
+PGGH01013598.1 Pontoporia blainvillei isolate BP203 contig13798, ...  69.4    1e-08 
+PGGH01011479.1 Pontoporia blainvillei isolate BP203 contig11652, ...  69.4    1e-08 
+PGGH01009319.1 Pontoporia blainvillei isolate BP203 contig9453, w...  69.4    1e-08 
+PGGH01006878.1 Pontoporia blainvillei isolate BP203 contig6976, w...  69.4    1e-08 
+PGGH01004217.1 Pontoporia blainvillei isolate BP203 contig4272, w...  69.4    1e-08 
+PGGH01479585.1 Pontoporia blainvillei isolate BP203 contig484660,...  67.6    4e-08 
+PGGH01472561.1 Pontoporia blainvillei isolate BP203 contig477602,...  67.6    4e-08 
+PGGH01469840.1 Pontoporia blainvillei isolate BP203 contig474870,...  67.6    4e-08 
+PGGH01458856.1 Pontoporia blainvillei isolate BP203 contig463824,...  67.6    4e-08 
+PGGH01448150.1 Pontoporia blainvillei isolate BP203 contig453053,...  67.6    4e-08 
+PGGH01442086.1 Pontoporia blainvillei isolate BP203 contig446938,...  67.6    4e-08 
+PGGH01439842.1 Pontoporia blainvillei isolate BP203 contig444679,...  67.6    4e-08 
+PGGH01428335.1 Pontoporia blainvillei isolate BP203 contig433093,...  67.6    4e-08 
+PGGH01420520.1 Pontoporia blainvillei isolate BP203 contig425223,...  67.6    4e-08 
+PGGH01415792.1 Pontoporia blainvillei isolate BP203 contig420468,...  67.6    4e-08 
+PGGH01412505.1 Pontoporia blainvillei isolate BP203 contig417152,...  67.6    4e-08 
+PGGH01408996.1 Pontoporia blainvillei isolate BP203 contig413616,...  67.6    4e-08 
+PGGH01408731.1 Pontoporia blainvillei isolate BP203 contig413349,...  67.6    4e-08 
+PGGH01403324.1 Pontoporia blainvillei isolate BP203 contig407901,...  67.6    4e-08 
+PGGH01401202.1 Pontoporia blainvillei isolate BP203 contig405763,...  67.6    4e-08 
+PGGH01400663.1 Pontoporia blainvillei isolate BP203 contig405217,...  67.6    4e-08 
+PGGH01395962.1 Pontoporia blainvillei isolate BP203 contig400486,...  67.6    4e-08 
+PGGH01385669.1 Pontoporia blainvillei isolate BP203 contig390124,...  67.6    4e-08 
+PGGH01382647.1 Pontoporia blainvillei isolate BP203 contig387076,...  67.6    4e-08 
+PGGH01381938.1 Pontoporia blainvillei isolate BP203 contig386362,...  67.6    4e-08 
+PGGH01379851.1 Pontoporia blainvillei isolate BP203 contig384269,...  67.6    4e-08 
+PGGH01379141.1 Pontoporia blainvillei isolate BP203 contig383552,...  67.6    4e-08 
+PGGH01378722.1 Pontoporia blainvillei isolate BP203 contig383130,...  67.6    4e-08 
+PGGH01377354.1 Pontoporia blainvillei isolate BP203 contig381750,...  67.6    4e-08 
+PGGH01374494.1 Pontoporia blainvillei isolate BP203 contig378869,...  67.6    4e-08 
+PGGH01368196.1 Pontoporia blainvillei isolate BP203 contig372510,...  67.6    4e-08 
+PGGH01367944.1 Pontoporia blainvillei isolate BP203 contig372256,...  67.6    4e-08 
+PGGH01367189.1 Pontoporia blainvillei isolate BP203 contig371495,...  67.6    4e-08 
+PGGH01364500.1 Pontoporia blainvillei isolate BP203 contig368781,...  67.6    4e-08 
+PGGH01353010.1 Pontoporia blainvillei isolate BP203 contig357201,...  67.6    4e-08 
+PGGH01350919.1 Pontoporia blainvillei isolate BP203 contig355096,...  67.6    4e-08 
+PGGH01348832.1 Pontoporia blainvillei isolate BP203 contig352994,...  67.6    4e-08 
+PGGH01344017.1 Pontoporia blainvillei isolate BP203 contig348144,...  67.6    4e-08 
+PGGH01340059.1 Pontoporia blainvillei isolate BP203 contig344145,...  67.6    4e-08 
+PGGH01337615.1 Pontoporia blainvillei isolate BP203 contig341677,...  67.6    4e-08 
+PGGH01336343.1 Pontoporia blainvillei isolate BP203 contig340391,...  67.6    4e-08 
+PGGH01334783.1 Pontoporia blainvillei isolate BP203 contig338823,...  67.6    4e-08 
+PGGH01328573.1 Pontoporia blainvillei isolate BP203 contig332573,...  67.6    4e-08 
+PGGH01327200.1 Pontoporia blainvillei isolate BP203 contig331188,...  67.6    4e-08 
+PGGH01319632.1 Pontoporia blainvillei isolate BP203 contig323555,...  67.6    4e-08 
+PGGH01317480.1 Pontoporia blainvillei isolate BP203 contig321384,...  67.6    4e-08 
+PGGH01315678.1 Pontoporia blainvillei isolate BP203 contig319568,...  67.6    4e-08 
+PGGH01311162.1 Pontoporia blainvillei isolate BP203 contig315010,...  67.6    4e-08 
+PGGH01309805.1 Pontoporia blainvillei isolate BP203 contig313644,...  67.6    4e-08 
+PGGH01306363.1 Pontoporia blainvillei isolate BP203 contig310166,...  67.6    4e-08 
+PGGH01304922.1 Pontoporia blainvillei isolate BP203 contig308713,...  67.6    4e-08 
+PGGH01302182.1 Pontoporia blainvillei isolate BP203 contig305954,...  67.6    4e-08 
+PGGH01300835.1 Pontoporia blainvillei isolate BP203 contig304598,...  67.6    4e-08 
+PGGH01296432.1 Pontoporia blainvillei isolate BP203 contig300151,...  67.6    4e-08 
+PGGH01295213.1 Pontoporia blainvillei isolate BP203 contig298920,...  67.6    4e-08 
+PGGH01294421.1 Pontoporia blainvillei isolate BP203 contig298121,...  67.6    4e-08 
+PGGH01293934.1 Pontoporia blainvillei isolate BP203 contig297633,...  67.6    4e-08 
+PGGH01291489.1 Pontoporia blainvillei isolate BP203 contig295167,...  67.6    4e-08 
+PGGH01290728.1 Pontoporia blainvillei isolate BP203 contig294400,...  67.6    4e-08 
+PGGH01288935.1 Pontoporia blainvillei isolate BP203 contig292596,...  67.6    4e-08 
+PGGH01284827.1 Pontoporia blainvillei isolate BP203 contig288446,...  67.6    4e-08 
+PGGH01284181.1 Pontoporia blainvillei isolate BP203 contig287796,...  67.6    4e-08 
+PGGH01272527.1 Pontoporia blainvillei isolate BP203 contig276023,...  67.6    4e-08 
+PGGH01267039.1 Pontoporia blainvillei isolate BP203 contig270482,...  67.6    4e-08 
+PGGH01263763.1 Pontoporia blainvillei isolate BP203 contig267176,...  67.6    4e-08 
+PGGH01260132.1 Pontoporia blainvillei isolate BP203 contig263515,...  67.6    4e-08 
+PGGH01258772.1 Pontoporia blainvillei isolate BP203 contig262139,...  67.6    4e-08 
+PGGH01256316.1 Pontoporia blainvillei isolate BP203 contig259664,...  67.6    4e-08 
+PGGH01253796.1 Pontoporia blainvillei isolate BP203 contig257120,...  67.6    4e-08 
+PGGH01251024.1 Pontoporia blainvillei isolate BP203 contig254319,...  67.6    4e-08 
+PGGH01247612.1 Pontoporia blainvillei isolate BP203 contig250874,...  67.6    4e-08 
+PGGH01245222.1 Pontoporia blainvillei isolate BP203 contig248458,...  67.6    4e-08 
+PGGH01242123.1 Pontoporia blainvillei isolate BP203 contig245325,...  67.6    4e-08 
+PGGH01240044.1 Pontoporia blainvillei isolate BP203 contig243222,...  67.6    4e-08 
+PGGH01238527.1 Pontoporia blainvillei isolate BP203 contig241692,...  67.6    4e-08 
+PGGH01233194.1 Pontoporia blainvillei isolate BP203 contig236306,...  67.6    4e-08 
+PGGH01233147.1 Pontoporia blainvillei isolate BP203 contig236259,...  67.6    4e-08 
+PGGH01232682.1 Pontoporia blainvillei isolate BP203 contig235791,...  67.6    4e-08 
+PGGH01230756.1 Pontoporia blainvillei isolate BP203 contig233848,...  67.6    4e-08 
+PGGH01229196.1 Pontoporia blainvillei isolate BP203 contig232271,...  67.6    4e-08 
+PGGH01228109.1 Pontoporia blainvillei isolate BP203 contig231175,...  67.6    4e-08 
+PGGH01226799.1 Pontoporia blainvillei isolate BP203 contig229852,...  67.6    4e-08 
+PGGH01224644.1 Pontoporia blainvillei isolate BP203 contig227669,...  67.6    4e-08 
+PGGH01222120.1 Pontoporia blainvillei isolate BP203 contig225119,...  67.6    4e-08 
+PGGH01208547.1 Pontoporia blainvillei isolate BP203 contig211383,...  67.6    4e-08 
+PGGH01208187.1 Pontoporia blainvillei isolate BP203 contig211021,...  67.6    4e-08 
+PGGH01207583.1 Pontoporia blainvillei isolate BP203 contig210412,...  67.6    4e-08 
+PGGH01206807.1 Pontoporia blainvillei isolate BP203 contig209625,...  67.6    4e-08 
+PGGH01203714.1 Pontoporia blainvillei isolate BP203 contig206499,...  67.6    4e-08 
+PGGH01201120.1 Pontoporia blainvillei isolate BP203 contig203874,...  67.6    4e-08 
+PGGH01200918.1 Pontoporia blainvillei isolate BP203 contig203668,...  67.6    4e-08 
+PGGH01200783.1 Pontoporia blainvillei isolate BP203 contig203530,...  67.6    4e-08 
+PGGH01199343.1 Pontoporia blainvillei isolate BP203 contig202071,...  67.6    4e-08 
+PGGH01197029.1 Pontoporia blainvillei isolate BP203 contig199729,...  67.6    4e-08 
+PGGH01194250.1 Pontoporia blainvillei isolate BP203 contig196916,...  67.6    4e-08 
+PGGH01191509.1 Pontoporia blainvillei isolate BP203 contig194137,...  67.6    4e-08 
+PGGH01189684.1 Pontoporia blainvillei isolate BP203 contig192294,...  67.6    4e-08 
+PGGH01186670.1 Pontoporia blainvillei isolate BP203 contig189241,...  67.6    4e-08 
+PGGH01182717.1 Pontoporia blainvillei isolate BP203 contig185244,...  67.6    4e-08 
+PGGH01182673.1 Pontoporia blainvillei isolate BP203 contig185200,...  67.6    4e-08 
+PGGH01182575.1 Pontoporia blainvillei isolate BP203 contig185102,...  67.6    4e-08 
+PGGH01181881.1 Pontoporia blainvillei isolate BP203 contig184403,...  67.6    4e-08 
+PGGH01181671.1 Pontoporia blainvillei isolate BP203 contig184189,...  67.6    4e-08 
+PGGH01179903.1 Pontoporia blainvillei isolate BP203 contig182402,...  67.6    4e-08 
+PGGH01178877.1 Pontoporia blainvillei isolate BP203 contig181362,...  67.6    4e-08 
+PGGH01177461.1 Pontoporia blainvillei isolate BP203 contig179932,...  67.6    4e-08 
+PGGH01177117.1 Pontoporia blainvillei isolate BP203 contig179583,...  67.6    4e-08 
+PGGH01175230.1 Pontoporia blainvillei isolate BP203 contig177667,...  67.6    4e-08 
+PGGH01174684.1 Pontoporia blainvillei isolate BP203 contig177120,...  67.6    4e-08 
+PGGH01172026.1 Pontoporia blainvillei isolate BP203 contig174429,...  67.6    4e-08 
+PGGH01161438.1 Pontoporia blainvillei isolate BP203 contig163732,...  67.6    4e-08 
+PGGH01160965.1 Pontoporia blainvillei isolate BP203 contig163251,...  67.6    4e-08 
+PGGH01160937.1 Pontoporia blainvillei isolate BP203 contig163223,...  67.6    4e-08 
+PGGH01158859.1 Pontoporia blainvillei isolate BP203 contig161120,...  67.6    4e-08 
+PGGH01158857.1 Pontoporia blainvillei isolate BP203 contig161118,...  67.6    4e-08 
+PGGH01158401.1 Pontoporia blainvillei isolate BP203 contig160658,...  67.6    4e-08 
+PGGH01148450.1 Pontoporia blainvillei isolate BP203 contig150576,...  67.6    4e-08 
+PGGH01148370.1 Pontoporia blainvillei isolate BP203 contig150495,...  67.6    4e-08 
+PGGH01146147.1 Pontoporia blainvillei isolate BP203 contig148253,...  67.6    4e-08 
+PGGH01146052.1 Pontoporia blainvillei isolate BP203 contig148157,...  67.6    4e-08 
+PGGH01140924.1 Pontoporia blainvillei isolate BP203 contig142975,...  67.6    4e-08 
+PGGH01139397.1 Pontoporia blainvillei isolate BP203 contig141426,...  67.6    4e-08 
+PGGH01139395.1 Pontoporia blainvillei isolate BP203 contig141424,...  67.6    4e-08 
+PGGH01135789.1 Pontoporia blainvillei isolate BP203 contig137769,...  67.6    4e-08 
+PGGH01135481.1 Pontoporia blainvillei isolate BP203 contig137458,...  67.6    4e-08 
+PGGH01130300.1 Pontoporia blainvillei isolate BP203 contig132218,...  67.6    4e-08 
+PGGH01129128.1 Pontoporia blainvillei isolate BP203 contig131031,...  67.6    4e-08 
+PGGH01127069.1 Pontoporia blainvillei isolate BP203 contig128950,...  67.6    4e-08 
+PGGH01122406.1 Pontoporia blainvillei isolate BP203 contig124222,...  67.6    4e-08 
+PGGH01122353.1 Pontoporia blainvillei isolate BP203 contig124169,...  67.6    4e-08 
+PGGH01121920.1 Pontoporia blainvillei isolate BP203 contig123729,...  67.6    4e-08 
+PGGH01119649.1 Pontoporia blainvillei isolate BP203 contig121427,...  67.6    4e-08 
+PGGH01118709.1 Pontoporia blainvillei isolate BP203 contig120480,...  67.6    4e-08 
+PGGH01116990.1 Pontoporia blainvillei isolate BP203 contig118733,...  67.6    4e-08 
+PGGH01115776.1 Pontoporia blainvillei isolate BP203 contig117504,...  67.6    4e-08 
+PGGH01114771.1 Pontoporia blainvillei isolate BP203 contig116487,...  67.6    4e-08 
+PGGH01113940.1 Pontoporia blainvillei isolate BP203 contig115640,...  67.6    4e-08 
+PGGH01113299.1 Pontoporia blainvillei isolate BP203 contig114991,...  67.6    4e-08 
+PGGH01109976.1 Pontoporia blainvillei isolate BP203 contig111632,...  67.6    4e-08 
+PGGH01107647.1 Pontoporia blainvillei isolate BP203 contig109270,...  67.6    4e-08 
+PGGH01107167.1 Pontoporia blainvillei isolate BP203 contig108782,...  67.6    4e-08 
+PGGH01105386.1 Pontoporia blainvillei isolate BP203 contig106977,...  67.6    4e-08 
+PGGH01105261.1 Pontoporia blainvillei isolate BP203 contig106851,...  67.6    4e-08 
+PGGH01098779.1 Pontoporia blainvillei isolate BP203 contig100267,...  67.6    4e-08 
+PGGH01097016.1 Pontoporia blainvillei isolate BP203 contig98478, ...  67.6    4e-08 
+PGGH01095086.1 Pontoporia blainvillei isolate BP203 contig96510, ...  67.6    4e-08 
+PGGH01089470.1 Pontoporia blainvillei isolate BP203 contig90816, ...  67.6    4e-08 
+PGGH01087917.1 Pontoporia blainvillei isolate BP203 contig89249, ...  67.6    4e-08 
+PGGH01087292.1 Pontoporia blainvillei isolate BP203 contig88618, ...  67.6    4e-08 
+PGGH01085411.1 Pontoporia blainvillei isolate BP203 contig86706, ...  67.6    4e-08 
+PGGH01084497.1 Pontoporia blainvillei isolate BP203 contig85779, ...  67.6    4e-08 
+PGGH01079965.1 Pontoporia blainvillei isolate BP203 contig81198, ...  67.6    4e-08 
+PGGH01074283.1 Pontoporia blainvillei isolate BP203 contig75433, ...  67.6    4e-08 
+PGGH01071213.1 Pontoporia blainvillei isolate BP203 contig72318, ...  67.6    4e-08 
+PGGH01065908.1 Pontoporia blainvillei isolate BP203 contig66920, ...  67.6    4e-08 
+PGGH01065405.1 Pontoporia blainvillei isolate BP203 contig66415, ...  67.6    4e-08 
+PGGH01061798.1 Pontoporia blainvillei isolate BP203 contig62757, ...  67.6    4e-08 
+PGGH01061150.1 Pontoporia blainvillei isolate BP203 contig62099, ...  67.6    4e-08 
+PGGH01059618.1 Pontoporia blainvillei isolate BP203 contig60540, ...  67.6    4e-08 
+PGGH01057939.1 Pontoporia blainvillei isolate BP203 contig58843, ...  67.6    4e-08 
+PGGH01057790.1 Pontoporia blainvillei isolate BP203 contig58693, ...  67.6    4e-08 
+PGGH01056145.1 Pontoporia blainvillei isolate BP203 contig57018, ...  67.6    4e-08 
+PGGH01056107.1 Pontoporia blainvillei isolate BP203 contig56979, ...  67.6    4e-08 
+PGGH01051076.1 Pontoporia blainvillei isolate BP203 contig51876, ...  67.6    4e-08 
+PGGH01050768.1 Pontoporia blainvillei isolate BP203 contig51562, ...  67.6    4e-08 
+PGGH01049077.1 Pontoporia blainvillei isolate BP203 contig49847, ...  67.6    4e-08 
+PGGH01048621.1 Pontoporia blainvillei isolate BP203 contig49383, ...  67.6    4e-08 
+PGGH01048458.1 Pontoporia blainvillei isolate BP203 contig49219, ...  67.6    4e-08 
+PGGH01047767.1 Pontoporia blainvillei isolate BP203 contig48517, ...  67.6    4e-08 
+PGGH01047172.1 Pontoporia blainvillei isolate BP203 contig47916, ...  67.6    4e-08 
+PGGH01046750.1 Pontoporia blainvillei isolate BP203 contig47488, ...  67.6    4e-08 
+PGGH01044079.1 Pontoporia blainvillei isolate BP203 contig44756, ...  67.6    4e-08 
+PGGH01043688.1 Pontoporia blainvillei isolate BP203 contig44359, ...  67.6    4e-08 
+PGGH01042532.1 Pontoporia blainvillei isolate BP203 contig43182, ...  67.6    4e-08 
+PGGH01039822.1 Pontoporia blainvillei isolate BP203 contig40437, ...  67.6    4e-08 
+PGGH01039695.1 Pontoporia blainvillei isolate BP203 contig40306, ...  67.6    4e-08 
+PGGH01038607.1 Pontoporia blainvillei isolate BP203 contig39207, ...  67.6    4e-08 
+PGGH01037554.1 Pontoporia blainvillei isolate BP203 contig38141, ...  67.6    4e-08 
+PGGH01036769.1 Pontoporia blainvillei isolate BP203 contig37339, ...  67.6    4e-08 
+PGGH01036072.1 Pontoporia blainvillei isolate BP203 contig36634, ...  67.6    4e-08 
+PGGH01035785.1 Pontoporia blainvillei isolate BP203 contig36342, ...  67.6    4e-08 
+PGGH01035760.1 Pontoporia blainvillei isolate BP203 contig36317, ...  67.6    4e-08 
+PGGH01034586.1 Pontoporia blainvillei isolate BP203 contig35126, ...  67.6    4e-08 
+PGGH01031131.1 Pontoporia blainvillei isolate BP203 contig31618, ...  67.6    4e-08 
+PGGH01030900.1 Pontoporia blainvillei isolate BP203 contig31386, ...  67.6    4e-08 
+PGGH01030728.1 Pontoporia blainvillei isolate BP203 contig31207, ...  67.6    4e-08 
+PGGH01030714.1 Pontoporia blainvillei isolate BP203 contig31193, ...  67.6    4e-08 
+PGGH01030456.1 Pontoporia blainvillei isolate BP203 contig30933, ...  67.6    4e-08 
+PGGH01030246.1 Pontoporia blainvillei isolate BP203 contig30722, ...  67.6    4e-08 
+PGGH01024450.1 Pontoporia blainvillei isolate BP203 contig24827, ...  67.6    4e-08 
+PGGH01023900.1 Pontoporia blainvillei isolate BP203 contig24270, ...  67.6    4e-08 
+PGGH01019516.1 Pontoporia blainvillei isolate BP203 contig19813, ...  67.6    4e-08 
+PGGH01018730.1 Pontoporia blainvillei isolate BP203 contig19006, ...  67.6    4e-08 
+PGGH01017975.1 Pontoporia blainvillei isolate BP203 contig18239, ...  67.6    4e-08 
+PGGH01017724.1 Pontoporia blainvillei isolate BP203 contig17986, ...  67.6    4e-08 
+PGGH01015225.1 Pontoporia blainvillei isolate BP203 contig15444, ...  67.6    4e-08 
+PGGH01014066.1 Pontoporia blainvillei isolate BP203 contig14275, ...  67.6    4e-08 
+PGGH01007661.1 Pontoporia blainvillei isolate BP203 contig7770, w...  67.6    4e-08 
+PGGH01005565.1 Pontoporia blainvillei isolate BP203 contig5642, w...  67.6    4e-08 
+PGGH01005029.1 Pontoporia blainvillei isolate BP203 contig5095, w...  67.6    4e-08 
+PGGH01003595.1 Pontoporia blainvillei isolate BP203 contig3640, w...  67.6    4e-08 
+PGGH01003591.1 Pontoporia blainvillei isolate BP203 contig3636, w...  67.6    4e-08 
+PGGH01003118.1 Pontoporia blainvillei isolate BP203 contig3158, w...  67.6    4e-08 
+PGGH01491236.1 Pontoporia blainvillei isolate BP203 contig496359,...  65.8    2e-07 
+PGGH01490564.1 Pontoporia blainvillei isolate BP203 contig495684,...  65.8    2e-07 
+PGGH01486545.1 Pontoporia blainvillei isolate BP203 contig491651,...  65.8    2e-07 
+PGGH01486018.1 Pontoporia blainvillei isolate BP203 contig491120,...  65.8    2e-07 
+PGGH01481576.1 Pontoporia blainvillei isolate BP203 contig486659,...  65.8    2e-07 
+PGGH01480617.1 Pontoporia blainvillei isolate BP203 contig485697,...  65.8    2e-07 
+PGGH01476839.1 Pontoporia blainvillei isolate BP203 contig481904,...  65.8    2e-07 
+PGGH01475171.1 Pontoporia blainvillei isolate BP203 contig480228,...  65.8    2e-07 
+PGGH01463549.1 Pontoporia blainvillei isolate BP203 contig468541,...  65.8    2e-07 
+PGGH01460527.1 Pontoporia blainvillei isolate BP203 contig465505,...  65.8    2e-07 
+PGGH01458186.1 Pontoporia blainvillei isolate BP203 contig463151,...  65.8    2e-07 
+PGGH01457214.1 Pontoporia blainvillei isolate BP203 contig462176,...  65.8    2e-07 
+PGGH01456893.1 Pontoporia blainvillei isolate BP203 contig461853,...  65.8    2e-07 
+PGGH01455964.1 Pontoporia blainvillei isolate BP203 contig460915,...  65.8    2e-07 
+PGGH01453250.1 Pontoporia blainvillei isolate BP203 contig458183,...  65.8    2e-07 
+PGGH01449413.1 Pontoporia blainvillei isolate BP203 contig454321,...  65.8    2e-07 
+PGGH01446071.1 Pontoporia blainvillei isolate BP203 contig450957,...  65.8    2e-07 
+PGGH01444366.1 Pontoporia blainvillei isolate BP203 contig449237,...  65.8    2e-07 
+PGGH01426529.1 Pontoporia blainvillei isolate BP203 contig431270,...  65.8    2e-07 
+PGGH01418326.1 Pontoporia blainvillei isolate BP203 contig423015,...  65.8    2e-07 
+PGGH01414965.1 Pontoporia blainvillei isolate BP203 contig419633,...  65.8    2e-07 
+PGGH01410084.1 Pontoporia blainvillei isolate BP203 contig414714,...  65.8    2e-07 
+PGGH01405982.1 Pontoporia blainvillei isolate BP203 contig410580,...  65.8    2e-07 
+PGGH01400720.1 Pontoporia blainvillei isolate BP203 contig405275,...  65.8    2e-07 
+PGGH01398252.1 Pontoporia blainvillei isolate BP203 contig402789,...  65.8    2e-07 
+PGGH01395263.1 Pontoporia blainvillei isolate BP203 contig399784,...  65.8    2e-07 
+PGGH01393033.1 Pontoporia blainvillei isolate BP203 contig397543,...  65.8    2e-07 
+PGGH01379829.1 Pontoporia blainvillei isolate BP203 contig384247,...  65.8    2e-07 
+PGGH01378756.1 Pontoporia blainvillei isolate BP203 contig383164,...  65.8    2e-07 
+PGGH01373500.1 Pontoporia blainvillei isolate BP203 contig377866,...  65.8    2e-07 
+PGGH01370236.1 Pontoporia blainvillei isolate BP203 contig374570,...  65.8    2e-07 
+PGGH01368999.1 Pontoporia blainvillei isolate BP203 contig373319,...  65.8    2e-07 
+PGGH01368661.1 Pontoporia blainvillei isolate BP203 contig372978,...  65.8    2e-07 
+PGGH01365453.1 Pontoporia blainvillei isolate BP203 contig369741,...  65.8    2e-07 
+PGGH01359259.1 Pontoporia blainvillei isolate BP203 contig363493,...  65.8    2e-07 
+PGGH01358752.1 Pontoporia blainvillei isolate BP203 contig362984,...  65.8    2e-07 
+PGGH01358162.1 Pontoporia blainvillei isolate BP203 contig362393,...  65.8    2e-07 
+PGGH01350541.1 Pontoporia blainvillei isolate BP203 contig354716,...  65.8    2e-07 
+PGGH01341064.1 Pontoporia blainvillei isolate BP203 contig345161,...  65.8    2e-07 
+PGGH01340111.1 Pontoporia blainvillei isolate BP203 contig344197,...  65.8    2e-07 
+PGGH01338334.1 Pontoporia blainvillei isolate BP203 contig342402,...  65.8    2e-07 
+PGGH01336634.1 Pontoporia blainvillei isolate BP203 contig340683,...  65.8    2e-07 
+PGGH01336242.1 Pontoporia blainvillei isolate BP203 contig340288,...  65.8    2e-07 
+PGGH01335007.1 Pontoporia blainvillei isolate BP203 contig339048,...  65.8    2e-07 
+PGGH01329805.1 Pontoporia blainvillei isolate BP203 contig333810,...  65.8    2e-07 
+PGGH01329629.1 Pontoporia blainvillei isolate BP203 contig333634,...  65.8    2e-07 
+PGGH01328184.1 Pontoporia blainvillei isolate BP203 contig332181,...  65.8    2e-07 
+PGGH01326583.1 Pontoporia blainvillei isolate BP203 contig330568,...  65.8    2e-07 
+PGGH01323330.1 Pontoporia blainvillei isolate BP203 contig327285,...  65.8    2e-07 
+PGGH01319385.1 Pontoporia blainvillei isolate BP203 contig323304,...  65.8    2e-07 
+PGGH01303315.1 Pontoporia blainvillei isolate BP203 contig307098,...  65.8    2e-07 
+PGGH01300436.1 Pontoporia blainvillei isolate BP203 contig304195,...  65.8    2e-07 
+PGGH01296982.1 Pontoporia blainvillei isolate BP203 contig300704,...  65.8    2e-07 
+PGGH01296970.1 Pontoporia blainvillei isolate BP203 contig300692,...  65.8    2e-07 
+PGGH01290562.1 Pontoporia blainvillei isolate BP203 contig294233,...  65.8    2e-07 
+PGGH01290180.1 Pontoporia blainvillei isolate BP203 contig293849,...  65.8    2e-07 
+PGGH01290124.1 Pontoporia blainvillei isolate BP203 contig293792,...  65.8    2e-07 
+PGGH01290006.1 Pontoporia blainvillei isolate BP203 contig293673,...  65.8    2e-07 
+PGGH01288723.1 Pontoporia blainvillei isolate BP203 contig292380,...  65.8    2e-07 
+PGGH01288201.1 Pontoporia blainvillei isolate BP203 contig291853,...  65.8    2e-07 
+PGGH01287413.1 Pontoporia blainvillei isolate BP203 contig291053,...  65.8    2e-07 
+PGGH01287059.1 Pontoporia blainvillei isolate BP203 contig290698,...  65.8    2e-07 
+PGGH01286502.1 Pontoporia blainvillei isolate BP203 contig290134,...  65.8    2e-07 
+PGGH01286446.1 Pontoporia blainvillei isolate BP203 contig290078,...  65.8    2e-07 
+PGGH01283663.1 Pontoporia blainvillei isolate BP203 contig287272,...  65.8    2e-07 
+PGGH01280268.1 Pontoporia blainvillei isolate BP203 contig283838,...  65.8    2e-07 
+PGGH01279929.1 Pontoporia blainvillei isolate BP203 contig283498,...  65.8    2e-07 
+PGGH01275601.1 Pontoporia blainvillei isolate BP203 contig279126,...  65.8    2e-07 
+PGGH01274834.1 Pontoporia blainvillei isolate BP203 contig278353,...  65.8    2e-07 
+PGGH01274275.1 Pontoporia blainvillei isolate BP203 contig277786,...  65.8    2e-07 
+PGGH01273579.1 Pontoporia blainvillei isolate BP203 contig277083,...  65.8    2e-07 
+PGGH01270373.1 Pontoporia blainvillei isolate BP203 contig273849,...  65.8    2e-07 
+PGGH01269332.1 Pontoporia blainvillei isolate BP203 contig272796,...  65.8    2e-07 
+PGGH01266398.1 Pontoporia blainvillei isolate BP203 contig269838,...  65.8    2e-07 
+PGGH01266171.1 Pontoporia blainvillei isolate BP203 contig269611,...  65.8    2e-07 
+PGGH01265704.1 Pontoporia blainvillei isolate BP203 contig269137,...  65.8    2e-07 
+PGGH01263573.1 Pontoporia blainvillei isolate BP203 contig266984,...  65.8    2e-07 
+PGGH01263450.1 Pontoporia blainvillei isolate BP203 contig266861,...  65.8    2e-07 
+PGGH01262497.1 Pontoporia blainvillei isolate BP203 contig265899,...  65.8    2e-07 
+PGGH01260370.1 Pontoporia blainvillei isolate BP203 contig263756,...  65.8    2e-07 
+PGGH01256277.1 Pontoporia blainvillei isolate BP203 contig259625,...  65.8    2e-07 
+PGGH01247750.1 Pontoporia blainvillei isolate BP203 contig251013,...  65.8    2e-07 
+PGGH01247206.1 Pontoporia blainvillei isolate BP203 contig250463,...  65.8    2e-07 
+PGGH01246291.1 Pontoporia blainvillei isolate BP203 contig249538,...  65.8    2e-07 
+PGGH01245938.1 Pontoporia blainvillei isolate BP203 contig249181,...  65.8    2e-07 
+PGGH01239892.1 Pontoporia blainvillei isolate BP203 contig243070,...  65.8    2e-07 
+PGGH01239056.1 Pontoporia blainvillei isolate BP203 contig242230,...  65.8    2e-07 
+PGGH01238167.1 Pontoporia blainvillei isolate BP203 contig241332,...  65.8    2e-07 
+PGGH01234253.1 Pontoporia blainvillei isolate BP203 contig237376,...  65.8    2e-07 
+PGGH01232699.1 Pontoporia blainvillei isolate BP203 contig235809,...  65.8    2e-07 
+PGGH01227567.1 Pontoporia blainvillei isolate BP203 contig230628,...  65.8    2e-07 
+PGGH01227484.1 Pontoporia blainvillei isolate BP203 contig230545,...  65.8    2e-07 
+PGGH01220173.1 Pontoporia blainvillei isolate BP203 contig223150,...  65.8    2e-07 
+PGGH01216611.1 Pontoporia blainvillei isolate BP203 contig219547,...  65.8    2e-07 
+PGGH01214852.1 Pontoporia blainvillei isolate BP203 contig217772,...  65.8    2e-07 
+PGGH01214097.1 Pontoporia blainvillei isolate BP203 contig217007,...  65.8    2e-07 
+PGGH01213611.1 Pontoporia blainvillei isolate BP203 contig216515,...  65.8    2e-07 
+PGGH01207086.1 Pontoporia blainvillei isolate BP203 contig209907,...  65.8    2e-07 
+PGGH01204850.1 Pontoporia blainvillei isolate BP203 contig207650,...  65.8    2e-07 
+PGGH01198363.1 Pontoporia blainvillei isolate BP203 contig201078,...  65.8    2e-07 
+PGGH01198148.1 Pontoporia blainvillei isolate BP203 contig200861,...  65.8    2e-07 
+PGGH01193081.1 Pontoporia blainvillei isolate BP203 contig195731,...  65.8    2e-07 
+PGGH01192647.1 Pontoporia blainvillei isolate BP203 contig195293,...  65.8    2e-07 
+PGGH01189962.1 Pontoporia blainvillei isolate BP203 contig192574,...  65.8    2e-07 
+PGGH01186375.1 Pontoporia blainvillei isolate BP203 contig188942,...  65.8    2e-07 
+PGGH01185627.1 Pontoporia blainvillei isolate BP203 contig188190,...  65.8    2e-07 
+PGGH01184192.1 Pontoporia blainvillei isolate BP203 contig186735,...  65.8    2e-07 
+PGGH01182817.1 Pontoporia blainvillei isolate BP203 contig185345,...  65.8    2e-07 
+PGGH01177809.1 Pontoporia blainvillei isolate BP203 contig180284,...  65.8    2e-07 
+PGGH01173710.1 Pontoporia blainvillei isolate BP203 contig176136,...  65.8    2e-07 
+PGGH01172169.1 Pontoporia blainvillei isolate BP203 contig174573,...  65.8    2e-07 
+PGGH01158086.1 Pontoporia blainvillei isolate BP203 contig160340,...  65.8    2e-07 
+PGGH01157664.1 Pontoporia blainvillei isolate BP203 contig159915,...  65.8    2e-07 
+PGGH01154391.1 Pontoporia blainvillei isolate BP203 contig156598,...  65.8    2e-07 
+PGGH01151981.1 Pontoporia blainvillei isolate BP203 contig154158,...  65.8    2e-07 
+PGGH01151595.1 Pontoporia blainvillei isolate BP203 contig153769,...  65.8    2e-07 
+PGGH01149864.1 Pontoporia blainvillei isolate BP203 contig152014,...  65.8    2e-07 
+PGGH01147424.1 Pontoporia blainvillei isolate BP203 contig149538,...  65.8    2e-07 
+PGGH01146337.1 Pontoporia blainvillei isolate BP203 contig148445,...  65.8    2e-07 
+PGGH01139751.1 Pontoporia blainvillei isolate BP203 contig141782,...  65.8    2e-07 
+PGGH01139290.1 Pontoporia blainvillei isolate BP203 contig141319,...  65.8    2e-07 
+PGGH01138286.1 Pontoporia blainvillei isolate BP203 contig140307,...  65.8    2e-07 
+PGGH01134533.1 Pontoporia blainvillei isolate BP203 contig136501,...  65.8    2e-07 
+PGGH01133460.1 Pontoporia blainvillei isolate BP203 contig135410,...  65.8    2e-07 
+PGGH01131933.1 Pontoporia blainvillei isolate BP203 contig133869,...  65.8    2e-07 
+PGGH01129230.1 Pontoporia blainvillei isolate BP203 contig131134,...  65.8    2e-07 
+PGGH01127973.1 Pontoporia blainvillei isolate BP203 contig129865,...  65.8    2e-07 
+PGGH01126164.1 Pontoporia blainvillei isolate BP203 contig128030,...  65.8    2e-07 
+PGGH01124791.1 Pontoporia blainvillei isolate BP203 contig126641,...  65.8    2e-07 
+PGGH01124614.1 Pontoporia blainvillei isolate BP203 contig126464,...  65.8    2e-07 
+PGGH01121679.1 Pontoporia blainvillei isolate BP203 contig123483,...  65.8    2e-07 
+PGGH01120623.1 Pontoporia blainvillei isolate BP203 contig122416,...  65.8    2e-07 
+PGGH01119981.1 Pontoporia blainvillei isolate BP203 contig121763,...  65.8    2e-07 
+PGGH01118599.1 Pontoporia blainvillei isolate BP203 contig120368,...  65.8    2e-07 
+PGGH01115460.1 Pontoporia blainvillei isolate BP203 contig117185,...  65.8    2e-07 
+PGGH01113604.1 Pontoporia blainvillei isolate BP203 contig115301,...  65.8    2e-07 
+PGGH01112584.1 Pontoporia blainvillei isolate BP203 contig114272,...  65.8    2e-07 
+PGGH01110633.1 Pontoporia blainvillei isolate BP203 contig112297,...  65.8    2e-07 
+PGGH01109547.1 Pontoporia blainvillei isolate BP203 contig111193,...  65.8    2e-07 
+PGGH01108257.1 Pontoporia blainvillei isolate BP203 contig109885,...  65.8    2e-07 
+PGGH01107380.1 Pontoporia blainvillei isolate BP203 contig108998,...  65.8    2e-07 
+PGGH01107037.1 Pontoporia blainvillei isolate BP203 contig108652,...  65.8    2e-07 
+PGGH01105212.1 Pontoporia blainvillei isolate BP203 contig106801,...  65.8    2e-07 
+PGGH01097512.1 Pontoporia blainvillei isolate BP203 contig98986, ...  65.8    2e-07 
+PGGH01096375.1 Pontoporia blainvillei isolate BP203 contig97831, ...  65.8    2e-07 
+PGGH01095241.1 Pontoporia blainvillei isolate BP203 contig96670, ...  65.8    2e-07 
+PGGH01093375.1 Pontoporia blainvillei isolate BP203 contig94779, ...  65.8    2e-07 
+PGGH01092469.1 Pontoporia blainvillei isolate BP203 contig93861, ...  65.8    2e-07 
+PGGH01091241.1 Pontoporia blainvillei isolate BP203 contig92610, ...  65.8    2e-07 
+PGGH01090880.1 Pontoporia blainvillei isolate BP203 contig92244, ...  65.8    2e-07 
+PGGH01089357.1 Pontoporia blainvillei isolate BP203 contig90702, ...  65.8    2e-07 
+PGGH01088769.1 Pontoporia blainvillei isolate BP203 contig90107, ...  65.8    2e-07 
+PGGH01088361.1 Pontoporia blainvillei isolate BP203 contig89694, ...  65.8    2e-07 
+PGGH01083815.1 Pontoporia blainvillei isolate BP203 contig85094, ...  65.8    2e-07 
+PGGH01082386.1 Pontoporia blainvillei isolate BP203 contig83648, ...  65.8    2e-07 
+PGGH01081190.1 Pontoporia blainvillei isolate BP203 contig82433, ...  65.8    2e-07 
+PGGH01080121.1 Pontoporia blainvillei isolate BP203 contig81357, ...  65.8    2e-07 
+PGGH01077010.1 Pontoporia blainvillei isolate BP203 contig78201, ...  65.8    2e-07 
+PGGH01075592.1 Pontoporia blainvillei isolate BP203 contig76761, ...  65.8    2e-07 
+PGGH01073870.1 Pontoporia blainvillei isolate BP203 contig75019, ...  65.8    2e-07 
+PGGH01068820.1 Pontoporia blainvillei isolate BP203 contig69881, ...  65.8    2e-07 
+PGGH01068634.1 Pontoporia blainvillei isolate BP203 contig69692, ...  65.8    2e-07 
+PGGH01067131.1 Pontoporia blainvillei isolate BP203 contig68164, ...  65.8    2e-07 
+PGGH01063231.1 Pontoporia blainvillei isolate BP203 contig64206, ...  65.8    2e-07 
+PGGH01062845.1 Pontoporia blainvillei isolate BP203 contig63817, ...  65.8    2e-07 
+PGGH01062004.1 Pontoporia blainvillei isolate BP203 contig62966, ...  65.8    2e-07 
+PGGH01060136.1 Pontoporia blainvillei isolate BP203 contig61064, ...  65.8    2e-07 
+PGGH01056280.1 Pontoporia blainvillei isolate BP203 contig57156, ...  65.8    2e-07 
+PGGH01055548.1 Pontoporia blainvillei isolate BP203 contig56409, ...  65.8    2e-07 
+PGGH01055340.1 Pontoporia blainvillei isolate BP203 contig56197, ...  65.8    2e-07 
+PGGH01054575.1 Pontoporia blainvillei isolate BP203 contig55422, ...  65.8    2e-07 
+PGGH01052785.1 Pontoporia blainvillei isolate BP203 contig53607, ...  65.8    2e-07 
+PGGH01051378.1 Pontoporia blainvillei isolate BP203 contig52181, ...  65.8    2e-07 
+PGGH01048830.1 Pontoporia blainvillei isolate BP203 contig49597, ...  65.8    2e-07 
+PGGH01047012.1 Pontoporia blainvillei isolate BP203 contig47753, ...  65.8    2e-07 
+PGGH01046056.1 Pontoporia blainvillei isolate BP203 contig46779, ...  65.8    2e-07 
+PGGH01045252.1 Pontoporia blainvillei isolate BP203 contig45962, ...  65.8    2e-07 
+PGGH01043596.1 Pontoporia blainvillei isolate BP203 contig44266, ...  65.8    2e-07 
+PGGH01041166.1 Pontoporia blainvillei isolate BP203 contig41797, ...  65.8    2e-07 
+PGGH01039215.1 Pontoporia blainvillei isolate BP203 contig39818, ...  65.8    2e-07 
+PGGH01038299.1 Pontoporia blainvillei isolate BP203 contig38896, ...  65.8    2e-07 
+PGGH01037715.1 Pontoporia blainvillei isolate BP203 contig38302, ...  65.8    2e-07 
+PGGH01037295.1 Pontoporia blainvillei isolate BP203 contig37876, ...  65.8    2e-07 
+PGGH01036978.1 Pontoporia blainvillei isolate BP203 contig37553, ...  65.8    2e-07 
+PGGH01035937.1 Pontoporia blainvillei isolate BP203 contig36498, ...  65.8    2e-07 
+PGGH01033758.1 Pontoporia blainvillei isolate BP203 contig34282, ...  65.8    2e-07 
+PGGH01032791.1 Pontoporia blainvillei isolate BP203 contig33299, ...  65.8    2e-07 
+PGGH01032676.1 Pontoporia blainvillei isolate BP203 contig33183, ...  65.8    2e-07 
+PGGH01032455.1 Pontoporia blainvillei isolate BP203 contig32959, ...  65.8    2e-07 
+PGGH01032234.1 Pontoporia blainvillei isolate BP203 contig32737, ...  65.8    2e-07 
+PGGH01031775.1 Pontoporia blainvillei isolate BP203 contig32272, ...  65.8    2e-07 
+PGGH01031398.1 Pontoporia blainvillei isolate BP203 contig31888, ...  65.8    2e-07 
+PGGH01030756.1 Pontoporia blainvillei isolate BP203 contig31236, ...  65.8    2e-07 
+PGGH01029203.1 Pontoporia blainvillei isolate BP203 contig29661, ...  65.8    2e-07 
+PGGH01028376.1 Pontoporia blainvillei isolate BP203 contig28818, ...  65.8    2e-07 
+PGGH01028332.1 Pontoporia blainvillei isolate BP203 contig28774, ...  65.8    2e-07 
+PGGH01025769.1 Pontoporia blainvillei isolate BP203 contig26166, ...  65.8    2e-07 
+PGGH01023179.1 Pontoporia blainvillei isolate BP203 contig23533, ...  65.8    2e-07 
+PGGH01022987.1 Pontoporia blainvillei isolate BP203 contig23338, ...  65.8    2e-07 
+PGGH01021466.1 Pontoporia blainvillei isolate BP203 contig21790, ...  65.8    2e-07 
+PGGH01021393.1 Pontoporia blainvillei isolate BP203 contig21716, ...  65.8    2e-07 
+PGGH01020710.1 Pontoporia blainvillei isolate BP203 contig21026, ...  65.8    2e-07 
+
+
+
+Query_5         475    CTGAGACTGGGT-A-AT-T-T-T-A-TTTATTTATTTATTTATTTATTT-A--TTTA-T-  522
+PGGH01363951.1  139               .-.-..-.-.-.-.-.......................-.--....-.-  175
+PGGH01214770.1  8356                     .-.-.-.-.......................-.--....-.-  8388
+PGGH01214770.1  8344                     .-.-.-.-.......................-.--....-.-  8376
+PGGH01214770.1  8348                     .-.-.-.-.......................-.--....-.-  8380
+PGGH01214770.1  8352                     .-.-.-.-.......................-.--....-.-  8384
+PGGH01214770.1  8342                         .-.-.......................-.--....-.-  8372
+PGGH01466126.1  1209                     .-.-.-.-.......................-.--....-.-  1177
+PGGH01466126.1  1213                     .-.-.-.-.......................-.--....-.-  1181
+PGGH01466126.1  1214                           .-.......................-.--....-.-  1185
+PGGH01203110.1  2798                   .-.-.-.-.-.......................-.--....-.-  2765
+PGGH01199842.1  11349             .-.-..-.-.-.-.-.......................-.--....-.-  11385
+PGGH01199842.1  11357                    .-.-.-.-.......................-.--....-.-  11389
+PGGH01199842.1  11361                    .-.-.-.-.......................-.--....-.-  11393
+PGGH01176182.1  1928                .-..-.-.-.-.-.......................-.--....-.-  1963
+PGGH01063804.1  4442              .-.-..-.-.-.-.-.......................-.--....-.-  4406
+PGGH01063804.1  4434                     .-.-.-.-.......................-.--....-.A  4401
+PGGH01015148.1  127                   ..-.-.-.-.-.......................-.--....-.-  93
+PGGH01014397.1  58                .-.-..-.-.-.-.-.......................-.--....-.-  22
+PGGH01014397.1  46                       .-.-.-.-.......................-.--....-.-  14
+PGGH01014397.1  50                       .-.-.-.-.......................-.--....-.-  18
+PGGH01014397.1  42                       .-.-.-.-.......................-.--....-.C  9
+PGGH01425287.1  375                 .-..-.-.-.-.-.......................-.--....-.-  410
+PGGH01425287.1  382                      .-.-.-.-.......................-.--....-.-  414
+PGGH01425287.1  390                      .-.-.-.-.......................-.--.        418
+PGGH01405485.1  4611                .-..-.-.-.-.-.......................-.--....-.-  4646
+PGGH01405485.1  4618                     .-.-.-.-.......................-.--....-.-  4650
+PGGH01372187.1  208                 .-..-.-.-.-.-.......................-.--....-.-  173
+PGGH01372187.1  201                      .-.-.-.-.......................-.--....-.-  169
+PGGH01363780.1  64                  .-..-.-.-.-.-.......................-.--....-.-  29
+PGGH01363780.1  57                       .-.-.-.-.......................-.--....-.-  25
+PGGH01363780.1  53                       .-.-.-.-.......................-.--...T-.-  21
+PGGH01255776.1  9                   .-..A.-.-.-.-.......................-.--....-.-  45
+PGGH01255776.1  11                                 .....................-.--....-.-  37
+PGGH01250082.1  2391                  ..-.-.-.-.-.......................-.--....-.-  2357
+PGGH01211577.1  55                  .-..A.-.-.-.-.......................-.--....-.-  19
+PGGH01211577.1  53                                 .....................-.--....-.-  27
+PGGH01170718.1  8118            ..A-.-.A-.-.-.-.-.......................-.--....-.-  8156
+PGGH01170718.1  8128                     .-.-.-.-.......................-.--....-.-  8160
+PGGH01169640.1  3517                   .-.-.-.-.-.......................-.--....-.-  3484
+PGGH01162860.1  80                    ..-.-.-.-.-.......................-.--....-.-  46
+PGGH01152430.1  1567                     .-.-.-.-.......................-.--....-.-  1599
+PGGH01152430.1  1553                  ..-.-A-.-.-.......................-.--....-.-  1587
+PGGH01152430.1  1559                     .-.-.-.-.......................-.--....-.-  1591
+PGGH01152430.1  1563                     .-.-.-.-.......................-.--....-.-  1595
+PGGH01150003.1  599               .-.-..-.-.-.-.-.......................-.--....-.-  635
+PGGH01150003.1  603                              .......................-.--....-.-  631
+PGGH01138666.1  361                   ..-.-.-.-.-.......................-.--....-.-  395
+PGGH01132468.1  38                  .-..-.-.-.-.-.......................-.--....-.-  3
+PGGH01120868.1  736               .-.-..-.G.-.-.-.......................-.--....-.-  699
+PGGH01075588.1  7095                     .-.-.-.-.......................-.--....-.-  7127
+PGGH01075588.1  7091                     .-.-.-.-.......................-.--....-.-  7123
+PGGH01075588.1  7084                  ..-.-.A.-.-.......................-.--....-.-  7119
+PGGH01073765.1  776                      .-.-.-.-.......................-.--....-.-  744
+PGGH01073765.1  786                   ..-.-.-.-.-.......................-.--....-.-  752
+PGGH01073765.1  780                      .-.-.-.-.......................-.--....-.-  748
+PGGH01057159.1  2186                .-..-.-.-.-.-.......................-.--....-.-  2221
+PGGH01057159.1  2193                     .-.-.-.-.......................-.--....-.-  2225
+PGGH01048351.1  4006                     .-.-.-.-.......................-.--....-.-  4038
+PGGH01048351.1  4002                     .-.-.-.-.......................-.--....-.-  4034
+PGGH01048351.1  3994                     .-.-.-.-.G.....................-.--....-.-  4026
+PGGH01048351.1  4000                         .-.-.......................-.--....-.-  4030
+PGGH01031786.1  2419              .-.-..-.-.-.-G-.......................-.--....-.-  2383
+PGGH01027879.1  4471                  ..-.-.-.-.-.......................-.--....-.-  4505
+PGGH01000163.1  7040                     .-.-.-.-.......................-.--....-.-  7072
+PGGH01000163.1  7036                     .-.-.-.-.......................-.--....-.-  7068
+PGGH01000163.1  7035                           .-.......................-.--....-.-  7064
+PGGH01446118.1  2112              .-.-..-.-.-.-.-.......................-.--....-.   2148
+PGGH01446118.1  2116                             .......................-.--....-.-  2144
+PGGH01431234.1  987                      .-.-.-.-.......................-.--....-.-  1019
+PGGH01431234.1  979                      .-.-.-.-.......................-.--....-.-  1011
+PGGH01431234.1  983                      .-.-.-.-.......................-.--....-.-  1015
+PGGH01431234.1  976                        .-.-.-.......................-.--....-.-  1007
+PGGH01419678.1  2858              .-.-.C-.-.-.-.-.......................-.--....-.-  2894
+PGGH01419678.1  2866                     .-.-.-.-.......................-.--...T-.-  2898
+PGGH01414423.1  118                      .-.-.-.-.......................-.--....-.-  86
+PGGH01414423.1  124                   ..-.-.-.-.-.......................-.--....-.-  90
+PGGH01384544.1  45              ...G.-..-.-.-.-.-.......................T.--....-.-  5
+PGGH01365414.1  1405                  ..-.-.-.-.-.......................-.--....-.-  1439
+PGGH01365414.1  1411                     .-.-.-.-.......................-.--....-.-  1443
+PGGH01365414.1  1415                     .-.-.-.-.......................-.--....-.-  1447
+PGGH01365414.1  1419                     .-.-.-.-.......................-.--....-.G  1452
+PGGH01360592.1  54                     .-.-.-.-.-.......................-.--....-.-  21
+PGGH01350059.1  1944                  ..-.-.-.-.-.......................-.--....-.-  1978
+PGGH01350059.1  1950                     .-.-.-.-.......................-.--....-.-  1982
+PGGH01327353.1  102    ......--..C.-.-T.-.-.-.-.-.......................-.--....-.-  57
+PGGH01327353.1  77                       .-.-.-.-.......................-.--....-.-  45
+PGGH01327353.1  81                       .-.-.-.-.......................-.--....-.-  49
+PGGH01327353.1  85                       .-.-.-.-.......................-.--....-.-  53
+PGGH01325340.1  53                    ..-.-.-.-.-.......................-.--....-.-  19
+PGGH01325340.1  47                       .-.-.-.-.......................-.--....-.-  15
+PGGH01325340.1  39                       .-.-.-.-.......................-.--C...-.-  7
+PGGH01325340.1  43                       .-.-.-.-.......................-.--....-C-  11
+PGGH01320930.1  153                      .-.-.-.-.......................-.--....-.-  121
+PGGH01320930.1  158                    .-.-.-.-.-.......................-.--....-.-  125
+PGGH01317119.1  5198                  ..-.-.-.-.-.......................-.--....-.-  5232
+PGGH01313931.1  2629                  ..-.-.-.-.-.......................-.--....-.-  2663
+PGGH01313931.1  2639                     .-.-.-.-.......................-.--....-.-  2671
+PGGH01313931.1  2635                     .-.-.-.-.......................-.--....-.-  2667
+PGGH01293825.1  3938              .-.-..-.-.-.-.-.......................-.--A...-.-  3974
+PGGH01287471.1  124                    .-.-.-.-.-.......................-.--....-.-  91
+PGGH01284701.1  39                       .-.-.-.-.......................-.--...T-.-  7
+PGGH01284701.1  73                    ..-.-.-.-.-.......................-.--....-.-  39
+PGGH01284701.1  43                       .-.-.-.-.......................-.--....-.-  11
+PGGH01284701.1  47                       .-.-.-.-.......................-.--....-.-  15
+PGGH01284701.1  51                       .-.-.-.-.......................-.--....-.-  19
+PGGH01284701.1  55                       .-.-.-.-.......................-.--....-.-  23
+PGGH01284701.1  59                       .-.-.-.-.......................-.--....-.-  27
+PGGH01284701.1  63                       .-.-.-.-.......................-.--....-.-  31
+PGGH01284701.1  67                       .-.-.-.-.......................-.--....-.-  35
+PGGH01282613.1  240                   ..-.-.-.-.-.......................-.--....-.-  206
+PGGH01282613.1  234                      .-.-.-.-.......................-.--....-.-  202
+PGGH01278297.1  5725                     .-.-.-.-.......................-.--....-.-  5757
+PGGH01278297.1  5712              .-.-..C.-.-.-.-.......................-.--....-.-  5749
+PGGH01278297.1  5721                     .-.-.-.-.......................-.--....-.-  5753
+PGGH01272437.1  3682                  ..-.-.-.-.-.......................-.--....-.-  3716
+PGGH01272437.1  3700                     .-.-.-.-.......................-.--....-.-  3732
+PGGH01272437.1  3688                     .-.-.-.-.......................-.--....-.-  3720
+PGGH01272437.1  3692                     .-.-.-.-.......................-.--....-.-  3724
+PGGH01272437.1  3696                     .-.-.-.-.......................-.--....-.-  3728
+PGGH01267798.1  6721                   .-.-.-.-.-.......................-.--....-.-  6754
+PGGH01256247.1  78                    ..-.-.-.-.T.......................-.--....-.-  43
+PGGH01233528.1  7571                  ..-.-.-.-.-.......................-.--....-.-  7605
+PGGH01233528.1  7581                     .-.-.-.-.......................-.--A...-A-  7613
+PGGH01233528.1  7577                     .-.-.-.-.......................-.--....     7608
+PGGH01226070.1  5734                  ..-.-.-.-.-.......................-.--....-.-  5700
+PGGH01226070.1  5728                     .-.-.-.-.......................-.--....-.A  5695
+PGGH01223060.1  2262                     .-.-.-.-.......................-.--....-.-  2230
+PGGH01223060.1  2268                  ..-.-.-.-.-.......................-.--....-.-  2234
+PGGH01223060.1  2254                     .-.-.-.-.......................-.GG...G-.-  2220
+PGGH01213792.1  7162                  ..-.-.-.-.-.......................-.--....-.-  7196
+PGGH01213792.1  7168                     .-.-.-.-.......................-.--....-.-  7200
+PGGH01199215.1  74                       .-.-.-.-.......................-.--....-.-  42
+PGGH01199215.1  78                       .-.-.-.-.......................-.--....-.-  46
+PGGH01199215.1  82                       .-.-.-.-.......................-.--....-.-  50
+PGGH01199215.1  90                  .-..-.A.-.-.-.......................-.--....-.-  54
+PGGH01198873.1  2354              .-.-T.-.-.-.-.-.......................-.--....-.-  2390
+PGGH01198873.1  2378                     .-.-.-.-.......................-.--....-.-  2410
+PGGH01198873.1  2362                     .-.-.-.-.......................-.--....-.-  2394
+PGGH01198873.1  2366                     .-.-.-.-.......................-.--....-.-  2398
+PGGH01198873.1  2370                     .-.-.-.-.......................-.--....-.-  2402
+PGGH01198873.1  2374                     .-.-.-.-.......................-.--....-.-  2406
+PGGH01195428.1  7700                   .-.-.-.-.-.......................-.--....-.-  7733
+PGGH01193044.1  51                     .-.-.-.-.-.......................-.--....-.-  18
+PGGH01188896.1  436                      .-.-.-.-.......................-.--....-.-  468
+PGGH01188896.1  435                            .-.......................-.--....-.-  464
+PGGH01181037.1  8164                  ..-.-.-.-.-.......................-.--....-.-  8198
+PGGH01181037.1  8170                     .-.-.-.-.......................-.--....-.-  8202
+PGGH01181037.1  8174                     .-.-.-.-.......................-.--....-.-  8206
+PGGH01179020.1  92                    ..-.-.-.-.-.......................-.--....-.-  58
+PGGH01179020.1  74                       .-.-.-.-.......................-.--....-.-  42
+PGGH01179020.1  78                       .-.-.-.-.......................-.--....-.-  46
+PGGH01179020.1  82                       .-.-.-.-.......................-.--....-.-  50
+PGGH01179020.1  86                       .-.-.-.-.......................-.--....-.-  54
+PGGH01179020.1  66                       .-.-.-.-.......................-.--.        38
+PGGH01172974.1  37                    ..-.-.-.-.-.......................-.--....-.-  3
+PGGH01163708.1  121                      .-.-.-.-.......................-.--....-.-  89
+PGGH01163708.1  125                      .-.-.-.-.......................-.--....-.-  93
+PGGH01163708.1  126                            .-.......................-.--....-.-  97
+PGGH01161350.1  15434             .-.-T.-.-.-.-.-.......................-.--....-.-  15470
+PGGH01160812.1  6146                     .-.-.-.-.......................-.--....-.-  6114
+PGGH01160812.1  6159             ..-.-T.-.-.-.-.-.......................-.--....-.-  6122
+PGGH01160812.1  6150                     .-.-.-.-.......................-.--....-.-  6118
+PGGH01154103.1  4347                   .-.-.-.-.-.......................-.--....-.-  4314
+PGGH01150033.1  1604                   .-.-.-.-.-.......................-.--....-.-  1637
+PGGH01149655.1  781                   ..-.-.-.-.-.......................-.--....-.-  747
+PGGH01149655.1  771                      .-.-.-.-.......................-.--....-.-  739
+PGGH01149655.1  775                      .-.-.-.-.......................-.--....-.-  743
+PGGH01149655.1  767                      .-.-.-.-.......................-.--....-.-  735
+PGGH01132219.1  8812                  ..-.-.-.-.-.......................-.--....-.-  8846
+PGGH01132219.1  8818                     .-.-.-.-.......................-.--....-.-  8850
+PGGH01132219.1  8822                     .-.-.-.-.......................-.--....-.-  8854
+PGGH01132219.1  8826                     .-.-.-.-.......................-.--....-.-  8858
+PGGH01132219.1  8830                     .-.-.-.-.......................-.--....-.-  8862
+PGGH01132219.1  8834                     .-.-.-.-.......................-.--....-.A  8867
+PGGH01129348.1  8266                   .-.-.-.-.-.......................-.--....-.-  8233
+PGGH01122597.1  2175                     .-.-.-.-.......................-.--....-.-  2143
+PGGH01122597.1  2178                       .-.-.-.......................-.--....-.-  2147
+PGGH01117810.1  5861                  ..-.-.-.-.-.......................-.--....-.-  5827
+PGGH01117810.1  5851                     .-.-.-.-.......................-.--....-.-  5819
+PGGH01117810.1  5855                     .-.-.-.-.......................-.--....-.-  5823
+PGGH01117810.1  5843                     .-.-.-.-.......................-.--.        5815
+PGGH01111072.1  3589                  ..-.-.-.-.-.......................-.--....-.-  3623
+PGGH01111072.1  3595                     .-.-.-.-.......................-.--....-.-  3627
+PGGH01098992.1  84                  .-..-.-.-.-.-.......................-.--....-.-  49
+PGGH01098992.1  81                               .......................-.--....-.-  53
+PGGH01090606.1  17928                    .-.-.-.-.......................-.--....-.-  17896
+PGGH01090606.1  17932                    .-.-.-.-.......................-.--....-.-  17900
+PGGH01090606.1  17936                    .-.-.-.-.......................-.--....-.-  17904
+PGGH01090606.1  17940                    .-.-.-.-.......................-.--....-.-  17908
+PGGH01090606.1  17947                 ..-.A.-.-.-.......................-.--....-.-  17912
+PGGH01090279.1  8903                  ..-.-.-.-.-.......................-.--....-.-  8937
+PGGH01090279.1  8909                     .-.-.-.-.......................-.--....-.   8941
+PGGH01085358.1  89                    ..-.-.-.-.-.......................-.--....-.-  55
+PGGH01085358.1  79                       .-.-.-.-.......................-.--....-.-  47
+PGGH01085358.1  83                       .-.-.-.-.......................-.--....-.-  51
+PGGH01082854.1  4010                     .-.-.-.-.......................-.--....-.-  4042
+PGGH01082854.1  3994                     .-.-.-.-.......................-.--....-.-  4026
+PGGH01082854.1  3998                     .-.-.-.-.......................-.--....-.-  4030
+PGGH01082854.1  4002                     .-.-.-.-.......................-.--....-.-  4034
+PGGH01082854.1  4006                     .-.-.-.-.......................-.--....-.-  4038
+PGGH01082854.1  3993                           .-.......................-.--....-.-  4022
+PGGH01076859.1  118           ....A-.-..A.-.-.-.-.......................-.--....-.-  77
+PGGH01076859.1  111                                .....................-.--....-.-  85
+PGGH01076200.1  3081                  ..-.-.-.-.-.......................-.--....-.-  3047
+PGGH01076200.1  3075                     .-.-.-.-.......................-.--....-.-  3043
+PGGH01065330.1  7708                  ..-.-.-.-.-.......................-.--....-.-  7742
+PGGH01065188.1  187                      .-.-.-.-.......................-.--....-.-  155
+PGGH01065188.1  191                      .-.-.-.-.......................-.--....-.-  159
+PGGH01065188.1  195                      .-.-.-.-.......................-.--....-.-  163
+PGGH01065188.1  199                      .-.-.-.-.......................-.--....-.-  167
+PGGH01065188.1  203                      .-.-.-.-.......................-.--....-.-  171
+PGGH01065188.1  206                        .-.-.-.......................-.--....-.-  175
+PGGH01061463.1  3809                     .-.-.-.-.......................-.--....-.-  3777
+PGGH01061463.1  3813                     .-.-.-.-.......................-.--....-.-  3781
+PGGH01061463.1  3817                     .-.-.-.-.......................-.--....-.-  3785
+PGGH01061463.1  3824                  ..-.A.-.-.-.......................-.--....-.-  3789
+PGGH01056492.1  1960             ..-.C..-.-.-.-.-.......................-.--....-.-  1998
+PGGH01056492.1  1970                     .-.-.-.-.......................-.--....     2001
+PGGH01043503.1  43            .....-.T..-.-.-.---.......................-.--....-.-  3
+PGGH01020830.1  5108                  ..-.-.-.-.-.......................-.--....-.-  5142
+PGGH01016704.1  18103             .-.-..-.-.-.-.-.......................-.--....-.   18139
+PGGH01016704.1  18100                  .-.-.-.A.T.......................-.--....-.-  18135
+PGGH01016331.1  68                    ..-.-.-.-.-.......................-.--....-.-  34
+PGGH01016331.1  42                       .-.-.-.-.......................-.--....-.-  10
+PGGH01016331.1  46                       .-.-.-.-.......................-.--....-.-  14
+PGGH01016331.1  50                       .-.-.-.-.......................-.--....-.-  18
+PGGH01016331.1  54                       .-.-.-.-.......................-.--....-.-  22
+PGGH01016331.1  58                       .-.-.-.-.......................-.--....-.-  26
+PGGH01016331.1  62                       .-.-.-.-.......................-.--....-.-  30
+PGGH01015871.1  6038              .-.-..-.-.-.-.-.......................-.--....-.   6074
+PGGH01015871.1  6042                             .......................-.--....-.-  6070
+PGGH01013598.1  2682                  ..-.-.-.-.-.......................-.--....-.-  2716
+PGGH01011479.1  3380                  ..-.-.-.-.-.......................-.--....-.-  3346
+PGGH01011479.1  3366                     .-.-.-.-.......................-.--....-.-  3334
+PGGH01011479.1  3370                     .-.-.-.-.......................-.--....-.-  3338
+PGGH01011479.1  3374                     .-.-.-.-.......................-.--....-.-  3342
+PGGH01009319.1  2095                     .-.-.-.-.......................-.--....-.-  2127
+PGGH01009319.1  2088              .-.-.--.-.-.-.-.......................-.--....-.-  2123
+PGGH01009319.1  2084                  ..-.-.-.A.-.......................-.--....-.-  2119
+PGGH01006878.1  13964           ...---..-.-.-.-.-.......................-.--....-.-  13927
+PGGH01006878.1  13955                    .-.-.-.-.......................-.--....-.-  13923
+PGGH01006878.1  13951                    .-.-.-.-.......................-.--....     13920
+PGGH01004217.1  9049                   .-.-.-.-.-.......................-.--....-.-  9082
+PGGH01479585.1  39                  .-..-.-.-.-.-.......................-.--....-.   4
+PGGH01479585.1  36                               .......................-.--....-.-  8
+PGGH01472561.1  43                     .-.-.-.-.-.......................-.--....-.-  10
+PGGH01469840.1  1111                     .-.-.-.-.......................-.--....-.-  1079
+PGGH01469840.1  1115                     .-.-.-.-.......................-.--....-.-  1083
+PGGH01469840.1  1119                     .-.-.-.-.......................-.--....-.-  1087
+PGGH01469840.1  1123                     .-.-.-.-.......................-.--....-.-  1091
+PGGH01469840.1  1127                     .-.-.-.-.......................-.--....-.-  1095
+PGGH01469840.1  1130                       .-.-.-.......................-.--....-.-  1099
+PGGH01458856.1  36                     .-.-.-.-.-.......................-.--....-.-  3
+PGGH01448150.1  1056                   .-.-.-.-.-.......................-.--....A.-  1090
+PGGH01442086.1  896                    .-.-.-.-.-.......................-.--....-.-  929
+PGGH01442086.1  905                      .-.-.-.-.......................-.--.        933
+PGGH01439842.1  1691                  ..-.A.-.-.-.......................-.--....-.-  1726
+PGGH01428335.1  3875              .-.-.A-.-.-.-.-.......................-.--....-.-  3839
+PGGH01428335.1  3855                     .-.-.-.-.......................-.--....-.-  3823
+PGGH01428335.1  3859                     .-.-.-.-.......................-.--....-.-  3827
+PGGH01428335.1  3863                     .-.-.-.-.......................-.--....-.-  3831
+PGGH01428335.1  3867                     .-.-.-.-.......................-.--....-.-  3835
+PGGH01428335.1  3847                     .-.-.-.-.......................-.--.        3819
+PGGH01420520.1  51                       .-.-.-.-.......................-.--....-.-  19
+PGGH01420520.1  55                       .-.-.-.-.......................-.--....-.-  23
+PGGH01420520.1  56                             .-.......................-.--....-.-  27
+PGGH01415792.1  1652              .-.-..-.-.-.-.-.......................-.--....     1687
+PGGH01415792.1  1644             ..-.C..-.-.-.A.T.......................-.--....-.-  1684
+PGGH01412505.1  86             ...--.-..A.-.-.-.-.......................-.--....-.-  47
+PGGH01412505.1  75                       .-.-.-.-.......................-.--....-.-  43
+PGGH01412505.1  71                       .-.-.-.-.......................-.--....-.-  39
+PGGH01412505.1  81                                 .....................-.--....-.-  55
+PGGH01408996.1  39                .-.-.A-.-.-.-.-.......................-.--....-.-  3
+PGGH01408731.1  609                   ..-.-.-.-.-.......................-.--....-.-  643
+PGGH01408731.1  611                              .......................-.--....-.-  639
+PGGH01403324.1  517                      .-.-.-.-.......................-.--....-.-  549
+PGGH01401202.1  1586                     .-.-.-.-.......................-.--....-.-  1554
+PGGH01401202.1  1588                               .....................-.--....-.-  1562
+PGGH01400663.1  4093                     .-.-.-.-.......................-.--....-.-  4125
+PGGH01400663.1  4090                       .-.-.-.......................-.--....-.-  4121
+PGGH01395962.1  3768                   .-.-.-.-.-.......................-.--....-.-  3801
+PGGH01395962.1  3773                     .-.-.-.-.......................-.--....     3804
+PGGH01385669.1  2363             ..-T-..-.-.-.-.-.......................-.--....-.-  2400
+PGGH01385669.1  2364                       .-.-.T.......................-.--....-.-  2396
+PGGH01382647.1  122                    .-.-.-.-.-.......................-.--....-.-  89
+PGGH01382647.1  113                      .-.-.-.-.......................-.--....-.-  81
+PGGH01382647.1  117                      .-.-.-.-.......................-.--....-.-  85
+PGGH01381938.1  1744                       .-.-.-.......................-.--....-.-  1775
+PGGH01381938.1  1747                     .-.-.-.-.......................-.--...      1777
+PGGH01379851.1  822                    .-.-.-.-.-.......................-.--....-.-  855
+PGGH01379851.1  827                      .-.-.-.-.......................-.--....-.-  859
+PGGH01379141.1  36                    ..-.-.-.-.-.......................-.--....-.-  2
+PGGH01379141.1  34                               .......................-.--....-.-  6
+PGGH01378722.1  5055                     .-.-.-.-.......................-.--....-.-  5023
+PGGH01378722.1  5059                     .-.-.-.-.......................-.--....-.-  5027
+PGGH01378722.1  5063                     .-.-.-.-.......................-.--....-.-  5031
+PGGH01378722.1  5067                     .-.-.-.-.......................-.--....-.-  5035
+PGGH01378722.1  5071                     .-.-.-.-.......................-.--....-.-  5039
+PGGH01378722.1  5074                       .-.-.-.......................-.--....-.-  5043
+PGGH01377354.1  138                      .-.-.-.-.......................-.--....-.-  106
+PGGH01377354.1  147                    .-.-.-.-.-.......................-.--....-.-  114
+PGGH01377354.1  142                      .-.-.-.-.......................-.--....-.-  110
+PGGH01374494.1  50                         .-.-.-.......................-.--....-.-  19
+PGGH01374494.1  47                       .-.-.-.-.......................-.--...      17
+PGGH01368196.1  2849                  ..-.-.-.-.-.......................-.--....-.-  2815
+PGGH01368196.1  2847                             .......................-.--....-.-  2819
+PGGH01367944.1  1417                .-..-.-.-.-.-.......................-.--....-.   1452
+PGGH01367944.1  1420                             .......................-.--....-.-  1448
+PGGH01367189.1  1958                   .-.-.-.-.-.......................-.--....-.-  1991
+PGGH01364500.1  2565              .-.-.A-.-.-.-.-.......................-.--....-.-  2601
+PGGH01364500.1  2577                     .-.-.-.-.......................-.--....-.-  2609
+PGGH01364500.1  2573                     .-.-.-.-.......................-.--....-.-  2605
+PGGH01353010.1  9                      .-.-.-.-.-.......................-.--....-.-  42
+PGGH01353010.1  14                       .-.-.-.-.......................-.--....-.-  46
+PGGH01353010.1  18                       .-.-.-.-.......................-.--....-.-  50
+PGGH01353010.1  22                       .-.-.-.-.......................-.--....-.-  54
+PGGH01353010.1  26                       .-.-.-.-.......................-.--....-.-  58
+PGGH01350919.1  190                          .-.-.......................-.--....-.-  160
+PGGH01350919.1  188                      .-.-.-.-.......................-.--...      158
+PGGH01348832.1  69                     .-.-.-.-.-.......................-.--....-.-  36
+PGGH01348832.1  56                       .-.-.-.-.......................-.--....-.-  24
+PGGH01348832.1  60                       .-.-.-.-.......................-.--....-.-  28
+PGGH01348832.1  64                       .-.-.-.-.......................-.--....-.-  32
+PGGH01348832.1  48                       .-.-.-.-.......................-.--.        20
+PGGH01344017.1  1548                     .-.-.-.-.......................-.--....-.-  1580
+PGGH01344017.1  1535           ...--.-.--.-.-.-.-.......................-.--....-.-  1572
+PGGH01344017.1  1544                     .-.-.-.-.......................-.--....-.-  1576
+PGGH01340059.1  85                     .-.-.-.-.-.......................-.--....-.-  52
+PGGH01340059.1  76                       .-.-.-.-.......................-.--....-.-  44
+PGGH01340059.1  80                       .-.-.-.-.......................-.--....-.-  48
+PGGH01340059.1  72                       .-.-.-.-.......................-.--....     41
+PGGH01337615.1  1750                  ..-.-.-.-.-.......................-.--....-.-  1784
+PGGH01337615.1  1752                             .......................-.--....-.-  1780
+PGGH01336343.1  861                    .-.-.-.-.-.......................-.--....-.-  894
+PGGH01336343.1  866                      .-.-.-.-.......................-.--....-.-  898
+PGGH01336343.1  870                      .-.-.-.-.......................-.--....-.-  902
+PGGH01336343.1  874                      .-.-.-.-.......................-.--....-.-  906
+PGGH01336343.1  878                      .-.-.-.-.......................-.--....-.-  910
+PGGH01334783.1  4038                         .-.-.......................-.--....-.-  4068
+PGGH01334783.1  4036                .-..A.-.-.-.-.......................-.--...      4070
+PGGH01328573.1  847                    .-.-.-.-.-.......................-.--....-.-  880
+PGGH01328573.1  852                      .-.-.-.-.......................-.--....     883
+PGGH01327200.1  2761                   .-.-.-.-.-.......................-.--....-.-  2794
+PGGH01327200.1  2766                     .-.-.-.-.......................-.--....-.-  2798
+PGGH01327200.1  2758                   .-.-.-.---.......................-.--....-.-  2790
+PGGH01319632.1  36                    ..-.-.-.-.-.......................-.--....-.-  2
+PGGH01319632.1  34                               .......................-.--....-.-  6
+PGGH01317480.1  22                       .-.-.-.-.......................-.--....-.-  54
+PGGH01317480.1  2                        .-.-.-.-.......................-.--....-.-  34
+PGGH01317480.1  6                        .-.-.-.-.......................-.--....-.-  38
+PGGH01317480.1  10                       .-.-.-.-.......................-.--....-.-  42
+PGGH01317480.1  14                       .-.-.-.-.......................-.--....-.-  46
+PGGH01317480.1  18                       .-.-.-.-.......................-.--....-.-  50
+PGGH01317480.1  1                              .-.......................-.--....-.-  30
+PGGH01315678.1  1443                   .-.-.-.-.-.......................-.--....-.-  1410
+PGGH01315678.1  1430                     .-.-.-.-.......................-.--....-.-  1398
+PGGH01315678.1  1434                     .-.-.-.-.......................-.--....-.-  1402
+PGGH01315678.1  1438                     .-.-.-.-.......................-.--....-.-  1406
+PGGH01315678.1  1422                     .-.-.-.-.......................-.--.        1394
+PGGH01311162.1  7547                     .-.-.-.-.......................-.--....-.-  7579
+PGGH01311162.1  7545                         .-.-.......................-.--....-.-  7575
+PGGH01311162.1  7551                     .-.-.-.-.......................-.--...--.-  7582
+PGGH01309805.1  1514             ..-.-.--.-.-.-.-.......................-.--....-.-  1550
+PGGH01306363.1  44                       .-.-.-.-.......................-.--....-.-  12
+PGGH01306363.1  50                     .-.-.-.G.-.......................-.--....-.-  16
+PGGH01304922.1  702                          .-.-.......................-.--....-.-  732
+PGGH01304922.1  700                 .-..A.-.-.-.-.......................-.--...      734
+PGGH01302182.1  54                  .-..-.-.-A-.-.......................-.--....-.-  19
+PGGH01300835.1  932                      .-.-.-.-.......................-.--....-.-  964
+PGGH01300835.1  920                      .-.-.-.-.......................-.--....-.-  952
+PGGH01300835.1  924                      .-.-.-.-.......................-.--....-.-  956
+PGGH01300835.1  928                      .-.-.-.-.......................-.--....-.-  960
+PGGH01300835.1  917                        .-.-.-.......................-.--....-.-  948
+PGGH01296432.1  88                     .-.-.-.-.-.......................-.--....-.-  55
+PGGH01296432.1  75                       .-.-.-.-.......................-.--....-.-  43
+PGGH01296432.1  79                       .-.-.-.-.......................-.--....-.-  47
+PGGH01296432.1  83                       .-.-.-.-.......................-.--....-.-  51
+PGGH01296432.1  71                       .-.-.-.-.......................-.--....-.-  39
+PGGH01295213.1  5602                   .-.-.-.-.-.......................-.--....-.-  5635
+PGGH01294421.1  16676             .-.-.A-.-.-.-.-.......................-.--....-.-  16712
+PGGH01294421.1  16684                    .-.-.-.-.......................-.--....-.-  16716
+PGGH01293934.1  4936             ..-.-T.-.-.-.-.-.......................-.--....-.-  4973
+PGGH01293934.1  4941                             .......................-.--....-.-  4969
+PGGH01291489.1  78                     .-.-.-.-.-.......................-.--....-.-  45
+PGGH01291489.1  73                       .-.-.-.-.......................-.--....-.-  41
+PGGH01290728.1  1132                   .-.-.-.-.-.......................-.--....-.-  1165
+PGGH01290728.1  1141                     .-.-.-.-.......................-.--....-.-  1173
+PGGH01290728.1  1137                     .-.-.-.-.......................-.--....-.-  1169
+PGGH01288935.1  923                    .-.-.-.-.-.......................-.--....-.-  890
+PGGH01288935.1  918                      .-.-.-.-.......................-.--....-.-  886
+PGGH01288935.1  914                      .-.-.-.-.......................-.--....-.-  882
+PGGH01284827.1  1633             ..-.-..-.-.-.-.-.......................-.--...T-.-  1596
+PGGH01284181.1  1930                   .-.-.-.-.-.......................-.--....-.-  1963
+PGGH01284181.1  1935                     .-.-.-.-.......................-.--....-.-  1967
+PGGH01272527.1  156                   ..-.-.-.-.-.......................-.--....-.-  122
+PGGH01272527.1  154                              .......................-.--....-.-  126
+PGGH01267039.1  8262              .-.-T.-.-.-.-.-.......................-.--....-.-  8298
+PGGH01267039.1  8270                     .-.-.-.-.......................-.--....-.-  8302
+PGGH01267039.1  8274                     .-.-.-.-.......................-.--....-.-  8306
+PGGH01263763.1  6467              .-.-T.-.-.-.-.-.......................-.--....-.-  6503
+PGGH01263763.1  6479                     .-.-.-.-.......................-.--....-.-  6511
+PGGH01263763.1  6475                     .-.-.-.-.......................-.--....-.-  6507
+PGGH01260132.1  8016                     .-.-.-.-.......................-.--....-.-  8048
+PGGH01260132.1  8000                     .-.-.-.-.......................-.--....-.-  8032
+PGGH01260132.1  8004                     .-.-.-.-.......................-.--....-.-  8036
+PGGH01260132.1  8008                     .-.-.-.-.......................-.--....-.-  8040
+PGGH01260132.1  8012                     .-.-.-.-.......................-.--....-.-  8044
+PGGH01260132.1  7999                           .-.......................-.--....-.-  8028
+PGGH01258772.1  3476                   .-.-.-.-.-.......................-.--....-.-  3509
+PGGH01256316.1  329                      .-.-.-.-.......................-.--....-.-  297
+PGGH01256316.1  338                    .-.-.-.-.-.......................-.--....-.-  305
+PGGH01256316.1  333                      .-.-.-.-.......................-.--....-.-  301
+PGGH01253796.1  75                       .-.-.-.-.......................-.--....-.-  43
+PGGH01253796.1  79                       .-.-.-.-.......................-.--....-.-  47
+PGGH01253796.1  81                           .-.-.......................-.--....-.-  51
+PGGH01253796.1  85                           .-.-.C.....................-.--....-.-  55
+PGGH01251024.1  8848                     .-.-.-.-.......................-.--....-.-  8880
+PGGH01251024.1  8832                     .-.-.-.-.......................-.--....-.-  8864
+PGGH01251024.1  8836                     .-.-.-.-.......................-.--....-.-  8868
+PGGH01251024.1  8840                     .-.-.-.-.......................-.--....-.-  8872
+PGGH01251024.1  8844                     .-.-.-.-.......................-.--....-.-  8876
+PGGH01251024.1  8831                           .-.......................-.--....-.-  8860
+PGGH01247612.1  5281                   .-.-.-.-.-.......................-.--....-.-  5314
+PGGH01245222.1  8538                   .-.-.-.-.-.......................-.--....-.-  8571
+PGGH01245222.1  8535                   .-.-.-.---.......................-.--....-.-  8567
+PGGH01242123.1  3391                     .-.-.-.-.......................-.--....-.-  3423
+PGGH01242123.1  3387                     .-.-.-.-.......................-.--....-.-  3419
+PGGH01242123.1  3384                       .-.-.-.......................-.--....-.-  3415
+PGGH01240044.1  2880                   .-.-.-.-.-.......................-.--....-.-  2913
+PGGH01240044.1  2885                     .-.-.-.-.......................-.--....-.-  2917
+PGGH01240044.1  2889                     .-.-.-.-.......................-.--....-.-  2921
+PGGH01240044.1  2897                     .-.-.-.-.......................-.--.        2925
+PGGH01238527.1  6247              .-.-T.-.-.-.-.-..C....................-.--....-.-  6283
+PGGH01238527.1  6259                     .-.-.-.-.......................-.--....-.-  6291
+PGGH01238527.1  6255                     .-.-C-.-.......................-.--....-.-  6287
+PGGH01233194.1  1078                     .-.-.-.-.......................-.--....-.-  1110
+PGGH01233194.1  1075                       .-.-.-.......................-.--....-.-  1106
+PGGH01233194.1  1071                       .-.-.-C......................-.--....-.-  1102
+PGGH01233147.1  132                      .-.-.-.-.......................-.--....-.-  100
+PGGH01233147.1  136                      .-.-.-.-.......................-.--....-.-  104
+PGGH01233147.1  140                      .-.-.-.-.......................-.--....-.-  108
+PGGH01233147.1  144                      .-.-.-.-.......................-.--....-.-  112
+PGGH01233147.1  145                            .-.......................-.--....-.-  116
+PGGH01232682.1  879                   ..-.-.-.-.-.......................-.--....-.-  913
+PGGH01232682.1  881                              .......................-.--....-.-  909
+PGGH01230756.1  4792                   .-.-.-.-.-.......................-.--....-.-  4825
+PGGH01230756.1  4797                     .-.-.-.-.......................-.--....-.-  4829
+PGGH01229196.1  26                       .-.-.-.-.......................-.--....-.-  58
+PGGH01229196.1  18                       .-.-.-.-.......................-.--....-.-  50
+PGGH01229196.1  22                       .-.-.-.-.......................-.--....-.-  54
+PGGH01228109.1  2620                     .-.-.-.-.......................-.--....-.-  2652
+PGGH01228109.1  2608                     .-.-.-.-.......................-.--....-.-  2640
+PGGH01228109.1  2612                     .-.-.-.-.......................-.--....-.-  2644
+PGGH01228109.1  2616                     .-.-.-.-.......................-.--....-.-  2648
+PGGH01226799.1  6330                             .......................-.--....-A-  6358
+PGGH01226799.1  6317      .........GG-T.-.-.-.-.-.......................-.A-....-.-  6363
+PGGH01224644.1  1950                   .-.-.-.-.-.......................-.--....-.-  1983
+PGGH01222120.1  374             ...-.-T.-C-.-.-.-.AA....................-.--....-.-  336
+PGGH01222120.1  364               .-.-.A-.-.-.-.-.......................-.--....-.-  328
+PGGH01222120.1  356                      .-.-.-.-.......................-.--....-.-  324
+PGGH01208547.1  12994                    .-.-.-.-.......................-.--....-.-  13026
+PGGH01208547.1  12974                    .-.-.-.-.......................-.--....-.-  13006
+PGGH01208547.1  12978                    .-.-.-.-.......................-.--....-.-  13010
+PGGH01208547.1  12982                    .-.-.-.-.......................-.--....-.-  13014
+PGGH01208547.1  12986                    .-.-.-.-.......................-.--....-.-  13018
+PGGH01208547.1  12990                    .-.-.-.-.......................-.--....-.-  13022
+PGGH01208547.1  12998                    .-.-.-.-.......................-.--...--.-  13029
+PGGH01208187.1  1453                     .-.-.-.-.......................-.--....-.-  1485
+PGGH01208187.1  1449                     .-.-.-.-.......................-.--....-.-  1481
+PGGH01208187.1  1448                           .-.......................-.--....-.-  1477
+PGGH01207583.1  1765                     .-.-.-.-.......................-.--....-.-  1797
+PGGH01207583.1  1757                     .-.-.-.-.......................-.--....-.-  1789
+PGGH01207583.1  1761                     .-.-.-.-.......................-.--....-.-  1793
+PGGH01207583.1  1754                       .-.-.-.......................-.--....-.-  1785
+PGGH01206807.1  2971                   .-.-.-.-.-.......................-.--....-.-  3004
+PGGH01206807.1  2980                     .-.-.-.-.......................-.--.        3008
+PGGH01203714.1  568                    .-.-.-.-.-.......................-.--....-.-  535
+PGGH01203714.1  563                      .-.-.-.-.......................-.--....-.-  531
+PGGH01203714.1  559                      .-.-.-.-.......................-.--....-.-  527
+PGGH01201120.1  88                .-.-.A-.-.-.-.-.......................-.--....-.-  52
+PGGH01201120.1  96                .-.-..-.-.-.-T-.AA....................-.--....-.-  60
+PGGH01201120.1  68                       .-.-.-.-.......................-.--....-.-  36
+PGGH01201120.1  72                       .-.-.-.-.......................-.--....-.-  40
+PGGH01201120.1  76                       .-.-.-.-.......................-.--....-.-  44
+PGGH01201120.1  80                       .-.-.-.-.......................-.--....-.-  48
+PGGH01200918.1  36                     .-.-.-.-.-.......................-.--....-.-  3
+PGGH01200783.1  2197                  ..-.-.-.-.-.......................-.--....-.-  2231
+PGGH01200783.1  2199                             .......................-.--....-.-  2227
+PGGH01199343.1  175                    .-.-.-.-.-.......................-.--....-.-  142
+PGGH01199343.1  166                      .-.-.-.-.......................-.--....-.-  134
+PGGH01199343.1  170                      .-.-.-.-.......................-.--....-.-  138
+PGGH01197029.1  7320                   .-.-.-.-.-.......................-.--....-.-  7353
+PGGH01197029.1  7325                     .-.-.-.-.......................-.--....-.-  7357
+PGGH01197029.1  7329                     .-.-.-.-.......................-.--....-.-  7361
+PGGH01197029.1  7333                     .-.-.-.-.......................-.--....-.-  7365
+PGGH01197029.1  7337                     .-.-.-.-.......................-.--....-.-  7369
+PGGH01197029.1  7341                     .-.-.-.-.......................-.--....-.   7373
+PGGH01194250.1  1521                .-..-.-.-.-.-.......................-.--....-.   1556
+PGGH01194250.1  1524                             .......................-.--....-.-  1552
+PGGH01191509.1  7913              .-.-.A-.-.-.-.-.......................-.--....-.-  7949
+PGGH01191509.1  7921                     .-.-.-.-.......................-.--....-.   7953
+PGGH01189684.1  1410                  ..-.-.-.-.-.......................-.--....-.-  1444
+PGGH01189684.1  1412                             .......................-.--....-.-  1440
+PGGH01186670.1  42                     .-.-.-.-.-.......................-.--....-.-  9
+PGGH01186670.1  37                       .-.-.-.-.......................-.--....-.-  5
+PGGH01186670.1  33                       .-.-.-.-.......................-.--....-.   1
+PGGH01182717.1  3911                   .-.-.-.-.-.......................-.--....-.-  3878
+PGGH01182717.1  3906                     .-.-.-.-.......................-.--....-.   3874
+PGGH01182673.1  1965                     .-.-.-.-.......................-.--....-.-  1997
+PGGH01182673.1  1957                .-..A.-.-.-.-.......................-.--....-.-  1993
+PGGH01182673.1  1959                               .....................-.--....-.-  1985
+PGGH01182575.1  5357                     .-.-.-.-.......................-.--....-.-  5389
+PGGH01181881.1  2251             ..-T-..-.-.-.-.-.......................-.--....-.-  2288
+PGGH01181881.1  2252                       .-.-.T.......................-.--....-.-  2284
+PGGH01181671.1  9805              .-.-.A-.-.-.-.-.......................-.--....-.-  9841
+PGGH01181671.1  9825                     .-.-.-.-.......................-.--....-.-  9857
+PGGH01181671.1  9813                     .-.-.-.-.......................-.--....-.-  9845
+PGGH01181671.1  9817                     .-.-.-.-.......................-.--....-.-  9849
+PGGH01181671.1  9821                     .-.-.-.-.......................-.--....-.-  9853
+PGGH01179903.1  36                    ..-.-.-.-.-.......................-.--....-.-  2
+PGGH01179903.1  34                               .......................-.--....-.-  6
+PGGH01178877.1  6414                   .-.-.-.-.-.......................-.--....-.-  6447
+PGGH01178877.1  6419                     .-.-.-.-.......................-.--....-.-  6451
+PGGH01177461.1  9424                  ..-.-.-.-.-.......................-.--....-.-  9390
+PGGH01177461.1  9426                       .-.-.T.......................-.--....-.-  9394
+PGGH01177117.1  560                      .-.-.-.-.......................-.--....-.-  592
+PGGH01177117.1  559                            .-.......................-.--....-.-  588
+PGGH01175230.1  5738              .-.-.A-.-.-.-.-.......................-.--....-.-  5774
+PGGH01175230.1  5746                     .-.-.-.-.......................-.--....-.-  5778
+PGGH01175230.1  5750                     .-.-.-.-.......................-.--....-.-  5782
+PGGH01175230.1  5754                     .-.-.-.-.......................-.--....-.-  5786
+PGGH01174684.1  245                    .-.-.-.-.-.......................-.--....-.-  212
+PGGH01174684.1  240                      .-.-.-.-.......................-.--....-.-  208
+PGGH01174684.1  232                      .-.-.-.-.......................-.--.        204
+PGGH01172026.1  5656              .-.-.A-.-.-.-.-.......................-.--....-.-  5692
+PGGH01172026.1  5664                     .-.-.-.-.......................-.--....-.-  5696
+PGGH01172026.1  5668                     .-.-.-.-.......................-.--....-.-  5700
+PGGH01172026.1  5676                     .-.-.-.-.......................-.--.        5704
+PGGH01161438.1  105               .-.-.A-.-.-.-.-.......................-.--....-.-  69
+PGGH01161438.1  93                       .-.-.-.-.......................-.--.        65
+PGGH01160965.1  5051              .-.-..-.-.-.-.-.......................-.--....     5016
+PGGH01160937.1  12479                  .-.-.-.-.-.......................-.--....-.-  12446
+PGGH01160937.1  12474                    .-.-.-.-.......................-.--....     12443
+PGGH01158859.1  7499                     .-.-.-.-.......................-.--....-A-  7531
+PGGH01158859.1  7490                   .-.-.-.-.-.......................-.--....-.-  7523
+PGGH01158859.1  7495                     .-.-.-.-.......................-.--....-.-  7527
+PGGH01158857.1  11380                  .-.-.-.-.-.......................-.--....-.-  11413
+PGGH01158401.1  188                    .-.-.-.-.-.......................-.--....-.-  155
+PGGH01158401.1  179                      .-.-.-.-.......................-.--....-.-  147
+PGGH01158401.1  183                      .-.-.-.-.......................-.--....-.-  151
+PGGH01158401.1  171                      .-.-.-.-.......................-.--.        143
+PGGH01148450.1  1270                   .-.-.-.-.-.......................-.--....-.-  1303
+PGGH01148450.1  1275                     .-.-.-.-.......................-.--....-.-  1307
+PGGH01148370.1  11307             .-.-.A-.-.-.-.-.......................-.--....-.-  11343
+PGGH01148370.1  11302                  .-.-.-.-.-.AA....................-.--....-.-  11335
+PGGH01148370.1  11315                    .-.-.-.-.......................-.--....-.-  11347
+PGGH01148370.1  11323                    .-.-.-.-.......................-.--.        11351
+PGGH01146147.1  603                    .-.-.-.-.-.......................-.--....-.-  570
+PGGH01146147.1  594                      .-.-.-.-.......................-.--....-.-  562
+PGGH01146147.1  598                      .-.-.-.-.......................-.--....-.-  566
+PGGH01146147.1  590                      .-.-.-.-.......................-.--....-.   558
+PGGH01146052.1  2307                   .-.-.-.-.-.......................-.--....-.-  2274
+PGGH01146052.1  2298                     .-.-.-.-.......................-.--....-.-  2266
+PGGH01146052.1  2302                     .-.-.-.-.......................-.--....-.-  2270
+PGGH01146052.1  2294                     .-.-.-.-.......................-.--....-.-  2262
+PGGH01140924.1  21558                    .-.-.-.-.......................-.--....-.-  21526
+PGGH01139397.1  8239                     .-.-.-.-.......................-.--....-.-  8207
+PGGH01139397.1  8252                   .-.-.-.-.-.......................-.--....-.-  8219
+PGGH01139397.1  8256                   .-.-.-.-T-.......................-.--....-.-  8223
+PGGH01139397.1  8243                     .-.-.-.-.......................-.--....-.-  8211
+PGGH01139397.1  8247                     .-.-.-.-.......................-.--....-.-  8215
+PGGH01139395.1  8409                   .-.-.-.-.-.......................-.--....-.-  8442
+PGGH01139395.1  8414                     .-.-.-.-.......................-.--....-.-  8446
+PGGH01135789.1  11325                  .-.-.-.-.-.......................-.--....-.-  11292
+PGGH01135789.1  11320                    .-.-.-.-.......................-.--....-.-  11288
+PGGH01135789.1  11316                    .-.-.-.-.......................-.--....-.   11284
+PGGH01135481.1  4489                     .-.-.-.-.......................-.--....-.-  4457
+PGGH01135481.1  4491                         .-.-.......................-.--....-.-  4461
+PGGH01130300.1  7019                     .-.-.-.-.......................-.--....-.-  6987
+PGGH01130300.1  7022                       .-.-.-.......................-.--....-.-  6991
+PGGH01129128.1  84                       .-.-.-.-.......................-.--....-.-  52
+PGGH01127069.1  3348                   .-.-.-.-T-.......................-.--....-.-  3381
+PGGH01122406.1  4016                   .-.-.-.-.-.......................-.--....-.-  4049
+PGGH01122406.1  4021                     .-.-.-.-.......................-.--....     4052
+PGGH01122406.1  4025                     .-.-.-.-.......................-.--C...     4056
+PGGH01122353.1  88                     .-.-.-.-.-.......................-.--....-.-  55
+PGGH01122353.1  79                       .-.-.-.-.......................-.--....-.-  47
+PGGH01122353.1  83                       .-.-.-.-.......................-.--....-.-  51
+PGGH01122353.1  71                       .-.-.-.-.......................-.--.        43
+PGGH01121920.1  12221                 ..-.-.-.-.-.......................-.--....-.-  12187
+PGGH01121920.1  12215                    .-.-.-.-.......................-.--..C.-.-  12183
+PGGH01121920.1  12219                            .......................-.--....-.-  12191
+PGGH01119649.1  2618                     .-.-.-.-.......................-.--....-.-  2586
+PGGH01119649.1  2623                   .-.-.-.-.-.......................-.--....-.-  2590
+PGGH01118709.1  4229                     .-.-.-.-.......................-.--....-.-  4261
+PGGH01116990.1  20304                  .-.-.-.-.-.......................-.--....-.-  20337
+PGGH01115776.1  4516                   .-.-.-.-.-.......................-.--....-.-  4483
+PGGH01115776.1  4511                     .-.-.-.-.......................-.--....-.-  4479
+PGGH01115776.1  4503                     .-.-.-.-.......................-.--.        4475
+PGGH01114771.1  3578                .-..-.-.-.-.-.......................-.--....-.   3613
+PGGH01114771.1  3581                             .......................-.--....-.-  3609
+PGGH01113940.1  1807                     .-.-.-.-.......................-.--....-.-  1775
+PGGH01113940.1  1812                   .-.-.-.-.-.......................-.--....-.-  1779
+PGGH01113299.1  1947                     .-.-.-.-.......................-.--....-.-  1979
+PGGH01113299.1  1946                           .-.......................-.--....-.-  1975
+PGGH01109976.1  2727                     .-.-.-.-.......................-.--....-.-  2759
+PGGH01107647.1  5859                     .-.-.-.-.......................-.--....-.-  5891
+PGGH01107647.1  5855                     .-.-.-.-.......................-.--....-.-  5887
+PGGH01107167.1  55                       .-.-.-.-.......................-.--....-.-  23
+PGGH01107167.1  59                       .-.-.-.-.......................-.--....-.-  27
+PGGH01107167.1  60                             .-.......................-.--....-.-  31
+PGGH01105386.1  7630                     .-.-.-.-.......................-.--....-.-  7662
+PGGH01105386.1  7628                         .-.-.......................-.--....-.-  7658
+PGGH01105261.1  12281                    .-.-.-.-.......................-.--....-.-  12313
+PGGH01105261.1  12273                    .-.-.-.-.......................-.--....-.-  12305
+PGGH01105261.1  12277                    .-.-.-.-.......................-.--....-.-  12309
+PGGH01105261.1  12272                          .-.......................-.--....-.-  12301
+PGGH01098779.1  2242                     .-.-.-.-.......................-.--...T-.-  2274
+PGGH01098779.1  2238                     .-.-.-.-.......................-.--....-.-  2270
+PGGH01098779.1  2232                   .-.-.-.C.-.......................-.--....-.-  2266
+PGGH01098779.1  2229                  ..-.-.-.---..C....................-.--....-.-  2262
+PGGH01097016.1  6113            ...-.-.--.-.-.-.-.......................-.--....-.-  6076
+PGGH01097016.1  6109                           .-.......................-.--....-.-  6080
+PGGH01095086.1  10198                  .-.-.-.-.-.......................-.--....-.-  10165
+PGGH01095086.1  10189                    .-.-.-.-.......................-.--....-.-  10157
+PGGH01095086.1  10193                    .-.-.-.-.......................-.--....-.-  10161
+PGGH01095086.1  10185                    .-.-.-.-.......................-.--....-.-  10153
+PGGH01089470.1  11596            ..-T-..-.-.-.-.-.......................-.--....-.-  11633
+PGGH01089470.1  11597                      .-.-.T.......................-.--....-.-  11629
+PGGH01087917.1  1908           ...C-.-.A-.-.-.-.-.......................-.--....-.-  1869
+PGGH01087917.1  1893                     .-.-.-.-.......................-.--.        1865
+PGGH01087292.1  13899                  .-.-.-.-.-.......................-.--....-.-  13932
+PGGH01087292.1  13908                    .-.-.-.-.......................-.--.        13936
+PGGH01085411.1  71                       .-.-.-.-.......................-.--....-.-  39
+PGGH01085411.1  75                       .-.-.-.-.......................-.--....-.-  43
+PGGH01085411.1  77                           .-.-.......................-.--....-.-  47
+PGGH01084497.1  1910             ..-C-..-.-.-.-.-.......................-.--....-.-  1947
+PGGH01084497.1  1915                             .......................-.--....-.-  1943
+PGGH01079965.1  45                    ..-.-.-.-.-.......................-.--...--.-  12
+PGGH01079965.1  54               ..-.C..-.-.-.-.T.......................-.--....-.-  15
+PGGH01074283.1  4831                   .-.-.-.-.-.......................-.--....-.-  4798
+PGGH01074283.1  4814                     .-.-.-.-.......................-.--....-.-  4782
+PGGH01074283.1  4818                     .-.-.-.-.......................-.--....-.-  4786
+PGGH01074283.1  4822                     .-.-.-.-.......................-.--....-.-  4790
+PGGH01074283.1  4826                     .-.-.-.-.......................-.--....-.-  4794
+PGGH01074283.1  4806                     .-.-.-.-.......................-.--.        4778
+PGGH01071213.1  8500                   .-.-.-.-.-.......................-.--....-.-  8533
+PGGH01071213.1  8505                     .-.-.-.-.......................-.--....-.-  8537
+PGGH01071213.1  8509                     .-.-.-.-.......................-.--....     8540
+PGGH01065908.1  8918                     .-.-.-.-.......................-.--....-.-  8886
+PGGH01065908.1  8922                     .-.-.-.-.......................-.--....-.-  8890
+PGGH01065908.1  8926                     .-.-.-.-.......................-.--....-.-  8894
+PGGH01065908.1  8930                     .-.-.-.-.......................-.--....-.-  8898
+PGGH01065908.1  8932                         .-.-.......................-.--....-.-  8902
+
+Query_5         523    T-T-TGGAGATAGAGTCTTGCTCTGTCTCCAGGCTGGAGTACAGTGGTGCGATCATGGCT  580
+PGGH01363951.1  176    .-.-.                                                         178
+PGGH01214770.1  8389   .-.-.T......                                                  8398
+PGGH01214770.1  8377   .-.                                                           8378
+PGGH01214770.1  8381   .-.                                                           8382
+PGGH01214770.1  8385   .-.                                                           8386
+PGGH01214770.1  8373   .-.                                                           8374
+PGGH01466126.1  1176   .-.-....                                                      1171
+PGGH01466126.1  1180   .-.                                                           1179
+PGGH01466126.1  1184   .-.                                                           1183
+PGGH01203110.1  2764   .-.-...                                                       2760
+PGGH01199842.1  11386  .-.                                                           11387
+PGGH01199842.1  11390  .-.                                                           11391
+PGGH01199842.1  11394  .G.-...                                                       11399
+PGGH01176182.1  1964   .-.-.                                                         1966
+PGGH01063804.1  4405   .-.                                                           4404
+PGGH01063804.1  4400   .-.-.                                                         4398
+PGGH01015148.1  92     .-.-..                                                        89
+PGGH01014397.1  21     .-.                                                           20
+PGGH01014397.1  13     .-.                                                           12
+PGGH01014397.1  17     .-.                                                           16
+PGGH01014397.1  8      .-.-...                                                       4
+PGGH01425287.1  411    .-.                                                           412
+PGGH01425287.1  415    .-.A...                                                       420
+PGGH01405485.1  4647   .-.                                                           4648
+PGGH01405485.1  4651   .                                                             4651
+PGGH01372187.1  172    .-.                                                           171
+PGGH01372187.1  168    .C.-...                                                       163
+PGGH01363780.1  28     .-.                                                           27
+PGGH01363780.1  24     .-.-.                                                         22
+PGGH01363780.1  20     .-.-.                                                         18
+PGGH01255776.1  46     .-.-...                                                       50
+PGGH01255776.1  38     .-.                                                           39
+PGGH01250082.1  2356   .-.-.                                                         2354
+PGGH01211577.1  18     .-.-...                                                       14
+PGGH01211577.1  26     .-.                                                           25
+PGGH01170718.1  8157   .-.                                                           8158
+PGGH01170718.1  8161   .-.-...                                                       8165
+PGGH01169640.1  3483   .-.-..                                                        3480
+PGGH01162860.1  45     .-.-.                                                         43
+PGGH01152430.1  1600   .-.-...                                                       1604
+PGGH01152430.1  1588   .-.                                                           1589
+PGGH01152430.1  1592   .-.                                                           1593
+PGGH01152430.1  1596   .-.                                                           1597
+PGGH01150003.1  636    .                                                             636
+PGGH01150003.1  632    .-.                                                           633
+PGGH01138666.1  396    .-.-.                                                         398
+PGGH01132468.1  2      .-.                                                           1
+PGGH01120868.1  698    .-.-..T..                                                     692
+PGGH01075588.1  7128   .-.-...                                                       7132
+PGGH01075588.1  7124   .-.                                                           7125
+PGGH01075588.1  7120   .-.                                                           7121
+PGGH01073765.1  743    .-.-...                                                       739
+PGGH01073765.1  751    .-.                                                           750
+PGGH01073765.1  747    .-.                                                           746
+PGGH01057159.1  2222   .-.                                                           2223
+PGGH01057159.1  2226   .G.-..                                                        2230
+PGGH01048351.1  4039   .-.-G..G....A...                                              4052
+PGGH01048351.1  4035   .-.                                                           4036
+PGGH01048351.1  4027   .-.                                                           4028
+PGGH01048351.1  4031   .-.                                                           4032
+PGGH01031786.1  2382   .-.-..                                                        2379
+PGGH01027879.1  4506   .-.-.                                                         4508
+PGGH01000163.1  7073   .-.-A.....                                                    7080
+PGGH01000163.1  7069   .-.                                                           7070
+PGGH01000163.1  7065   .-.                                                           7066
+PGGH01446118.1  2145   .-.                                                           2146
+PGGH01431234.1  1020   .-.-..                                                        1023
+PGGH01431234.1  1012   .-.                                                           1013
+PGGH01431234.1  1016   .-.                                                           1017
+PGGH01431234.1  1008   .-.                                                           1009
+PGGH01419678.1  2895   .-.-.                                                         2897
+PGGH01419678.1  2899   .-.-..                                                        2902
+PGGH01414423.1  85     .-.-.T..                                                      80
+PGGH01414423.1  89     .-.                                                           88
+PGGH01384544.1  4      .-.-.                                                         2
+PGGH01365414.1  1440   .-.                                                           1441
+PGGH01365414.1  1444   .-.                                                           1445
+PGGH01365414.1  1448   .-.                                                           1449
+PGGH01365414.1  1453   .-.-.                                                         1455
+PGGH01360592.1  20     .-.-.                                                         18
+PGGH01350059.1  1979   .-.                                                           1980
+PGGH01350059.1  1983   A-.-..                                                        1986
+PGGH01327353.1  56     .-.                                                           55
+PGGH01327353.1  44     .-.-.                                                         42
+PGGH01327353.1  48     .-.                                                           47
+PGGH01327353.1  52     .-.                                                           51
+PGGH01325340.1  18     .-.                                                           17
+PGGH01325340.1  14     .-.                                                           13
+PGGH01325340.1  6      .-.                                                           5
+PGGH01325340.1  10     .-.                                                           9
+PGGH01320930.1  120    .-.-..                                                        117
+PGGH01320930.1  124    .-.                                                           123
+PGGH01317119.1  5233   .-.                                                           5234
+PGGH01313931.1  2664   .-.                                                           2665
+PGGH01313931.1  2672   .-.-.                                                         2674
+PGGH01313931.1  2668   .-.                                                           2669
+PGGH01293825.1  3975   .-.-.                                                         3977
+PGGH01287471.1  90     .-.-.                                                         88
+PGGH01284701.1  6      .-G-...                                                       2
+PGGH01284701.1  38     .-.                                                           37
+PGGH01284701.1  10     .-.-.                                                         8
+PGGH01284701.1  14     .-.                                                           13
+PGGH01284701.1  18     .-.                                                           17
+PGGH01284701.1  22     .-.                                                           21
+PGGH01284701.1  26     .-.                                                           25
+PGGH01284701.1  30     .-.                                                           29
+PGGH01284701.1  34     .-.                                                           33
+PGGH01282613.1  205    .-.                                                           204
+PGGH01282613.1  201    .-.                                                           200
+PGGH01278297.1  5758   .-.-..                                                        5761
+PGGH01278297.1  5750   .-.                                                           5751
+PGGH01278297.1  5754   .-.                                                           5755
+PGGH01272437.1  3717   .-.                                                           3718
+PGGH01272437.1  3733   .-.-..                                                        3736
+PGGH01272437.1  3721   .-.                                                           3722
+PGGH01272437.1  3725   .-.                                                           3726
+PGGH01272437.1  3729   .-.                                                           3730
+PGGH01267798.1  6755   .-.-.                                                         6757
+PGGH01256247.1  42     .-.-...                                                       38
+PGGH01233528.1  7606   .-.                                                           7607
+PGGH01233528.1  7614   .-.-.                                                         7616
+PGGH01226070.1  5699   .-.                                                           5698
+PGGH01226070.1  5694   .-.-.                                                         5692
+PGGH01223060.1  2229   .-.-A..                                                       2225
+PGGH01223060.1  2233   .-.                                                           2232
+PGGH01223060.1  2219   .-.-..                                                        2216
+PGGH01213792.1  7197   .-.                                                           7198
+PGGH01213792.1  7201   .-.-.                                                         7203
+PGGH01199215.1  41     .-.-..                                                        38
+PGGH01199215.1  45     .-.                                                           44
+PGGH01199215.1  49     .-.                                                           48
+PGGH01199215.1  53     .-.                                                           52
+PGGH01198873.1  2391   .-.                                                           2392
+PGGH01198873.1  2411   .-.-..                                                        2414
+PGGH01198873.1  2395   .-.                                                           2396
+PGGH01198873.1  2399   .-.                                                           2400
+PGGH01198873.1  2403   .-.                                                           2404
+PGGH01198873.1  2407   .-.                                                           2408
+PGGH01195428.1  7734   .-.-.                                                         7736
+PGGH01193044.1  17     .-.-.                                                         15
+PGGH01188896.1  469    .-.-..                                                        472
+PGGH01188896.1  465    .-.                                                           466
+PGGH01181037.1  8199   .-.                                                           8200
+PGGH01181037.1  8203   .-.                                                           8204
+PGGH01181037.1  8207   .-.                                                           8208
+PGGH01179020.1  57     .-.                                                           56
+PGGH01179020.1  41     .-.A...                                                       36
+PGGH01179020.1  45     .-.                                                           44
+PGGH01179020.1  49     .-.                                                           48
+PGGH01179020.1  53     .-.                                                           52
+PGGH01172974.1  2      .-.                                                           1
+PGGH01163708.1  88     .-.-..                                                        85
+PGGH01163708.1  92     .-.                                                           91
+PGGH01163708.1  96     .-.                                                           95
+PGGH01161350.1  15471  .-.-.                                                         15473
+PGGH01160812.1  6113   .-.-A.C...                                                    6106
+PGGH01160812.1  6121   .-.                                                           6120
+PGGH01160812.1  6117   .-.                                                           6116
+PGGH01154103.1  4313   .-.-.                                                         4311
+PGGH01150033.1  1638   .-.-.                                                         1640
+PGGH01149655.1  746    .-.                                                           745
+PGGH01149655.1  738    .-.                                                           737
+PGGH01149655.1  742    .-.                                                           741
+PGGH01149655.1  734    .                                                             734
+PGGH01132219.1  8847   .-.                                                           8848
+PGGH01132219.1  8851   .-.                                                           8852
+PGGH01132219.1  8855   .-.                                                           8856
+PGGH01132219.1  8859   .-.                                                           8860
+PGGH01132219.1  8863   .-.                                                           8864
+PGGH01132219.1  8868   .-.-.                                                         8870
+PGGH01129348.1  8232   .-.-.                                                         8230
+PGGH01122597.1  2142   .-.-..                                                        2139
+PGGH01122597.1  2146   .-.                                                           2145
+PGGH01117810.1  5826   .-.                                                           5825
+PGGH01117810.1  5818   .-.A...                                                       5813
+PGGH01117810.1  5822   .-.                                                           5821
+PGGH01111072.1  3624   .-.                                                           3625
+PGGH01111072.1  3628   .                                                             3628
+PGGH01098992.1  48     .                                                             48
+PGGH01098992.1  52     .-.                                                           51
+PGGH01090606.1  17895  .-.-.T...G..                                                  17886
+PGGH01090606.1  17899  .-.                                                           17898
+PGGH01090606.1  17903  .-.                                                           17902
+PGGH01090606.1  17907  .-.                                                           17906
+PGGH01090606.1  17911  .-.                                                           17910
+PGGH01090279.1  8938   .-.                                                           8939
+PGGH01085358.1  54     .-.                                                           53
+PGGH01085358.1  46     .-.-.                                                         44
+PGGH01085358.1  50     .-.                                                           49
+PGGH01082854.1  4043   .-.-..                                                        4046
+PGGH01082854.1  4027   .-.                                                           4028
+PGGH01082854.1  4031   .-.                                                           4032
+PGGH01082854.1  4035   .-.                                                           4036
+PGGH01082854.1  4039   .-.                                                           4040
+PGGH01082854.1  4023   .-.                                                           4024
+PGGH01076859.1  76     .-.-A..                                                       72
+PGGH01076859.1  84     .-.                                                           83
+PGGH01076200.1  3046   .-.                                                           3045
+PGGH01076200.1  3042   .                                                             3042
+PGGH01065330.1  7743   .-.                                                           7744
+PGGH01065188.1  154    .-.-..                                                        151
+PGGH01065188.1  158    .-.                                                           157
+PGGH01065188.1  162    .-.                                                           161
+PGGH01065188.1  166    .-.                                                           165
+PGGH01065188.1  170    .-.                                                           169
+PGGH01065188.1  174    .-.                                                           173
+PGGH01061463.1  3776   .-.-..C..                                                     3770
+PGGH01061463.1  3780   .-.                                                           3779
+PGGH01061463.1  3784   .-.                                                           3783
+PGGH01061463.1  3788   .-.                                                           3787
+PGGH01056492.1  1999   .-.                                                           2000
+PGGH01043503.1  2      .-.                                                           1
+PGGH01020830.1  5143   .-.                                                           5144
+PGGH01016704.1  18136  .-.A...                                                       18141
+PGGH01016331.1  33     .-.                                                           32
+PGGH01016331.1  9      .-.G...                                                       4
+PGGH01016331.1  13     .-.                                                           12
+PGGH01016331.1  17     .-.                                                           16
+PGGH01016331.1  21     .-.                                                           20
+PGGH01016331.1  25     .-.                                                           24
+PGGH01016331.1  29     .-.                                                           28
+PGGH01015871.1  6071   .-.A...                                                       6076
+PGGH01013598.1  2717   .-.                                                           2718
+PGGH01011479.1  3345   .-.                                                           3344
+PGGH01011479.1  3333   .-.-.                                                         3331
+PGGH01011479.1  3337   .-.                                                           3336
+PGGH01011479.1  3341   .-.                                                           3340
+PGGH01009319.1  2128   .-.-..                                                        2131
+PGGH01009319.1  2124   .-.                                                           2125
+PGGH01009319.1  2120   .-.                                                           2121
+PGGH01006878.1  13926  .-.                                                           13925
+PGGH01006878.1  13922  .-.                                                           13921
+PGGH01004217.1  9083   .-.-.                                                         9085
+PGGH01479585.1  7      .-.A...                                                       2
+PGGH01472561.1  9      .-.                                                           8
+PGGH01469840.1  1078   .-.-.                                                         1076
+PGGH01469840.1  1082   .-.                                                           1081
+PGGH01469840.1  1086   .-.                                                           1085
+PGGH01469840.1  1090   .-.                                                           1089
+PGGH01469840.1  1094   .-.                                                           1093
+PGGH01469840.1  1098   .-.                                                           1097
+PGGH01458856.1  2      .-.                                                           1
+PGGH01448150.1  1091   .-.-...                                                       1095
+PGGH01442086.1  930    .-.A...                                                       935
+PGGH01439842.1  1727   .-.-..                                                        1730
+PGGH01428335.1  3838   .-.                                                           3837
+PGGH01428335.1  3822   .-.A...                                                       3817
+PGGH01428335.1  3826   .-.                                                           3825
+PGGH01428335.1  3830   .-.                                                           3829
+PGGH01428335.1  3834   .-.                                                           3833
+PGGH01420520.1  18     .-.-.                                                         16
+PGGH01420520.1  22     .-.                                                           21
+PGGH01420520.1  26     .-.                                                           25
+PGGH01415792.1  1685   .-.                                                           1686
+PGGH01412505.1  46     .-.                                                           45
+PGGH01412505.1  42     .-.                                                           41
+PGGH01412505.1  38     .                                                             38
+PGGH01412505.1  54     .-.                                                           53
+PGGH01408996.1  2      .-.                                                           1
+PGGH01408731.1  644    .                                                             644
+PGGH01408731.1  640    .-.                                                           641
+PGGH01403324.1  550    .-.-.                                                         552
+PGGH01401202.1  1553   .-.-.                                                         1551
+PGGH01401202.1  1561   .-.                                                           1560
+PGGH01400663.1  4126   .-.-.                                                         4128
+PGGH01400663.1  4122   .-.                                                           4123
+PGGH01395962.1  3802   .-.                                                           3803
+PGGH01385669.1  2401   .                                                             2401
+PGGH01385669.1  2397   .-.                                                           2398
+PGGH01382647.1  88     .-.                                                           87
+PGGH01382647.1  80     G-.-.                                                         78
+PGGH01382647.1  84     .-.                                                           83
+PGGH01381938.1  1776   .-.-..                                                        1779
+PGGH01379851.1  856    .-.                                                           857
+PGGH01379851.1  860    .-.-.                                                         862
+PGGH01379141.1  1      .                                                             1
+PGGH01379141.1  5      .-.                                                           4
+PGGH01378722.1  5022   .-.-.                                                         5020
+PGGH01378722.1  5026   .-.                                                           5025
+PGGH01378722.1  5030   .-.                                                           5029
+PGGH01378722.1  5034   .-.                                                           5033
+PGGH01378722.1  5038   .-.                                                           5037
+PGGH01378722.1  5042   .-.                                                           5041
+PGGH01377354.1  105    .-.-.                                                         103
+PGGH01377354.1  113    .-.                                                           112
+PGGH01377354.1  109    .-.                                                           108
+PGGH01374494.1  18     .-.-..                                                        15
+PGGH01368196.1  2814   .                                                             2814
+PGGH01368196.1  2818   .-.                                                           2817
+PGGH01367944.1  1449   .-.                                                           1450
+PGGH01367189.1  1992   .-.                                                           1993
+PGGH01364500.1  2602   .-.                                                           2603
+PGGH01364500.1  2610   .-.-.                                                         2612
+PGGH01364500.1  2606   .-.                                                           2607
+PGGH01353010.1  43     .-.                                                           44
+PGGH01353010.1  47     .-.                                                           48
+PGGH01353010.1  51     .-.                                                           52
+PGGH01353010.1  55     .-.                                                           56
+PGGH01353010.1  59     .                                                             59
+PGGH01350919.1  159    .-.-...                                                       155
+PGGH01348832.1  35     .-.                                                           34
+PGGH01348832.1  23     .-.A...                                                       18
+PGGH01348832.1  27     .-.                                                           26
+PGGH01348832.1  31     .-.                                                           30
+PGGH01344017.1  1581   .-.-.                                                         1583
+PGGH01344017.1  1573   .-.                                                           1574
+PGGH01344017.1  1577   .-.                                                           1578
+PGGH01340059.1  51     .-.                                                           50
+PGGH01340059.1  43     .-.                                                           42
+PGGH01340059.1  47     .-.                                                           46
+PGGH01337615.1  1785   .                                                             1785
+PGGH01337615.1  1781   .-.                                                           1782
+PGGH01336343.1  895    .-.                                                           896
+PGGH01336343.1  899    .-.                                                           900
+PGGH01336343.1  903    .-.                                                           904
+PGGH01336343.1  907    .-.                                                           908
+PGGH01336343.1  911    .-.                                                           912
+PGGH01334783.1  4069   .-.-...                                                       4073
+PGGH01328573.1  881    .-.                                                           882
+PGGH01327200.1  2795   .-.                                                           2796
+PGGH01327200.1  2799   .-.-.                                                         2801
+PGGH01327200.1  2791   .-.                                                           2792
+PGGH01319632.1  1      .                                                             1
+PGGH01319632.1  5      .-.                                                           4
+PGGH01317480.1  55     .-.-.                                                         57
+PGGH01317480.1  35     .-.                                                           36
+PGGH01317480.1  39     .-.                                                           40
+PGGH01317480.1  43     .-.                                                           44
+PGGH01317480.1  47     .-.                                                           48
+PGGH01317480.1  51     .-.                                                           52
+PGGH01317480.1  31     .-.                                                           32
+PGGH01315678.1  1409   .-.                                                           1408
+PGGH01315678.1  1397   .-.A...                                                       1392
+PGGH01315678.1  1401   .-.                                                           1400
+PGGH01315678.1  1405   .-.                                                           1404
+PGGH01311162.1  7580   .-.-.                                                         7582
+PGGH01311162.1  7576   .-.                                                           7577
+PGGH01311162.1  7583   .-.-..                                                        7586
+PGGH01309805.1  1551   .-.                                                           1552
+PGGH01306363.1  11     .-.-.                                                         9
+PGGH01306363.1  15     .-.                                                           14
+PGGH01304922.1  733    .-.-...                                                       737
+PGGH01302182.1  18     .-.-.                                                         16
+PGGH01300835.1  965    .-.-.                                                         967
+PGGH01300835.1  953    .-.                                                           954
+PGGH01300835.1  957    .-.                                                           958
+PGGH01300835.1  961    .-.                                                           962
+PGGH01300835.1  949    .-.                                                           950
+PGGH01296432.1  54     .-.                                                           53
+PGGH01296432.1  42     .-.                                                           41
+PGGH01296432.1  46     .-.                                                           45
+PGGH01296432.1  50     .-.                                                           49
+PGGH01296432.1  38     .                                                             38
+PGGH01295213.1  5636   .-.                                                           5637
+PGGH01294421.1  16713  .-.                                                           16714
+PGGH01294421.1  16717  .C.-...                                                       16722
+PGGH01293934.1  4974   .                                                             4974
+PGGH01293934.1  4970   .-.                                                           4971
+PGGH01291489.1  44     .-.                                                           43
+PGGH01291489.1  40     .                                                             40
+PGGH01290728.1  1166   .-.                                                           1167
+PGGH01290728.1  1174   .-.-.                                                         1176
+PGGH01290728.1  1170   .-.                                                           1171
+PGGH01288935.1  889    .-.                                                           888
+PGGH01288935.1  885    .-.                                                           884
+PGGH01288935.1  881    .                                                             881
+PGGH01284827.1  1595   G-.-..                                                        1592
+PGGH01284181.1  1964   .-.                                                           1965
+PGGH01284181.1  1968   .-.                                                           1969
+PGGH01272527.1  121    .                                                             121
+PGGH01272527.1  125    .-.                                                           124
+PGGH01267039.1  8299   .-.                                                           8300
+PGGH01267039.1  8303   .-.                                                           8304
+PGGH01267039.1  8307   .                                                             8307
+PGGH01263763.1  6504   .-.                                                           6505
+PGGH01263763.1  6512   .-.-.                                                         6514
+PGGH01263763.1  6508   .-.                                                           6509
+PGGH01260132.1  8049   .-.-.                                                         8051
+PGGH01260132.1  8033   .-.                                                           8034
+PGGH01260132.1  8037   .-.                                                           8038
+PGGH01260132.1  8041   .-.                                                           8042
+PGGH01260132.1  8045   .-.                                                           8046
+PGGH01260132.1  8029   .-.                                                           8030
+PGGH01258772.1  3510   .-.                                                           3511
+PGGH01256316.1  296    .-.-G..                                                       292
+PGGH01256316.1  304    .-.                                                           303
+PGGH01256316.1  300    .-.                                                           299
+PGGH01253796.1  42     .-.-.                                                         40
+PGGH01253796.1  46     .-.                                                           45
+PGGH01253796.1  50     .-.                                                           49
+PGGH01253796.1  54     .-.                                                           53
+PGGH01251024.1  8881   .-.-.                                                         8883
+PGGH01251024.1  8865   .-.                                                           8866
+PGGH01251024.1  8869   .-.                                                           8870
+PGGH01251024.1  8873   .-.                                                           8874
+PGGH01251024.1  8877   .-.                                                           8878
+PGGH01251024.1  8861   .-.                                                           8862
+PGGH01247612.1  5315   .-.                                                           5316
+PGGH01245222.1  8572   .-.                                                           8573
+PGGH01245222.1  8568   .-.                                                           8569
+PGGH01242123.1  3424   .-.-.                                                         3426
+PGGH01242123.1  3420   .-.                                                           3421
+PGGH01242123.1  3416   .-.                                                           3417
+PGGH01240044.1  2914   .-.                                                           2915
+PGGH01240044.1  2918   .-.                                                           2919
+PGGH01240044.1  2922   .-.A...                                                       2927
+PGGH01238527.1  6284   .-.                                                           6285
+PGGH01238527.1  6292   .-.-.                                                         6294
+PGGH01238527.1  6288   .-.                                                           6289
+PGGH01233194.1  1111   .-.-.                                                         1113
+PGGH01233194.1  1107   .-.                                                           1108
+PGGH01233194.1  1103   .-.                                                           1104
+PGGH01233147.1  99     .-.-.                                                         97
+PGGH01233147.1  103    .-.                                                           102
+PGGH01233147.1  107    .-.                                                           106
+PGGH01233147.1  111    .-.                                                           110
+PGGH01233147.1  115    .-.                                                           114
+PGGH01232682.1  914    .                                                             914
+PGGH01232682.1  910    .-.                                                           911
+PGGH01230756.1  4826   .-.                                                           4827
+PGGH01230756.1  4830   .-.                                                           4831
+PGGH01229196.1  59     .-.-.                                                         61
+PGGH01229196.1  51     .-.                                                           52
+PGGH01229196.1  55     .-.                                                           56
+PGGH01228109.1  2653   .-.-.                                                         2655
+PGGH01228109.1  2641   .-.                                                           2642
+PGGH01228109.1  2645   .-.                                                           2646
+PGGH01228109.1  2649   .-.                                                           2650
+PGGH01226799.1  6359   .-.-.                                                         6361
+PGGH01226799.1  6364   .-.                                                           6365
+PGGH01224644.1  1984   .-.                                                           1985
+PGGH01222120.1  335    .-.                                                           334
+PGGH01222120.1  327    .-.                                                           326
+PGGH01222120.1  323    .                                                             323
+PGGH01208547.1  13027  .-.-.                                                         13029
+PGGH01208547.1  13007  .-.                                                           13008
+PGGH01208547.1  13011  .-.                                                           13012
+PGGH01208547.1  13015  .-.                                                           13016
+PGGH01208547.1  13019  .-.                                                           13020
+PGGH01208547.1  13023  .-.                                                           13024
+PGGH01208547.1  13030  .-.-.                                                         13032
+PGGH01208187.1  1486   .-.-.                                                         1488
+PGGH01208187.1  1482   .-.                                                           1483
+PGGH01208187.1  1478   .-.                                                           1479
+PGGH01207583.1  1798   .-.-.                                                         1800
+PGGH01207583.1  1790   .-.                                                           1791
+PGGH01207583.1  1794   .-.                                                           1795
+PGGH01207583.1  1786   .-.                                                           1787
+PGGH01206807.1  3005   .-.A...                                                       3010
+PGGH01203714.1  534    .-.                                                           533
+PGGH01203714.1  530    .-.                                                           529
+PGGH01203714.1  526    .                                                             526
+PGGH01201120.1  51     .-.                                                           50
+PGGH01201120.1  59     .-.                                                           58
+PGGH01201120.1  35     .-.-.                                                         33
+PGGH01201120.1  39     .-.                                                           38
+PGGH01201120.1  43     .-.                                                           42
+PGGH01201120.1  47     .-.                                                           46
+PGGH01200918.1  2      .-.                                                           1
+PGGH01200783.1  2232   .                                                             2232
+PGGH01200783.1  2228   .-.                                                           2229
+PGGH01199343.1  141    .-.                                                           140
+PGGH01199343.1  133    .-.                                                           132
+PGGH01199343.1  137    .-.                                                           136
+PGGH01197029.1  7354   .-.                                                           7355
+PGGH01197029.1  7358   .-.                                                           7359
+PGGH01197029.1  7362   .-.                                                           7363
+PGGH01197029.1  7366   .-.                                                           7367
+PGGH01197029.1  7370   .-.                                                           7371
+PGGH01194250.1  1553   .-.A...                                                       1558
+PGGH01191509.1  7950   .-.                                                           7951
+PGGH01189684.1  1445   .                                                             1445
+PGGH01189684.1  1441   .-.                                                           1442
+PGGH01186670.1  8      .-.                                                           7
+PGGH01186670.1  4      .-.                                                           3
+PGGH01182717.1  3877   .-.                                                           3876
+PGGH01182673.1  1998   .-.-.                                                         2000
+PGGH01182673.1  1994   .-.                                                           1995
+PGGH01182673.1  1986   .-.                                                           1987
+PGGH01182575.1  5390   .-.-.                                                         5392
+PGGH01181881.1  2289   .                                                             2289
+PGGH01181881.1  2285   .-.                                                           2286
+PGGH01181671.1  9842   .-.                                                           9843
+PGGH01181671.1  9858   .-.-.                                                         9860
+PGGH01181671.1  9846   .-.                                                           9847
+PGGH01181671.1  9850   .-.                                                           9851
+PGGH01181671.1  9854   .-.                                                           9855
+PGGH01179903.1  1      .                                                             1
+PGGH01179903.1  5      .-.                                                           4
+PGGH01178877.1  6448   .-.                                                           6449
+PGGH01178877.1  6452   .-.-.                                                         6454
+PGGH01177461.1  9389   .                                                             9389
+PGGH01177461.1  9393   .-.                                                           9392
+PGGH01177117.1  593    .-.-.                                                         595
+PGGH01177117.1  589    .-.                                                           590
+PGGH01175230.1  5775   .-.                                                           5776
+PGGH01175230.1  5779   .-.                                                           5780
+PGGH01175230.1  5783   .-.                                                           5784
+PGGH01175230.1  5787   .-.C...                                                       5792
+PGGH01174684.1  211    .-.                                                           210
+PGGH01174684.1  207    .-.A...                                                       202
+PGGH01172026.1  5693   .-.                                                           5694
+PGGH01172026.1  5697   .-.                                                           5698
+PGGH01172026.1  5701   .-.A...                                                       5706
+PGGH01161438.1  68     .-.A...                                                       63
+PGGH01160937.1  12445  .-.                                                           12444
+PGGH01158859.1  7532   .-.-...                                                       7536
+PGGH01158859.1  7524   .-.                                                           7525
+PGGH01158859.1  7528   .-.                                                           7529
+PGGH01158857.1  11414  .-.                                                           11415
+PGGH01158401.1  154    .-.                                                           153
+PGGH01158401.1  146    .-.A...                                                       141
+PGGH01158401.1  150    .-.                                                           149
+PGGH01148450.1  1304   .-.                                                           1305
+PGGH01148450.1  1308   .-.-.                                                         1310
+PGGH01148370.1  11344  .-.                                                           11345
+PGGH01148370.1  11336  .-.                                                           11337
+PGGH01148370.1  11348  .-.A...                                                       11353
+PGGH01146147.1  569    .-.                                                           568
+PGGH01146147.1  561    .-.                                                           560
+PGGH01146147.1  565    .-.                                                           564
+PGGH01146052.1  2273   .-.                                                           2272
+PGGH01146052.1  2265   .-.                                                           2264
+PGGH01146052.1  2269   .-.                                                           2268
+PGGH01146052.1  2261   .                                                             2261
+PGGH01140924.1  21525  .-.-.                                                         21523
+PGGH01139397.1  8206   .-.-.                                                         8204
+PGGH01139397.1  8218   .-.                                                           8217
+PGGH01139397.1  8222   .-.                                                           8221
+PGGH01139397.1  8210   .-.                                                           8209
+PGGH01139397.1  8214   .-.                                                           8213
+PGGH01139395.1  8443   .-.                                                           8444
+PGGH01139395.1  8447   .-.-.                                                         8449
+PGGH01135789.1  11291  .-.                                                           11290
+PGGH01135789.1  11287  .-.                                                           11286
+PGGH01135481.1  4456   .-.-.T..                                                      4451
+PGGH01135481.1  4460   .-.                                                           4459
+PGGH01130300.1  6986   .-.-.                                                         6984
+PGGH01130300.1  6990   .-.                                                           6989
+PGGH01129128.1  51     .-.-.                                                         49
+PGGH01127069.1  3382   .-.-...                                                       3386
+PGGH01122406.1  4050   .-.                                                           4051
+PGGH01122353.1  54     .-.                                                           53
+PGGH01122353.1  46     .-.A...                                                       41
+PGGH01122353.1  50     .-.                                                           49
+PGGH01121920.1  12186  .                                                             12186
+PGGH01121920.1  12182  .                                                             12182
+PGGH01121920.1  12190  .-.                                                           12189
+PGGH01119649.1  2585   .-.-.                                                         2583
+PGGH01119649.1  2589   .-.                                                           2588
+PGGH01118709.1  4262   .-.-.                                                         4264
+PGGH01116990.1  20338  .-.                                                           20339
+PGGH01115776.1  4482   .-.                                                           4481
+PGGH01115776.1  4478   .-.A...                                                       4473
+PGGH01114771.1  3610   .-.A...                                                       3615
+PGGH01113940.1  1774   .-.-.                                                         1772
+PGGH01113940.1  1778   .-.                                                           1777
+PGGH01113299.1  1980   .-.-.                                                         1982
+PGGH01113299.1  1976   .-.                                                           1977
+PGGH01109976.1  2760   .-.-.                                                         2762
+PGGH01107647.1  5892   .-.-.                                                         5894
+PGGH01107647.1  5888   .-.                                                           5889
+PGGH01107167.1  22     .-.-.                                                         20
+PGGH01107167.1  26     .-.                                                           25
+PGGH01107167.1  30     .-.                                                           29
+PGGH01105386.1  7663   .-.-.                                                         7665
+PGGH01105386.1  7659   .-.                                                           7660
+PGGH01105261.1  12314  .-.-.                                                         12316
+PGGH01105261.1  12306  .-.                                                           12307
+PGGH01105261.1  12310  .-.                                                           12311
+PGGH01105261.1  12302  .-.                                                           12303
+PGGH01098779.1  2275   .-.-..                                                        2278
+PGGH01098779.1  2271   .-.-.                                                         2273
+PGGH01098779.1  2267   .-.                                                           2268
+PGGH01098779.1  2263   .-.                                                           2264
+PGGH01097016.1  6075   .                                                             6075
+PGGH01097016.1  6079   .-.                                                           6078
+PGGH01095086.1  10164  .-.                                                           10163
+PGGH01095086.1  10156  .-.                                                           10155
+PGGH01095086.1  10160  .-.                                                           10159
+PGGH01095086.1  10152  .                                                             10152
+PGGH01089470.1  11634  .                                                             11634
+PGGH01089470.1  11630  .-.                                                           11631
+PGGH01087917.1  1868   .-.A...                                                       1863
+PGGH01087292.1  13933  .-.A...                                                       13938
+PGGH01085411.1  38     .-.-.                                                         36
+PGGH01085411.1  42     .-.                                                           41
+PGGH01085411.1  46     .-.                                                           45
+PGGH01084497.1  1948   .                                                             1948
+PGGH01084497.1  1944   .-.                                                           1945
+PGGH01079965.1  11     .-.                                                           10
+PGGH01079965.1  14     .-.-.                                                         12
+PGGH01074283.1  4797   .-.                                                           4796
+PGGH01074283.1  4781   .-.A...                                                       4776
+PGGH01074283.1  4785   .-.                                                           4784
+PGGH01074283.1  4789   .-.                                                           4788
+PGGH01074283.1  4793   .-.                                                           4792
+PGGH01071213.1  8534   .-.                                                           8535
+PGGH01071213.1  8538   .-.                                                           8539
+PGGH01065908.1  8885   .-.-.                                                         8883
+PGGH01065908.1  8889   .-.                                                           8888
+PGGH01065908.1  8893   .-.                                                           8892
+PGGH01065908.1  8897   .-.                                                           8896
+PGGH01065908.1  8901   .-.                                                           8900
+
+Query_5         581    CACTGCAACCTCCACCTCCTGGGTTCAAGCAATTCTCCAGCCTCAGCCTCCCAAGTAGCT  640
+
+Query_5         641    GGGACTACAGGCACACACTACACCTGGCTAAGTTTTTATATTTTAGTAGAGATGGGGTTT  700
+
+Query_5         701    CACCACGTTGCCCAGGCTGGTCTCCAGCTCCTGAGCTCAGGCCATCCAGTCACATTGGCC  760
+
+Query_5         761    TCTCAAAGGGTTAGGATTACAGGCGTGAGCCACCAGGCCCAGCCTCGAGTCTGGGTAATT  820
+
+Query_5         821    TATAAAGAAAAGAGGTTTAATTGGCTCATGGTTCCCCAGGCTGTACAGGAAGCATGACTG  880
+
+Query_5         881    GGGAGGCCTCAGGAAACTTACAATCAAGGCAGAAGGCAAAAGAGAAGCAGACCTGTCCTA  940
+
+Query_5         941    CGAGTCTGGAGCAGGAGAAAGAAAGAAGTGGGAGGTGCTATGCACTTTTAAACAACCAAA  1000
+
+Query_5         1001   TCTCGTGAGAACTCACTATCATGAGAACAGCAAGGAGGAAATCCACCCCCATGATCCAAT  1060
+
+Query_5         1061   CACCTCCCACCAGGCACCTCCTCCAACACTGGGGATTAAATTCAACATGAGATTTGGGCA  1120
+
+Query_5         1121   GGGAGACAGATCCAAATCATATATCAGTCTGCTCAGTTGAAACCACACAATAGCCAAGCA  1180
+PGGH01221976.1  2662                                 ..............C.CA..C.........  2633
+
+Query_5         1181   AAGCCAAGAAAGCCAGTCCAAGGCTGGCTTGGAAAGGGCCTCTGAGGAGAAATC-AACTT  1239
+PGGH01221976.1  2632   ...................--..A-..-----.....A...G-.-....C....C.....  2583
+
+Query_5         1240   --TC--A-AAGGGGC-AGGGGGAAATAGAGGTTGAGCTACTGCAAGCCCAAAATAAAAGA  1293
+PGGH01221976.1  2582   CC..TT.C..A...AT.........C....ACA.G...G..A..........G.G.....  2523
+
+Query_5         1294   AATCCTGAGAAGGATGGTAACCAGCTGGAAGATTCCTTTGTGTTGCTCCACTATA--TCA  1351
+PGGH01221976.1  2522   .-.........T....ACG.T..A..A.G....GTT.......G..C.....-..CC...  2465
+
+Query_5         1352   AGCAAGAAATTGAGTCTTTGGCTGGGCGCGGTGGCTCTTGCCTGTAATCCCAGCACTTTG  1411
+PGGH01221976.1  2464   .A......CG........                                            2447
+
+Query_5         1412   GGAGGCTAAGGTGTGCAGATCACTTGAGGTCAGGACTTCGAGACCAGCCTGGCCAACATG  1471
+
+Query_5         1472   GCAAAGCCCTGTCTCTACCCAAAATACAAAAATTAGCTGGATGTGGTGGTGCACACCTGT  1531
+
+Query_5         1532   AGTCCCAGCTACTCAGGAGGTTGAGGCAGGAGAATTGCTTGAACCAGGAGGCAGAGCTTG  1591
+
+Query_5         1592   CAGTGAGCTGGGATCATGCCACTGTGCTCCAGCCTGGGTGACAGAGCCAGACTCCATCTC  1651
+
+Query_5         1652   AAAAAAAAAAAAAAAAAAAAAAAGAATAAATTAGGTCTTCATTGCCCTGTGTTAGTGTAA  1711
+
+Query_5         1712   AGCTATGAAGGCTCCCCTGGCTCATACAACATTTCATTGCTAATGAAAACATGGTGAGGA  1771
+
+Query_5         1772   AGATATTGACTGCCCATCACCAGAAATTCTGATTAATTTGACTGTTTCTTACCCAGAACC  1831
+
+Query_5         1832   TAATGAAAGTGAACTGGAAGACATGGCATCTTTGAGTATTGGGAATGGGGTAGGAGCTTT  1891
+
+Query_5         1892   GGCCAACCTTTATACACATAGGGAATACTTACAAGGAAAATACCATGACTCCTTTTTTTT  1951
+
+Query_5         1952   TTTTTTTGAGACAGTCTTGTTCTGTTGCCTAGGCTGGAGTGCAGTGGTGTGATCTCAGCT  2011
+
+Query_5         2012   CACTGCAACCTCCACCTCTCAGGTTCAAGCGATTCTTGTGCCTCAGCCTCCCAAGTAGCT  2071
+
+Query_5         2072   GGGATTACAGGTGTGAACCACCAGTCCGGCTAATTTTTGTATTTTTAGCAGACACAGGGT  2131
+
+Query_5         2132   TTCTCCATGTTGGCCAGGCTGGTTTTGATCTCCTGACCTCAGGTTATCCACCCTCCTCGG  2191
+
+Query_5         2192   CCTCCCAAAGTGCTGGGATTACAGGCATGAGCCACCACGCCCAGCCCCACCACGCCCACT  2251
+
+Query_5         2252   CCAATATTTAATAAGTATTTGTCAGGCTCCTGCTAGGTGCTAGACACTGCGTTTGACGCT  2311
+PGGH01221976.1  2171                   ....A...A...............C.........A.CA.TT...  2128
+
+Query_5         2312   AAGTATATTGGAGAGAACAAGACAGACGGACAAGTTACCTGCCTTGAGGGAGGGTCTGGG  2371
+PGGH01221976.1  2127   GG..C....A................T.....T.A.T.T.....GT......CA.A....  2068
+
+Query_5         2372   AGAGATGCCAAGTCCTATTTTGGAGACATAGTGAAGCCATTAATGTTGACCTGATGTCTG  2431
+PGGH01221976.1  2067   ......A.TG..C...G...........C..GA........T.G......A......T..  2008
+
+Query_5         2432   AGCCACCCAGTCTGCAAATGAAAGCTGGAGGCCCTGCTT-TCC--AG--CATGTGTGGTT  2486
+PGGH01221976.1  2007   .......TG.........GC..G........A.......CC..GT..TT..CAC....G.  1948
+
+Query_5         2487   CACATCCTATGTGGTGCAGAAAGAAAGAACATGGTTGCCCTCCTCTTGTGCATGCTCAGT  2546
+PGGH01221976.1  1947   -.-..A.-.-C..A..G.AGG..........C.AC........C..C.............  1892
+
+Query_5         2547   TGGGCTGAGCAGTCAAAT-CTGGCTGAATTGAGTCAGAAAAGACATCTGAGTTAAGAGGA  2605
+PGGH01221976.1  1891   .........TG..-....C..A...AG.C..G............-......C.G......  1834
+
+Query_5         2606   TGCCTGATGCTTGTTGGTTTTGTCTTGCCTCCAGT-AAAATT-AAA-AACAAGTTTCCTT  2662
+PGGH01221976.1  1833   .....AG..T......A...CT..C.A.....GA.A......A...C.....A.......  1774
+
+Query_5         2663   TCAGTATGTTACAATCAAATAAGCTGAGCATTGTTGGTGCTGGTGAGGGACATCTAGAAG  2722
+PGGH01221976.1  1773   ....C........G.....C........................................  1714
+
+Query_5         2723   CTGAACTTAGAAAAGACTAATGTGCAGGGTGATTGTACTTCCAAATGCATGCCTGTTGTC  2782
+PGGH01221976.1  1713   .A......................A.......CCACC.....C...TT...........T  1654
+
+Query_5         2783   CTGGTATCATTATTAATACATACCCATTTCACTCTGAGAAGTGTCCCTCAGTGAATCACA  2842
+PGGH01221976.1  1653   ..A.....G........GTG...G....C......C.A....A.....              1606
+
+Query_5         2843   AATCATGTGGCCATCCTATCTATATGGCATACTTATAAACATTGAAAGGCTTGTCATCCC  2902
+
+Query_5         2903   CACTTCTTTGTCTTGGTTTAAGCCTTCATCAGCCCTCACCTAGACTATTGTATTAATAGT  2962
+
+Query_5         2963   AACCCCAGGCCAGGCATGGTGGCTCAGGCCTGTAATCCCAGCACTTTGGGAGGCTGAGGC  3022
+
+Query_5         3023   GGGCAGATCACGAGGTCAGAAGTTTGAGACCAGCCTGGCCAATATGGTGAAACCCCATCT  3082
+
+Query_5         3083   CTACTAAAAATACAAAAATTAGCTGGGCATGGTGGCGCACACCTGTAGTCCCAGCTACTC  3142
+PGGH01167874.1  2232                       ...C....GC........GTG...................  2271
+PGGH01117536.1  4875                                 ........G.G...................  4904
+PGGH01011885.1  90                                   ........G.G...................  61
+
+Query_5         3143   GGGAGGCTGAGACAGAAGAATCTCTTGAACCTGGGAGGTGGAGGTTACAGTGAGCAGAGA  3202
+PGGH01167874.1  2272   ...........G...G......A.....                                  2299
+PGGH01117536.1  4905   ...........G...G..G...G.....                                  4932
+PGGH01011885.1  60     ...........G...G..G...G.....G..CA....                         24
+
+Query_5         3203   TGGCGCCACCGCACTCCAGCCTGGGCGACAGAGCCAGATTCCGTCTCAAAATAAAATAAA  3262
+
+Query_5         3263   GTAAAATAGTAACCCCAATTGGTCTCCCAGACTTTATCATCATCATCATCATAATAGCTA  3322
+
+Query_5         3323   ACATCTTTAGAAATTTGCTATCTTCTAAGCACTATGCTGACTTTACAAAGATCACATAAA  3382
+
+Query_5         3383   CCACACCACAAGCCATTGAGAAGTAGATCTTATTATTACATTTTATAAATGATAAACCGG  3442
+
+Query_5         3443   AGCCACAGAGAGGTTCAAGAACTTGCTTAAGGTCACACAGGTAGTAAGTAGCAGAGCCAG  3502
+
+Query_5         3503   GACTTGAAGCCAGTCTGTCTAACTCCAAAATCCAAATTACTCTTGATGCCTCTCCAATGT  3562
+
+Query_5         3563   CTTCCCAACTCATTCCCTTTTCATACCTCTAACAGAGCAACTTTTTGACACATAAATCTG  3622
+
+Query_5         3623   ACAGAAAGGACCAGGCACGGTGGCTCATACCTGTAATCCCAGCACTTTGGAAGGCCAAGG  3682
+
+Query_5         3683   TGGGCAGATCACTTGAAGTCAGAAGTTTGAGACCAGCCTGGCCAACATGGTGAAACCCTG  3742
+
+Query_5         3743   TCTCTACTAAAAATGTGAAAATTAGCCAGGTGTGGTGGTGCGCGTCTGTAGTCCCAGCTA  3802
+
+Query_5         3803   CTCAGGAGGCTGAGGCAGGAGAATCTCTTGAACTGGGGAGGCAGAGGTTGCAGTGAGCCG  3862
+
+Query_5         3863   AGATCACTCCACTGCGCTCTAGCCTGGGCAACAGAGCAAGATTCCATCTCAAAAAAAAAA  3922
+
+Query_5         3923   AAAATATATCTGACTGAGTTTCCTCCTTAATAAAACCAGACCCTTTGACATGAAATGACT  3982
+
+Query_5         3983   AGACCCCTGCCTCTC-TCTCCAGCCTCTCCACTGGCCACTGCTGCCATAGAATCTTATGC  4041
+PGGH01221976.1  1094           .......T.......................C......C.T...C..CG...  1043
+
+Query_5         4042   TCCCACCATGCCAAATTTCTTGTGGTTCCCTAAATGCGCCATGTTTGAAGATACTTTGAG  4101
+PGGH01221976.1  1042   .T...........G.............T..AT...A.A..G...G.TT.....G.GCA..  983
+
+Query_5         4102   GACATTGTATATACTTTTGTTCTACCTGAGATACATTTGCTTACTTTCTCCACATATTGC  4161
+PGGH01221976.1  982    ..TG...C.C..-.C..CAC....-T.C.A....C.G.C...G.A..T..T..C.G....  925
+
+Query_5         4162   CCTCATGACACTTATCCTTATTGATGGATTTCTTCAATGCTACTATTGTGCCTTACATGT  4221
+PGGH01221976.1  924    T....C..T....G..........G...G......T.......C........---.---.  871
+
+Query_5         4222   GCCTTGTATTATAGCATTTTTATAGCATTTCTCACCCAATTGTGGCTATTTGTTTACATG  4281
+PGGH01221976.1  870    .-.--..-G...-C..-.....C............A.C.--C.-.-..G...C....C..  821
+
+Query_5         4282   TCTGTCTCCTTGGTGGAACTGTGAACTCTGTCATAACAGATGCCATTTTATGTCAGTTAG  4341
+PGGH01221976.1  820    .....T..........------.-...A..--.G..G....A.........---.-...A  774
+
+Query_5         4342   ACTTCTTTGGTTGCCAGTAAGAGAAGCTGACTCTAATCTAAACCAAAAGGAATTCATTGG  4401
+PGGH01221976.1  773    .G..T.C..............................T................T.....  714
+
+Query_5         4402   ACGGATGTGGGTTGGCTCACAAAATCAAAGGGACAACTGCGGAGCCGATCTTGGAATGCT  4461
+PGGH01221976.1  713    .AAA..A..A..........GGC............G...AAA..T.AG...........A  654
+
+Query_5         4462   CTGACACCAGAACAGCTCTGTGAATTCAGATAGGGGTAGTGAATTGACCATTTCATCAAA  4521
+PGGH01221976.1  653    ....................G.G......G..A..A.G.CT......A......G.....  594
+
+Query_5         4522   TGCTGCAGCAAGCTAGGTGGTTTCCCCAAAGGAAATTGAGGAGTGTTACAAGAAGACCA-  4580
+PGGH01221976.1  593    ..........G...G.....C....................GC........-....A..G  535
+
+Query_5         4581   TTAGGGGAACGGTTATCTGGTGGCTGATAATAACAAATTTCCATGGCAGTCT  4632
+PGGH01221976.1  534    .........T..A.G...C...................G....CCA......  483
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 9744259066688
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

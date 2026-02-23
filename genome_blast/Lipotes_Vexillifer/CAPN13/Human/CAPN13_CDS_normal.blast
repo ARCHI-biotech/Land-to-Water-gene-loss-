@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|XM_011533160.3_cds_XP_011531462.1_1 [gene=CAPN13]
+[db_xref=GeneID:92291] [protein=calpain-13 isoform X1]
+[protein_id=XP_011531462.1] [location=264..2273] [gbkey=CDS]
+
+Length=2010
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006798707.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  117     2e-23
+
+
+
+Query_1         1796     CAGACTTCCTCAGAGGGATCTTCATCAGCCGTGAGCTGCTGCATCTGGTGACCCTCAGGT  1855
+NW_006798707.1  4564461  ..........TGC........CTG...C.AA.....G....G....CA...GA...C.C.  4564402
+
+Query_1         1856     ACAGCGACAGCGTCGGCAGGGTCAGCTTCCCCAGCCTGGTCTGCTTCCTGATGCGGCTTG  1915
+NW_006798707.1  4564401  .T.........ACA..............................A...............  4564342
+
+Query_1         1916     AAGCCATGGCAAAGACCTTCCGCAACCTCTCTAAGGATGGAAAAGGACTCTACCTGACAG  1975
+NW_006798707.1  4564341  ........A...                                                  4564330
+NW_006798707.1  4563357                         ......G.C.....C......................  4563321
+
+Query_1         1976     AAATGGAG  1983
+NW_006798707.1  4563320  ........  4563313
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4786660073993
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

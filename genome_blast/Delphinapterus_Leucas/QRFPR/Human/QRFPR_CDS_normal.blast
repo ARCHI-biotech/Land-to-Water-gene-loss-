@@ -1,0 +1,85 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= lcl|NM_198179.3_cds_NP_937822.2_1 [gene=QRFPR]
+[db_xref=CCDS:CCDS3719.1] [protein=pyroglutamylated RF-amide peptide
+receptor] [protein_id=NP_937822.2] [location=372..1667] [gbkey=CDS]
+
+Length=1296
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098069.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  407     7e-111
+
+
+
+Query_1         1         ATGCAGGCGCTTAACATTACCCCGGAGCAGTTCTCTCGGCTGCTGCGGGACCACAACCTG  60
+NW_022098069.1  67507973  ......T....C.....C.....A...........C.....................AC.  67507914
+
+Query_1         61        ACGCGGGAGCAGTTCATCGCTCTGTACCGGCTGCGACCGCTCGTCTACACCCCAGAGCTG  120
+NW_022098069.1  67507913  ..A....C............G......G.......G.....G...........GC.....  67507854
+
+Query_1         121       CCGGGACGCGCCAAGCTGGCCCTCGTGCTCACCGGCGTGCTCATCTTCGCCCTGGCGCTC  180
+NW_022098069.1  67507853  ..T..G..............TTGA.........................T...A......  67507794
+
+Query_1         181       TTTGGCAATGCTCTGGTGTTCTACGTGGTGACCCGCAGCAAGGCCATGCGCACCGTCACC  240
+NW_022098069.1  67507793  ........C..G......G...............T....G....................  67507734
+
+Query_1         241       AACATCTTTATCTGCTCCTTGGCGCTCAGTGACCTGCTCATCACCTTCTTCTGCATTCCC  300
+NW_022098069.1  67507733  ........C.C..................C.......C....G..........T..C..G  67507674
+
+Query_1         301       GTCACCATGCTCCAGAACATTTCCGACAACTGGCTGGGGGGTGCTTTCATTTGCAAGATG  360
+NW_022098069.1  67507673  .....T......G.......C.T.A..................                   67507631
+
+Query_1         361       GTGCCATTTGTCCAGTCTACCGCTGTTGTGACAGAAATCCTCACTATGACCTGCATTGCT  420
+
+Query_1         421       GTGGAAAGGCACCAGGGACTTGTGCATCCTTTTAAAATGAAGTGGCAATACACCAACCGA  480
+
+Query_1         481       AGGGCTTTCACAATGCTAGGTGTGGTCTGGCTGGTGGCAGTCATCGTAGGATCACCCATG  540
+
+Query_1         541       TGGCACGTGCAACAACTTGAGATCAAATATGACTTCCTATATGAAAAGGAACACATCTGC  600
+NW_022098069.1  67484845                     ....T..G...A.....T..........A............  67484805
+
+Query_1         601       TGCTTAGAAGAGTGGACCAGCCCTGTGCACCAGAAGATCTACACCACCTTCATCCTTGTC  660
+NW_022098069.1  67484804  .....G...................G.........A.....T.GT...............  67484745
+
+Query_1         661       ATCCTCTTCCTCCTGCCTCTTATGGTGATGCTTATTCTGTACAGTAAAATTGGTTATGAA  720
+NW_022098069.1  67484744  ...................................C...........G..C..C......  67484685
+
+Query_1         721       CTTTGGATAAAGAAAAGAGTTGGGGATGGTTCAGTGCTTCGAACTATTCATGGAAAAGAA  780
+NW_022098069.1  67484684  ....................G........C..........A...................  67484625
+
+Query_1         781       ATGTCCAAAATAGCCAGG  798
+NW_022098069.1  67484624  .....A.....T......  67484607
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2991048446394
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

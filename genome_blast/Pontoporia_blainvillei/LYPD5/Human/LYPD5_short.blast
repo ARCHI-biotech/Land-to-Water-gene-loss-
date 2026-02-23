@@ -1,0 +1,156 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01099087.1 Pontoporia blainvillei isolate BP203 contig100580,...  56.0    1e-06
+
+
+
+Query_1         2     TGGCAATGGGGGTCCCCAGAGTCATTCTGCTCTGCCTCTTTGGGGCTG  49
+PGGH01099087.1  1918  ..........A.G........C...C.....A................  1871
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 90106723665
+
+
+Query= exon_2
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01099087.1 Pontoporia blainvillei isolate BP203 contig100580,...  67.9    8e-10
+
+
+
+Query_2         1    GGTCCCAAGCCCTGCAGTGCTACAGCTTTGAGCACACCTACTTTGGCCCCTTTGACCTCA  60
+PGGH01099087.1  142  ................A.C..........C.A....G......C..G.............  83
+
+Query_2         61   GGGCCATGAA  70
+PGGH01099087.1  82   .T.G......  73
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 220260880070
+
+
+Query= exon_3
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01326324.1 Pontoporia blainvillei isolate BP203 contig330303,...  60.0    3e-07
+
+
+
+Query_3         15    GTGACCCTGGTGCGGAAGGGCTGCTGGACCGGGCCTCCTGCGGGCCAGACGCAATCGAAC  74
+PGGH01326324.1  1826  ......A....A.A...............A..C..GG..A.........T...G.G...T  1767
+
+Query_3         75    GCGGACGCGCTGCCGCCAGACTACTCGGTGGTGCGCGGCTGC  116
+PGGH01326324.1  1766  .ACA.G...........T....C...................  1725
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 316374718646
+
+
+Query= exon_4
+
+Length=147
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01326324.1 Pontoporia blainvillei isolate BP203 contig330303,...  65.9    4e-09
+
+
+
+Query_4         90    GTCCAGTGTCACCAGGACCAGACCGCCTGCTTCCAGGGCAATGGCAGAATGAC  142
+PGGH01326324.1  1340  ....................A.G.AT.....................C.....  1288
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 256303569536
+
+
+Query= exon_5
+
+Length=239
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01326324.1 Pontoporia blainvillei isolate BP203 contig330303,...  194     1e-47
+
+
+
+Query_5         1     GCAATTTCTCAGTCCCTGTGTACATCAGAACCTGCCACCGGCCCTCCTGCACCACCGAGG  60
+PGGH01326324.1  1036  ......................................................T.C...  977
+
+Query_5         61    GCACCACCAGCCCCTGGACAGCCATCGACCTCCAGGGCTCCTGCTGTGAGGGGTACCTCT  120
+PGGH01326324.1  976   .............G......AA...............................CC.....  917
+
+Query_5         121   GCAACA  126
+PGGH01326324.1  916   ......  911
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 438411316164
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

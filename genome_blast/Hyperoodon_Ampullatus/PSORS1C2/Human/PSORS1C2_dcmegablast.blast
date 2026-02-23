@@ -1,0 +1,112 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457065.1 Hyperoodon ampullatus genome assembly, chromosome: 10      103     3e-20
+
+
+
+Query_1     1         AGACTCAGCCCACCCCAG-CTTTGGGGGCCAGTACATAGCCATGATCCTCAACTGGAAGC  59
+OX457065.1  82675460  ..........G.....T.A.............G.G.C..G..A...G.............  82675519
+
+Query_1     60        TCCTGGGGATCCTGGTCCTTTGCCTG  85
+OX457065.1  82675520  CA........................  82675545
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 183867970130
+
+
+Query= exon_2
+
+Length=773
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457065.1 Hyperoodon ampullatus genome assembly, chromosome: 10      646     0.0  
+
+
+
+Query_2     1         GCATCTCAGGCAGCGAGGGCCACCCCTCTCACCCACCCGCAGAGGACCGAGAGGAGGCAG  60
+OX457065.1  82676198  ...............GA.A......A....C.T..T..A.....CC.TC........AG.  82676257
+
+Query_2     61        GCTCCCCAACATTGCCTCAGGGCCCCCCAGTCCCCGGTGACCCTTGGCCAGGGGCACCCC  120
+OX457065.1  82676258  ..C...TG...................A.-....T........C......T...T.....  82676316
+
+Query_2     121       CTCTCTTTGAAGATCCTCCGCCTACCCGCCCCAGTCGTCCCTGGAGAGACCTGCCTGAAA  180
+OX457065.1  82676317  ..........G..C.T...A...C.AG................................T  82676376
+
+Query_2     181       CTGGAGTCTGGCTCCCTGAACCGCCTAGAACGGATCCTCCTCAACCTCCCCGGCCTGACG  240
+OX457065.1  82676377  ............C.....T...C........T.G...C....................T.  82676436
+
+Query_2     241       ACCCTTGGCCGGCAGGACCCCAGCCCCCAGAAAACCCCTGGCCTCCTGCCCCTGAGGTGG  300
+OX457065.1  82676437  ....C.....A..C...........T.................A.....TT..A......  82676496
+
+Query_2     301       ACAACCGACCTCAGGAGGAGCCAGACCTAGACCCACCCCGGGAAGAGTACAGATAATGGA  360
+OX457065.1  82676497  G.C..G..T................T..T..........A...G................  82676556
+
+Query_2     361       GTCCCCTCAGCCGTTCTGTTCCCAGGCATCTCCAGGCACCCACGCCCTCTCCACCC-TCT  419
+OX457065.1  82676557  TC....AG..G.A.C...GG...CT..-C...A..---....-----....T....T...  82676607
+
+Query_2     420       GATTCCCCGTGAATTCTTCCCAATTTAGCCTGTCTCCTTAAACCTCTTCCTCATTCCCTC  479
+OX457065.1  82676608  ....T...T....-...C......G......AA........TT.CT...........T..  82676666
+
+Query_2     480       GGTTTTATTCTGAACCCGTAAGGTGGTGTTCTCAATATTTCCTGTCCCCTCCTGAGATCC  539
+OX457065.1  82676667  A.................G......T..............T..........T.......G  82676726
+
+Query_2     540       ATACTTAGTCCTCACATCGCCCGT-TTTTTCCTCTGACAGCCTAAGCCTACTCTCCTACC  598
+OX457065.1  82676727  G..T....C..C.G.C..C...T.C.................A...TGA..A.C......  82676786
+
+Query_2     599       TCGCCTCCAGGCCTCGGCCGCACCTACCTCCCACCCGGTCTTCCTGCCCGCGCGATCGCT  658
+OX457065.1  82676787  ..A.......T....TC.--------.........GCC......CCA..C.TG.GA.T..  82676838
+
+Query_2     659       -GGGGCAGGGCT-ATGGTACTGTGTTCCCTTCTGCCACCTGGTGGCCGGCGGC-AGGAAC  715
+OX457065.1  82676839  CC..........GGCA.C.........T..G................AC.A..TG.....  82676898
+
+Query_2     716       TATCAGTAGACAGCTGCTGCTTCCATGAAACGGAAAAATAAAAATCATGTTTTCT  770
+OX457065.1  82676899  ..C...G....-CA..G.............T.......-C....C..........  82676951
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2093264440940
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

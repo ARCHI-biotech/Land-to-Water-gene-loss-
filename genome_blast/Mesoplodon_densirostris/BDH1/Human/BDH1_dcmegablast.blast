@@ -1,0 +1,429 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=163
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  128     1e-27
+
+
+
+Query_1      2          TTCTCAGCTAAAGGCAAGCATTGAAAGAATACACAGAAAGCCTGGAAAAGGTTTCCAGGG  61
+NC_082665.1  117013059  ...C.........A............T........T...........G............  117013118
+
+Query_1      62         GTGTC-AATACGCCCTGTCAACTGAGAATTAAGAGG-----------ATCCGGCTGGTCA  109
+NC_082665.1  117013119  .....T.T...ATTT.A...................ATTCCAGGTGT...T.C..T..AT  117013178
+
+Query_1      110        CTTGCCTGGAGAGGATCCTGCATGCTGATAGTGCTGAGG  148
+NC_082665.1  117013179  .........------G.....G.................  117013211
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 356890771314
+
+
+Query= exon_2
+
+Length=2113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  77.0    4e-11
+NC_082663.1 Mesoplodon densirostris isolate mMesDen1 chromosome 3...  73.4    4e-10
+NC_082675.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  70.7    5e-09
+NC_082666.1 Mesoplodon densirostris isolate mMesDen1 chromosome 6...  70.7    5e-09
+NC_082664.1 Mesoplodon densirostris isolate mMesDen1 chromosome 4...  69.8    5e-09
+NC_082674.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  68.9    2e-08
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  67.1    7e-08
+NC_082673.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  64.4    2e-07
+NC_082681.1 Mesoplodon densirostris isolate mMesDen1 chromosome X...  62.6    8e-07
+NC_082680.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  62.6    8e-07
+NC_082667.1 Mesoplodon densirostris isolate mMesDen1 chromosome 7...  59.0    1e-05
+NC_082668.1 Mesoplodon densirostris isolate mMesDen1 chromosome 8...  54.5    4e-04
+
+
+
+Query_2      67         TCCTGGGTTCAAGCAATTCTCCTGCCTCAGCTTTCCAAGTAGCTGTGATTACAGTAGCCT  126
+NC_082665.1  134876252  .......C......G..C.............C.C..G........G..C.....GT..G.  134876193
+NC_082663.1  66602589   .......C......G..C.............C.C..G........G..C.....GC..GC  66602530
+NC_082675.1  79231050   .......C......G..C.............C.C..G........G..C.....GC..GC  79231109
+NC_082666.1  122026687  .......C......G..C.............C.C..G........G..C.....GC..GC  122026746
+NC_082664.1  52442342   .......C......G..C.............C.C..G........G..C.....GC..GC  52442401
+NC_082664.1  52227156   .......C......G..C.............C.C..G........G..C.....GC..GC  52227097
+NC_082664.1  52238204   .......C......G..C.............C.C..G........G..C.....GC..GC  52238145
+NC_082664.1  119585758  .......C......G..C.............C.CT.G..G.....G..C.....        119585811
+NC_082674.1  50417109   ....A..C.........C.............C.C..G........G..C.....GC..GC  50417050
+NC_082674.1  80339544   .......C...GT.G..C.............C.C..G........G..C.....GT..G.  80339603
+NC_082662.1  95006173   .......C.........C.............C.C..G.....G..G........        95006226
+NC_082673.1  81490715   .......C......G..C.............C.C..G........G..C.....GC.TGC  81490656
+NC_082681.1  86765976   .......C.....A...C.............C.C..G........G..C.....        86766029
+NC_082680.1  1381776    .......C...C.....C.............C.C..G........G..C.....        1381829
+NC_082667.1  38738093   .......C......G..C............TC.C..G........G..C.....GC.TGC  38738152
+
+Query_2      127        ACCACCACGCCTGGCTA-ATTTTTGTATTTTTAGTAGAGATGGGATTTTACCATGTTGAC  185
+NC_082665.1  134876192  G.....G....C.....                                             134876176
+NC_082663.1  66602529   G..........C...                                               66602515
+NC_082675.1  79231110   G.....G....C....                                              79231125
+NC_082666.1  122026747  G.....G....C....                                              122026762
+NC_082664.1  52442402   G.....G....C...G.-.                                           52442419
+NC_082664.1  52227096   G.....G....C...                                               52227082
+NC_082664.1  52238144   G.....G....C...                                               52238130
+NC_082674.1  50417049   G.....G....C...                                               50417035
+NC_082674.1  80339604   G..........A...                                               80339618
+NC_082673.1  81490655   G.....G....C...                                               81490641
+NC_082667.1  38738153   G.....G....CA..A.G......                                      38738176
+
+Query_2      186        CAGGCTGGTCTCAAACTCCTGACCTCAAGTGATCTGCCTGCCTCAGCCTCCCAAAGTGCT  245
+
+Query_2      246        GGGATTACAAGTGTGAGCCACTGCTCCCAGCCATAACTTTCTTTACATCTCTTTTATTTT  305
+
+Query_2      306        CCTGGTTCCTTTTATATTGTTTTAAACATGACCTTTAAATAAGCTTTGAATTAGACAAAA  365
+
+Query_2      366        ACTATTCATCTTTTTAAAAATGACACACTTTTTAAAAAGAATGTTTTCTTACAAATATAT  425
+
+Query_2      426        TTTTATTGGAAAATACCCATATAATGAAATATCTATTACTTAATTTAATATAACTTTAGA  485
+
+Query_2      486        TTCTAAATTATGAGTTTGTCTACAAGTATTACATTCACCTAATTATTTTAATTGTTTTAG  545
+
+Query_2      546        ATGATTTATGAAAACTGTGATAGTCATCATTTAAAGTTATGGAACCATCATTGCAAAATT  605
+
+Query_2      606        ATAACAGAGACGTGAAAAAGATTTGCCTAACTGACTCCATCTTGCTTTTAACCTCCAAAC  665
+
+Query_2      666        TCTCCTTGTTCATTCTTCTTTTCTCTCCTAGGAAATTGTTGTTTAAGGATCCTAATTCTA  725
+
+Query_2      726        GTTCAGAGATGCATTCTAAAGGGTCTTCTTTTTCTTCTTGTCAGCTAATAGTCTTAAATT  785
+
+Query_2      786        TGCATATTAAAGGAAACAACTCACATAAAAGTCAGACAGCAAAATTTACCTCGTAAGGTA  845
+
+Query_2      846        CAAAGTGAAAGTCTGGTGAGCTGGAGGGAAATTAAAATGAATTTAATTAACAATTGGACA  905
+
+Query_2      906        TAAAATTATAGACATCTATCATAAAGGCCTTCAAATACATACATGTGTACATGTACATAC  965
+NC_082662.1  126935729                                  .....T...T.......T..A.......  126935756
+
+Query_2      966        ACACATACACACATACAGATTCTATAACTTTTACTCCAGTACTTTAGCCATGAGATAAAT  1025
+NC_082662.1  126935757  .T...........C...T..                                          126935776
+
+Query_2      1026       ACAAATTTGCCAGCTTGCAAGAAAAACCCAAAAAACTATTAGACCCAAACAGTGGTTTTA  1085
+
+Query_2      1086       TCTCAGTGGAAAAATAACAGCAGACTTAAAGCATGGCAGAAAGGAAAATAGAGAAAAACG  1145
+
+Query_2      1146       GACTAGGAACTCTAGAATTTGCAGGTTGACCTTAGGGCTCTTTTTCCTCAATGTAAATTT  1205
+
+Query_2      1206       GCACAAAGACTGTATTACTTCCATTTTACTCTGGCAAATAGAGGTGCCATAAAACCAATA  1265
+
+Query_2      1266       AGGTGCTCTAAAGGGGGTCATTCTCCTTGTTTTCTCCTCATTCTCAGATTGTTTCCTGCT  1325
+
+Query_2      1326       TCTTTTTTTTTTTCTTAAAAGGAAGAATTGAGCTGTGGCCTAGGGTTTTTGTGCATGGAT  1385
+
+Query_2      1386       CGATGTGAGCTGCTTGTGGGCAGGACTCCACAGTGTGTCATCACTGAGTTGTTTCCAGCC  1445
+
+Query_2      1446       TCTTATGCATCTCAGCTTCTCTCTCCAGAGGTCTATGTCCTCTGAGAGGGCTCAAAATGC  1505
+
+Query_2      1506       CAGGTGATCAGCCCTTATATGCATTTCCTGGATGACCCATTTTTAAAATTAAATTTTTCT  1565
+
+Query_2      1566       GGGGATTTCCCTGCAGGGCCACTGCATGTTGCAGGGGGTCAACTCCCCAGACGCTCCCAC  1625
+
+Query_2      1626       GAGGCCCCTGGTCACCCAGGGACGCCTT-TCGCTGGAAAGAGCAAATGT-CCTTTCTCTT  1683
+NC_082663.1  78972522             ......TGA.A..A....G.G.......GC.........C....GT....  78972473
+NC_082668.1  77937776                        ..A....G.G.......T..........G....GT....  77937738
+
+Query_2      1684       TGGAGCTCAGAAAACTCAGTTTCTCATTTGCCTATGAAAA  1723
+NC_082663.1  78972472   .......G.-.T..T.....C.....C..TA...AC....  78972434
+NC_082668.1  77937737   .....A.G.-.T..T.....C........             77937710
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5578765651998
+
+
+Query= exon_3
+
+Length=93
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 171736917248
+
+
+Query= exon_4
+
+Length=25
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8050169550
+
+
+Query= exon_5
+
+Length=480
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1202158321280
+
+
+Query= exon_6
+
+Length=166
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 364940939088
+
+
+Query= exon_7
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 327373489476
+
+
+Query= exon_8
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 257605368768
+
+
+Query= exon_9
+
+Length=73
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118069130608
+
+
+Query= exon_10
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  178     6e-43
+
+
+
+Query_10     1          GTTGGCAGCAAAGCTGTCCTGGTCACAGGCTGTGACTCTGGATTTGGGTTCTCATTGGCC  60
+NC_082665.1  117034663  ....C.............T..................................C......  117034722
+
+Query_10     61         AAGCATCTGCATTCAAAAGGCTTCCTTGTGTTTGCTGGCTGCTTGATGAAG  111
+NC_082665.1  117034723  .............................A..........A..........  117034773
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 217354529898
+
+
+Query= exon_11
+
+Length=142
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300539596896
+
+
+Query= exon_12
+
+Length=153
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  156     3e-36
+
+
+
+Query_12     1          GCATGTGGGGCCTCGTTAACAATGCCGGCATCTCAACGT-TCGGGGAGGTGGAGTTCACC  59
+NC_082665.1  117049759  ..T...A......G...........G.........GT..C.G.....T.........T..  117049818
+
+Query_12     60         AGCCTGGAGACCTACAAGCAGGTGGCAGAAGTGAACCTTTGGGGCACAGTGC-GGATGAC  118
+NC_082665.1  117049819  ...A..............G......TGC....A.....C.............G..GG...  117049878
+
+Query_12     119        GAAATCCTTTCTCCCCCTCATCCGAAGGGCCAAAG  153
+NC_082665.1  117049879  A...C........T.........AG.......C..  117049913
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 330056878734
+
+
+Query= exon_13
+
+Length=470
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  540     2e-151
+
+
+
+Query_13     1          GCCGCGTCGTCAATATCAGCAGCATGCTGGGCCGCATGGCCAACCCGGCCCGCTCCCCGT  60
+NC_082665.1  117051295  ..T....G.....C..T........................C..G.....G..C......  117051354
+
+Query_13     61         ACTGCATCACCAAGTTCGGGGTAGAGGCTTTCTCGGACTGCCTGCGCTATGAGATGTACC  120
+NC_082665.1  117051355  ............G...T.....G...A.......C..........A...C...G..C...  117051414
+
+Query_13     121        CCCTGGGCGTGAAGGTCAGCGTGGTGGAGCCCGGCAACTTCATCGCTGCCACCAGCCTTT  180
+NC_082665.1  117051415  .A.....A.........G..........A..............T..CA..........CC  117051474
+
+Query_13     181        ACAGCCCTGAGAGCATTCAGGCCATCGCCAAGAAGATGTGGGAGGAGCTGCCTGAGGTCG  240
+NC_082665.1  117051475  .AG..G.....C....C.............GT...........C.............GG.  117051534
+
+Query_13     241        TGCGCAAGGACTACGGCAAGAAGTACTTTGATGAAAAGATCGCCAAGATGGAGACCTACT  300
+NC_082665.1  117051535  ..................G............C..G.G.G....G................  117051594
+
+Query_13     301        GCAGCAGTGGCTCCACAGACACGTCCCCTGTCATCGATGCTGTCACACACGCCCTGACCG  360
+NC_082665.1  117051595  ...A............G.......T...C......AGC........C...A........T  117051654
+
+Query_13     361        C-CACCACCCCCTACACCCGCTACCACCCCATGGACTACTACTGGTGGCTGCGAATGCAG  419
+NC_082665.1  117051655  .TGG.T...........T.A........................T...G..T......G.  117051714
+
+Query_13     420        ATCATGACCCACTTGCCTGGAGCCATCTCCGACATGATCTACATCCGCTGA  470
+NC_082665.1  117051715  ....C............C.....G..........G.........A.A....  117051765
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1175324430180
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

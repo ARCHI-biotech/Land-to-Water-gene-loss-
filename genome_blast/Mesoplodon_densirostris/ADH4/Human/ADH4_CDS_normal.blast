@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_001306172.2_cds_NP_001293101.1_1 [gene=ADH4]
+[db_xref=CCDS:CCDS77942.1] [protein=all-trans-retinol dehydrogenase
+[NAD(+)] ADH4 isoform 1] [protein_id=NP_001293101.1]
+[location=159..1358] [gbkey=CDS]
+
+Length=1200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082661.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  246     2e-62
+
+
+
+Query_1      428        GTGATCAACAACTAATGGAAGACAAAACCAGCAGGTTTACCTGCAAAGGAAAACCAGTTT  487
+NC_082661.1  220671263  .....A..A..T................T................G..........A...  220671204
+
+Query_1      488        ACCATTTCTTTGGAACCAGTACATTCTCTCAGTACACTGTGGTGTCAGATATCAATCTTG  547
+NC_082661.1  220671203  ........A.G.....A.....C...AG............A.........G.T..C....  220671144
+
+Query_1      548        CCAAAATAGATGATGATGCAAATTTAGAGAGAGTTTGTCTGCTTGGATGTGGGTTTTCAA  607
+NC_082661.1  220671143  .....G.T...........C...............................CA..G....  220671084
+
+Query_1      608        CTGGCTATGGGGCTGCAATCAACAATGCCAAGGT  641
+NC_082661.1  220671083  ......G...T....T.G......T.........  220671050
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3139565431860
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,391 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= exon_1
+
+Length=95
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 159252727908
+
+
+Query= exon_2
+
+Length=178
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 351292767000
+
+
+Query= exon_3
+
+Length=113
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 201407861766
+
+
+Query= exon_4
+
+Length=103
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000003.1 Monodon monoceros isolate NGI Scaffold_2;HRSCAF=6,...  147     1e-33
+
+
+
+Query_4         1         AGGGAACA-TTATAAGCTTGACTGGCATCGGTTTAACCTAAAGCAACGTCTCAAGGACAA  59
+SIHG02000003.1  18584604  ........T....G.A.....T.......................G.A.........G..  18584545
+
+Query_4         60        GCCTCTCCTGTCTGCCCTGGACTTTGAAAAGCAGAGCTCCACAG  103
+SIHG02000003.1  18584544  ........G...................................  18584501
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 177988342956
+
+
+Query= exon_5
+
+Length=194
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000003.1 Monodon monoceros isolate NGI Scaffold_2;HRSCAF=6,...  244     7e-63
+
+
+
+Query_5         1         GAGATCTTTCCAGCATCTCGGGATCAGAAGACTCAGACTCAGCCAGTGAGGAGGACTTGC  60
+SIHG02000003.1  18584377  ...................A........................................  18584318
+
+Query_5         61        AGACACTGGATCGGGAGAGGGCTACATTTGAGAAGT-TGAGCCGACCCCCAGGCTTTTAC  119
+SIHG02000003.1  18584317  ...T.......GA..........GAG.........CC...-........G......CC..  18584259
+
+Query_5         120       CCTCATCGAGTTCTTTTCCAGAATGCCCAGGGCCAGTTTCTTTATGCCTACCGCTGTGTC  179
+SIHG02000003.1  18584258  ..C.....G......C..........................G.......TT........  18584199
+
+Query_5         180       CTAGGCCCTC  189
+SIHG02000003.1  18584198  ..........  18584189
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 388763995480
+
+
+Query= exon_6
+
+Length=113
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 201407861766
+
+
+Query= exon_7
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000003.1 Monodon monoceros isolate NGI Scaffold_2;HRSCAF=6,...  169     3e-40
+
+
+
+Query_7         4         AGAAGTGGTGACACACAAAACTTTTCACCGCTATACGGTTCGGGCCAAGCGGGGCACAGC  63
+SIHG02000003.1  18583359  .....C.T.............C......T....C..A..G.........T..........  18583300
+
+Query_7         64        CCAGGGGCTTCGGGATGCCCGAGGTGGGCCATCACACTCTGCTGGAGCCAACCTGAGGCG  123
+SIHG02000003.1  18583299  .....................G....C.G.T..C.G........................  18583240
+
+Query_7         124       CTACAATGAAGCCACACTATATAAG  148
+SIHG02000003.1  18583239  .....G.....A..TG.........  18583215
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 283376177601
+
+
+Query= exon_8
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000003.1 Monodon monoceros isolate NGI Scaffold_2;HRSCAF=6,...  300     2e-79
+
+
+
+Query_8         1         GATGTTCGTGACCTGCTGGCAGGGCCAAGCTGGGCTAAGGCGCTGGAGGAGGCTGGTACA  60
+SIHG02000003.1  18582610  ......T....................GA..A........T.......A.......G..G  18582551
+
+Query_8         61        ATACTGTTGCGTGCTCCCCGCTCTGGCCGGTCTTTGTTCTTTGGAGGCAAGGGAGCACCC  120
+SIHG02000003.1  18582550  ......A.......A.................C...............C.T.AG..T...  18582491
+
+Query_8         121       CTGCAAAGGGGGGATCCCCGACTTTGGGATATCCCCCTCGCCACCCGCAGACCCACCTTC  180
+SIHG02000003.1  18582490  ......CCT................................T..................  18582431
+
+Query_8         181       CAAGAGCTACAGCGTGTGCTCCATAAGCTGACCACTTTGCATGTC  225
+SIHG02000003.1  18582430  ...................................C.........  18582386
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 470732307780
+
+
+Query= exon_9
+
+Length=156
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 299769827840
+
+
+Query= exon_10
+
+Length=487
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000003.1 Monodon monoceros isolate NGI Scaffold_2;HRSCAF=6,...  370     3e-100
+SIHG02000014.1 Monodon monoceros isolate NGI Scaffold_13;HRSCAF=9...  250     4e-64 
+
+
+
+Query_10        1         GTTCAGGGTCGGAGGGAGAAGATGGCTTTCAGGTAGAGTTGGAGCTAGTGGAGTTGACTG  60
+SIHG02000003.1  18581330  ......A...A........G.......CC................A...A...G....AC  18581271
+SIHG02000014.1  39043347  .....CA...A........G......CCC....................A...G....AC  39043288
+
+Query_10        61        TGGGGACTCTGGATCTTTGTGAGTCTGAAGTATTGCCCAAGCGGAGGAGGAGAAAAAGGA  120
+SIHG02000003.1  18581270  .......G.........C....A.T...G.............A.................  18581211
+SIHG02000014.1  39043287  .......G.........C....A.T...G.............--.-..-.-.----.-.-  39043239
+
+Query_10        121       ATAAGAAGGAGAAAAGCCGAGACCAGGAGGCTGGGGCACATCGGACTCTTCTCCAGCAAA  180
+SIHG02000003.1  18581210  ......G.....G..A..A.....T............G..AAT.......TC.......C  18581151
+SIHG02000014.1  39043238  ----.-.-...-...-........T...........TG..AAT.......TC.......C  39043187
+
+Query_10        181       CTCAAGAAGAGGAG-CCTTCCACACAGTCATCCCAGGCAGTTGCTGCCCCCTTGGGCCCT  239
+SIHG02000003.1  18581150  ..........T...G....--------.--.--..-.-..-.-.A.....T.....G...  18581107
+SIHG02000014.1  39043186  ..........T...G....-TT........G...---.--..--..GAG....---...-  39043139
+
+Query_10        240       TTGCTGGATGAGGCCAAAGCCCCTGGTCAGCCAGAGCTCTGGAATGCACTGCTT-GCTGC  298
+SIHG02000003.1  18581106  .CC.CA...........GT..................G....G...TG..-...G.....  18581048
+SIHG02000014.1  39043138  ---.-A...A.......GT.......................G.C.TG..T..G-.....  39043084
+
+Query_10        299       TTGCCGAGCTGGAGAT-GTTGGAGTGCTAAAGCTGCAGCTAGCTCCCAGCCCTGCAGACC  357
+SIHG02000003.1  18581047  ................-.GG...-....G.....C.G.......G.......CCT.....  18580990
+SIHG02000014.1  39043083  ....T...........A.GG....-...G.....C.G.......G.......CCT.....  39043025
+
+Query_10        358       CTAGAGTTCTGTCTCTGCTCAGTGCCCCCTTGGGCTCCGGTGGCTTTACTCTCCTGCATG  417
+SIHG02000003.1  18580989  ..G..................................T........C..C..........  18580930
+SIHG02000014.1  39043024  ..G...........................................C..C.......GCA  39042965
+
+Query_10        418       CAGCAGCTGCAGCTGGAAGAGGCTCAGT-GGTT  449
+SIHG02000003.1  18580929  ....C..CA.......G...........A...   18580898
+SIHG02000014.1  39042964  .......CA.......G...........-....  39042933
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1072613868982
+
+
+Query= exon_11
+
+Length=112
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 199065909885
+
+
+Query= exon_12
+
+Length=168
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 327873249200
+
+
+Query= exon_13
+
+Length=86
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 138175160979
+
+
+Query= exon_14
+
+Length=358
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000003.1 Monodon monoceros isolate NGI Scaffold_2;HRSCAF=6,...  327     1e-87
+
+
+
+Query_14        7         CTGGAGTTGTGGGGCATCCCTCCAAGGCCT--GACTCCCTTTCACTACCTCGACTTCTCT  64
+SIHG02000003.1  18579926  ......C......A................CAT.T.............T.T.......-.  18579868
+
+Query_14        65        TTCTGCTCCACACGTTGCCTCCAGGATCATCGCCGTCAGGCAGGGAGGCCCTCTTCCTGA  124
+SIHG02000003.1  18579867  .C..-.........C..................T..AG...T..A.A.....T.......  18579809
+
+Query_14        125       TCTCTTACAGCTCTACCTGGGGCCAACTCAGGGACCTGAGAGGGCACATTCACAGCAG--  182
+SIHG02000003.1  18579808  .............C...............TA..CT..............A....CTG.CC  18579749
+
+Query_14        183       CCCT-AGGTTTTTTCTTCCCCGTGAAACCAGAGATGATTTGGAAGATGGGGGTGAAGGAC  241
+SIHG02000003.1  18579748  ....CT.....C.........AC...........GT...........T.......G....  18579689
+
+Query_14        242       ACTCGGGAACTAGGGCAAAGACAGGGCTAGAGGTATGTGGAGCTGGTACTGTCTCTGGAA  301
+SIHG02000003.1  18579688  .T..A.....C.....-----..----.......G.........................  18579638
+
+Query_14        302       TTTTAATCACAATAAAGTTTGGCAAGGAATGTGTACTTGTACTTACATTCAGA  354
+SIHG02000003.1  18579637  .............G...............AC..C...................  18579585
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 770502102391
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

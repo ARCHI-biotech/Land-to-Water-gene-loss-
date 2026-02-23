@@ -1,0 +1,63 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|NM_005122.5_cds_NP_005113.1_1 [gene=NR1I3]
+[db_xref=CCDS:CCDS1228.1] [protein=nuclear receptor subfamily 1
+group I member 3 isoform 3] [protein_id=NP_005113.1]
+[location=197..1243] [gbkey=CDS]
+
+Length=1047
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000013.1 Monodon monoceros isolate NGI Scaffold_12;HRSCAF=8...  171     8e-40
+
+
+
+Query_1         408        GCCTCCAGCTCATCTGTTCATCCATCACCAGCCCTTGCCCACCCTGGCCCCTGTGCTGCC  467
+SIHG02000013.1  115907090  ................................G..-.T......A.TT......A.....  115907032
+
+Query_1         468        TCTGGTCACACACTTCGCAGACATCAACACTTTCATGGTACTGCAAGTCATCAAGTTTAC  527
+SIHG02000013.1  115907031  ....C.......T...........................GA....A......G.C.C..  115906972
+
+Query_1         528        TAAGGACCTGCCCGTCTTCCGTTCCCTGCCCATTGAAGACCAGATCTCCCTTCTCAAGGG  587
+SIHG02000013.1  115906971  C............                                                 115906959
+SIHG02000013.1  115906718                             ......G..G......................A  115906686
+
+Query_1         588        AGCAGCTGTGGAAATCTGTCACATCGTACTCAATACCACTTTCTGTCTCCAAACACAAAA  647
+SIHG02000013.1  115906685  .........A.....--.......T.C.......G.........................  115906628
+
+Query_1         648        CTTCCTCTGCGGGCCTCTTCGCTACACAATTGAAGATGGAG  688
+SIHG02000013.1  115906627  ..............T.............---..........  115906590
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2381764754826
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

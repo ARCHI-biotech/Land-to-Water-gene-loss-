@@ -1,0 +1,92 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|XM_047429555.1_cds_XP_047285511.1_1 [gene=DNAJC22]
+[db_xref=GeneID:79962] [protein=dnaJ homolog subfamily C member 22
+isoform X1] [protein_id=XP_047285511.1] [location=1234..2208]
+[gbkey=CDS]
+
+Length=975
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000007.1 Monodon monoceros isolate NGI Scaffold_6;HRSCAF=22...  859     0.0  
+
+
+
+Query_1         1         ATGGCCAAGGGGCTCCTGGTGACCTATGCCCTCTGGGCTGTGGGGGGCCCTGCTGGGCTC  60
+SIHG02000007.1  63253381  .......CA.........A......................A.......T..........  63253322
+
+Query_1         61        CACCACCTGTACCTGGGAAGGGACAGCCACGCCCTGCTCTGGATGC---T----GACCCT  113
+SIHG02000007.1  63253321  ..T...........T..GT..A..........A.A...........CCC.GGGG.G.GGG  63253262
+
+Query_1         114       GG-GGGG-A--GGTGGGCTGGGCTGGCTCTGGGAGTTCTGGAAGCTCCCAAGCTTTGTAG  169
+SIHG02000007.1  63253261  ..A....A.GG.....C..A..............A.......................T.  63253202
+
+Query_1         170       CTCAGGCCAACAGAGCCCAGGGACAGAGGCAGAGCCCCAGA-GGGGTGACACCCCCTCTG  228
+SIHG02000007.1  63253201  ..............C.....C.G...........TT.AG..G....G.....A....T..  63253142
+
+Query_1         229       AGTCCCATTCGCTTTGCTGCCCAGGTGATAGTTGGCATCTATTTTGGCCTTGTGGCACTG  288
+SIHG02000007.1  63253141  ..........A.............A.......G.....T.................T..C  63253082
+
+Query_1         289       ATTAGCCTTTCTTCCATGGTCAACTTCTATATTGTGGCCCTCCCACTGGCAGTTGGCTTA  348
+SIHG02000007.1  63253081  ........C..C.T.....G..G..............G......................  63253022
+
+Query_1         349       GGGGTCTTGCTGGTGGCTGCTGTTGGCAACCAGACCTCAGACTTTAAGAACACTCTGGGG  408
+SIHG02000007.1  63253021  .....T......A.............T.............................A..A  63252962
+
+Query_1         409       TCAGCATTTCTCACTTCACCTATCTTCTATGGCCGCCCCATAGCCATACTGCCCATTAGC  468
+SIHG02000007.1  63252961  G....G....GT.....C.....T..........A............C........C...  63252902
+
+Query_1         469       GTGGCCGCCAGCATTACAGCTCAGAGGCATCGCCGCTACAAAGCTTTGGTGGCATCAGAG  528
+SIHG02000007.1  63252901  T....T..GG....C.....C....A........T..G........CA..T.GG......  63252842
+
+Query_1         529       CCGCTCAGTGTGCGGCTCTATCGTCTGGGCTTGGCTTACCTTGCTTTCACAGGCCCACTG  588
+SIHG02000007.1  63252841  AT..........A.......CT.C...........................T....G..A  63252782
+
+Query_1         589       GCATACAGTGCCCTCTGCAACACAGCTGCCACCCTCAGCTATGTGGCAGAAACCTTTGGC  648
+SIHG02000007.1  63252781  .......................G...........T..............G...C.....  63252722
+
+Query_1         649       TCCTTCTTGAATTGGTTCAGCTTCTTCCCCCTTCTTGGCCGCCTCATGGAGTTTGTCCTC  708
+SIHG02000007.1  63252721  ........C.G.....................C.G...G.A...G.......C.......  63252662
+
+Query_1         709       CTTCTGCCTTACCGGATCTGGAGGCTACTGATGGGGGAGA-C-TGGCTTCAACAGCAGCT  766
+SIHG02000007.1  63252661  ..---.......T..G......A...G...--.T......T.A........G....G...  63252607
+
+Query_1         767       GCTTTCAGGAGTGGGCGAAGCTCTATGAGTTTGTTCACAGTTTTCAGGATGAGAAGCGTC  826
+SIHG02000007.1  63252606  A...C.CA......TAA.................................T.....T...  63252547
+
+Query_1         827       AGCTGGCTTACCAGGT  842
+SIHG02000007.1  63252546  ..T.............  63252531
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2213144241210
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

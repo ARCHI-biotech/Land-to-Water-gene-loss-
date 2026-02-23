@@ -1,0 +1,157 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= exon_1
+
+Length=120
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 219723215832
+
+
+Query= exon_2
+
+Length=106
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 186646602696
+
+
+Query= exon_3
+
+Length=108
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 191371833144
+
+
+Query= exon_4
+
+Length=127
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 236261522400
+
+
+Query= exon_5
+
+Length=127
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 236261522400
+
+
+Query= exon_6
+
+Length=427
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098000.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  387     3e-105
+
+
+
+Query_6         74        GGA-GGCAATGAACAATGTCTCCGGTACATCGCCAACCTCATCTCCTGCTTCCCTAGTGT  132
+NW_022098000.1  19197873  ...C...........G....ATT.......T.......................--.A..  19197930
+
+Query_6         133       GTGTGTCCGGGATGAGAAGGGAAACCCGGTCTCCTGGTCCATCACAGACCAGTTTGCCAC  192
+NW_022098000.1  19197931  ........AT.....C.....G.....C..G..T.....TG...................  19197990
+
+Query_6         193       CATGTGCCATGGCTACACCCTGCCAGAACATCGCAGGAAAGGTTACAGCCGGCTGGTGGC  252
+NW_022098000.1  19197991  ...............A...........G................................  19198050
+
+Query_6         253       CCTCACGCTGGCCAGGAAGTTGCAAAGCCGGGGATTCCCCTCTCAGGGGAACGTCCTGGA  312
+NW_022098000.1  19198051  ..........A..................A..................C...........  19198110
+
+Query_6         313       TGACAACACGGCGTCTATAAGCCTCCTGAAGAGTCTCCATGCTGAGTTCTTGCCTTGTCG  372
+NW_022098000.1  19198111  .......GT.TTC..C..C........A..C..CA.T..A..C............G....  19198170
+
+Query_6         373       CTTCCACAGGCTTATTCTCACCCCTGCGACTTTCTCTGGCCTGCCTCACCTCTAG  427
+NW_022098000.1  19198171  A...T.T....................AG..........G.A.GT.....C....  19198225
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 940316158772
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

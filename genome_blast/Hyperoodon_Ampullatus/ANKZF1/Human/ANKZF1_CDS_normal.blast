@@ -1,0 +1,124 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_018089.3_cds_NP_060559.2_1 [gene=ANKZF1]
+[db_xref=CCDS:CCDS42821.1] [protein=tRNA endonuclease ANKZF1 isoform
+1] [protein_id=NP_060559.2] [location=126..2306] [gbkey=CDS]
+
+Length=2181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457067.1 Hyperoodon ampullatus genome assembly, chromosome: 12      344     1e-91
+OX457063.1 Hyperoodon ampullatus genome assembly, chromosome: 8       318     7e-84
+
+
+
+Query_1     257       AAC-AGAGGGAACATTATAAGCTTGACTGGCATCGGTTTAACCTAAAGCAACGTCTCAAG  315
+OX457063.1  19339101  ...T..G...........................................G.A.......  19339042
+
+Query_1     316       GACAAGCCTCTCCTGTCTGCCCTGGACTTTGAAAAGCAGAGCTCCACAGGAGATCTTTCC  375
+OX457063.1  19338872                                                ..............  19338859
+OX457063.1  19339041  ..................................................            19338992
+
+Query_1     376       AGCATCTCGGGATCAGAAGACTCAGACTCAGCCAGTGAGGAGGACTTGCAGACACTGGAT  435
+OX457063.1  19338858  ........A..............G.......................A....T.......  19338799
+
+Query_1     436       CGGGAGAGGGCTACATTTGAGAAGTTGAGCCGACCCCCAGGCTTTTACCCTCATCGAGTT  495
+OX457063.1  19338798  GA..........GAG.........CCT.A.T...T..G......CC....A.....G...  19338739
+
+Query_1     496       CTTTTCCAGAATGCCCAGGGCCAGTTTCTTTATGCCTACCGCTGTGTCCTAGGCCCTCAT  555
+OX457063.1  19338738  ........A.............................TT..................GC  19338679
+
+Query_1     556       CAGGATCCCCCAGAAGAGGCAGAACTGCTGCTACAGAACCTGCAAAGTAGAGGTCCCAGA  615
+OX457063.1  19338678  ....                                                          19338675
+
+Query_1     616       GACTGCGTGGTGCTCATGGCTGCAGCTGGGCACTTTGCTGGTGCTATATTTCAAGGAAGA  675
+OX457063.1  19338071                                                             .  19338071
+
+Query_1     676       GAAGTGGTGACACACAAAACTTTTCACCGCTATACGGTTCGGGCCAAGCGGGGCACAGCC  735
+OX457063.1  19338070  ......T..........G..C.....A.....C..A..G.........T...........  19338011
+
+Query_1     736       CAGGGGCTTCGGGATGCCCGAGGTGGGCCATCACACTCTGCTGGAGCCAACCTGAGGCGC  795
+OX457063.1  19338010  .........TC.........G....C.G.T..C.G.........................  19337951
+
+Query_1     796       TACAATGAAGCCACACTATATAAGGATGTTCGTGACCTGCTGGCAGGGCCAAGCTGGGCT  855
+OX457063.1  19337950  ....G.....A..TG..........                                     19337926
+
+Query_1     856       AAGGCGCTGGAGGAGGCTGGTACAATACTGTTGCGTGCTCCCCGCTCTGGCCGGTCTTTG  915
+
+Query_1     916       TTCTTTGGAGGCAAGGGAGCACCCCTGCAAAGGGGGGATCCCCGACTTTGGGATATCCCC  975
+
+Query_1     976       CTCGCCACCCGCAGACCCACCTTCCAAGAGCTACAGCGTGTGCTCCATAAGCTGACCACT  1035
+
+Query_1     1036      TTGCATGTCTATGAAGAAGACCCTCGGGAAGCAGTCAGACTGCACTCACCTCAGACACAC  1095
+
+Query_1     1096      TGGAAAACAGTAAGAGAGGAGAGAAAGAAGCCTACTGAGGAAGAAATAAGAAAGATCTGC  1155
+
+Query_1     1156      AGGGATGAAAAGGAAGCGCTGGGGCAGAATGAGGAATCTCCCAAACAGGGTTCAGGGTCG  1215
+OX457067.1  50418362                                                  .......A...A  50418373
+OX457063.1  19336042                                                  .......A...A  19336031
+
+Query_1     1216      GAGGGAGA-A-GATGGCTTTCAGGTAGAGTTGGAGCTAGTGGAGTTGACTGTGGGGACTC  1273
+OX457067.1  50418374  ........-G-......CCC....................A...G....AA.......A.  50418431
+OX457063.1  19336030  ........G.G.......CC......C.............A...G....AC......TG.  19335971
+
+Query_1     1274      TGGATCTTTGTGAGTCTGAAGTATTGCCCAAGCGGAGGAGGAGAAAAAGGAATAAGAAGG  1333
+OX457067.1  50418432  ........C....A.T...G.............A......................G..-  50418490
+OX457063.1  19335970  ........C....A.T...G.............A.......................G..  19335911
+
+Query_1     1334      AGAAAAGCCGAGACCAGGAGGCTGGGGCACATCGGACTCTTCTCCAGCAAACTCAAGAAG  1393
+OX457067.1  50418491  ..-...-........T...........TG..AAT.......TC.......C.........  50418548
+OX457063.1  19335910  ...G..A..A.....T............G..AAT.......TC.......C.....T...  19335851
+
+Query_1     1394      AGGAG-CCTTCCACACAGTCATCCCAGGCAGTTGCTGCCCCCTTGGGCCCTTTGCTGGAT  1452
+OX457067.1  50418549  .T...G....--------.--.--..--...-.-.A.....T.....GT....C.CA...  50418592
+OX457063.1  19335850  .T...G....--------.--.--..-.-..-.-.A.....T.....G....CC.CA...  19335807
+
+Query_1     1453      GAGGCCAAAGCCCCTGGTCAGCCAGAGCTCTGGAATGCACTGCTTGCTGCTTGCCGAGCT  1512
+OX457067.1  50418593  ........GT.......................G...TG..T..G.........T.....  50418652
+OX457063.1  19335806  ........GT............TG.........C...TG..TT.G..........A....  19335747
+
+Query_1     1513      GGAGAT-G-TTG---G-AG-TGCTAAAGCTGCAGCTAGCTCCCAGCCCTGCAGACCCTAG  1565
+OX457067.1  50418653  ......A.C...CTT.CT.A....G.....C.G.......G.......CCT.......G.  50418712
+OX457063.1  19335746  .....C-.-GG.---.-.--....G.....C.........G.......CCT.....T.G.  19335695
+
+Query_1     1566      AGTTCTGTCTCTGCTCAGTGCCCCCTTGGGCTCCGGTGGCTTTACTCTCCTGCATGCAGC  1625
+OX457067.1  50418713  .................................T........C..C.......GCA....  50418772
+OX457063.1  19335694  .................................T........G..CT.......CA....  19335635
+
+Query_1     1626      AGCTGCAGCTGGAAGAGGCTCAGT-GGTT  1653
+OX457067.1  50418773  ...C........G...........-....  50418800
+OX457063.1  19335634  T..CA.......G...........A...   19335607
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 6081785076750
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,57 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= XM_011509118.2:352-1485 PREDICTED: Homo sapiens peptidoglycan
+recognition protein 3 (PGLYRP3), transcript variant X1, mRNA
+
+Length=1134
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01022073.1 Pontoporia blainvillei isolate BP203 contig22408, ...  183     9e-44
+
+
+
+Query_1         639  TTGCCCCAACATCATCAAACGATCTGCTTGGGAAGCCAGAGAGACACACTGCCCTAAAAT  698
+PGGH01022073.1  965  .........T.......C.A.G..A......A........C...............C...  906
+
+Query_1         699  GAACCTCCCAGCCAAATATGTCATCATCATCCACACCGCTGGCACAAGCTGCACTGTATC  758
+PGGH01022073.1  905  ....T.T.TG............................T...GG...C.G...ACA....  846
+
+Query_1         759  CACAGACTGCCAGA-CTGTCGTCCGAAACATACAGTCCTTTCACATGGACACACGGAACT  817
+PGGH01022073.1  845  ..TG.......G..T....-...T..G.T........T.A..............A.....  787
+
+Query_1         818  TTTGTGACATTGGATATCA  836
+PGGH01022073.1  786  .C........C........  768
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2204625453984
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

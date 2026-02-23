@@ -1,0 +1,89 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_198179.3_cds_NP_937822.2_1 [gene=QRFPR]
+[db_xref=CCDS:CCDS3719.1] [protein=pyroglutamylated RF-amide peptide
+receptor] [protein_id=NP_937822.2] [location=372..1667] [gbkey=CDS]
+
+Length=1296
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457056.1 Hyperoodon ampullatus genome assembly, chromosome: 1       427     6e-117
+
+
+
+Query_1     8          CGCTTAACATTACCCCGGAGCAGTTCTCTCGGCTGCTGCGGGACCACAACCTGACGCGGG  67
+OX457056.1  144828245  ....C.....C.................C............A.........C...A....  144828304
+
+Query_1     68         AGCAGTTCATCGCTCTGTACCGGCTGCGACCGCTCGTCTACACCCCAGAGCTGCCGGGAC  127
+OX457056.1  144828305  .............G......G.......G.....G...........GC.......T..G.  144828364
+
+Query_1     128        GCGCCAAGCTGGCCCTCGTGCTCACCGGCGTGCTCATCTTCGCCCTGGCGCTCTTTGGCA  187
+OX457056.1  144828365  ..............T.............................................  144828424
+
+Query_1     188        ATGCTCTGGTGTTCTACGTGGTGACCCGCAGCAAGGCCATGCGCACCGTCACCAACATCT  247
+OX457056.1  144828425  .C..G......G...............T....G...........................  144828484
+
+Query_1     248        TTATCTGCTCCTTGGCGCTCAGTGACCTGCTCATCACCTTCTTCTGCATTCCCGTCACCA  307
+OX457056.1  144828485  .C.C...T.......T..............C....G..GC.........C..G.....T.  144828544
+
+Query_1     308        TGCTCCAGAACATTTCCGACAACTGGCTGGGGGGTGCTTTCATTTGCAAGATGGTGCCAT  367
+OX457056.1  144828545  .....G.......C.T.A..................                          144828580
+
+Query_1     368        TTGTCCAGTCTACCGCTGTTGTGACAGAAATCCTCACTATGACCTGCATTGCTGTGGAAA  427
+
+Query_1     428        GGCACCAGGGACTTGTGCATCCTTTTAAAATGAAGTGGCAATACACCAACCGAAGGGCTT  487
+
+Query_1     488        TCACAATGCTAGGTGTGGTCTGGCTGGTGGCAGTCATCGTAGGATCACCCATGTGGCACG  547
+
+Query_1     548        TGCAACAACTTGAGATCAAATATGACTTCCTATATGAAAAGGAACACATCTGCTGCTTAG  607
+OX457056.1  144850584              ....T..G...A.....T..........A.................G.  144850631
+
+Query_1     608        AAGAGTGGACCAGCCCTGTGCACCAGAAGATCTACACCACCTTCATCCTTGTCATCCTCT  667
+OX457056.1  144850632  ..................G.........A.....T..T......................  144850691
+
+Query_1     668        TCCTCCTGCCTCTTATGGTGATGCTTATTCTGTACAGTAAAATTGGTTATGAACTTTGGA  727
+OX457056.1  144850692  ............................C...........G..C..C.............  144850751
+
+Query_1     728        TAAAGAAAAGAGTTGGGGATGGTTCAGTGCTTCGAACTATTCATGGAAAAGAAATGTCCA  787
+OX457056.1  144850752  .............C........C..........A........................A.  144850811
+
+Query_1     788        AAATAGCCAGGAAGAAGAAACGAGCTGTCATTATGATGGTGACAGTGGTGGCTCTCTTTG  847
+OX457056.1  144850812  ....T......                                                   144850822
+OX457056.1  144852920        ...C.........GT.......TG..............................  144852973
+
+Query_1     848        CTGTGTGCTGGGCACCATTCCATGTTGTCCATATGATGATTGAATACAGTAA-TTTT  903
+OX457056.1  144852974  ............T...T.....C.....T..C.......C..........G.G....  144853030
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3581182310532
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,58 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_001257967.3_cds_NP_001244896.2_1 [gene=ITPRID1]
+[db_xref=CCDS:CCDS5435.2] [protein=protein ITPRID1 isoform 2]
+[protein_id=NP_001244896.2] [location=129..3263] [gbkey=CDS]
+
+Length=3135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082669.1 Mesoplodon densirostris isolate mMesDen1 chromosome 9...  316     3e-83
+
+
+
+Query_1      394       AGCATTCCTGAATGGCTGGAATTTTGGGAGATAGATCCAGTGGAGATTCTCTTGGATCTG  453
+NC_082669.1  68626348  .............................A.A............................  68626407
+
+Query_1      454       GGGTTTGGTGCTGATGAGCCAGACATCTGCATGCAAATCCCAGCCAGATTCCTTGGTTGT  513
+NC_082669.1  68626408  ..............C.............A..CA.G..................G.A....  68626467
+
+Query_1      514       GGCTCAGCAGCCAGAGGAATCAACATCCGTGTTTTTCTTGAAGCTCAAAAGCAGCGAATG  573
+NC_082669.1  68626468  .A..........................................................  68626527
+
+Query_1      574       GACATTGAGAACCCCAACTTGTAC  597
+NC_082669.1  68626528  ..............T.........  68626551
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 8329240027136
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

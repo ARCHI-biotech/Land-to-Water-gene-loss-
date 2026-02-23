@@ -1,0 +1,62 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006789975.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  126     3e-26
+
+
+
+Query_1         115      GTTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTAC  174
+NW_006789975.1  1238962  ..............T.................................T..........T  1238903
+
+Query_1         175      CACAAATGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAAC  234
+NW_006789975.1  1238902  .......T..T.....GA...T....C.....-.GA.......                   1238861
+
+Query_1         235      TTTGATCAGGACCAGCGATGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGC  294
+NW_006789975.1  1237819                                                    ...T.....T  1237810
+
+Query_1         295      AGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCAC  354
+NW_006789975.1  1237809  ..........AA.....................................AT.....A...  1237750
+
+Query_1         355      TGTCTCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAG  397
+NW_006789975.1  1237749  ..CA........G.T...T.......G..G..........G..  1237707
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4394826353939
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

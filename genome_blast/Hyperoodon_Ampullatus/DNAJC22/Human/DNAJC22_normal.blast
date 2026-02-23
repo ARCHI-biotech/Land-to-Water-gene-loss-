@@ -1,0 +1,207 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=664
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1793419893268
+
+
+Query= exon_2
+
+Length=462
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457066.1 Hyperoodon ampullatus genome assembly, chromosome: 11      228     2e-57
+
+
+
+Query_2     220       CCTTGCACCGAGTTTCCCCGCGAGGGCGGGCGGGAGGAGTCCCAGGCGGGAATGTGATCC  279
+OX457066.1  55219451  ....AA.........A....A...........A......C.....C.T.A..G.......  55219510
+
+Query_2     280       CCAGGGGGCCGGGGAGGGCCCTGGGGAGGAGCCTGGCCTGGGGAAGCCGGACTTCCGTGA  339
+OX457066.1  55219511  .T.A......A.......T.T........G........-A..ACG...C...........  55219569
+
+Query_2     340       CACAACAGACACA-AAAGACAAAGTCCATTTGGATGGAAGTGGGAGCAGGGCGAGACGGG  398
+OX457066.1  55219570  ....G..A.....G.................................G.AAA....G...  55219629
+
+Query_2     399       CCATTTTCACTCTGTGGTCAAAGGAAATGACTGGTCTGACTCGGTCTGGGAGC-GGGGCA  457
+OX457066.1  55219630  .......G.................G.......A.....TGG.........A.C....TG  55219689
+
+Query_2     458       CCCAG  462
+OX457066.1  55219690  .....  55219694
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1224843882647
+
+
+Query= exon_3
+
+Length=947
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457066.1 Hyperoodon ampullatus genome assembly, chromosome: 11      917     0.0  
+
+
+
+Query_3     1         GGTCTAAGGATAACTCTGGGGCCATGACAGCCATGAGTCTCACAGAGGA-CCCCGA----  55
+OX457066.1  55220442  .......................G....T.......T.........T..T...A..TTTT  55220501
+
+Query_3     56        G-ACTTCTGTGC--TGCGA-GT--AACCGGACTTGTTCTGAGACCTTTGCCCTAGAGGAT  109
+OX457066.1  55220502  .C.A.....A..AA..GC.G..GCC..T.................C..TT..........  55220561
+
+Query_3     110       GGCCAAGGGGCTCCTGGTGACCTATGCCCTCTGGGCTGTGGGGGGCCCTGCTGGGCTCCA  169
+OX457066.1  55220562  ................A......................A.......T............  55220621
+
+Query_3     170       CCACCTGTACCTGGGAAGGGACAGCCACGCCCTGCTCTGGATGC---T----GAC----C  218
+OX457066.1  55220622  T..G........T..GT.............A.............CCC.GGGG.G.GGGGG  55220681
+
+Query_3     219       CT--GGG-GG-GA-GG-TGGGCTGGGCTGGCTCTGGGAGTTCTGGAAGCTCCCAAGCTTT  272
+OX457066.1  55220682  G.GG...C..A..G..A...C..C..T...........A..............G......  55220741
+
+Query_3     273       GTAGCTCAGGCCAACAGAGCCCAGGGACAGAGGCAGAGCCCCAGAGGGGTGACACCCCCT  332
+OX457066.1  55220742  ..T...............C.....C.G...........TT.AG......G.....A....  55220801
+
+Query_3     333       CTGAGTCCCATTCGCTTTGCTGCCCAGGTGATAGTTGGCATCTATTTTGGCCTTGTGGCA  392
+OX457066.1  55220802  T.....A......A.............A.......G.....T.................T  55220861
+
+Query_3     393       CTGATTAGCCTTTCTTCCATGGTCAACTTCTATATTGTGGCCCTCCCACTGGCAGTTGGC  452
+OX457066.1  55220862  G.C........C..C.T.....G..G..............G...................  55220921
+
+Query_3     453       TTAGGGGTCTTGCTGGTGGCTGCTGTTGGCAACCAGACCTCAGACTTTAAGAACACTCTG  512
+OX457066.1  55220922  ........T......A.............T.............................A  55220981
+
+Query_3     513       GGGTCAGCATTTCTCACTTCACCTATCTTCTATGGCCGCCCCATAGCCATACTGCCCATT  572
+OX457066.1  55220982  ..AG.........GT.....C.....T.........T.............C........C  55221041
+
+Query_3     573       AGCGTGGCCGCCAGCATTACAGCTCAGAGGCATCGCCGCTACAAAGCTTTGGTGGCATCA  632
+OX457066.1  55221042  ...T....T..TG....C.....C....A....T...T...........CA..T.GG...  55221101
+
+Query_3     633       GAGCCGCTCAGTGTGCGGCTCTATCGTCTGGGCTTGGCTTACCTTGCTTTCACAGGCCCA  692
+OX457066.1  55221102  ...AT..........A.......C..C...........C...............T....G  55221161
+
+Query_3     693       CTGGCATACAGTGCCCTCTGCAACACAGCTGCCACCCTCAGCTATGTGGCAGAAACCTTT  752
+OX457066.1  55221162  ..A......................TG...........T..............G...C..  55221221
+
+Query_3     753       GGCTCCTTCTTGAATTGGTTCAGCTTCTTCCCCCTTCTTGGCCGCCTCATGGAGTTTGTC  812
+OX457066.1  55221222  ...........C.G......T..............C.....G.A...G.......C....  55221281
+
+Query_3     813       CTCCTTCTGCCTTACCGGATCTGGAGGCTACTGATGGGGGAGAC-TGGCTTCAACAGCAG  871
+OX457066.1  55221282  ......T........T..G...A..A...G...G....A..-..A........G...TG.  55221340
+
+Query_3     872       CTGCTTTCAGGAGTGGGCGAAGCTCTATGAGTTTGTTCACAGTTTTCAGGATGAGAAGCG  931
+OX457066.1  55221341  ..A...C..A......TAA.................................T.....T.  55221400
+
+Query_3     932       TCAGCTGGCTTACCAG  947
+OX457066.1  55221401  ....T...........  55221416
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2593952747834
+
+
+Query= exon_4
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 107492159140
+
+
+Query= exon_5
+
+Length=39
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 39602385018
+
+
+Query= exon_6
+
+Length=32
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 22629940352
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

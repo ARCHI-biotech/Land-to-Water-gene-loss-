@@ -1,0 +1,184 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=49
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 47985858024
+
+
+Query= exon_2
+
+Length=238
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01306128.1 Pontoporia blainvillei isolate BP203 contig309930,...  327     8e-88
+
+
+
+Query_2         1    GTATCACTGGACAGGCCATGGCTCCACGGTCCCGGCGACGAAGGCACAAGAAACCTCCCT  60
+PGGH01306128.1  504  ..................................AT..................TC....  563
+
+Query_2         61   CATCAGTGGCTCCCATCATCATGGCCCCAACCACAATTGTGACCCCTGTGCCTCTGACCC  120
+PGGH01306128.1  564  ..............G.GG.TG..A.....C.....G.......T................  623
+
+Query_2         121  CCTCAAAACCTGGCCCTAGCATTGACACACTTGGCTTCTTCTCCTTGGATGATAATGTTC  180
+PGGH01306128.1  624  T........................T.......................GA.........  683
+
+Query_2         181  CTGGCCTATCGCAGCTGATCCTTCAAAAGCTGAACATGAAAAGCTATGAAGAATA  235
+PGGH01306128.1  684  ..........C.............-..............................  737
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 419565364680
+
+
+Query= exon_3
+
+Length=156
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 257796668781
+
+
+Query= exon_4
+
+Length=125
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 195845531322
+
+
+Query= exon_5
+
+Length=567
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1074621012926
+
+
+Query= exon_6
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 133894393863
+
+
+Query= exon_7
+
+Length=220
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01125550.1 Pontoporia blainvillei isolate BP203 contig127410,...  267     2e-69
+
+
+
+Query_7         1     CCATCAGGAGTTGGTATCCTCTTTGCAGATTCTGGTGGAACTGGATACACACATCACTGC  60
+PGGH01125550.1  2009  ...G..........C.G..........A...........C.................A..  2068
+
+Query_7         61    CTTTGGGTCTAATCCTTTCATGTCCCTCAAACCTGAACAGGTCTATTCCAGTCCCAACAA  120
+PGGH01125550.1  2069  ..G...AG..........TGC........................C....AC........  2128
+
+Query_7         121   GCAGCCAGTATACTGCAGTGCATACTATATCATGTTTCTTGGAAGCTCCTGTCAGCTGGA  180
+PGGH01125550.1  2129  .....................C...................A.........C........  2188
+
+Query_7         181   TAATAGGCAATTAGAAGAGAAAGT  204
+PGGH01125550.1  2189  ...G........G...........  2212
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 383602619136
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

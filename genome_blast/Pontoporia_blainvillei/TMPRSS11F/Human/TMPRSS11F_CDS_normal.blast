@@ -1,0 +1,88 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|NM_207407.2_cds_NP_997290.2_1 [gene=TMPRSS11F]
+[db_xref=CCDS:CCDS3520.1] [protein=transmembrane protease serine
+11F] [protein_id=NP_997290.2] [location=50..1366] [gbkey=CDS]
+
+Length=1317
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01100944.1 Pontoporia blainvillei isolate BP203 contig102471,...  322     2e-85
+
+
+
+Query_1         555    CTGTGGAATAAGGATGACATCTTCAAACATGCCATTACCAGCATCCTCTTCTACTCAAAG  614
+PGGH01100944.1  12577  .........................T.............................G....  12518
+
+Query_1         615    AATTGTCCAAGGAAGGGAAACAGCTATGGAAGGGGAATGGCCATGGCAGGCCAGCCTCCA  674
+PGGH01100944.1  12517  GG.............T....................G.......................  12458
+
+Query_1         675    GCTCATAGGGTCAGGCCATCAGTGTGGAGCCAGCCTCATCAGTAACACATGGCTGCTCAC  734
+PGGH01100944.1  12457  ..........G.............CA....T.................T...........  12398
+
+Query_1         735    AGCAGCTCACTGCTTTTGGAAAAATAAAGACCCAACTCAATGGATTGCTACTTTTGGTGC  794
+PGGH01100944.1  12397  G..G...........                                               12383
+PGGH01100944.1  8641                          ............G.....................CA.  8605
+
+Query_1         795    AACTATAACACCACCCGCAGTGAAACGAAATGTGAGGAAAATTATTCTTCATGAGAATTA  854
+PGGH01100944.1  8604   ................A.....C......G.........G....CCT.............  8545
+
+Query_1         855    CCATAGAGAAACAAATGAAAATGACATTGCTTTGGTTCAGCTCTCTACTGGAGTTGAGTT  914
+PGGH01100944.1  8544   ...................................C......TG....CC..........  8485
+
+Query_1         915    TTCAAATATAGTCCAGAGAGTTTGCCTCCCAGACTCATCTATAAAGTTGCCACCTAAAAC  974
+PGGH01100944.1  8484   .......G....T.....--.............T..G..C...........GT.......  8427
+
+Query_1         975    AAGTGTGTTCGTCACAGGATTTGGATCCATTGTAGATGATGGACCTATACAAAATACACT  1034
+PGGH01100944.1  8426   ......A...........G......C..........C.....                    8385
+PGGH01100944.1  7139                                           .......C........G...  7120
+
+Query_1         1035   TCGGCAAGCCAGAGTGGAAACCATAAGCACTGATGTGTGTAACAGAAAGGATGTGTATGA  1094
+PGGH01100944.1  7119   .T..........G.....................T.........................  7060
+
+Query_1         1095   TGGCCTGATAACTCCAGGAATGTTATGTGCTGGATTCATGGAAGGAAAAATAGATGCATG  1154
+PGGH01100944.1  7059   .............T............................T......G..........  7000
+
+Query_1         1155   TAAGGGAGATTCTGGTGGACCTCTGGTTTATGATAATCATGACATCTGGTACATTGTAGG  1214
+PGGH01100944.1  6999   .....                                                         6995
+PGGH01100944.1  2912                                           ...C........C....CA.  2893
+
+Query_1         1215   TATAGTAAGTTGGGGACAATCATGTGCACTTCCCAAAAAACCTGGAGTCTACACCAGAGT  1274
+PGGH01100944.1  2892   ...........................T.................G........A.A...  2833
+
+Query_1         1275   AACTAAGTATCGAGATTGGATTGCCTCAAAGACTGGTATGTAG  1317
+PGGH01100944.1  2832   G.G.C.........GC.....................G.C...  2790
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2570066086302
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

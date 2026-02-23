@@ -1,0 +1,58 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_001257967.3_cds_NP_001244896.2_1 [gene=ITPRID1]
+[db_xref=CCDS:CCDS5435.2] [protein=protein ITPRID1 isoform 2]
+[protein_id=NP_001244896.2] [location=129..3263] [gbkey=CDS]
+
+Length=3135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457064.1 Hyperoodon ampullatus genome assembly, chromosome: 9       316     4e-83
+
+
+
+Query_1     394       AGCATTCCTGAATGGCTGGAATTTTGGGAGATAGATCCAGTGGAGATTCTCTTGGATCTG  453
+OX457064.1  63799169  .............................A.G............................  63799228
+
+Query_1     454       GGGTTTGGTGCTGATGAGCCAGACATCTGCATGCAAATCCCAGCCAGATTCCTTGGTTGT  513
+OX457064.1  63799229  ..............C.............A..CA.G..................G.A....  63799288
+
+Query_1     514       GGCTCAGCAGCCAGAGGAATCAACATCCGTGTTTTTCTTGAAGCTCAAAAGCAGCGAATG  573
+OX457064.1  63799289  .A..........................................................  63799348
+
+Query_1     574       GACATTGAGAACCCCAACTTGTAC  597
+OX457064.1  63799349  ..............T.........  63799372
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 8777569322264
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,112 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= exon_1
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006774518.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  98.7    3e-19
+
+
+
+Query_1         1      AGACTCAGCCCACCCCAG-CTTTGGGGGCCAGTACATAGCCATGATCCTCAACTGGAAGC  59
+NW_006774518.1  63416  ..........G.....T.A........T....G.G.C..G..A...G...........A.  63475
+
+Query_1         60     TCCTGGGGATCCTGGTCCTTTGCCTG  85
+NW_006774518.1  63476  ......A...................  63501
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159639234942
+
+
+Query= exon_2
+
+Length=773
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006774518.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  640     0.0  
+
+
+
+Query_2         1      GCATCTCAGGCAGCGAGGGCCACCCCTCTCACCCACCCGCAGAGGACCGAGAGGAGGCAG  60
+NW_006774518.1  64152  ...............GA.A...T..A....C.T..T..A.....CC.TC......C.AG.  64211
+
+Query_2         61     GCTCCCCAACATTGCCTCAGGGCCCCCCAGTCCCCGGTGACCCTTGGCCAGGGGCACCCC  120
+NW_006774518.1  64212  ..C..........................A....T........C..........T....G  64271
+
+Query_2         121    CTCTCTTTGAAGATCCTCCGCCTACCCGCCCCAGTCGTCCCTGGAGAGACCTGCCTGAAA  180
+NW_006774518.1  64272  ..........G..C.T...A...C.AG........T.......................T  64331
+
+Query_2         181    CTGGAGTCTGGCTCCCTGAACCGCCTAGAACGGATCCTCCTCAACCTCCCCGGCCTGACG  240
+NW_006774518.1  64332  ............CT....T...C....C...T.....C....................T.  64391
+
+Query_2         241    ACCCTTGGCCGGCAGGACCCCAGCCCCCAGAAAACCCCTGG-CCTCCTGCCCCTGAGGTG  299
+NW_006774518.1  64392  ....C.....A..............T...............C..A......T..A.....  64451
+
+Query_2         300    GACAACCGACCTCAGGAGGAGCCAGACCTAGACCCACCCCGGGAAGAGTACAGATAATGG  359
+NW_006774518.1  64452  .G.C..G..T................T..T..........A...G.........C.....  64511
+
+Query_2         360    AGTCCCCTCAGCCGTTCTGTTCCCAGGCATCTCCAGGCACCCACGCCC-TCTCCACCC-T  417
+NW_006774518.1  64512  .TC....AG..G.A.C...------...C...----..C.T..A....A....T....T.  64561
+
+Query_2         418    CTGATTCCCCGTGAATTCTTCCCAATTTAGCCTGTCTCCTTAAACCTCTTCCTCATTCCC  477
+NW_006774518.1  64562  ......T...T........C.............AA........TT.CT...........T  64621
+
+Query_2         478    TCGGTTTTATTCTGAACCCGTAAGGTGGTGTTCTCAATATTTCCTGTCCCCTCCTGAGAT  537
+NW_006774518.1  64622  ..T.................G......T..............T..........T......  64681
+
+Query_2         538    CCATACTTAGTCCTCACATCGCCCGT-TTTTTCCTCTGACAGCCTAAGCCTACTCTCCTA  596
+NW_006774518.1  64682  .GG..T....C..C.G.C..C...T.C.................A...TGA..A.C....  64741
+
+Query_2         597    CCTCGCCTCCAGGCCTCGGCCGCACCTACCTCCCACCCGGTCTTCCTGCCCGCGCGATCG  656
+NW_006774518.1  64742  ....A.......T....TC.--------.........------G...CT...G..-.GG.  64786
+
+Query_2         657    CTGGGGCAGGGCTATGGTACTGTGTTCCCTTCTGCCACCTGGTGGCCGGCGGC-AGGAAC  715
+NW_006774518.1  64787  ..--....--------.C.........T..G.................C.A..TG.....  64836
+
+Query_2         716    TATCAGTAGACAGCTGCTGCTTCCATGAAA-CGGAAAAATAAAAATCATGTTTTCT  770
+NW_006774518.1  64837  ..C...G....-CA..G.............TG......CA.....C..........  64891
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1792258076037
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

@@ -1,0 +1,65 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_001080524.2_cds_NP_001073993.1_1 [gene=C16orf90]
+[db_xref=CCDS:CCDS45397.1] [protein=uncharacterized protein C16orf90
+isoform a] [protein_id=NP_001073993.1] [location=69..617]
+[gbkey=CDS]
+
+Length=549
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457069.1 Hyperoodon ampullatus genome assembly, chromosome: 14      294     3e-77
+
+
+
+Query_1     45        AGATGCAGTGAGCCAGGCCCAAGGACGCCCCGGCCACCCTGACGCACCCCCCAACATCTA  104
+OX457069.1  24517941  .............TG....GG.....A.A..A.T.........ATG..A.....T.....  24517882
+
+Query_1     105       CGAGGGGGGCCTGGGGTCCCCGCAGCCGCAGTGCCCCAGTGCCCAGGGAAGCAAGCCCAA  164
+OX457069.1  24517881  .........G......GT..A.....A......T..........................  24517822
+
+Query_1     165       GAACTTCCGGCTGCGCCACCTCCGGGGCCTGGGCCTCTACCTGG-AGAGCCACCCGCCAC  223
+OX457069.1  24517821  .......T..T...A........A........CT.........CC..-.....AT..AG.  24517763
+
+Query_1     224       CCACTGGCCAGTGTGAGAGCCACTGGCTGGGCCGGCTTATGGCTGGGGGCTGCCTGCCAC  283
+OX457069.1  24517762  .TG.C.................T..........A...C.....C...........C....  24517703
+
+Query_1     284       AGCCTGAGGGCACAGCCTGGGCCCTGGACCTGCCACAGGGGACTCTGGGCCCACGTAACA  343
+OX457069.1  24517702  .A..C..........T....C........T.A......C..G...........G....--  24517645
+
+Query_1     344       GCCTCTGTTCAGCCCTTCTGGAAGCCCGA  372
+OX457069.1  24517644  .T.A..AC.................T...  24517616
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1470944154680
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

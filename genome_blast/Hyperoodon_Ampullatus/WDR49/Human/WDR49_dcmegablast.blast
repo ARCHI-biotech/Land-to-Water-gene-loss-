@@ -1,0 +1,608 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       77.0    1e-12
+
+
+
+Query_1     1         GCATTCAGAGTCAAGTACTTCATTGGTAGGGAAACTCTGCAGCTTTGTCATCTAACTCTT  60
+OX457060.1  61771240  ..C.......G.CG.C......C...GGT.....TCT.......G.....C..C..A.C.  61771299
+
+Query_1     61        CCAGACAAGAAAGTGGAATTGAAAACTACAACATGTTAATGGAAGCAAG  109
+OX457060.1  61771300  ..CC........A....G..T.....C.........G...A.-......  61771347
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 223470302158
+
+
+Query= exon_2
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       133     5e-29
+
+
+
+Query_2     1         GCACCTGTTGAAGGAAAA--------AGAAGATCCATCCTTATAGAAATAGTTGAAGGCA  52
+OX457060.1  61771670  ..................GAAAAAGA.A.....AA..A....G...----.........T  61771725
+
+Query_2     53        ACTGAGAAAAGGTGAAGCCATTG-------CCAGAAAGCTGTACTTGAGTTAAACATAGG  105
+OX457060.1  61771726  GT.A.A..G....A........ATGAGTTT......T...ACC........G....A...  61771785
+
+Query_2     106       GTCACAGCTTGGGCCAAAGAGTCCTGAGAGAA---CAGAAGGTGTAACTGCATTTGAAGA  162
+OX457060.1  61771786  A..C...GCC......G.A.AC..A.......TTT..C......A.......GAG.....  61771845
+
+Query_2     163       CTATGGCACAGGCCTGCTTGAAAACCAACTCAGCGTGGGTGACTTTGTAAAAATACAGAA  222
+OX457060.1  61771846  TGCCT...T..C.............G..T.....C.............CC.......A.G  61771905
+
+Query_2     223       GGCCTTTGAG  232
+OX457060.1  61771906  A.........  61771915
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 568576186245
+
+
+Query= exon_3
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       533     3e-149
+
+
+
+Query_3     2         CCCCACAGCCAAGGAAAATCATTTGTATGTCCAGAGAAGACTTCACGCAGAAGATGACAG  61
+OX457060.1  61797959  ..T..G.......TC...C.....................G..TGT.....G........  61798018
+
+Query_3     62        AGATTGTTGGTTGGGGCACGAAGGAAGAATATGGGGAGCTCTTTGACAAAGTGGATGTGG  121
+OX457060.1  61798019  ...................A............A.A...........T.............  61798078
+
+Query_3     122       CCCAAGATGGCTTCATTAATTGGGACAAGCTGACTTCATTTATACTGCTAGAGCTTTATG  181
+OX457060.1  61798079  ............GT.............................G...T..ACA.......  61798138
+
+Query_3     182       AGCAAGATGAACGAGCAAAGGCAACTGTGGTGCCCCAGTGGAAGGACCTTGAATTCCTCC  241
+OX457060.1  61798139  ..A.........A...........TG.....T...........A................  61798198
+
+Query_3     242       CAGTAAAACACAAGGACACCATTCAAAAAGTAATTTTCTTAAAAAATTCAAGTCATTATC  301
+OX457060.1  61798199  .G..G...TG.....G..........................C..G........G.....  61798258
+
+Query_3     302       TGACAATTAGTAAAGAAGGTTTATTGGCAATCTGGGGAGAGCATTTAAAGCTGCAAGAAA  361
+OX457060.1  61798259  ...TC..C..G..G.........G.A.G.............A..................  61798318
+
+Query_3     362       CATTCCCCATCACTTCAGATGCCACCAAGCTCAAACACCTGTGGGTGACAAGTCTGGTTT  421
+OX457060.1  61798319  TGC.T.......T.........T.A......T............C........A...C..  61798378
+
+Query_3     422       CTCTGGAAAATGTAAACAAG  441
+OX457060.1  61798379  T......C....A.......  61798398
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1156953223592
+
+
+Query= exon_4
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       189     6e-46
+
+
+
+Query_4     1         ATAGCAGTGGCTTTTACAAGTAAAGAGGTTTGTTTCTATGATCTGCTGTCCAAAGAAGAA  60
+OX457060.1  61801685  ...A................A......A................................  61801744
+
+Query_4     61        TTTGCTTGCCAATACAAACTCCAAGGCCTGAAAGGAACACCAATTTGCATGGATTATTGG  120
+OX457060.1  61801745  ...C....T.....T....C........................................  61801804
+
+Query_4     121       TA  122
+OX457060.1  61801805  ..  61801806
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 412995637770
+
+
+Query= exon_5
+
+Length=175
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       181     9e-44
+
+
+
+Query_5     1         GTTCAAGCAATTGCTTTCACCGCAGCCTTGATTTCCCTGTTTGAACGGCCTGCTAGTGCA  60
+OX457060.1  61803405  .......T............AA.G..............T.....G.AT......G.....  61803464
+
+Query_5     61        TGTGAAGATGGAGAAGCCACTATGACCATTAACTGGGCAGAGCTGCTCTCTGGATGTCAC  120
+OX457060.1  61803465  ..........A......A..CG......................CTG.......CA....  61803524
+
+Query_5     121       AAATGTTGCCATATATTAGAGCATAAACTTCATCAAGGAGATTGGGTCAGGCAAG  175
+OX457060.1  61803525  .........T...C.....G...CG.......CTGT.....C.......CA....  61803579
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 407338163280
+
+
+Query= exon_6
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       236     4e-60
+
+
+
+Query_6     1         TTACTTACAATGCATCTTTAGACGCTATCATTTCCAGTACAACCAGCAATACAAATAGTG  60
+OX457060.1  61815371  .........G...G..C.....T...G.T..........................C.C..  61815430
+
+Query_6     61        TGGTGATGGCTTGGAGAGAGAAATCAAAAAAGCGTCTTAATATGACATCCTTCAACATTG  120
+OX457060.1  61815431  .....C....A.............................A........T..........  61815490
+
+Query_6     121       CCCAGGGCATTCATGCTTTTGATTATCACTCTCGGCTCAATTTAATTG  168
+OX457060.1  61815491  ............G............C........T.............  61815538
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 387537002565
+
+
+Query= exon_7
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       187     2e-45
+
+
+
+Query_7     12        ATTAACAATAAAGTTTGCCTTTGGAATCCCTATGTTGTCTCTAAACCAGTGGGTGTCCTT  71
+OX457060.1  61817387  ..........................C.................G.....T.........  61817446
+
+Query_7     72        TGGGGCCACTCAGCCAGTGTAATAGCCGTCCAATTCTTTGTGGAAAGAAAACAACTTTTC  131
+OX457060.1  61817447  .....T....................T.....G.......CT.C................  61817506
+
+Query_7     132       AGCTTCTCCAAGGATAAA  149
+OX457060.1  61817507  CT...T...G.A......  61817524
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336619822238
+
+
+Query= exon_8
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       355     9e-96
+
+
+
+Query_8     1         GTTTTGAGACTCTGGGATATTCAACACCAGCTGTCCATCCAGAGGATAGCTTGTTCTTTC  60
+OX457060.1  61835731  .......................G....................................  61835790
+
+Query_8     61        CCCAAAAGTCAGGACTTCAGATGTCTCTTCCACTTTGATGAAGCCCATGGACGACTTTTC  120
+OX457060.1  61835791  T........................................T.....C............  61835850
+
+Query_8     121       ATCTCGTTTAATAACCAGCTAGCATTGTTGGCAATGAAAAGTGAAGCCAGCAAGAGGGTG  180
+OX457060.1  61835851  .....A.....................C................TT..G...........  61835910
+
+Query_8     181       AAAAGCCATGAGAAAGCAGTCACTTGTGTTCTTTACAATTCTATCTTGAAGCAG  234
+OX457060.1  61835911  .G......CA...................G...........AG...........  61835964
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 574233660735
+
+
+Query= exon_9
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       253     2e-65
+
+
+
+Query_9     1         GTAATCAGCTCTGATACAGGGTCTACTGTTTCCTTCTGGATGATAGACACTGGGCAGAAA  60
+OX457060.1  61854699  ........T......G.G.....G....................................  61854758
+
+Query_9     61        ATCAAACAGTTTACTGGTTGCCACGGCAACGCAGAAATCAGCACTATGGCCCTTGATGCA  120
+OX457060.1  61854759  ....C..................T.A..................A........C......  61854818
+
+Query_9     121       AATGAGACTCGGCTTTTGACTGGCAGCACAGATGGGACTGTAAAG  165
+OX457060.1  61854819  ........A....................................  61854863
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 381879630270
+
+
+Query= exon_10
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       188     5e-46
+
+
+
+Query_10    4         TGGGACTTCAATGGATATTGTCACCATACACTAAATGTTGGGCAAGATGGAGCTGTGGAT  63
+OX457060.1  61858033  ......C.......C...........C....................G............  61858092
+
+Query_10    64        ATTTCACAAATCCTCATTCTTAAGAAGAAAATACTGGTTACAGGCTGGGAGAGGTATGAT  123
+OX457060.1  61858093  ........C.....GG............C...C..........T......C........-  61858151
+
+Query_10    124       TATGCCTCATGGAAAACTATAGGAAG  149
+OX457060.1  61858152  .G...T.....C......G.......  61858177
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336619822238
+
+
+Query= exon_11
+
+Length=131
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       114     7e-24
+
+
+
+Query_11    1         GGCTATTACTGTGTTT----CGACCCCAAAACTTCAATCAATTTTTCATCCAGCCTGAAG  56
+OX457060.1  61868136  ..........C.....TACT.T.AGTA...C....T....G...................  61868195
+
+Query_11    57        AATGGAAAGGAGGTATACAGCACCATGATGACATCTTGTGTGCTGCGTTTTTACCTCCAC  116
+OX457060.1  61868196  .......G.....AG.G..A....G.A....T...G.A..CA....A.............  61868255
+
+Query_11    117       AAACTCTTGTT  127
+OX457060.1  61868256  ...T.......  61868266
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 285702538202
+
+
+Query= exon_12
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       124     1e-26
+
+
+
+Query_12    1         GGAGTTATGATGGAGAAATTGTTCTATGGAACAATAGCACAGAGAATGCTCACCATGTTC  60
+OX457060.1  61870210  ..................C......G.................A....G....T..A.C.  61870269
+
+Query_12    61        TTCACCCTGATTACCAGAGGTTGCTAAAGTCAAAAT  96
+OX457060.1  61870270  .............T...C..C.......A.......  61870305
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 195182922138
+
+
+Query= exon_13
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       132     1e-28
+
+
+
+Query_13    1         ATACAAAACCTCAAAAACTTCTCAGTGCTGGGAGAAGCCAACCCTCCCACCCCATGGCAG  60
+OX457060.1  61871952  ...G.G.G........G....CTG..........G....GCTT.A.........C...T.  61872011
+
+Query_13    61        ACCATTCTACCACGGGAGTCCGCAACTTTGAGATTGACACTGAGGGCAAAAATGCTGTTA  120
+OX457060.1  61872012  ....GG....TCT.....C.T.TTC........CA.........T....T..........  61872071
+
+Query_13    121       TGAGACTTTGCTTTCTTAAAGCAAGAAAAAACACTGCAGTGACAG  165
+OX457060.1  61872072  ....G........C...G........GT.....T.....CC....  61872116
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 381879630270
+
+
+Query= exon_14
+
+Length=188
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       237     1e-60
+
+
+
+Query_14    3         GGAGCTAACCTGGTATCATGTGGAGGATCTGGTTATGTCAGATTTTGGGATATATATAAG  62
+OX457060.1  61874292  .....C........G.................G...........C.......C..T....  61874351
+
+Query_14    63        AAGCAACTTCTGGCTGAATTTTTGGCTCATAGTGGAGTTGGATCGATTATTATGTCTACT  122
+OX457060.1  61874352  .....C............................TT.....T..C......G........  61874411
+
+Query_14    123       GATAAGATGAATCGATACCTTACCACAGGAGATCTTGATGGATGGTTGAAAATCTGGAAT  182
+OX457060.1  61874412  ......TCA...T.......C..TG.............G..G..................  61874471
+
+Query_14    183       ATAGAG  188
+OX457060.1  61874472  .C....  61874477
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 444111747465
+
+
+Query= exon_15
+
+Length=198
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       221     1e-55
+
+
+
+Query_15    1         GAGTACTGTCTTAACTCCAGTAAGAACAAAATCACCAAGGCCCCAACTCTGATAAGATCA  60
+OX457060.1  61876757  ..............T...............C....AG.A............T.......G  61876698
+
+Query_15    61        TTCCAACCTCA-TGAGGACCGAATAAGTTCCTTAGAGATGTGTGAGCCAGGTGGTCAGTT  119
+OX457060.1  61876697  ....G......A..GA...T.G.........G................G.....C.CC..  61876638
+
+Query_15    120       ACTGATTATCTCCTCCTCTGCAGACTGCAGTATTTGTGTGACTGGTGTCTGCAATGCTCC  179
+OX457060.1  61876637  ....GC.C.....G................C.............A......TGG......  61876578
+
+Query_15    180       TGTTTGGATCTTTGGTCAG  198
+OX457060.1  61876577  ...CCA.............  61876559
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 472399119915
+
+
+Query= exon_16
+
+Length=170
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       171     2e-40
+
+
+
+Query_16    1         GCAAAGCACTGGCATATTGAAAACTGCCTTTTCCTTCCTAAAAGAGATACTAATTTAGTG  60
+OX457060.1  61879310  ........T.....AC....G.....TT...C.............A...........A..  61879369
+
+Query_16    61        GAAAGTGAGATTCAA------------AAGGAAATTTCTTTATTTTCTAAGGAGGAATCT  108
+OX457060.1  61879370  ....A.A........GAGAAAAGCATA.........C....GA................A  61879429
+
+Query_16    109       TGTTTAGACCCAACAGAACATTCTCTACTTAATAAGAAAAACAAAGATGACTCAACATAC  168
+OX457060.1  61879430  G.G.........T..A..............G..............---..G.........  61879486
+
+Query_16    169       AA  170
+OX457060.1  61879487  ..  61879488
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 393194477055
+
+
+Query= exon_17
+
+Length=110
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 226299040160
+
+
+Query= exon_18
+
+Length=147
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       162     7e-38
+
+
+
+Query_18    6         TTTAGGTCATTAAACATTGGAGCCCTGGAAGAGCTGCCTGAAGTGAATAAACCTGCTTTC  65
+OX457060.1  61890224  .............G.......AA.T..A....A..A.................A.....T  61890283
+
+Query_18    66        CTTCTAGACCCTGAGAAATACTTTAGGAAAGAACCAGAGGAAGAGCGTCCCCAAATTCTG  125
+OX457060.1  61890284  ...........................G.............G..AT............CA  61890343
+
+Query_18    126       GAGGCCCCGTCACTTTTTAAAA  147
+OX457060.1  61890344  ...CTT..A.......C.G...  61890365
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 330962346234
+
+
+Query= exon_19
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       119     5e-25
+
+
+
+Query_19    3         TTGAAAGCTGTATTTGATGAGAAAAACCTGTTTCCCAAGGAAATTCTGCATCATGAACGA  62
+OX457060.1  61907879  ........A..............G.G...A..C.....A.........G...G.......  61907938
+
+Query_19    63        AAAGCCAAGCAATTATGCCAAGAAAAAAGTTGTGAAGTGAAGAAAAATAAGAA  115
+OX457060.1  61907939  .G.....G.........T.....C.C....A....T..A....T...A.G...  61907991
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 251757682178
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

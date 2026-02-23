@@ -1,0 +1,74 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= lcl|NM_003889.4_cds_NP_003880.3_1 [gene=NR1I2]
+[db_xref=CCDS:CCDS43136.1] [protein=nuclear receptor subfamily 1
+group I member 2 isoform 1] [protein_id=NP_003880.3]
+[location=223..1527] [gbkey=CDS]
+
+Length=1305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098104.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  183     1e-43
+
+
+
+Query_1         792       CAGGGACTTGCCCATCGAGGACCAGATCTCCCTGCTGAAGGGGGCCGCTTTCGAGCTGTG  851
+NW_022098104.1  77466352  .......C...T.............................C.........T........  77466411
+
+Query_1         852       TCAACTGAGATTCAACACAGTGTTCAACGCGGAGACTGGAACCTGGGAGTGTGGCCGGCT  911
+NW_022098104.1  77466412  C..G.....----------...........A.....CA.G..............T.A...  77466461
+
+Query_1         912       GTCCTACTGCTTGGAAGACACTGCAGGTGGCTTCCAGCAACTTCTACTGGAGCCCATGCT  971
+NW_022098104.1  77466680                   ..C..A................G...............G.A..  77466722
+NW_022098104.1  77466462  ................-..C.........                                 77466489
+
+Query_1         972       GAAATTCCACTACATGCTGAAGAAGCTGCAGCTGCATGAGGAGGAGTATGTGCTGATGCA  1031
+NW_022098104.1  77466723  .................G.......G....C......A......................  77466782
+
+Query_1         1032      GGCCATCTCCCTCTTCTCCCCAGACCGCCCAGGTGTGCTGCAGCACCGCGTGGTGGACCA  1091
+NW_022098104.1  77466783  ..................T....                                       77466805
+
+Query_1         1092      GCTGCAGGAGCAATTCGCCATTACTCTGAAGTCCTACATTGAATGCAATCGGCCCCAGCC  1151
+
+Query_1         1152      TGCTCATAGGTTCTTGTTCCTGAAGATCATGGCTATGCTCACCGAGCTCCGCAGCATCAA  1211
+NW_022098104.1  77468465         ......C..............................................  77468517
+
+Query_1         1212      TGCTCAGCACACCCAGCGGCTGCTGCGCATCCAGGACATACACCCCTTTGCTACGCCCCT  1271
+NW_022098104.1  77468518  C.TC............T.........A............T........C.....A..A..  77468577
+
+Query_1         1272      CATGCAGGAGTTGTTCGGCATCACA  1296
+NW_022098104.1  77468578  ..C....A........A........  77468602
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3012311823975
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

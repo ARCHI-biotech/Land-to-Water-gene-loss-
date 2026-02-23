@@ -1,0 +1,68 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=460
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1156540802092
+
+
+Query= exon_2
+
+Length=693
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082681.1 Mesoplodon densirostris isolate mMesDen1 chromosome X...  58.4    5e-06
+NC_082673.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  52.8    2e-04
+
+
+
+Query_2      385       CCTAAATTCCCTCATCTATAAAATGGGGATAATATTA  421
+NC_082681.1  30512158  ...C....T............................  30512122
+NC_082673.1  17443208        ..T............................  17443238
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1779087078054
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

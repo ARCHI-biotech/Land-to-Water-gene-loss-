@@ -1,0 +1,55 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|XM_011533160.3_cds_XP_011531462.1_1 [gene=CAPN13]
+[db_xref=GeneID:92291] [protein=calpain-13 isoform X1]
+[protein_id=XP_011531462.1] [location=264..2273] [gbkey=CDS]
+
+Length=2010
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082674.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  108     1e-20
+
+
+
+Query_1      1798      GACTTCCTCAGAGGGATCTTCATCAGCCGTGAGCTGCTGCATCTGGTGACCCTCAGGTAC  1857
+NC_082674.1  24852199  ........TGC........C.G...C.AA.....G....G....CA...GAG..T.C..T  24852140
+
+Query_1      1858      AGCGACAGCGTCGGCAGGGTCAGCTTCCCCAGCCTGGTCTGCTTCCTGATGCGGCTTGAA  1917
+NC_082674.1  24852139  ..G......ACA..............................A.................  24852080
+
+Query_1      1918      GCCATGGCAA  1927
+NC_082674.1  24852079  ......A...  24852070
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5310427195136
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

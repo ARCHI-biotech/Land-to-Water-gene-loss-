@@ -1,0 +1,165 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082661.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  418     9e-115
+
+
+
+Query_1      1         ATGCAGGCGCTTAACATTACCCCGGAGCAGTTCTCTCGGCTGCTGCGGGACCACAACCTG  60
+NC_082661.1  87079681  ......T....C.....C..........G......C............A.........C.  87079622
+
+Query_1      61        ACGCGGGAGCAGTTCATCGCTCTGTACCGGCTGCGACCGCTCGTCTACACCCCAGAGCTG  120
+NC_082661.1  87079621  ..AA................G......A.......G.....GT..........GC.....  87079562
+
+Query_1      121       CCGGGACGCGCCAAGCTGGCCCTCGTGCTCACCGGCGTGCTCATCTTCGCCCTGGCGCTC  180
+NC_082661.1  87079561  ..T..G...............T......................................  87079502
+
+Query_1      181       TTTGGCAATGCTCTGGTGTTCTACGTGGTGACCCGCAGCAAGGCCATGCGCACCGTCACC  240
+NC_082661.1  87079501  ........C..G......G...............T....G....................  87079442
+
+Query_1      241       AACATCTTTATCTGCTCCTTGGCGCTCAGTGACCTGCTCATCACCTTCTTCTGCATTCCC  300
+NC_082661.1  87079441  ........C.C...T......................C....G..GC.........C..G  87079382
+
+Query_1      301       GTCACCATGCTCCAGAACATTTCCGACAACTGGCTGGGGG  340
+NC_082661.1  87079381  .....T......G.......C.T.A...............  87079342
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 834534082252
+
+
+Query= exon_2
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 351524012186
+
+
+Query= exon_3
+
+Length=62
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 96602023944
+
+
+Query= exon_4
+
+Length=236
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 558144996448
+
+
+Query= exon_5
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082661.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  121     6e-26
+
+
+
+Query_5      1         GAAGAAGAAACGAGCTGTCATTATGATGGTGACAGTGGTGGCTCTCTTTGCTGTGTGCTG  60
+NC_082661.1  87055025  .........GT.......TG........................................  87054966
+
+Query_5      61        GGCACCATTCCATGTTGTCCATATGATGATTGAATACA  98
+NC_082661.1  87054965  A.T...T.....C.....T..C.......C........  87054928
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 190520653080
+
+
+Query= exon_6
+
+Length=365
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 901618815552
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

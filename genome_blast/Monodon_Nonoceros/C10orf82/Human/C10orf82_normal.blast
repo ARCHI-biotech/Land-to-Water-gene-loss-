@@ -1,0 +1,170 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= exon_1
+
+Length=587
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1306809036882
+
+
+Query= exon_2
+
+Length=66
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 93678079280
+
+
+Query= exon_3
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 447312789980
+
+
+Query= exon_4
+
+Length=187
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000011.1 Monodon monoceros isolate NGI Scaffold_10;HRSCAF=6...  198     6e-49
+
+
+
+Query_4         1         AATGCAAATATGTAAAGAAACCTCTCCAGGAGCCCCC--GATCCCTGGCTGGGCAGGCTA  58
+SIHG02000011.1  68911533  ..........CA...C.........T...........CCC.....C..............  68911474
+
+Query_4         59        CCTGCCGAGAGCCAAGGTCACTGAATTTGGCTGTGGCACGAGATACACTGTCATGGCCAA  118
+SIHG02000011.1  68911473  ..............G............A..T....C....C.GC....C..........G  68911414
+
+Query_4         119       AAACTGCTACAAGGACTTCCTGGAGATCACGGAGAGGGCCAAGAAGGCACATCTGAAACC  178
+SIHG02000011.1  68911413  ...........G............CG...T....CA........GA.....C........  68911354
+
+Query_4         179       ATATGAAGA  187
+SIHG02000011.1  68911353  ......G..  68911345
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 372370333020
+
+
+Query= exon_5
+
+Length=98
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 166278583551
+
+
+Query= exon_6
+
+Length=199
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 400473754380
+
+
+Query= exon_7
+
+Length=198
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 398131802600
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

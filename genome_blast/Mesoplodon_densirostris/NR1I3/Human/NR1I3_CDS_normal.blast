@@ -1,0 +1,63 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_005122.5_cds_NP_005113.1_1 [gene=NR1I3]
+[db_xref=CCDS:CCDS1228.1] [protein=nuclear receptor subfamily 1
+group I member 3 isoform 3] [protein_id=NP_005113.1]
+[location=197..1243] [gbkey=CDS]
+
+Length=1047
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  180     2e-42
+
+
+
+Query_1      408        GCCTCCAGCTCATCTGTTCATCCATCACCAGCCCTTGCCCACCCTGGCCCCTGTGCTGCC  467
+NC_082662.1  120183458  ................................G..-........A.TT......A.....  120183400
+
+Query_1      468        TCTGGTCACACACTTCGCAGACATCAACACTTTCATGGTACTGCAAGTCATCAAGTTTAC  527
+NC_082662.1  120183399  ....C....G..T............................A....A......G.C....  120183340
+
+Query_1      528        TAAGGACCTGCCCGTCTTCCGTTCCCTGCCCATTGAAGACCAGATCTCCCTTCTCAAGGG  587
+NC_082662.1  120183339  C.....T......                                                 120183327
+NC_082662.1  120183087                             ......G..G...........T..........A  120183055
+
+Query_1      588        AGCAGCTGTGGAAATCTGTCACATCGTACTCAATACCACTTTCTGTCTCCAAACACAAAA  647
+NC_082662.1  120183054  .........A.....--.......T.C.....G...........................  120182997
+
+Query_1      648        CTTCCTCTGCGGGCCTCTTCGCTACACAATTGAAGATGGAG  688
+NC_082662.1  120182996  ............................G.A..........  120182956
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2729006875386
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,216 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=210
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01125745.1 Pontoporia blainvillei isolate BP203 contig127607,...  224     7e-57
+PGGH01250929.1 Pontoporia blainvillei isolate BP203 contig254224,...  165     6e-39
+
+
+
+Query_1         1     ATGAAATTTCTTCTGGACATCCTCCTGCTTCTCCCGTTACTGATCGTCTGCTCCC---TA  57
+PGGH01125745.1  333   .....G..C.........TG.....A......G..C......C..A...T.A..T---..  389
+PGGH01250929.1  3556  .....TA..A.CT....TT.............---.A.CA.C...A...A....TACT..  3612
+
+Query_1         58    -GAGTCCTTCGTGAAGCTTTTTATTCCTAAGAGGAGAAAATCAGTCACCGGCGAAATCGT  116
+PGGH01125745.1  390   A....GTC..C..........C.....A....A.......G.....G....A........  449
+PGGH01250929.1  3613  -..A.....G......G....C.....CC.............T..GG.T..A..G..T..  3671
+
+Query_1         117   GCTGATTACAGGAGCTGGGCATGGAATTGGGAGACTGACTGCCTATGAATTTGCTAAACT  176
+PGGH01125745.1  450   C........T........A..C.............................G..C.....  509
+PGGH01250929.1  3672  T..C..............A........A..A..G.AT.................A....G  3731
+
+Query_1         177   TAAAAGCAAGCTGGTTCTCTGGGATATAAATAAG  210
+PGGH01125745.1  510   ....T...GA.....C..G...............  543
+PGGH01250929.1  3732  G.......GA........G........T......  3765
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 359449802280
+
+
+Query= exon_2
+
+Length=108
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 157797509333
+
+
+Query= exon_3
+
+Length=132
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203688221292
+
+
+Query= exon_4
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01123581.1 Pontoporia blainvillei isolate BP203 contig125418,...  72.5    4e-11
+
+
+
+Query_4         4     ACAAAGGCATTTCTTCCTGCAATGACGAAGAATAACCATGGCCATATTGTCACTGTGGCT  63
+PGGH01123581.1  4599  .........C.......A..G....T.C...GA...........C........A......  4658
+
+Query_4         64    TC  65
+PGGH01123581.1  4659  ..  4660
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 155800072506
+
+
+Query= exon_5
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01007568.1 Pontoporia blainvillei isolate BP203 contig7677, w...  187     1e-45
+PGGH01123581.1 Pontoporia blainvillei isolate BP203 contig125418,...  78.8    4e-13
+
+
+
+Query_5         1     TTCAAGCAAGTTTGCTGCTGTTGGATTTCATAAAACTTTGACAGATGAACTGGCTGCCTT  60
+PGGH01007568.1  1217  ............C.....................G.......T..AA.............  1158
+PGGH01123581.1  6824  ...C.....A..............C..C..CCG.G..C.....TCA...T.T.AA.....  6883
+
+Query_5         61    ACAAATAACTGGAGTCAAAACAACATGTCTGTGTCCTAATTTCGTAAACACTGGCTTCAT  120
+PGGH01007568.1  1157  .G...A..................C.....C.......G....A................  1098
+PGGH01123581.1  6884  GGG..A......TA.......CT.G.....C..C..AGT...T..G..T..C..G....C  6943
+
+Query_5         121   CAAAAATCCAAGTACAAG  138
+PGGH01007568.1  1097  ......C.....A..C..  1080
+PGGH01123581.1  6944  ......C.....C.....  6961
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 215669881368
+
+
+Query= exon_6
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01254409.1 Pontoporia blainvillei isolate BP203 contig257736,...  140     1e-31
+
+
+
+Query_6         1     TTTGGGACCCACTCTGGAACCTGAGGAAGTGGTAAACAGGCTGATGCATGGGATTCTGAC  60
+PGGH01254409.1  7903  ............C.............C...........A......AG.......C.....  7844
+
+Query_6         61    TGAGCAGAAGATGATTTTTATTCCATCTTCTATAGCTTTTTTAACAACATTGGAAAG  117
+PGGH01254409.1  7843  .........A..C..C..................AGG.........GTGG.......  7787
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175774440776
+
+
+Query= exon_7
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01254409.1 Pontoporia blainvillei isolate BP203 contig257736,...  106     2e-21
+
+
+
+Query_7         1     GATCCTTCCTGAGCGTTTCCTGGCAGTTTTAAAACGAAAAATCAGTGTTAAGTTTGATGC  60
+PGGH01254409.1  4723  .................G....A..A........T....G..TGC.....G.........  4664
+
+Query_7         61    AGTTATTGGATATAAAATGAAAGCGCAATAA  91
+PGGH01254409.1  4663  ..................C....AAA.....  4633
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123841083274
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

@@ -1,0 +1,97 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|NM_004388.3_cds_NP_004379.1_1 [gene=CTBS]
+[db_xref=CCDS:CCDS698.1] [protein=di-N-acetylchitobiase precursor]
+[protein_id=NP_004379.1] [location=26..1183] [gbkey=CDS]
+
+Length=1158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006785198.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  241     7e-61
+NW_006799734.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  60.2    2e-06
+NW_006791954.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  60.2    2e-06
+
+
+
+Query_1         64       CTAGC-GCTGCTGGCGCTGCTGGCGCTGCTGGCGCTGCGGCTCGCGGCCGGGACCGACTG  122
+NW_006799734.1  3121311    ...T...............................-...                     3121348
+NW_006791954.1  4938479    ...T................................                        4938514
+NW_006791954.1  4938487  ..G..-..........................                              4938517
+
+Query_1         123      CCCATGCCCGGAGCCTGAGCTCTGCCGCCCGATTCGCCACCATCCAGATTTCGAGGTCTT  182
+
+Query_1         183      TGTGTTTGATGTTGGACAGAAAACTTGGAAATCTTATGATTGGTCACAGATTACAACTGT  242
+
+Query_1         243      GGCAACATTTGGAAAATATGACTCAGAACTTATGTGCTACGCTCATTCAAAAGGAGCCAG  302
+
+Query_1         303      AGTAGTACTTAAAGGAGATGTATCCTTAAAGGATATCATTGATCCTGCTTTCAGAGCATC  362
+NW_006785198.1  379002               ......C......A...G..........A..G..A.............  378955
+
+Query_1         363      CTGGATAGCTCAAAAACTTAATTTGGCCAAAACACAATATATGGATGGAATTAATATAGA  422
+NW_006785198.1  378954   ....T........C..A....GC................................C....  378895
+
+Query_1         423      TATAGAGCAAGAAGTTAATTGTTTATCACCTGAATATGATGCATTAACTGCTTTAGTCAA  482
+NW_006785198.1  378894   -------.........GC.C...C.............T....G.................  378842
+
+Query_1         483      AGAAACTACAGACTCTTTCCATCGTGAAATTGAGGGATCACAGGTAACCTTTGATGTAGC  542
+NW_006785198.1  378841   .......G..............T........................               378795
+
+Query_1         543      TTGGTCTCCAAAGAACATAGACAGAAGATGCTATAATTATACTGGAATCGCAGATGCTTG  602
+
+Query_1         603      TGACTTCCTCTTTGTGATGTCTTATGATGAACAAAGTCAGATCTGGTCAGAATGTATTGC  662
+
+Query_1         663      AGCAGCCAATGCTCCCTATAATCAGACATTAACTGGATATAATGACTACATCAAGATGAG  722
+
+Query_1         723      CATTAATCCTAAGAAACTTGTAATGGGTGTTCCTTGGTATGGTTATGATTATACCTGCCT  782
+
+Query_1         783      GAATCTGTCTGAGGATCATGTTTGTACCATTGCAAAAGTCCCTTTCCGGGGGGCTCCTTG  842
+
+Query_1         843      TAGTGACGCTGCAGGACGTCAGGTGCCCTACAAAACGATCATGAAGCAAATAAATAGTTC  902
+
+Query_1         903      TATTTCTGGAAACCTATGGGATAAAGATCAGCGGGCTCCTTATTATAACTATAAAGATCC  962
+
+Query_1         963      TGCTGGCCACTTTCATCAAGTATGGTATGATAACCCTCAGAGTATTTCTTTAAAGGCAAC  1022
+NW_006785198.1  365800    ........T...........G.........G..........C......C........G.  365742
+
+Query_1         1023     ATATATACAAAACTATCGCTTACGGGGCATTGGCATGTGGAATGCAAACTGTCTTGACTA  1082
+NW_006785198.1  365741   ....G........CG.G......TCA..............C...................  365682
+
+Query_1         1083     CTCTGGAGATGCTGTAGCCAAACAGCAAACTGAAGAAATGTGGGAAGTCTTAAAGCCAAA  1142
+NW_006785198.1  365681   .............A.G.A.........................A...CT.....A.....  365622
+
+Query_1         1143     GCTGTTACAGAGAT  1156
+NW_006785198.1  365621   .....G........  365608
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2728351666056
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

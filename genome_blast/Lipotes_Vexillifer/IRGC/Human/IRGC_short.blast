@@ -1,0 +1,161 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= exon_1
+
+Length=67
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006786304.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  56.0    2e-06
+
+
+
+Query_1         29       GGGGAGAGTGTGAGGGGAGAGGGAGAGCCTGCAGGGCAG  67
+NW_006786304.1  2818979  ....................--.................  2818943
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 116113170576
+
+
+Query= exon_2
+
+Length=73
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 130627316898
+
+
+Query= exon_3
+
+Length=1458
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006786304.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  573     9e-161
+
+
+
+Query_3         46       CCCTCTGAACCACTGGCCACCATGGCTACTTCAAAGTTGCCCGTGGTGCCTGGGGAGGAG  105
+NW_006786304.1  2816990  ...........G.C..T.........C.....G........A.C......C.......G.  2816931
+
+Query_3         106      GAAAACACCATCCTTATGGCCAAGGAAAGGCTGGAGGCCCTGCGCACAGCCTTTGAGTCG  165
+NW_006786304.1  2816930  ..G...........C............GA..........A.......C.....C......  2816871
+
+Query_3         166      GGTGACCTCCCCCAGGCCGCCTCTCACCTCCAGGAGCTGCTGGCCTCCACGGAAAGCATC  225
+NW_006786304.1  2816870  ..C...A................CTG.....G....T..........TT.C..G....C.  2816811
+
+Query_3         226      CGCCTGGAGGTGGGCGTCACGGGCGAGTCGGGCGCGGGCAAGTCCTCCCTCATCAATGCC  285
+NW_006786304.1  2816810  ..G...............G.A........T..G.A..-......GA.......T..C...  2816752
+
+Query_3         286      CTGCGTGGCCTGGAGGCCGAGGACCCTGGCGCGGCTCTCACGGGCGTCATGGAGACCACG  345
+NW_006786304.1  2816751  ..C..C.......GC..T........C........C.....T........A......G.A  2816692
+
+Query_3         346      ATGCAACCGTCGCCCTATCCACACCCACAGTTCCCTGACGTGACCCTCTGGGACCTGCCA  405
+NW_006786304.1  2816691  .....G..C........C..G.....G.....T..A......G....G...........G  2816632
+
+Query_3         406      GGAGCCGGCTCTCCAGGCTGCCCGGCTGACAAGTACCTAAAGCAGGTAGACTTCAGCCGC  465
+NW_006786304.1  2816631  ..G......C................C...........G....C...G......G....T  2816572
+
+Query_3         466      TATGACTTCTTCCTGCTGGTCTCCCCCCGCCGCTGCGGGGCCGTCGAGACCCGCCTGGCC  525
+NW_006786304.1  2816571  .....T..........G.....................C.....G.....G.........  2816512
+
+Query_3         526      GCTGAGATCCTGTGCCAGGGCAAGAAGTTCTACTTTGTGCGCACCAAGGTGGACGAGGAC  585
+NW_006786304.1  2816501                                       .............A.........  2816479
+NW_006786304.1  2816511  T.C.........                                                  2816500
+
+Query_3         586      CTGGCGGCCACGCGCACCCAGCGGCCGTCGGGCTTCAGAGAGGCCGCTGTCCTGCAGGAG  645
+NW_006786304.1  2816478  .......................A..C......A....C..C..G..G.C.....G....  2816419
+
+Query_3         646      ATCCGAGACCACTGTGCCGAGCGGCTGCGGGAGGCCGGCGTGGCTGACCCTCGCATCTTC  705
+NW_006786304.1  2816418  G....C..G.....C..............T.G..........AAC.....G...G.....  2816359
+
+Query_3         706      CTGGTGTCCAACCTCTCGCCGGCCCGCTACGACTTTCCCACGCTGGTGTCCACCTGGGAG  765
+NW_006786304.1  2816358  ..C..........C......C..G...C.......C..GCT...C......G........  2816299
+
+Query_3         766      CACGACCTGCCCTCCCACCGGCGCCACGCTGGCCTGCTGTCGCTCCCCGACATCTCGCTG  825
+NW_006786304.1  2816298  .....T......G.G.C...T.....G..C..............G..T............  2816239
+
+Query_3         826      GAGGCCTTGCAGAAGAAGAAGGCCATGCTTCAAGAGCAAGTCCTCAAGACCGCCCTGGTG  885
+NW_006786304.1  2816238  ......C...G...TT...C..A..C...C..G.....G..G........G.........  2816179
+
+Query_3         886      TTGGGCGTCATCCAGGCCCTGCC-GGTCCCAGGGCTGGCGGCCGCCTACGATGATGCGTT  944
+NW_006786304.1  2816178  .................T.....C..G...--............G......CA..A..C.  2816121
+
+Query_3         945      GCTCATC----CACTCACTGCGTGGCTACCACCGCAG---CTTTGGTCTGGACGACGACT  997
+NW_006786304.1  2816120  ....G..TGTC.G...G.....C........T.....CTT...C..C.............  2816061
+
+Query_3         998      CGCTGGCCAAGCTGGCCGAGCAGGTGGGCAAACAGGCAGGTGACCTGCGCTCGGTCATCC  1057
+NW_006786304.1  2816060  T...A.................C.................C...................  2816001
+
+Query_3         1058     GCTCCCCACTGGCCAACGAGGTCTCGCCTGAGACTGTCCTGCGGCTCTATTCCCAGTCGT  1117
+NW_006786304.1  2816000  T...T.TG.............A...T..C....................C..........  2815941
+
+Query_3         1118     CCGACGGCGCCATGCGGGTGGCCCGCGCCTTTGAGAGGGGCATCCCTGTGTTTGGGACGC  1177
+NW_006786304.1  2815940  .......T......A......-.T.G..........A.........CC....C..A....  2815882
+
+Query_3         1178     TGGTGGCT-GGCGGCATCAGCTTTGGCGCTGTCTACACCATGCTCCAGGGCTGCCTCAAC  1236
+NW_006786304.1  2815881  ........G..G...........C...A.C................G.............  2815822
+
+Query_3         1237     GAGATGGCTGAGGACGCCCAGCGTGTCCGCATCAAGGCCCTGGAGGATGACGAGCCGCAG  1296
+NW_006786304.1  2815821  ........C..A..T.......AG...T...........T.......G..G.G.T.C...  2815762
+
+Query_3         1297     CCGGAGGTCAGCTTGGAAGTGGCCAGTGACAATGGCGTGGAAAAGGGGGGCTCCGGGGAG  1356
+NW_006786304.1  2815761  ..T.........C..C.G.CA..TG.......C...A........C....A.........  2815702
+
+Query_3         1357     GGAGGTGGGGAGGAAGCCCCACTCTCAACCTGCAGGAAGCTCGGCCTCCTTCTTAAGTAC  1416
+NW_006786304.1  2815701  ..GA.C..C.......A.T.G....GG......CA......T...........C......  2815642
+
+Query_3         1417     ATTCTGGACAGCTGGAAGAA  1436
+NW_006786304.1  2815641  ..G..C..............  2815622
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 3476066740179
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

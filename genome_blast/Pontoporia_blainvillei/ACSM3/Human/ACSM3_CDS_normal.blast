@@ -1,0 +1,60 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|XM_024450368.2_cds_XP_024306136.1_1 [gene=ACSM3]
+[db_xref=GeneID:6296] [protein=acyl-coenzyme A synthetase ACSM3,
+mitochondrial isoform X2] [protein_id=XP_024306136.1]
+[location=3563..5434] [gbkey=CDS]
+
+Length=1872
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01079523.1 Pontoporia blainvillei isolate BP203 contig80752, ...  150     2e-33
+
+
+
+Query_1         1571  GAATTGGACCATTTGAG--GTAGAAAATGCCCTGAATGAACACCCTTCAGTTGCAGAGTC  1628
+PGGH01079523.1  7137  .........TG......ATA......G........C...G..TT..G..C.........T  7078
+
+Query_1         1629  AGCTGTTGTCAGCAGCCCAGACCCCATCAGAGGAGAGGTAGTAAAGGCTTTTGTCGTTCT  1688
+PGGH01079523.1  4169                                     .................A.T.....  4145
+PGGH01079523.1  7077  ........................................                      7038
+
+Query_1         1689  AAATCCTGATTACAAGTCACATGATCAAGAACAACTAATAAAGGAGATTCAGGAGCATGT  1748
+PGGH01079523.1  4144  G..C........G......A.C..............G.AG...................G  4085
+
+Query_1         1749  TAAAAAAACTACAGCACCTTACAAATATCCCAGAAAGGTAG  1789
+PGGH01079523.1  4084  A....G.G...T.............................  4044
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3678369643332
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

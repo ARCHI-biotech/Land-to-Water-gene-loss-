@@ -1,0 +1,198 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= exon_1
+
+Length=79
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118130170700
+
+
+Query= exon_2
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108679757044
+
+
+Query= exon_3
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098006.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  159     7e-37
+
+
+
+Query_3         5        TGTAGGGGGAGAGACCAGGATCATCAAGGGGTTCGAGTGCAAGCCTCACTCCCAGCC---  61
+NW_022098006.1  5716247                                    ..A...C.C..CA....G.....---  5716269
+NW_022098006.1  5703428  .......................AT..A..A.AT......TCT.....T........GCC  5703487
+
+Query_3         62       CTGGCAGGCAGCCCTGTTCGAGAAGACGCGGCTACTCTGTGGGGCGACGCTCATCGCCCC  121
+NW_022098006.1  5716270  ........TC.GG..C...TTCCTC..C.AA..CT....C........C......AATGA  5716329
+NW_022098006.1  5703488  .........G..TT.....C.......A.A...G...........A..C..........T  5703547
+
+Query_3         122      CAGATGGCTCCTGACAGCAGCCCACTGCCTCAAGCC  157
+NW_022098006.1  5716330  .C.C.....G........T..........G......  5716365
+NW_022098006.1  5703548  ..A...T..A...................A......  5703583
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300049883643
+
+
+Query= exon_4
+
+Length=266
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098006.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  246     3e-63
+
+
+
+Query_4         9        TAGTTCACCTGGGGCAGCACAACCTCCAGAAGGAGGAGGGCTGTGAGCAGACCCGGACAG  68
+NW_022098006.1  5703955  ...C...T.....AG.A............TGACG...T..........GC.....AG...  5704014
+
+Query_4         69       CCACTGAGTCCTTCCCCCACCCCGGCTTCAACAACAGCCTCCCCAACAAAGACCACCGCA  128
+NW_022098006.1  5704015  ......................A.A........GT.....G..........C....T.TG  5704074
+
+Query_4         129      ATGACATCATGCTGGTGAAGATGGCATCGCCAGTCTCCATCACCTGGGCTGTGCGACCCC  188
+NW_022098006.1  5704075  .........C...CC....T.....GG.C....C..T.G...T......C.........A  5704134
+
+Query_4         189      TCACCCTCTCCTCACGCTGTGTCACTGCTGGCACCAGCTGCCTCATTTCCGGCTGGGGCA  248
+NW_022098006.1  5704135  -..GGG.G..A....A....A..............C...............C........  5704193
+
+Query_4         249      GCACGTCCAGCCCCCAGT  266
+NW_022098006.1  5704194  C.................  5704211
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 555209026940
+
+
+Query= exon_5
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098006.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  152     3e-35
+
+
+
+Query_5         9        CCTCACACCTTGCGATGCGCCAACATCACCATCATTGAGCACCAGAAGTGTGAGAACGCC  68
+NW_022098006.1  5704786  ..C..T....G......T...............T.C......A..TT.......G.....  5704845
+
+Query_5         69       TACCCCGGCAACATCACAGACACCATGGTGTGTGCCAGCGTGCAGGAAGGGGGCAAGGAC  128
+NW_022098006.1  5704846  .....T..G...................GA...........T.GA....A..........  5704905
+
+Query_5         129      TCCTGCCAG  137
+NW_022098006.1  5704906  .........  5704914
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 252797933463
+
+
+Query= exon_6
+
+Length=153
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098006.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  164     2e-38
+NW_022098064.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  73.4    2e-11
+
+
+
+Query_6         1         GGTGACTCCGGGGGCCCTCTGGTCTGTAAC---CAGTCTCTTCAAGGCATTATCTCCTGG  57
+NW_022098006.1  5705332   .....T..T........A.......A...T---GG...............C.........  5705388
+NW_022098006.1  5711040    .......A..T...............G..---G..A.C.....G.....CC.T..A...  5711095
+NW_022098064.1  12284018  ........T..T......G.......C..TGGA...---..C..G......G........  12284074
+
+Query_6         58        GGCCAGGATCCGTGTGCGATCACCCGAAAGCCTGGTGTCTACACGAAAGTCTGCAAATAT  117
+NW_022098006.1  5705389   .....T.....A.....TG...G.A.......CA.G..T.....A..G............  5705448
+NW_022098006.1  5711096   ...                                                           5711098
+NW_022098064.1  12284075  ...---T..GGC..C..TC.G.AAG.C..A..............T..G........C..C  12284131
+
+Query_6         118       GTGGACTGGATCCAGGAGACGATGAAGAACAATTAG  153
+NW_022098006.1  5705449   ......C........A....T..AG...........  5705484
+NW_022098064.1  12284132  C..AG......T...A....T..               12284154
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 290599493607
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

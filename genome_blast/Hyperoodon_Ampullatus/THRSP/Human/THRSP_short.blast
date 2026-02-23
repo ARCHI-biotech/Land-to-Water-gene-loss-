@@ -1,0 +1,143 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=460
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457062.1 Hyperoodon ampullatus genome assembly, chromosome: 7       244     4e-62
+
+
+
+Query_1     1         ATGCAGGTGCTAACCAAGCGTTACCCCAAGAACTGCCTGCTGACCGTCATGGACCGGTAT  60
+OX457062.1  55037234  ......A....G......T.C....G..G...............T..........A...C  55037175
+
+Query_1     61        GCAGCCGAGGTGCACAACATGGAGCAGGTGGTGATGATCCCCAGCCTTCTGCGGGACGTG  120
+OX457062.1  55037174  T.....AT....TG.......A.A...C.......................T....T...  55037115
+
+Query_1     121       CAGCTGAGTGGGCC-TGGGGGCCAGGCCCAGGCTGAGGCCCCTGATCTCTACACCTACTT  179
+OX457062.1  55037114  ..........TT..A....CA.......T....A.G...T..CA.C.......A......  55037055
+
+Query_1     180       CACCATGCTCAAGGCCATCTGTGTGGATGTGGACCATGGGCTGCTGCCGCGGGAGGAGTG  239
+OX457062.1  55037054  .....................C...........A.........T..T.CT..........  55036995
+
+Query_1     240       GCAGGCCAAGGTGGCAGGCAGCGAA------------GAGAATGGAACCGCAGAGACAGA  287
+OX457062.1  55036994  .A................TG..A..GCTGATAAGGCT.......A.G.T...........  55036935
+
+Query_1     288       GGAAGTCGAGGACGAGAGTGCCTCAGGAGAGCTGGACCTGGAAGCCCAGTTCCACCTGCA  347
+OX457062.1  55036934  ...G.C......G.....G.T..TG..GC.................T.............  55036875
+
+Query_1     348       CTTCTCCAGCCTCCATCACATCCTCATGCACCTCACCGAGAAAGCCCAGGAGGTGACAAG  407
+OX457062.1  55036874  ............T.C...T.......CC.....T...CT.......G..A.......G..  55036815
+
+Query_1     408       GAAATACCAGGA  419
+OX457062.1  55036814  ............  55036803
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 1241818973785
+
+
+Query= exon_2
+
+Length=693
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457062.1 Hyperoodon ampullatus genome assembly, chromosome: 7       75.8    3e-11
+OX457069.1 Hyperoodon ampullatus genome assembly, chromosome: 14      63.9    1e-07
+OX457067.1 Hyperoodon ampullatus genome assembly, chromosome: 12      61.9    4e-07
+OX457065.1 Hyperoodon ampullatus genome assembly, chromosome: 10      61.9    4e-07
+OX457055.1 Hyperoodon ampullatus genome assembly, chromosome: X       58.0    7e-06
+OX457064.1 Hyperoodon ampullatus genome assembly, chromosome: 9       58.0    7e-06
+OX457063.1 Hyperoodon ampullatus genome assembly, chromosome: 8       58.0    7e-06
+OX457073.1 Hyperoodon ampullatus genome assembly, chromosome: 18      56.0    3e-05
+OX457072.1 Hyperoodon ampullatus genome assembly, chromosome: 17      56.0    3e-05
+OX457074.1 Hyperoodon ampullatus genome assembly, chromosome: 19      56.0    3e-05
+OX457059.1 Hyperoodon ampullatus genome assembly, chromosome: 4       54.0    1e-04
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       54.0    1e-04
+OX457056.1 Hyperoodon ampullatus genome assembly, chromosome: 1       54.0    1e-04
+OX457066.1 Hyperoodon ampullatus genome assembly, chromosome: 11      52.0    4e-04
+OX457061.1 Hyperoodon ampullatus genome assembly, chromosome: 6       52.0    4e-04
+OX457058.1 Hyperoodon ampullatus genome assembly, chromosome: 3       52.0    4e-04
+
+
+
+Query_2     365        AGTTATTTAACCCATTGGAGCCTAAATTCCCTCATCTATAAAATGGGGATAATATTATCT  424
+OX457062.1  55033737   ..............C..T..........T....T.................G.G...C..  55033678
+OX457069.1  63270951                      ....C...............................       63270916
+OX457067.1  77750518                                    ........................C..  77750492
+OX457065.1  74630963                                  .......................G.....  74630935
+OX457065.1  33398304                                ..........................       33398279
+OX457055.1  105509130                          ....T............................     105509162
+OX457055.1  99941769                                ............................     99941742
+OX457064.1  56764951                                ..................T......A.....  56764981
+OX457063.1  44725191                              .............................      44725219
+OX457073.1  27050331                                ............................     27050358
+OX457073.1  49207164                              ...........................        49207190
+OX457072.1  16743406                                ............................     16743433
+OX457074.1  45581133                     .....C....G.........................        45581098
+OX457074.1  8701118                                 ........................GA.....  8701148
+OX457074.1  55046713                       .....T..T.........................        55046680
+OX457059.1  52625206                                  ......G..........T...........  52625234
+OX457057.1  129112441                               ........C...T..................  129112411
+OX457057.1  141690880                               ........G................A.....  141690910
+OX457056.1  181616530                               ..................T......A.....  181616500
+OX457066.1  26973127                           ....T.........................        26973156
+OX457061.1  8481347                                 ..............CA.........A.....  8481377
+OX457061.1  75781305                                 .......G................C..C..  75781334
+OX457058.1  38250588                    ........G....T................A.......       38250551
+
+Query_2     425        ACCTCACA  432
+OX457062.1  55033677   ......    55033672
+OX457067.1  77750491   ........  77750484
+OX457065.1  74630934   ......    74630929
+OX457064.1  56764982   ......    56764987
+OX457074.1  8701149    ...       8701151
+OX457059.1  52625235   ......    52625240
+OX457057.1  129112410  ....      129112407
+OX457057.1  141690911  ...       141690913
+OX457056.1  181616499  ...C....  181616492
+OX457061.1  8481378    .......   8481384
+OX457061.1  75781335   ........  75781342
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 1900916515680
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

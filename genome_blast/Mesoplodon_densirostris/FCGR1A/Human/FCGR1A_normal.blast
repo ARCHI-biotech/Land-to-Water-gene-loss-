@@ -1,0 +1,168 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=81
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 144903031920
+
+
+Query= exon_2
+
+Length=21
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 8050170438
+
+
+Query= exon_3
+
+Length=258
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 617179563380
+
+
+Query= exon_4
+
+Length=252
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 601079226944
+
+
+Query= exon_5
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  311     1e-82
+
+
+
+Query_5      1          AGCTATTTCCAGCTCCAGTGCTGAATGCATCTGTGACATCCCCACTCCTGGAGGGGAATC  60
+NC_082662.1  110365516  .............C..........GA.....CTC.T...T...C.....A.....A....  110365575
+
+Query_5      61         TGGTCACCCTGAGCTGTGAAACAAAGTTGCTCTTGCAGAGGCCTGGTTTGCAGCTTTACT  120
+NC_082662.1  110365576  ....A.A.........................CCA..A.A....................  110365635
+
+Query_5      121        TCTCCTTCTACATGGGCAGCAAGACCCTGC-GAGGCAGGAACACATCCTCTGAATACCAA  179
+NC_082662.1  110365636  ................A........A...AT..-.........T........G......G  110365694
+
+Query_5      180        ATACTAACTGCTAGAAGAGAAGACTCTGGGTTATACTGGTGCGAGGCTGCCACAGAGGAT  239
+NC_082662.1  110365695  ......C......A..A.........C..A...........T......A.......A...  110365754
+
+Query_5      240        GGAAATGTCCTTAAGCGCAGCCCTGAGTTGGAGCTTCAAGTGCTTG  285
+NC_082662.1  110365755  .........A.C....A.C.......................T...  110365800
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 686947668992
+
+
+Query= exon_6
+
+Length=281
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  270     2e-70
+
+
+
+Query_6      1          GCCTCCAGTTACCAACTCCTGTCTGGTTTCATGTCCTTTTCTATCTGGCAGTGGGAATAA  60
+NC_082662.1  110366689  ........................A.....G.T...................A..G....  110366748
+
+Query_6      61         TGTTTTTAGTGAACACTGTTCTCTGGGTGACAATACGTAAAGAACTGAAAAGAAAGAAAA  120
+NC_082662.1  110366749  .A.....G...G........T....TA...T.....A...G.....AC............  110366808
+
+Query_6      121        AGTGGGATTTAGAAATCTCTTTGGATTCTGGTCATGAGAAGAAGGTAATTTCCAGCCTTC  180
+NC_082662.1  110366809  .....A..................G.....A.....G...........C....TA.....  110366868
+
+Query_6      181        AAGAAGACAGACATTTAGAAGAAGAGCTGAAATGTCAGGAACAAAAAGAA  230
+NC_082662.1  110366869  ..A.T..T...T................................G.....  110366918
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 676214111664
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

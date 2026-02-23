@@ -1,0 +1,184 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=49
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 65061043690
+
+
+Query= exon_2
+
+Length=238
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457056.1 Hyperoodon ampullatus genome assembly, chromosome: 1       255     5e-66
+
+
+
+Query_2     1         GTATCACTGGACAGGCCATGGCTCCACGGTCCCGGCGACGAAGGCACAAGAAACCTCCCT  60
+OX457056.1  62541488  .................................AAT...A..............TC....  62541429
+
+Query_2     61        CATCAGTGGCTCCCAT-----------CA---TCA--TG-G-CCCCAACCACAATTGTGA  102
+OX457056.1  62541428  ...........T....GGTTGTGACCC..CCCA..GT..T.A.....C.....G......  62541369
+
+Query_2     103       CCCCTGTGCCTCTGACCCCCTCAAAACCTGGCCCTAGCATTGACACACTTGGCTTCTTCT  162
+OX457056.1  62541368  .T................T........................T................  62541309
+
+Query_2     163       CCTTGGATGATAATGTTCCTGGCCTATCGCAGCTGATCCTTCAAAAGCTGAACATGAAAA  222
+OX457056.1  62541308  .......GA.......................A............-..............  62541250
+
+Query_2     223       GCTATGAAGAATATAA  238
+OX457056.1  62541249  .............C..  62541234
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 594035298360
+
+
+Query= exon_3
+
+Length=156
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 362078658048
+
+
+Query= exon_4
+
+Length=125
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457056.1 Hyperoodon ampullatus genome assembly, chromosome: 1       185     3e-45
+
+
+
+Query_4     1         GTGCAGAAATGTCTATTACTGTGGTCCAGAGTGCCAGAAGTCAGACTGGCCCGCACACAG  60
+OX457056.1  62539973  ......................................G.....G......A........  62539914
+
+Query_4     61        GAGGGTTTGTCAAGAGCTTCGTCTTGTGGCTGTGGACCGTCTCATGGAATGGCTTCTGGT  120
+OX457056.1  62539913  .......-..........GT.......A..............A.................  62539855
+
+Query_4     121       CACAG  125
+OX457056.1  62539854  .....  62539850
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 277216546754
+
+
+Query= exon_5
+
+Length=567
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1521861452342
+
+
+Query= exon_6
+
+Length=94
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 189525598291
+
+
+Query= exon_7
+
+Length=220
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 543117987072
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

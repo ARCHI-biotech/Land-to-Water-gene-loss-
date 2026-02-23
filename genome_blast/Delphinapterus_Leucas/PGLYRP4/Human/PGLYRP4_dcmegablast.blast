@@ -1,0 +1,221 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= exon_1
+
+Length=314
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098061.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  215     7e-54
+
+
+
+Query_1         36      CTCAGAGCCTTGCCCTCTGTCTTCCCTTCTCCCCATCTTTTGTTAGGGATCCTGGGCT--  93
+NW_022098061.1  260564  .......GTCC......---..C.T...........--..G.......C...G..C..TC  260510
+
+Query_1         94      CTCTTCTCTCTGGGAAGCTAGAGCCCGAGTGCTCCATTCCCAGGGAGGGAGTGCCCTCTA  153
+NW_022098061.1  260509  .............A....C..G....-...-..........G..................  260452
+
+Query_1         154     GGGCTAGGGAGAGTGAAGGCTGGAGGAGAAGGCGCCAGTTGGTGAAGAAGGGCAGGGCCT  213
+NW_022098061.1  260451  .T..C..A.....A......----C...G....AG...C...A....G...........-  260397
+
+Query_1         214     GGAGGCCAAGTCTGGAAGGGAAGGAGCTGCTGGCCAATCAGGGGCAAGCTGACTGCACCC  273
+NW_022098061.1  260396  A.........C..-...A......CA....CA......G.....TG...C.G.....G..  260338
+
+Query_1         274     TGACCTGCTGGGCTGGGACAGCACAGGACCCACAGATAT  312
+NW_022098061.1  260337  .......TG.............GAG..........G...  260299
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 668613423932
+
+
+Query= exon_2
+
+Length=95
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 155931825324
+
+
+Query= exon_3
+
+Length=90
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 144118808254
+
+
+Query= exon_4
+
+Length=214
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 432354263532
+
+
+Query= exon_5
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098061.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  123     4e-26
+
+
+
+Query_5         1       CTTCCTGGTTGGGGATGATGGCAGGGTGTATGAAGGTGTTGGCTGGAATATCCAAGGAGT  60
+NW_022098061.1  253876  ...............CA.............CA.......C........C........CA.  253817
+
+Query_5         61      GCACACCCAAGGCTACAACAACATCTCCCTGGGCTTTGCCTTCTTTGGCACTAAG  115
+NW_022098061.1  253816  ...TG....G..........GTG.....T.....C.C..T..........A....  253762
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 210271178301
+
+
+Query= exon_6
+
+Length=153
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 290599493607
+
+
+Query= exon_7
+
+Length=199
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 396915389472
+
+
+Query= exon_8
+
+Length=119
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 210271178301
+
+
+Query= exon_9
+
+Length=177
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 347301833823
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

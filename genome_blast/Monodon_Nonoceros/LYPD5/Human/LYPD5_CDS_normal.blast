@@ -1,0 +1,56 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|NM_001031749.3_cds_NP_001026919.2_1 [gene=LYPD5]
+[db_xref=CCDS:CCDS46096.1] [protein=ly6/PLAUR domain-containing
+protein 5 isoform A precursor] [protein_id=NP_001026919.2]
+[location=68..823] [gbkey=CDS]
+
+Length=756
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000099.1 Monodon monoceros isolate NGI Scaffold_98;HRSCAF=3...  183     7e-44
+
+
+
+Query_1         517       GGCAATTTCTCAGTCCCTGTGTACATCAGAACCTGCCACCGGCCCTCCTGCACCACCGAG  576
+SIHG02000099.1  48268340  .........................................................CG.  48268281
+
+Query_1         577       GGCACCACCAGCCCCTGGACAGCCATCGACCTCCAGGGCTCCTGCTGTGAGGGGTACCTC  636
+SIHG02000099.1  48268280  ..............G......AA.........T.......G.............C.....  48268221
+
+Query_1         637       TGC  639
+SIHG02000099.1  48268220  ...  48268218
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1700256845628
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

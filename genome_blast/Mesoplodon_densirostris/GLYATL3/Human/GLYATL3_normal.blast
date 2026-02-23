@@ -1,0 +1,160 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=120
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 249555221640
+
+
+Query= exon_2
+
+Length=106
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 211987768920
+
+
+Query= exon_3
+
+Length=108
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 217354547880
+
+
+Query= exon_4
+
+Length=127
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 268338948000
+
+
+Query= exon_5
+
+Length=127
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 268338948000
+
+
+Query= exon_6
+
+Length=427
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082670.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  424     2e-116
+
+
+
+Query_6      9         CTTCCCCACGACTAACCTACCTGAGTGTTGCCAATGCGGATCTACTCAACCGGACTTGGT  68
+NC_082670.1  27614234  ...............................TG....TT.....................  27614175
+
+Query_6      69        CCCGGGGAGGCAATGAACAATGTCTCCGGTACATC-GCCAACCTCATCTCCTGCTTCCCT  127
+NC_082670.1  27614174  .TT....CA..G.......G....GTT....T..TT.......................G  27614115
+
+Query_6      128       AGTGTGTGTGTCCGGGATGAGAAGGGAAACCCGGTCTCCTGGTCCATCACAGACCAGTTT  187
+NC_082670.1  27614114  .........--..AT.....C.....G.....T..G..T.....TG..............  27614057
+
+Query_6      188       GCCACCATGTGCCATGGCTACACCCTGCCAGAACATCGCAGGAAAGGTTACAGCCGGCTG  247
+NC_082670.1  27614056  ..............C.................G...T.................T.....  27613997
+
+Query_6      248       GTGGCCCTCACGCTGGCCAGGAAGTTGCAAAGCCGGGGATTCCCCTCTCAGGGGAACGTC  307
+NC_082670.1  27613996  ................T.................A........T.........C..T...  27613937
+
+Query_6      308       CTGGATGACAACACGGCGTCTATAAGCCTCCTGAAGAGTC-TCCATGCTGAGTTCTTGCC  366
+NC_082670.1  27613936  ..........G.GT.TTC..C..C........A..AC.G.A....A..C...........  27613877
+
+Query_6      367       TTGTCGCTTCCACAGGCTTATTCTCACCCCTGCGACTTTCTCTGG  411
+NC_082670.1  27613876  .G....A...T.T....................AG..........  27613832
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1067988954136
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

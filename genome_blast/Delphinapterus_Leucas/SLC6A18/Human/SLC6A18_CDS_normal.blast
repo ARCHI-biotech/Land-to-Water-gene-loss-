@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= lcl|NM_182632.3_cds_NP_872438.2_1 [gene=SLC6A18]
+[db_xref=CCDS:CCDS3860.1] [protein=inactive sodium-dependent neutral
+amino acid transporter B(0)AT3] [protein_id=NP_872438.2]
+[location=98..1984] [gbkey=CDS]
+
+Length=1887
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098008.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  183     2e-43
+
+
+
+Query_1         437     CAGGGTTTGTGGAGGAGTGCCAGGGCAGCAGCGCCGTGAGCTACTTCTGGTACCGGCAGA  496
+NW_022098008.1  758127  ....C......CT...A....G..A.........T......CT....C............  758186
+
+Query_1         497     CACTGAACATCACAGCCGACATCAATGACAGTGGCTCCATCCAGTGGTGGCTGCTCATCT  556
+NW_022098008.1  758187  .....................C...C...........TG...G...C........GG...  758246
+
+Query_1         557     GCTTGGCAGCCTCCTGGGCAGTCGTGTACATGTGTGTCATCAGGGGCATTGAGACTACAG  616
+NW_022098008.1  758247  .....A.G...........CA.G.C....CC...C.............C.....G...T.  758306
+
+Query_1         617     GGAAGGTGA  625
+NW_022098008.1  758307  .........  758315
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4384970017024
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

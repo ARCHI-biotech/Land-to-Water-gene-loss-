@@ -1,0 +1,111 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=190
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 323664709896
+
+
+Query= exon_2
+
+Length=1052
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01352533.1 Pontoporia blainvillei isolate BP203 contig356720,...  569     6e-160
+
+
+
+Query_2         27    GACCAGTCCTACTTCTCCGGCAATCACTGGTTCGTCTTCTCGGTGTACCTTCTCACTTTC  86
+PGGH01352533.1  1955  ....G.....C....CT..........G..C..CA......C........CT....C...  2014
+
+Query_2         87    CTGGTGGGGCTCCCCCTCAACCTGCTGGCCCTGGTGGTCTTCGTGGGCAAGCTGCAGCGC  146
+PGGH01352533.1  2015  ..CA.......T........G...GA....T.....A..C......A..........G..  2074
+
+Query_2         147   CGCCCGGTGGCCGTGGACGTGCTCCTGCTCAACCTGACCGCCTCGGACCTGC-TCCTGCT  205
+PGGH01352533.1  2075  T.T.T..C.....C.CG.......T....G.G.......CTA....C..C..GC....G.  2134
+
+Query_2         206   GCTGTTCCTGCCTTTCCGCATGGTGGAGGCAGCCAATGGCATGCACTGGCCCCTGCCCTT  265
+PGGH01352533.1  2135  ...C.......TG.....TGC....A.......G.GC....C..G....T.........C  2194
+
+Query_2         266   CATCCTCTGCCCACTCTCTGGATTCATCTTCTTCACCACCATCTATCTCACCGCCCTCTT  325
+PGGH01352533.1  2195  ....T.......CT....CA.....C..................C......GT.......  2254
+
+Query_2         326   CCTGGCAGCTGTGAGCATTGAACGCTTCCTGAGTGTGGCCCACCCACTGTGGTACAAGAC  385
+PGGH01352533.1  2255  ..C.............GA...G...C..............T.....G.T......C....  2314
+
+Query_2         386   CCGGCCGAGGCTGGGGCAGGCAGGTCTGGTGAGTGTGGCCTGCTGGCTGTTGGCCTCTGC  445
+PGGH01352533.1  2315  ......A....C...A.G...T..C.....C..C.G............CC.....G.C..  2374
+
+Query_2         446   TCACTGCAGCGTGGTCTACGTCATAGAATTCTCAGGGGACAT-CTCCCACAGCCAGGGCA  504
+PGGH01352533.1  2375  .........-----..-.---.-.-.......-T....CGC.C....TC..C......T.  2422
+
+Query_2         505   CCAATGGGACCTGCTACCTGGAGTTCCGGAAGGACCAGCTAGCCATCCTCCTGCCCGTGC  564
+PGGH01352533.1  2423  T...C.................A...........T.....G...T.T...T....T..C.  2482
+
+Query_2         565   GGCTGGAGATGGCTGTGGTCCTCTTTGTGGTCCCGCTGATCATCACCAGCTACTGCTACA  624
+PGGH01352533.1  2483  A..............C......-...-.-.----....C....T..............G.  2535
+
+Query_2         625   GCCGCCTGGTGTGGATCCTCGGCAGAGGG-GGCAGCCACCGCCGGCAGAGGAGGGTGGCG  683
+PGGH01352533.1  2536  ......C.C....C..A.....T.-....A.C......G....C..G..A........-T  2593
+
+Query_2         684   GGGCTGTTGGCGGCCACGCTGCTCAACTTCCTTGTCTGCTTTGGGCCCTACAACGTGTCC  743
+PGGH01352533.1  2594  .....CGCA..A....T...............CA..........................  2653
+
+Query_2         744   CATGTCGTGGGCTATATCTGCGGTGAAAGCCCGGCGTGGAGGATCTACGTGACGCTTCTC  803
+PGGH01352533.1  2654  ....CT........C...CAG............AA......A.GT......CT..CC...  2713
+
+Query_2         804   AGCACCCTGAACTCCTGTGTCGAC-CCCTTTGTCTACTACTTCTCCTCCTCCGGGTTCCA  862
+PGGH01352533.1  2714  .A.........T............A......A-...-.--.....A.TA..T...C....  2769
+
+Query_2         863   AGCCGACTTTCATGAGCTGCTGAGGAGGTTGTGTGG-GCTCTG-GGGCCAGTGGCAGCAG  920
+PGGH01352533.1  2770  ...T.....C..G.G.......G.....C..AC...A..-...T.....C-...TG....  2827
+
+Query_2         921   GAGAGCAGCATGGAGCTGAAGGAGCAGAAGG-GAGGGG  957
+PGGH01352533.1  2828  ..AG.....G..ACA......-..T-.....A......  2863
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2040876099612
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

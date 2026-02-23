@@ -1,0 +1,53 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|NM_001395294.1_cds_NP_001382223.1_1 [gene=FAM149A]
+[db_xref=GeneID:25854,HGNC:HGNC:24527] [protein=protein FAM149A
+isoform 4] [protein_id=NP_001382223.1] [location=374..2692]
+[gbkey=CDS]
+
+Length=2319
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01136872.1 Pontoporia blainvillei isolate BP203 contig138870,...  87.9    2e-14
+
+
+
+Query_1         2243  CAGGTTCACAATATGTGCCTAAATCTTTTCAGAGGACAACTTTGACTTTCAAGAGGAGAT  2302
+PGGH01136872.1  1552  ............T.CCA..................................GA.A.....  1493
+
+Query_1         2303  TCCAAGTGACATCTTGA  2319
+PGGH01136872.1  1492  ........G.G.G....  1476
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4567877291120
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,64 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_016245.5_cds_NP_057329.3_1 [gene=HSD17B11]
+[db_xref=CCDS:CCDS3619.1] [protein=estradiol 17-beta-dehydrogenase
+11 precursor] [protein_id=NP_057329.3] [location=119..1021]
+[gbkey=CDS]
+
+Length=903
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457056.1 Hyperoodon ampullatus genome assembly, chromosome: 1       185     3e-44
+
+
+
+Query_1     557       GTTCAAGCAAGTTTGCTGCTGTTGGATTTCATAAAACTTTGACAGATGAACTGGCTGCCT  616
+OX457056.1  35727657  ...G...............................G.......T..A.............  35727716
+
+Query_1     617       TACAAATAACTGGAGTCAAAACAACATGTCTGTGTCCTAATTTCGTAAACACTGGCTTCA  676
+OX457056.1  35727717  ..G...A........................C..C.........A...............  35727776
+
+Query_1     677       TCAAAAATCCAAGTACAAGTTTGGGACCCACTCTGGAACCTGAGGAAGTGGTAAACAGGC  736
+OX457056.1  35727777  ...G...C.....                                                 35727789
+
+Query_1     737       TGATGCATGGGATTCTGACTGAGCAGAAGATGATTTTTATTCCATCTTCTATAGCTTTTT  796
+
+Query_1     797       TAACAACATTGGAAAGGATCCTTCCTGAGCGTTTCCTGGCAGTTTTAAAACGAAAAATCA  856
+OX457056.1  35757141                ................A..........A.............G..TG  35757186
+
+Query_1     857       GTGTTAAGTTTGATGCAGTTATTGGATATAAAATGAAAG  895
+OX457056.1  35757187  A.....G................................  35757225
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2469488275746
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

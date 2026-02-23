@@ -1,0 +1,656 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=2123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       448     6e-123
+OX457065.1 Hyperoodon ampullatus genome assembly, chromosome: 10      90.6    6e-15 
+OX457067.1 Hyperoodon ampullatus genome assembly, chromosome: 12      87.8    2e-14 
+OX457059.1 Hyperoodon ampullatus genome assembly, chromosome: 4       87.8    2e-14 
+OX457062.1 Hyperoodon ampullatus genome assembly, chromosome: 7       83.3    9e-13 
+OX457060.1 Hyperoodon ampullatus genome assembly, chromosome: 5       82.4    9e-13 
+OX457070.1 Hyperoodon ampullatus genome assembly, chromosome: 15      81.5    3e-12 
+OX457066.1 Hyperoodon ampullatus genome assembly, chromosome: 11      81.5    3e-12 
+OX457061.1 Hyperoodon ampullatus genome assembly, chromosome: 6       81.5    3e-12 
+OX457068.1 Hyperoodon ampullatus genome assembly, chromosome: 13      79.7    1e-11 
+OX457058.1 Hyperoodon ampullatus genome assembly, chromosome: 3       79.7    1e-11 
+OX457056.1 Hyperoodon ampullatus genome assembly, chromosome: 1       79.7    1e-11 
+OX457069.1 Hyperoodon ampullatus genome assembly, chromosome: 14      77.9    4e-11 
+OX457055.1 Hyperoodon ampullatus genome assembly, chromosome: X       74.3    5e-10 
+OX457075.1 Hyperoodon ampullatus genome assembly, chromosome: 20      68.0    2e-08 
+OX457073.1 Hyperoodon ampullatus genome assembly, chromosome: 18      59.9    1e-05 
+
+
+
+Query_1     5          ACAGGGAGCCCAAATGTGGAAGGTAGGTTTT----TTC--AGGTCAGG-TGGAACTGTTA  57
+OX457057.1  110239824  ...T...C....GT.......A..G.A.C..GGTC...CC........C...CT.GTGC.  110239883
+
+Query_1     58         ACACTGAAGCCTATTTGGGTAAGA-AGCAGAGCCTAGCTAGTACCTAATG---GAGATTC  113
+OX457057.1  110239884  ....A...A.........A...A.G..T.....T.G........G.G.GCAGA.G....G  110239943
+
+Query_1     114        AGGGGCCAGGAGTATCGGGGAGGAAACATTTCCTAACAGAGAGGTAAAATAGCCAAGAGG  173
+OX457057.1  110239944  ...T.......A.TCT......A...AG...TA.....-.....A..T..G....G....  110240002
+
+Query_1     174        AGTTTCTATGTATTCTGAAATCAGGCAATGGAAAGTATTTGCAGAAAAGCAATGTAGGGA  233
+OX457057.1  110240003  ....................C..T...G..C......................         110240055
+
+Query_1     234        CCAGGCGTGGTGGCTTATGCCTGTAATCCCAACACTTTGGGAGGCCGAGGTGGGTGGATC  293
+
+Query_1     294        ACCTGCGGTCAGGAGTTCAAGACCAGCCTGCCCAACATGGTGAAACCTCATCTCTACTAA  353
+OX457057.1  82817211                                                            ...  82817209
+OX457065.1  66848443                                                    ..T....-...  66848434
+OX457068.1  78518254                                                            ...  78518252
+
+Query_1     354        AAATACAAAAGT-T-AGCTAGGCATGGTGGCACATGCCTGTAGTTCCAGCTACTTTGGAG  411
+OX457057.1  82817208   ...A.A..G.AG-A-....G..TG.........GC.........C.........CG....  82817151
+OX457065.1  66848433   C....A....T.-G-G..CG...G.......G.GC.........C.........CC....  66848376
+OX457067.1  76014481     ...T....A.G.-...CG...GC......G.GC.........C.........CG....  76014537
+OX457059.1  110929137                           ......G.GC.........C.........CG....  110929103
+OX457059.1  139716966                      ..........T.--....................CA....  139716929
+OX457062.1  20317191                            ......G.GC.........C.........CG....  20317225
+OX457060.1  19106951   .....T.C.G.G-.-...CG...GC........GCA........C.........CG....  19106894
+OX457060.1  19593893                                      .........C..........G....  19593869
+OX457060.1  37914488             ..-G-...C...TGC........G....G.....C..........G....  37914535
+OX457070.1  38998951                       ....C......G.GC.........C.........CG....  38998912
+OX457070.1  10193648                       ...G.........GCA........C.........CG....  10193687
+OX457066.1  16424012                            ......G.GC.........C..........G....  16423978
+OX457061.1  115510317                           ......G.GC.........C..........G....  115510283
+OX457068.1  78518251   ...---..T...-.G...CG...GC......G.GC.T.................CG....  78518196
+OX457068.1  55393930                        ..G......T.............C.......A..G....  55393892
+OX457058.1  64035357                       ....C......G.GCA........C.........CGA...  64035396
+OX457058.1  117557592                           ......G.GC.........C.........CG....  117557626
+OX457058.1  129420224                           ......G.GC.........C.........CG....  129420258
+OX457058.1  129621057                           ......G.GC.........C.........CG....  129621023
+OX457058.1  129632798                           ......G.GC.........C.........CG....  129632764
+OX457056.1  170390479                           ......G.GC.........C.........CG....  170390513
+OX457069.1  29942593                            ......G.GC.........C.........CG....  29942559
+OX457069.1  74895859                            ......G.GC.........C.........CG....  74895893
+OX457055.1  52296830                               ....TG..........C.........CG....  52296861
+OX457075.1  35278104                                      .........C.........CG....  35278128
+
+Query_1     412        GCTGA-GGCAGGAGAATTGCTTGAACCTAGGAGGGTGAGGTTGCAGTGAGCCGAGATCAT  470
+OX457057.1  82817150   .....-...C....G..C......G..C.....                             82817119
+OX457065.1  66848375   .....-........G..C......G..C.....                             66848344
+OX457065.1  66848197                                                              .  66848197
+OX457067.1  76014538   .....-........G..C......G..C.....                             76014569
+OX457059.1  110929102  .....-........G..C......G..C.....                             110929071
+OX457059.1  139716928  .....-........T.........G..C..T..                             139716897
+OX457062.1  20317226   .....-........G.........G..C.....                             20317257
+OX457060.1  19106893   .....-........G..C......G..C.....                             19106862
+OX457060.1  19593868   .....-...........G.A....G..C.....                             19593837
+OX457060.1  37914536   .....G........G..C......T..C.T...                             37914568
+OX457070.1  38998911   .....-........G..C......G..C.....                             38998880
+OX457070.1  10193688   .....-........G..C.A....G..C.....                             10193719
+OX457066.1  16423977   .....-........G..C......G..C.....                             16423946
+OX457061.1  115510282  .....-........G..C......G..C.....                             115510251
+OX457068.1  78518195   .....-........G..C......G..C.....                             78518164
+OX457068.1  55393891   .....-.A......G.CCT........C.....                             55393860
+OX457058.1  64035397   .....-........G..C......G..C.....                             64035428
+OX457058.1  117557627  .....-........G..C......G..C.....                             117557658
+OX457058.1  129420259  .....-........G..C......G..C.....                             129420290
+OX457058.1  129621022  .....-........G..C......G..C.....                             129620991
+OX457058.1  129632763  .....-........G..C......G..C.....                             129632732
+OX457056.1  170390514  .....-........G..C......G..C.....                             170390545
+OX457069.1  29942558   .....-........G..C......G..C.....                             29942527
+OX457069.1  74895894   .....-........G..C...C..G..C.....                             74895925
+OX457055.1  52296862   .....-........G...T.....G..C....                              52296892
+OX457075.1  35278129   .....-........G.C...G...G..C.....                             35278160
+
+Query_1     471        GCCACTGCCCTCCAGCCTGG-CAACAGAGTGAGACTCCATCTC-AAAAATAAATAAAAGG  528
+OX457065.1  66848196   ........A...........G.....T..C........G....-T....A...A....    66848140
+OX457059.1  110928890  ........A...........G.....T..C.....C..G....-.....G...A....    110928834
+OX457062.1  38671433   ........A...........G.....T..C.....C..G....-T....A...A....    38671377
+OX457070.1  38998700   ........A...........G.....T..C.....C.TG....-T....A...A....    38998644
+OX457066.1  16423766   ........A...........G.....T..C.....C..G....T.....G...         16423714
+OX457061.1  115510069  ........A...........G.....T..C.....C..G....-T....A...A....    115510013
+OX457069.1  29942347   ........A...........G.....T..C.....C..G....-T....A...A....    29942291
+OX457055.1  9063881    ........A...........G.....T..C.....C..G....-T....A...A....    9063825
+OX457073.1  19510149   ........A...........G.....T..C.....C..G....-T....A...A....    19510093
+
+Query_1     529        CTGGGTGCAGTGATTCATGCCTATAATTCCAGCACTTTGGGAGGCCGAGGTGGGCGGATA  588
+
+Query_1     589        ACCTGAGGTCAAGAGTTTGGGACCAGCCTGGCCAACATGGTGAAACCCTGTCTCTACTAA  648
+OX457070.1  38998689                         .........G......A.C..G............AA..  38998652
+OX457058.1  117557568                                                            ..  117557569
+
+Query_1     649        AAATACAAAAAT-T----AGCTGGGTGTGGTGGTGGGC-CCTGTAATCCCAGCTACTCGG  702
+OX457067.1  76014481     ...T......G.----...C...C.C.....C.C..G......G..............  76014534
+OX457059.1  110929146                     ..C...C.C.....C.C..G......G..............  110929106
+OX457062.1  20317181                     ...C...C.C.....C.C..G......G..............  20317222
+OX457060.1  19106939                .----...C...C.C.....CAC..A......G..............  19106897
+OX457060.1  19593892                                          ......G...........T..  19593872
+OX457070.1  38998946                               .....C.C..G......G..............  38998915
+OX457070.1  10193648                          ..C.......CAC..A......G..............  10193684
+OX457070.1  38998651   ...A.A.....                                                   38998641
+OX457066.1  16424021                      ..C...C.C.....C.C..G......G...........T..  16423981
+OX457061.1  115510327                    ...C...C.C.....C.C..G......G...........T..  115510286
+OX457058.1  117557570  ......C.GT.C-.-----..C...C.C.....C.C..G......G..............  117557623
+OX457058.1  129420215                     ..C...C.C.....C.C..G......G..............  129420255
+OX457058.1  129621066                     ..C...C.C.....C.C..G......G..............  129621026
+OX457058.1  129632807                     ..C...C.C.....C.C..G......G..............  129632767
+OX457058.1  64035362                               .....C.C..A......G.............A  64035393
+OX457056.1  170390458        ......-.TGAC...C...C.C.....C.C..G......G..............  170390510
+OX457069.1  29942605              .-.----T..C...C.C.....C.C..G......G..............  29942562
+OX457069.1  74895850                      ..C...C.C.....C.C..G......G..............  74895890
+OX457055.1  52296838                                          ......G..............  52296858
+OX457075.1  35278105                                          ......G..............  35278125
+
+Query_1     703        GAGGCTGAGGAAGGAGAATCACTTGAACCTGGGAGGCAGAGGTTACAGTGAGCTGAGATC  762
+OX457067.1  76014535   ..........C.....G...G.....G..CA....                           76014569
+OX457059.1  110929105  ..........C.....G...G.....G..CA....                           110929071
+OX457062.1  20317223   ..........C.....G..TG.....G..CA....                           20317257
+OX457060.1  19106896   ..........C.....G...G.....G..CA....                           19106862
+OX457060.1  19593871   ..........C........GGA....G..CA....                           19593837
+OX457070.1  38998914   ..........C.....G...G.....G..CA....                           38998880
+OX457070.1  10193685   ..........C.....G...GA....G..CA....                           10193719
+OX457066.1  16423980   ..........C.....G...G.....G..CA....                           16423946
+OX457061.1  115510285  ..........C.....G...G.....G..CA....                           115510251
+OX457058.1  117557624  ..........C.....G...G.....G..CA....                           117557658
+OX457058.1  129420256  ..........C.....G...G.....G..CA....                           129420290
+OX457058.1  129621025  ..........C.....G...G.....G..CA....                           129620991
+OX457058.1  129632766  ..........C.....G...G.....G..CA....                           129632732
+OX457058.1  64035394   ..........C.....G...G.....G..CA....                           64035428
+OX457056.1  170390511  ..........C.....G...G.....G..CA....                           170390545
+OX457069.1  29942561   ..........C.....G...G.....G..CA....                           29942527
+OX457069.1  74895891   ..........C.....G...G..C..G..CA....                           74895925
+OX457055.1  52296859   ..........C.....G..TT.....G..                                 52296887
+OX457075.1  35278126   ..........C.....                                              35278141
+
+Query_1     763        ACACCACTGCACTCCAGCCTGGGTGACAGAGTAAGACTCGGTCTCAATAAATAAATAAAT  822
+
+Query_1     823        AAAAGCAATGTGGGACTTGGAGGCTGAAGAGGTGGACATGCATGAACAGTGGAGGCGGTG  882
+
+Query_1     883        TATGTGGCTGCCTTTCCCCTGTATTCCACTGAGAGGGAGCCCAAATCTGCCTCGCCTGCA  942
+
+Query_1     943        TTGAGGGATGAAGAAAACACTGAGAGGCAGCTGAGAAACATGGATGCTAGTTCCAACTCC  1002
+OX457057.1  110241226   ....T.....G.............---..T.AG..G..C.....T..G....T...A.T  110241281
+
+Query_1     1003       ATGGCCTCGGGAAGTCACTCAGACTCCTTGAGTCAGTAATGAAAAGGTAGTAGATTAGAG  1062
+OX457057.1  110241282  .C...T..T.............C................CA.G.G...G.....        110241335
+
+Query_1     1063       GCTGGGCGCAGTGGCTCATGCCTGTAATCCCAACACTTTGGGAGGCCGAGGTGGGCGGAT  1122
+
+Query_1     1123       CACAAGGTCAGGAGTTCAAGACCAGCCTGGCCAACATGGTGAAACACTGTCTCTACTAAA  1182
+OX457065.1  66848440                                                      ....-...C  66848433
+OX457068.1  55393954                                                            ...  55393952
+OX457058.1  117557568                                                           ...  117557570
+
+Query_1     1183       AATACAAAAAT-T----AGCTGGGCAT-GGTG-GTGCATGCCTGTAATCCCAGCTACTCA  1235
+OX457065.1  66848432   ....A....T.-G----G..C....G.-....-.C..GC.......G............C  66848380
+OX457067.1  76014481    ...T......G.----...C....GC-....-.C..GC.......G............G  76014533
+OX457067.1  22907227                                ...-.CA.......A..GC............  22907256
+OX457059.1  110929146                    ..C....GC-....-.C..GC.......G............G  110929107
+OX457059.1  139716966                        .....-....-..--.........G.T...........  139716933
+OX457062.1  20317181                    ...C....GC-....-.C..GC.......G............G  20317221
+OX457060.1  19106939               .----...C....GC-....-.CA.GCA......G............G  19106898
+OX457060.1  19593912                     .......TCA....T....--.......G...........TG  19593873
+OX457070.1  38998955                     ..C.....C-....-.C..GC.......G............G  38998916
+OX457066.1  16424021                     ..C....GC-....-.C..GC.......G...........TG  16423982
+OX457061.1  115510327                   ...C....GC-....-.C..GC.......G...........TG  115510287
+OX457068.1  78518240                    ...C....GC-....-.C..GC.T.....G.T..........G  78518200
+OX457068.1  55393951   ..A...C.C..-.TCC-..TC.A..G.-....-..A..........G.........A.TG  55393896
+OX457058.1  117557571  .....C.GT.C-.-----..C....GC-....-.C..GC.......G............G  117557622
+OX457058.1  129420215                    ..C....GC-....-.C..GC.......G............G  129420254
+OX457058.1  129621066                    ..C....GC-....-.C..GC.......G............G  129621027
+OX457058.1  129632807                    ..C....GC-....-.C..GC.......G............G  129632768
+OX457056.1  170390458       ......-.TGAC...C....GC-....-.C..GC.......G............G  170390509
+OX457069.1  29942605             .-.----T..C....GC-....-.C..GC.......G............G  29942563
+OX457069.1  74895850                     ..C....GC-....-.C..GC.......G............G  74895889
+OX457055.1  116568787                    ....A...C-....-.CA.GC...G.CGG............C  116568826
+OX457055.1  52296836                                         ........G............G  52296857
+OX457075.1  35278104                                          .......G............G  35278124
+
+Query_1     1236       GGAGGTTGAGGCAGGAGAATTGCTTGAACCAGGGAGTCGGAGGTTGCAATGAGCCGAGAT  1295
+OX457065.1  66848379   .....C...........G..C......G..CA.....                         66848343
+OX457067.1  76014534   .....C...........G..C......G..CA.....                         76014570
+OX457067.1  22907257   .....C.A.........G..G.....GG.....                             22907289
+OX457059.1  110929106  .....C...........G..C......G..CA.....                         110929070
+OX457059.1  139716932  .....C...........T.........G..                                139716903
+OX457062.1  20317222   .....C...........G.........G..CA.....                         20317258
+OX457060.1  19106897   .....C...........G..C......G..CA.....                         19106861
+OX457060.1  19593872   .....C..............G.A....G..CA.....                         19593836
+OX457070.1  38998915   .....C...........G..C......G..CA.....                         38998879
+OX457066.1  16423981   .....C...........G..C......G..CA.....                         16423945
+OX457061.1  115510286  .....C...........G..C......G..CA.....                         115510250
+OX457068.1  78518199   .....C...........G..C......G..CA.....                         78518163
+OX457068.1  55393895   .....C....A......G.CCT........CA.....                         55393859
+OX457058.1  117557623  .....C...........G..C......G..CA.....                         117557659
+OX457058.1  129420255  .....C...........G..C......G..CA.....                         129420291
+OX457058.1  129621026  .....C...........G..C......G..CA.....                         129620990
+OX457058.1  129632767  .....C...........G..C......G..CA.....                         129632731
+OX457056.1  170390510  .....C...........G..C......G..CA.....                         170390546
+OX457069.1  29942562   .....C...........G..C......G..CA.....                         29942526
+OX457069.1  74895890   .....C...........G..C...C..G..CA.....                         74895926
+OX457055.1  116568827  ..T.........G......C.......G..                                116568856
+OX457055.1  52296858   .....C...........G...T.....G..                                52296887
+OX457075.1  35278125   .....C...........G.C...G...G..CA....                          35278160
+
+Query_1     1296       CGCGCCATTGCACTCTAACCTGGGCAACAGAGTGAGACTCTGTCTCAAAAAAAAGAAAAG  1355
+OX457065.1  66848196      ....C.......C.G...........T..C.......C.....T.......A....A  66848140
+OX457059.1  110928890     ....C.......C.G...........T..C.....C.C..........G..A....A  110928834
+OX457070.1  38998700      ....C.......C.G...........T..C.....C.......T.......A....A  38998644
+OX457068.1  78517984      ....C.......C.G...........T..C.....C.C.....T..........G.A  78517928
+
+Query_1     1356       AAAAGGTGGTAGATTAGATCCTCTCTAAGATTTCCTCCAACTCTGCAATTCTAAAATGTA  1415
+OX457057.1  110241327      .........CC..G..A..C.......C...........C.A...........T..  110241382
+OX457065.1  66848139   ....                                                          66848136
+OX457059.1  110928833  ..                                                            110928832
+OX457070.1  38998643   ....                                                          38998640
+OX457068.1  78517927   ....                                                          78517924
+
+Query_1     1416       CAACATGGGGAAGGAAGGTGA-TCAGTACAACTGTAAACAACTGCAATCCGGCCCTGAAG  1474
+OX457057.1  110241383  G.G.......GT...G.....T.T....A.T...A.......CT.....T....T..G..  110241442
+
+Query_1     1475       TTGAACAAAACAAAACCTAGGG---AGAGGAATGAGTTTGTAGCAGGTTTCAATGCAGCG  1531
+OX457057.1  110241443  .................C....ACA.A....G....A..CC.C..-.C....GGCG...A  110241501
+
+Query_1     1532       ATTGTGAACGCATCACACACACACTCCTCACAGGCA---AGGACTTCGCTTCTGCCATGT  1588
+OX457057.1  110241502  T....A...A..................---.....ACC.....CA.T.......-----  110241553
+
+Query_1     1589       GACTGAGACTCTGTTGGACTTCTCCAAATTCAGAGTTCAGCCTGGCATGCCGGCCAGGAG  1648
+OX457057.1  110241554  ---------------------............GA........T...G.T.A.....C..  110241592
+
+Query_1     1649       CCCCTTGGAGAGATTCGGCGTGAGGAAACAGGAGGCCTCACGCTTCCTTCGGTTCTCCCT  1708
+OX457057.1  110241593  TA.....C....G..T..AC..G...........C....T.T.GC.....AT...C....  110241652
+
+Query_1     1709       AAATCTGCTGGG--CAGGTAGCCAGAAGAAACTCTGAAGGGTACAGAAAGCCGAGGGCCA  1766
+OX457057.1  110241653  ..GC..A..T..AA.GT..GC...A....G.T.................A..A.A..-..  110241711
+
+Query_1     1767       GGGGGACCCCGGCTGCGGAGCTGCAGTACCGTGTTTACCCAGCCTAACTGCGGTCACCCA  1826
+OX457057.1  110241712  CA.......T.....T.....C..T....TAC.G.A..........-----------GA.  110241760
+
+Query_1     1827       GTCTCCTGCATGTGT-CTGAGGTCAGCCTC-GGGGGCTCCCCTGAGTAGGTATCTACCTG  1884
+OX457057.1  110241761  ...............C........T.T...A.CA..G..G.T..C....A.G........  110241820
+
+Query_1     1885       AGGCTCTTCCCCTGATGCTACCTGCATACCAATTCCACCCAGGAACCTGGCGTCCTCAGG  1944
+OX457057.1  110241821  ............-..CC..G.....CC.....GCT....T..A......AT......G..  110241879
+
+Query_1     1945       AGGCTGCACTTCCCAAGTGGGCTGAGACAGCCCCTTAATATGTGGGGCTGGAGC------  1998
+OX457057.1  110241880  ..A....G............A.CAG..G...T...GG....C..T.........CAGAGC  110241939
+
+Query_1     1999       --CAGAGACCTCAAGGGGCCACTAGGGGGCTCGAG----ACTCTCAGTGGCTGCTGACGC  2052
+OX457057.1  110241940  CT.............T....G.C.....T......GCTCT..........G.TTC..T.G  110241999
+
+Query_1     2053       CCTCTTGTGGCCATTTTGGGGATTGGCCAGAA--AAGTTTCAGAAGCGAGCCAAGATCGG  2110
+OX457057.1  110242000  .............GA............A....AG............A........GCT.A  110242059
+
+Query_1     2111       AATTCTTAAGGAG  2123
+OX457057.1  110242060  ........G....  110242072
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5909227360686
+
+
+Query= exon_2
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 370564678262
+
+
+Query= exon_3
+
+Length=79
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 141436937950
+
+
+Query= exon_4
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       60.8    9e-08
+
+
+
+Query_4     16         CAAGAACTCTTGCTCACATCAGCTAAGAGATTGCACCTGCTGACCTAGAGATTCCGGC  73
+OX457057.1  110244439  .......ATA.A....TG......C......................A....C..A..  110244496
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189525446134
+
+
+Query= exon_5
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       106     2e-21
+
+
+
+Query_5     1          GGCAACCAGTAGCACCATGTCTGTGACTGGCGGGAAGATGGCACCGTCCCTCACCCAGGA  60
+OX457057.1  110245024  ....T.....C................CA.......T....G..TA.....GG.T.....  110245083
+
+Query_5     61         GATCCTCAGCCACCTGGGCCTGGCCAGCAAG  91
+OX457057.1  110245084  .....................T....A....  110245114
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175381803058
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       86.0    2e-15
+
+
+
+Query_6     21         GGGCACCCTCAGGACCTTCTTGAACTTCAGCGTGGACAAGGATGCGCAGAGGCTACTGAG  80
+OX457057.1  110245294  ............A..........G......TAAA..........T.........G.CA..  110245353
+
+Query_6     81         GGCCATTACTGGCCAAG  97
+OX457057.1  110245354  .......G.A.......  110245370
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189525446134
+
+
+Query= exon_7
+
+Length=95
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 183867970130
+
+
+Query= expn_8
+
+Length=114
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 237613992168
+
+
+Query= exon_9
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 175381803058
+
+
+Query= exon_10
+
+Length=80
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 144265676709
+
+
+Query= exon_11
+
+Length=60
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87690901529
+
+
+Query= exon_12
+
+Length=85
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 158409370504
+
+
+Query= exon_13
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 186696708132
+
+
+Query= exon_14
+
+Length=59
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 84862162770
+
+
+Query= exon_15
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       165     4e-39
+
+
+
+Query_15    1          GAAACTGAGCCCAATTACCAAGTCCTGATTCGCATCCTTATCTCTCGATGTGAGACTGAC  60
+OX457057.1  110248554  .........A.-.................G.A.........T......A..........T  110248612
+
+Query_15    61         CTTCTGAGTATCAGAGCTGAGTTCAGGAAGAAATTTGGGAAGTCCCTCTACTCTTCTCTC  120
+OX457057.1  110248613  .....A......C............AA.............................C...  110248672
+
+Query_15    121        CAG  123
+OX457057.1  110248673  ...  110248675
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 263072634186
+
+
+Query= exon_16
+
+Length=375
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       327     2e-87
+
+
+
+Query_16    2          ATGCAGTGAAAGGGGATTGCCAGTCAGCCCTCCTGGCCTTGTGCAGGGCTGAAGACATGT  61
+OX457057.1  110248903  ..............A.C....G.........A..A...C.................C.T.  110248962
+
+Query_16    62         GAGACTTCCCTGCCCCACCCCACATGACATCCGAGGATCTGAGATTTCCGTGTTTGGCTG  121
+OX457057.1  110248963  .....C..AT-------...........C.T.A..A..........C..A...A......  110249015
+
+Query_16    122        AACCTG--GGAGACCAGCTGGGCCTCCAAGTAGGATAACCCCTCACT-GAGCACCACATT  178
+OX457057.1  110249016  .G....CA.....................A.GA..............T......---..G  110249072
+
+Query_16    179        CTCTAGCTTCTTGTTGAGGCTGGAACT----GTTTCTTTAAAATCCCTTAATTTTCC-CA  233
+OX457057.1  110249073  T..C..........G...T........CCAA...C..C.T...G..........C..T..  110249132
+
+Query_16    234        TCTCAAAATTATATCTGTACCTGGGTCATCCAGCTCCTTCTTGGGTGTGGGGAAATGAGT  293
+OX457057.1  110249133  .......G.G..G....C.........CC.T.....TG........A..T.AT....G.A  110249192
+
+Query_16    294        TTTCTTTGATAGTTTCTGCCTCACTCATCCCTCCTGTACCCTGGCCAGAACATCTCACTG  353
+OX457057.1  110249193  .C.................TCT......T.TAT.C...TT........C...........  110249252
+
+Query_16    354        ATACTCGAATTCTTTTGGCAAA  375
+OX457057.1  110249253  .....T................  110249274
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 970256615384
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

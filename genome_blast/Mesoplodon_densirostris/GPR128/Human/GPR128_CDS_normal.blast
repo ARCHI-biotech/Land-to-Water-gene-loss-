@@ -1,0 +1,123 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_032787.3_cds_NP_116176.2_1 [gene=ADGRG7]
+[db_xref=CCDS:CCDS2938.1] [protein=adhesion G-protein coupled
+receptor G7 isoform 1 precursor] [protein_id=NP_116176.2]
+[location=257..2650] [gbkey=CDS]
+
+Length=2394
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  411     1e-111
+
+
+
+Query_1      336       GGGCAATCCAATGGCAGTCCGGTTGTGCAGTCTCTCTCTATATGGAGAGATAGAATTACA  395
+NC_082665.1  48671350  ..........G.....AC....C..........TAA.AA.....................  48671409
+
+Query_1      396       AAAAGTGACAATAGGAAATTGCAATGAAAATCTGGAAACCCTGGAAAAGCAGGTAAAGGA  455
+NC_082665.1  48671410  ...T........G........T.................................       48671464
+
+Query_1      456       TGTCACAGCACCACTTAATAACATTTCTTCTGAAGTCCAGATTTTAACATCTGATGCCAA  515
+
+Query_1      516       TAAATTAACTGCTGAGAACATCACTAGTGCTACGCGAGTGGTTGGACAGATATTCAACAC  575
+
+Query_1      576       TTCCAGAAATGCTTCACCTGAGGCAAAGAAAGTTGCCATAGTAACAGTGAGTCAACTCCT  635
+
+Query_1      636       AGATGCCAGTGAAGATGCTTTTCAAAGAGTTGCTGCTACTGCTAATGATGATGCCCTTAC  695
+
+Query_1      696       AACGCTTATTGAGCAAATGGAGACTTATTCCTTGTCTTTGGGTAATCAATCAGTGGTGGA  755
+
+Query_1      756       ACCTAACATAGCAATACAGTCAGCAAATTTCTCTTCAGAAAATGCGGTGGGGCCTTCAAA  815
+
+Query_1      816       TGTTCGCTTCTCTGTGCAGAAAGGAGCTAGCAGTTCTCTAGTTTCTAGTTCAACATTTAT  875
+
+Query_1      876       ACATACAAATGTGGATGGCCTTAACCCAGATGCACAGACTGAGCTTCAGGTCTTGCTTAA  935
+
+Query_1      936       TATGACGAAAAATTACACCAAGACATGCGGCTTTGTAGTTTATCAAAATGACAAGCTTTT  995
+NC_082665.1  48684072                   .....G....T...........G...T.G..CA..-.......  48684113
+
+Query_1      996       CCAATCAAAAACTTTTACAGCTAAATCGGATTTTAGTCAAAAAATTATCTCAAGCAAAAC  1055
+NC_082665.1  48684114  .................T.........AC.............C.................  48684173
+
+Query_1      1056      TGATGAAAATGAGC---AAGATCAGAGTGCTTCTGTTGACATGGTCTT-T-AGTCCAAAG  1110
+NC_082665.1  48684536                                 ..A....C...T.....A.C.A.T..C..  48684564
+NC_082665.1  48684174  ...........T.GAAG..........CA..........A........-C-.......    48684229
+
+Query_1      1111      TACAACCAAAAAGAATTTCAACTCTATTCCTATGCCTGTGTCTATTGGAATTTGTCAGCG  1170
+NC_082665.1  48684565  .....TG..........A..G..TC............................T..CCT.  48684624
+
+Query_1      1171      AAGGACTGGGACACATATGGCTGTCAAAAAGACAAGG-G-CACTGATGGATTCCTGCGCT  1228
+NC_082665.1  48684625  .....T.........C..........CC..-.-....A.T..T..........T......  48684682
+
+Query_1      1229      GCCGCTGCAACCATACTACTAATTTTGCTGTATTAATGACTTTCAAAAAGGATTATCAAT  1288
+NC_082665.1  48684683  ..T...........G.......C.....G.....G...                        48684720
+
+Query_1      1289      ATCCCAAATCACTTGACATATTATCCAACGTTGGATGTGCACTGTCTGTTACTGGTCTGG  1348
+
+Query_1      1349      CTCTCACAGTTATATTTCAGATTGTCACCAGGAAAGTCAGAAAAACCTCAGTAACCTGGG  1408
+NC_082665.1  48693910                              .......................A........  48693941
+
+Query_1      1409      TTTTGGTCAATCTGTGCATATCAATGTTGATTTTCAACCTCCTCTTTGTGTTTGGAATTG  1468
+NC_082665.1  48693942  .A................C.......................................C.  48694001
+
+Query_1      1469      AAAACTCCAATAAGAACTTGCAGACAAGTGATGGTGACATCAATAATATTGACTTTGA-C  1527
+NC_082665.1  48694002  ...................AA........C..A......CTG......C......-..G.  48694060
+
+Query_1      1528      AATAATGACATACCCAGGAC-AGACACCATTAACATCCCGAATCCCATGTGCACTGCGAT  1586
+NC_082665.1  48694061  ........A..GT....-..A.......G..GT....TT........CA...........  48694119
+
+Query_1      1587      TGCCGCCTTACTGCACTATTTTCTGTTAGTGACATTTACCTGGAACGCACTCAGCGCTGC  1646
+NC_082665.1  48694120  ...TAT...G..T.........G.....................TG.G......T.....  48694179
+
+Query_1      1647      ACAGCTCTATTACCTTCTAATAAGGACCATGAAGCCTCTTCCTCGGCATTTCATTCTTTT  1706
+NC_082665.1  48694180  C..........T......T..T...............A......A...............  48694239
+
+Query_1      1707      CATCTCATTAATTGGATGGGGAGTCCCAGCTATAGTAGTGGCTATAACAGTGGGAGTTAT  1766
+NC_082665.1  48694240  ......T..............                                         48694260
+
+Query_1      1767      TTATTCTCAGAATGGAAATAATCCACAGTGGGAATTAGACTACCGGCAAGAGAAAATCTG  1826
+NC_082665.1  48705144                                                           ...  48705146
+
+Query_1      1827      CTGGCTGGCAATTCCAGAACCCAATGGTGTTATAAAAAGTCCGCTGTTGTGGTCATTCAT  1886
+NC_082665.1  48705147  ...........C..A....AG..G....T.G....C.....AAT................  48705206
+
+Query_1      1887      CGTACCTGTAACCATTATCCTCATCAGCAATGTTGTTATGTTTATTA-CAATCTCGATCA  1945
+NC_082665.1  48705207  .A.......G.............................A......GT..T.G.A.-...  48705265
+
+Query_1      1946      AAGTGCTGTGGAAGAATAACCAGAACCTGA  1975
+NC_082665.1  48705266  ...................T.....T....  48705295
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 6340848641792
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

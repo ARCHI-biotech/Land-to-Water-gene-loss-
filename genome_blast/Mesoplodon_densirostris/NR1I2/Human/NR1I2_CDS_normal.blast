@@ -1,0 +1,87 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_003889.4_cds_NP_003880.3_1 [gene=NR1I2]
+[db_xref=CCDS:CCDS43136.1] [protein=nuclear receptor subfamily 1
+group I member 2 isoform 1] [protein_id=NP_003880.3]
+[location=223..1527] [gbkey=CDS]
+
+Length=1305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  274     8e-71
+
+
+
+Query_1      516       CCGGCTGCCAGGGGTGCTTAGCAGTGGCTGCGAGTTGCCAGAGTCTCTGCAGGCCCCATC  575
+NC_082665.1  66753444  ..A........A....T.........C.CA.A..A..-.G............A.T.AG..  66753502
+
+Query_1      576       GAGGGAAGAAGCTGCCAAGTGGAGCCAGGTCCGGAAAGATCTGTGCTCTTTGAAGGTCTC  635
+NC_082665.1  66753503  A.AT.....................A..A..A..G.......A..T..AG..........  66753562
+
+Query_1      636       TCTGCAGCTGCGGGGGGAGGATGGCAGTGTCTGGAACTACAAACCCCCAGCCGACAGTGG  695
+NC_082665.1  66753563  C.................A..C.....CA.............G.........T...A.A.  66753622
+
+Query_1      696       CGGGAAAGAGATCTTCTCCCTGCTGCCCCACATGGCTGACATGTCAACCTACATGTTCAA  755
+NC_082665.1  66753623  T.............CT......T.................GCA.................  66753682
+
+Query_1      756       AGGCATCATCAGCTTTGCCAAAGTCA-TCTCCTACTTCAGGGACTTGCCCATCGAGGACC  814
+NC_082665.1  66753683  ...........A..............T.......T......                     66753723
+
+Query_1      815       AGATCTCCCTGCTGAAGGGGGCCGCTTTCGAGCTGTGTCAACTGAGATTCAACACAGTGT  874
+
+Query_1      875       TCAACGCGGAGACTGGAACCTGGGAGTGTGGCCGGCTGTCCTACTGCTTGGAAGACACTG  934
+NC_082665.1  66756089                                                        ..C..A  66756094
+
+Query_1      935       CAGGTGGCTTCCAGCAACTTCTACTGGAGCCCATGCTGAAATTCCACTACATGCTGAAGA  994
+NC_082665.1  66756095  ................G...............G.AT........................  66756154
+
+Query_1      995       AGCTGCAGCTGCATGAGGAGGAGTATGTGCTGATGCAGGCCATCTCCCTCTTCTCCCCAG  1054
+NC_082665.1  66756155  ..............A...............C..................T.....T....  66756214
+
+Query_1      1055      ACCGCCCAGGTGTGCTGCAGCACCGCGTGGTGGACCAGCTGCAGGAGCAATTCGCCATTA  1114
+
+Query_1      1115      CTCTGAAGTCCTACATTGAATGCAATCGGCCCCAGCCTGCTCATAGGTTCTTGTTCCTGA  1174
+NC_082665.1  66757862                                              ......C.........  66757877
+
+Query_1      1175      AGATCATGGCTATGCTCACCGAGCTCCGCAGCATCAATGCTCAGCACACCCAGCGGCTGC  1234
+NC_082665.1  66757878  ......C.........A....................C.T....................  66757937
+
+Query_1      1235      TGCGCATCCAGGACATACACCCCTTTGCTACGCCCCTCATGCAGGAGTTGTTCGGCATCA  1294
+NC_082665.1  66757938  ................T........C.....C.AG....C....A........A..T...  66757997
+
+Query_1      1295      CAG  1297
+NC_082665.1  66757998  ...  66758000
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3421321303950
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

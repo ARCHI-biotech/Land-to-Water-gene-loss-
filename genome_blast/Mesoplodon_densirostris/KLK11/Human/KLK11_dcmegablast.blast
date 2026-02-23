@@ -1,0 +1,186 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=79
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134169466600
+
+
+Query= exon_2
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123435909272
+
+
+Query= exon_3
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082679.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  157     3e-36
+
+
+
+Query_3      1        GGCTTGTAGGGGGAGAGACCAGGATCATCAAGGGGTTCGAGTGCAAGCCTCACTCCCAGC  60
+NC_082679.1  6270584                                                     ....G....  6270592
+NC_082679.1  6257386  ...A.......................A...A..A.AT....T.TCT.....T..T....  6257445
+
+Query_3      61       C---CTGGCAGGCAGCCCTGTTCGAGAAGACGCGGCTACTCTGTGGGGCGACGCTCATCG  117
+NC_082679.1  6270593  .---........TT.GG..C...TTTCTC..C.AT..CT....C........C......A  6270649
+NC_082679.1  6257446  .ACC...........ATT.....C.......AA....G...........A..CG......  6257505
+
+Query_3      118      CCCCCAGATGGCTCCTGACAGCAGCCCACTGCCTCAAGCC  157
+NC_082679.1  6270650  GTGA.C.T.....G........T........T.G......  6270689
+NC_082679.1  6257506  ...T..A......A...................A......  6257545
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 340790435766
+
+
+Query= exon_4
+
+Length=266
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082679.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  246     4e-63
+
+
+
+Query_4      9        TAGTTCACCTGGGGCAGCACAACCTCCAGAAGGAGGAGGGCTGTGAGCAGACCCGGACAG  68
+NC_082679.1  6257916  ...C.G.T.....AG.A............TGACG...T..........GC.....AG...  6257975
+
+Query_4      69       CCACTGAGTCCTTCCCCCACCCCGGCTTCAACAACAGCCTCCCCAACAAAGACCACCGCA  128
+NC_082679.1  6257976  ...............T......A.A........GT.....G..........CT...T...  6258035
+
+Query_4      129      ATGACATCATGCTGGTGAAGATGGCATCGCCAGTCTCCATCACCTGGGCTGTGCGACCCC  188
+NC_082679.1  6258036  ..............C....T....TGG.C....C..T...T.T.............-...  6258094
+
+Query_4      189      TCACCCTCTCCTCACGCTGTGTCACTGCTGGCACCAGCTGCCTCATTTCCGGCTGGGGCA  248
+NC_082679.1  6258095  A..GTG.G..A....A............C......C...............A........  6258154
+
+Query_4      249      GCACGTCCAGCCCCCAGT  266
+NC_082679.1  6258155  C........T........  6258172
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 630596458240
+
+
+Query= exon_5
+
+Length=137
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 287122650606
+
+
+Query= exon_6
+
+Length=153
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082679.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  159     2e-37
+NC_082669.1 Mesoplodon densirostris isolate mMesDen1 chromosome 9...  75.2    7e-12
+
+
+
+Query_6      1          GGTGACTCCGGGGGCCCTCTGGTCTGTAACCAGTCTCTTCAAGGCATTATCTCCTGGGGC  60
+NC_082679.1  6259302    .....T..T........A.......A...TGG...............C............  6259361
+NC_082679.1  6265157     .......A..T...............G.TA..A.C.....G.....CC.T..A......  6265215
+NC_082669.1  101951454  ..G.....T..C....A.G...C...C...GGAGAG..C..G......G.T.........  101951513
+
+Query_6      61         -CAGGATCCGTGTGCGATCACCCGAAAGCCTGGTGTCTACACGAAAGTCTGCAAATATGT  119
+NC_082679.1  6259362    -........A.....TG...G.A.......CA.G..T.....A..G..............  6259420
+NC_082669.1  101951514  T.T..C.----....CCAG.AGG.C........G........C..G........C.....  101951569
+
+Query_6      120        GGACTGGATCCAGGAGACGATGAAGAACAATTAG  153
+NC_082679.1  6259421    ....C...G....A..C.T..AG...........  6259454
+NC_082669.1  101951570  .........T...C....C..               101951590
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 330056878734
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

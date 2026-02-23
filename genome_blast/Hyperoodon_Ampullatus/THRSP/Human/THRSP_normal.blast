@@ -1,0 +1,75 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=460
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1219186405129
+
+
+Query= exon_2
+
+Length=693
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457069.1 Hyperoodon ampullatus genome assembly, chromosome: 14      62.1    4e-07
+OX457055.1 Hyperoodon ampullatus genome assembly, chromosome: X       58.4    5e-06
+OX457063.1 Hyperoodon ampullatus genome assembly, chromosome: 8       56.5    2e-05
+OX457073.1 Hyperoodon ampullatus genome assembly, chromosome: 18      52.8    2e-04
+OX457072.1 Hyperoodon ampullatus genome assembly, chromosome: 17      52.8    2e-04
+
+
+
+Query_2     384        GCCTAAATTCCCTCATCTATAAAATGGGGATAATATTA-T-C-TACCTCACA  432
+OX457069.1  63270951   ....C...............................                  63270916
+OX457055.1  105509126   ...C....T............................                105509162
+OX457055.1  99941769             ............................G.G.C...T.....  99941728
+OX457063.1  44725187      ....-.............................                 44725219
+OX457073.1  27050331             ............................                27050358
+OX457072.1  16743403          ..T............................                16743433
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1875453295326
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

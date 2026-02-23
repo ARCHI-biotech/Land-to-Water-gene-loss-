@@ -1,0 +1,98 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|XM_024450368.2_cds_XP_024306136.1_1 [gene=ACSM3]
+[db_xref=GeneID:6296] [protein=acyl-coenzyme A synthetase ACSM3,
+mitochondrial isoform X2] [protein_id=XP_024306136.1]
+[location=3563..5434] [gbkey=CDS]
+
+Length=1872
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006793239.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  185     5e-44
+
+
+
+Query_1         748    AGACATGCCAGTGACAGCCACACCTGTGTGAAGACAAAACACAATGAGATCATGGCCATA  807
+NW_006793239.1  68265  .......T........A.AC.............................CG........T  68324
+
+Query_1         808    TTCTTTACCAGTGGAACAAGTGGATATCCGAAAATGACTGCACACACCCACAGCAGTTTT  867
+NW_006793239.1  68325  .....C.....C........C....C...T........C.G...................  68384
+
+Query_1         868    GGTTTAGGATTATCTGTAAATGGAAGGTTCTGGCTAGATTTGACACCCTCAGATGTGATG  927
+NW_006793239.1  68385  .A.............A............                                  68412
+
+Query_1         928    TGGAATACCTCAGATACGGGCTGGGCAAAGTCTGCATGGAGTAGTGTTTTTTCTCCGTGG  987
+
+Query_1         988    ATCCAGGGAGCATGTGTATTCACACACCATTTACCCCGTTTTGAGCCGACTTCTATCTTG  1047
+NW_006793239.1  69045                                                   ......AA...  69055
+
+Query_1         1048   CAAACACTCTCCAAGTACCCCATCACAGTCTTCTGTTCAGCACCAACTGTATACCGAATG  1107
+NW_006793239.1  69056  ..G.....T.G.....TT............................T..C.G.TAT...A  69115
+
+Query_1         1108   CTTGTACAGAATGATATAACCAGCTATAAGTTTAAAAGCTTAAAGCACTGTGTGAGTGCT  1167
+NW_006793239.1  69116  .....G..........AG.....                                       69138
+
+Query_1         1168   GGGGAACCAATTACCCCTGACGTGACTGAAAAATGGAGAAACAAGACGGGCCTGGATATC  1227
+
+Query_1         1228   TACGAAGGATATGGACAGACTGAAACGGTGCTAATCTGTGGAAATTTTAAGGGAATGAAA  1287
+NW_006793239.1  72142                            ...A..............................  72175
+
+Query_1         1288   ATTAAACCTGGCTCAATGGGAAAACCTTCTCCTGCTTTCGATGTTAAGATT-GTAGATGT  1346
+NW_006793239.1  72176  .....G................G-.---..........T...A.....G..T...       72226
+
+Query_1         1347   AAATGGCAATGTTCTACCTCCTGGACAAGAAGGAGATATTGGCATTCAAGTTCTACCCAA  1406
+
+Query_1         1407   CCGACCATTTGGCCTTTTTACTCATTACGTAGATAATCCTTCAAAAACAGCTTCAACTCT  1466
+
+Query_1         1467   ACGAGGCAATTTCTATATCACTGGGGACAGAGGATATATGGATAAAGATGGGTATTTCTG  1526
+
+Query_1         1527   GTTTGTTGCAAGAGCAGATGATGTCATATTATCCTCTGGCTATCGAATTGGACCATTTGA  1586
+NW_006793239.1  78187                                              ..........G.....  78202
+
+Query_1         1587   GGTAGAAAATGCCCTGAATGAACACCCTTCAGTTGCAGAGTCAGCTGTTGTCAGCAGCCC  1646
+NW_006793239.1  78203  .A......G........C...G..TT.CG..C....--...T......C...........  78260
+
+Query_1         1647   AGACCCCATCAGAGGAGAGGTAGTAAAGGCTTTTGTCGTTCTAAATCCTGATTACAAGTC  1706
+NW_006793239.1  78261  ......................                                        78282
+
+Query_1         1707   ACATGATCAAGAACAACTAATAAAGGAGATTCAGGAGCATGTTAAAAAAACTACAGCACC  1766
+
+Query_1         1767   TTACAAATATCCCAGAAAGGTAGAATTTATTCAAGAGCTGCCAAAGACTATCAGTGGGAA  1826
+NW_006793239.1  82162                   ..................................T........  82204
+
+Query_1         1827   GACAAAAAGAAATGAACTGAGGAAGAAAGAATGGAAGACAATTTAA  1872
+NW_006793239.1  82205  ..T---..............A....G........G.A.........  82247
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4452875793947
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

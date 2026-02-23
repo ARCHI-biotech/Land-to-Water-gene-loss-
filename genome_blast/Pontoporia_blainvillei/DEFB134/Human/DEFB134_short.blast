@@ -1,0 +1,90 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01084794.1 Pontoporia blainvillei isolate BP203 contig86082, ...  54.0    3e-06
+PGGH01175828.1 Pontoporia blainvillei isolate BP203 contig178271,...  52.0    1e-05
+PGGH01025991.1 Pontoporia blainvillei isolate BP203 contig26392, ...  46.1    7e-04
+
+
+
+Query_1         3     TATCATCTTACATCAGCACAAGAAGAAGAGTGAGCATAGCACA  45
+PGGH01084794.1  5632  ........C......................              5662
+PGGH01175828.1  5052  ........C......T..................           5085
+PGGH01025991.1  200   ........C......T............G.....T.C......  158
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 54077358186
+
+
+Query= exon_2
+
+Length=105
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 172203960782
+
+
+Query= exon_3
+
+Length=143
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 248294082988
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

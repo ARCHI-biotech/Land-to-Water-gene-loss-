@@ -1,0 +1,63 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_198512.3_cds_NP_940914.1_1 [gene=DGAT2L6]
+[db_xref=CCDS:CCDS14397.1] [protein=diacylglycerol O-acyltransferase
+2-like protein 6] [protein_id=NP_940914.1] [location=101..1114]
+[gbkey=CDS]
+
+Length=1014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082681.1 Mesoplodon densirostris isolate mMesDen1 chromosome X...  267     1e-68
+
+
+
+Query_1      650       CATACCTTGTCCCTTCATATTCCTTTGGTGAGAACGAAGTTTTCAATCAGGAGACCTTCC  709
+NC_082681.1  79355394  .............C..C...........A.....T..G...CA......A..........  79355335
+NC_082681.1  79476492  .............C..C...........A.....T..G...CA......A..........  79476433
+
+Query_1      710       CTGAGGGCACGTGGTTAAGGTTGTTCCAAA-AAACCTTCCAGGACACATTCAAAAAAATC  768
+NC_082681.1  79355334  ..............C.......C.......T.......G.......G.A.........C.  79355275
+NC_082681.1  79476432  ..............C.......C.......T.......G.......G.A.........C.  79476373
+
+Query_1      769       CTGGGACTAAATTTCTGTACCTTCCATGGCCGGGGCTTCACTCGCGGATCCTGGGGCTTC  828
+NC_082681.1  79355274  ...A......G..............TC.........C.......A...............  79355215
+NC_082681.1  79476372  ...A......G..............TC.......A.C.......A...............  79476313
+
+Query_1      829       CTGCCTTTCAATCGGCCCATTACCACTGTTG  859
+NC_082681.1  79355214  T..............................  79355184
+NC_082681.1  79476312  T..............................  79476282
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2640455029872
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,67 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|NM_001128926.4_cds_NP_001122398.1_1 [gene=GARIN1A]
+[db_xref=CCDS:CCDS47702.1] [protein=Golgi-associated RAB2 interactor
+protein 1A isoform b] [protein_id=NP_001122398.1]
+[location=107..1009] [gbkey=CDS]
+
+Length=903
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01273496.1 Pontoporia blainvillei isolate BP203 contig277000,...  243     1e-61
+PGGH01398048.1 Pontoporia blainvillei isolate BP203 contig402582,...  220     6e-55
+
+
+
+Query_1         1     ATGAGTAAAATCAGGGGCCTCCCACCTGAGGTCAGGGAACCAGGCCCTGGAGTGGAACTT  60
+PGGH01398048.1  1329  ...........T...A..................T.........................  1270
+
+Query_1         61    GGGGTGGAAAATGGCCTTCTTTGTCAACTGATTCATTCTCCAGAATTCAATTTGTTCTCC  120
+PGGH01398048.1  1269  .........G.C.....C..C.......................G.....C........T  1210
+
+Query_1         121   AACTCGGTGGTGTTTGAAAGCAACTTTATCCAGGTCACTAAGCCCGGGAACTGGAGAGAT  180
+PGGH01273496.1  3082                                 ..........A...A.........TG...  3054
+PGGH01398048.1  1209  G...................T..............                           1175
+
+Query_1         181   GTCTGTGAAGGGTCTGCCACCGTGATCCTCGGGGTCACCTCCTCGGTGCCCTCCCTGCCA  240
+PGGH01273496.1  3053  ........C......A..G.T..............G..................T.....  2994
+
+Query_1         241   CTCCCCAATGTCCTCCTGATGGCCAATGTTACCTGGCCCCAGGGTCCATTTACCACCTGG  300
+PGGH01273496.1  2993  .............................C................AG.C.T........  2934
+
+Query_1         301   AGCACACCTGGTGACGCCCCAGTCATCAACCTCAGCAGG  339
+PGGH01273496.1  2933  ..........A.AG..............C..........  2895
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1743331541058
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

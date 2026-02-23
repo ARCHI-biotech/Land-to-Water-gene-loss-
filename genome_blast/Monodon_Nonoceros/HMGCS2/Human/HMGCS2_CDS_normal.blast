@@ -1,0 +1,97 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|NM_005518.4_cds_NP_005509.1_1 [gene=HMGCS2]
+[db_xref=CCDS:CCDS905.1] [protein=hydroxymethylglutaryl-CoA
+synthase, mitochondrial isoform 1 precursor]
+[protein_id=NP_005509.1] [location=62..1588] [gbkey=CDS]
+
+Length=1527
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000013.1 Monodon monoceros isolate NGI Scaffold_12;HRSCAF=8...  564     5e-158
+
+
+
+Query_1         103        AGGTTTTCTACAGCCTCTGCTGTCCCCCTGGCCAAAACAGATACTTGGCCAAAGGACGTG  162
+SIHG02000013.1  105063656  .............T.C.....A.....T.........G....G.............T...  105063597
+
+Query_1         163        GGCATCCTGGCCCTGGAGGTCTACTTCCCAGCCCAATATGTGGACCAAACTGACCTGGAG  222
+SIHG02000013.1  105063596  ........T..............T..........................A...A.....  105063537
+
+Query_1         223        AAGTATAACAATGTGGAAGCAGGAAAGTATACAGTGGGCTTGGGCCAGACCCGTATGGGC  282
+SIHG02000013.1  105063536  ....T.....G......G.....G.....C.........A............AG.C....  105063477
+
+Query_1         283        TTCTGCTCAGTCCAAGAGGACATCAACTCCCTGTGCCTGACGGTGGTGCAACGGCTGATG  342
+SIHG02000013.1  105063476  ..............G....G..............................G.A.....C.  105063417
+
+Query_1         343        GAGCGCATACAGCTCCCATGGGACTCTGTGGGCAGGCTGGAAGTAGGCACTGAGACCATC  402
+SIHG02000013.1  105063416  .......CGA........C....AC........C.........CG...............  105063357
+
+Query_1         403        ATTGACAAGTCCAAAGCTGTCAAAACAGTGCTCATGGAACTCTTCCAGGATTCAGGCAAT  462
+SIHG02000013.1  105063356  ..C...........G..................G....G..............G.....C  105063297
+
+Query_1         463        ACTGATATTGAGGGCATAGATACCACCAATGCCTGCTACGGTGGTACTGCCTCCCTCT--  520
+SIHG02000013.1  105063296  ..C..C..G...................G..............AC.............AT  105063237
+
+Query_1         521        TCAATGCTGCCAACTGGATGGAGTCCAGTTCCTGGGATGGT-CGTTATGCCATGGTGGTC  579
+SIHG02000013.1  105063236  ...G..T..........G..........C............A...GC.....          105063185
+
+Query_1         580        TGTGGAGACATTGCCGTCTATCCCAGTGGTAATGCTCGTCCCACAGGTGGGGCCGGAGCT  639
+
+Query_1         640        GTGGCTATGCTGATTGGGCCCAAGGCCCCTCTGGCCCTGGAGCGAGGGCTGAGGGGAACC  699
+
+Query_1         700        CATATGGAGAATGTGTATGACTTCTACAAACCAAATTTGGCCTCGGAGTACCCAATAGTG  759
+
+Query_1         760        GATGGGAAGCTTTCCATCCAGTGCTACTTGCGGGCCTTGGATCGATGTTACACATCATAC  819
+
+Query_1         820        CGTAAAAAAATCCAGAATCAGTGGAAGCAAGCTGGCAGCGATCGACCCTTCACCCTTGAC  879
+
+Query_1         880        GATTTACAGTACATGATCTTTCATACACCCTTTTGCAAGATGGTCCAGAAGTCTCTGGCT  939
+
+Query_1         940        CGCCTGATGTTCAATGACTTCCTGTCAGCCAGCAGTGACACACAAACCAGCTTATATAAG  999
+
+Query_1         1000       GGGCTGGAGGCTTTCGGGGGGCTAAAGCTGGAAGACACCTACACCAACAAGGACCTGGAT  1059
+
+Query_1         1060       AAAGCACTTCTAAAGGCCTCTCAGGACATGTTCGACAAGAAAACCAAGGCTTCCCTTTAC  1119
+
+Query_1         1120       CTCTCCACTCACAATGGGAACATGTACACCTCATCCCTGTACGGGTGCCTGGCCTCGCTT  1179
+
+Query_1         1180       CTGTCCCACCACTCTGCCCAAGAACTGGCTGGCTCCAGGATTGGTGCCTTCTCTTATGGC  1239
+SIHG02000013.1  105053525           ...........G..CT...................................  105053475
+
+Query_1         1240       TCTGGTTTAGCAGCAAGTTTCTTTTCATTTCGAGTATCCCAGGATGCTGCTCCAGG  1295
+SIHG02000013.1  105053474  .....C.....G.A..................G..GC...........T.......  105053419
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3505901512266
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

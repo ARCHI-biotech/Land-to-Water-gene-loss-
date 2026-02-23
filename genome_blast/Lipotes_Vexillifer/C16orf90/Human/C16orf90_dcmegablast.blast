@@ -1,0 +1,118 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006780388.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  70.7    4e-11
+
+
+
+Query_1         1        ATGGAAGCCTTGGTCTGTGCATTTTCTGAGCTGCACATAAGAGAAG  46
+NW_006780388.1  1413172  ....................G..C...C..................  1413217
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43538419746
+
+
+Query= exon_2
+
+Length=354
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006780388.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  287     5e-75
+
+
+
+Query_2         1        ATGCAGTGAGCCAGGCCCAAGGACGCCCCGGCCACCCTGACGCACCCCCCAACATCTACG  60
+NW_006780388.1  1413654  ...........TG.....G....T..A..A.T.....C...ATG..A.....A.....T.  1413713
+
+Query_2         61       AGGGGGGCCTGGGGTCCCCGCAGCCGCAGTGCCCCAGTGCCCAGGGAAGCAAGCCCAAGA  120
+NW_006780388.1  1413714  .......G......G...A.....A......T............................  1413773
+
+Query_2         121      ACTTCCGGCTGCGCCACCTCCGGGGCCTGGGCCTCTACCTGGAGAGCCACCCGCCACCCA  180
+NW_006780388.1  1413774  ....------..A.................CT.........CCAG.T...AT..ATT.TG  1413827
+
+Query_2         181      CTGGCCAGTGTGAGAGCCACTGGCTGGGCCGGCTTATGGCTGGGGGCTGCCTGCCACAGC  240
+NW_006780388.1  1413828  .......C.....A.....T......A...A...C.....C...........C.....A.  1413887
+
+Query_2         241      CTGAGGGCACAGCCTGGGCCCTGGACCTGCCACAGGGGACTCTGGGCCCACGTAACAGCC  300
+NW_006780388.1  1413888  .CA.........T....C........T.A.........G...........G.......T.  1413947
+
+Query_2         301      TCTGTTCAGCCCT  313
+NW_006780388.1  1413948  A.CAC........  1413960
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 781248713441
+
+
+Query= exon_3
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006780388.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  139     7e-31
+
+
+
+Query_3         1        CTTCCAGTTCCAGCATGGACCCAGACAAGGGTGCCCTCCCCCAGCCTAGTCCTTCTA---  57
+NW_006780388.1  1414374  ........................C...........C.T.......CG..G.CC..GAAG  1414433
+
+Query_3         58       ------GGCTCAGGCCCAAGAGGTCCTGGG-GGACCTGGGAAGAGGCCATGTGTCCCTTG  110
+NW_006780388.1  1414434  GCTTGG..........T..T..A.......T..G...CA..G..AT...CA.........  1414493
+
+Query_3         111      TGCAAGAGAACCCGCTCTGGGGCCCTGGAGAGGCCATAG  149
+NW_006780388.1  1414494  A..........T...........T...............  1414532
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 287831425763
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

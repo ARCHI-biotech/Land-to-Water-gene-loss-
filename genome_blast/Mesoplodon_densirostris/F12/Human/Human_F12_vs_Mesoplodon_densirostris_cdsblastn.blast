@@ -1,0 +1,62 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_000505.4_cds_NP_000496.2_1 [gene=F12]
+[db_xref=CCDS:CCDS34302.1] [protein=coagulation factor XII
+preproprotein] [protein_id=NP_000496.2] [location=38..1885]
+[gbkey=CDS]
+
+Length=1848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082663.1 Mesoplodon densirostris isolate mMesDen1 chromosome 3...  132     8e-28
+
+
+
+Query_1      115        GTTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTAC  174
+NC_082663.1  154733182  ...........T...A................................T..........T  154733123
+
+Query_1      175        CACAAATGTACCCACAAGGGCCGGCCAGGCCCTCAGCCCTGGTGTGCTACCACCCCCAAC  234
+NC_082663.1  154733122  .........CT.....GA...T....C.....-..A...C...                   154733081
+
+Query_1      235        TTTGATCAGGACCAGCGATGGGGATACTGTTTGGAGCCCAAGAAAGTGAAAGACCACTGC  294
+NC_082663.1  154732016                                                    ...T......  154732007
+
+Query_1      295        AGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGCCCCCAC  354
+NC_082663.1  154732006  ..........A......................................AGA....A...  154731947
+
+Query_1      355        TGTCTCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAG  397
+NC_082663.1  154731946  ..CA........G.T...T.......G..G..........G..  154731904
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4875718147328
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

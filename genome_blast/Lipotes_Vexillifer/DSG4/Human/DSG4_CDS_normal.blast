@@ -1,0 +1,86 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|NM_177986.5_cds_NP_817123.1_1 [gene=DSG4]
+[db_xref=CCDS:CCDS11897.1] [protein=desmoglein-4 isoform 2
+preproprotein] [protein_id=NP_817123.1] [location=136..3258]
+[gbkey=CDS]
+
+Length=3123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006782310.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  736     0.0  
+
+
+
+Query_1         2354    AGAAAGCGTATGCTTATGCAGATGAAGATGAAGGTCGACCAGCCAATGACTGCTTGCTCA  2413
+NW_006782310.1  543116  .......A........CA....CA.....A....C........A.....T..T.......  543175
+
+Query_1         2414    TTTATGACCACGAGGGAGTCGGGTCTCCCGTAGGCTCTATTGGTTGTTGCAGTTGGATTG  2473
+NW_006782310.1  543176  ..........T........A...........G...A.C.C..................C.  543235
+
+Query_1         2474    TGGATGACTTAGATGAAAGCTGCATGGAAACTTTAGATCCAAAATTTAGGACTCTTGCTG  2533
+NW_006782310.1  543236  ......GT..C..........A................T.....................  543295
+
+Query_1         2534    AGATCTGCTTAAACACAGAAATTGAACCATTTCCTTCACACCAGGCTTGTATACCAATCA  2593
+NW_006782310.1  543296  .A.........G............................G.....C...G.T..C..T.  543355
+
+Query_1         2594    GTACTGACCTCCCTTTGCTCGGACCTAATTACTTTGTTAATGAATCTTCAGGATTGACTC  2653
+NW_006782310.1  543356  ................A..T.....A....T......................A......  543415
+
+Query_1         2654    CCTCAGAAGTTGAATTCCAAGAAGAAATGGCAGCATCTGAACCCGTGGTCCATGGGGATA  2713
+NW_006782310.1  543416  T......G.CA........G.C.........CAT.C........A..A.G..........  543475
+
+Query_1         2714    TTATTGTGACTGAGACTT-ACGGTAATGCTGATCCATGTGTGCAACCCACTACAATTATT  2772
+NW_006782310.1  543476  ..G.A.............A..A...C............CA...........C.....G..  543535
+
+Query_1         2773    TTTGATCCTCAGCTTGCACCCAATGTTGTAGTAACCGAAGCAGTAATGGCACCTGTCTAT  2832
+NW_006782310.1  543536  ..G..C.....C.....G.....CA....T.....G...A......CA......A....C  543595
+
+Query_1         2833    GATATTCAAGGGAATATTTGTGTACCTGCTGAGTTAGCAGATTACA-ACAATGTAATCTA  2891
+NW_006782310.1  543596  ...G.C...A..G....C......GTC...........CA.C-...C...G.....G...  543654
+
+Query_1         2892    TGCTGAGAGAGTACTGGCTAGTCCTGGTGTGCCTGACATGAGCAATAGTAGCACGACTGA  2951
+NW_006782310.1  543655  ....A.......G...T...........AG.....G..C.....GA..C....T...G..  543714
+
+Query_1         2952    GGGTTGTATGGGACCTGTGATGAGCGGCAATATTTTAGTAGGGCCAGAAATTCAAGTGAT  3011
+NW_006782310.1  543715  TA......G......C........TA.TGG......G.....A................C  543774
+
+Query_1         3012    GCAAATGATGAGTCCAGACCTTCCCATAGGCCAAACCGTTGGCTCCACATCCCCCATGAC  3071
+NW_006782310.1  543775  .......G...........A...A....A.....G..A....T...C..A....A.....  543834
+
+Query_1         3072    ATCTCGACACAGAGTAACACGATACAGTAACATACATTACACCCAACAGTAA  3123
+NW_006782310.1  543835  ...........C........AG..T...............T...........  543886
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 7478702854364
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

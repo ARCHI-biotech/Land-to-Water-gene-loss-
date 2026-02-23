@@ -1,0 +1,594 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= exon_1
+
+Length=2123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006787556.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  447     2e-122
+NW_006777770.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  88.7    2e-14 
+NW_006797390.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  87.8    2e-14 
+NW_006799156.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  86.0    6e-14 
+NW_006788723.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  86.0    6e-14 
+NW_006770328.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  85.1    2e-13 
+NW_006799924.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  84.2    2e-13 
+NW_006787688.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  83.3    8e-13 
+NW_006785848.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  83.3    8e-13 
+NW_006771065.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  81.5    3e-12 
+NW_006769306.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  81.5    3e-12 
+NW_006779163.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  79.7    9e-12 
+NW_006789313.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  77.9    3e-11 
+NW_006777895.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  77.0    3e-11 
+NW_006780868.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  75.2    1e-10 
+NW_006799818.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  72.5    1e-09 
+NW_006787408.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  69.8    5e-09 
+NW_006795011.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  68.0    2e-08 
+NW_006793169.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  63.5    7e-07 
+NW_006793902.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  59.0    9e-06 
+
+
+
+Query_1         30       GGTTTTTTCAGGTCAGGTGGAACTGTT-AACACTGAAGCCTATTTGGGTAAGAAGC-AGA  87
+NW_006787556.1  215084   ...C..CC.........CT.GCT...GC.....A...A.........A...A.G.GT...  215143
+
+Query_1         88       GCCTAGCTAGTACCTAATG---GAGATTCAGGGGCCAGGAGTATCGGGGAGGAAACATTT  144
+NW_006787556.1  215144   ..T.G........G.G.GCAGA.G....G...T.......A.TCT......AG..AG...  215203
+
+Query_1         145      CCTAACAGAGAGGTAAAATAGCCAAGAGGAGTTTCTATGTATTCTGAAATCAGGCAATGG  204
+NW_006787556.1  215204   TA.....-.....A..T..G....G........................C..T......C  215262
+
+Query_1         205      AAAGTATTTGCAGAAAAGCAATGTAGGGACCAGGCGTGGTGGCTTATGCCTGTAATCCCA  264
+NW_006787556.1  215263   ......................                                        215284
+
+Query_1         265      ACACTTTGGGAGGCCGAGGTGGGTGGATCACCTGCGGTCAGGAGTTCAAGACCAGCCTGC  324
+
+Query_1         325      CCAACATGGTGAAACCTCATCTCTACTAAAAATACAAAAGTTAGCTAGGCATGGTGGCAC  384
+NW_006777770.1  73093                               .......G...G.---..CG...G.......G.  73064
+NW_006797390.1  2559379                                                      ......G.  2559372
+NW_006799156.1  399149                                                       ......G.  399142
+NW_006788723.1  476511                                                  ..T.......T.-  476500
+NW_006770328.1  125196                                                  ...G.......G.  125184
+NW_006799924.1  1175090                             .......G...G.---..CG...G.......G.  1175119
+NW_006785848.1  296201                                                       ......GT  296208
+NW_006771065.1  523319                                                  ...G.......G.  523307
+NW_006771065.1  323441                                                       ......G.  323448
+NW_006769306.1  1877686                                                 ...G.......G.  1877674
+NW_006779163.1  568257                                              ..C..........T...  568273
+NW_006779163.1  665035                                                       ......G.  665028
+NW_006777895.1  2614582                                                 ...G.......G.  2614594
+NW_006780868.1  112566                                                      .......CT  112574
+NW_006793902.1  514722                                                       .....T..  514729
+
+Query_1         385      ATGCCTGTAGTTCCAGCTACTTTGGAGGCTGAGGCAGGAGAATTGCTTGAACCTAGGAGG  444
+NW_006777770.1  73063    .C.........C.........CG.................G..C......G..C.....   73005
+NW_006797390.1  2559371  G........A.C.........CG.................G..C......G..C.....   2559313
+NW_006799156.1  399141   GC.......A.C.........CG....................C......G..C.....   399083
+NW_006788723.1  476499   -..........C.........CA.................G.........G..C..T..   476442
+NW_006770328.1  125183   GC.........C.........CG.................G..C......G..C.....   125125
+NW_006799924.1  1175120  GC.........C.........CG.................G..C......G..C.....   1175178
+NW_006785848.1  296209   G..........C.........CA.................G.C.......G..C.....   296267
+NW_006771065.1  523306   GC.........C.........CG.................G..C......G..C.....   523248
+NW_006771065.1  323449   GC.........C.........CG.................G..C......G..C.....   323507
+NW_006769306.1  1877673  GC.........C.........CG.................G..C......G..C.....   1877615
+NW_006779163.1  568274   .C.....C...C......T.C.G.................G..CA.....G..CG....T  568333
+NW_006779163.1  665027   GC.........C..........G....C............G..C......G..C.....   664969
+NW_006777895.1  2614595  GC.........C.........CGA................G..C......G..C.....   2614653
+NW_006780868.1  112575   GA.......A.G...C.....CA.................G.........G..C.....   112633
+NW_006799818.1  385966     .........C......C...G....................G.A....G..C.....   385910
+NW_006795011.1  693162     .........C.........CG......C..........G.....G...G..C.....   693218
+NW_006793902.1  514730   C..T.....T.C..........GA....T....A...A......T.....G..C.T...   514788
+
+Query_1         445      GTGAGGTTGCAGTGAGCCGAGATCATGCCACTGCCCTCCAGCCTGG-CAACAGAGTGAGA  503
+NW_006799156.1  398901                               ......A...........G.....T..C....  398870
+NW_006770328.1  124945                             ........A...........G.....T..C....  124912
+NW_006779163.1  568334   TCC...C.......                                                568347
+NW_006779163.1  664805                             ........A...........G.....T..C....  664772
+
+Query_1         504      CTCCATCTCAAAAATAAATAAAAGGCTGGGTGCAGTGATTCATGCCTATAATTCCAGCAC  563
+NW_006799156.1  398869   .C..G....T....A...A....                                       398847
+NW_006770328.1  124911   .C..G....T....A...A....                                       124889
+NW_006779163.1  664771   .C..G.........A...A....                                       664749
+
+Query_1         564      TTTGGGAGGCCGAGGTGGGCGGATAACCTGAGGTCAAGAGTTTGGGACCAGCCTGGCCAA  623
+
+Query_1         624      CATGGTGAAACCCTGTCTCTACTAAAAATACAAAAATTAGCTGGGTGTGGTGGTGGGC-C  682
+NW_006777770.1  73080                                           ..C...C.......C.CA.G.  73060
+NW_006797390.1  2559389                                        ...C...C.C.....C.C.TG.  2559368
+NW_006799156.1  399158                                          ..C...C.C.....C.C..G.  399138
+NW_006770328.1  125207                                   ....AC...C...C.......C.C..G.  125180
+NW_006799924.1  1175103                                         ..C...C.......C.C..G.  1175123
+NW_006787688.1  2082432                                        ...C...C.C.....C.C..G.  2082453
+NW_006771065.1  312113                                          ..C...C.C.....C.C..G.  312133
+NW_006771065.1  523323                                          ..C...C.......C.C..G.  523303
+NW_006771065.1  323432                                          ..C...C.C.....C.C..G.  323452
+NW_006769306.1  1877690                                         ..C...C.......C.C..G.  1877670
+NW_006777895.1  2614578                                         ..C...C.......C.C..G.  2614598
+NW_006799818.1  385965                                                              .  385965
+NW_006787408.1  2589512                                        ...C...C.C.....C.C.TG.  2589533
+
+Query_1         683      CTGTAATCCCAGCTACTCGGGAGGCTGAGGAAGGAGAATCACTTGAACCTGGGAGGCAGA  742
+NW_006777770.1  73059    .....G........................C.....G...G.....G..CA....       73005
+NW_006797390.1  2559367  ..............................C.....G...G.....G..CA....       2559313
+NW_006799156.1  399137   ..............................C.........G.....G..CA....       399083
+NW_006770328.1  125179   .....G........................C.....G...G.....G..CA....       125125
+NW_006799924.1  1175124  .....G........................C.....G...G.....G..CA....       1175178
+NW_006787688.1  2082454  ..............................C.....G...G.....G..CA....       2082508
+NW_006771065.1  312134   ..............................C.....G...G.....G..CA....       312188
+NW_006771065.1  523302   .....G........................C.....G...G.....G..CA....       523248
+NW_006771065.1  323453   .....G........................C.....G...G.....G..CA....       323507
+NW_006769306.1  1877669  .....G........................C.....G...G.....G..CA....       1877615
+NW_006777895.1  2614599  .....G.............A..........C.....G...G.....G..CA....       2614653
+NW_006799818.1  385964   .....G........C..T............C........GGA....G..CA....       385910
+NW_006787408.1  2589534  .....G..T.....................C.....G.....G...G..CA....       2589588
+
+Query_1         743      GGTTACAGTGAGCTGAGATCACACCACTGCACTCCAGCCTGGGTGACAGAGTAAGACTCG  802
+
+Query_1         803      GTCTCAATAAATAAATAAATAAAAGCAATGTGGGACTTGGAGGCTGAAGAGGTGGACATG  862
+
+Query_1         863      CATGAACAGTGGAGGCGGTGTATGTGGCTGCCTTTCCCCTGTATTCCACTGAGAGGGAGC  922
+
+Query_1         923      CCAAATCTGCCTCGCCTGCATTGAGGGATGAAGAAAACACTGAGAGGCAGCTGAGAAACA  982
+NW_006787556.1  216432                        ....T.....G.............---..T.AG..G..C  216467
+
+Query_1         983      TGGATGCTAGTTCCAACTCCATGGCCTCGGGAAGTCACTCAGACTCCTTGAGTCAGTAAT  1042
+NW_006787556.1  216468   .....T..G....T...A.T.C......T.............C................C  216527
+
+Query_1         1043     GAAAAGGTAGTAGATTAGAGGCTGGGCGCAGTGGCTCATGCCTGTAATCCCAACACTTTG  1102
+NW_006787556.1  216528   A.G.G...G.....                                                216541
+NW_006797390.1  2559388                      ..C......G.....G.G..............G.TAC.C.  2559349
+
+Query_1         1103     GGAGGCCGAGGTGGGCGGATCAC--AAGGTCAGGAGTTCAAGACCAGCCTGGCCAACATG  1160
+NW_006797390.1  2559348  ......T....CA..A.....G.TTG..CC.........                       2559310
+
+Query_1         1161     GTGAAACACTGTCTCTACTAAAAATACAAAAATTAGCTGGGCATGGTGGTGCATGCCTGT  1220
+NW_006777770.1  73080                                       ..C....G......C...C......  73056
+NW_006797390.1  2559389                                    ...C....GC.....C..G.......  2559364
+NW_006799156.1  399158                                      ..C....GC.....C..GC......  399134
+NW_006788723.1  476511                                          ..T........--........  476493
+NW_006770328.1  125207                               ....AC...C....G......C..GC......  125176
+NW_006799924.1  1175103                                     ..C....G......C..GC......  1175127
+NW_006787688.1  2082432                                    ...C....GC.....C..GC......  2082457
+NW_006785848.1  296191                                     ...C....GC.....C.TG.......  296216
+NW_006771065.1  312113                                      ..C....GC.....C..GC......  312137
+NW_006771065.1  523323                                      ..C....G......C..GC......  523299
+NW_006771065.1  323432                                      ..C....GC.....C..GC......  323456
+NW_006769306.1  1877690                                     ..C....G......C..GC......  1877666
+NW_006779163.1  665044                                      ..C....GC.....C..GC......  665020
+NW_006789313.1  5030359                                  ..T..C....GC........GC......  5030386
+NW_006777895.1  2614578                                     ..C....G......C..GC......  2614602
+NW_006780868.1  112559                                       .....TG......CCTGA......  112582
+NW_006799818.1  385966                                                         ......  385961
+NW_006787408.1  2589512                                    ...C....GC.....C..G.......  2589537
+NW_006795011.1  693162                                                         ......  693167
+NW_006793169.1  780481                                                      .......A.  780489
+
+Query_1         1221     AATCCCAGCTACTCAGGAGGTTGAGGCAGGAGAATTGCTTGAACCAGGGAGTCGGAGGTT  1280
+NW_006777770.1  73055    .G............G.....C...........G..C......G..CA.....          73004
+NW_006797390.1  2559363  ..............G.....C...........G..C......G..CA.....          2559312
+NW_006799156.1  399133   ..............G.....C..............C......G..CA.....          399082
+NW_006788723.1  476492   .G..................C...........G.........G..                 476448
+NW_006770328.1  125175   .G............G.....C...........G..C......G..CA.....          125124
+NW_006799924.1  1175128  .G............G.....C...........G..C......G..CA.....          1175179
+NW_006787688.1  2082458  ..............G.....C...........G..C......G..CA.....          2082509
+NW_006785848.1  296217   .G..................C...........G.C.......G..CA.....          296268
+NW_006771065.1  312138   ..............G.....C...........G..C......G..CA.....          312189
+NW_006771065.1  523298   .G............G.....C...........G..C......G..CA.....          523247
+NW_006771065.1  323457   .G............G.....C...........G..C......G..CA.....          323508
+NW_006769306.1  1877665  .G............G.....C...........G..C......G..CA.....          1877614
+NW_006779163.1  665019   .G...........TG....CC...........G..C......G..CA.....          664968
+NW_006789313.1  5030387  .G..........C.G.....C...........G..C......G..CA.....          5030438
+NW_006777895.1  2614603  .G............GA....C...........G..C......G..CA.....          2614654
+NW_006780868.1  112583   ...G...C............C...........G.........G..CA.....          112634
+NW_006799818.1  385960   .G........C..TG.....C..............G.A....G..CA.....          385909
+NW_006787408.1  2589538  .G..T.........G.....C...........G..CA.G...G..CA.....          2589589
+NW_006795011.1  693168   .G............G.....CC..........G.....G...G..CA....           693218
+NW_006793169.1  780490   .GC.................C.A.........G..G.....GG.....              780537
+
+Query_1         1281     GCAATGAGCCGAGATCGCGCCATTGCACTCTAACCTGGGCAACAGAGTGAGACTCTGTCT  1340
+NW_006779163.1  664805                     ....C.......C.G...........T..C.....C.C....  664764
+
+Query_1         1341     CAAAAAAAAGAAAAGAAAAGGTGGTAGATTAGATCCTCTCTAAGATTTCCTCCAACTCTG  1400
+NW_006787556.1  216533                      .........CC..G..A..C.......C.............  216573
+NW_006779163.1  664763   .........A....A....                                           664745
+
+Query_1         1401     CAATTCTAAAATGTACAACATGGGGAAGGAAGGTGATC-AGTACAACTGTAAACAACTGC  1459
+NW_006787556.1  216574   A.......C...T..G.G.......GT.C.G......TT....A.T...A.......CT.  216633
+
+Query_1         1460     AATCCGGCCCTGAAGTTGAACAAAACAAAACCTAGGGAGA---GGAATGAGTTTGTAGCA  1516
+NW_006787556.1  216634   ....T.......G...................C.....C.AAA...G....A..CC.C..  216693
+
+Query_1         1517     GGTTTCAATGCAGCGATTGTGAACGCATCACACACACACTCCTCACAGGCA---AGGACT  1573
+NW_006787556.1  216694   .C..-..GGCG...AT....A...A..................---.....ACC.....C  216749
+
+Query_1         1574     TCGCTTCTGCCATGTGACTGAGACTCTGTTGGACTTCTCCAAATTCAGAGTTCAGCCTGG  1633
+NW_006787556.1  216750   A.T.......--------------------------............GA........T.  216783
+
+Query_1         1634     CATGCCGGCCAGGAGCCCCTTGGAGAGATTCGGCGTGAGGAAACAGGAGGCCTCACGCTT  1693
+NW_006787556.1  216784   ..G.T.A.....C..TA.....C....G..T..AC..G...........C....T.T.GC  216843
+
+Query_1         1694     CCTTCGGTTCTCCCTAAATCTGCTGGG--CAGGTAGCCAGAAGAAACTCTGAAGGGTACA  1751
+NW_006787556.1  216844   .....AT...C......GC.....T..AA.GT..GC...A....G.TA............  216903
+
+Query_1         1752     GAAAGCCGAGGGCCAGGGGGACCCCGGCTGCGGAGCTGCAGTACCGTGTTTACCCAGCCT  1811
+NW_006787556.1  216904   A...A..A.A..-..CA.......T.....T........T....TAC.G.A......G..  216962
+
+Query_1         1812     AACTGCGGTCACCCAGTCTCCTGCATGTGT-CTGAGGTCAGCCTC-GGGGGCTCCCCTGA  1869
+NW_006787556.1  216963   .-----------GA.............C..C........T.T...A.CA..G..G.T..C  217011
+
+Query_1         1870     GTAGGTATCTACCTGAGGCTCTTCCCCTGATGCTACCTGCATACCAATTCCACCCAGGAA  1929
+NW_006787556.1  217012   ....ACG....................-..CT..G.....CC.....G.T....T.....  217070
+
+Query_1         1930     CCTGGCGTCCTCAGGAGGCTGCACTTCC---CAAGTGGGCTGAGACAGCCCCTTAATATG  1986
+NW_006787556.1  217071   ....AT......G....A...TG.....CAA.........CA...G.......GG....C  217130
+
+Query_1         1987     TGGGGCTGGAGC--------CAGAGACCTCAAGGGGCCACTAGGGGGCTCGAG----ACT  2034
+NW_006787556.1  217131   ..T.........CAGAGCCT.............T....G.C.....T......GCTCT..  217190
+
+Query_1         2035     CTCAGTGGCTGCTGACGCCCTCTTGTGGCCATTTTGGGGATTGGCCAGAA--AAGTTTCA  2092
+NW_006787556.1  217191   ........G.TTC..T.G.............GA............A....AG.....A..  217250
+
+Query_1         2093     GAAGCGAGCCAAGATCGGAATTCTTAAGGAG  2123
+NW_006787556.1  217251   ....A........G.T..........G....  217281
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5052564523093
+
+
+Query= exon_2
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 316856443487
+
+
+Query= exon_3
+
+Length=79
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 120938814350
+
+
+Query= exon_4
+
+Length=97
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164476787516
+
+
+Query= exon_5
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006787556.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  102     2e-20
+
+
+
+Query_5         1       GGCAACCAGTAGCACCATGTCTGTGACTGGCGGGAAGATGGCACCGTCCCTCACCCAGGA  60
+NW_006787556.1  220003  ....T.....CT...............CA..A.........G..TA.....GG.T.....  220062
+
+Query_5         61      GATCCTCAGCCACCTGGGCCTGGCCAGCAAG  91
+NW_006787556.1  220063  .....................T....A....  220093
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 149964129794
+
+
+Query= exon_6
+
+Length=97
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 164476787516
+
+
+Query= exon_7
+
+Length=95
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159639234942
+
+
+Query= expn_8
+
+Length=114
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 203175124068
+
+
+Query= exon_9
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 149964129794
+
+
+Query= exon_10
+
+Length=80
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123357590637
+
+
+Query= exon_11
+
+Length=60
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 77401635104
+
+
+Query= exon_12
+
+Length=85
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135451472072
+
+
+Query= exon_13
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162058011229
+
+
+Query= exon_14
+
+Length=59
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74982834007
+
+
+Query= exon_15
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006787556.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  165     4e-39
+
+
+
+Query_15        1       GAAACTGAGCCCAATTACCAAGTCCTGATTCGCATCCTTATCTCTCGATGTGAGACTGAC  60
+NW_006787556.1  223812  .........A.-.................GT..........T......A..........T  223870
+
+Query_15        61      CTTCTGAGTATCAGAGCTGAGTTCAGGAAGAAATTTGGGAAGTCCCTCTACTCTTCTCTC  120
+NW_006787556.1  223871  .....A......C............AA.............................C...  223930
+
+Query_15        121     CAG  123
+NW_006787556.1  223931  ...  223933
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 224943887361
+
+
+Query= exon_16
+
+Length=375
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006787556.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  347     2e-93
+
+
+
+Query_16        2       ATGCAGTGAAAGGGGATTGCCAGTCAGCCCTCCTGGCCTTGTGCAGGGCTGAAGACATGT  61
+NW_006787556.1  224161  ..............A.C....G.........A..A...C.................C.T.  224220
+
+Query_16        62      GAGACTTCCCTGCCCCACCCCACATGACATCCGAGGATCTGAGATTTCCGTGTTTGGCTG  121
+NW_006787556.1  224221  .....C..AT-------...........C.T.A..AG.........C..A...A......  224273
+
+Query_16        122     AACCTG--GGAGACCAGCTGGGCCTCCAAGTAGGATAACCCCTCACT-GAGCACCACATT  178
+NW_006787556.1  224274  .G....CA.....................A..A..............T...........G  224333
+
+Query_16        179     CTCTAGCTTCTTGTTGAGGCTGGAACT----GTTTCTTTAAAATCCCTTAATTTTCC-CA  233
+NW_006787556.1  224334  T..C..........G...T........CCAA...C..C.T..............C..T..  224393
+
+Query_16        234     TCTCAAAATTATATCTGTACCTGGGTCATCCAGCTCCTTCTTGGGTGTGGGGAAATGAGT  293
+NW_006787556.1  224394  .T.....G.G.......C.........CC.T.....TG........A..C.AT....G.A  224453
+
+Query_16        294     TTTCTTTGATAGTTTCTGCCTCACTCATCCCTCCTGTACCCTGGCCAGAACATCTCACTG  353
+NW_006787556.1  224454  .C.................TCT......T.T.T.C...TT........C...........  224513
+
+Query_16        354     ATACTCGAATTCTTTTGGCAAA  375
+NW_006787556.1  224514  ...T.T................  224535
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 832041973448
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

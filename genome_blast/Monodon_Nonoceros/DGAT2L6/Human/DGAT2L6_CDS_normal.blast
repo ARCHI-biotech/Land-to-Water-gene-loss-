@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|NM_198512.3_cds_NP_940914.1_1 [gene=DGAT2L6]
+[db_xref=CCDS:CCDS14397.1] [protein=diacylglycerol O-acyltransferase
+2-like protein 6] [protein_id=NP_940914.1] [location=101..1114]
+[gbkey=CDS]
+
+Length=1014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000054.1 Monodon monoceros isolate NGI Scaffold_53;HRSCAF=3...  250     1e-63
+
+
+
+Query_1         650       CATACCTTGTCCCTTCATATTCCTTTGGTGAGAACGAAGTTTTCAATCAGGAGACCTTCC  709
+SIHG02000054.1  68789230  ..........T..C..C...........A.....T..G...CA......A.........A  68789171
+
+Query_1         710       CTGAGGGCACGTGGTTAAGGTTGTTCCAAA-AAACCTTCCAGGACACATTCAAAAAAA-T  767
+SIHG02000054.1  68789170  .........T....C....T..C.......T.......G.......G.A.........AC  68789111
+
+Query_1         768       CCTGGGACTAAATTTCTGTACCTTCCATGGCCGGGGCTTCACTCGCGGATCCTGGGGCTT  827
+SIHG02000054.1  68789110  ....A......G...............C.........C.......A..............  68789051
+
+Query_1         828       CCTGCCTTTCAATCGGCCCATTACCACTGTTGTT  861
+SIHG02000054.1  68789050  .T................................  68789017
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2304480352752
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_001306172.2_cds_NP_001293101.1_1 [gene=ADH4]
+[db_xref=CCDS:CCDS77942.1] [protein=all-trans-retinol dehydrogenase
+[NAD(+)] ADH4 isoform 1] [protein_id=NP_001293101.1]
+[location=159..1358] [gbkey=CDS]
+
+Length=1200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457056.1 Hyperoodon ampullatus genome assembly, chromosome: 1       263     2e-67
+
+
+
+Query_1     410       ATCTCAAAAGTCCTGCTAGTGATCAACAACTAATGGAAGACAAAACCAGCAGGTTTACCT  469
+OX457056.1  17075751  ..T......A....ATGG........A..T................T.............  17075810
+
+Query_1     470       GCAAAGGAAAACCAGTTTACCATTTCTTTGGAACCAGTACATTCTCTCAGTACACTGTGG  529
+OX457056.1  17075811  ...G..........A...........A.G...........C...AG............A.  17075870
+
+Query_1     530       TGTCAGATATCAATCTTGCCAAAATAGATGATGATGCAAATTTAGAGAGAGTTTGTCTGC  589
+OX457056.1  17075871  ........G.T..C.........G.T...........C......................  17075930
+
+Query_1     590       TTGGATGTGGGTTTTCAACTGGCTATGGGGCTGCAATCAACAATGCCAAGGT  641
+OX457056.1  17075931  .........CA..G..............T....T.G......T.........  17075982
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3309623462340
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

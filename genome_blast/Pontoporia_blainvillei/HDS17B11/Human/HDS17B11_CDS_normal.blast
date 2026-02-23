@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|NM_016245.5_cds_NP_057329.3_1 [gene=HSD17B11]
+[db_xref=CCDS:CCDS3619.1] [protein=estradiol 17-beta-dehydrogenase
+11 precursor] [protein_id=NP_057329.3] [location=119..1021]
+[gbkey=CDS]
+
+Length=903
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01125745.1 Pontoporia blainvillei isolate BP203 contig127607,...  200     7e-49
+
+
+
+Query_1         1    ATGAAATTTCTTCTGGACATCCTCCTGCTTCTCCCGTTACTGATCGTCTGCTCCCTA-GA  59
+PGGH01125745.1  333  .....G..C.........TG.....A......G..C......C..A...T.A..T..A..  392
+
+Query_1         60   GTCCTTCGTGAAGCTTTTTATTCCTAAGAGGAGAAAATCAGTCACCGGCGAAATCGTGCT  119
+PGGH01125745.1  393  ..GTC..C..........C.....A....A.......G.....G....A........C..  452
+
+Query_1         120  GATTACAGGAGCTGGGCATGGAATTGGGAGACTGACTGCCTATGAATTTGCTAAACTTAA  179
+PGGH01125745.1  453  ......T........A..C.............................G..C........  512
+
+Query_1         180  AAGCAAGCTGGTTCTCTGGGATATAAATAAG  210
+PGGH01125745.1  513  .T...GA.....C..G...............  543
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1743331541058
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

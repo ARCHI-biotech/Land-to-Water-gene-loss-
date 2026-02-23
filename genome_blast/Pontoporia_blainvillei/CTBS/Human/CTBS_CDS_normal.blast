@@ -1,0 +1,49 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|NM_004388.3_cds_NP_004379.1_1 [gene=CTBS]
+[db_xref=CCDS:CCDS698.1] [protein=di-N-acetylchitobiase precursor]
+[protein_id=NP_004379.1] [location=26..1183] [gbkey=CDS]
+
+Length=1158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01047772.1 Pontoporia blainvillei isolate BP203 contig48522, ...  60.2    2e-06
+
+
+
+Query_1         68     CGCTGCTGGCGCTGCTGGCGCTGCTGGCGCTG  99
+PGGH01047772.1  13130  ................................  13099
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2252552094288
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,64 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= lcl|NM_016245.5_cds_NP_057329.3_1 [gene=HSD17B11]
+[db_xref=CCDS:CCDS3619.1] [protein=estradiol 17-beta-dehydrogenase
+11 precursor] [protein_id=NP_057329.3] [location=119..1021]
+[gbkey=CDS]
+
+Length=903
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082661.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  185     3e-44
+
+
+
+Query_1      557        GTTCAAGCAAGTTTGCTGCTGTTGGATTTCATAAAACTTTGACAGATGAACTGGCTGCCT  616
+NC_082661.1  201693363  ...G.......................................T..A.............  201693304
+
+Query_1      617        TACAAATAACTGGAGTCAAAACAACATGTCTGTGTCCTAATTTCGTAAACACTGGCTTCA  676
+NC_082661.1  201693303  ..G...A........................C..C......G..A...............  201693244
+
+Query_1      677        TCAAAAATCCAAGTACAAGTTTGGGACCCACTCTGGAACCTGAGGAAGTGGTAAACAGGC  736
+NC_082661.1  201693243  ...G...C.....A..C..                                           201693225
+
+Query_1      737        TGATGCATGGGATTCTGACTGAGCAGAAGATGATTTTTATTCCATCTTCTATAGCTTTTT  796
+
+Query_1      797        TAACAACATTGGAAAGGATCCTTCCTGAGCGTTTCCTGGCAGTTTTAAAACGAAAAATCA  856
+NC_082661.1  201664491                ................A..........A.............G..TG  201664446
+
+Query_1      857        GTGTTAAGTTTGATGCAGTTATTGGATATAAAATGAAAG  895
+NC_082661.1  201664445  A.....G................................  201664407
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2342598822234
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

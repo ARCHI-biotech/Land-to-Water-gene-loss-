@@ -1,0 +1,140 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  67.9    1e-09
+
+
+
+Query_1      94       ACATCCCTGCAGCGGTTGGCCACCCTGTGAAACTGAGAGTCCTCCATTGCATCTTCCAGC  153
+NC_082662.1  9961278  .............C...........C........TCAG............T.........  9961337
+
+Query_1      154      TG  155
+NC_082662.1  9961338  ..  9961339
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 394458329706
+
+
+Query= exon_2
+
+Length=217
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  63.9    3e-08
+
+
+
+Query_2      1        GGGATGATATTTGAGAAGCTCAGAATCTGTTCTATGCCCCAATTTTTCTGTTTCATGCAA  60
+NC_082662.1  9964011  ....C...T........A..G........................G..C.......      9964066
+
+Query_2      61       GATCTGCCTCCGCTAAAGTATGACCCCGATGTTGTGGTCACGGATTTCCGCTTTGGGACA  120
+
+Query_2      121      ATCCCTGTGAAGCTGTACCAACCCAAGGCATCCACCTGCACCCTGAAGCCTGGCATCGTG  180
+NC_082662.1  9964131  ....................G........G...T.AA.......C.G.T...........  9964190
+
+Query_2      181      T  181
+NC_082662.1  9964191  .  9964191
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 528627829606
+
+
+Query= exon_3
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  67.9    4e-10
+
+
+
+Query_3      11       TGGCATATGCTCTCGTTTGTGCAAGGAGAGTGACTCCGTGGTTCTGGCAGTTGG  64
+NC_082662.1  9965847  ....T......G..A.....................A........A........  9965900
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 120752553240
+
+
+Query= exon_4
+
+Length=775
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  119     2e-24
+
+
+
+Query_4      17       AAGCATAAGTTTCCAGTGCCAGTAAGAGACTGCTTGGTGGCCACCATCCACTTCCTGAAG  76
+NC_082662.1  9967706  .......G......G...A............C.A.......T............T.....  9967765
+
+Query_4      77       TCCCTGGATGCATATGGAGTGGATCCAGCCCGGGTTGTGGTCTGCGGTGACAGTTTCGGA  136
+NC_082662.1  9967766  ...T..A..A.......G.CA.........T....C........T.........G.G..T  9967825
+
+Query_4      137      GGGGCAATAGCCGCAGTGGTTTGTCAACAACTTGTGGACAGGCCAGATCTGCCCCGGATC  196
+NC_082662.1  9967826  ....GTG.G..AA..A.AC.C......A.C...........TT.T.....C...AA....  9967885
+
+Query_4      197      CGGGCTCAGATCCTGATCTATGCCATTCTCCAAGCCCTGGATTT  240
+NC_082662.1  9967886  ..T.................C...GC..................  9967929
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2023276002696
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

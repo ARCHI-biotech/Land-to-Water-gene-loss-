@@ -1,0 +1,53 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|XM_024450368.2_cds_XP_024306136.1_1 [gene=ACSM3]
+[db_xref=GeneID:6296] [protein=acyl-coenzyme A synthetase ACSM3,
+mitochondrial isoform X2] [protein_id=XP_024306136.1]
+[location=3563..5434] [gbkey=CDS]
+
+Length=1872
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457069.1 Hyperoodon ampullatus genome assembly, chromosome: 14      143     4e-31
+
+
+
+Query_1     1784      AGGTAGAATTTATTCAAGAGCTGCCAAAGACTATCAGTGGGAAGACAAAAAGAAATGAAC  1843
+OX457069.1  37713267  ..................................T..........T..............  37713326
+
+Query_1     1844      TGAGGAAGAAAGAATGGAAGACAATTTAA  1872
+OX457069.1  37713327  .................G.A.........  37713355
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5207705268045
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

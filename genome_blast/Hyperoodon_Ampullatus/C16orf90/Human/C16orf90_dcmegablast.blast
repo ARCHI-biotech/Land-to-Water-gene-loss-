@@ -1,0 +1,113 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=46
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50917311288
+
+
+Query= exon_2
+
+Length=354
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457069.1 Hyperoodon ampullatus genome assembly, chromosome: 14      329     6e-88
+
+
+
+Query_2     1         ATGCAGTGAGCCAGGCCCAAGGACGCCCCGGCCACCCTGACGCACCCCCCAACATCTACG  60
+OX457069.1  24517939  ...........TG....GG.....A.A..A.T.........ATG..A.....T.......  24517880
+
+Query_2     61        AGGGGGGCCTGGGGTCCCCGCAGCCGCAGTGCCCCAGTGCCCAGGGAAGCAAGCCCAAGA  120
+OX457069.1  24517879  .......G......GT..A.....A......T............................  24517820
+
+Query_2     121       ACTTCCGGCTGCGCCACCTCCGGGGCCTGGGCCTCTACCTGGAGAGCCACCCGCCACCCA  180
+OX457069.1  24517819  .....T..T...A........A........CT.........CCAG.....AT..AG..TG  24517760
+
+Query_2     181       CTGGCCAGTGTGAGAGCCACTGGCTGGGCCGGCTTATGGCTGGGGGCTGCCTGCCACAGC  240
+OX457069.1  24517759  .C.................T..........A...C.....C...........C.....A.  24517700
+
+Query_2     241       CTGAGGGCACAGCCTGGGCCCTGGACCTGCCACAGGGGACTCTGGGCCCACGTAACAGCC  300
+OX457069.1  24517699  .C..........T....C........T.A......C..G...........G...--..T.  24517642
+
+Query_2     301       TCTGTTCAGCCCTTCTGGAAGCCCGA  326
+OX457069.1  24517641  A..AC.................T...  24517616
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 910853149136
+
+
+Query= exon_3
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457069.1 Hyperoodon ampullatus genome assembly, chromosome: 14      150     4e-34
+
+
+
+Query_3     1         CTTCCAGTTCCAGCATGGACCCAGACAAGGGTGCCCTCCCCCAGCCTAGTCCTTCTA---  57
+OX457069.1  24517203  ........................C...........C.T.......CG....CC..GAAG  24517144
+
+Query_3     58        ------GGCTCAGGCCCAAGAGGTCCTGGGGGACCTGGGAAGAGGCCATGTGTCCCTTGT  111
+OX457069.1  24517143  GCTTGG..........T.....A.........G...CA..G..AT...CA.........A  24517084
+
+Query_3     112       GCAAGAGAACCCGCTCTGGGGCCCTGGAGAGGCCATAG  149
+OX457069.1  24517083  ..........T...........T............C..  24517046
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 336619822238
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

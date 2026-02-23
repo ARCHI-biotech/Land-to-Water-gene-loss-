@@ -1,0 +1,156 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= exon_1
+
+Length=67
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 88994163802
+
+
+Query= exon_2
+
+Length=73
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 103045873876
+
+
+Query= exon_3
+
+Length=1458
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000099.1 Monodon monoceros isolate NGI Scaffold_98;HRSCAF=3...  1506    0.0  
+
+
+
+Query_3         4         CTGAGGATCACGCATCCT---GTGACTCTCCCCTGTCCCCCGCCACCCTCTGAACCACTG  60
+SIHG02000099.1  48200366  .............G...GTCC.A..G.......CAG.......G-...........G.C.  48200424
+
+Query_3         61        GCCACCATGGCTACTTCAAAGTTGCCCGTGGTGCCTGGGGAGGAGGAAAACACCATCCTT  120
+SIHG02000099.1  48200425  .......C.........G........A.C......C...........C...........C  48200484
+
+Query_3         121       ATGGCCAAGGAAAGGCTGGAGGCCCTGCGCACAGCCTTTGAGTCGGGTGACCTCCCCCAG  180
+SIHG02000099.1  48200485  ............GA.......................CCT.......C...A........  48200544
+
+Query_3         181       GCCGCCTCTCACCTCCAGGAGCTGCTGGCCTCCACGGAAAGCATCCGCCTGGAGGTGGGC  240
+SIHG02000099.1  48200545  ...A....CTG.....G....T.....A....TTTC..G....C...G............  48200604
+
+Query_3         241       GTCACGGGCGAGTCGGGCGCGGGCAAGTCCTCCCTCATCAATGCCCTGCGTGGCCTGGAG  300
+SIHG02000099.1  48200605  .....A...........G.A..-......G........T..C.....C..........GC  48200663
+
+Query_3         301       GCCGAGGACCCTGGCGCGGCTCTCACGGGCGTCATGGAGACCACGATGCAACCGTCGCCC  360
+SIHG02000099.1  48200664  ...........C........C...G.T........A........A.....G..C......  48200723
+
+Query_3         361       TATCCACACCCACAGTTCCCTGACGTGACCCTCTGGGACCTGCCAGGAGCCGGCTCTCCA  420
+SIHG02000099.1  48200724  ..C..G.....G.....T..A...........G...........G..G............  48200783
+
+Query_3         421       GGCTGCCCGGCTGACAAGTACCTAAAGCAGGTAGACTTCAGCCGCTATGACTTCTTCCTG  480
+SIHG02000099.1  48200784  ...........C......C....G........G......G..........T.........  48200843
+
+Query_3         481       CTGGTCTCCCCCCGCCGCTGCGGGGCCGTCGAGACCCGCCTGGCCGCTGAGATCCTGTGC  540
+SIHG02000099.1  48200844  .......G...............C.....G...............T.C.........C..  48200903
+
+Query_3         541       CAGGGCAAGAAGTTCTACTTTGTGCGCACCAAGGTGGACGAGGACCTGGCGGCCACGCGC  600
+SIHG02000099.1  48200904  ........AC..........C.......A---------------------------....  48200936
+
+Query_3         601       ACCCAGCGGCCGTCGGGCTTCAGAGAGGCCGCTGTCCTGCAGGAGATCCGAGACCACTGT  660
+SIHG02000099.1  48200937  ........A..C...........C.....G..G.C..........G....C..G.....C  48200996
+
+Query_3         661       GCCGAGCGGCTGCGGGAGGCCGGCGTGGCTGACCCTCGCATCTTCCTGGTGTCCAACCTC  720
+SIHG02000099.1  48200997  .........G....T.G..........AAC.....G...G.......C...-........  48201055
+
+Query_3         721       TCGCCGGCCCGCTACGACTTTCCCACGCTGGTGTCCACCTGGGAGCACGACCTGCCCTCC  780
+SIHG02000099.1  48201056  .....C..G...C.......C..GCT...C......G.............T......G.G  48201115
+
+Query_3         781       CACCGGCGCCACGCTGGCCTGCTGTCGCTCCCCGACATCTCGCTGGAGGCCTTGCAGAAG  840
+SIHG02000099.1  48201116  .C...T.....G..C..............G......G..............C...G....  48201175
+
+Query_3         841       AAGAAGGCCATGCTTCAAGAGCAAGTCCTCAAGACCGCCCTGGTGTTGGGCGTCATCCAG  900
+SIHG02000099.1  48201176  ....C..A...A.CC..G.....G..G........G........................  48201235
+
+Query_3         901       GCCCTGC-CGGTCCCAGGGCTGGCGGCCGCCTACGATGATGCGTTGCTCATCCACTCACT  959
+SIHG02000099.1  48201236  ..T....T...G..---...C...............CA....A......G...G...G..  48201292
+
+Query_3         960       GCGTGGCTACCACCGCAGCTTTGGTCTGGACGACGACTCGCTGGCCAAGCTGGCCGAGCA  1019
+SIHG02000099.1  48201293  ...C.................C..C.................A.A...............  48201352
+
+Query_3         1020      GGTGGGCAAACAGGCAGGTGACCTGCGCTCGGTCATCCGCTCCCCACTGGCCAACGAGGT  1079
+SIHG02000099.1  48201353  ..................C..T....A.....G.....T......G......C.......  48201412
+
+Query_3         1080      CTCGCCTGAGACTGTCCTGCGGCTCTATTCCCAGTCGTCCGACGGCGCCATGCGGGTGGC  1139
+SIHG02000099.1  48201413  ...........................C.................T......A...A...  48201472
+
+Query_3         1140      CCGCGCCTTTGAGAGGGGCATCCCTGTGTTTGGGACGCTGGTGG-CTGGCGGCATCAGCT  1198
+SIHG02000099.1  48201473  TG.G..........A.........CC....C..A..........C.G..G..........  48201532
+
+Query_3         1199      TTGGCGCTGTCTACACCATGCTCCAGGGCTGCCTCAACGAGATGGCTGAGGACGCCCAGC  1258
+SIHG02000099.1  48201533  .CA..A.C................G.....................C.....T.......  48201592
+
+Query_3         1259      GTGTCCGCATCAAGGCCCTGGAGGATGACGAGCCGCAGCCGGAGGTCAGCTTGGAAGTGG  1318
+SIHG02000099.1  48201593  AG...............TC......G..G.GCT.C.....T.........C..C.G.C..  48201652
+
+Query_3         1319      CCAGTGACAATGGCGTGGAAAAGGGGGGCTCCGGGGAGGGAGGTGGGGAGGAAGCCCCAC  1378
+SIHG02000099.1  48201653  .TG.......C............C....A...........GA.C..C....C..A...G.  48201712
+
+Query_3         1379      TCTCAACCTGCAGGAAGCTCGGCCTCCTTCTTAAGTACATTCTGGACAGCTGGAAGAA  1436
+SIHG02000099.1  48201713  ....G......CA...............C..C...........CC.............  48201770
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3337280566875
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

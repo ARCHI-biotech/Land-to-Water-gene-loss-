@@ -1,0 +1,352 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01079266.1 Pontoporia blainvillei isolate BP203 contig80492, ...  69.9    3e-10
+PGGH01486823.1 Pontoporia blainvillei isolate BP203 contig491931,...  50.1    2e-04
+
+
+
+Query_1         43    GGGGATGAGAGGCCCAAGTGGGACAACAAGGCCCAGTACCTCCTGAGCTGCACTGGGTTT  102
+PGGH01079266.1  7195  ....G....C.....G..........G...CT.....G.............GTC......  7254
+PGGH01486823.1  1317            ......................T......                       1345
+
+Query_1         103   GCCGTGGGACTGGGG-AACATTTGGCGGTTCCCATACCTGTGCCAGACCTATGGAGGAG  160
+PGGH01079266.1  7255  ....G...C......C...C.C...A...C..TG....................G....  7313
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 282334400817
+
+
+Query= exon_2
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01239175.1 Pontoporia blainvillei isolate BP203 contig242349,...  69.9    2e-10
+PGGH01079266.1 Pontoporia blainvillei isolate BP203 contig80492, ...  50.1    2e-04
+
+
+
+Query_2         29     GCTGGTCTTCGAGGGGATCCCCATTTTCCACGTCGAGCTCGCCATCGGCCAGCGGCTGCG  88
+PGGH01239175.1  3862   .......C.G............C.GC.G...C.G...T..........G...........  3803
+PGGH01079266.1  12079                           ......A..A..........T.......AC.....  12113
+
+Query_2         89     GAAGGGCAGCGTCGGCGTGTGGACGGCCATCTCCCCGTACCT  130
+PGGH01239175.1  3802   ......G...........C....                     3780
+PGGH01079266.1  12114  C.G.......C....G......CT.........G..C.....  12155
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 244289339714
+
+
+Query= exon_3
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01079266.1 Pontoporia blainvillei isolate BP203 contig80492, ...  67.9    9e-10
+PGGH01239175.1 Pontoporia blainvillei isolate BP203 contig242349,...  63.9    1e-08
+
+
+
+Query_3         39     TACTACAACACCATCGTGGCGTGGGTGCTGTGGTACCTCCTCAACTCCTTCCAGCACCCG  98
+PGGH01079266.1  12911                  ....A....G.......C......C........C...--.....  12952
+PGGH01239175.1  3324   ...............A.C..C.....TA........T..T..............G....C  3265
+
+Query_3         99     CTGCCCTGGAGCTCCTGCCCACCGGACCTCAAC  131
+PGGH01079266.1  12953  ............G..G....G............  12985
+PGGH01239175.1  3264   .....G......                       3253
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 238282224803
+
+
+Query= exon_4
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01079266.1 Pontoporia blainvillei isolate BP203 contig80492, ...  135     6e-30
+
+
+
+Query_4         15     TGCCAGGGCAGCAGCGCCGTGAGCTACTTCTGGTACCGGCAGACACTGAACATCACAGCC  74
+PGGH01079266.1  13542  .......A.........T......CT......................G.......G...  13601
+
+Query_4         75     GACATCAATGACAGTGGCTCCATCCAGTGGTGGCTGCTCATCTGCTTGGCAGCCTCCTGG  134
+PGGH01079266.1  13602  ........C...........TG................GG.T......A.G.........  13661
+
+Query_4         135    GCAGTCGTGTACATGTGTGTCATCAGGGGCATTGAGACTACAGGGAAG  182
+PGGH01079266.1  13662  ..CA.G.C....C....C....C...A....C......C..T......  13709
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 324304261272
+
+
+Query= exon_5
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 184218190604
+
+
+Query= exon_6
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01341940.1 Pontoporia blainvillei isolate BP203 contig346047,...  119     2e-25
+
+
+
+Query_6         18    CCCCCGGGTGTGGCTGGACGCAGCCACCCAGATATTCTTCTCTCTGTCCCTGGCCTTCGG  77
+PGGH01341940.1  2416  ..............A...T....................T......AA.........T..  2475
+
+Query_6         78    AGGACACATCGCTTTTGCAAGTTACAAC  105
+PGGH01341940.1  2476  ..........A.................  2503
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 188222933878
+
+
+Query= exon_7
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01231050.1 Pontoporia blainvillei isolate BP203 contig234143,...  65.9    3e-09
+
+
+
+Query_7         32   GCCCTGGTCAACAGGATGACCTCCCTGTACGCGTCCATCGCTGTCTTCTCTGTCCTGGGG  91
+PGGH01231050.1  192  ............G.C...........C.GT...C....TA....................  251
+
+Query_7         92   TTCAA  96
+PGGH01231050.1  252  .....  256
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 220260880070
+
+
+Query= exon_8
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01231050.1 Pontoporia blainvillei isolate BP203 contig234143,...  50.1    2e-04
+
+
+
+Query_8         1     AAACATCCTCAGCCTCATCAACGACTTTGACTTCCCAGAGCAGAGCATCTCCAGGGACGA  60
+PGGH01231050.1  1707  ..........T.....G......C...C..TC..T.C..C.................G..  1766
+
+Query_8         61    CTACCCAGCCGTCCTCATGCACCTGAACGCCACCTGGCCCAAGAGGGTGGCCCAGCTCCC  120
+PGGH01231050.1  1767  ....G.G..T.C....GC......TG..T.....CA....G..C......-.AG......  1825
+
+Query_8         121   CCTGAAGGCCTGCCTCCTGGAAGACTTTCTGGATAAG  157
+PGGH01231050.1  1826  ....G..T.....TG......G.....C.........  1862
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 276327285906
+
+
+Query= exon_9
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01231050.1 Pontoporia blainvillei isolate BP203 contig234143,...  87.7    1e-15
+
+
+
+Query_9         16    GGCCTGGCCTTCGTCGTCTTCACGGAGACCGACCTCCACATGCCGGGGGCTCCTGTGTGG  75
+PGGH01231050.1  2420  ..........C.A..............G..AT.......G..........C.....C...  2479
+
+Query_9         76    GCCATGCTCTTCTTCGGGATGCTGTTCACCTTGGGGCTATCGACCATGTTCGGGACCGTG  135
+PGGH01231050.1  2480  .T.G..........A.............                                  2507
+
+Query_9         136   GAGGCGGTCATCACACCCCTGCTGGACGTGGGGGTCCTGCCTAGATGGGTCCCCAAGGAG  195
+PGGH01231050.1  2589                                               ...............  2603
+
+Query_9         196   GCCCTGACTG  205
+PGGH01231050.1  2604  ..........  2613
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 370347458860
+
+
+Query= exon_10
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01231050.1 Pontoporia blainvillei isolate BP203 contig234143,...  58.0    1e-06
+
+
+
+Query_10        1     GGCTGGTCTGCCTGGTCTGCTTCCTCTCCGCCACCTGCTTCACGCTGCAGTCTGGGAACT  60
+PGGH01231050.1  2907  ......C.....C.C.............G...T...............G.G.A..A...C  2966
+
+Query_10        61    ACTGGCTGGAGAT  73
+PGGH01231050.1  2967  .......C.....  2979
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 282334400817
+
+
+Query= exon_11
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01231050.1 Pontoporia blainvillei isolate BP203 contig234143,...  67.9    1e-09
+
+
+
+Query_11        1     GTTCTGCGATGACATTGCGTGGATGACCGGGAGGCGGCCCAGCCCCTACTGGCGGCTGAC  60
+PGGH01231050.1  4148  ......T..C.....A...............C........G...T........A.G....  4207
+
+Query_11        61    CTGGAGGGTGGTCAGTCCCCTGCTGC  86
+PGGH01231050.1  4208  .....A..CT.....CA.........  4233
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 282334400817
+
+
+Query= exon_12
+
+Length=231
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 422396290916
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

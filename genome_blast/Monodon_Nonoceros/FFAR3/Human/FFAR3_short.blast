@@ -1,0 +1,115 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= exon_1
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000099.1 Monodon monoceros isolate NGI Scaffold_98;HRSCAF=3...  85.7    6e-15
+
+
+
+Query_1         50        TGTGCCACTGCTCAACAGTGAGTGACGTCATGGGCACGGCCAGGTCTTTATCAGTTCTGC  109
+SIHG02000099.1  43014351  .......T......G...........A..........T.......T..............  43014410
+
+Query_1         110       CGGATAA  116
+SIHG02000099.1  43014411  .A.....  43014417
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 398131939960
+
+
+Query= exon_2
+
+Length=1052
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000099.1 Monodon monoceros isolate NGI Scaffold_98;HRSCAF=3...  250     1e-63
+
+
+
+Query_2         92        GGGGCTCCCCCTCAACCTGCTGGCCCTGGTGGTCTTCGTGGGCAAGCTGCAGCGCCGCCC  151
+SIHG02000099.1  43014849  ......T.....G..G...GA..........A..C......A...........C.T.T..  43014908
+
+Query_2         152       GGTGGCCGTGGACGTGCTCCTGCTCAACCTGACCGCCTCGGACCTGCTCCT-GCTGCTGT  210
+SIHG02000099.1  43014909  ..C.......C........T....G.........CTA....C..C..A..CC.G....C.  43014968
+
+Query_2         211       TCCTGCCTTTCCGCATGGTGGAGGCAGCCAATGGCATGCACTGGCCCCTGCCCTTCATCC  270
+SIHG02000099.1  43014969  .......A....A.G.....A.......G.GC....C..G...................T  43015028
+
+Query_2         271       TCTGCCCACTCTCTGGATTCATCTTCTTCACCACCATCTATCTCACCGCCCTCTTCCTGG  330
+SIHG02000099.1  43015029  .......CT....CA.....C.......................C.GT............  43015088
+
+Query_2         331       CAGCTGTGAGCATTGAACGCTTCCTGAGTGTGGCCCACCCACTGTGGTACAAGACCCGGC  390
+SIHG02000099.1  43015089  ...........GA...G......T....C......T.....G.T......C.........  43015148
+
+Query_2         391       CGAGGCTGGGGCAGGCAGGTCTGGTGAGTGTGGCCTGCTGGCTGTTGGCCTCTGCTCACT  450
+SIHG02000099.1  43015149  .A....C...A.....T..C.....C..C.G............CC.....A.C.......  43015208
+
+Query_2         451       GCAGCGTGGTCTACGTCATAGAATTCTCAGGGGACATCTCCCACAGCCAGGGCACCAATG  510
+SIHG02000099.1  43015209  ....T........T....CT........G...CG.TC.....C..C......T.T...C.  43015268
+
+Query_2         511       GGACCTGCTACCTGGAGTTCCGGAAGGACCAGCTAGCCATCCTCCTGCCCGTGCGGCTGG  570
+SIHG02000099.1  43015269  ................A...T.......T.....                            43015302
+SIHG02000099.1  43015351        ..........AA..........T...A.G...T.T..T.....T..C.A.....  43015404
+
+Query_2         571       AGATGGCTGTGGTCCTCTTTGTGGTCCCGCTGATCATCACCAGCTACTGCTACAGCCGCC  630
+SIHG02000099.1  43015405  .........C......T....G...G..C...C...................T.......  43015464
+
+Query_2         631       TGGTGTGGATCCTCGGCAGAGGGGGCAGCCACCGCCGGCAGAGGAGGGTGGCGGGGCTGT  690
+SIHG02000099.1  43015465  C......C..A.....T.AG..A.C......G....A..G..A.T......-T.....CG  43015523
+
+Query_2         691       TGGCGGCCACGCTGCTCAACTTCCTTGTCTGCTTTGGGCCCTACAACGTGTCCCATGTCG  750
+SIHG02000099.1  43015524  CA..A....T............T..C...............................CT.  43015583
+
+Query_2         751       TGGGCTATATCTGCGGTGAAAGCCCGGCGTGGAGGATCTACGTGACGCTTCTCAGCACCC  810
+SIHG02000099.1  43015584  .......C...CAG............AA......A.GT.C....CT..CC....A.....  43015643
+
+Query_2         811       TGAACTCCTGTGTCGACCCCTTTGTCTACTACTTCTCCTCCTCCGGGTTCCAAGCCGACT  870
+SIHG02000099.1  43015644  .................A..C..---.....T.....A..A..T...........T....  43015700
+
+Query_2         871       TTCATGAGCTGCTGAGGAGG  890
+SIHG02000099.1  43015701  .C..G.G.......G.....  43015720
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2414553014097
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

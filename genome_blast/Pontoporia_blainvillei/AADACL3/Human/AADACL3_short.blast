@@ -1,0 +1,145 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=167
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 296351002276
+
+
+Query= exon_2
+
+Length=217
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 394369996732
+
+
+Query= exon_3
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01071161.1 Pontoporia blainvillei isolate BP203 contig72265, ...  63.9    5e-09
+
+
+
+Query_3         1     AAACCCACCATGGCATATGCTCTCGTTTGTGCAAGGAGAGTGACTCCGTGGTTCTGGCAG  60
+PGGH01071161.1  6658  ....T.........T..C...G..A.....................A..T.....A....  6717
+
+Query_3         61    TTGG  64
+PGGH01071161.1  6718  ....  6721
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 90106723665
+
+
+Query= exon_4
+
+Length=775
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01071161.1 Pontoporia blainvillei isolate BP203 contig72265, ...  147     7e-33
+
+
+
+Query_4         17    AAGCATAAGTTTCCAGTGCCAGTAAGAGACTGCTTGGTGGCCACCATCCACTTCCTGAAG  76
+PGGH01071161.1  8537  .......G..........AT...........C.A.......T............T.....  8596
+
+Query_4         77    TCCCTGGATGCATATGGAGTGGATCCAGCCCGGGTTGTGGTCTGCGGTGACAGTTTCGGA  136
+PGGH01071161.1  8597  ...T..A..A.......G.CA.........T....C........T.........GCG..T  8656
+
+Query_4         137   GGGGCAATAGCCGCAGTGGTTTGTCAACAACTTGTGGACAGGCCAGATCTGCCCCGGATC  196
+PGGH01071161.1  8657  .A..GCG.G..AA..A.A.........A.C...........TT.T.....C...AA....  8716
+
+Query_4         197   CGGGCTCAGATCCTGATCTATGCCATTCTCCAAGCCCTGGATTTACAAACCCCTTCGTTT  256
+PGGH01071161.1  8717  ..T.....................GC..................                  8760
+
+Query_4         257   CAACAGAGGAAAAACATCCCACTGCTCACCTGGAGTTTCATCTGCTACTTTTTTTTTCAA  316
+
+Query_4         317   AACCTGGATTTCAGCTCCTCCTGGCAAGAGGTCATCATGAAAGGTGCCCATTTGCCTGCT  376
+PGGH01071161.1  8882                                               ..............C  8896
+
+Query_4         377   GAAGTCTGGGAAAAGTACAGAAAGTGGTTGGGCCCAGAAAACATCCCTGAGAGGTTTAAG  436
+PGGH01071161.1  8897  A................T..............TT..........T..A....A.......  8956
+
+Query_4         437   GAGAGGGGTTACCAACTGAAGCCCCATGAGCCCATGAATGAAGCTGCTTACTTGGAAGTA  496
+PGGH01071161.1  8957  A....A..C...------.T......G......C........A....C..TC....GAC.  9010
+
+Query_4         497   AGTGTTGTCCTGGATGTGATGTGCTCGCCCCTGATTGCAGAAGATGACATAGTGTCTCAG  556
+PGGH01071161.1  9011  .ACA.CA.T.GA...T...C.AA...A......G.......T....TAG...........  9070
+
+Query_4         557   CTCCCGGAAACCTGCATCGTGAGCTGTGAGTATGATGCTCTCCGGGACAATTCACTGTTG  616
+PGGH01071161.1  9071  .....CA..G.T......................G.AT.....A....C....G......  9130
+
+Query_4         617   TACAAGAAAAGGCTGGAAGACCTGGGAGTGCCCGTGACCTGGCACCATATGGAGGATGGT  676
+PGGH01071161.1  9131  ........G........G...........C..A.....T........C............  9190
+
+Query_4         677   TT  678
+PGGH01071161.1  9191  ..  9192
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 1509044044950
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

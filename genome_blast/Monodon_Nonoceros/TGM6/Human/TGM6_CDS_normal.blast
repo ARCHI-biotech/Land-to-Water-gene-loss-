@@ -1,0 +1,100 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|NM_198994.3_cds_NP_945345.2_1 [gene=TGM6]
+[db_xref=CCDS:CCDS13025.1] [protein=protein-glutamine
+gamma-glutamyltransferase 6 isoform 1] [protein_id=NP_945345.2]
+[location=69..2189] [gbkey=CDS]
+
+Length=2121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000008.1 Monodon monoceros isolate NGI Scaffold_7;HRSCAF=24...  211     1e-51
+
+
+
+Query_1         538       GGG-CAGTTTGAGGAGGACATCCTGAACATCTGCCTCTCCATCCTGGATCGAAGCCCCGG  596
+SIHG02000008.1  58019846  ...A..............................T...G.........C........TA.  58019787
+
+Query_1         597       TCACCAAAACAACCCAGCCACCGAC---GTGTCCTGCCGCCACAACCCCATCTACGTCAC  653
+SIHG02000008.1  58019786  .......G.TG...........AC.AAA.C....CA....T..G........C.......  58019727
+
+Query_1         654       CAGGGTCATCAGTGCCATGGTGAACAGCAACAACGACCGAGGTGTGGTGCAAGGACAGTG  713
+SIHG02000008.1  58019726  TG.A.C......C........                                         58019706
+
+Query_1         714       GCAGGGCAAGTACGGCGGCGGCACCAGCCCGCTGCACTGGCGCGGCAGCGTGGCCATTCT  773
+
+Query_1         774       GCAGAAGTGGCTCAAGGGCAGGTACAAGCCAGTCAAGTACGGCCAGTGCTGGGTCTTCGC  833
+
+Query_1         834       CGGAGTCCTGTGCACAGTCCTCAGGTGCTTGGGGATAGCCACACGGGTCGTGTCCAACTT  893
+
+Query_1         894       CAACTCAGCCCACGACACAGACCAGAACCTGAGTGTGGACAAATACGTGGACTCCTTCGG  953
+
+Query_1         954       GCGGACCCTGGAGGACCTGACAGAAGACAGCATGTGGAATTTCCATGTCTGGAATGAGAG  1013
+SIHG02000008.1  58013722                                     .........................  58013698
+
+Query_1         1014      CTGGTTTGCCCGGCAGGACCTAGGCCCCTCTTACAATGGCTGGCAGGTTCTGGATGCCAC  1073
+SIHG02000008.1  58013697  ........T............G......G..........T....................  58013638
+
+Query_1         1074      CCCCCAGGAGGAGAGTGAAGGTGTGTTCCGGTGCGGCCCAGCCTCAGTCACCGCCATCCG  1133
+SIHG02000008.1  58013637  ....AG.............A..                                        58013616
+
+Query_1         1134      CGAGGGTGATGTGCACCTGGCTCACGATGGCCCCTTCGTGTTTGCGGAGGTCAACGCCGA  1193
+
+Query_1         1194      CTACATCACCTGGCTGTGGCACGAGGATGAGAGCCGGGAGCGTGTATACTCAAACACGAA  1253
+
+Query_1         1254      GAAGATTGGGAGATGCATCAGCACCAAGGCGGTGGGCAGTGACTCCCGCGTGGACATCAC  1313
+
+Query_1         1314      TGACCTCTACAAGTATCCGGAAGGGTCCCGGAAAGAGAGGCAGGTGTACAGCAAGGCGGT  1373
+
+Query_1         1374      GAACAGGCTGTTCGGCGTGGAAGCCTCTGGAAGGAGAATCTGGATCCGCAGGGCTGGGGG  1433
+
+Query_1         1434      TCGCTGTCTCTGGCGTGACGACCTCCTGGAGCCTGCCACCAAGCCCAGCATCGCTGGCAA  1493
+
+Query_1         1494      GTTCAAGGTGCTAGAGCCTCCCATGCTGGGCCACGACCTGAGACTGGCCCTGTGCTTGGC  1553
+
+Query_1         1554      CAACCTCACCTCCCGGGCCCAGCGGGTGAGGGTCAACCTGAGCGGTGCCACCATCCTCTA  1613
+
+Query_1         1614      TACCCGCAAGCCAGTGGCAGAGATCCTGCATGAATCCCACGCCGTGAGGCTGGGGCCGCA  1673
+
+Query_1         1674      AGAAGAGAAGAGAATCCCAATTACAATATCTTACTCTAAGTATAAAGAAGACCTGACAGA  1733
+SIHG02000008.1  57986362     ......A.AG.........G..............C.A.....G..............  57986306
+
+Query_1         1734      GGACAAGAAGATCCTGTTGGCTGCCATGTGCCTTGTCACCAAAGGAGAGAAGCTTCTGGT  1793
+SIHG02000008.1  57986305  ...............T.........G...A........................C.....  57986246
+
+Query_1         1794      GGAGAAGGACATTACTCTAGAGGACTTCATCACCATCAAGGT  1835
+SIHG02000008.1  57986245  ..........G.......G..............T..T.....  57986204
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4894678586930
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

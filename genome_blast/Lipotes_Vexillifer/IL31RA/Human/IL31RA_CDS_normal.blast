@@ -1,0 +1,56 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|NM_001242638.2_cds_NP_001229567.1_1 [gene=IL31RA]
+[db_xref=CCDS:CCDS56366.1] [protein=interleukin-31 receptor subunit
+alpha isoform 4 precursor] [protein_id=NP_001229567.1]
+[location=636..2624] [gbkey=CDS]
+
+Length=1989
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006797357.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  167     2e-38
+
+
+
+Query_1         1448    AGACAGTCAATTCCAGCATCTTGCAGTACGGCCTGGAGTCCCTGAAACGAAAGACCTCTT  1507
+NW_006797357.1  351672  ......C...C.........C.......TA...............C.T............  351613
+
+Query_1         1508    ACATTGTTCAGGTCATGGCCAGCACCAGTGCTGGGGG-AACCAACGGGACCAGCATAAAT  1566
+NW_006797357.1  351612  ...C.................................G...T.GT..C.....G.....C  351553
+
+Query_1         1567    TTCAAGACATTGTCATTCAGTG  1588
+NW_006797357.1  351552  ...............A.T....  351531
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4735866813986
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

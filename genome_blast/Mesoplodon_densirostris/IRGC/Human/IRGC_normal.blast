@@ -1,0 +1,157 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=67
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 110018971714
+
+
+Query= exon_2
+
+Length=73
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 123435916080
+
+
+Query= exon_3
+
+Length=1458
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082679.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  1397    0.0  
+
+
+
+Query_3      2         CGCTGAGGATCACGCATCCTGT--GA--CTCTCCCCTGTCCCCCGCCACCCTCTGAACCA  57
+NC_082679.1  11440537  ..............TG...-..CC..GG........CAG......-.G...........G  11440480
+
+Query_3      58        CTGGCCACCATGGCTACTTCAAAGTTGCCCGTGGTGCCTGGGGAGGAGGAAAACACCATC  117
+NC_082679.1  11440479  .C..T...............G........A.A......C...........G.........  11440420
+
+Query_3      118       CTTATGGCCAAGGAAAGGCTGGAGGCCCTGCGCACAGCCTTTGAGTCGGGTGACCTCCCC  177
+NC_082679.1  11440419  ..C.C..........G...................C.....C........C...A.....  11440360
+
+Query_3      178       CAGGCCGCCTCTCACCTCCAGGAGCTGCTGGCCTCCACGGAAAGCATCCGCCTGGAGGTG  237
+NC_082679.1  11440359  ...........CTG.....G....-.--.-.------.----.-.--...G.........  11440317
+
+Query_3      238       GGCGTCACGGGCGAGTCGGGCGCGGGCAAGTCCTCCCTCATCAATGCCCTGCGTGGCCTG  297
+NC_082679.1  11440316  ........A........C..G.-A........G........T..C.....C..C......  11440258
+
+Query_3      298       GAGGCCGAGGACCCTGGCGCGGCTCTCACGGGCGTCATGGAGACCACGATGCAACCGTCG  357
+NC_082679.1  11440257  .GC...........C........C.....T......G.A..........G...G..C...  11440198
+
+Query_3      358       CCCTATCCACACCCACAGTTCCCTGACGTGACCCTCTGGGACCTGCCAGGAGCCGGCTCT  417
+NC_082679.1  11440197  .....------.G.-G....T..A...........GC............AG.........  11440145
+
+Query_3      418       CCAGGCTGCCCGGCTGACAAGTACCTAAAGCAGGTAGACTTCAGCCGCTATGACTTCTTC  477
+NC_082679.1  11440144  ..........................G........G.....TG..........TG.....  11440085
+
+Query_3      478       CTGCTGGTCTCCCCCCGCCGCTGCGGGGCCGTCGAGACCCGCCTGGCCGCTGAGATCCTG  537
+NC_082679.1  11440084  ..........................C.....G...............T.C.........  11440025
+
+Query_3      538       TGCCAGGGCAAGAAGTTCTACTTTGTGCGCACCAAGGTGGACGAGGACCTGGCGGCCACG  597
+NC_082679.1  11440024  C..........AC..........C...T..........A.....................  11439965
+
+Query_3      598       CGCACCCAGCGGCCGTCGGGCTTCAGAGAGGCCGCTGTCCTGCAGGAGATCCGAGACCAC  657
+NC_082679.1  11439964  ...........A..C...........C.....G..G.C..........C....C..G...  11439905
+
+Query_3      658       TGTGCCGAGCGGCTGCGGGAGGCCGGCGTGGCTGACCCTCGCATCTTCCTGGTGTCCAAC  717
+NC_082679.1  11439904  C.C..............T.G.......A..A.-.....G.A.G.......C.........  11439846
+
+Query_3      718       CTCTCGCCGGCCCGCTACGACTTTCCCACGCTGGTGTCCACCTGGGAGCACGACCTGCCC  777
+NC_082679.1  11439845  ........C..G...........-..GCT...C.........C..........T......  11439787
+
+Query_3      778       TCCCACCGGCGCCACGCTGGCCTGCTGTCGCTCCCCGACATCTCGCTGGAGGCCTTGCAG  837
+NC_082679.1  11439786  G.G.G...T..G..G..C..............G.....................C...G.  11439727
+
+Query_3      838       AAGAAGAAGGCCATGCTTCAAGAGCAAGTCCTCAAGACCGCCCTGGTGTTGGGCGTCATC  897
+NC_082679.1  11439726  ......G...A......C..G.....G..G........G.....C...............  11439667
+
+Query_3      898       CAGGCCCTGCC-GGTCCCAGGGCTGGCGGCCGCCTACGATGATGCGTTGCTCATCCACTC  956
+NC_082679.1  11439666  .....T.....C..G...-..C.-...............C......C.....C...G...  11439609
+
+Query_3      957       ACTGCGTGGCTACCACCGCAGCTTTGGTCTGGACGACGACTCGCTGGCCAAGCTGGCCGA  1016
+NC_082679.1  11439608  G.G...C.................C..C...............G.A.......C......  11439549
+
+Query_3      1017      GCAGGTGGGCAAACAGGCAGGTGACCTGCGCTCGGTCATCCGCTCCCCACTGGCCAACGA  1076
+NC_082679.1  11439548  ..G..................C...................T......G.C.........  11439489
+
+Query_3      1077      GGTCTCGCCTGAGACTGTCCTGCGGCTCTATTCCCAGTCGTCCGACGGCGCCATGCGGGT  1136
+NC_082679.1  11439488  .........C..........C.........C.................T...........  11439429
+
+Query_3      1137      GGCCCGCGCCTTTGAGAGGGGCATCCCTGTGTTTGGGACGCTGGTGGCTGGCGG-CATCA  1195
+NC_082679.1  11439428  ......G..........A.........CC....C..A.......C...C..G..G.....  11439369
+
+Query_3      1196      GCTTTGGCGCTGTCTACACCATGCTCCAGGGCTGCCTCAACGAGATGGCTGAGGACGCCC  1255
+NC_082679.1  11439368  ....CA..A.C......G...C...........................C.....T....  11439309
+
+Query_3      1256      AGCGTGTCCGCATCAAGGCCCTGGAGGATGACGAGCCGCAGCCGGAGGTCAGCTTGGAAG  1315
+NC_082679.1  11439308  ...AG...............T.......G..G.G.T.C.....T.........C..C.G.  11439249
+
+Query_3      1316      TGGCCAGTGACAATGGCGTGGAAAAGGGGGGCTCCGGGGAGGGAGGTGGGGAGGAAGCCC  1375
+NC_082679.1  11439248  ....TG.......C............C...CA...........GA....C.......A..  11439189
+
+Query_3      1376      CACTCTCAACCTGCAGGAAGCTCGGCCTCCTTCTTAAGTACATTCTGGACAGCTGGAAGA  1435
+NC_082679.1  11439188  .G.....G......CA...............C..C......G....C.............  11439129
+
+Query_3      1436      A  1436
+NC_082679.1  11439128  .  11439128
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3829196365568
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,56 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|NM_001128926.4_cds_NP_001122398.1_1 [gene=GARIN1A]
+[db_xref=CCDS:CCDS47702.1] [protein=Golgi-associated RAB2 interactor
+protein 1A isoform b] [protein_id=NP_001122398.1]
+[location=107..1009] [gbkey=CDS]
+
+Length=903
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000009.1 Monodon monoceros isolate NGI Scaffold_8;HRSCAF=30...  226     1e-56
+
+
+
+Query_1         1         ATGAGTAAAATCAGGGGCCTCCCACCTGAGGTCAGGGAACCAGGCCCTGGAGTGGAACTT  60
+SIHG02000009.1  82119605  ...........T...A..................T.........................  82119664
+
+Query_1         61        GGGGTGGAAAATGGCCTTCTTTGTCAACTGATTCATTCTCCAGAATTCAATTTGTTCTCC  120
+SIHG02000009.1  82119665  .........G.C.....C..C.....G.......................C........T  82119724
+
+Query_1         121       AACTCGGTGGTGTTTGAAAGCAACTTTATCCAGGT  155
+SIHG02000009.1  82119725  G..................................  82119759
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2044523727594
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

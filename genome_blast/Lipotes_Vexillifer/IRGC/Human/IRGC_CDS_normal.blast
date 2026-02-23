@@ -1,0 +1,116 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|XM_011527118.4_cds_XP_011525420.1_1 [gene=IRGC]
+[db_xref=GeneID:56269] [protein=interferon-inducible GTPase 5
+isoform X2] [protein_id=XP_011525420.1] [location=207..1598]
+[gbkey=CDS]
+
+Length=1392
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006786304.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  1192    0.0  
+
+
+
+Query_1         1        ATGGCTACTTCAAAGTTGCCCGTGGTGCCTGGGGAGGAGGAAAACACCATCCTTATGGCC  60
+NW_006786304.1  2816969  .....C.....G........A.C......C.......G...G...........C......  2816910
+
+Query_1         61       AAGGAAAGGCTGGAGGCCCTGCGCACAGCCTTTGAGTCGGGTGACCTCCCCCAGGCCGCC  120
+NW_006786304.1  2816909  ......GA..........A.......C.....C........C...A..............  2816850
+
+Query_1         121      TCTCACCTCCAGGAGCTGCTGGCCTCCACGGAAAGCATCCGCCTGGAGGTGGGCGTCACG  180
+NW_006786304.1  2816849  ..CTG.....G....T..........TT.C..G....C...G...............G.A  2816790
+
+Query_1         181      GGCGAGTCGGGCGCGGGCAAGTCCTCCCTCATCAATGCCCTGCGTGGCCTGGAGGCCGAG  240
+NW_006786304.1  2816789  ........T..G.-A........GA.......T..C.....C..C.......GC..T...  2816731
+
+Query_1         241      GACCCTGGCGCGGCTCTCACGGGCGTCATGGAGACCACGATGCAACCGTCGCCCTATCCA  300
+NW_006786304.1  2816730  .....C........C.....T........A......G.A.....G..C........C..G  2816671
+
+Query_1         301      CACCCACAGTTCCCTGACGTGACCCTCTGGGACCTGCCAGGAGCCGGCTCTCCAGGCTGC  360
+NW_006786304.1  2816670  .....G.....T..A......G....G...........G..G......C...........  2816611
+
+Query_1         361      CCGGCTGACAAGTACCTAAAGCAGGTAGACTTCAGCCGCTATGACTTCTTCCTGCTGGTC  420
+NW_006786304.1  2816610  .....C...........G....C...G......G....T.....T..........G....  2816551
+
+Query_1         421      TCCCCCCGCCGCTGCGGGGCCGTCGAGACCCGCCTGGCCGCTGAGATCCTGTGCCAGGGC  480
+NW_006786304.1  2816550  .................C.....G.....--.-.--.-.-...-.--..--.-..---.-  2816508
+
+Query_1         481      AAGAAGTTCTACTTTGTGCGCACCAAGGTGGACGAGGACCTGGCGGCCACGCGCACCCAG  540
+NW_006786304.1  2816507  -..-.--..--.----.............A..............................  2816458
+
+Query_1         541      CGGCCGTCGGGCTTCAGAGAGGCCGCTGTCCTGCAGGAGATCCGAGACCACTGTGCCGAG  600
+NW_006786304.1  2816457  ..A..C......A....C..C..G..G.C.....G....G....C..G.....C......  2816398
+
+Query_1         601      CGGCTGCGGGAGGCCGGCGTGGCTGACCCTCGCATCTTCCTGGTGTCCAACCTCTCGCCG  660
+NW_006786304.1  2816397  ........T.G..........AAC.....G...G.......C..........C......C  2816338
+
+Query_1         661      GCCCGCTACGACTTTCCCAC-GCTGGTGTCCACCTGGGAGCACGACCTGCCCTCCCACCG  719
+NW_006786304.1  2816337  ..G...C.......-...G.T...C......G.............T......G.G.C...  2816279
+
+Query_1         720      GCGCCACGCTGGCCTGCTGTCGCTCCCCGACATCTCGCTGGAGGCCTTGCAGAAGAAGAA  779
+NW_006786304.1  2816278  T.....G..C..............G..T..................C...G...TT...C  2816219
+
+Query_1         780      GGCCATGCTTCAAGAGCAAGTCCTCAAGACCGCCCTGGTGTTGGGCGTCATCCAGGCCCT  839
+NW_006786304.1  2816218  ..A..C...C..G.....G..G........G..........................T..  2816159
+
+Query_1         840      GCC-GGTCCCAGGGCTGGCGGCCGCCTACGATGATGCGTTGCTCATC---CA-CTCACTG  894
+NW_006786304.1  2816158  ...C..G...--............G......CA..A..C.....G..TGT.CG...G...  2816101
+
+Query_1         895      CGTGGCTACCACCGCAGCTT-T--GGTCTGGACGACGACTCGCTGGCCAAGCTGGCCGAG  951
+NW_006786304.1  2816100  ..C........T........C.TC..C.............T...A...............  2816041
+
+Query_1         952      CAGGTGGGCAAACAGGCAGGTGACCTGCGCTCGGTCATCCGCTCCCCACTGGCCAACGAG  1011
+NW_006786304.1  2816040  ..C.................C...................T...T.TG............  2815981
+
+Query_1         1012     GTCTCGCCTGAGACTGTCCTGCGGCTCTATTCCCAGTCGTCCGACGGCGCCATGCGGGTG  1071
+NW_006786304.1  2815980  .A...T..C....................C.................T......A.....  2815921
+
+Query_1         1072     GCCCGCGCCTTTGAGAGGGGCATCCCTGTGTTTGGGACGCTGGTGGCTGGCGG-CATCAG  1130
+NW_006786304.1  2815920  ..TG.-..........A.........CC....C..A..............G..G......  2815862
+
+Query_1         1131     CTTTGGCGCTGTCTACACCATGCTCCAGGGCTGCCTCAACGAGATGGCTGAGGACGCCCA  1190
+NW_006786304.1  2815861  ...C...A.C................G.....................C..A..T.....  2815802
+
+Query_1         1191     GCGTGTCCGCATCAAGGCCCTGGAGGATGACGAGCCGCAGCCGGAGGTCAGCTTGGAAGT  1250
+NW_006786304.1  2815801  ..AG...T...........T.......G..G.G.T.C.....T.........C..C.G.C  2815742
+
+Query_1         1251     GGCCAGTGACAATGGCGTGGAAAAGGGGGGCTCCGGGGAGGGAGGTGGGGAGGAAGCCCC  1310
+NW_006786304.1  2815741  A..TG.......C...A........C....A...........GA.C..C.......A.T.  2815682
+
+Query_1         1311     ACTCTCAACCTGCAGGAAGCTCGGCCTCCTTCTTAAGTACATTCTGGACAGCTGGAAGAA  1370
+NW_006786304.1  2815681  G....GG......CA......T...........C........G..C..............  2815622
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3294339511674
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

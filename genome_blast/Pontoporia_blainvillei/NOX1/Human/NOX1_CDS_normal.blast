@@ -1,0 +1,111 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|NM_007052.5_cds_NP_008983.2_1 [gene=NOX1]
+[db_xref=CCDS:CCDS14474.1] [protein=NADPH oxidase 1 isoform 1]
+[protein_id=NP_008983.2] [location=221..1915] [gbkey=CDS]
+
+Length=1695
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01407504.1 Pontoporia blainvillei isolate BP203 contig412112,...  287     1e-74
+PGGH01007926.1 Pontoporia blainvillei isolate BP203 contig8039, w...  198     5e-48
+PGGH01492660.1 Pontoporia blainvillei isolate BP203 contig497788,...  196     2e-47
+PGGH01108434.1 Pontoporia blainvillei isolate BP203 contig110064,...  158     9e-36
+
+
+
+Query_1         253   TTTTGCAGCCGCACACTGAGAAAGCAATTGGATCACAACCTCACCTTCCACAAGCTGGTG  312
+PGGH01108434.1  1854  .....T..G.A...C...G........C................................  1795
+
+Query_1         313   GCCTATATGATCTGCCTACATACAGCTATTCACATCATTGCACACCTGTTTAACTTTGAC  372
+PGGH01108434.1  1434                         ..............CCA...................A  1398
+PGGH01108434.1  1794  ..G....--..........                                           1778
+
+Query_1         373   TGCTATAGCAGAAGCCGACAGGCCACAGATGGCTCCCTTGCCTCCATTCTCTCCAGCCTA  432
+PGGH01108434.1  1397  C.A.............................A........T........T....A....  1338
+
+Query_1         433   TCTCATGATGAGAAAAAGGGGGGTTCTTGGCTAAATCCCATCCAGTCCCGAAACACGACA  492
+PGGH01108434.1  1337  ......C.G......G.------............C............TC.......     1287
+
+Query_1         493   GTGGAGTATGTGACATTCACCAGCATTGCTGGTCTCACTGGAGTGATCATGACAATAGCC  552
+
+Query_1         553   TTGATTCTCATGGTAACTTCAGCTACTGAGTTCATCCGGAGGAGTTATTTTGAAGTCTTC  612
+
+Query_1         613   TGGTATACTCACCACCTTTTTATCTTCTATATCCTTGGCTTAGGGATTCACGGCATTGGT  672
+
+Query_1         673   GGAATTGTCCGGGGTCAAACAGAGGAGAGCATGAATGAGAGTCATCCTCGCAAGTGTGCA  732
+
+Query_1         733   GAGTCTTTTGAGATGTGGGATGATCGTGACTCCCACTGTAGGCGCCCTAAGTTTGAAGGG  792
+
+Query_1         793   CATCCCCCTGAGTCTTGGAAGTGGATCCTTGCACCGGTCATTCTTTATATCTGTGAAAGG  852
+PGGH01407504.1  1059            ....................A....A......A....C....T.......  1010
+
+Query_1         853   ATCCTCCGGTTTTACCGCTCCCAGCAGAAGGTTGTGATTACCAAGGTTGTTATGCACCCA  912
+PGGH01407504.1  218                                                          .....  214
+PGGH01407504.1  1009  .....T..A.....T.A..............................               963
+
+Query_1         913   TCCAAAGTTTTGGAATTGCAGATGAACAAGCGTGGCTTCAGCATGGAAGTGGGGCAGTAT  972
+PGGH01407504.1  213   ........................C....AAA.....................A......  154
+
+Query_1         973   ATCTTTGTTAATTGCCCCTCAATCTCTCTCCTGGAATGGCATCCTTTTACTTTGACCTCT  1032
+PGGH01407504.1  153   ..T........................TA......G........C.....CC........  94
+
+Query_1         1033  GCTCCAGAGGAAGATTTCTTCTCCATTCATATCCGAGCAGCAGGGGACTGGACAGAAAAT  1092
+PGGH01407504.1  93    A.............C.....T............T......TG..................  34
+
+Query_1         1093  CTCATAAGGGCTTTCGAACAACAATATTCACCAATTCCCAGGATTGAAGTGGATGGTCCC  1152
+PGGH01407504.1  33    ..............T........GA........                             1
+
+Query_1         1153  TTTGGCACAGCCAGTGAGGATGTTTTCCAGTATGAAGTGGCTGTGCTGGTTGGAGCAGGA  1212
+
+Query_1         1213  ATTGGGGTCACCCCCTTTGCTTCTATCTTGAAATCCATCTGGTACAAATTCCAGTGTGCA  1272
+
+Query_1         1273  GACCACAACCTCAAAACAAAAAAGATCTATTTCTACTGGATCTGCAGGGAGACAGGTGCC  1332
+PGGH01492660.1  248                         .....................A..............TG  211
+
+Query_1         1333  TTTTCCTGGTTCAACAACCTGTTGACTTCCCTGGAACAGGAGATGGAGGAATTAGGCAAA  1392
+PGGH01492660.1  210   ...G.T........TG....A...GT..........T.......................  151
+
+Query_1         1393  GTGGGTTTTCTAAACTACCGTCTCTTCCTCACCGGATGGGACAGCAATATTGTTGGTCAT  1452
+PGGH01007926.1  884                                                        .......  878
+PGGH01492660.1  150   ........C.................................T....CT....         98
+
+Query_1         1453  GCAGCATTAAACTTTGACAAGGCCACTGACATCGTGACAGGTCTGAAACAGAAAACCTCC  1512
+PGGH01007926.1  877   ..........G..................T...C..........................  818
+
+Query_1         1513  TTTGGGAGACCAATGTGGGACAATGAGTTTTCTACAATAGCTACCTCCCACCCCAAGT  1570
+PGGH01007926.1  817   ...........T.............................C...A............  760
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3324910671090
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,67 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=513
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082674.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  172     1e-40
+
+
+
+Query_1      51        TGATGAAATTAAAAGGCTGGGCAGGAGGTTTAAGAAGTTGGACTTGGACAAATCAGGGTC  110
+NC_082674.1  58091624  ..................A..A.A...A.........C.C..T........T..T..T..  58091565
+
+Query_1      111       TCTGAGCGTGGAGGAGTTCATGTCCCTGCCGGAGCTGCGCCACAACCCGTTGGTGCGGCG  170
+NC_082674.1  58091564  .T....T.....A...........T.....T...T.A.AA..G..T..C..A..A.A...  58091505
+
+Query_1      171       AGTGATCGACGTCTTCGACACCGACGGTGATGGAGAAGTGGACTTCAAGGAATTCATCCT  230
+NC_082674.1  58091504  ...A..A..TA.A..T.....A..T..GA..........A.....T..              58091457
+
+Query_1      231       GGGGACCTCCCAGTTCAGCGTCAAGGGCGACGAGGAGCAGAAGTTGAGGTTTGCGTTCAG  290
+NC_082674.1  58089047                                                      ..T...C.  58089040
+
+Query_1      291       CATTTACGACATGGATAAAGATGGCTACATTTCCAACGGGGAGCTCTTCCAGGTGCTGAA  350
+NC_082674.1  58089039  T..C..T....................T........T.....A.................  58088980
+
+Query_1      351       GATGATGGTGGGCAACAACCTGACGGACTGGCAGCTCCAGCAGCTGGTCGACAAAACCAT  410
+NC_082674.1  58088979  ............G.....T....AA..TACA...T.A.....AA.T..G...........  58088920
+
+Query_1      411       CATCATCCTGGACAAGGATGGCGATGGGAAGATATCCTTTGAGGAATTCAGTGCTGT  467
+NC_082674.1  58088919  A..A.ATGCA..T........A.....A.GA...........A......T.......  58088863
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1290710161910
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

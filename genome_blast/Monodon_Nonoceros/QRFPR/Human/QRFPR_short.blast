@@ -1,0 +1,177 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= exon_1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000020.1 Monodon monoceros isolate NGI Scaffold_19;HRSCAF=1...  357     2e-96
+
+
+
+Query_1         1         ATGCAGGCGCTTAACATTACCCCGGAGCAGTTCTCTCGGCTGCTGCGGGACCACAACCTG  60
+SIHG02000020.1  67409640  ......T....C.....C.....A...........C.....................AC.  67409581
+
+Query_1         61        ACGCGGGAGCAGTTCATCGCTCTGTACCGGCTGCGACCGCTCGTCTACACCCCAGAGCTG  120
+SIHG02000020.1  67409580  ..A....C............G......G.......G.....G...........GC.....  67409521
+
+Query_1         121       CCGGGACGCGCCAAGCTGGCCCTCGTGCTCACCGGCGTGCTCATCTTCGCCCTGGCGCTC  180
+SIHG02000020.1  67409520  ..T..G...............T.A.........................T...A......  67409461
+
+Query_1         181       TTTGGCAATGCTCTGGTGTTCTACGTGGTGACCCGCAGCAAGGCCATGCGCACCGTCACC  240
+SIHG02000020.1  67409460  ........C..G......G...............T..A.G....................  67409401
+
+Query_1         241       AACATCTTTATCTGCTCCTTGGCGCTCAGTGACCTGCTCATCACCTTCTTCTGCATTCCC  300
+SIHG02000020.1  67409400  ........C.C..................C.......C....G..........T..C..G  67409341
+
+Query_1         301       GTCACCATGCTCCAGAACATTTCCGACAACTGGCTGGGGG  340
+SIHG02000020.1  67409340  .....T......G.......C.T.A...............  67409301
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 749424828160
+
+
+Query= exon_2
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 325531409732
+
+
+Query= exon_3
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000020.1 Monodon monoceros isolate NGI Scaffold_19;HRSCAF=1...  77.8    4e-13
+
+
+
+Query_3         4         TGGTCTGGCTGGTGGCAGTCATCGTAGGATCACCCATGTGGCACGTGCAACAACTTGAG  62
+SIHG02000020.1  67390387  .......................A....C..C...........T.......G.......  67390329
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 100703965627
+
+
+Query= exon_4
+
+Length=236
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000020.1 Monodon monoceros isolate NGI Scaffold_19;HRSCAF=1...  313     2e-83
+
+
+
+Query_4         11        ACTTCCTATATGAAAAGGAACACATCTGCTGCTTAGAAGAGTGGACCAGCCCTGTGCACC  70
+SIHG02000020.1  67386486  .....T..........A.................G...................G.....  67386427
+
+Query_4         71        AGAAGATCTACACCACCTTCATCCTTGTCATCCTCTTCCTCCTGCCTCTTATGGTGATGC  130
+SIHG02000020.1  67386426  ....A.....T.GT..............................................  67386367
+
+Query_4         131       TTATTCTGTACAGTAAAATTGGTTATGAACTTTGGATAAAGAAAAGAGTTGGGGATGGTT  190
+SIHG02000020.1  67386366  ....C...........G..C..C..........................G........C.  67386307
+
+Query_4         191       CAGTGCTTCGAACTATTCATGGAAAAGAAATGTCCAAAATAGCCAG  236
+SIHG02000020.1  67386306  .........A........................A.....T.....  67386261
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 505861759008
+
+
+Query= exon_5
+
+Length=98
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 185014262431
+
+
+Query= exon_6
+
+Length=365
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 807973642860
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

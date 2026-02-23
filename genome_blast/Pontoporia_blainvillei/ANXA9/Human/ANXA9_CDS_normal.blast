@@ -1,0 +1,55 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= lcl|XM_047431991.1_cds_XP_047287947.1_1 [gene=ANXA9]
+[db_xref=GeneID:8416] [protein=annexin A9 isoform X2]
+[protein_id=XP_047287947.1] [location=2477..3514] [gbkey=CDS]
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01364967.1 Pontoporia blainvillei isolate BP203 contig369252,...  163     1e-37
+
+
+
+Query_1         849  CCAGGAAACTGAGCCCAATTACCAAGTCCTGATTCGCATCCTTATCTCTCGATGTGAGAC  908
+PGGH01364967.1  315  .............-AA.................G...........T......A.......  373
+
+Query_1         909  TGACCTTCTGAGTATCAGAGCTGAGTTCAGGAAGAAATTTGGGAAGTCCCTCTACTCTTC  968
+PGGH01364967.1  374  ...T.....A......C...........GAA.............................  433
+
+Query_1         969  TCTCCAGG  976
+PGGH01364967.1  434  C.......  441
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2012918892768
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

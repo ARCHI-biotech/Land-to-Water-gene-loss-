@@ -1,0 +1,219 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= exon_1
+
+Length=664
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098031.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  56.0    2e-05
+
+
+
+Query_1         436       GGGAGGCTCCTCAGGTCTCAGGCTCAGGTGCAGAAGCAGAGCCCCTAACTGGAAGGCTCG  495
+NW_022098031.1  26087122  ...........................A.CT...C.T..T......G.....C....CT.  26087063
+
+Query_1         496       GAGGTGGGCCGGTGAGGCAAGCAAGCCCTGTGGGGGGTTGAGGACAGCTTGGGTTGGATG  555
+NW_022098031.1  26087062  ....C...G.A.........                                          26087043
+
+Query_1         556       TCCCTCACTGCAGCCTGTCCGTGGATGTCTCTGCCTTAAGGGAATTGGAGGTGGAACCAT  615
+NW_022098031.1  26087026   .....T.............ACT.G...G.........G..........A.....G....  26086968
+
+Query_1         616       CCA  618
+NW_022098031.1  26086967  ...  26086965
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 1519184370522
+
+
+Query= exon_2
+
+Length=462
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098031.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  137     5e-30
+
+
+
+Query_2         226       ACCGAGTTTCCCCGCGAGGGCGGGCGGGAGGAGTCCCAGGCGGGAATGTGATCCCCAGGG  285
+NW_022098031.1  26086649  .........A....A.C.........A......C.....C.T.A..G........TTA..  26086590
+
+Query_2         286       GGCCGGGGAGGGCCCTGGGGAGGAGCCTGGCCTGGGGAAGCCGGACTTCCGTGACACAAC  345
+NW_022098031.1  26086589  ....A.........T........G........A..ACG-...C...............G.  26086531
+
+Query_2         346       AGACACA-AAAGACAAAGTCCATTTGGATGGAAGTGGGAGCAGGGCGAGACGGGCCATTT  404
+NW_022098031.1  26086530  .A.....G..................C.....C........G.AAA....G.........  26086471
+
+Query_2         405       TCACTCTGTGGTCAAAGGAAATGACTGGTCTGA  437
+NW_022098031.1  26086470  .G.................G.......A.....  26086438
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 1044294199078
+
+
+Query= exon_3
+
+Length=947
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098031.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  676     0.0  
+
+
+
+Query_3         1         GGTCTAAGGATAACTCTGGGGCCATGACAGCCATGAGTCTCACAGAGGACCCCGAGACTT  60
+NW_022098031.1  26085668  ...................AC..G....T.......T.........                26085623
+
+Query_3         61        CTGTGCTGCGAGTAACCGGACTTGTTCTGAGACCTTTGCCCTAGAGGATGGCCAAGGGGC  120
+NW_022098031.1  26085580                   .................C..CT...............CA....  26085538
+
+Query_3         121       TCCTGGTGACCTATGCCCTCTGGGCTGTGGGGGGCCCTGCTGGGCTCCACCACCTGTACC  180
+NW_022098031.1  26085537  .....A......................A.......T............T..........  26085478
+
+Query_3         181       TGGGAAGGGACAGCCACGCCCTGCTCTGGATGCTGACCCTGGGGGGAGG-----------  229
+NW_022098031.1  26085477  .T..GT..A..........A.A...........---..........C..GGGAGGGGAAG  26085421
+
+Query_3         230       ---TGGGCTGGGCTGGCTCTGGGAGTTCTGGAAGCTCCCAAGCTTTGTAGCTCAGGCCAA  286
+NW_022098031.1  26085420  GGA...C..A..............A.........T.............T...........  26085361
+
+Query_3         287       CAGAGCCCAGGGACAGAGGCAGAGCCCCAGAGGGGTGACACCCCCTCTGAGTCCCATTCG  346
+NW_022098031.1  26085360  ....C.....C.G...........TT.AG......G.....A....T............A  26085301
+
+Query_3         347       CTTTGCTGCCCAGGTGATAGTTGGCATCTATTTTGGCCTTGTGGCACTGATTAGCCTTTC  406
+NW_022098031.1  26085300  .............A.......G.....T.................T..C........C..  26085241
+
+Query_3         407       TTCCATGGTCAACTTCTATATTGTGGCCCTCCCACTGGCAGTTGGCTTAGGGGTCTTGCT  466
+NW_022098031.1  26085240  C.T.....G..G..............G...........................T.....  26085181
+
+Query_3         467       GGTGGCTGCTGTTGGCAACCAGACCTCAGACTTTAAGAACACTCTGGGGTCAGCATTTCT  526
+NW_022098031.1  26085180  .A.............T.............................A..AG....G...TG  26085121
+
+Query_3         527       CACTTCACCTATCTTCTATGGCCGCCCCATAGCCATACTGCCCATTAGCGTGGCCGCCAG  586
+NW_022098031.1  26085120  T.....C.....T..........A............C........C...T....T..TG.  26085061
+
+Query_3         587       CATTACAGCTCAGAGGCATCGCCGCTACAAAGCTTTGGTGGCATCAGAGCCGCTCAGTGT  646
+NW_022098031.1  26085060  ...C.....C....A........T..G........CA..T.GG......AT.........  26085001
+
+Query_3         647       GCGGCTCTATCGTCTGGGCTTGGCTTACCTTGCTTTCACAGGCCCACTGGCATACAGTGC  706
+NW_022098031.1  26085000  .A.......CT.C...........................T....G..A...........  26084941
+
+Query_3         707       CCTCTGCAACACAGCTGCCACCCTCAGCTATGTGGCAGAAACCTTTGGCTCCTTCTTGAA  766
+NW_022098031.1  26084940  .A.A........G...........T..............G...C.............C.G  26084881
+
+Query_3         767       TTGGTTCAGCTTCTTCCCCCTTCTTGGCCGCCTCATGGAGTTTGTCCTCCTTCTGCCTTA  826
+NW_022098031.1  26084880  .....................C.G...G.A...G.......C.......---........  26084824
+
+Query_3         827       CCGGATCTGGAGGCTACTGATGGGGGAGACTGGCTTCAACAGCAGCTGCTTTCAGGAGTG  886
+NW_022098031.1  26084823  .T..G......A...G...G....A..TCA........G...TG...A...C.CA.....  26084764
+
+Query_3         887       GGCGAAGCTCTATGAGTTTGTTCACAGTTTTCAGGATGAGAAGCGTCAGCTGGCTTACCA  946
+NW_022098031.1  26084763  .TAA.................................T.....T.....T..........  26084704
+
+Query_3         947       G  947
+NW_022098031.1  26084703  .  26084703
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2187814505604
+
+
+Query= exon_4
+
+Length=64
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 106319810880
+
+
+Query= exon_5
+
+Length=39
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 49616035749
+
+
+Query= exon_6
+
+Length=32
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 33077357166
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

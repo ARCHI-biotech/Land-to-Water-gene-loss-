@@ -1,0 +1,371 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= exon_1
+
+Length=54
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  85.1    3e-15
+
+
+
+Query_1         1        ATGAGCGGCCGAGTTGGAGACCTGAGCCCCAAACAGGCAGAGACCCTGGCCAAG  54
+NW_006788040.1  4525678  .....T...T......................G.....................  4525625
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 62888828522
+
+
+Query= exon_2
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  93.3    1e-17
+
+
+
+Query_2         1        TTCCGAGAAAACGTCCAGGATGTGCTTCCTGCCCTGCCCAACCCTGATGATTATTTCCTT  60
+NW_006788040.1  4524770  ...........T............T.G.................A.....C.G....T..  4524711
+NW_006788040.1  4482318  ..T..G..G..T..............G..CA.T.....G..T..A.....C.....T..C  4482377
+
+Query_2         61       CTACGCTGGCTCCGAG  76
+NW_006788040.1  4524710  ..GT........T...  4524695
+NW_006788040.1  4482378  ..G.............  4482393
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113682485489
+
+
+Query= exon_3
+
+Length=44
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 38700817552
+
+
+Query= exon_4
+
+Length=60
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 77401635104
+
+
+Query= exon_5
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  158     9e-37
+
+
+
+Query_5         1        GTGATCCAGAAGTACATGCCTGGGGGCCTGTGTGGCTATGACCGTGATGGCTGCCCCGTG  60
+NW_006788040.1  4487853  ...G....AC....TC.CT.A......A..........C....TG............A.C  4487912
+
+Query_5         61       TGGTATGACATCATTGGGCCACTTGATCCCAAGGGGTTGCTCTTCTCAGTCACCAAGCAG  120
+NW_006788040.1  4487913  .....C...........A..T..G...G.......TC.....C......C......A...  4487972
+
+Query_5         121      GACCTGCTCAAGACCAAGATGAGGGACTGTGAGCGCATCCTGCATGAGTGTGACCTG-CA  179
+NW_006788040.1  4487973  ...T..G..............C.......C....TGC.T....GG.....-C.....C..  4488031
+
+Query_5         180      GACAGA  185
+NW_006788040.1  4488032  ...C..  4488037
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 384581484843
+
+
+Query= exon_6
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  120     1e-25
+
+
+
+Query_6         1        CTAGGGAAGAAGATTGAGACCATCGTGATGATATTTGACTGTGAGGGCCTGGGACTGAAA  60
+NW_006788040.1  4521910  ..G....G...........T...T................A...A........G.....G  4521851
+NW_006788040.1  4522883  ..G....G...........T...T................A...A........G.....G  4522824
+NW_006788040.1  4489086     .....C.....A.........ACCC....T.A............G..T..T..C...  4489142
+
+Query_6         61       CACTTCTGGAAACCTCTGGTAGAAGTGTACCAGGAG  96
+NW_006788040.1  4521850  ......G......TC.....G...............  4521815
+NW_006788040.1  4522823  ......G......TC.....G...............  4522788
+NW_006788040.1  4489143  ..TC.......G..                        4489156
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162058011229
+
+
+Query= exon_7
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  97.8    6e-19
+
+
+
+Query_7         1        TTCTTTGGCCTCCTTGAAGAGAATTACCCAGAGACCCTGAAGTTCATGCTCATCGTGAAA  60
+NW_006788040.1  4521139  .....C..........................................T....T......  4521080
+
+Query_7         61       G  61
+NW_006788040.1  4521079  .  4521079
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 79820436201
+
+
+Query= exon_8
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  126     2e-27
+
+
+
+Query_8         3        ACCAAACTGTTCCCTGTGGGCTACAACCTCATGAAGCCATTCCTGAGTGAGGACACTCGC  62
+NW_006788040.1  4519882  ....................A.................C...T...............A.  4519823
+NW_006788040.1  4489806   ....G.....T.......C...T........C..A..C....................T  4489864
+
+Query_8         63       AGGAAAATTATTGTGTTGGGAA  84
+NW_006788040.1  4519822  ...........A..........  4519801
+NW_006788040.1  4489865  .A...G..C..G..CC....    4489884
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 133032695785
+
+
+Query= exon_9
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  150     2e-34
+
+
+
+Query_9         3        AACTGGAAGGAAGGTTTGCTGAAACTCATCAGTCCTGAGGAACTGCCTGCCCAGTTTGGG  62
+NW_006788040.1  4518218  .........A..........A.................A........A............  4518159
+NW_006788040.1  4493375  ...........G.T...A......TATG....C.....CC.G.......TGG...A....  4493434
+
+Query_9         63       GGCACCCTGACTGACCCAGATGGGAACCCCAAATGTTTAACCAAG  107
+NW_006788040.1  4518158  ..G........C...A..................A......T...  4518114
+NW_006788040.1  4493435  ......A..........T.....AG.......G...AA.T.....  4493479
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 186243863729
+
+
+Query= exon_10
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  172     3e-41
+
+
+
+Query_10        1        ATTAACTATGGCGGGGAGATCCCCAAGTCCATGTACGTGCGGGACCAGGTGAAGACTCAG  60
+NW_006788040.1  4493562  ..C........G..T..C.........AAGTAT........A............CAG...  4493621
+NW_006788040.1  4517711       ......T...................C....A..T....................  4517657
+NW_006788040.1  4541207  ..C.....C..G..T...G.G....G.AG.TAC...C....CA....A....G.GTG...  4541148
+
+Query_10        61       -TACGAGCACTCGGTGCAGATCAACCGCGGCTCATCACACCAAGTGGAATACGAGATCCT  119
+NW_006788040.1  4493622  -.....A...AGT........TTC...G.....C..C...........G..T..A..T..  4493680
+NW_006788040.1  4517656  -..........T...........G....A....C..G.....G.....G...C.......  4517598
+NW_006788040.1  4541147  G...A.....CA....ACCG.GGG..AA.....C..C.TG..G.....GA..........  4541088
+
+Query_10        120      ATTTCCAGGCTGCGTTCTCAG  140
+NW_006788040.1  4493681  C..............C.....  4493701
+NW_006788040.1  4517597  G..C........T..C.....  4517577
+NW_006788040.1  4541087  G..C........T..A.....  4541067
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 266062662470
+
+
+Query= exon_11
+
+Length=170
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  199     3e-49
+
+
+
+Query_11        1        GTGGCAGTTCTCATCTGATGGTGCGGACATCGGCTTCGGAGTTTTCCTGAAGACCAAGAT  60
+NW_006788040.1  4540975  ..........G....G..C.AG.T...............G....................  4540916
+NW_006788040.1  4517477  .......................AA.....T........G...............C....  4517418
+NW_006788040.1  4493848  ..........ATG..G......T..........T..T..GA................A..  4493907
+
+Query_11        61       GGGGGAGCGACAGCGGGCAGGGGAGATGACAGATGTTCTACCCAGCCAGCGCTATAACGC  120
+NW_006788040.1  4540915  .........G........C..........TGA.G.....G..............C...A.  4540856
+NW_006788040.1  4517417  .......T.G...T...TT...TT.....TG..G..G.AG.T..A.....A...C.....  4517358
+NW_006788040.1  4493908  .........G...A...................G..G..GG...A...AA.G..C..T..  4493967
+
+Query_11        121      CCACATGGTGCCCGAGGATGGGAACCTCACCTGCTCAGAGGCCGGCGTCT  170
+NW_006788040.1  4540855  ....C..T..........C....G..........CTCC............  4540806
+NW_006788040.1  4517357  ....C........A.........G....G.....A....A..T.......  4517308
+NW_006788040.1  4493968  ....C....C..T..........C..........                  4494001
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 338625206780
+
+
+Query= exon_12
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006788040.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  171     9e-41
+
+
+
+Query_12        1        ATGTCCTACGCTTCGACAACACCTATAGCTTTGTCCACGCCAAGAAGGTCAGCTTCACAG  60
+NW_006788040.1  4516487  .......G.....T.....T..................A.....................  4516428
+NW_006788040.1  4498815  .......G..G..T...........C.....CA.T..T..A...........T.....C.  4498874
+NW_006788040.1  4539656     ....GT....T...........C...C.GA.G..T.......G........A...T.  4539600
+
+Query_12        61       TGGAGGTCCTGCTCCCTGACGAGGGCATGCAGAAATATGATAAGGAGCTCACCCCTGTCT  120
+NW_006788040.1  4516427  ..T....G.....T..G....................A..C......T............  4516368
+NW_006788040.1  4498875  .............T..A...                                          4498894
+NW_006788040.1  4539599  .......G........C..                                           4539581
+
+Query_12        121      AG  122
+NW_006788040.1  4516367  ..  4516366
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 222525135884
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

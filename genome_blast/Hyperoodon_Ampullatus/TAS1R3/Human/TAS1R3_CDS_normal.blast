@@ -1,0 +1,61 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_152228.3_cds_NP_689414.2_1 [gene=TAS1R3]
+[db_xref=CCDS:CCDS30556.1] [protein=taste receptor type 1 member 3
+precursor] [protein_id=NP_689414.2] [location=67..2625] [gbkey=CDS]
+
+Length=2559
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457057.1 Hyperoodon ampullatus genome assembly, chromosome: 2       265     1e-67
+
+
+
+Query_1     205     GGCCTGCTCTGGGCACTGGCCATGAAAATGGCCGTGGAGGAGATCAACAACAAGTCGGAT  264
+OX457057.1  480143  ..G...........G.......C..TG............A.........G.GG...CACC  480202
+
+Query_1     265     CTGCTGCCCGGGCTGCGCCTGGGCTACGACCTCTTTGATACGTGCTCGGAGCCTGTGGTG  324
+OX457057.1  480203  ...A.C...A......A.......C..A.......C..C.......G......C.....C  480262
+
+Query_1     325     GCCATGAAGCCCAGCCTCATGTTCCTGGCCAAGGCAGGCAGCCGCGACATCGCCGCCTAC  384
+OX457057.1  480263  ...G...........T.GG.....AC...T.....CA........AG......T......  480322
+
+Query_1     385     TGCAACTACACGCAGTACCAGCCCCGTGTGCTGGCTGTCATCGGGCCCCACTCGTCAGAG  444
+OX457057.1  480323  ...G.T..T................AC........C.....T..............C...  480382
+
+Query_1     445     CTCGCCATGGTCACCGGCAAGTTCTTCAGCTTCTTCCTCATGCC  488
+OX457057.1  480383  G.....C................................G....  480426
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 7151047755360
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,100 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= lcl|NM_032787.3_cds_NP_116176.2_1 [gene=ADGRG7]
+[db_xref=CCDS:CCDS2938.1] [protein=adhesion G-protein coupled
+receptor G7 isoform 1 precursor] [protein_id=NP_116176.2]
+[location=257..2650] [gbkey=CDS]
+
+Length=2394
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098104.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  398     8e-108
+
+
+
+Query_1         953       CCAAGACATGCGGCTTTGTAGTTTATCAAAATGACAAGCTTTTCCAATCAAAAACTTTTA  1012
+NW_022098104.1  59678905  .....G....T...........G........CA...........................  59678964
+
+Query_1         1013      CAGCTAAATCGGATTTTAGTCAAAAAATTATCTCAAGCAAAACTGATGAAAATGAGCAAG  1072
+NW_022098104.1  59678965  T.........AC..........................................T.G...  59679024
+
+Query_1         1073      ATCAGAGTGCTTCTGTTGACATGGTCTT-T-AGTCCAAAGTACAACCAAAAAGAATTTCA  1130
+NW_022098104.1  59679025  .......CA..........A...T.T..-.-.......                        59679060
+NW_022098104.1  59679368             ..A....C...T.....A.C.A.T..C.......TG..........C..  59679416
+
+Query_1         1131      ACTCTATTCCTATGCCTGTGTCTATTGGAATTTGTCAGCGAAGGACTGGGACACATATGG  1190
+NW_022098104.1  59679417  G..TC............................T..CCT......T.........C....  59679476
+
+Query_1         1191      CTGTCAAAAAGACAAGGG-CACTGATGGATTCCTGCGCTGCCGCTGCAACCATACTACTA  1249
+NW_022098104.1  59679477  ......C.....-.G.A.T..T..........T...........................  59679535
+
+Query_1         1250      ATTTTGCTGTATTAATGACTTTCAAAAAGGATTATCAATATCCCAAATCACTTGACATAT  1309
+NW_022098104.1  59679536  .C.....G.....G...                                             59679552
+
+Query_1         1310      TATCCAACGTTGGATGTGCACTGTCTGTTACTGGTCTGGCTCTCACAGTTATATTTCAGA  1369
+
+Query_1         1370      TTGTCACCAGGAAAGTCAGAAAAACCTCAGTAACCTGGGTTTTGGTCAATCTGTGCATAT  1429
+NW_022098104.1  59693504         .................................A................C..  59693556
+
+Query_1         1430      CAATGTTGATTTTCAACCTCCTCTTTGTGTTTGGAATTGAAAACTCCAATAAGAACTTGC  1489
+NW_022098104.1  59693557  ......................G..............CA........G..........AA  59693616
+
+Query_1         1490      AGACAAGTGATGGTGACATCAATAATATTGACTTTGA-CAATAATGACATACCCAGGAC-  1547
+NW_022098104.1  59693617  .....C-.-..A......CTG......C......-..G.........A..GT....-..A  59693672
+
+Query_1         1548      AGACACCATTAACATCCCGAATCCCATGTGCACTGCGATTGCCGCCTTACTGCACTATTT  1607
+NW_022098104.1  59693673  .......G..GT....T.........CA..............TAT...G...........  59693732
+
+Query_1         1608      TCTGTTAGTGACATTTACCTGGAACGCACTCAGCGCTGCACAGCTCTATTACCTTCTAAT  1667
+NW_022098104.1  59693733  .G.....................TG.G......T.....C..........T......T..  59693792
+
+Query_1         1668      AAGGACCATGAAGCCTCTTCCTCGGCATTTCATTCTTTTCATCTCATTAATTGGATGGGG  1727
+NW_022098104.1  59693793  T......................A.....................T...........     59693849
+
+Query_1         1728      AGTCCCAGCTATAGTAGTGGCTATAACAGTGGGAGTTATTTATTCTCAGAATGGAAATAA  1787
+
+Query_1         1788      TCCACAGTGGGAATTAGACTACCGGCAAGAGAAAATCTGCTGGCTGGCAATTCCAGAACC  1847
+NW_022098104.1  59706089                                      ...........A..C..A....AG  59706112
+
+Query_1         1848      CAATGGTGTTATAAAAAGTCCGCTGTTGTGGTCATTCATCGTACCTGTAACCATTATCCT  1907
+NW_022098104.1  59706113  ..G.C..T.G...CC......AT.................C.......G...........  59706172
+
+Query_1         1908      CATCAGCAATGTTGTTATGTTTATTA-CAATCTCGATCAAAGTGCTGTGGAAGAATAACC  1966
+NW_022098104.1  59706173  ..................A......GT..T.G.A.-......................T.  59706231
+
+Query_1         1967      AGAACCTGA  1975
+NW_022098104.1  59706232  ....T....  59706240
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5582803960252
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

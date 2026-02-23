@@ -1,0 +1,55 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= lcl|NM_018242.3_cds_NP_060712.2_1 [gene=SLC47A1]
+[db_xref=CCDS:CCDS11209.1] [protein=multidrug and toxin extrusion
+protein 1] [protein_id=NP_060712.2] [location=87..1799] [gbkey=CDS]
+
+Length=1713
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098035.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  158     1e-35
+
+
+
+Query_1         312       CGGGAGCCAGAACCTGAAGCACGTGGGCGTGATCCTGCAGCGGAGTGCGCTCGTCCTGCT  371
+NW_022098035.1  18020492  ...C....CC...AG............A..C...........CG.C.....G..T.....  18020551
+
+Query_1         372       CCTCTGCTGCTTCCCCTGCTGGGCGCTCTTTCTCAACACCCAGCACATCCTGCTGCTCTT  431
+NW_022098035.1  18020552  G.....T.....T.................C............................G  18020611
+
+Query_1         432       CAGGCAGGACCCAGATGTGTCCAGG  456
+NW_022098035.1  18020612  ............G.CC.........  18020636
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3973879077928
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

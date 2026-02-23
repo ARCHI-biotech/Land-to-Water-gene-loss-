@@ -1,0 +1,408 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= exon_1
+
+Length=93
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 151206618496
+
+
+Query= exon_2
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098038.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  48.2    8e-04
+
+
+
+Query_2         33       CATCTCTAACAAATTCCCAAGTGATGTGAATAAATGCTTGTCCGAGGACCACACTTCGAG  92
+NW_022098038.1  1125103  ...T..C.G...GC.....G.......C.G.CC-....G....AT...........T...  1125045
+
+Query_2         93       TTGCAGAGATGTAAAACA  110
+NW_022098038.1  1125044  .A...A..T.C....G..  1125027
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 259885725990
+
+
+Query= exon_3
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098064.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  81.5    9e-14
+NW_022098005.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  77.0    1e-12
+
+
+
+Query_3         1         GTTATTAAATGCAAAGCAGCCATCGCCTGGGAAGCAGGCAAGCCCCTTTGCATTGAAGAG  60
+NW_022098064.1  51148045  .....C........G..T..AG.T........G..TA.A.....T..C.C...A..G...  51147986
+NW_022098005.1  17334975  .....C.....T..G..T..GG.T........G..TA.A.....T..C.C...A..G...  17334916
+
+Query_3         61        GTTGAAGTAGCTCCCCCCAAGGCTCATGAAGTTCGCATTCAG  102
+NW_022098064.1  51147985  A.A..G..G..A.....A.................A...A..  51147944
+NW_022098005.1  17334915  A.A..G..G..A.....A.................A...A..  17334874
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 172470049222
+
+
+Query= exon_4
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098005.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  56.3    6e-06
+
+
+
+Query_4         75        GATCGTTGGCCATGAGGCTGCAGGTATTGTGGAAAGTATTGGGCCAGGAGTGACCAACGT  134
+NW_022098005.1  17426037  ....A.A...........A..C..C........G..C.....AGA...G.....T.CA..  17425978
+
+Query_4         135       CAAACCAG  142
+NW_022098005.1  17425977  A.......  17425970
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 264610921008
+
+
+Query= exon_5
+
+Length=88
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 139393601426
+
+
+Query= exon_6
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098005.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  115     1e-23
+NW_022098064.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  106     6e-21
+
+
+
+Query_6         47        ACCAGCAGGTTTACCTGCAAAGGAAAACCAGTTTACCATTTCTTTGGAACCAGTACATTC  106
+NW_022098005.1  17329522  ..T.....A.....T..T........GA..A...TA....A.A.G........C.....T  17329463
+NW_022098064.1  51147681  ..T.....A.....T..T........GA..A...TA....A.ACG........C.....T  51147622
+
+Query_6         107       TCTCAGTACACTGTGGTGTCAGATATCAATCTTGCCAAAATAGATGATGATGCAAATTTA  166
+NW_022098005.1  17329462  ...G.A.....A..T...G.T......TC.G....T.....T...CC.TTA..CCC...G  17329403
+NW_022098064.1  51147621  ..CA.A.....A..T...G.T......TC.G....T.....T...CC.TTA..CCC...G  51147562
+
+Query_6         167       GAGAGAGTTTGTCTGCTTGGATGTGGGTTTTCAACTGGCTATGGGGCTGCAATCAACAAT  226
+NW_022098005.1  17329402  ..T.A...C..C..T..G..T.....CA..........T.....T.....TG.G....C.  17329343
+NW_022098064.1  51147561  ..T.A...C..C..T..G..T.....CA..........T.....T.....TG.G....C.  51147502
+
+Query_6         227       GCCAAG  232
+NW_022098005.1  17329342  ......  17329337
+NW_022098064.1  51147501  ......  51147496
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 474880912404
+
+
+Query= exon_7
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098005.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  151     2e-34
+NW_022098064.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  109     6e-22
+
+
+
+Query_7         1         GTCACCCCTGGTTCGACTTGTGCTGTCTTTGGCCTAGGAGGTGTGGGTCTTTCTGCTGTA  60
+NW_022098005.1  17421696  .......AG..C..C..C.....C..G........T.....A..T.....G....T.A.C  17421637
+NW_022098005.1  17329180        .....C..T........C...........G.....A..T..AT.GG.A.T.A.C  17329127
+NW_022098064.1  51147489        .....C..T........C...........G.....A..T..AT.GG.A.T.A.C  51147436
+
+Query_7         61        ATGGGTTGTAAAGCAGCAGGAGCTTCCAGAATCATAGGTATTGACATCAACAGTGAGAAG  120
+NW_022098005.1  17421636  .....C.....G.....T.....AG....G.....C.CAG.G..........AA..C..A  17421577
+NW_022098005.1  17329126  .....C.....G.TG..T..T..A...C.G.....T...G.G........T.AA..T..A  17329067
+NW_022098064.1  51147435  .....C.....G.TG..T..T..A...C.G.....T...G.G........T.AA..T..A  51147376
+
+Query_7         121       TTTGTGAAGGCTAAAGCCCTGGGAGCCACTGACTGC-CTCAATCCTAGAGACTTACATAA  179
+NW_022098005.1  17421576  .....A.....C....AGG....T........G...-A....C...C.G....ATG.G..  17421518
+NW_022098005.1  17329066  ..CACA.G......G.AGT.T..G...T....G..T-A.T..C..CCAG.....CAG...  17329008
+NW_022098064.1  51147375  ..CACA........G.AGT.C..G...T....G...A..A.CC..C..-.....CAG...  51147317
+
+Query_7         180       ACCGATCCAGGAAGTTATCATTGAATTGACCAAGGGAGGTGTGGATTTTGCCCTTGACTG  239
+NW_022098005.1  17421517  ...C...G....G..GC.G.AG...A...GTGGT...............T.AT....     17421461
+NW_022098005.1  17329007  ...T...........GC.......GA....TG.T..G..A.....C.A.T..T....G..  17328948
+NW_022098064.1  51147316  ...T...........GC.TG....GA....TG.T..G..A.....C.G.T..T....G..  51147257
+
+Query_7         240       TGCAGGTGGATCTGAAA  256
+NW_022098005.1  17328947  .                  17328947
+NW_022098064.1  51147256  .A.T...-A.C......  51147241
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 543396068920
+
+
+Query= exon_8
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098005.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  113     2e-23
+
+
+
+Query_8         3         AGCAGCCCTGGACTGTACAACCGCAGGCTGGGGATCATGTACTTTCATTGGAGTAGCTGC  62
+NW_022098005.1  17366386  .........T...A.C.T...A.T...T......GT......A.-..........AAC.T  17366328
+
+Query_8         63        TGGTAGCAAAGGATTGACTATTTTTCCAGAGGAGCTAATAATCGGCCGTACTATAAATGG  122
+NW_022098005.1  17366327  ....GA...CA......G.G...C.G...T............G.........C.......  17366268
+
+Query_8         123       AACATTCTTTGGTG  136
+NW_022098005.1  17366267  ....AG........  17366254
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 250435335954
+
+
+Query= exon_9
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098005.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  164     1e-38
+
+
+
+Query_9         2         TTGGAAAAGTGTAGATTCTATCCCAAAGCTGGTCACTGACTATAAGAATAAGAAATTCAA  61
+NW_022098005.1  17365761  .......G..A.C......G............CTG.......C...............G.  17365702
+
+Query_9         62        TCTGGATGCACTGGTGACCCATACCCTGCCTTTTGACAAAATCAGTGAGGCATTTGACCT  121
+NW_022098005.1  17365701  ................T..........TG....A......G.T.A.............G.  17365642
+
+Query_9         122       AATGAACCAAGGAAAAAG  139
+NW_022098005.1  17365641  ....T.....A.......  17365624
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 257523128481
+
+
+Query= exon_10
+
+Length=809
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098005.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  318     2e-84
+NW_022098104.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  98.7    4e-18
+NW_022098007.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  78.8    3e-12
+NW_022098018.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  68.9    6e-09
+NW_022098022.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  66.2    2e-08
+NW_022097997.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  64.4    8e-08
+NW_022098064.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  62.6    3e-07
+NW_022097994.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  61.7    9e-07
+NW_022098072.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  59.9    3e-06
+NW_022098069.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  59.9    3e-06
+NW_022098036.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  58.1    1e-05
+NW_022098010.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  56.3    4e-05
+NW_022098063.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  55.4    4e-05
+NW_022098052.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  54.5    1e-04
+NW_022098048.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  54.5    1e-04
+NW_022098042.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  53.6    1e-04
+NW_022098011.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  53.6    1e-04
+
+
+
+Query_10        8         ACAATCCTCATCTTTTGAAGATGCCAGGAGCAATTCAGAATACTATCTGATTGAATGTGA  67
+NW_022098005.1  17355365  ...G....GC........CA.CA......A.G...TGT.......G....C.A...C...  17355306
+
+Query_10        68        ACCTGCCTGGTTAATTTATTACCTGATTTGATGAACCAAGGAAAGCCATGAGTTTAAACA  127
+NW_022098005.1  17355305  .....T..........C....T.....A........-..T..T.A.TG...A......T.  17355247
+
+Query_10        128       AATATTTACATTTAATATGGGAACATAAAAGAGCTTTAAATATTATAGACTTTGTACCTG  187
+NW_022098005.1  17355246  G.........G....C...TC..T..C...C....A..G.G....C.CCA...T..T.CA  17355187
+
+Query_10        188       TTATATATATGAATATTCCCTATGTTAAATAATAATAATAACTA--GTGTTTATGAATAG  245
+NW_022098005.1  17355186  .A.A......T.G....T.........T-..C..-.G..C...TAT..............  17355129
+
+Query_10        246       AATCATATCATCTTTAGAAATTGTTTAAAATTAGTTCTGGGAAGTTGAAAGTGGGGAATG  305
+NW_022098005.1  17355128  .......AG..G...G.GC...........C.........AG..G..GG...........  17355069
+NW_022098010.1  14899180                                                        ......  14899185
+
+Query_10        306       AAGAGATAATAAATAAAACTA-GATTGGCCATATGTTTATAATTTTTTTAGAT--TGGGT  362
+NW_022098005.1  17355068  ...G...C.............-.....C.T............-........G.--G....  17355013
+NW_022098104.1  30307274              ......GA.-..........GA...G......G..G-..GG--.....  30307231
+NW_022098104.1  98372948                                         ....A..G..GA..C-.....  98372967
+NW_022098007.1  5156525           ...........A.-..........G....G....-..G..G....--..CA.  5156478
+NW_022098018.1  10911507                           ....A.A.....G....C.G..GA..C.---.A..  10911538
+NW_022098022.1  22318573           ..G..G....A.-.....A.TG.GA...---....G..AA..-.--.....  22318616
+NW_022097997.1  16193696                 ......A......AT..TA..AG.........A-..TC--.....  16193737
+NW_022098064.1  75453345              ..G....A.-T......T...AA..A......GGAGA..C.---....  75453388
+NW_022097994.1  16613464                                                         .....  16613468
+NW_022098072.1  13011802           ..G..G...TG.-A.....A...G...CG......G..AA..-.--..A..  13011848
+NW_022098069.1  46442870          ......G...TA.-....TA....GAA..G....A.G..GA..GC--.A.AA  46442822
+NW_022098069.1  74168524                                         ........G.T..AAC..T..  74168504
+NW_022098069.1  53984846           ..G.......A.-....T..AGA..TG.GC..T..A..GA..C.---....  53984892
+NW_022098036.1  30819998                              ....GG.....AT...G.....-.C--...A.  30819970
+NW_022098010.1  14899186  G....G..-..G..G...TG.-..A..A..............C.GC.GG..C.-------  14899236
+NW_022098063.1  54792185                                                         ...A.  54792189
+NW_022098052.1  6510980                                                            ...  6510978
+NW_022098011.1  11154186                                                         ....C  11154190
+
+Query_10        363       AATGAATA-CATGGAGTTTCATTATACTTTTCTCTCCACTTTTGTCTA-T-G-TT-G---  414
+NW_022098005.1  17355012  G..A....-T....G.............GC...G..T...A....A..-C-.-..-T---  17354961
+NW_022098104.1  30307230  G...T...-.......G..T.......CC.......TG.......A..-.-.-..-.---  30307179
+NW_022098104.1  98372968  G....G..-....A..G..T..A.....A..........G.....A..-.-.-..-T---  98373019
+NW_022098007.1  5156477   G....G..-.C.....G.C........CAC.A.A..T....C...A..-.-A-CC-T---  5156426
+NW_022098007.1  22637148       ...-T..A.G.G...........A..A.T..T...A....A..-.-.-..-T---  22637194
+NW_022098018.1  10911539  .T..G...-.....G.A...........C.......T........G..-.AC-..-.---  10911591
+NW_022098022.1  22318617  .TG.--.C-.......G.....G......G...G..T........A..-.-.C..-.---  22318667
+NW_022097997.1  16193738  ...A....-...A.G.A..T.C..C...A.......T.A......G..-.-.-..       16193788
+NW_022098064.1  75453389  G.A..G..-A.....AG...........A.C.C..ATC.......T..-.-.-..-T---  75453440
+NW_022097994.1  16613469  G...G.A.-TG...GAG...........A.......T........G..-.-.-..-.---  16613520
+NW_022098072.1  13011849  G..AGG..-T......G.......C.A.A..T.A..T...C....A..-.-.-..-.TGT  13011903
+NW_022098072.1  58336385        ..-.....GA............C....G..T......A.A..-.-.-..-C---  58336430
+NW_022098069.1  46442821  .T...-..-.....G..G........T.C.......T...C....A..-.---..-.---  46442772
+NW_022098069.1  74168503  ...T....-.....G.G...GC...G..C....G..T........G..T.-T-..-.---  74168451
+NW_022098069.1  53984893  T..A.G..A...A..A............G.G..G..T........A..-.-.-..       53984944
+NW_022098036.1  30819969  ..GATG..-.....G.G...........A....T..T........A.G-.-.-..       30819919
+NW_022098010.1  14899237  ---...C.-....AG.G.....C...T.A.......TT.......G.T-.-.-..A.---  14899286
+NW_022098063.1  54792190  ....GG..-.......G......G..T.G...AT..T........G..-G-.-..-.---  54792241
+NW_022098052.1  6510977   ....G...-.....G.G....C.G...CA.......T........G..-C-T-C.-.---  6510926
+NW_022098048.1  9000246        ..C-.................T.A.......T........G..              9000205
+NW_022098042.1  36630448    ...G..-..A..G.A..........CA....T..T........A..-.-.-..-T---  36630399
+NW_022098011.1  11154191  .....G..-...A.G.G................G.TT..-..CA..G.-.-.-..-T---  11154241
+
+Query_10        415       -AAAATTTTC  423
+NW_022098005.1  17354960  -...C.....  17354952
+NW_022098104.1  30307178  -...G.....  30307170
+NW_022098104.1  98373020  -........   98373027
+NW_022098007.1  5156425   -G........  5156417
+NW_022098007.1  22637195  -.........  22637203
+NW_022098018.1  10911592  -...        10911594
+NW_022098022.1  22318668  -.........  22318676
+NW_022098064.1  75453441  -.........  75453449
+NW_022097994.1  16613521  -....       16613524
+NW_022098072.1  13011904  T.......    13011911
+NW_022098072.1  58336431  -.C.......  58336439
+NW_022098069.1  46442771  -T..T.....  46442763
+NW_022098069.1  74168450  -.......    74168444
+NW_022098010.1  14899287  -G......    14899293
+NW_022098063.1  54792242  -.T.T....   54792249
+NW_022098052.1  6510925   -...T...    6510919
+NW_022098042.1  36630398  -G..C.....  36630390
+NW_022098011.1  11154242  -G........  11154250
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1833361920144
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

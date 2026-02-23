@@ -1,0 +1,69 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= lcl|NM_198512.3_cds_NP_940914.1_1 [gene=DGAT2L6]
+[db_xref=CCDS:CCDS14397.1] [protein=diacylglycerol O-acyltransferase
+2-like protein 6] [protein_id=NP_940914.1] [location=101..1114]
+[gbkey=CDS]
+
+Length=1014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457055.1 Hyperoodon ampullatus genome assembly, chromosome: X       267     1e-68
+
+
+
+Query_1     472       GGTGTGTGCCCTGTGAGT-AGCTCAGCCTTGAAGTACTTGCTGACCCAGAAAGGCTCAGG  530
+OX457055.1  59595411  ...........A......G..-.TG...........T.........A..........G..  59595469
+
+Query_1     531       CAATGCCGTGGTTATTGTGGTGGGTGGAGCTGCTGAAGCTCTCTTGTGCCGACCAGGAGC  590
+OX457055.1  59595470  ......T................................C..........AC........  59595529
+
+Query_1     591       CTCCACTCTCTTCCTCAAGCAGCGTAAAGGTTTTGTGAAGATGGCACTGCAAACAGGGGC  650
+OX457055.1  59595530  ...T..CG..C....T..A....A..............G.T........A.G......    59595587
+OX457055.1  59597872                                                             .  59597872
+
+Query_1     651       ATACCTTGTCCCTTCATATTCCTTTGGTGAGAACGAAGTTTTCAATCAGGAGACCTTCCC  710
+OX457055.1  59597873  ............C..C...........A.....T..G...CA......A...........  59597932
+
+Query_1     711       TGAGGGCACGTGGTTAAGGTTGTTCCAAA-AAACCTTCCAGGACACATTCAAAAAAATCC  769
+OX457055.1  59597933  .............C.......C.......T.......G......GG.A.........C..  59597992
+
+Query_1     770       TGGGACTAAATTTCTGTACCTTCCATGGCCGGGGCTTCACTCGCGGATCCTGGGGCTTCC  829
+OX457055.1  59597993  ..A......G...............C.........C.......A...............T  59598052
+
+Query_1     830       TGCCTTTCAATCGGCCCATTACCACTGTTG  859
+OX457055.1  59598053  ..............................  59598082
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2783478193968
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

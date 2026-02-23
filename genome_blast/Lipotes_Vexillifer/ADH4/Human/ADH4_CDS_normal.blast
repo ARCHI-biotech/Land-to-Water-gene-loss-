@@ -1,0 +1,62 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|NM_001306172.2_cds_NP_001293101.1_1 [gene=ADH4]
+[db_xref=CCDS:CCDS77942.1] [protein=all-trans-retinol dehydrogenase
+[NAD(+)] ADH4 isoform 1] [protein_id=NP_001293101.1]
+[location=159..1358] [gbkey=CDS]
+
+Length=1200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006790551.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  281     4e-73
+
+
+
+Query_1         638      AGGTCACCCCTGGTTCGACTTGTGCTGTCTTTGGCCTAGGAGGTGTGGGTCTTTCTGCTG  697
+NW_006790551.1  2936081  .......A.....C..T..A.....CA...................CA.......A....  2936022
+
+Query_1         698      TAATGGGTTGTAAAGCAGCAGGAGCTTCCAGAATCATAGGTATTGACATCAACAGTGAGA  757
+NW_006790551.1  2936021  ....CA...A.............................T............A.......  2935962
+
+Query_1         758      AGTTTGTGAAGGCTAAAGCCCTGGGAGCCACTGACTGCCTCAATCCTAGAGACTTACATA  817
+NW_006790551.1  2935961  .....ACA.....C.G......T........C.....................C..G...  2935902
+
+Query_1         818      AACCGATCCAGGAAGTTATCATTGAATTGACCAAGGGAGGTGTGGATTTTGCCCTTGACT  877
+NW_006790551.1  2935901  ....C..T.....G..C...G.....A.......T..................T....G.  2935842
+
+Query_1         878      GTGCAGGTGGATCTGAAACCATG  900
+NW_006790551.1  2935841  ..AT.......G..A...T....  2935819
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2829939228090
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,65 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|NM_001080524.2_cds_NP_001073993.1_1 [gene=C16orf90]
+[db_xref=CCDS:CCDS45397.1] [protein=uncharacterized protein C16orf90
+isoform a] [protein_id=NP_001073993.1] [location=69..617]
+[gbkey=CDS]
+
+Length=549
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006780388.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  239     1e-60
+
+
+
+Query_1         45       AGATGCAGTGAGCCAGGCCCAAGGACGCCCCGGCCACCCTGACGCACCCCCCAACATCTA  104
+NW_006780388.1  1413652  .............TG.....G....T..A..A.T.....C...ATG..A.....A.....  1413711
+
+Query_1         105      CGAGGGGGGCCTGGGGTCCCCGCAGCCGCAGTGCCCCAGTGCCCAGGGAAGCAAGCCCAA  164
+NW_006780388.1  1413712  T........G......G...A.....A......T..........................  1413771
+
+Query_1         165      GAACTTCCGGCTGCGCCACCTCCGGGGCCTGGGCCTCTACCTGG-AGAGCCACCCGCCAC  223
+NW_006780388.1  1413772  ......--.-.A---.................CT.........CC..-.T...AT..ATT  1413824
+
+Query_1         224      CCACTGGCCAGTGTGAGAGCCACTGGCTGGGCCGGCTTATGGCTGGGGGCTGCCTGCCAC  283
+NW_006780388.1  1413825  .TG.......C.....A.....T......A...A...C.....C...........C....  1413884
+
+Query_1         284      AGCCTGAGGGCACAGCCTGGGCCCTGGACCTGCCACAGGGGACTCTGGGCCCACGTAACA  343
+NW_006780388.1  1413885  .A..CA.........T....C........T.A.........G...........G......  1413944
+
+Query_1         344      G  344
+NW_006780388.1  1413945  .  1413945
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1257763669240
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

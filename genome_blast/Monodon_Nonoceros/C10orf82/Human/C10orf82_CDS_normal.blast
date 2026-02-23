@@ -1,0 +1,57 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= ref|XM_011539342.3|:1-1259 PREDICTED: Homo sapiens sperm microtubule
+inner protein 5 (SPMIP5), transcript variant X3, mRNA
+
+Length=1259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000011.1 Monodon monoceros isolate NGI Scaffold_10;HRSCAF=6...  200     1e-48
+
+
+
+Query_1         487       GAATGCAAATATGTAAAGAAACCTCTCCAGGAGCCCCC--GATCCCTGGCTGGGCAGGCT  544
+SIHG02000011.1  68911534  ...........CA...C.........T...........CCC.....C.............  68911475
+
+Query_1         545       ACCTGCCGAGAGCCAAGGTCACTGAATTTGGCTGTGGCACGAGATACACTGTCATGGCCA  604
+SIHG02000011.1  68911474  ...............G............A..T....C....C.GC....C..........  68911415
+
+Query_1         605       AAAACTGCTACAAGGACTTCCTGGAGATCACGGAGAGGGCCAAGAAGGCACATCTGAAAC  664
+SIHG02000011.1  68911414  G...........G............CG...T....CA........GA.....C.......  68911355
+
+Query_1         665       CATATGAAGA  674
+SIHG02000011.1  68911354  .......G..  68911345
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2878258489362
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

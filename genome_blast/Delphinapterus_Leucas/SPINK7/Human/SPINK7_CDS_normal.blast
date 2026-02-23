@@ -1,0 +1,56 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= lcl|NM_032566.3_cds_NP_115955.1_1 [gene=SPINK7]
+[db_xref=CCDS:CCDS4289.1] [protein=serine protease inhibitor
+Kazal-type 7 precursor] [protein_id=NP_115955.1] [location=62..319]
+[gbkey=CDS]
+
+Length=258
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098026.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  171     2e-40
+
+
+
+Query_1         88        GTGGACTGCAGCATTTACAAGAAGTATCCAGTGGTGGCCATCCCCTGCCCCATCACATAC  147
+NW_022098026.1  25919195  ..A.....................C.C.................................  25919254
+
+Query_1         148       CTACCAGTTTGTGGTTCTGACTACATCACCTATGGGAATGAATGTCACTTGTGTACCGAG  207
+NW_022098026.1  25919255  ..G..T........-.............................C......C.C.TT...  25919313
+
+Query_1         208       AGCTTG  213
+NW_022098026.1  25919314  ......  25919319
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 543400143370
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

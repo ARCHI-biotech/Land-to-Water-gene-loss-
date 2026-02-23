@@ -1,0 +1,101 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+           493,481 sequences; 2,011,747,776 total letters
+
+
+
+Query= exon_1
+
+Length=460
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 880826388640
+
+
+Query= exon_2
+
+Length=693
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PGGH01027598.1 Pontoporia blainvillei isolate BP203 contig28023, ...  67.9    5e-09
+PGGH01363220.1 Pontoporia blainvillei isolate BP203 contig367488,...  63.9    8e-08
+PGGH01086635.1 Pontoporia blainvillei isolate BP203 contig87949, ...  61.9    3e-07
+PGGH01326727.1 Pontoporia blainvillei isolate BP203 contig330714,...  58.0    5e-06
+PGGH01095742.1 Pontoporia blainvillei isolate BP203 contig97184, ...  58.0    5e-06
+PGGH01173116.1 Pontoporia blainvillei isolate BP203 contig175533,...  58.0    5e-06
+PGGH01060593.1 Pontoporia blainvillei isolate BP203 contig61529, ...  58.0    5e-06
+PGGH01267006.1 Pontoporia blainvillei isolate BP203 contig270449,...  56.0    2e-05
+PGGH01213473.1 Pontoporia blainvillei isolate BP203 contig216375,...  56.0    2e-05
+PGGH01029530.1 Pontoporia blainvillei isolate BP203 contig29993, ...  56.0    2e-05
+PGGH01449142.1 Pontoporia blainvillei isolate BP203 contig454047,...  56.0    2e-05
+PGGH01065447.1 Pontoporia blainvillei isolate BP203 contig66457, ...  56.0    2e-05
+PGGH01226032.1 Pontoporia blainvillei isolate BP203 contig229073,...  54.0    7e-05
+PGGH01143643.1 Pontoporia blainvillei isolate BP203 contig145728,...  54.0    7e-05
+PGGH01062057.1 Pontoporia blainvillei isolate BP203 contig63020, ...  54.0    7e-05
+PGGH01250184.1 Pontoporia blainvillei isolate BP203 contig253470,...  52.0    3e-04
+PGGH01185634.1 Pontoporia blainvillei isolate BP203 contig188197,...  52.0    3e-04
+PGGH01035908.1 Pontoporia blainvillei isolate BP203 contig36468, ...  52.0    3e-04
+
+
+
+Query_2         383    AGCCTAAATTCCCTCATCTATAAAATGGGGATAATATTATCTACCTCACA  432
+PGGH01027598.1  2755              .........................A............   2718
+PGGH01363220.1  365     ....C...............................               330
+PGGH01086635.1  110               .................A..........A..........  72
+PGGH01326727.1  1170              ..................T......A...........    1206
+PGGH01095742.1  7978             .............................             8006
+PGGH01173116.1  3189            .............................              3161
+PGGH01060593.1  1488                  .....................A...........    1456
+PGGH01267006.1  427               ............................             454
+PGGH01213473.1  8003               .......G.......................T....    8038
+PGGH01029530.1  1816   .....C....G.........................                1851
+PGGH01449142.1  2669              ............................             2642
+PGGH01065447.1  1860             .........C...T......................      1825
+PGGH01226032.1  693     ....C....T.........................                727
+PGGH01143643.1  437                 .................G.....G...........    403
+PGGH01062057.1  1961    ....C....T.........................                1927
+PGGH01250184.1  752          ....T.........................                781
+PGGH01185634.1  7673              ..........................               7648
+PGGH01035908.1  15070         ..........................                   15045
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 1344930501600
+
+
+  Database: GCA_011754075.1_ASM1175407v1_genomic.fna
+    Posted date:  Feb 4, 2026  3:12 PM
+  Number of letters in database: 2,011,747,776
+  Number of sequences in database:  493,481
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

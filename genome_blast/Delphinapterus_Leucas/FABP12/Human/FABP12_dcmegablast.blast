@@ -1,0 +1,166 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_002288925.2_ASM228892v3_genomic.fna
+           5,905 sequences; 2,362,774,659 total letters
+
+
+
+Query= exon_1
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098041.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  48.2    3e-04
+
+
+
+Query_1         13       TGAGATC-AGATTGTGCATCTGGGGTCAAGCCTAAACAAGACCAGAAG  59
+NW_022098041.1  2437575  ......AG.A........A.....T..G..G....G............  2437528
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87416326318
+
+
+Query= exon_2
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098041.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  96.9    2e-18
+
+
+
+Query_2         1        TTCCCATACTACTTCAGGGAAAACCAGCATACACATGAAACTACTGTTCTTTGAGATCAA  60
+NW_022098041.1  2435295  ....A.C....T.........C.TACT...T..T....TGT....T......A.AG...G  2435236
+
+Query_2         61       CTTATCTCAGACAGAATGATTGACCAGCTCCAAGGAACATGGAAGTCCATTTCTTGTGAA  120
+NW_022098041.1  2435235  ....-----.G.......G....T...T....G.........G.A......C....A...  2435181
+
+Query_2         121      AATTCCGAAGACTACATGAAGGAGCTGG  148
+NW_022098041.1  2435180  ....TT.....A..T.....A..A....  2435153
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 278786506062
+
+
+Query= exon_3
+
+Length=173
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098072.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  170     1e-40
+NW_022098041.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  96.9    2e-18
+
+
+
+Query_3         3         ATAGGAAGAGCCAGCAGGAAACTGGGCCGTTTGGCAAAACCCACTGTGACCATCAGTACA  62
+NW_022098072.1  54975490  ......G.C...........T...A..T..C........G........C...........  54975431
+NW_022098041.1  2383751                 .......G...CTG.CA....C.......A.....T.......GTG  2383706
+
+Query_3         63        GATGGAGATGTCATCACAATAAAAACCAAAAGCATCTTTAAAAATAATGAGATCTCCTTT  122
+NW_022098072.1  54975430  A...A.....AG.....TG..........G.........C...T..G.....A.......  54975371
+NW_022098041.1  2383705   A....G.....G.....C..T...T.AG....T.C...........C......T.....C  2383646
+NW_022098041.1  2434042                                                         ......  2434037
+
+Query_3         123       AAGCTGGGAGAAGAGTTTGAGGAAA--TCACGCCAGGTGGCCACAAAACAAAG  173
+NW_022098072.1  54975370  ......A.......A.......G..CTAT.TA.T.........G.....C...  54975318
+NW_022098041.1  2383645   ..AT..A.CC.G..A.........G--....TG...A..                2383609
+NW_022098041.1  2434036   ..A......................--C...A...........T.....T...  2433986
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 337851443787
+
+
+Query= exon_4
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_022098041.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  86.9    2e-15
+NW_022098072.1 Delphinapterus leucas isolate GAN/ISIS: 26980492/1...  78.8    3e-13
+
+
+
+Query_4         3         TAAAGTAACCTTAGATAAGGAGTCCCTGATTCAAGTTCAGGACTGGGATGGCAAAGAAAC  62
+NW_022098041.1  2347942                             ...A......A...A.A...A..........G..  2347909
+NW_022098041.1  2431812                             .......G.......C.........G.....G..  2431779
+NW_022098072.1  54975315  ..C...G...........T..A...T.......G..G..........C.-C..GG..G..  54975257
+
+Query_4         63        CACCATAACGAGAAAGCTGGTGGATGGGAAAATGGTGGTG  102
+NW_022098041.1  2347908   A..A....A.......T..........A........A...  2347869
+NW_022098041.1  2431778   ......C.G...GG....A.................      2431743
+NW_022098072.1  54975256  .C...G..GA......T.A...A............       54975222
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 172470049222
+
+
+Query= exon_5
+
+Length=72
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 101591946802
+
+
+  Database: GCF_002288925.2_ASM228892v3_genomic.fna
+    Posted date:  Feb 4, 2026  3:09 PM
+  Number of letters in database: 2,362,774,659
+  Number of sequences in database:  5,905
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

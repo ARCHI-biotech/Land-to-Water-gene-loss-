@@ -1,0 +1,548 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+           74 sequences; 2,683,391,478 total letters
+
+
+
+Query= exon_1
+
+Length=2123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  83.8    3e-13
+NC_082663.1 Mesoplodon densirostris isolate mMesDen1 chromosome 3...  79.8    5e-12
+NC_082674.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  73.8    3e-10
+NC_082673.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  67.9    2e-08
+NC_082665.1 Mesoplodon densirostris isolate mMesDen1 chromosome 5...  63.9    3e-07
+NC_082675.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  61.9    1e-06
+NC_082666.1 Mesoplodon densirostris isolate mMesDen1 chromosome 6...  61.9    1e-06
+NC_082664.1 Mesoplodon densirostris isolate mMesDen1 chromosome 4...  61.9    1e-06
+NC_082681.1 Mesoplodon densirostris isolate mMesDen1 chromosome X...  58.0    2e-05
+NC_082680.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  58.0    2e-05
+NC_082670.1 Mesoplodon densirostris isolate mMesDen1 chromosome 1...  58.0    2e-05
+NC_082667.1 Mesoplodon densirostris isolate mMesDen1 chromosome 7...  54.0    3e-04
+
+
+
+Query_1      165        GCCAAGAGGAGTTTCTATGTATTCTGAAATCAGGCAATGGAAAGTATTTGCAGAAAAGCA  224
+NC_082662.1  111345659  ....G........................C..T...G..C....................  111345718
+
+Query_1      225        ATGTAGGGACCAGGCGTGGTGGCTTATGCCTGTAATCCCAACACTTTGGGAGGCCGAGGT  284
+NC_082662.1  111345719  ..                                                            111345720
+
+Query_1      285        GGGTGGATCACCTGCGGTCAGGAGTTCAAGACCAGCCTGCCCAACATGGTGAAACCTCAT  344
+
+Query_1      345        CTCTACTAAAAATACAAAAGTTAGCTAGGCATGGTGGCACATGCCTGTAGTTCCAGCTAC  404
+NC_082663.1  66602534                                             .........C........  66602551
+NC_082663.1  37298504                                           ...........C........  37298523
+NC_082674.1  50417054                                             .........C........  50417071
+NC_082673.1  81490650                                   ......G..C.........C........  81490677
+NC_082673.1  12418988                                             .........C........  12419005
+NC_082665.1  134876198                                             ........C........  134876214
+NC_082665.1  134391739                                            .........C........  134391756
+NC_082675.1  79231105                                             .........C........  79231088
+NC_082666.1  122026742                                            .........C........  122026725
+NC_082664.1  52227101                                             .........C........  52227118
+NC_082664.1  52238149                                             .........C........  52238166
+NC_082664.1  52442397                                             .........C........  52442380
+NC_082681.1  86766032                                            ..........C........  86766014
+NC_082680.1  1381831                                              .........C........  1381814
+NC_082670.1  39710064                                             .........C........  39710081
+NC_082667.1  38738158                                   ......G..C.........C........  38738131
+
+Query_1      405        TTTGGAGGCTGAGGCAGGAGAATTGCTTGAACCTAGGAGGGTGAGGTTGCAGTGAGCCGA  464
+NC_082663.1  66602552   .CG.................G..C......G..C.....                       66602590
+NC_082663.1  37298524   .CA.................G.........                                37298553
+NC_082674.1  50417072   .CG.................G.........G........                       50417110
+NC_082673.1  81490678   .CG.................G..C......                                81490707
+NC_082673.1  12419006   .CA.................G..C......G..C.....                       12419044
+NC_082665.1  134876215  .CG.................G..C......G..C.....                       134876253
+NC_082665.1  134391757  ..G...................                                        134391778
+NC_082675.1  79231087   .CG.................G..C......G..C.....                       79231049
+NC_082666.1  122026724  .CG.................G..C......G..C.....                       122026686
+NC_082664.1  52227119   .CG.................G..C......G..C.....                       52227157
+NC_082664.1  52238167   .CG.................G..C......G..C.....                       52238205
+NC_082664.1  52442379   .CG.................G..C......G..C.....                       52442341
+NC_082681.1  86766013   .CG.................G...T.....                                86765984
+NC_082680.1  1381813    .CG.................G.....G...G..C.....                       1381775
+NC_082670.1  39710082   .CC.................G..C......G..C.....                       39710120
+NC_082667.1  38738130   .CG....A............G..C......G..C.....                       38738092
+
+Query_1      465        GATCATGCCACTGCCCTCCAGCCTGGCAACAGAGTGAGACTCCATCTCAAAAATAAATAA  524
+
+Query_1      525        AAGGCTGGGTGCAGTGATTCATGCCTATAATTCCAGCACTTTGGGAGGCCGAGGTGGGCG  584
+
+Query_1      585        GATAACCTGAGGTCAAGAGTTTGGGACCAGCCTGGCCAACATGGTGAAACCCTGTCTCTA  644
+
+Query_1      645        CTAAAAATACAAAAATTAGCTGGGTGTGGTGGTGGGCCCTGTAATCCCAGCTACTCGGGA  704
+NC_082662.1  83709549                                        ......G................  83709527
+NC_082662.1  95006227                                        ............C..........  95006205
+NC_082663.1  66602535                                        ......G................  66602557
+NC_082674.1  50417055                                        ......G................  50417077
+NC_082674.1  80339598                                        ......G................  80339576
+NC_082673.1  81490661                                        ......G................  81490683
+NC_082673.1  12418989                                        ......G............A...  12419011
+NC_082665.1  134876198                                       ......G................  134876220
+NC_082665.1  134391740                                       ......G...........T....  134391762
+NC_082675.1  79231104                                        ......G................  79231082
+NC_082666.1  122026741                                       ......G................  122026719
+NC_082664.1  52227102                                        ......G................  52227124
+NC_082664.1  52238150                                        ......G................  52238172
+NC_082664.1  52442396                                        ......G................  52442374
+NC_082681.1  86766030                                        ......G................  86766008
+NC_082680.1  1381830                                         ......G................  1381808
+NC_082670.1  39710065                                        ......G............C...  39710087
+NC_082667.1  38738147                                        ......G................  38738125
+
+Query_1      705        GGCTGAGGAAGGAGAATCACTTGAACCTGGGAGGCAGAGGTTACAGTGAGCTGAGATCAC  764
+NC_082662.1  83709526   ........CC....G.........                                      83709503
+NC_082662.1  95006204   ........C.....                                                95006191
+NC_082663.1  66602558   ........C.....G...G.....                                      66602581
+NC_082674.1  50417078   ........C.....                                                50417091
+NC_082674.1  80339575   ........C.....                                                80339562
+NC_082673.1  81490684   ........C.....G...G.....                                      81490707
+NC_082673.1  12419012   ........C.....G...G.....                                      12419035
+NC_082665.1  134876221  ........C.....G...G.....                                      134876244
+NC_082665.1  134391763  ........C.......                                              134391778
+NC_082675.1  79231081   ........C.....G...G.....                                      79231058
+NC_082666.1  122026718  ........C.....G...G.....                                      122026695
+NC_082664.1  52227125   ........C.....G...G.....                                      52227148
+NC_082664.1  52238173   ........C.....G...G.....                                      52238196
+NC_082664.1  52442373   ........C.....G...G.....                                      52442350
+NC_082681.1  86766007   ........C.....                                                86765994
+NC_082680.1  1381807    ........C.....                                                1381794
+NC_082670.1  39710088   ........C.....G...G.....                                      39710111
+NC_082667.1  38738124   .A......C.....G...G.....                                      38738101
+
+Query_1      765        ACCACTGCACTCCAGCCTGGGTGACAGAGTAAGACTCGGTCTCAATAAATAAATAAATAA  824
+NC_082666.1  4676518                                               .................  4676502
+
+Query_1      825        AAGCAATGTGGGACTTGGAGGCTGAAGAGGTGGACATGCATGAACAGTGGAGGCGGTGTA  884
+NC_082666.1  4676501    ..........                                                    4676492
+
+Query_1      885        TGTGGCTGCCTTTCCCCTGTATTCCACTGAGAGGGAGCCCAAATCTGCCTCGCCTGCATT  944
+
+Query_1      945        GAGGGATGAAGAAAACACTGAGAGGCAGCTGAGAAACATGGATGCTAGTTCCAACTCCAT  1004
+NC_082662.1  111346941                                                            ..  111346942
+
+Query_1      1005       GGCCTCGGGAAGTCACTCAGACTCCTTGAGTCAGTAATGAAAAGGTAGTAGATTAGAGGC  1064
+NC_082662.1  111346943  ...T..T.............C................                         111346979
+
+Query_1      1065       TGGGCGCAGTGGCTCATGCCTGTAATCCCAACACTTTGGGAGGCCGAGGTGGGCGGATCA  1124
+
+Query_1      1125       CAAGGTCAGGAGTTCAAGACCAGCCTGGCCAACATGGTGAAACACTGTCTCTACTAAAAA  1184
+
+Query_1      1185       TACAAAAATTAGCTGGGCATGGTGGTGCATGCCTGTAATCCCAGCTACTCAGGAGGTTGA  1244
+NC_082662.1  95006228                                 .............C......G.....C...  95006199
+NC_082663.1  37298493                  ...........--.........G..................C...  37298535
+NC_082663.1  66602534                                 .......G............G.....C...  66602563
+NC_082674.1  50417054                                 .......G............G.....C...  50417083
+NC_082673.1  12418978                       ........GC.......G..................C...  12419017
+NC_082673.1  81490650                       .....C...C.......G............G.....C...  81490689
+NC_082665.1  134876198                                 ......G............G.....C...  134876226
+NC_082675.1  79231105                                 .......G............G.....C...  79231076
+NC_082666.1  122026742                                .......G............G.....C...  122026713
+NC_082664.1  52227101                                 .......G............G.....C...  52227130
+NC_082664.1  52238149                                 .......G............G.....C...  52238178
+NC_082664.1  52442397                                 .......G............G.....C...  52442368
+NC_082681.1  86766032                                ........G............G.....C...  86766002
+NC_082680.1  1381831                                  .......G............G.....C...  1381802
+NC_082670.1  39710064                                 .......G............C.....C...  39710093
+NC_082667.1  38738167              .......GC.....C...C.......G............G....AC...  38738119
+
+Query_1      1245       GGCAGGAGAATTGCTTGAACCAGGGAGTCGGAGGTTGCAATGAGCCGAGATCGCGCCATT  1304
+NC_082662.1  95006198   ........G.........                                            95006181
+NC_082663.1  37298536   ........G.........                                            37298553
+NC_082663.1  66602564   ........G..C......                                            66602581
+NC_082674.1  50417084   ........G.........                                            50417101
+NC_082673.1  12419018   ........G..C......                                            12419035
+NC_082673.1  81490690   ........G..C......                                            81490707
+NC_082673.1  12419224                                                         ....C.  12419229
+NC_082665.1  134876227  ........G..C......                                            134876244
+NC_082675.1  79231075   ........G..C......                                            79231058
+NC_082666.1  122026712  ........G..C......                                            122026695
+NC_082664.1  52227131   ........G..C......                                            52227148
+NC_082664.1  52238179   ........G..C......                                            52238196
+NC_082664.1  52442367   ........G..C......                                            52442350
+NC_082681.1  86766001   ........G...T.....                                            86765984
+NC_082680.1  1381801    ........G.....                                                1381788
+NC_082670.1  39710094   ........G..C......                                            39710111
+NC_082667.1  38738118   ........G..C......                                            38738101
+
+Query_1      1305       GCACTCTAACCTGGGCAACAGAGTGAGACTCTGTCTCAAAAAAAAGAAAAGAAAAGGTGG  1364
+NC_082673.1  12419230   ......C.G...........T........C.C.............A....            12419279
+
+Query_1      1365       TAGATTAGATCCTCTCTAAGATTTCCTCCAACTCTGCAATTCTAAAATGTACAACATGGG  1424
+NC_082662.1  111347006                 .......C...........C.A...........T..GGG......  111347050
+
+Query_1      1425       GAAGGAAGGTGATC-AGTACAACTGTAAACAACTGCAATCCGGCCCTGAAGTTGAACAAA  1483
+NC_082662.1  111347051  .GT...G......TT....A.T...A.......CT.....T.......G...........  111347110
+
+Query_1      1484       ACAAAACCTAGGGA  1497
+NC_082662.1  111347111  ........C.....  111347124
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 5637802074850
+
+
+Query= exon_2
+
+Length=161
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 378357989718
+
+
+Query= exon_3
+
+Length=79
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 161003404320
+
+
+Query= exon_4
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  52.0    5e-05
+
+
+
+Query_4      34         TCAGCTAAGAGATTGCACCTGCTGACCTAGAGAT  67
+NC_082662.1  111350135  ......C......................A....  111350168
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 209304425616
+
+
+Query= exon_5
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  77.8    7e-13
+
+
+
+Query_5      1          GGCAACCAGTAGCACCATGTCTGTGACTGGCGGGAAGATGGCACCGTCCCTCACCCAGGA  60
+NC_082662.1  111350702  ....T.....C................CA.......T....G..TA.....GG.T.....  111350761
+
+Query_5      61         GATCCTCAGCCACCTGGGCCTGGCCAGCAAG  91
+NC_082662.1  111350762  .....................T....A....  111350792
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 193204085184
+
+
+Query= exon_6
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  58.0    7e-07
+
+
+
+Query_6      21         GGGCACCCTCAGGACCTTCTTGAACTTCAGCGTGGACAAGGATGCGCAGAGGCTACTGAG  80
+NC_082662.1  111350973  ............A..........G......TAAA..........T.........G.CA..  111351032
+
+Query_6      81         GGCCATTACTGGCCAAG  97
+NC_082662.1  111351033  .......G.A.......  111351049
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 209304425616
+
+
+Query= exon_7
+
+Length=95
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 203937645472
+
+
+Query= expn_8
+
+Length=114
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 254922056840
+
+
+Query= exon_9
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 193204085184
+
+
+Query= exon_10
+
+Length=80
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 163686794392
+
+
+Query= exon_11
+
+Length=60
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 110018992952
+
+
+Query= exon_12
+
+Length=85
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 177103744752
+
+
+Query= exon_13
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 206621035544
+
+
+Query= exon_14
+
+Length=59
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 107335602880
+
+
+Query= exon_15
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  151     9e-35
+
+
+
+Query_15     12         CAATTACCAAGTCCTGATTCGCATCCTTATCTCTCGATGTGAGACTGACCTTCTGAGTAT  71
+NC_082662.1  111354246  ..................G...........T......A..........T.....A.....  111354305
+
+Query_15     72         CAGAGCTGAGTTCAGGAAGAAATTTGGGAAGTCCCTCTACTCTTCTCTCCAG  123
+NC_082662.1  111354306  .C............AA.............................C......  111354357
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 279072567488
+
+
+Query= exon_16
+
+Length=375
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_082662.1 Mesoplodon densirostris isolate mMesDen1 chromosome 2...  83.8    6e-14
+
+
+
+Query_16     2          ATGCAGTGAAAGGGGATTGCCAGTCAGCCCTCCTGGCCTTGTGCAGGGCTGAAGACATGT  61
+NC_082662.1  111354587  ..............A.C....G.........A..A...C.................C.T.  111354646
+
+Query_16     62         GAGACTTCCCTGCCCCACCCCACATGACATCCGAGGATCTGAGATTTCCGTGTTTGGCTG  121
+NC_082662.1  111354647  .....C..AT-------...........C.T.A..A..........C..A...A......  111354699
+
+Query_16     122        AACCTG--GGAGACCAGCTGGGCCTCCAAGTAGGATAACCCCTCACTGAGCACCACATTC  179
+NC_082662.1  111354700  .G....CA.....................A.GA..............               111354746
+
+Query_16     180        TCTAGCTTCTTGTTGAGGCTGGAACTGTTTCTTTAAAATCCCTTAATTTTCCCATCTCAA  239
+
+Query_16     240        AATTATATCTGTACCTGGGTCATCCAGCTCCTTCTTGGGTGTGGGGAAATGAGTTTTCTT  299
+
+Query_16     300        TGATAGTTTCTGCCTCACTCATCCCTCCTGTACCCTGGCCAGAACATCTCACTGATACTC  359
+NC_082662.1  111355157                                    ........C..............T.T  111355182
+
+Query_16     360        GAATTCTTTTGGCAAA  375
+NC_082662.1  111355183  ................  111355198
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 952603449290
+
+
+  Database: GCF_025265405.1_mMesDen1_primary_haplotype_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,683,391,478
+  Number of sequences in database:  74
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

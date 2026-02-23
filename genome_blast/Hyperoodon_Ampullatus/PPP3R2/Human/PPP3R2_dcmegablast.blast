@@ -1,0 +1,67 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+           757 sequences; 2,828,760,712 total letters
+
+
+
+Query= exon_1
+
+Length=513
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OX457070.1 Hyperoodon ampullatus genome assembly, chromosome: 15      176     1e-41
+
+
+
+Query_1     51        TGATGAAATTAAAAGGCTGGGCAGGAGGTTTAAGAAGTTGGACTTGGACAAATCAGGGTC  110
+OX457070.1  30986099  ..................A..A.A...A.........C.C..T........T..T..T..  30986158
+
+Query_1     111       TCTGAGCGTGGAGGAGTTCATGTCCCTGCCGGAGCTGCGCCACAACCCGTTGGTGCGGCG  170
+OX457070.1  30986159  .T....T.....A...........T.....T...T.A.AA..G..T..C..A..A.A...  30986218
+
+Query_1     171       AGTGATCGACGTCTTCGACACCGACGGTGATGGAGAAGTGGACTTCAAGGAATTCATCCT  230
+OX457070.1  30986219  ...A..A..TA.A..T.....A..T..GA..........A.....T..              30986266
+
+Query_1     231       GGGGACCTCCCAGTTCAGCGTCAAGGGCGACGAGGAGCAGAAGTTGAGGTTTGCGTTCAG  290
+OX457070.1  30988911                                                    ....T...C.  30988920
+
+Query_1     291       CATTTACGACATGGATAAAGATGGCTACATTTCCAACGGGGAGCTCTTCCAGGTGCTGAA  350
+OX457070.1  30988921  T..C..T....................T........T.....A.................  30988980
+
+Query_1     351       GATGATGGTGGGCAACAACCTGACGGACTGGCAGCTCCAGCAGCTGGTCGACAAAACCAT  410
+OX457070.1  30988981  ............G.....T....AA..TACA...T.A.....AA.C..G...........  30989040
+
+Query_1     411       CATCATCCTGGACAAGGATGGCGATGGGAAGATATCCTTTGAGGAATTCAGTGCTGT  467
+OX457070.1  30989041  A..A.ATGCA..T........G.....A.GA...........A......T.......  30989097
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1360622250728
+
+
+  Database: GCA_949752795.1_mHypAmp2.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,828,760,712
+  Number of sequences in database:  757
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

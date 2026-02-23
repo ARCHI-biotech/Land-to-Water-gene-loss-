@@ -1,0 +1,112 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+           101 sequences; 2,341,954,608 total letters
+
+
+
+Query= lcl|NM_007052.5_cds_NP_008983.2_1 [gene=NOX1]
+[db_xref=CCDS:CCDS14474.1] [protein=NADPH oxidase 1 isoform 1]
+[protein_id=NP_008983.2] [location=221..1915] [gbkey=CDS]
+
+Length=1695
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SIHG02000054.1 Monodon monoceros isolate NGI Scaffold_53;HRSCAF=3...  294     7e-77
+
+
+
+Query_1         253       TTTTGCAGCCGCACACTGAGAAAGCAATTGGATCACAACCTCACCTTCCACAAGCTGGTG  312
+SIHG02000054.1  43275189  .....T..G.....C...G........C................................  43275248
+
+Query_1         313       GCCTATATGATCTGCCTACATACAGCTATTCACATCATTGCACACCTGTTTAACTTTGAC  372
+SIHG02000054.1  43275607                         ..............CCA...................A  43275643
+SIHG02000054.1  43275249  ..A.....A..........                                           43275267
+
+Query_1         373       TGCTATAGCAGAAGCCGACAGGCCACAGATGGCTCCCTTGCCTCCATTCTCTCCAGCCTA  432
+SIHG02000054.1  43275644  C.A.............................A........T.............A....  43275703
+
+Query_1         433       TCTCATGATGAGAAAAAGGGGGGTTCTTGGCTAAATCCCATCCAGTCCCGAAACACGACA  492
+SIHG02000054.1  43275704  ......C.G......G.------.........................TC.......     43275754
+
+Query_1         493       GTGGAGTATGTGACATTCACCAGCATTGCTGGTCTCACTGGAGTGATCATGACAATAGCC  552
+
+Query_1         553       TTGATTCTCATGGTAACTTCAGCTACTGAGTTCATCCGGAGGAGTTATTTTGAAGTCTTC  612
+
+Query_1         613       TGGTATACTCACCACCTTTTTATCTTCTATATCCTTGGCTTAGGGATTCACGGCATTGGT  672
+
+Query_1         673       GGAATTGTCCGGGGTCAAACAGAGGAGAGCATGAATGAGAGTCATCCTCGCAAGTGTGCA  732
+
+Query_1         733       GAGTCTTTTGAGATGTGGGATGATCGTGACTCCCACTGTAGGCGCCCTAAGTTTGAAGGG  792
+
+Query_1         793       CATCCCCCTGAGTCTTGGAAGTGGATCCTTGCACCGGTCATTCTTTATATCTGTGAAAGG  852
+SIHG02000054.1  43287024            ....................A....A......A....C....T.......  43287073
+
+Query_1         853       ATCCTCCGGTTTTACCGCTCCCAGCAGAAGGTTGTGATTACCAAGGTTGTTATGCACCCA  912
+SIHG02000054.1  43287846                                                  ..C...T.....  43287857
+SIHG02000054.1  43287074  ......T.A.....T................................               43287120
+
+Query_1         913       TCCAAAGTTTTGGAATTGCAGATGAACAAGCGTGGCTTCAGCATGGAAGTGGGGCAGTAT  972
+SIHG02000054.1  43287858  ........................C....AAA.....................A......  43287917
+
+Query_1         973       ATCTTTGTTAATTGCCCCTCAATCTCTCTCCTGGAATGGCATCCTTTTACTTTGACCTCT  1032
+SIHG02000054.1  43287918  ..T........................TA......G........C.....CC........  43287977
+
+Query_1         1033      GCTCCAGAGGAAGATTTCTTCTCCATTCATATCCGAGCAGCAGGGGACTGGACAGAAAAT  1092
+SIHG02000054.1  43287978  ........A.....C..A..T............T......TG..................  43288037
+
+Query_1         1093      CTCATAAGGGCTTTCGAACAACAATATTCACCAATTCCCAGGATTGAAGTGGATGGTCCC  1152
+SIHG02000054.1  43288038  ..............T........GA........G........                    43288079
+SIHG02000054.1  43288301                                                  ............  43288312
+
+Query_1         1153      TTTGGCACAGCCAGTGAGGATGTTTTCCAGTATGAAGTGGCTGTGCTGGTTGGAGCAGGA  1212
+SIHG02000054.1  43288313  ........T.T............C.....................T....C.........  43288372
+
+Query_1         1213      ATTGGGGTCACCCCCTTTGCTTCTATCTTGAAATCCATCTGGTACAAATTCCAGTGTGCA  1272
+SIHG02000054.1  43288373  .......................C...........................TG.AA....  43288432
+
+Query_1         1273      GACCACAACCTCAAAACAAAAAAGATCTATTTCTACTGGATCTGCAGGGAGACAGGTGCC  1332
+SIHG02000054.1  43288433  A.T...............C...                                        43288454
+SIHG02000054.1  43288879                        .....................A...............G  43288916
+
+Query_1         1333      TTTTCCTGGTTCAACAACCTGTTGACTTCCCTGGAACAGGAGATGGAGGAATTAGGCAAA  1392
+SIHG02000054.1  43288917  ...G.T.......GTG....A...GT..................................  43288976
+
+Query_1         1393      GTGGGTTTTCTAAACTACCGTCTCTTCCTCACCGGATGGGACAGCAATATTGTTGGTCAT  1452
+SIHG02000054.1  43288977  ........C........................A........G....               43289023
+SIHG02000054.1  43289225                                                       .......  43289231
+
+Query_1         1453      GCAGCATTAAACTTTGACAAGGCCACTGACATCGTGACAGGTCTGAAACAGAAAACCTCC  1512
+SIHG02000054.1  43289232  ..........G..................T...C..........................  43289291
+
+Query_1         1513      TTTGGGAGACCAATGTGGGACAATGAGTTTTCTACAATAGCTACCTCCCACCCCAAGT  1570
+SIHG02000054.1  43289292  ...........T.................................A............  43289349
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3897007257728
+
+
+  Database: GCA_005190385.3_NGI_Narwhal_2_genomic.fna
+    Posted date:  Feb 4, 2026  3:11 PM
+  Number of letters in database: 2,341,954,608
+  Number of sequences in database:  101
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

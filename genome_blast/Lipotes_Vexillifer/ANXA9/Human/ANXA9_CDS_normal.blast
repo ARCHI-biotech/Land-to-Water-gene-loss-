@@ -1,0 +1,55 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+           24,810 sequences; 2,419,495,777 total letters
+
+
+
+Query= lcl|XM_047431991.1_cds_XP_047287947.1_1 [gene=ANXA9]
+[db_xref=GeneID:8416] [protein=annexin A9 isoform X2]
+[protein_id=XP_047287947.1] [location=2477..3514] [gbkey=CDS]
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NW_006787556.1 Lipotes vexillifer unplaced genomic scaffold, Lipo...  169     3e-39
+
+
+
+Query_1         849     CCAGGAAACTGAGCCCAATTACCAAGTCCTGATTCGCATCCTTATCTCTCGATGTGAGAC  908
+NW_006787556.1  223808  .............-A..................GT..........T......A.......  223866
+
+Query_1         909     TGACCTTCTGAGTATCAGAGCTGAGTTCAGGAAGAAATTTGGGAAGTCCCTCTACTCTTC  968
+NW_006787556.1  223867  ...T.....A......C............AA.............................  223926
+
+Query_1         969     TCTCCAGG  976
+NW_006787556.1  223927  C.......  223934
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2438101488816
+
+
+  Database: GCF_000442215.2_Lipotes_vexillifer_v1.1_genomic.fna
+    Posted date:  Feb 4, 2026  3:10 PM
+  Number of letters in database: 2,419,495,777
+  Number of sequences in database:  24,810
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
