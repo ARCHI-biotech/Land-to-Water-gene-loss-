@@ -1,0 +1,95 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=983
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000385.1 Antilocapra americana strain Pronghorn03 vouche...  1136    0.0  
+
+
+
+Query_1            12      ACCAGCTCAGACCAGC-CCTCCTTCCTGAGCAATCACTGGCTCTACTTCTCCGTGTACCT  70
+JBPKRI010000385.1  452076  ......C......-..T...T......CG...............T...............  452134
+
+Query_1            71      CTTCACCTTCCTCGTGGGGCTTCCCCTCAACCTGATGGCCCTGGTGATCTTCGTGGGCAA  130
+JBPKRI010000385.1  452135  .....................C......................................  452194
+
+Query_1            131     GCTGCGGCACCGCCCCATGGCCGTGGACGTGCTCCTGCTGAACCTGACCCTCTCGGACAT  190
+JBPKRI010000385.1  452195  ........G......GG.................T....A.....C............C.  452254
+
+Query_1            191     GATCTTGCTGCTCTTCTTGCCGTTCCGCATGGTGGAGGCAGCCAGTCG-CATGCGCTGGC  249
+JBPKRI010000385.1  452255  .C..C..T........C....A.................G.....-..C.....A....T  452313
+
+Query_1            250     CCCTGCCCTTCCTCTTCTGCCCCTTCTCCAGATTCATCTTCTTCACCACCATCTATCTCA  309
+JBPKRI010000385.1  452314  ...........A..................AG...C........................  452373
+
+Query_1            310     CGTCCCTCTTTCTGGCAGCCGTGAGCATTGAGCGCTTCCTGAGTGTGGCCCACCCGGTTT  369
+JBPKRI010000385.1  452374  .A........C................CA..............C......T.....C...  452433
+
+Query_1            370     GGTACAAGACCCGGCCGAGGCCCGGACAGGCCGGCCTGGTCAGCGGGACCTGCTGGCTCC  429
+JBPKRI010000385.1  452434  ..........T...........G..G.....T...............G............  452493
+
+Query_1            430     TGGCCGCTGCTCACTGCAGTGTGGTCTATGTCATTGAATTTTCCGGGGAC-CA-----CA  483
+JBPKRI010000385.1  452494  ...................C.........A....C.....C..G....G.T.CTCCCC..  452553
+
+Query_1            484     GCCAGGGTATCAATGGGACCTGCTACCTGGAATTCCGGGAGGATCAGCTTGCCCTTCTCC  543
+JBPKRI010000385.1  452554  .............C.C..........T....G.................G..........  452613
+
+Query_1            544     TGCCCGTCCGGCTAGAGATGGCTGTGGTCCTTTTCGGGGTGCCGTTGCTCATCACCAGCT  603
+JBPKRI010000385.1  452614  ......................G........C..T........CC..T......G.....  452673
+
+Query_1            604     ACTGCTACAGCCACCTGGTGCT-CATCCTTGGTAGGGGAGCCAGCCGGCGCCGCCAGAAG  662
+JBPKRI010000385.1  452674  ....T.......G......-..G...A..A..G.............AT.....T.G....  452732
+
+Query_1            663     AGAGTGGCGGGGCTCGCAGCAGCCACGCTGCTCAACTTTCTCGTCTGCTTCGGGCCCTAC  722
+JBPKRI010000385.1  452733  ..G...........G..C.TC.....TT..........C.....................  452792
+
+Query_1            723     AACGTGTCCCACGTCGTGGGCTACATCCAGGGTAAAAGCCCGAGGTGGAGAAGTTATGTG  782
+JBPKRI010000385.1  452793  ............A....................G.......C.C............C...  452852
+
+Query_1            783     CTGCTCCTCAGCACCCTGAATTCGTGTGTTGACCCCCTTGTCTACTATTTCTCCTCATCG  842
+JBPKRI010000385.1  452853  ..............T.....C..C..C...........C..............A.....T  452912
+
+Query_1            843     GGGTTCCAAGCGGACTTCCACGGGCTGCTGGGGAGGCTGGCCAGGGCCTGTGGCCTTTGG  902
+JBPKRI010000385.1  452913  ...........C........G...T......A.......A.T...T....G....C....  452972
+
+Query_1            903     CGGCAGGAAGGCAGCGTGACGCT-GAAGAAGGGTGAAGGAGAGGGGCCGCCGCAGGAGCT  961
+JBPKRI010000385.1  452973  ........GAA.G..A....-..C.......A.C..G...........A...........  453031
+
+Query_1            962     GTCCAACATAGAGGCCAGGTAG  983
+JBPKRI010000385.1  453032  ..T....G..........C...  453053
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2451380640476
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,171 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=31
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 18005994874
+
+
+Query= exon_2
+
+Length=21
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 7716876816
+
+
+Query= exon_3
+
+Length=258
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000390.1 Antilocapra americana strain Pronghorn03 vouche...  329     3e-88
+
+
+
+Query_3            1        CAGACCCCACAAAGGCAGTGATCACCTTGCAGCCTCCATGGGTCAGTGTATTCCAAGAAG  60
+JBPKRI010000390.1  2523398  .............................A..............................  2523339
+
+Query_3            61       AAAGTGTGACCCTATGGTGTGAGGGACCCCATCTGCCTGGGGACAGCTCTGCACAGTGGT  120
+JBPKRI010000390.1  2523338  ..GA...A...T...T.............................C....A.........  2523279
+
+Query_3            121      TTCTGAACGGCACAACCATTGAGACCCTGACCCCCAGATACGGAATTGCTGCTGCTAGTA  180
+JBPKRI010000390.1  2523278  ....C.........G.....A.....TC.............A.T...AA..G.....AAT  2523219
+
+Query_3            181      TCAATGACAGTGGTGAATACAAGTGCCAGACAGGTCTCTCAGTGCCCAGTGACCCTGTAC  240
+JBPKRI010000390.1  2523218  ....C........A...........................A....A.............  2523159
+
+Query_3            241      AGCTGGAAATCCACAG  256
+JBPKRI010000390.1  2523158  ....A...........  2523143
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 591624428060
+
+
+Query= exon_4
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000390.1 Antilocapra americana strain Pronghorn03 vouche...  335     6e-90
+
+
+
+Query_4            3        TGGCTACTACTCCAGGTCTCTGGCAGAGTCTTCACTGAAGGGGAACCTCTGGCCTTGAGG  62
+JBPKRI010000390.1  2519816  .....................A.............A........C...............  2519757
+
+Query_4            63       TGTCATGGATGGAAGAATAAGCTGGTGTACAAAGTCCTTTTCTACCAAAATGGCAAAACC  122
+JBPKRI010000390.1  2519756  ...................TC............A.A.........A..G.......GC..  2519697
+
+Query_4            123      TTTAAGTTTTCTCCTTGGAATTCTGAATTCACCATTCTGAAAACCAACCTGAGTCACAAT  182
+JBPKRI010000390.1  2519696  ....G.......AA.CA.G.........................................  2519637
+
+Query_4            183      GGCATCTATCACTGCTCAGGCATGGGAAGGCATCGCTACACATCAGCAGGAGTATCTATC  242
+JBPKRI010000390.1  2519636  ........C............GA.A......GC...........................  2519577
+
+Query_4            243      ACTATAAAAG  252
+JBPKRI010000390.1  2519576  ..........  2519567
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 576190747328
+
+
+Query= exon_5
+
+Length=288
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 668792831720
+
+
+Query= exon_6
+
+Length=266
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 612202669036
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

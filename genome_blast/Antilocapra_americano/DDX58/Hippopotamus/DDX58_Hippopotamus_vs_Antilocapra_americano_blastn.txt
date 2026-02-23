@@ -1,0 +1,505 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=106
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  152     2e-35
+
+
+
+Query_1            1        ATGACGGCCGAGCAGCGGCGGAATCTGTACGCCTTCGGGGACTATGTCAGGAAGATCCTA  60
+JBPKRI010000234.1  4624785  .................C......T..C........C.C.G..................G  4624726
+
+Query_1            61       GACCCTACCTACATCCTGAGCTACATGACCCCCTGGTTTAGGGACG  106
+JBPKRI010000234.1  4624725  .....G........................................  4624680
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 203210225623
+
+
+Query= exon_2
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  200     1e-49
+
+
+
+Query_2            1        ATGAGGTGCAGCATATTCAGGCTGAGAAAAACAATAAGGGCCCAATGGAGGCTGCCTCAC  60
+JBPKRI010000234.1  4619338  ...T..............................C.....G..C................  4619279
+
+Query_2            61       TTTTTCTCCGGTTCCTGTTGGAGCTCCAGGAGGAAGGCTGGTTCCGTGGCTTTTTGGATG  120
+JBPKRI010000234.1  4619278  ....C....A.G...................A............................  4619219
+
+Query_2            121      CCCTTGACCAAGCAG  135
+JBPKRI010000234.1  4619218  .....C.........  4619204
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 277806384396
+
+
+Query= exon_3
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  283     2e-74
+
+
+
+Query_3            1        GTTATTCTGGACTTTATGAAGCCATTGAAAGTTGGGATTTCCAAAAAATTGAAAAGTTGG  60
+JBPKRI010000234.1  4616187  .................................................C.....A....  4616128
+
+Query_3            61       AGGAGTATAGATTACTTTTAAAGCGTTTACAACCGGAATTTAAAATCACGATCAATCCAA  120
+JBPKRI010000234.1  4616127  ..................................A..........C...A.........G  4616068
+
+Query_3            121      AAGATATCCTTCCTGAAATAGCTGAATGTTTAATTAATGAGGAATGTGAAGAAATTA  177
+JBPKRI010000234.1  4616067  ....................T.................C..................  4616011
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 396131138788
+
+
+Query= exon_4
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  233     1e-59
+
+
+
+Query_4            5        GTTCCAACAAAGGGCTGATGGCAGGTGCAGAGAAAATGGTTGAATGCCTTCTCAGATCAG  64
+JBPKRI010000234.1  4615055  ..........G.................................................  4614996
+
+Query_4            65       ACAAGGAGAACTGGCCTAAAACTTTGAAACTTGCACTGGAGAAAGAAGAGAGCAAATTCA  124
+JBPKRI010000234.1  4614995  ................C.................C................A...G....  4614936
+
+Query_4            125      GTGAGCTGTGGATGGTAGAGAAAG  148
+JBPKRI010000234.1  4614935  ....A...................  4614912
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 308673614640
+
+
+Query= exon_5
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  156     2e-36
+
+
+
+Query_5            1        GTGCAAAAGATGTCGAAATGAAAGATCTTGAGGATGATGAAATGAAAACTTTGCACGTAC  60
+JBPKRI010000234.1  4613924  .....G..A....TC.......G..............................G.T....  4613865
+
+Query_5            61       AGATCTTCTACAAGGAAGAACCAGAAAACCAGAATCTTAGTCAGAATTCATGCCCTTCTT  120
+JBPKRI010000234.1  4613864  ....TG.......A..........................C........C..T.......  4613805
+
+Query_5            121      CAG  123
+JBPKRI010000234.1  4613804  ...  4613802
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 246939008352
+
+
+Query= exon_6
+
+Length=102
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 192921100275
+
+
+Query= exon_7
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  202     4e-50
+
+
+
+Query_7            1        GTTGTGGAAAAACCTTTGTTTCACTTCTTATATGTGAACATCATCTTAAAAGTTTTCCAC  60
+JBPKRI010000234.1  4611814  ..................................C...........C..G.AA.....G.  4611755
+
+Query_7            61       AAAGACAAAAGGCGAAAGTTGTCTTTTTTGCTAATCAACTCCCAGTGTATGAGCAGCAGA  120
+JBPKRI010000234.1  4611754  ..G...G.....G...................GT.........C........A.......  4611695
+
+Query_7            121      AATCTGTGTTCTCAACGCATTTTGAAAGACTTGG  154
+JBPKRI010000234.1  4611694  ...............AA.................  4611661
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 324107295372
+
+
+Query= exon_8
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  351     7e-95
+
+
+
+Query_8            1        GTACAAAGTTGCAGGCATCTGTGGAGCAACATCTGACATTGTCTCAGTGGAACAGGTTGT  60
+JBPKRI010000234.1  4610930  ..................T.C......G...G.G....A......T.........A....  4610871
+
+Query_8            61       TGAGAACAATGACATCATCATTTTAACTCCACAGATTCTTGTGAACAGCCTTAAAAGTGG  120
+JBPKRI010000234.1  4610870  ...........................A............................A...  4610811
+
+Query_8            121      GACTGTTCCATCACTCTCTGTCTTTACTTTGATGATATTTGATGAATGCCACAACACCAG  180
+JBPKRI010000234.1  4610810  ....A....G........CA.......................................A  4610751
+
+Query_8            181      TAAACATCATCCTTATAATATGATCATGTTTAATTATCTAGATGAGAAACTTGGAGAATC  240
+JBPKRI010000234.1  4610750  ......C.....A......G.......................C.......G....GG..  4610691
+
+Query_8            241      TTCAAACTCACTGCCCCAG  259
+JBPKRI010000234.1  4610690  ....G..............  4610672
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 594196708182
+
+
+Query= exon_9
+
+Length=163
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 347257816470
+
+
+Query= exon_10
+
+Length=120
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  159     2e-37
+
+
+
+Query_10           6        AGGAAAGTGCAATCACGGACTACTGACAGATTTAAAAGCATCATATCTCAGCTGATGACA  65
+JBPKRI010000234.1  4606044  .........G.............A....A.......T....................G..  4605985
+
+Query_10           66       GAGACAGAGAGTCTGGCAAAGAGTATCTTTGAAGAACTTGGTACCGTAACTCT  118
+JBPKRI010000234.1  4605984  .....G...GC..............................G...........  4605932
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 239222164341
+
+
+Query= exon_11
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  220     1e-55
+
+
+
+Query_11           1        AAAACTTGTCTCAAATTCAGAATAGGAATTTTGGAACACAGAGATATGAACAGTGGATTA  60
+JBPKRI010000234.1  4602651  .......A...........A..............G.......A...............C.  4602592
+
+Query_11           61       TCGCAATTCAGAAAGCATGCATGGTGTTTCAGATGCCAGACAAAGATGAGGAAAGCAGGA  120
+JBPKRI010000234.1  4602591  .....G.......G..G................................A..........  4602532
+
+Query_11           121      TTTGTAAAGCACTGTTTTTGTATACATCATATTTGCGG  158
+JBPKRI010000234.1  4602531  ..........CT..........C......C........  4602494
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 334396415860
+
+
+Query= exon_12
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 280378665733
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  198     5e-49
+
+
+
+Query_13           1        AAAAGCTGCAGGAATTAGAAAGTATTTCCATGGATCCCAGCAATGAGAACCCTAAACTCA  60
+JBPKRI010000234.1  4600209  .......CTT....C.....GA......................................  4600150
+
+Query_13           61       ATGATCTCTGCTTCATCTTGCAAGAAGAGTACCACTTAAACCCAGAGACCAGAACCATCC  120
+JBPKRI010000234.1  4600149  .A...........TG..........G..A...............................  4600090
+
+Query_13           121      TCTTTGTGAAAACCAGAGCACTCGTGGAT  149
+JBPKRI010000234.1  4600089  ......C.......C.......A......  4600061
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 311245894762
+
+
+Query= exon_14
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  147     9e-34
+
+
+
+Query_14           4        TTAAAGAAATGGATTGAAGAAAATCCTAAACTCAGCTTTCTAAAACCTGGCATATTGACT  63
+JBPKRI010000234.1  4596839  .............................G..............................  4596780
+
+Query_14           64       GGACGTGGCAGAACAAATCAGAAAA  88
+JBPKRI010000234.1  4596779  ......................C..  4596755
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 164626005568
+
+
+Query= exon_15
+
+Length=171
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 367836057446
+
+
+Query= exon_16
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  215     5e-54
+
+
+
+Query_16           1        GCAGAGGAAGAGCAAGAGGGAGCAAGTGCTTTCTTCTGACTAGTAATGCCGATGTAATCG  60
+JBPKRI010000234.1  4592575  ...............................C.................T..........  4592516
+
+Query_16           61       AAAAAGAAGAAATAAACATATACAAAGAAAAAATAATGAATGAGGCCATTTTAAGCCTGC  120
+JBPKRI010000234.1  4592515  ........A..........C.G............G........CT......C........  4592456
+
+Query_16           121      AGACATGGGATGAAGCAGTATTTAAAGAAAAG  152
+JBPKRI010000234.1  4592455  ...G...............G.....G......  4592424
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 318962735128
+
+
+Query= exon_17
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000234.1 Antilocapra americana strain Pronghorn03 vouche...  233     1e-59
+
+
+
+Query_17           1        ATTCTCCAGATACAGATTCATGAAAAATTCATCAGGGATAATCAAGGAAAAGCAAAACCT  60
+JBPKRI010000234.1  4582706  ....G........................A......................T.......  4582647
+
+Query_17           61       GTGCTTGATAAGAAAAATAAAAAACTGCTCTGCAGGAAGTGCAAAACCTTTGCATGTTAC  120
+JBPKRI010000234.1  4582646  .......................G...........A...........G............  4582587
+
+Query_17           121      ACAGCTGATATAAGAGTGGTGGAG  144
+JBPKRI010000234.1  4582586  ........................  4582563
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 298384494152
+
+
+Query= exon_18
+
+Length=297
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 689370747076
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
