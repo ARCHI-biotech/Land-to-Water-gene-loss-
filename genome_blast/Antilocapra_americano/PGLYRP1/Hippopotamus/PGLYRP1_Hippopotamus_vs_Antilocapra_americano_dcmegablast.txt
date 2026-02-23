@@ -1,0 +1,124 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=281
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000204.1 Antilocapra americana strain Pronghorn03 vouche...  232     9e-59
+
+
+
+Query_1            1        ATGACCCGCTGCTGCACGCTGCTTGCCTGGGCCCTATTCGCCCTCCTCGGCCTCGTGGAG  60
+JBPKRI010000204.1  7487033  ...T.T...C.....G...CA..CA..........CC..........G.......G..CA  7487092
+
+Query_1            61       GCTCAAAGAGACTCGATAAACTGCCCCGCCATCGTGTCCCGCACAGAGTGGAGCGCCCTG  120
+JBPKRI010000204.1  7487093  .....GGA.....G------.G.....---.............G.......G.G......  7487143
+
+Query_1            121      GAGTCCGAGTGCAACAAGCGCCTGCAAAAGCCCTTGCGCTACGTGGTGGTGTCGCACACG  180
+JBPKRI010000204.1  7487144  .C....A......G.C.AA.G..AAG.CG....G..........C...............  7487203
+
+Query_1            181      GCGGGCAGCGCCTGCGACACGCCGGCCTCTTGCTTGAGGCAGGTCCAGAATGTTCAGCAC  240
+JBPKRI010000204.1  7487204  ..A......AT.......T.T........G...C.A.......CG..A..C..G...T.T  7487263
+
+Query_1            241      TACCACGTGCAGACGCTGGGCTGGTGCGACGTGGGCTACAA  281
+JBPKRI010000204.1  7487264  ......A..................................  7487304
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 643069119250
+
+
+Query= exon_2
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000204.1 Antilocapra americana strain Pronghorn03 vouche...  147     1e-33
+
+
+
+Query_2            2        TTCCTGATTGGAGAAGACGGGCTCATATATGAGGGCCGGGGCTGGAACACCTTGGGGGCC  61
+JBPKRI010000204.1  7489462  .................T......G.G.............................C...  7489521
+
+Query_2            62       CACTCAGGTCCCATCTGGAACCCCAGAGCCTTTGGCATCTCCTTCATGGGTAACTACATG  121
+JBPKRI010000204.1  7489522  .....T..GTA..CA..........T.T..A.C..A..............C.........  7489581
+
+Query_2            122      G  122
+JBPKRI010000204.1  7489582  .  7489582
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 236649547664
+
+
+Query= exon_3
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000204.1 Antilocapra americana strain Pronghorn03 vouche...  257     1e-66
+
+
+
+Query_3            1        ATCGGGTGCCCCCGGACCGTGCCATCAGGGCGGCCGAGAGTCTGCTGGCTTGCGGCGTGA  60
+JBPKRI010000204.1  7490253  ...............C......TC.G.........CG...............T....C.G  7490312
+
+Query_3            61       CTCAGGGATTCCTGACTCGTAACTACGAGGTCAAAGGACACCGGGATGTGCAGCAGACGC  120
+JBPKRI010000204.1  7490313  .........A........C.........................................  7490372
+
+Query_3            121      TCTCTCCAGGTGACCAGCTCTACAAAATCATCCAGCGGTGGCCACACTACCGCCGCGTGT  180
+JBPKRI010000204.1  7490373  ..........G...........TC.............................A.T....  7490432
+
+Query_3            181      GA  182
+JBPKRI010000204.1  7490433  ..  7490434
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 388413748027
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

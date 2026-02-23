@@ -1,0 +1,76 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=513
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000489.1 Antilocapra americana strain Pronghorn03 vouche...  502     9e-140
+JBPKRI010000003.1 Antilocapra americana strain Pronghorn03 vouche...  123     9e-26 
+
+
+
+Query_1            1         ATGGGAAATGAGGCCAGTTACCCGGTGGAAATGTGCTCCCACCTTGACCAAGACGAAATT  60
+JBPKRI010000489.1  964003    .....T.................A.....G..A.....G...T...G.G...........  963944
+
+Query_1            61        AAACGGCTGGGCAAGCGGTTTAAAAAGCTGGACTTGGACAGCTCGGGCACTCTGAGCATG  120
+JBPKRI010000489.1  963943    ...A.A.........A.......G.................G..C..TG........G.C  963884
+
+Query_1            121       GAGGAGTTCACGTCCC-TGCCGGAGCTGCAGGAGAACCCACTGGTGCAGCGAGTGATCGA  179
+JBPKRI010000489.1  963883    AGA...C........AA....C...............G.G...........G.....T..  963824
+
+Query_1            180       CGTCTTCGACACAGACGGCAATGGAGAGGTGGACTTCAGGGAATTCATCCTGGGGACCTC  239
+JBPKRI010000489.1  963823    .......A..G.C......G.C...C.........G.C.A....................  963764
+
+Query_1            240       CCAGTTCAGTGTCAAGGGAGACAAGGAGCAGAAGCTGAAGTTTGCTTTCAGCATCTACGA  299
+JBPKRI010000489.1  963763    .........C...CG..T...TG...............G.............G....G..  963704
+JBPKRI010000003.1  48752794                                           ........C.T.....T..  48752776
+
+Query_1            300       CATGGACAAAGACGGCTACATTTCCAACGGGGAGCTCTTTCAGGTGCTGAAGATGATGGT  359
+JBPKRI010000489.1  963703    ............T....T.........T...........C....................  963644
+JBPKRI010000003.1  48752775  ......T...........T........T.....A.....C........A...........  48752716
+
+Query_1            360       GGGGGACAACCTGAAAGACTGGCAGTTACAGCAAATCGTGGACAAAACCATCATCATCCT  419
+JBPKRI010000489.1  963643    .................................GC.G..................C....  963584
+JBPKRI010000003.1  48752715  ....A....T........TACA..............T..A...........           48752665
+
+Query_1            420       GGACAAGGATGGCGACGGGAAAATATCCTTCCAAGAATTCAGTGCTGTGGTCGGAAACCT  479
+JBPKRI010000489.1  963583    ...........A............C........G..................A.......  963524
+
+Query_1            480       GGAGGTCCACAAG  492
+JBPKRI010000489.1  963523    .............  963511
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 1265566004484
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

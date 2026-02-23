@@ -1,0 +1,122 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=281
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000204.1 Antilocapra americana strain Pronghorn03 vouche...  178     1e-42
+
+
+
+Query_1            1        ATGACCCGCTGCTGCACGCTGCTTGCCTGGGCCCTATTCGCCCTCCTCGGCCTCGTGGAG  60
+JBPKRI010000204.1  7487033  ...T.T...C.....G...CA..CA..........CC..........G.......G..CA  7487092
+
+Query_1            61       GCTCAAAGAGACTCGATAAACTGCCCCGCCATCGTGTCCCGCACAGAGTGGAGCGCCCTG  120
+JBPKRI010000204.1  7487093  ....----..----..-.G.....GG.C...............G.......G.G......  7487143
+
+Query_1            121      GAGTCCGAGTGCA-ACAAGCGCCTGCAAA-AGCCCTTGCGCTACGTGGTGGTGTCGCACA  178
+JBPKRI010000204.1  7487144  .C....A......GC...AG.-..-A.G.CG....G..........C.............  7487201
+
+Query_1            179      CGGCGGGCAGCGCCTGCGACACGCCGGCCTCTTGCTTGAGGCAGGTCCAGAATGTTCAGC  238
+JBPKRI010000204.1  7487202  ....A......AT.......T.T........G...C.A.......CG..A..C..G...T  7487261
+
+Query_1            239      ACTACCACGTGCAGACGCTGGGCTGGTGCGACGTGGGCTACAA  281
+JBPKRI010000204.1  7487262  .T......A..................................  7487304
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 650786870866
+
+
+Query= exon_2
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000204.1 Antilocapra americana strain Pronghorn03 vouche...  135     3e-30
+
+
+
+Query_2            2        TTCCTGATTGGAGAAGACGGGCTCATATATGAGGGCCGGGGCTGGAACACCTTGGGGGCC  61
+JBPKRI010000204.1  7489462  .................T......G.G.............................C...  7489521
+
+Query_2            62       CACTCAGG-TCC-CATCTGGAACCCCAGAGCCTTTGGCATCTCCTTCATGGGTAACTACA  119
+JBPKRI010000204.1  7489522  .....T..G.A.A..--..........T.T..A.C..A..............C.......  7489579
+
+Query_2            120      TGG  122
+JBPKRI010000204.1  7489580  ...  7489582
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 244366727015
+
+
+Query= exon_3
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000204.1 Antilocapra americana strain Pronghorn03 vouche...  248     6e-64
+
+
+
+Query_3            1        ATCGGGTGCCCCCGGACCGTGCCATCAGGGCGGCCGAGAGTCTGCTGGCTTGCGGCGTGA  60
+JBPKRI010000204.1  7490253  ...............C......TC.G.........CG...............T....C.G  7490312
+
+Query_3            61       CTCAGGGATTCCTGACTCGTAACTACGAGGTCAAAGGACACCGGGATGTGCAGCAGACGC  120
+JBPKRI010000204.1  7490313  .........A........C.........................................  7490372
+
+Query_3            121      TCTCTCCAGGTGACCAGCTCTACAAAATCATCCAGCGGTGGCCACACTACCGCCGCGTGT  180
+JBPKRI010000204.1  7490373  ..........G...........TC.............................A.T....  7490432
+
+Query_3            181      GA  182
+JBPKRI010000204.1  7490433  ..  7490434
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 396131138788
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
