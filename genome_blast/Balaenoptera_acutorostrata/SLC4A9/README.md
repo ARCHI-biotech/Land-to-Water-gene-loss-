@@ -1,0 +1,3 @@
+# Balaenoptera_acutorostrata — SLC4A9
+
+Gene analysis folder.

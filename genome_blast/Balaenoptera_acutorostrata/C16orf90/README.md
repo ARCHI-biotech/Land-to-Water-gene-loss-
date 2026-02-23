@@ -1,0 +1,3 @@
+# Balaenoptera_acutorostrata — C16orf90
+
+Gene analysis folder.

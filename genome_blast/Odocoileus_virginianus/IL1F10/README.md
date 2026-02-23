@@ -1,0 +1,3 @@
+# Odocoileus_virginianus — IL1F10
+
+Gene analysis folder.
