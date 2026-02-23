@@ -1,0 +1,52 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000460.1 Antilocapra americana strain Pronghorn03 vouche...  139     5e-31
+
+
+
+Query_1            2     TCTCCAGGGAGTAGAGTGTGGTCTTGCACATGGTCTCGTTGGCGTTGCAGGTGGTGGTGG  61
+JBPKRI010000460.1  1781  .....................................A.....A............A...  1840
+
+Query_1            62    TGACACAGCTAGACACGCTCGA-GGGCTCGGGACAGCTGTAGCATCGCAAGGC  113
+JBPKRI010000460.1  1841  ..........G......-G...T......T.....CG........TT..G...  1892
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 216071326128
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
