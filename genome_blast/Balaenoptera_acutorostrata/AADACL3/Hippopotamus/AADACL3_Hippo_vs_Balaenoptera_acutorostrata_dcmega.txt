@@ -1,0 +1,175 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Balaenoptera_acutorostrata/GCF_949987535.1_mBalAcu1.1_genomic.fna
+           1,374 sequences; 2,772,885,358 total letters
+
+
+
+Query= exon_1
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080064.1 Balaenoptera acutorostrata chromosome 1, mBalAcu1.1, ...  156     3e-36
+
+
+
+Query_1      12        ACTGCTGCTCCTGGTCCTTGCCACAGCCTGTGTGATCTCCGTGGGGGTCGGGCTGTGGGT  71
+NC_080064.1  10090112  ...C.....T.C.........T........C...T......C....A.T..........C  10090171
+
+Query_1      72        CGTCGGCCACCACTTCCTCACTGCAGAGATCCCTGCAGCCATCGGCCACCCCGTGAAACT  131
+NC_080064.1  10090172  T......A....T........C.....C............G.T.................  10090231
+
+Query_1      132       GCGGGCCTGCCATTGCATCTCCCAGCTGTTG  162
+NC_080064.1  10090232  T.A..T.CT.TG....T...T..........  10090262
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 388197986960
+
+
+Query= exon_2
+
+Length=214
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080064.1 Balaenoptera acutorostrata chromosome 1, mBalAcu1.1, ...  274     2e-71
+
+
+
+Query_2      1         GGGACGATTTTTGAGAAAATGAGAATCTGCTCTATGC---AGTTTCTCCGTTTCATTCAC  57
+NC_080064.1  10093062  ..................C..........T....C..CCC.....G..............  10093121
+
+Query_2      58        GATCTGGCGCCACTAAAGAAGGATTCAGATGTGGTGGTCAAGGACCTCTGGTACGGGATG  117
+NC_080064.1  10093122  ...........G..C.........C.G..C.G.A.A...........G..........C.  10093181
+
+Query_2      118       ATCCCCGTGAAGCTGTACCAGCCCAAGGCGTCCTCAAGCAACCCCAGGCCTGGCATCGTG  177
+NC_080064.1  10093182  ............A...........................C..G................  10093241
+
+Query_2      178       TTCTACCACGGCGGTGGGGGCATTGTAGGGAGCTTGA  214
+NC_080064.1  10093242  ....-G..A.....C........C.............  10093277
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 507430225812
+
+
+Query= exon_3
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080064.1 Balaenoptera acutorostrata chromosome 1, mBalAcu1.1, ...  103     2e-20
+
+
+
+Query_3      1         AAACTCACCATGGCTTATGCTGTCATTTGTGCAAGGAGAGTGACTCAGTGGTTCTAGCAG  60
+NC_080064.1  10094599  .....G................A...........A.........................  10094658
+
+Query_3      61        TTGG  64
+NC_080064.1  10094659  ....  10094662
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97049592920
+
+
+Query= exon_4
+
+Length=776
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_080064.1 Balaenoptera acutorostrata chromosome 1, mBalAcu1.1, ...  1049    0.0  
+
+
+
+Query_4      10        GATGCCCCTGCATAGGTTTCCGGTGATAGTAAGAGACTGCATAGTGGCTACCAACCACTT  69
+NC_080064.1  10096469  .....T.AA.............................C...G..........T......  10096528
+
+Query_4      70        CTTGAAGTCCTTGAGTACATATGGGGTGGATCCAGCCCAGGTTGTGGTCTGTGGTGACAG  129
+NC_080064.1  10096529  ..............A...........CA..........G...C.................  10096588
+
+Query_4      130       TGTGGGTGGGGGCCTGGCAATGATAGTTTATCAAAACCTTGTGGACAGTTCCGATCTCCC  189
+NC_080064.1  10096589  .............A......CA...A...G.....................T........  10096648
+
+Query_4      190       CAAGATCCGTGCCCAGATCCTGATCTACCCTGCTGTCCAAGCCCTGGATTTCCAGCCCCC  249
+NC_080064.1  10096649  ............T...............G.....C......................T..  10096708
+
+Query_4      250       TTCCTATCAGCAGAACAAGAATGTTCCACTGCTCAGCCGGAATATGTTCTTCTACTGTTG  309
+NC_080064.1  10096709  ...T.................C..............G.A....T..GC............  10096768
+
+Query_4      310       GTGTGCTTACCTGGACATCAGCCCCTCCTGGAAGAGCACCGTATTGAAAGGCACCCAAAT  369
+NC_080064.1  10096769  .....G...........................A......A..........-.G..T.C.  10096827
+
+Query_4      370       TGCCTGCTGAAGTCTGGGAAAAGTACAGAAAGTGGTTGGGTGCAGAAAACATCCCAGAGA  429
+NC_080064.1  10096828  .......C...........G................................T..G....  10096887
+
+Query_4      430       AGTTTAAGAAGAGAGGCTACCTGCCAACGCCCCGTGAACCCCTGAATGAGGCTGCCTATC  489
+NC_080064.1  10096888  ....................------.T.....A...G...........AA.........  10096941
+
+Query_4      490       TGGAGACAAACATCATTCTAGATTTGATGACCTCGCCCCTGATTGCAGACGATGAAGTAG  549
+NC_080064.1  10096942  ...........................C..A...A..............T.C........  10097001
+
+Query_4      550       TGTCTCGGCTCCCCGAAGCTTGCATCGTGAGCTGTGAGTATGATATTCTCCGGGACCATT  609
+NC_080064.1  10097002  ......A.......A...........A........................A........  10097061
+
+Query_4      610       CGCTGTTGTATAAGAAGAGGCTGGAGGACCTGGGAGTCCCAGTGACTTGGCACCATATGG  669
+NC_080064.1  10097062  ..........C............T............................T..C....  10097121
+
+Query_4      670       CGGATGGTTTTCACAGGGTGTTGATCACCCTTGACATGGGCTGCTTGTACTTCCCCTGCT  729
+NC_080064.1  10097122  A............TG........G...........C................G.......  10097181
+
+Query_4      730       CCACGAGGATTATGAATGCTGTGGTCCATTTTATGATAGAGTTGT  774
+NC_080064.1  10097182  ...........C......................A.AG.......  10097226
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2060220131888
+
+
+  Database: Balaenoptera_acutorostrata/GCF_949987535.1_mBalAcu1.1_genomic.fna
+    Posted date:  Feb 4, 2026  5:39 PM
+  Number of letters in database: 2,772,885,358
+  Number of sequences in database:  1,374
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40
