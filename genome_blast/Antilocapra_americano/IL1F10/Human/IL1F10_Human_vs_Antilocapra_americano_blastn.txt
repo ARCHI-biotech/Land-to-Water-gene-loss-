@@ -1,0 +1,58 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_173161.3_cds_NP_775184.1_1 [gene=IL1F10]
+[db_xref=CCDS:CCDS2112.1] [protein=interleukin-1 family member 10]
+[protein_id=NP_775184.1] [location=76..534] [gbkey=CDS]
+
+Length=459
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000003.1 Antilocapra americana strain Pronghorn03 vouche...  220     4e-55
+
+
+
+Query_1            245       AGGATGTGAACATTGAGGAACTGTACAAAGGTGGTGAAGAGGCCACACGCTTCACCTTCT  304
+JBPKRI010000003.1  30636494  .............C.....C........G.....A...........C.....T.......  30636553
+
+Query_1            305       TCCAGAGCAGCTCAGGCTCCGCCTTCAGGCTTGAGGCTGCTGCCTGGCCTGGCTGGTTCC  364
+JBPKRI010000003.1  30636554  .......A.........C.T..T........C............................  30636613
+
+Query_1            365       TGTGTGGCCCGGCAGAGCCCCAGCAGCCAGTACAGCTCACCAAGGAGAGTGAGCCCTCAG  424
+JBPKRI010000003.1  30636614  .C.C....T.CT.T..A.....T.....CA.G.GA..T..........A...........  30636673
+
+Query_1            425       CCCGTACCAAGTTTTACTTTGAACAGAGCTGGTAG  459
+JBPKRI010000003.1  30636674  ....C..TG.A.................TC.....  30636708
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1106079930010
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,95 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_005122.5_cds_NP_005113.1_1 [gene=NR1I3]
+[db_xref=CCDS:CCDS1228.1] [protein=nuclear receptor subfamily 1
+group I member 3 isoform 3] [protein_id=NP_005113.1]
+[location=197..1243] [gbkey=CDS]
+
+Length=1047
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000005.1 Antilocapra americana strain Pronghorn03 vouche...  204     9e-50
+JBPKRI010000076.1 Antilocapra americana strain Pronghorn03 vouche...  54.7    9e-05
+
+
+
+Query_1            1         ATGGCCAGTAGGGAAGATGAGCTGAGGAACTGTGTGGTATGTGGGGACCAAGCCACAGGC  60
+JBPKRI010000005.1  7294406   .........G............CA..A.....C.CA.............GG..T..G...  7294347
+
+Query_1            61        TACCACTTTAATGCGCTGACTTGTGAGGGCTGCAAGGGTTTCTTCAGG--AGAACAGTCA  118
+JBPKRI010000005.1  7293729                                               ....--C.........  7293716
+JBPKRI010000005.1  7294346   ........CC....C..C..............................TG.....       7294292
+
+Query_1            119       GCAAAAGCATTGGTCCCACCTGCCCCTTTGCTGGAAGCTGTGAAGTCAGCAAGACTCAGA  178
+JBPKRI010000005.1  7293715   A........CCA...T...G.......................G....A....G.C....  7293656
+
+Query_1            179       GGCGCCACTGCCCAGCCTGCAGGTTGCAGAAGTGCTTAGATGCTGGCATGAGGAAAGACA  238
+JBPKRI010000005.1  7292468                                                            ...  7292466
+JBPKRI010000005.1  7293655   .....................................G.............A...G....  7293596
+
+Query_1            239       -TGATACTGTCGGCAGAAGCCCTGGCATTGCGGCGAGCAAAGCAGGCCCAGCGGCGGGCA  297
+JBPKRI010000005.1  7292465   G....C..A...............................GA...........A......  7292406
+JBPKRI010000005.1  7293595   G...                                                          7293592
+
+Query_1            298       CAGCAAACACCTGTGCAACTGAGTAAGGAGCAAGAAGAGCTGATCCGGACACTCCTGGGG  357
+JBPKRI010000005.1  7292405   ......G..T.GA..G.G..............GA.......AG.................  7292346
+
+Query_1            358       GCCCACACCCGCCACATGGGCACCATGTTTGAACAGTTTGTGCAGTTTAGGCCTCCAGCT  417
+JBPKRI010000005.1  7292345   ........T.....TG................C..............C...           7292295
+JBPKRI010000005.1  7291870                                                     ...A......  7291861
+
+Query_1            418       CATCTGTTCATCCATCACCAGCCCTTGCCCACCCTGGCCCCTGTGCTGCCTCTGGTCACA  477
+JBPKRI010000005.1  7291860   ......................G..............T......A.....C...C...TG  7291801
+
+Query_1            478       CACTTCGCAGACATCAACACTTTCATGGTACTGCAAGTCATCAAGTTTACTAAGGACCTG  537
+JBPKRI010000005.1  7291800   ..T..T......G...T..............A...GA..........C..C.....T...  7291741
+
+Query_1            538       CCCGTCTTCCGTTCCCTGCCCATTGAAGACCAGATCTCCCTTCTCAAGGGAGCAGCTGTG  597
+JBPKRI010000005.1  7291740   ...C....T..                                                   7291730
+JBPKRI010000005.1  7291501                   .......G..G..............................A.A  7291458
+
+Query_1            598       GAAATCTGTCACATCGTACTCAATACCACTTTCTGTCTCCAAACACAAAACTTCCTCTGC  657
+JBPKRI010000005.1  7291457   ...........T..T.C...T..C...................................T  7291398
+
+Query_1            658       GGGCCTCTTCGCTACACAATTGAAGATGGAGCCCGTGTGGGGTTCCAGGTAGAGTTTTTG  717
+JBPKRI010000005.1  7291397   ....................A.....C.C...                              7291366
+
+Query_1            718       GAGTTGCTCTTTCACTTCCATGGAACACTACGAAAACTGCAGCTCCAAGAGCCTGAGTAT  777
+JBPKRI010000076.1  10038472                                                      ........  10038479
+
+Query_1            778       GTGCTCTTGGCTGCCATGGCC  798
+JBPKRI010000076.1  10038480  .....................  10038500
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2616006412764
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

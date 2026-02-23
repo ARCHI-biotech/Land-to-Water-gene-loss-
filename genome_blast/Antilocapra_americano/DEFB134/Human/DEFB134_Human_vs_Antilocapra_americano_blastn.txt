@@ -1,0 +1,55 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_001302695.2_cds_NP_001289624.1_1 [gene=DEFB134]
+[db_xref=CCDS:CCDS34847.1] [protein=beta-defensin 134 precursor]
+[protein_id=NP_001289624.1] [location=93..293] [gbkey=CDS]
+
+Length=201
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000219.1 Antilocapra americana strain Pronghorn03 vouche...  150     2e-34
+
+
+
+Query_1            68       CATTATCATCAGAAATGCACAAGAA-ATGCTATAAAAATGGCATCTGCAGACTTGAATGC  126
+JBPKRI010000219.1  1093382  ..............T.AT...-...G...T...........G.C.......T....G...  1093324
+
+Query_1            127      TATGAGAGTGAAATGTTAGTTGCCTACTGTATGTTTCAGCTGGAGTGCTGTGTCAAAGGA  186
+JBPKRI010000219.1  1093323  .T..GA.............................................C........  1093264
+
+Query_1            187      AATCCTG  193
+JBPKRI010000219.1  1093263  ..C....  1093257
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 445004461106
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

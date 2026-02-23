@@ -1,0 +1,112 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_033219.3_cds_NP_150088.1_1 [gene=TRIM14]
+[db_xref=CCDS:CCDS6734.1] [protein=tripartite motif-containing
+protein 14] [protein_id=NP_150088.1] [location=35..1363] [gbkey=CDS]
+
+Length=1329
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000262.1 Antilocapra americana strain Pronghorn03 vouche...  708     0.0  
+
+
+
+Query_1            64       TGGCGCTGCCCGGAGCATGGCGACCGCGTGGCTGAGCTCTTCTGTCGCCGCTGCCGCCGC  123
+JBPKRI010000262.1  3034120  .........T.A.....C........G....T............C...............  3034179
+
+Query_1            124      TGCGTGTGCGCGCTTTGCCCGGTGCTGGGCGCGCACCGTGGCCACCCTGTGGGCCTGGCG  183
+JBPKRI010000262.1  3034180  ..............G...............T.......C..A.....G..C..TT.....  3034239
+
+Query_1            184      CTGGAGGCAGCGGTGCACGTGCAGAAACTCAGCCAAGAATGTTTAAAGCAGCTGGCAATC  243
+JBPKRI010000262.1  3034240  .....C.AG....C..G.......                                      3034263
+
+Query_1            244      AAGAAGCAGCAGCACATTGACAACATAACCCAGATAGAAGATGCCACCGAGAAGCTCAAG  303
+JBPKRI010000262.1  3043928                                                            ..  3043929
+
+Query_1            304      GCTAATGCAGAGTCAAGTAAAACCTGGCTGAAGGGGAAATTCACTGAACTCAGATTACTA  363
+JBPKRI010000262.1  3043930  ...C...........................CCA.T.....T..................  3043989
+
+Query_1            364      CTTGACGAAGAGGAAGCGCTGGCCAAGAAATTCATTGATAAAAACACGCAGCTTACCCTC  423
+JBPKRI010000262.1  3043990  .....A...........T.............................A...T..G.T..G  3044049
+
+Query_1            424      CAGGTGTACAGGGAACAAGCTGACTCTTGCAGAGAGCAACTTGACATCATGAATGATCTC  483
+JBPKRI010000262.1  3044050  .G..CA....CA..G...ATCA.G.....TG.G..A...A.C..TG..G....CAC...G  3044109
+
+Query_1            484      TCCAACAGGGTCTGGAGTATCAGCCAGGAGCCCGATCCTGTCCAGAGGCTTCAGGCATAC  543
+JBPKRI010000262.1  3044110  ................C......T..A..AA..A.......A...CT...G....       3044164
+JBPKRI010000262.1  3047989                                                     ....AG...  3047997
+
+Query_1            544      ACGGCCACCGAGCAGGAGATGCAGCAGCAGATGAGCCTCGGGGAGCTGTGCCATCCCGTG  603
+JBPKRI010000262.1  3047998  ..A...G.T......C....A.................G...........T..C..T...  3048057
+
+Query_1            604      CCCCTCTCCTTTGAGCCCGTCAAGAGCTTCTTTAAGGGCCTCGTGGAAGCCGTGGAGAG-  662
+JBPKRI010000262.1  3048058  ....A...A............................A.............A..C....C  3048117
+
+Query_1            663      -TACATTACAGACGCCATTGGACATTCGCCTTAAGGAAAGCATAAACTGCCAGCTCTCAG  721
+JBPKRI010000262.1  3048118  C.G.-.G-.........C....TG.C..............                      3048155
+
+Query_1            722      ACCCTTCCAGCACCAAGCCAGGTACCTTGTTGAAAACCAGCCCCTCACCAGAGCGATCGC  781
+
+Query_1            782      TATTGCTGAAATACGCGCGCACGCCCACGCTGGATCCTGACACGATGCACGCGCGCCTGC  841
+JBPKRI010000262.1  3054062              ....C.........TGT.....G..G..................T...  3054109
+
+Query_1            842      GCCTGTCCGCCGATCGCCTGACGGTGCGCTGCGGCCTGCTGGGCAGCCTGGGGCCCGTGC  901
+JBPKRI010000262.1  3054110  ....T..T..T..C.T.....................C......C.......A...ACT.  3054169
+
+Query_1            902      CCGTGCTGCGGTTCGACGCGCTCTGGCAAGTGCTG-GCTCGTGACTGCTTCGCCACCGGC  960
+JBPKRI010000262.1  3054170  ...C......T...........G.....G......A..-..C............G.T...  3054228
+
+Query_1            961      CGCCACTACTGGGAGGTTGACGTGCAGGAGGCGGGCGCCGGCTGGTGGGTGGGCGCGGCC  1020
+JBPKRI010000262.1  3054229  ..............A..G..............C....T......................  3054288
+
+Query_1            1021     TACGCCTCCCTTCGGCGCCGCGGGGCCTCGGCCGCCGCCCGCCTGGGCTGCAACCGCCAG  1080
+JBPKRI010000262.1  3054289  ....G......G.......A........................................  3054348
+
+Query_1            1081     TCCTGGTGCCTCAAGCGCTACGACCTTGAGTACTGGGCCTTCCACGACGGCCAGCGCAGC  1140
+JBPKRI010000262.1  3054349  ..............A........T..A.................................  3054408
+
+Query_1            1141     CGCCTGCGGCCCCGCGACGACCTCGACCGGCTCGGCGTCTTCCTGGACTACGAGGCCGGC  1200
+JBPKRI010000262.1  3054409  .............A.C......CT...........T...........T............  3054468
+
+Query_1            1201     GTCCTCGCCTTCTACGACGTGACGGGCGGCATGAGCCACCTGCATACCTTCCGCGCCACG  1260
+JBPKRI010000262.1  3054469  .....G...........T..........................C........G...G.C  3054528
+
+Query_1            1261     TTCCAGGAGCCGCTCTACCCGGCCCTGCGGCTCTGGGAGGGGGCCATCAGCATCCCCCGG  1320
+JBPKRI010000262.1  3054529  ......................................A...............T.....  3054588
+
+Query_1            1321     CTGCCCTAG  1329
+JBPKRI010000262.1  3054589  .........  3054597
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3341388721908
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

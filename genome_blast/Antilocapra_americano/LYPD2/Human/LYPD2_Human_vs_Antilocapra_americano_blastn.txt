@@ -1,0 +1,53 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_205545.3_cds_NP_991108.1_1 [gene=LYPD2]
+[db_xref=CCDS:CCDS6388.1] [protein=ly6/PLAUR domain-containing
+protein 2 precursor] [protein_id=NP_991108.1] [location=82..459]
+[gbkey=CDS]
+
+Length=378
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000460.1 Antilocapra americana strain Pronghorn03 vouche...  91.6    2e-16
+
+
+
+Query_1            82    TGTCCGGAGCCCACAGGAGTGTCGGACTGTGTCACCATCGCCACCTGCACCACCAACGAA  141
+JBPKRI010000460.1  1874  .....A.......TC.CC.....CAG.............A.........ATG....T..G  1815
+
+Query_1            142   ACCATGTGCAAGACCACACTCTACTCCCGGGAGATAG  178
+JBPKRI010000460.1  1814  ............................T.....C..  1778
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 897725338543
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

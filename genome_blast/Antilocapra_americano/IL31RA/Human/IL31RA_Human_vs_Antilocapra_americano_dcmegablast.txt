@@ -1,0 +1,620 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=277
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000110.1 Antilocapra americana strain Pronghorn03 vouche...  104     3e-20
+JBPKRI010000256.1 Antilocapra americana strain Pronghorn03 vouche...  83.3    1e-13
+JBPKRI010000069.1 Antilocapra americana strain Pronghorn03 vouche...  82.4    1e-13
+JBPKRI010000194.1 Antilocapra americana strain Pronghorn03 vouche...  77.9    4e-12
+JBPKRI010000142.1 Antilocapra americana strain Pronghorn03 vouche...  77.9    4e-12
+JBPKRI010000108.1 Antilocapra americana strain Pronghorn03 vouche...  77.9    4e-12
+JBPKRI010000154.1 Antilocapra americana strain Pronghorn03 vouche...  75.2    1e-11
+JBPKRI010000030.1 Antilocapra americana strain Pronghorn03 vouche...  73.4    5e-11
+JBPKRI010000419.1 Antilocapra americana strain Pronghorn03 vouche...  71.6    2e-10
+JBPKRI010000011.1 Antilocapra americana strain Pronghorn03 vouche...  70.7    6e-10
+JBPKRI010000246.1 Antilocapra americana strain Pronghorn03 vouche...  69.8    6e-10
+JBPKRI010000187.1 Antilocapra americana strain Pronghorn03 vouche...  68.0    2e-09
+JBPKRI010000205.1 Antilocapra americana strain Pronghorn03 vouche...  65.3    3e-08
+JBPKRI010000045.1 Antilocapra americana strain Pronghorn03 vouche...  65.3    3e-08
+JBPKRI010000087.1 Antilocapra americana strain Pronghorn03 vouche...  50.9    6e-04
+
+
+
+Query_1            1         ACAGCCTCCTTCTGC--TTAGGAAC-ACCAGACAGCACTCCAGCACTCTGCTTGGGGGGC  57
+JBPKRI010000110.1  4924516                 .--........-..T..G.......T.......ACA........C.  4924558
+JBPKRI010000256.1  8585170                     ...A...-..TG.........T.......AG....T....T.  8585210
+JBPKRI010000069.1  8311146   .....T.T...G.A.--...A....-C.T.A.T......TTG.....A......A...CA  8311090
+JBPKRI010000194.1  5924933                     .......-..T.A........T.......A............  5924893
+JBPKRI010000142.1  123000                  .--........-..A..G.......T....C.............C.  123042
+JBPKRI010000108.1  3366849                      ......-.............T..A....G......A...C.  3366810
+JBPKRI010000154.1  2330647               ...--........-..TT.........T.....T.ACT.C......C.  2330603
+JBPKRI010000030.1  6744490   .......TA..GCA.--........-..T..........T.......A..T.......C.  6744434
+JBPKRI010000419.1  619798    .......T.--....AT........C......G........-----............C.  619746
+JBPKRI010000011.1  19179629                                      ...T.......G.........C-.  19179607
+JBPKRI010000187.1  2814246     .....T...GCC.--....A...-.............T.......A.....-....C.  2814193
+JBPKRI010000205.1  7409928   .......TT..G.A.--......G.-.AT..........T.......A........A.C.  7409984
+JBPKRI010000087.1  8066283                                           .......A.T........C.  8066264
+
+Query_1            58        ATTCGAAACAGCAAAATCAC--TCATA--AAAGGCAAAAAATTGCAAA-AAAAAATAGTA  112
+JBPKRI010000110.1  4924559   ...T................--CA...GG.....A....------...-.G.GGC...A.  4924609
+JBPKRI010000256.1  8585211   .C.TT...TG.......--------------T.C.......AA..C..-...T..AT..G  8585255
+JBPKRI010000069.1  8311089   ...TTC.GT-.T........--CA.C.--GG.AA.......C.AT...-...C..----.  8311040
+JBPKRI010000194.1  5924892   ...TT...A.A.......G.CA...G.--...CA......                      5924855
+JBPKRI010000142.1  123043    ...TT.....A.....C..G--CA.CT--GG.A...C....A......-...          123089
+JBPKRI010000108.1  3366809   ...TT...............                                          3366790
+JBPKRI010000154.1  2330602   ...TT........G.....T--CA.C.--...T.TGC...GA......C.......G...  2330547
+JBPKRI010000154.1  14073455                                       ......T....-...GT..G..G  14073434
+JBPKRI010000030.1  6744433   .-C.TG..T.ATG.T.....--CA.C.--...A.T.C....A......-.----------  6744390
+JBPKRI010000419.1  619745    .C.TT...............--.A.C.--...-C.C.G...G.A....-..           619701
+JBPKRI010000011.1  19179606  ...TT........C.GG...--.....--...A...C....A...C..-....-----CC  19179557
+JBPKRI010000187.1  2814192   C..TT.....A...C.A..-------.--...------------..C.-C.......--.  2814157
+JBPKRI010000205.1  7409985   ...-T......TG..G....--CA.C.--...                              7410011
+JBPKRI010000087.1  8066263   ...T.......AG.......---..--------C......---.....T..G....GCA.  8066218
+
+Query_1            113       ATAACCAGCATGGCACTAAATAGAC-CAT-GA-AAAG---A---CA-TG-T------GTG  155
+JBPKRI010000110.1  4924610   ..-------G..A...-...A.AC.-..C-A.-..G.---.---..-CC-.------..T  4924644
+JBPKRI010000256.1  8585256   GG...---TG..T...........G-...-..-....---.ACG..-.----------.T  8585295
+JBPKRI010000069.1  8311039   .C..--.A..............A.T-TG.-..-....G--.---G.G..A.------..A  8310996
+JBPKRI010000154.1  2330546   C...                                                          2330543
+JBPKRI010000154.1  14073433  .A..A..T----.....C.......-...-..-....GAC.---.T-..-.TTACAA...  14073386
+JBPKRI010000030.1  6744389   ------.............G.....-TT.-..-....A--.---T.-CT-.------..T  6744352
+JBPKRI010000011.1  19179556  CC..AA.A.T........C...A..-TGG-..G.G..---.---..-.T-.------...  19179513
+JBPKRI010000187.1  2814156   .C..AA.C..C......G..G....-...G..-..G.---.---T.-CT-.------..T  2814113
+JBPKRI010000087.1  8066217   ....----TG..A.......A....TG.G-A.-....---G---..-----------C.T  8066181
+
+Query_1            156       TGCAGTA-TGA-AA-ATTGAGACAGGAAGGCAGAGTGTCAGCTTGTTCCACCTCAGCTGG  212
+JBPKRI010000110.1  4924645   .TT..G.-...-..-.CA..A..CA...A.......A...C.......A......A...A  4924701
+JBPKRI010000256.1  8585296   .A.....-...-..-GA...A...A..T.T.....A.AA.C...AC.TG..........A  8585352
+JBPKRI010000069.1  8310995   .AT....-...-G.-GC.A.AC..A-.........A....T.........T........A  8310940
+JBPKRI010000154.1  14073385  .T..T.TC...-..T.A...A.T.A...........AC..C......TG.......T...  14073327
+JBPKRI010000030.1  6744351   .A...G.-A..GG.-GC.A.A...A....A.........                       6744315
+JBPKRI010000011.1  19179512  .ATCA..-...-GG-GC..GAG..A.-....--....C..T...A..TG...........  19179459
+JBPKRI010000246.1  959921                         ...T...............C......TG.T.C.......  959959
+JBPKRI010000187.1  2814112   .....G.-...                                                   2814103
+JBPKRI010000045.1  1077344                        ...A.........A.A...........A...........  1077382
+JBPKRI010000087.1  8066180   .AT....-G..-G.-GC...A....--..--...ACT.TGC...A..TG..T........  8066128
+
+Query_1            213       GA--ATGTG--CA--TCAGGCAACTCAAGTTTTTCAC-CACGGCATGTGTCTGTGAATGT  265
+JBPKRI010000110.1  4924702   ..                                                            4924703
+JBPKRI010000256.1  8585353   ..--.....                                                     8585359
+JBPKRI010000069.1  8310939   ..--G....                                                     8310933
+JBPKRI010000154.1  14073326  ..--.....--.                                                  14073319
+JBPKRI010000011.1  19179458  .                                                             19179458
+JBPKRI010000246.1  959960    ..--.....--..TG.GG..TG......A........                         959992
+JBPKRI010000045.1  1077383   C.--T....TA.G--...A.-G..........A.G..A.C.T.TGC.......CA....A  1077437
+JBPKRI010000087.1  8066127   ..CT.....--..--.T.T.TG......A........                         8066095
+
+Query_1            266       CCGCA-AAACATT  277
+JBPKRI010000045.1  1077438   ..A..C...T...  1077450
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 632780013342
+
+
+Query= exon_2
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000288.1 Antilocapra americana strain Pronghorn03 vouche...  78.8    4e-13
+JBPKRI010000104.1 Antilocapra americana strain Pronghorn03 vouche...  78.8    4e-13
+JBPKRI010000101.1 Antilocapra americana strain Pronghorn03 vouche...  78.8    4e-13
+JBPKRI010000024.1 Antilocapra americana strain Pronghorn03 vouche...  78.8    4e-13
+JBPKRI010000010.1 Antilocapra americana strain Pronghorn03 vouche...  78.8    4e-13
+JBPKRI010000352.1 Antilocapra americana strain Pronghorn03 vouche...  74.3    2e-11
+JBPKRI010000242.1 Antilocapra americana strain Pronghorn03 vouche...  74.3    2e-11
+JBPKRI010000095.1 Antilocapra americana strain Pronghorn03 vouche...  74.3    2e-11
+JBPKRI010000034.1 Antilocapra americana strain Pronghorn03 vouche...  74.3    2e-11
+JBPKRI010000112.1 Antilocapra americana strain Pronghorn03 vouche...  73.4    2e-11
+JBPKRI010000016.1 Antilocapra americana strain Pronghorn03 vouche...  64.4    9e-09
+JBPKRI010000085.1 Antilocapra americana strain Pronghorn03 vouche...  59.0    4e-07
+
+
+
+Query_2            46        GCTCACTGCAACCTCTGCCTCCCGGGTTCAAGCGATTCTCCTGCCTCAGCCTCCCGAGTA  105
+JBPKRI010000288.1  218101    ..G.......G..CAGAA....T...C.........C....A..................  218042
+JBPKRI010000104.1  20583072  ..G.......G..CAGAA....T...C.........C....A..................  20583013
+JBPKRI010000101.1  3688907   ..G.......G..CAGAA....T.A.C.........C....A..................  3688848
+JBPKRI010000024.1  13233256  ..A.......G..CAGAA....T.A.C.........C....A..................  13233197
+JBPKRI010000010.1  7869477   ..G.......G..CAGAA....T...C.........C....A..................  7869418
+JBPKRI010000010.1  8042018   ..G.......G..CAGAA....T.A.C.........C....A..................  8042077
+JBPKRI010000010.1  8049052   ..G.......G..CAGAA....T...C.........C....A..................  8049111
+JBPKRI010000010.1  14960031  ..G.......G..CAGAA....T.A.C.........C....A..................  14959972
+JBPKRI010000352.1  1391307   ..G.......G..CAGAA....T...C.T.......C....A..................  1391248
+JBPKRI010000242.1  3174473   ..G.......G..CGGAA....T.A.C.........C....A..................  3174532
+JBPKRI010000095.1  130592    ..G.......G..CAGAA....T.A.C.........C....A..................  130533
+JBPKRI010000034.1  1552090   ..G.......G..CAGAA....T.A.C.........C....A..................  1552149
+JBPKRI010000034.1  16563066                    ....T.A.C......A..C....A..................  16563025
+JBPKRI010000112.1  1119697                     ....T.A.C.........C....A..................  1119656
+JBPKRI010000016.1  25332914                    ....T.A.C.....T...C....A............A.....  25332955
+JBPKRI010000085.1  3605725   ..G....A..G...AGAA....T...C.T..A....C....A............A.....  3605784
+
+Query_2            106       GCTGGGATTACAG  118
+JBPKRI010000288.1  218041    .......C.....  218029
+JBPKRI010000104.1  20583012  .......C.....  20583000
+JBPKRI010000101.1  3688847   .............  3688835
+JBPKRI010000024.1  13233196  .............  13233184
+JBPKRI010000010.1  7869417   .......C.....  7869405
+JBPKRI010000010.1  8042078   .............  8042090
+JBPKRI010000010.1  8049112   .......C.....  8049124
+JBPKRI010000010.1  14959971  .......C.....  14959959
+JBPKRI010000352.1  1391247   .......C.....  1391235
+JBPKRI010000242.1  3174533   .......C.....  3174545
+JBPKRI010000095.1  130532    .......C.....  130520
+JBPKRI010000034.1  1552150   .......C.....  1552162
+JBPKRI010000034.1  16563024  .......C.....  16563012
+JBPKRI010000112.1  1119655   .......C.....  1119643
+JBPKRI010000016.1  25332956  ....A........  25332968
+JBPKRI010000085.1  3605785   .......        3605791
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 226360436896
+
+
+Query= exon_3
+
+Length=246
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  159     1e-36
+
+
+
+Query_3            4        ACAATAATGCAATCCATTTCCCAGCATAAGTGGG-TAAGTGCCACTTTGACTTGGGCTGG  62
+JBPKRI010000015.1  6064877  ...........C......................T..........CC..G......G...  6064818
+
+Query_3            63       GCTTAAAAGCACAAGAAAAGCTCGCAGACAATCAGAGTGGAAACACTCCCACATCTTAGT  122
+JBPKRI010000015.1  6064817  ...........A.G.......C.TTG...---.....A.........TG..T.A..--..  6064763
+
+Query_3            123      GTGGATAAATTAAAGTCCAGATTGTTCTTCCTGTCCTGACTTGTGCTGTGGGAGGTGGAG  182
+JBPKRI010000015.1  6064762  ..T.........C.AA...-----C...C.T..CT..C.............A..ACA...  6064708
+
+Query_3            183      TTGCCTTTGATGCAAATCCTTTGAGCCAGCAGAACATCTGTGGAACATCCCCTGATACAT  242
+JBPKRI010000015.1  6064707  -CA.........TGG...T...T.AA.........C.......G.T.C.A..CC.C...G  6064649
+
+Query_3            243      GAAG  246
+JBPKRI010000015.1  6064648  ....  6064645
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 553039442555
+
+
+Query= exon_4
+
+Length=91
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  69.8    2e-10
+
+
+
+Query_4            29       TGGGGATGATGTGGACCTGGGCACTGTGGATGCTCCCCTCACTCTGCAAATTCAGCCTGG  88
+JBPKRI010000015.1  6059135  ......CA......G.....A.........C......TCT............TG......  6059076
+
+Query_4            89       CAG  91
+JBPKRI010000015.1  6059075  ...  6059073
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 159481292234
+
+
+Query= exon_5
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  118     5e-25
+
+
+
+Query_5            3        CTGCCAGCTAAGCCTGAGAACATTTCCTGTGTCTACTACTATAGGAAAAATTTAACCTGC  62
+JBPKRI010000015.1  6045915  ..........................T..C....T..................T..T...  6045856
+
+Query_5            63       ACTTGGAGTCCAGGAAAGGAAACCAGTTATACCCAGTACACAGTTAAGAGAACTT  117
+JBPKRI010000015.1  6045855  ..C..........AGG.A...G.T....T..TATCA........C.G........  6045801
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 226360436896
+
+
+Query= exon_6
+
+Length=182
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 388413748027
+
+
+Query= exon_7
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  150     4e-34
+
+
+
+Query_7            3        AAAACTGAACCACCTAAGATTTTCCGTGTGAAACCAGTTTTGGGCATCAAACGAATGATT  62
+JBPKRI010000015.1  6038081  ....TC..G.............C.A....................C......A....G..  6038022
+
+Query_7            63       CAAATTGAATGGATAAAGCCTGAGTTGGCGCCTGTTTCATCTGATTTAAAATACACACTT  122
+JBPKRI010000015.1  6038021  .....AA......C.C......T......A...AAG......AC......T..T......  6037962
+
+Query_7            123      CGATTCAGGACAGTCAACAGTACCAGCTGG  152
+JBPKRI010000015.1  6037961  ........AG....A..T......CA....  6037932
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 313817878424
+
+
+Query= exon_8
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  147     2e-33
+
+
+
+Query_8            1        ATGGAAGTCAACTTCGCTAAGAACCGTAAGGATAAAAACCAAACGTACAACCTCACGGGG  60
+JBPKRI010000015.1  6031761  ...............A.C..A.G.T..GT.A..G..G.AG..G.A...........A...  6031702
+
+Query_8            61       CTGCAGCCTTTTACAGAATATGTCATAGCTCTGCGATGTGCGGTCAAGGAGTCAAAGTTC  120
+JBPKRI010000015.1  6031701  ......G..........G..C..TG...T.....A.....T..CTC.CA......G....  6031642
+
+Query_8            121      TGGAGTGACTGGAGCCAAGAAAAAATGGGAATGACTGAGGAAGAAG  166
+JBPKRI010000015.1  6031641  .......G......T.................A....TA.......  6031596
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 349829766112
+
+
+Query= exon_9
+
+Length=80
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 131186224257
+
+
+Query= exon_10
+
+Length=217
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  249     8e-64
+
+
+
+Query_10           1        AAGGCAAGAGGAGCCCCAGTCCTAGAGAAAACACTTGGCTACAACATATGGTACTATCCA  60
+JBPKRI010000015.1  6021207  .......A...............G......GT......T..............T.T....  6021148
+
+Query_10           61       GAAAGCAACACTAACCTCACAGAAACAATGAACACTACTAACCAGCAGCTTGAACTGCAT  120
+JBPKRI010000015.1  6021147  ....A...T......T.......G.........................C.......T.C  6021088
+
+Query_10           121      CTGGGAGGCGAGAGCTTTTGGGTGTCTATGATTTCTTATAATTCTCTTGGGAAGTCTCCA  180
+JBPKRI010000015.1  6021087  ......AA.C...C..A....A.ACA.G.........................A..G...  6021028
+
+Query_10           181      GTGGCCACCCTGAGGATTCCAGCTATTCAAGAAAA  215
+JBPKRI010000015.1  6021027  .A.......T...............C.G.T.....  6020993
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 478443424722
+
+
+Query= exon_11
+
+Length=183
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  147     2e-33
+
+
+
+Query_11           3        TTTCAGTGCATTGAGGTCATGCAGGCCTGCGTTGCTGAGGACCAGCTAGTGGTGAAGTGG  62
+JBPKRI010000015.1  6015135  ..C........C....C......CA..A..C.CA..C..........G......G.A...  6015076
+
+Query_11           63       CAAAGCTCTGCTCTAGACGTGAACACTTGGATGATTGAATGGTTTCCGGATGTGGACTCA  122
+JBPKRI010000015.1  6015075  ..............G..G..CG.T..A......G.G..G...G.C..A..CT........  6015016
+
+Query_11           123      GAGCCCACCACCCTTTCCTGGGAATCTGTGTCTCAGGCCACGAACTGGACGATCCAGCAA  182
+JBPKRI010000015.1  6015015  A.....TTGG..A..G.......G...........CA...G.........A..T......  6014956
+
+Query_11           183      G  183
+JBPKRI010000015.1  6014955  .  6014955
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 390986024504
+
+
+Query= exon_12
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  136     1e-30
+
+
+
+Query_12           1        ATAAATTAAAACCTTTCTGGTGCTATAACATCTCTGTGTATCCAATGTTGCATGACAAAG  60
+JBPKRI010000015.1  6013952  ..G..C.G....................T.......................AA..CG..  6013893
+
+Query_12           61       TTGGCGAGCCATATTCCATCCAGGCTTATGCCAAAGAAGG  100
+JBPKRI010000015.1  6013892  .G............................T.........  6013853
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 185203993824
+
+
+Query= exon_13
+
+Length=147
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  149     4e-34
+
+
+
+Query_13           1        TTCCATCAGAAGGTCCTGAGACCAAGGTGGAGAACATTGGCGTGAAGACGGTCACGATCA  60
+JBPKRI010000015.1  6013041  ....T.T..C......CAT...G....C............T....G...A.....A..T.  6012982
+
+Query_13           61       CATGGAAAGAGATTCCCAAGAGTGAGAGAAAGGGTATCATCTGCAACTACACCATCTTTT  120
+JBPKRI010000015.1  6012981  .......G............CA.C.......T...T.....AA...T........A....  6012922
+
+Query_13           121      ACCAAGCTGAAGGTGGAAAAGGATTCT  147
+JBPKRI010000015.1  6012921  ............A......G.A.....  6012895
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 300956489964
+
+
+Query= exon_14
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  180     2e-43
+
+
+
+Query_14           1        CCAAGACAGTCAATTCCAGCATCTTGCAGTACGGCCTGGAGTCCCTGAAACGAAAGACCT  60
+JBPKRI010000015.1  6011028  ..........G..C.........C.......T.A..............C...........  6010969
+
+Query_14           61       CTTACATTGTTCAGGTCATGGCCAGCACCAGTGCTGGGGGAACCAACGGGACCAGCATAA  120
+JBPKRI010000015.1  6010968  .....GC..................................G.T..T..C.....G....  6010909
+
+Query_14           121      ATTTCAAGACATTGTCA  137
+JBPKRI010000015.1  6010908  .C...........A...  6010892
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 285522823812
+
+
+Query= exon_15
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000015.1 Antilocapra americana strain Pronghorn03 vouche...  121     1e-25
+
+
+
+Query_15           1        GTGTCTTTGAGATTATCCTCATAACTTCTCTGATTGGTGGAGGCCTTCTTATTCTCATTA  60
+JBPKRI010000015.1  6008218  ..............T.T..TG....A......G....A..G.................C.  6008159
+
+Query_15           61       TCCTGACAGTGGCATATGGTCTCAAAAAACCCAA  94
+JBPKRI010000015.1  6008158  ...................CA.............  6008125
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 167198128955
+
+
+Query= exon_16
+
+Length=82
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 136330782071
+
+
+Query= exon_17
+
+Length=191
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 411564236320
+
+
+Query= exon_18
+
+Length=37
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 25722813370
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

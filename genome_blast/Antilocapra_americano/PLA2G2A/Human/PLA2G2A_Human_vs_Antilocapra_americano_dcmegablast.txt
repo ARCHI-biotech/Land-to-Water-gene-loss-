@@ -1,0 +1,167 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=73
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113180271908
+
+
+Query= exon_2
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000538.1 Antilocapra americana strain Pronghorn03 vouche...  59.0    4e-07
+
+
+
+Query_2            11     CACCTACCCCCAACCTCCCAGAGGGAGCAGCTATTTAAGGGGAGCAGGAGTGCAGAACAA  70
+JBPKRI010000538.1  82272  ....A........G............T...........------.T.....C.....T..  82219
+
+Query_2            71     ACAAGACGG---CCTGGGGA-TACAACTCTGGAGTCCTCTGAGA  110
+JBPKRI010000538.1  82218  CT.G.G...TCA.T...A..T.TT....-...GA..........  82176
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 208354493052
+
+
+Query= exon_3
+
+Length=146
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 298384212272
+
+
+Query= exon_4
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000538.1 Antilocapra americana strain Pronghorn03 vouche...  150     4e-34
+
+
+
+Query_4            1       GCCTACTGCAGGCCCATGGGAATTTGGTGAATTTCCACAGAATGATCAAGTTGACGACAG  60
+JBPKRI010000538.1  81172   ...C........T......AGG....C..G.......G.A............C.......  81113
+JBPKRI010000538.1  110322  ....G.......T......AGG....C..G.......G.A............C..C....  110263
+JBPKRI010000538.1  131207   ...T..T....T..G...AGC....TG.G.....GC..A..........CAC..C..G.  131149
+JBPKRI010000538.1  122326   ...G.......T......A..C.G..CAG....T..G.A...........AC.T.....  122268
+
+Query_4            61      GAAAGGAAGCCGCACTCAGTTATGGCTTCTACGGCTGCCACTGTGGCGTGGGTGGCAGAG  120
+JBPKRI010000538.1  81112   ........C.T.TGAC.GC........C...T..T...T.......T.............  81053
+JBPKRI010000538.1  110262  ........C.T.TGAC.GC....A.......T..T...T.......A.C.C.........  110203
+JBPKRI010000538.1  131148  .C....G....CTG........CAA.GC...T......T....C..A.............  131089
+JBPKRI010000538.1  122267  A.GGA...C.T.TGAC..C.G..........G......TC...CACA..-..........  122209
+
+Query_4            121     GATCCCCCAAGGATGCAACGGATCG  145
+JBPKRI010000538.1  81052   ..A................A.....  81028
+JBPKRI010000538.1  110202  ..A................A....   110179
+JBPKRI010000538.1  131088  ..G....................    131066
+JBPKRI010000538.1  122208  ..-..........CC..........  122185
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 295811934580
+
+
+Query= exon_5
+
+Length=107
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 198065382284
+
+
+Query= exon_6
+
+Length=143
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 290667379196
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

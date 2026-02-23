@@ -1,0 +1,83 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_003889.4_cds_NP_003880.3_1 [gene=NR1I2]
+[db_xref=CCDS:CCDS43136.1] [protein=nuclear receptor subfamily 1
+group I member 2 isoform 1] [protein_id=NP_003880.3]
+[location=223..1527] [gbkey=CDS]
+
+Length=1305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000002.1 Antilocapra americana strain Pronghorn03 vouche...  165     5e-38
+
+
+
+Query_1            94        GATGAGGAAGTCGGAGGTCCCCAAATCTGCCGTGTATGTGGGGACAAGGCCACTGGCTAT  153
+JBPKRI010000002.1  27907757  ..........AA.AG........G..T.............................T...  27907816
+
+Query_1            154       CACTTCAATGTCATGACATGTGAAGGATGCAAGGGCTTTTTCAGGAGGGCCATGAAACGC  213
+JBPKRI010000002.1  27907817  .............................................                 27907861
+
+Query_1            214       AACGCCCGGCTGAGGTGCCCCTTCCGGAAGGGCGCCTGCGAGATCACCCGGAAGACCCGG  273
+
+Query_1            274       CGACAGTGCCAGGCCTGCCGCCTGCGCAAGTGCCTGGAGAGCGGCATGAAGAAGGAGATG  333
+
+Query_1            334       ATCATGTCCGACGAGGCCGTGGAGGAGAGGCGGGCCTTGATCAAGCGGAAGAAAAGTGAA  393
+
+Query_1            394       CGGACAGGGACTCAGCCACTGGGAGTGCAGGGGCTGACAGAGGAGCAGCGGATGATGATC  453
+
+Query_1            454       AGGGAGCTGATGGACGCTCAGATGAAAACCTTTGACACTACCTTCTCCCATTTCAAGAAT  513
+
+Query_1            514       TTCCGGCTGCCAGGGGTGCTTAGCAGTGGCTGCGAGTTGCCAGAGTCTCTGCAGGCCCCA  573
+
+Query_1            574       TCGAGGGAAGAAGCTGCCAAGTGGAGCCAGGTCCGGAAAGATCTGTGCTCTTTGAAGGTC  633
+
+Query_1            634       TCTCTGCAGCTGCGGGGGGAGGATGGCAGTGTCTGGAACTACAAACCCCCAGCCGACAGT  693
+
+Query_1            694       GGCGGGAAAGAGATCTTCTCCCTGCTGCCCCACATGGCTGACATGTCAACCTACATGTTC  753
+
+Query_1            754       AAAGGCATCATCAGCTTTGCCAAAGTCATCTCCTACTTCAGGGACTTGCCCATCGAGGAC  813
+JBPKRI010000002.1  27915584                                        .......C.T.....A......  27915605
+
+Query_1            814       CAGATCTCCCTGCTGAAGGGGGCCGCTTTCGAGCTGTGTCAACTGAGATTCAACACAGTG  873
+JBPKRI010000002.1  27915606  ..........................C..T...T....C..G..............G...  27915665
+
+Query_1            874       TTCAACGCGGAGACTGGAACCTGGGAGTGTGGCCGGCTGTCCTACTGCTTGGAAGACACT  933
+JBPKRI010000002.1  27915666  ........A.....CA.G...........C..T...........T..TG.......TC..  27915725
+
+Query_1            934       GCAGGTG  940
+JBPKRI010000002.1  27915726  .......  27915732
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3279654057300
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

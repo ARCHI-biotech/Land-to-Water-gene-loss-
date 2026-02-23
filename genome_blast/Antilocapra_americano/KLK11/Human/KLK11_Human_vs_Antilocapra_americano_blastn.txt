@@ -1,0 +1,61 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|XM_047438104.1_cds_XP_047294060.1_1 [gene=KLK11]
+[db_xref=GeneID:11012] [protein=kallikrein-11 isoform X2]
+[protein_id=XP_047294060.1] [location=237..1064] [gbkey=CDS]
+
+Length=828
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000204.1 Antilocapra americana strain Pronghorn03 vouche...  313     1e-82
+
+
+
+Query_1            256      TGTCTCTCCCACCTCAGCCGCTACATAGTTCACCTGGG-GCAGCACAACCTCCAGAAGGA  314
+JBPKRI010000204.1  4131830  ...G........T.......A...G.G...........A..-.....G.T...G.C..C.  4131888
+
+Query_1            315      GGAGGGCTGTGAGCAGACCCGGACAGCCACTGAGTCCTTCCCCCACCCCGGCTTCAACAA  374
+JBPKRI010000204.1  4131889  ...T.................A..T.......................A.A.........  4131948
+
+Query_1            375      CAGCCTCCCCAACAAAGACCACCGCAATGACATCATGCTGGTGAAGATGGCATCGCCA-G  433
+JBPKRI010000204.1  4131949  ...........................C.....................--..G...CC.  4132006
+
+Query_1            434      TCTCCATC--ACCTGGGCTGTGCGACCCCTCACCCTCTCCTCACGCTGTGTCACTGCTGG  491
+JBPKRI010000204.1  4132007  G.-...C.TT........................G.G..AC..T........C.......  4132065
+
+Query_1            492      CACCAGCTGCCTCATTTCCGGCTGGGGCAGCACGTCCAGCCCCCAGT  538
+JBPKRI010000204.1  4132066  .G...A.......................C..T..............  4132112
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2052677598216
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

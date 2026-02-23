@@ -1,0 +1,59 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_001004318.3_cds_NP_001004318.2_1 [gene=ACP7]
+[db_xref=CCDS:CCDS33018.1] [protein=acid phosphatase type 7 isoform
+1 precursor] [protein_id=NP_001004318.2] [location=212..1528]
+[gbkey=CDS]
+
+Length=1317
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000410.1 Antilocapra americana strain Pronghorn03 vouche...  219     4e-54
+
+
+
+Query_1            118     CCAGGTGAGCCAGGCTCCATGACTGTAACTTGGACCACATGGGTCCCAACCCGCTCTGAA  177
+JBPKRI010000410.1  576970  ....A......G.................C........G.........GTG.C.......  577029
+
+Query_1            178     GTGCAATTCGGGTTGCAGCCGTCGGGGCCCCTGCCCCTCCGCGCCCAGGGCACCTTCGTC  237
+JBPKRI010000410.1  577030  .....G.A....C.......T..T............T...AG..T.G..........AG.  577089
+
+Query_1            238     CCCTTTGTGGACGGGGGCATTCTCCGGCGGAAGCTCTACATACACCGAGTCACGCTTCGC  297
+JBPKRI010000410.1  577090  .....................................................C..G..G  577149
+
+Query_1            298     AAGCTGCTGCCAGGGGTTCAGTATG  322
+JBPKRI010000410.1  577150  GGC.......TG.....C.......  577174
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3310521389604
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

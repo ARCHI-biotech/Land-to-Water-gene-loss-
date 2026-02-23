@@ -1,0 +1,118 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= exon_1
+
+Length=46
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000112.1 Antilocapra americana strain Pronghorn03 vouche...  60.0    6e-08
+
+
+
+Query_1            1        ATGGAAGCCTTGGTCTGTGCATTTTCTGAGCTGCACATAAGAGAAG  46
+JBPKRI010000112.1  1713211  ............A.......G..C..........G...........  1713166
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 72024183616
+
+
+Query= exon_2
+
+Length=354
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000112.1 Antilocapra americana strain Pronghorn03 vouche...  262     1e-67
+
+
+
+Query_2            1        ATGCAGTGAGCCAGGCCCAAGGACGCCCCGGCCACCCTGACGCACCCCCCAACATCTACG  60
+JBPKRI010000112.1  1712736  ...........TG..........T..A..A.T...T.C...A.G..A....G........  1712677
+
+Query_2            61       AGGGGGGCCTGGGGTCCCCGCAGCCGCAGTGCCCCAGTGCCCAGGGAAGCAAGCCCAAGA  120
+JBPKRI010000112.1  1712676  ........T.....G...A.....A...........................A.......  1712617
+
+Query_2            121      ACTTCCGGCTGCGCCACCTCCGGGGCCTGGGCCTCTACCTGGAGAGCCACCCGCCACCCA  180
+JBPKRI010000112.1  1712616  ..............................CT.........CC.G......T..AG..TG  1712557
+
+Query_2            181      CTGGCCAGTGTGAGAGCCACTGGCTGGGCCGGCTTATGGCTGGGGGCTGCCTGCCACAGC  240
+JBPKRI010000112.1  1712556  .C..........................T.....CC.A..CA..................  1712497
+
+Query_2            241      CTGAGGGCACAGCCTGGGCCCTGGACCTGCCACAGGGGACTCTGGGCCCACGTAACAGCC  300
+JBPKRI010000112.1  1712496  .C......CTG.T....C........T.AG..................G.GA........  1712437
+
+Query_2            301      TCTGTTCAGCCCTTCTGGAAGCCCGATTGCCCAGGGACAGCCTGGGAA  348
+JBPKRI010000112.1  1712436  A.CAC.................T.A.C...............G.....  1712389
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 859144807228
+
+
+Query= exon_3
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000112.1 Antilocapra americana strain Pronghorn03 vouche...  69.9    3e-10
+
+
+
+Query_3            1        CTTCCAGTTCCAGCATGGACCCAGACAAGGGTGCCCTCCCCCAGCCTAGTCCTTCTAGGC  60
+JBPKRI010000112.1  1711941                                                           ...  1711939
+JBPKRI010000112.1  1712007  ........................C.G.........C.T.....T..G....          1711956
+
+Query_3            61       TCAGGCCCAAGAGGTCCTGGGGGACCTGGGAAGAGGCCATGTGTCCCTTGTGCAAGAGAA  120
+JBPKRI010000112.1  1711938  .......T.....A.........C..CCC..G...A...CA.A.................  1711879
+
+Query_3            121      CCCGCTCTGGGGCCCTGGAGAGGC  144
+JBPKRI010000112.1  1711878  ............GT..........  1711855
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 331825389618
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

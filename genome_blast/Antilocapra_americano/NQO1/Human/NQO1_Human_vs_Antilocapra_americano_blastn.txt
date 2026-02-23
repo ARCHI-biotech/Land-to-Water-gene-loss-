@@ -1,0 +1,87 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+           1,215 sequences; 2,572,314,142 total letters
+
+
+
+Query= lcl|NM_000903.3_cds_NP_000894.1_1 [gene=NQO1]
+[db_xref=CCDS:CCDS10883.1] [protein=NAD(P)H dehydrogenase [quinone]
+1 isoform a] [protein_id=NP_000894.1] [location=122..946]
+[gbkey=CDS]
+
+Length=825
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+JBPKRI010000078.1 Antilocapra americana strain Pronghorn03 vouche...  446     1e-122
+
+
+
+Query_1            9        CAGAAGAGCACTGATCGTACTGGCTCACTCAGAGAGGACGTCCTTCAACTATGCCATGAA  68
+JBPKRI010000078.1  2072530  .....A..........A.......C...................................  2072589
+
+Query_1            69       GGAGGCTGCTGCAGCGGCTTTGAAGAAGAAAGGATGGGAGGTGGTGGAGTCGGACCTCTA  128
+JBPKRI010000078.1  2072590  ......C..CAT..A...........G...............CACT.T.........G..  2072649
+
+Query_1            129      TGCCATGAACTTCAATCCCATCATTTCCAGAAAGGACATCACAGGTAAACTGAAGGACCC  188
+JBPKRI010000078.1  2072650  ..................TG....C.....................                2072695
+
+Query_1            189      TGCGAACTTTCAGTATCCTGCCGAGTCTGTTCTGGCTTATAAAGAAGGCCATCTGAGCCC  248
+
+Query_1            249      AGATATTGTGGCTGAACAAAAGAAGCTGGAAGCCGCAGACCTTGTGATATTCCAGTTCCC  308
+JBPKRI010000078.1  2074285                                                      ........  2074292
+
+Query_1            309      CCTGCAGTGGTTTGGAGTCCCTGCCATTCTGAAAGGCTGGTTTGAGCGAGTGTTCATAGG  368
+JBPKRI010000078.1  2074293  ...........................C....................G...C....C..  2074352
+
+Query_1            369      AGAGTTTGCTTACACTTACGCTGCCATGTATGACAAAGGACCCTTCCGGAGTAAGAAGGC  428
+JBPKRI010000078.1  2074353  G.....C........G..T..............T..G..G..T......-...         2074404
+
+Query_1            429      AGTGCTTTCCATCACCACTGGTGGCAGTGGCTCCATGTACTCTCTGCAAGGGATCCACGG  488
+
+Query_1            489      GGACATGAATGTCATTCTCTGGCCAATTCAGAGTGGCATTCTGCATTTCTGTGGCTTCCA  548
+JBPKRI010000078.1  2076022                              ..........C......C..............  2076053
+
+Query_1            549      AGTCTTAGAACCTCAACTGACATATAGCATTGGGCACACTCCAGCAGACGCCCGAATTCA  608
+JBPKRI010000078.1  2076054  ......G.................C.................C.AG..T.....GG....  2076113
+
+Query_1            609      AATCCTGGAAGGATGGAAGAAACGCCTGGAGAATATTTGGGATGAGACACCACTGTATTT  668
+JBPKRI010000078.1  2076114  G..............................................TG...........  2076173
+
+Query_1            669      TGCTCCAAGCAGCCTCTTTGACCTAAACTTCCAGGCAGGATTCTTAATGAAAAAAGAGGT  728
+JBPKRI010000078.1  2076174  .........T............................................G.....  2076233
+
+Query_1            729      ACAGGATGAGGAGAAAAACAAGAAATTTGGCCTTTCTGTGGGCCATCACTTGGGCAAGTC  788
+JBPKRI010000078.1  2076234  ..........C......GT.........................................  2076293
+
+Query_1            789      CATCCCAACTGACAACCAGATCAAAGCTAGAAAAT  823
+JBPKRI010000078.1  2076294  ........TG.................C.T.....  2076328
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2044960765140
+
+
+  Database: GCA_051176615.1_mAntAme2_p1.1_genomic.fna
+    Posted date:  Feb 10, 2026  9:59 AM
+  Number of letters in database: 2,572,314,142
+  Number of sequences in database:  1,215
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
