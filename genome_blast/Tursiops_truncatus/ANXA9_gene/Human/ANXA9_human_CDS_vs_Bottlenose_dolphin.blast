@@ -1,0 +1,92 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|XM_047431991.1_cds_XP_047287947.1_1 [gene=ANXA9]
+[db_xref=GeneID:8416] [protein=annexin A9 isoform X2]
+[protein_id=XP_047287947.1] [location=2477..3514] [gbkey=CDS]
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  161     5e-37
+
+
+
+Query_1      1         ATGTCTGTGACTGGCGGGAAGATGGCACCGTCCCTCACCCAGGAGATCCTCAGCCACCTG  60
+NC_047034.1  75427397  ...........CA..A.........G..TA.....GG.T.....................  75427338
+
+Query_1      61        GGCCTGGCCAGCAAGACTGCAGCGTGGGGGACCCTGGGCACCCTCAGGACCTTCTTGAAC  120
+NC_047034.1  75427145                                     .....T.T....A..........G.  75427121
+NC_047034.1  75427337  .....T....A....                                               75427323
+
+Query_1      121       TTCAGCGTGGACAAGGATGCGCAGAGGCTACTGAGGGCCATTACTGGCCAAGGCGTGGAC  180
+NC_047034.1  75427120  .....TA.A...........A........G.CA.........G.A........         75427068
+
+Query_1      181       CGCAGTGCCATTGTGGACGTGCTGACCAACCGGAGCAGAGAGCAAAGGCAGCTCATCTCA  240
+
+Query_1      241       CGAAACTTCCAGGAGCGCACCCAACAGGACCTGATGAAGTCTCTACAGGCAGCACTTTCC  300
+
+Query_1      301       GGCAACCTGGAGAGGATTGTGATGGCTCTGCTGCAGCCCACAGCCCAGTTTGACGCCCAG  360
+
+Query_1      361       GAATTGAGGACAGCTCTGAAGGCCTCAGATTCTGCTGTGGACGTGGCCATTGAAATTCTT  420
+
+Query_1      421       GCCACTCGAACCCCACCCCAGCTGCAGGAGTGCCTGGCAGTCTACAAACACAATTTCCAG  480
+
+Query_1      481       GTGGAGGCTGTGGATGACATCACATCTGAGACCAGTGGCATCTTGCAGGACCTGCTGTTG  540
+
+Query_1      541       GCCCTGGCCAAGGGGGGCCGTGACAGCTACTCTGGAATCATTGACTATAATCTGGCAGAA  600
+
+Query_1      601       CAAGATGTCCAGGCACTGCAGCGGGCAGAAGGACCTAGCAGAGAGGAAACATGGGTCCCA  660
+
+Query_1      661       GTCTTCACCCAGCGAAATCCTGAACACCTCATCCGAGTGTTTGATCAGTACCAGCGGAGC  720
+
+Query_1      721       ACTGGGCAAGAGCTGGAGGAGGCTGTCCAGAACCGTTTCCATGGAGATGCTCAGGTGGCT  780
+
+Query_1      781       CTGCTCGGCCTAGCTTCGGTGATCAAGAACACACCGCTGTACTTTGCTGACAAACTTCAT  840
+
+Query_1      841       CAAGCCCTCCAGGAAACTGAGCCCAATTACCAAGTCCTGATTCGCATCCTTATCTCTCGA  900
+NC_047034.1  75423737          .............A.-...........T.....G..T........T......  75423687
+
+Query_1      901       TGTGAGACTGACCTTCTGAGTATCAGAGCTGAGTTCAGGAAGAAATTTGGGAAGTCCCTC  960
+NC_047034.1  75423686  A..........T.....A......C............-A.......A.............  75423628
+
+Query_1      961       TACTCTTCTCTCCAGGATGCAGTGAAAGGGGATTGCCAGTCAGCCCTCCTGGCCTTGTGC  1020
+NC_047034.1  75423386     ....G...G...A..............A.C..............A..A...C.....  75423330
+NC_047034.1  75423627  ........C.......                                              75423612
+
+Query_1      1021      AGGGCTGAAGACATGTGA  1038
+NC_047034.1  75423329  ............C.C...  75423312
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2390386381560
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
