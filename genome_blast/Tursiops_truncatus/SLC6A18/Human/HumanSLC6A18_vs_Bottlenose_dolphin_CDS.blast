@@ -1,0 +1,53 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_182632.3_cds_NP_872438.2_1 [gene=SLC6A18]
+[db_xref=CCDS:CCDS3860.1] [protein=inactive sodium-dependent neutral
+amino acid transporter B(0)AT3] [protein_id=NP_872438.2]
+[location=98..1984] [gbkey=CDS]
+
+Length=1887
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047036.1 Tursiops truncatus isolate mTurTru1 chromosome 3, mTu...  128     9e-27
+
+
+
+Query_1      763     CTGGACGCAGCCACCCAGATATTCTTCTCTCTGTCCCTGGCCTTCGGAGGACACATCGCT  822
+NC_047036.1  768936  .....T...............C....T..............................A..  768995
+
+Query_1      823     TTTGCAAGTTACAACTCGCCCAGG  846
+NC_047036.1  768996  ...............G........  769019
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4414486040704
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

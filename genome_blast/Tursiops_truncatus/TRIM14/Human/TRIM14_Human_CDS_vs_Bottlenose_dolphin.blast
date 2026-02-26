@@ -1,0 +1,125 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_033219.3_cds_NP_150088.1_1 [gene=TRIM14]
+[db_xref=CCDS:CCDS6734.1] [protein=tripartite motif-containing
+protein 14] [protein_id=NP_150088.1] [location=35..1363] [gbkey=CDS]
+
+Length=1329
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047039.1 Tursiops truncatus isolate mTurTru1 chromosome 6, mTu...  578     2e-162
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  54.5    2e-04 
+NC_047036.1 Tursiops truncatus isolate mTurTru1 chromosome 3, mTu...  51.8    8e-04 
+
+
+
+Query_1      59         GCGGCTGGCGCTGCCCGGAGCATGGCGACCGCGTGGCTGAGCTCTTCTGTCGCCGCTG--  116
+NC_047039.1  81976196   ......................C...................................TC  81976137
+
+Query_1      117        -------CCGCCGCTGCGTGTGCGCGCTTTGCCCGGTGCTGGGCGCGCACCGTGGCCACC  169
+NC_047039.1  81976136   GCCGCTG..........................T..........T.......C.......  81976077
+
+Query_1      170        CTGTGGGCCTGGCGCTGGAGGCAGCGGTGCACGTGCAGAAACTCAGCCAAGAATGTTTAA  229
+NC_047039.1  81976076   .G..T..T.............AG.......G.......                        81976039
+NC_047039.1  81973506                                ...A.A..........C..............  81973476
+
+Query_1      230        AGCAGCTGGCAATCAAGAAGCAGCAGCACATTGACAACATAACCCAGATAGAAGATGCCA  289
+NC_047039.1  81973475   ..A.TT..A...C...............AG...G.............--.C.......TG  81973418
+
+Query_1      290        CCGAGAAGCTCAAGGCTAATGCAGAGTCAAGTAAAACCTGGCTGAAGGGGAAATTCACTG  349
+NC_047039.1  81966981               .....C...........................CAA.......T....  81966934
+NC_047039.1  81973417   .T..............                                              81973402
+
+Query_1      350        AACTCAGATTACTACTTGACGAAGAGGAAGCGCTGGCCAAGAAATTCATTGATAAAAACA  409
+NC_047039.1  81966933   ...................T.........A.T...A................G.......  81966874
+
+Query_1      410        CGCAGCTTACCCTCCAGGTGTACAGGGAACAAGCTGACTCTTGCAGAGAGCAACTTGACA  469
+NC_047039.1  81966873   ........G....G....C.........G...ATC..G....ATG.G......A.C..TG  81966814
+
+Query_1      470        TCATGAATGATCTCTCCAACAGGGTCTGGAGTATCAGCCAGGAGCCCGATCCTGTCCAGA  529
+NC_047039.1  81966813   .......CA.....................A..C.........A...AG......A...C  81966754
+
+Query_1      530        GGCTTCAGGCATACACGGCCACCGAGCAGGAGATGCAGCAGCAGATGAGCCTCGGGGAGC  589
+NC_047039.1  81966753   T...A....                                                     81966745
+NC_047039.1  81963122           ..G.........G.T......C......................G......T  81963071
+
+Query_1      590        TGTGCCATCCCGTGCCCCTCTCCTTTGAGCCCGTCAAGAGCTTCTTTAAGGGCCTCGTGG  649
+NC_047039.1  81963070   CA.....C..........A....................................T....  81963011
+
+Query_1      650        AAGCCGTGGAGAGTACATTACAGACGCCATTGGACATTCGCCTTAAGGAAAGCATAAACT  709
+NC_047039.1  81963010   .....AC.C.....C.GC.G.........C.....G.C..........              81962963
+NC_047039.1  81959171                                                           ....  81959168
+
+Query_1      710        GCCAGCTCTCAGACCCTTCCAGCACCAAGCCAGGTACCTTGTTGAAAACCAGCCCCTCAC  769
+NC_047039.1  81959167   ..........G.G.T.C...G..G..C....G..CT..C..C.......A..........  81959108
+
+Query_1      770        CAGAGCGATCGCTATTGCTGAAATACGCGCGCACGCCCACGCTGGATCCTGACACGATGC  829
+NC_047039.1  81955377                           .......T....T.........GG.A......C...  81955342
+NC_047039.1  81959107   ..........A..C..CT.A....                                      81959084
+
+Query_1      830        ACGCGCGCCTGCGCCTGTCCGCCGATCGCCTGACGGTGCGCTGCGGCCTGCTGGGCAGCC  889
+NC_047039.1  81955341   ..T.....G....T..C..G..A..CT..T...A......T..T....AC.AC....A..  81955282
+
+Query_1      890        TGGGGCCCGTGCCCGTGCTGCGGTTCGACGCGCTCTGGCAAGTGCTGGCTCGTGACTGCT  949
+NC_047039.1  81955281   ......T.AAT..T.C......T...........G.....G.......GC..C.......  81955222
+NC_047036.1  157261478                                                           ...  157261476
+
+Query_1      950        TCGCCACCGGCCGCCACTACTGGGAGGTTGACGTGCAGGAGGCGGGCGCCGGCTGGTGGG  1009
+NC_047039.1  81955221   ...A.G.........G.........A..G.......T...........T.....C.....  81955162
+NC_047036.1  157261475  ..T....G....................GC.....                           157261441
+
+Query_1      1010       TGGGCGCGGCCTACGCCTCCCTTCGGCGCCGCGGGGCCTCGGCCGCCGCCCGCCTGGGCT  1069
+NC_047039.1  81955161   ...............G......--------....C.....T.....A.....GT......  81955110
+
+Query_1      1070       GCAACCGCCAGTCCTGGTGCCTCAAGCGCTACGACCTTGAGTACTGGGCCTTCCACGACG  1129
+NC_047039.1  81955109   .......................G.A.TA..T..T.-.....................T.  81955051
+
+Query_1      1130       GCCAGCGCAGCCGCCTGCGGCCCCGCGACGACCTCGACCGGCTCGGCGTCTTCCTGGACT  1189
+NC_047039.1  81955050   .............T.......G...........C....T.....................  81954991
+NC_047034.1  157833223                        .......A.G......AA.G.G................  157833260
+
+Query_1      1190       ACGAGGCCGGCGTCCTCGCCTTCTACGACGTGACGGGCGGCATGAGCCACCTGCATACCT  1249
+NC_047039.1  81954990   ......T.......T..A....T..........----........C.........C....  81954935
+NC_047034.1  157833261  ....CCAA...C.G...AT......TA...---.C.AT.A....TC.TGG...T.C....  157833317
+
+Query_1      1250       TCCGCGCCACGTTCCAGGAGCCGCTCTACCCGGCCCTGCGGCTCTGGGAGGGGGCCATCA  1309
+NC_047039.1  81954934   ....T.....C..........T...........................A.........T  81954875
+NC_047034.1  157833318  ......AG.A.....                                               157833332
+
+Query_1      1310       GCATCCCCCGGCTGCCCTAG  1329
+NC_047039.1  81954874   .....T....A.........  81954855
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3082528109952
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

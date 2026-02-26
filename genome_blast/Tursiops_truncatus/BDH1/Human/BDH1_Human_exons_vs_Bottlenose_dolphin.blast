@@ -1,0 +1,538 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= exon_1
+
+Length=163
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  132     3e-29
+
+
+
+Query_1      2         TTCTCAGCTAAAGGCAAGCATTGAAAGAATACACAGAAAGCCTGGAAAAGGTTTCCAGGG  61
+NC_047037.1  71047298  ...C.........A............T.......GT...........G.A..........  71047357
+
+Query_1      62        GTGTC-AATACGCCCTGTCAACTGAGAATTAAGAGG-----------ATCCGGCTGGTCA  109
+NC_047037.1  71047358  .....T.T...AT.T.A...................ATTCCAGGTGT...T....T..AT  71047417
+
+Query_1      110       CTTGCCTGGAGAGGATCCTGCATGCTGATAGTGCTGAGG  148
+NC_047037.1  71047418  ..........------.....G.................  71047450
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 316339834335
+
+
+Query= exon_2
+
+Length=2113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047054.1 Tursiops truncatus isolate mTurTru1 chromosome 21, mT...  75.2    1e-10
+NC_047035.1 Tursiops truncatus isolate mTurTru1 chromosome 2, mTu...  72.5    1e-09
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  71.6    1e-09
+NC_047043.1 Tursiops truncatus isolate mTurTru1 chromosome 10, mT...  70.7    5e-09
+NC_047040.1 Tursiops truncatus isolate mTurTru1 chromosome 7, mTu...  70.7    5e-09
+NC_047052.1 Tursiops truncatus isolate mTurTru1 chromosome 19, mT...  67.1    6e-08
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  66.2    6e-08
+NC_047047.1 Tursiops truncatus isolate mTurTru1 chromosome 14, mT...  65.3    2e-07
+NC_047036.1 Tursiops truncatus isolate mTurTru1 chromosome 3, mTu...  64.4    2e-07
+NC_047039.1 Tursiops truncatus isolate mTurTru1 chromosome 6, mTu...  62.6    7e-07
+NC_047046.1 Tursiops truncatus isolate mTurTru1 chromosome 13, mT...  60.8    2e-06
+NC_047045.1 Tursiops truncatus isolate mTurTru1 chromosome 12, mT...  55.4    1e-04
+NC_047055.1 Tursiops truncatus isolate mTurTru1 chromosome X, mTu...  53.6    4e-04
+NC_047053.1 Tursiops truncatus isolate mTurTru1 chromosome 20, mT...  53.6    4e-04
+NC_047044.1 Tursiops truncatus isolate mTurTru1 chromosome 11, mT...  53.6    4e-04
+
+
+
+Query_2      51         CACTGCAACCTCCGCTTCCTGGGTTCAAGCAATTCTCCTGCC-TCAGCTTTCCAAGTAGC  109
+NC_047054.1  32929808                   .......C......G..C........-.....C.C.........  32929850
+NC_047035.1  54237138                   .......C......G..C........-.....C.C..G......  54237096
+NC_047035.1  14795586                   .......C......G..C........-.....C.C..G......  14795544
+NC_047035.1  50518303                   .......C......G..C........-.....C.C..G......  50518261
+NC_047035.1  50529289                   ......AC......G..C........-.....C.C..G......  50529247
+NC_047035.1  50733095                   ......AC......G..C........-.....C.C..G......  50733137
+NC_047034.1  91533096                   .......C.........C........-.....C.C........G  91533054
+NC_047043.1  98860205                   ....A..C......G..C........-.....C.C..G......  98860247
+NC_047040.1  29264124                   .......C......G..C........-.....C.C..G......  29264082
+NC_047052.1  4836533    .......G...GGAAC.......C.....TG..C........-.....C.C...G.A...  4836475
+NC_047052.1  4924624                    .......C......G..C........-.....C.C..G..C...  4924666
+NC_047037.1  84890051                   .......C...G.....C........-.....C.C..G......  84890009
+NC_047037.1  14742592                   .......C..C.T.C...........-.....C.......G...  14742550
+NC_047037.1  69281556                   ..A....A......G..C........C.....C.C.........  69281599
+NC_047047.1  51232169                   .......C.....TG..C........-.....C.C..G......  51232211
+NC_047036.1  36159335                     .....C.........C........-.....C.C.TG......  36159295
+
+Query_2      110        TGTGATTACAGTAGCCTACCACCACGCCTGGCTAATTTTTGTATTTTTAGTAGAGATGGG  169
+NC_047054.1  32929851   ..G..C.....GC..GCG.....G....C....                             32929883
+NC_047035.1  54237095   ..G..C.....GC..GCG.....GT...C....G.G..---.......              54237051
+NC_047035.1  14795543   ..G..C.....GC..GCG.....G....C.....                            14795510
+NC_047035.1  50518260   ..G..C.....GCA.GCG.....G....C...                              50518229
+NC_047035.1  50529246   ..G..C.....GCA.GCG.....G....C...                              50529215
+NC_047035.1  50733138   ..G..C.....GCA.GCG.....G....C...                              50733169
+NC_047034.1  91533053   ..G........                                                   91533043
+NC_047043.1  98860248   ..G..C.....GC..GCG..........C....                             98860280
+NC_047040.1  29264081   ..G..C.....GC..GCG.....G....C....                             29264049
+NC_047052.1  4836474    ..G..C.G...GC.TG.GA.....T.......                              4836443
+NC_047052.1  4924667    ..G..C.....GC..GCG.....G....C...                              4924698
+NC_047037.1  84890008   ..G.CC.....GC..A.G....TG.A.......                             84889976
+NC_047037.1  14742549   ..A..C.C...                                                   14742539
+NC_047037.1  69281600   ..G..C...C.GCA.G.G.......A.......                             69281632
+NC_047047.1  51232212   ..G..C.....GCA.GCG.....G....C....                             51232244
+NC_047036.1  36159294   ..G..C.....--..A..A.....G...                                  36159269
+
+Query_2      170        ATTTTACCATGTTGACCAGGCTGGTCTCAAACTCCTGACCTCAAGTGATCTGCCTGCCTC  229
+NC_047054.1  32929805                                ........GG......C....CT........  32929835
+NC_047035.1  50518306                                ........GG......C....CT........  50518276
+NC_047035.1  14795589                                ........GG......C....CT........  14795559
+NC_047035.1  50529292                                ........GA......C....CT........  50529262
+NC_047035.1  50733092                                ........GA......C....CT........  50733122
+NC_047035.1  54237141                                ........GG......C....CT........  54237111
+NC_047034.1  91533099                                ........GG......CA...CT........  91533069
+NC_047043.1  98860202                                .......AGG......C....CT........  98860232
+NC_047040.1  29264127                                ........GG......C....CT........  29264097
+NC_047052.1  4924621                                 ........GG......C....CT........  4924651
+NC_047052.1  4836520                                 ........GG...........CT........  4836490
+NC_047047.1  51232166                                ........GG...........CT........  51232196
+
+Query_2      230        AGCCTCCCAAAGTGCTGGGATTACAAGTGTGAGCCACTGCTCCCAGCCATAACTTTCTTT  289
+NC_047054.1  32929836   ..........GTA.......C....G.C.C.C.....C..G...G..               32929882
+NC_047035.1  50518275   ........G.GTA.......C....G.CAC.C.....C..G...G..G..            50518226
+NC_047035.1  14795558   ........G.GTA.......C....G.C.C.C.....C..G...G..               14795512
+NC_047035.1  50529261   ........G.GTA.......C....G.CAC.C.....C..G...G..               50529215
+NC_047035.1  50733123   ........G.GTA.......C....G.CAC.C.....C..G...G..               50733169
+NC_047035.1  54237110   ........G.GTA.......C....G.C.C.C.....                         54237074
+NC_047034.1  91533068   ..........GTA.G..........                                     91533044
+NC_047043.1  98860233   ........G.GTA.......C....G.C.C.C.....                         98860269
+NC_047040.1  29264096   ........G.GTA.......C....G.C.C.C.....C..G...G..               29264050
+NC_047052.1  4924652    ........G.GCA.......C....G.C.C.C.....C..G...G...              4924699
+NC_047052.1  4836489    .........GGAA.......C.G..G.C...T.A...                         4836453
+NC_047047.1  51232197   ........G.GTA.......C....G.CAC.C.....C..G...G..               51232243
+
+Query_2      290        ACATCTCTTTTATTTTCCTGGTTCCTTTTATATTGTTTTAAACATGACCTTTAAATAAGC  349
+
+Query_2      350        TTTGAATTAGACAAAAACTATTCATCTTTTTAAAAATGACACACTTTTTAAAAAGAATGT  409
+
+Query_2      410        TTTCTTACAAATATATTTTTATTGGAAAATACCCATATAATGAAATATCTATTACTTAAT  469
+
+Query_2      470        TTAATATAACTTTAGATTCTAAATTATGAGTTTGTCTACAAGTATTACATTCACCTAATT  529
+
+Query_2      530        ATTTTAATTGTTTTAGATGATTTATGAAAACTGTGATAGTCATCATTTAAAGTTATGGAA  589
+
+Query_2      590        CCATCATTGCAAAATTATAACAGAGACGTGAAAAAGATTTGCCTAACTGACTCCATCTTG  649
+
+Query_2      650        CTTTTAACCTCCAAACTCTCCTTGTTCATTCTTCTTTTCTCTCCTAGGAAATTGTTGTTT  709
+
+Query_2      710        AAGGATCCTAATTCTAGTTCAGAGATGCATTCTAAAGGGTCTTCTTTTTCTTCTTGTCAG  769
+
+Query_2      770        CTAATAGTCTTAAATTTGCATATTAAAGGAAACAACTCACATAAAAGTCAGACAGCAAAA  829
+
+Query_2      830        TTTACCTCGTAAGGTACAAAGTGAAAGTCTGGTGAGCTGGAGGGAAATTAAAATGAATTT  889
+
+Query_2      890        AATTAACAATTGGACATAAAATTATAGACATCTATCATAAAGGCCTTCAAATACATACAT  949
+NC_047037.1  136288178                                                        ..G...  136288173
+NC_047037.1  91895786                                                  ........C....  91895774
+NC_047046.1  64867703                                                ....T.C........  64867689
+NC_047045.1  79904759                                                ..T............  79904773
+NC_047055.1  39564705                                               .........T.C....  39564720
+NC_047044.1  57371879                                                     ..........  57371870
+
+Query_2      950        GTGTACATGTACATACACACATACACACATACAGATTC--TATAACTTTTACTCCAGTAC  1007
+NC_047037.1  136288172  .............C.......C.......C...                             136288140
+NC_047037.1  91895773   ..AC.........--....A...........G...                           91895741
+NC_047046.1  64867688   .G...........C.......C.......C...                             64867656
+NC_047045.1  79904774   ....G........C.......C...                                     79904798
+NC_047055.1  39564721   A.A..T..A............C.......C...                             39564753
+NC_047053.1  55962901      .....AA...G.......C.......C.....AA.GC....G....C.T....AA.T  55962957
+NC_047044.1  57371869   A.A.....--...............T.......                             57371839
+
+Query_2      1008       TTTAGCCATGAGATAAATACAAATTTGCCAGCTTGCAAGAAAAACCCAAAAAACTATTAG  1067
+NC_047053.1  55962958   ...........                                                   55962968
+
+Query_2      1068       ACCCAAACAGTGGTTTTATCTCAGTGGAAAAATAACAGCAGACTTAAAGCATGGCAGAAA  1127
+
+Query_2      1128       GGAAAATAGAGAAAAACGGACTAGGAACTCTAGAATTTGCAGGTTGACCTTAGGGCTCTT  1187
+
+Query_2      1188       TTTCCTCAATGTAAATTTGCACAAAGACTGTATTACTTCCATTTTACTCTGGCAAATAGA  1247
+
+Query_2      1248       GGTGCCATAAAACCAATAAGGTGCTCTAAAGGGGGTCATTCTCCTTGTTTTCTCCTCATT  1307
+
+Query_2      1308       CTCAGATTGTTTCCTGCTTCTTTTTTTTTTTCTTAAAAGGAAGAATTGAGCTGTGGCCTA  1367
+
+Query_2      1368       GGGTTTTTGTGCATGGATCGATGTGAGCTGCTTGTGGGCAGGACTCCACAGTGTGTCATC  1427
+NC_047034.1  35147717                         ...T..........A..TTA.....T.TAG.CA...C.  35147754
+
+Query_2      1428       ACTGAGTTGTTTCCAGCCTCTTATGCATCTCAGCTTCTCTCTCCAGAGGTCTATGTCCTC  1487
+NC_047034.1  35147755   CTA....C.....AGC.........TGG.....T...A.C..T.G.T.A....A.A..A.  35147814
+
+Query_2      1488       TGAGAGGGCTCAAAATGCCAGGTGATCAGCCCTTAT-ATGCAT--TTCCTGGATGACCCA  1544
+NC_047034.1  35147815   ..T...T....GG---.T..C-...ATG...A..C.T..A...GA...........G.A.  35147870
+
+Query_2      1545       TTTTTAAAATTAAATTTTTCTGGGGATTTCCCTGCAGGGCCACTGCATGTTGCAGGGGGT  1604
+NC_047035.1  81648269                       .....--......AT...A.....A..CA.CA..A..A-.  81648233
+NC_047034.1  35147871   G.C..TT......-----.G..T...........TG..A........               35147912
+
+Query_2      1605       CAACTCCCCAGACGCTCCCACGAGGCCCCTGGTCACCCAGGGACGCCTT-TCG-CTGGAA  1662
+NC_047035.1  81648232   ...-...T.....T..T.TG.T...TT.TCA......T.A.A..A....-GA.G......  81648175
+NC_047039.1  28148682                                                            ...  28148680
+NC_047053.1  22352711                                           ....A....G.G.-...T..  22352693
+
+Query_2      1663       AGAGCAAATGT-CCTTTCTCTTTGGAGCTCAGAAAACTCAGTTTCTCATTTGCCTATGAA  1721
+NC_047035.1  81648174   G....T.G...-..C.........A....G.ATG.................           81648125
+NC_047039.1  28148679   G..........-..C..T...........G..C.GG......C........CA...-.C.  28148622
+NC_047053.1  22352692   G..........C....C............G.-.T.TT...A.C........           22352643
+
+Query_2      1722       AACA  1725
+NC_047039.1  28148621   ....  28148618
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4944888092529
+
+
+Query= exon_3
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  68.0    5e-10
+
+
+
+Query_3      1         GTTTACTCATGTGTCAGAGTGGACAGCGGATTCCTGCAAGGGTCCCAGGTTGCAGTGCCA  60
+NC_047037.1  71051077  .....TG.........A.A...G.TT...C......T.G...G......C.......A..  71051136
+
+Query_3      61        GAGACGCA---------GAA--TACCAGGTGCAGCTGAGGCAAG  93
+NC_047037.1  71051137  ....A..CCCGAGTGGG...GA........A.............  71051180
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 152223702784
+
+
+Query= exon_4
+
+Length=25
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 7135493649
+
+
+Query= exon_5
+
+Length=480
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  66.2    1e-08
+NC_047035.1 Tursiops truncatus isolate mTurTru1 chromosome 2, mTu...  54.5    8e-05
+
+
+
+Query_5      61        TCCATCTCCCTGGCCCTCGCCCCCGCCCAGCGGTCGGGGAGCGAGAAGGCGGCGGGGGAT  120
+NC_047035.1  64473665  ...C..G....C..........T............-A....GT...T..A.AA.....C.  64473607
+
+Query_5      121       CTGGCGCCCGGCTTAGGGGCGAGACGGCCGCACCGGGAGCCTAGCGATCAGGGC-ACCTT  179
+NC_047037.1  71052218                                  .....C.........AT...AAT...C.  71052245
+NC_047035.1  64473606  ....                                                          64473603
+
+Query_5      180       GGGCGGGAGGAGCGCCAG-CCGGGC-ACCCAGCGCGGAGGAGGCGGCTCGGCGGCCCCCC  237
+NC_047037.1  71052246  CT..........G.....G..T.A.G..G..AG...A..........G.A.A...TT...  71052305
+
+Query_5      238       GACAGC-CACGCC-GCCGT-GAGCCCCGCCCAGCGTAGCCCCAGCGCGC---GCTTC-GC  290
+NC_047037.1  71052306  .C.CCTG.G....A.....C.G..T......C...C.....T.CG.A..AAA..CC.T.G  71052365
+
+Query_5      291       GTGTAGAAGCGTCCGGGTGGCGGAGGCCGCAGGCCGCAGGAGT----GCTGGTGGAGGGG  346
+NC_047037.1  71052366  .C.C..GC..AC..C..CA..T.....T.G.............GGGA..CA..-A...C.  71052424
+
+Query_5      347       CTTCCAGAAAGACCCTGCGGCAGCGCCC  374
+NC_047037.1  71052425  ....G....G..AA.G....T.......  71052452
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1065565434304
+
+
+Query= exon_6
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  132     1e-28
+
+
+
+Query_6      2         CAGGAGGAGGCCCTGGGTTAAACACGCGGCCCTGCAGCTCCCAGGTGAAACG------AC  55
+NC_047037.1  71052850  ....G.......-.A....G............C.AGT..............CCTCAAC..  71052908
+
+Query_6      56        TCATCGTTTCCTGCCGGCGCATCTTACTGAAGGGGACCCAGGCCCCACGAAGGGAAGGAA  115
+NC_047037.1  71052909  .T...C..CT...A..C.....T....A....AC..G..CA....GGA.........A..  71052968
+
+Query_6      116       CCGTCCTCAAGGTCACGTCGTAGTCAAAGGCCGAGCCCAGACCGAAGCCAG  166
+NC_047037.1  71052969  ...G..-.........A.........G..........AG............  71053018
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 323475319320
+
+
+Query= exon_7
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 290176389390
+
+
+Query= exon_8
+
+Length=126
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  103     4e-20
+
+
+
+Query_8      3         CCACCGGGAGGAACTGGGCCATTCTAACACCCGTTGCTACCATGCTGGCCACCCGCCTCT  62
+NC_047037.1  71059379  .....C......G.CT.........GT.T.T...G..C..TG.....A.TG.....T...  71059438
+
+Query_8      63        CCAGACCCCTGTCACGGCTCCCAGGAAAAACCCTAAGTGCCTGTGATAGAGAAAATGGAG  122
+NC_047037.1  71059439  ...............A......GA.G........G.A.TT..C........T.......A  71059498
+
+Query_8      123       CAAG  126
+NC_047037.1  71059499  ....  71059502
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 228335519520
+
+
+Query= exon_9
+
+Length=73
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 104653795664
+
+
+Query= exon_10
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  178     5e-43
+NC_047054.1 Tursiops truncatus isolate mTurTru1 chromosome 21, mT...  59.0    3e-07
+
+
+
+Query_10     1         GTTGGCAGCAAAGCTGTCCTGGTCACAGGCTGTGACTCTGGATTTGGGTTCTCATTGGCC  60
+NC_047037.1  71068446  ....C.............T..................................C......  71068505
+NC_047054.1  3269642              ..T.......A.-.TT.......T...AA.......T..-..C....AT  3269688
+
+Query_10     61        AAGCATCTGCATTCAAAAGGCTTCCTTGTGTTTGCTGGCTGCTTGATGAAG  111
+NC_047037.1  71068506  .............................A..........A..........  71068556
+NC_047054.1  3269689   G...-...C.T...............CAA....T....A.....         3269731
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 192658094595
+
+
+Query= exon_11
+
+Length=142
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 266391439440
+
+
+Query= exon_12
+
+Length=153
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  171     1e-40
+
+
+
+Query_12     1         GCATGTGGGGCCTCGTTAACAATGCCGGCATCTCAACGTTCGGGG-AGGTGGAGTTCACC  59
+NC_047037.1  71084431  ..T...A......G...........G.........G....T....G.T............  71084490
+
+Query_12     60        AGCCTGGAGACCTACAAGCAGGTGGCAGAAGTGAACCTTTGGGGCACAGTGCGGATGACG  119
+NC_047037.1  71084491  ...A..............G......TG.....A.....C...............GG...A  71084550
+
+Query_12     120       AAATCCTTTCTCCCCCTCATCCGAAGGGCCAAAG  153
+NC_047037.1  71084551  ...C................TTAG.......C..  71084584
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 292554884385
+
+
+Query= exon_13
+
+Length=470
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  494     3e-137
+
+
+
+Query_13     1         GCCGCGTCGTCAATATCAGCAGCATGCTGGGCCGCATGGCCAACCCGGCCCGCTCCCCGT  60
+NC_047037.1  71085961  ..T....G.....C.C..ATG....................C..G.....G..G......  71086020
+
+Query_13     61        ACTGCATCACCAAGTTCGGGGTAGAGGCTTTCTCGGACTGCCTGCGCTATGAGATGTACC  120
+NC_047037.1  71086021  ............G...T...T----.........C........A.....C...G..C...  71086076
+
+Query_13     121       CCCTGGGCGTGAAGGTCAGCGTGGTGGAGCCCGGCAACTTCATCGCTGCCACCAGCCTTT  180
+NC_047037.1  71086077  .A.....A.........G..........A.................CA..........CC  71086136
+
+Query_13     181       ACAGCCCTGAGAGCATTCAGGCCATCGCCAAGAAGATGTGGGAGGAGCTGCCTGAGGTCG  240
+NC_047037.1  71086137  ..G..G.....C....C..T..........GT...........C.............GG.  71086196
+
+Query_13     241       TGCGCAAGGACTACGGCAAGAAGTACTTTGATGAAAAGATCGCCAAGATGGAGACCTACT  300
+NC_047037.1  71086197  ..................G............C..G.G.G...TG................  71086256
+
+Query_13     301       GCAGCAGTGGCTCCACAGACACGTCCCCTGTCATCGATGCTGTCACACACGCCCTGACCG  360
+NC_047037.1  71086257  ...A...CA.......G...........CA.....AGC........C...A........T  71086316
+
+Query_13     361       CC-ACCACCCCCTACACCCGCTACCACCCCATGGACTACTACTGGTGGCTGCGAATGCAG  419
+NC_047037.1  71086317  ..GG.T.......G.G.T......................G...T...G.........G.  71086376
+
+Query_13     420       ATCATGACCCACTTGCCTGGAGCCATCTCCGACATGATCTACATCCGCTGA  470
+NC_047037.1  71086377  ....C............CA...TG.....T....G.........A......  71086427
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1041780491574
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

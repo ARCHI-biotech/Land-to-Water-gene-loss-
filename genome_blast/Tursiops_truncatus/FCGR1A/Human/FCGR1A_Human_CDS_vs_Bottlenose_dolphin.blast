@@ -1,0 +1,60 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_001378804.1_cds_NP_001365733.1_1 [gene=FCGR1A]
+[db_xref=GeneID:2209,HGNC:HGNC:3613,MIM:146760] [protein=high
+affinity immunoglobulin gamma Fc receptor I isoform 1 precursor]
+[protein_id=NP_001365733.1] [location=51..1178] [gbkey=CDS]
+
+Length=1128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  114     7e-23
+
+
+
+Query_1      613       GAGGGGAATCTGGTCACCCTGAGCTGTGAAACAAAGTTGCTCTTGCAGAGGCCTGGTTTG  672
+NC_047034.1  67317204  .....A.GC.C...A............C.G......C...C.C........T.A.C.GCC  67317145
+
+Query_1      673       CAGCTTTACTTCTCCTTCTACATGGGCAGCAAGACCCTGCGAGGCAGGAACACATCCTCT  732
+NC_047034.1  67317144  ..C..CCT..............A..A.....G...AG....TA.....GG.C.T.....A  67317085
+
+Query_1      733       GAATACCAAATACTAACTGCTAGAAGAGAAGACTCTGGGTTATACTGGTGCGAGGCTGCC  792
+NC_047034.1  67317084  ....T...G..C.CT......TC.GAG.C.C.........CC........T..A..A...  67317025
+
+Query_1      793       ACAGAGGA  800
+NC_047034.1  67317024  ..T.....  67317017
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2604450833640
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

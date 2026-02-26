@@ -1,0 +1,58 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_205545.3_cds_NP_991108.1_1 [gene=LYPD2]
+[db_xref=CCDS:CCDS6388.1] [protein=ly6/PLAUR domain-containing
+protein 2 precursor] [protein_id=NP_991108.1] [location=82..459]
+[gbkey=CDS]
+
+Length=378
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047050.1 Tursiops truncatus isolate mTurTru1 chromosome 17, mT...  89.7    8e-16
+
+
+
+Query_1      6         GGGGACGCGGCTGGCGCTCCTGGCGCTGGTGCTGGCTGCCTGCGGAGAGCTGGCGCCGGC  65
+NC_047050.1  76960275                                                           ...  76960273
+NC_047050.1  76961541  ......A.......T...G.............C...CA..G..T.T.....           76961491
+
+Query_1      66        CCTGCGCTGCTACGTCTGTCCGGAGCCCACAGGAGTGTCGGACTGTGTCACCATCGCCAC  125
+NC_047050.1  76960272  .T...AA......AC......T........CA.C.....CAG...A.......C.A.G..  76960213
+
+Query_1      126       CTGCACCACCAACGAAACCATGTGCAAGACCACACTCTACTCCCGGGAGAT  176
+NC_047050.1  76960212  .....ATG..C..AG.............G....G....G.....T......  76960162
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 825337637998
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

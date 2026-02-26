@@ -1,0 +1,60 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|XM_057745680.1_cds_XP_057601663.1_1 [gene=FCGR1A]
+[db_xref=GeneID:130858735] [protein=high affinity immunoglobulin
+gamma Fc receptor I isoform X1] [protein_id=XP_057601663.1]
+[location=30..1145] [gbkey=CDS]
+
+Length=1116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  73.4    2e-10
+
+
+
+Query_1      561       AGAGCTATTTCCAGCCCCAGTGCTGAGAGCAGACTGCTTGTCATTCCACCTCCCAGAGGG  620
+NC_047034.1  67317256  ...A..G....G......G..T..C.....C-..AC...--..GCTG.G.C..A......  67317200
+
+Query_1      621       GAATCTGGTCAACCTAAGTTGTGAAACAAAGTTGCTCCAACAGAAGCCTGGTTTGCAGCT  680
+NC_047034.1  67317199  A.GC.C...A.C...G..C...C.G......C...C..TG....G.T.A.C.GCC..C..  67317140
+
+Query_1      681       TTACTTCTCTTTCTACGTGGGAAACAAGACCCTGACGCGCAGGAACACATCCTCTGAATA  740
+NC_047034.1  67317139  CCT......C......AA..AC.G..G...AG..CGTA.....GG.C.T.....A....T  67317080
+
+Query_1      741       CCAGATACTAACTGCTAAAAAAGAAGACTCTGGGTTATACTGGTGTGAGGC  791
+NC_047034.1  67317079  ......C.CT......TC.G.G.C.C.........CC...........A..  67317029
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2575908906696
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

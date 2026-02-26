@@ -1,0 +1,50 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_001040147.3_cds_NP_001035237.1_1 [gene=SERPINB7]
+[db_xref=CCDS:CCDS11988.1] [protein=serpin B7 isoform 1]
+[protein_id=NP_001035237.1] [location=83..1225] [gbkey=CDS]
+
+Length=1143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047046.1 Tursiops truncatus isolate mTurTru1 chromosome 13, mT...  54.5    2e-04
+
+
+
+Query_1      505       ATGGTGCTGGTGAATGCTGTGTACTTCAAAGGCAAGTGGCAA  546
+NC_047046.1  76505427  .....C..............C...........A..T...A..  76505468
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2640128242320
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

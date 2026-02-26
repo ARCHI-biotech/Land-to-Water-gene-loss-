@@ -1,0 +1,92 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= XM_011509118.2:352-1485 PREDICTED: Homo sapiens peptidoglycan
+recognition protein 3 (PGLYRP3), transcript variant X1, mRNA
+
+Length=1134
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  208     4e-51
+
+
+
+Query_1      55        GGGGATTTTCCACAGTTCTCCTGGAGTGAGACCCAAGCCAGAGGCTTGTCCCAGAGGCTT  114
+NC_047034.1  73630795  .......AC........G..T....A...A..............GC....AG...A....  73630854
+
+Query_1      115       ATGGACCTGTTTGTCAGCATCTCACAGTTCATTCACAAGGGTCGCAATGATACTCCCACC  174
+NC_047034.1  73631792                                                         .....  73631796
+NC_047034.1  73630855  C.............TG...........C......T...........G..             73630903
+
+Query_1      175       ATCGTCTCCCGCAAGGAGTGGGGGGCAAGACCGCTCGCCTGCAGGGCCCTGCTGACCCTG  234
+NC_047034.1  73631797  ..T.....................TTG...TTC..GA..C.........A........G.  73631856
+
+Query_1      235       CCTGTGGCCTACATCATCACAGACCAGCTCCCAGGGATGCAGTGCCAGCAGCAGAGCGTT  294
+NC_047034.1  73631857  ..........GTG......TG........TA.G.A.G.AG........G......AT..G  73631916
+
+Query_1      295       TGCAGCCAGATGCTGCGGGGGTTGCAGTCCCATTCCGTCTACACCATAGGCTGGTGCGAC  354
+NC_047034.1  73631917  ......TG..A.........CC.........G...A.......A..C............T  73631976
+
+Query_1      355       GTGGCGTACAACTTCCTGGTTGGGGATGATGGCAGGGTGTATGAAGGTGTTGGCTGGAAC  414
+NC_047034.1  73631977  .....C....                                                    73631986
+NC_047034.1  73633966          ..G...............CA.............CA.......C.........  73634017
+
+Query_1      415       ATCCAAGGCTTGCACACCCAGGGCTACAACAACATTTCCCTGGGCATCGCCTTCTTTGGC  474
+NC_047034.1  73634018  .........A.....G...............G.G.G...T....TC....T.........  73634077
+
+Query_1      475       AATAAGATAGGCAGCAGTCCCAGCCCTGCTGCCTTATCAGCTGCAGAGGGTCTGATCTCC  534
+NC_047034.1  73635024          .........G.......................C.......A........T.  73635075
+NC_047034.1  73634078  ......C....                                                   73634088
+
+Query_1      535       TATGCCATCCAGAAGGGTCACCTGTCGCCCAGGTATATTCAGCCACTTCTTCTGAAAGAA  594
+NC_047034.1  73635076  ........AA...........A....A.T.....................CT........  73635135
+
+Query_1      595       GAGACCTGCCTGGACCCTCAACATCCAGTGATGCCCAGGAAGGTTTGCCCCAACATCATC  654
+NC_047034.1  73635136  ....G....T...T.........G...C.............                     73635176
+NC_047034.1  73636675                                              .........T......  73636690
+
+Query_1      655       AAACGATCTGCTTGGGAAGCCAGAGAGACACACTGCCCTAAAATGAACCTCCCAGCCAAA  714
+NC_047034.1  73636691  .C.A.G..A......A.......GC...............C......A..T..G......  73636750
+
+Query_1      715       TATGTCATCATCATCCACACCGCTGGCACAAGCTGCACTGTATCCACAGACTGCCAGA-C  773
+NC_047034.1  73636751  ......................T...GG.G.C.....ACA......TG.......G..T.  73636810
+
+Query_1      774       TGTCGTCCGAAACATACAGTCCTTTCACATGGACACACGGAACTTTTGTGACATTGGATA  833
+NC_047034.1  73636811  ...-...T..G.T..........A..............A......C........C.....  73636869
+
+Query_1      834       TCA  836
+NC_047034.1  73636870  ...  73636872
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2618721797112
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

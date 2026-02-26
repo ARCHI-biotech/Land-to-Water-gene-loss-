@@ -1,0 +1,273 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|XM_057746750.1_cds_XP_057602733.1_1 [gene=MAP3K19]
+[db_xref=GeneID:130859381] [protein=mitogen-activated protein kinase
+kinase kinase 19] [protein_id=XP_057602733.1] [location=1..4596]
+[gbkey=CDS]
+
+Length=4596
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047040.1 Tursiops truncatus isolate mTurTru1 chromosome 7, mTu...  2098    0.0  
+
+
+
+Query_1      173       AGGTTGTTGGATTTCTTCTGGAAAAGGGAGCAGATATCACCCTTTGCAATTACAGCAATC  232
+NC_047040.1  93905991  .........................C....T........................A....  93906050
+
+Query_1      233       AAACAGCAGTCCATGTGGCTAATTGTAATGTCCAGAGACAGCTCTTGGCAATCAATGGTA  292
+NC_047040.1  93906051  ....T..G..................G.......A..G..A........C........A.  93906110
+
+Query_1      293       TCCAGGCTCCTGAAATGCAACTTCTACAAAGTTCATGGCAAGGTGATCTTGAACAACTTC  352
+NC_047040.1  93906111  ..........CC..............................A...C.............  93906170
+
+Query_1      353       AGCATTTGCTGG-CATCTGAAGAGTTCCTGGATATAAATTTCCCAAACCAACATGGCTTG  411
+NC_047040.1  93906171  ...TC.......T...                                              93906186
+NC_047040.1  93909037            ..-................A.............................C  93909085
+
+Query_1      412       ACCCCTCTGATGCTGGCTGTGAGAGATGTGGACCTGTTTGAGAGTCTTGATATGTTAACC  471
+NC_047040.1  93909086  .....................................G...........--........G  93909143
+
+Query_1      472       CTCTATAGACCTGCGGAGGTTCTGTCTGAGCTCCTCAGGCACCACGCAGATCCTAAACTC  531
+NC_047040.1  93911728                                                 .............  93911740
+NC_047040.1  93909144  ....G.....A..............................T.....               93909190
+
+Query_1      532       TGTGATTTTAGTGGAAAATCAGCACTACATTATGTGTCACAAATAGAAAGTTTCAGGAAA  591
+NC_047040.1  93911741  ........................A.....................G.............  93911800
+
+Query_1      592       CAGCAGTTGTTGGACATTCTAACGAATTCTATGCCAAAACCAGAAAGACATGCTGAATCA  651
+NC_047040.1  93914804                                          ....................  93914823
+NC_047040.1  93911801  ........A.............T.....................                  93911844
+
+Query_1      652       TTGCTTGACATTTGTCATGATACAAACTCTTCTCCAACTGATATGATGACAGTTGCTAAA  711
+NC_047040.1  93914824  .....................................................CA.....  93914883
+
+Query_1      712       AACCAAAACATAATCTTGCAAAGCATCAGCAGCAGTGAGGAGTTTGACCAAGATGATGAC  771
+NC_047040.1  93914884  ........T..........................G....                      93914923
+
+Query_1      772       TGCACTCATTCCATGTTGATTAGTGAAGAAAGAGATCCAAGTGGTGATGGACAAGACTGG  831
+
+Query_1      832       CCACCCAGGACAGAAGGTGTTGAGATTATCGGCACTTTTCCGAGAGATGTCAGTCATCCC  891
+
+Query_1      892       CAAGAAATGAGCCAAGAGGATTTACAAGAAAACAATCACATAACCTCAGTGCATCAGGAA  951
+NC_047040.1  93928514                                     ...G.....................  93928538
+
+Query_1      952       TGGACACCAGCACATTCTGTTTCACTTCCAAATGAAATTGAGATGGTGGGCTCCAGGACA  1011
+NC_047040.1  93928539  ...GT........................-...T.............A............  93928597
+
+Query_1      1012      AAGATGGTGACCATGCAGGCTTTACTTCTGAAAAAAGAGGAACAGTCCCAGGAACTCTGC  1071
+NC_047040.1  93928598  ..T..........G....C.......C.....G...........T.A..T.T.G......  93928657
+
+Query_1      1072      AATGCGAGCTTTGGCTTTTTGTTGCCAAGACACTGCTTAGAACCGAATATCTCCAAGTCC  1131
+NC_047040.1  93928658  ....T..A...G........T..........CT..............C...........T  93928717
+
+Query_1      1132      GTAGGCAGAGAAGATGTTCCTCACTTTCTGAAGGGGCAGCTGAGAAAATCTGAAGACTTT  1191
+NC_047040.1  93928718  ....C...................................C..............       93928772
+
+Query_1      1192      TCTACCTCTGATATGAAATATAGTAGCCGAAGAATTGAGTTCCCTCTGCCACCATTGTCA  1251
+NC_047040.1  93936959                                    ..T.........A.............  93936984
+
+Query_1      1252      CCGTTGCCTGGGAGATCTGGTCTCCTTACTATACCCCCAAATCATAAGGATCAAAAAGAG  1311
+NC_047040.1  93936985  ..C.......T......CT....T.............................G......  93937044
+
+Query_1      1312      AGAGAAATAAATATTCCAAGCCTCATATCTTTCATACCTAAGCTCTCAGAGCCTGTTAGT  1371
+NC_047040.1  93937045  ....----.............T......................................  93937100
+
+Query_1      1372      CGATCTGATGAGTTTAGACCAACAAACAAGCAGAAGGAAGCACCGTTCAAGGTGTTAGCA  1431
+NC_047040.1  93937101  .....................T.................A..................AG  93937160
+
+Query_1      1432      GATCAGACGCTCAGGTCCTTTGATAGCTCTATCTGGTCCAGGAACATGTGCTCTTTTTGG  1491
+NC_047040.1  93937161  ........T........G..................G....A..................  93937220
+
+Query_1      1492      AAGGCTCACCATCACAGACAACACCTGGAGACGGAGGAGAACAGGAAATCCAAGGAAACA  1551
+NC_047040.1  93937221  ................................--......GT..................  93937278
+
+Query_1      1552      GAAGGATGTGTCAACACTGAAATCTCTCACTTTGAAAAAGGACAGTCTTTGGTATCCTTT  1611
+NC_047040.1  93937279  ..GT.................................................G......  93937338
+
+Query_1      1612      GAGAACTTCAAGGAAAGCAATTTTCCTACAGATAGGGAAGTGGAGATTGATTGCCAAGGT  1671
+NC_047040.1  93937339  .....T.........G.......................A....T.....C.....T...  93937398
+
+Query_1      1672      GCTGAACTGAGAAGAACAGAAGAGAACTCTCAATCTCTTTCCTCAGGAAAGAAAGAGGGT  1731
+NC_047040.1  93937399  ......G........G...........A.............A..........--------  93937450
+
+Query_1      1732      TCGGTAGCCAGAAACTATGAACAAGATTCAGAAGTTGGATATATCAAACCAAACAAGTTC  1791
+NC_047040.1  93937451  --------.----.....................C...G............GT.......  93937498
+
+Query_1      1792      CAAGAAGCCCTGCATTCAGAAATAGCTCTAAGCCAGGATGAAGGGACTAGACATGATAAA  1851
+NC_047040.1  93937499  ........................A..........................A........  93937558
+
+Query_1      1852      GCTGATTCGAAAAGTGCTTCAGCACACAAGGGTGAAGCAATTGAGCTAAACCGTATTTCA  1911
+NC_047040.1  93937559  ..G.....A....C............T..A..G....T........C...T.A.......  93937618
+
+Query_1      1912      GAAGAGTATACTCTTCTTAAAAGTTTGTCCAGTGTAGTCCCTCACGGCCCCATTGAAAAG  1971
+NC_047040.1  93937619  ............G..................A.A....T.....T.A.............  93937678
+
+Query_1      1972      CTCCCAGAAGATCATAGCAGCAGGGAGACAAACATAAAAACATCAATAACAGAGGCAACC  2031
+NC_047040.1  93937679  ..............C..A....T.................T....G..G...........  93937738
+
+Query_1      2032      AAACCAGAAATGAATGGGATGGTGCCTCTTATCCATATCACTTTCCCCGGAGATGAAACT  2091
+NC_047040.1  93937739  ..........C...CA...................C...........T...C........  93937798
+
+Query_1      2092      CCCAAGGAAACAGCAACAACCAAACCAAGCCTCCAAAAAAGAAAGGGTATTCTTTGCAAC  2151
+NC_047040.1  93937799  .........C......T...T........................A.C..C...CAT...  93937858
+
+Query_1      2152      AACAGTAGCTTCAACATACTTGCACACCAAGAAAATGACAGGCATAAGGTGAAAACCCAT  2211
+NC_047040.1  93937859  ............C...........G......-...C...........AA...........  93937917
+
+Query_1      2212      AGAAATAAGTTGGATTCAAAGACCAAGAACAGTAACAGGACACCTCAGAATTTCGTCATT  2271
+NC_047040.1  93937918  ...........................GC.........................A.GG..  93937977
+
+Query_1      2272      TCCATTGAAGGTTCCATGAAGCCTACCTTGCACAAAACCAACATAAAAACTCAAGTTTTT  2331
+NC_047040.1  93937978  ......C..A.................A............G...................  93938037
+
+Query_1      2332      CCCGCTTTGGGGCTTGTGGACCCCAGACCTCAGCAATCACCCAAGTATCAAAGGAGAATG  2391
+NC_047040.1  93938038  ..T...C......................A.G..............T.....A.......  93938097
+
+Query_1      2392      CCACAGATAGAAAAGAAGCAATCCACTTACCGGGCTTTGAAACCTAAAAAGCAATCATTC  2451
+NC_047040.1  93938098  ..............C.............................................  93938157
+
+Query_1      2452      CCCTGCATCTGTAAAAATCCAGGAATAAAGAAGTCTTCTGTTCCTCTCTCTGCTCAACCA  2511
+NC_047040.1  93938158  ..T..........................A.C............................  93938217
+
+Query_1      2512      ACAGAGCCAAGACTGAATTACTTAGATCTAAAGTATAGCGACATGTTCAAAGAGATCAAT  2571
+NC_047040.1  93938218  ..............A..............G.....C..T..............A....G.  93938277
+
+Query_1      2572      TCAACTGCGAATGGACCTGGAATCTACGAAATGTTTGGGACTCCTGTTTACTGTCACATG  2631
+NC_047040.1  93938278  ........A.......G..............C...CA........A....TC....G...  93938337
+
+Query_1      2632      CGGGAGGCTGAACGGCATGAAAACAAATATTTCCGAGAGATATGCTCAGCTCCATCGGGC  2691
+NC_047040.1  93938338  ..A..........A..............................T...............  93938397
+
+Query_1      2692      AGATGTTTCACCAGTAAATGTCGAGCTTCACACAGTGAGAGGACCAGCAATAGCCGAACC  2751
+NC_047040.1  93938398  ......A......A..........T..........C..............G.........  93938457
+
+Query_1      2752      AGACTTTCTCAGAAAAGGCCGCATATTAAACCCTCAAAGTCTTCTCTTGGCATTAAACAA  2811
+NC_047040.1  93938458  .....C...........A..A............C..........................  93938517
+
+Query_1      2812      AAGCACAAAAGTTTAATTTCAAAGGGAAAGGGTTGCCAAGCTGTAGGTAGCAACTTGCAA  2871
+NC_047040.1  93938518  ....................T..A.A....C....                           93938552
+
+Query_1      2872      GACACTGAAAATGGTAATGGTATTTCGGAACCAGAGTGGCAGATAAAGTCTTTAGGAAAT  2931
+NC_047040.1  93938796  ...............G..........A........A.A.........A....C.......  93938855
+
+Query_1      2932      GATTTTCTATCTTCCAAAGATGAAGTTCAGCCCATGAATGTGGTGCAGACTCATGAGCAG  2991
+NC_047040.1  93938856  .........................C..T.........CA....T...............  93938915
+
+Query_1      2992      TCCATCGAACAGAAAGAATTCCTTCCTGTCTCAGATTTGTCCATTGTTGAAGACGTCTCT  3051
+NC_047040.1  93938916  ....C.........T................................----.--.-----  93938964
+
+Query_1      3052      ATGGAAGAGTCTGCTGACGAAGGAGACATTTCTAACAATCAGTTACTTGCCATGAGCCTC  3111
+NC_047040.1  93938965  .-..-.-.....--..................G.G.......A.........C...T...  93939019
+
+Query_1      3112      AGAGGTCTGCACGAACTTGAAGAGCTACATCACCAGATCCCATTTGTCCTTTCAGAAAAC  3171
+NC_047040.1  93939020  ....A............C.......-.A.......A.C......................  93939078
+
+Query_1      3172      AGCTGGGCAGTGCCCGATGAGAAGAGTTCCAACAAGCATGTTCTGCAAGAACAGCAGAAT  3231
+NC_047040.1  93939079  .........C.....AG..............G.........A.........A......C.  93939138
+
+Query_1      3232      ATAGCATCTCCTGGTGAAAC-AAATGCCAACCAAATTTTAACTAATGATGTAGAGTTTGA  3290
+NC_047040.1  93939139  G...T...............T..T......T..............C..............  93939198
+
+Query_1      3291      TAGTATTTCTGGTAAGCCTAAAACACTTATGAGTTTCTCTTTCCAAAAAATACAGGAAAG  3350
+NC_047040.1  93939199  ....G....A.A....T.............................G.G.A...A.....  93939258
+
+Query_1      3351      TGCATCTTCTCAAGCATATCAACATTGGGCACATTCTTTGGATCATGATGGTTTAGCTAA  3410
+NC_047040.1  93939259  ......G.....................A....................A....G.....  93939318
+
+Query_1      3411      TACATCAATTCCATATCAAACATTTGGAAAAACTTTAAATGATGCAGATTCAATTTCCCA  3470
+NC_047040.1  93939319  ..AG..........G.............................................  93939378
+
+Query_1      3471      AGAAATTCTAGACTCTGTAAAGAATGAAGAATTGACAGATGAACTATTAGGTTGTCTAGC  3530
+NC_047040.1  93939379  .............C..................CTC..........G..............  93939438
+
+Query_1      3531      TGCAGAACTATTAGCTCTTGATGAGAAAGATAACAACTCTTGCCAAATAATGGGAGATGA  3590
+NC_047040.1  93939439  ..........C....................G.....................C......  93939498
+
+Query_1      3591      AACAGATCCTGAAAGCCGAAATCTTGTCTTCAGTAAGAGAGGAAATACCATGCAAGAATT  3650
+NC_047040.1  93939499  ..........................C.C...............................  93939558
+
+Query_1      3651      AGGCGGAGAGATGACAAATGTCAAAACACAGAGATATAGTAATGGCTTTGGGATATATGA  3710
+NC_047040.1  93939559  .........---.....C........T....                               93939586
+NC_047040.1  93942383                              ........C...............G...G...  93942414
+
+Query_1      3711      TAAAGAGGAGAGATTTTTCAGCTCATATGAAAAGAAGACATTTTCTGAAAATAGTTTAAA  3770
+NC_047040.1  93942415  C...................A....C.........................C........  93942474
+
+Query_1      3771      GTATGAAGAACCTATCCTGTGGACCAAGGGTGAGATCCTTGGGAAGGGAGCCTACGGCAC  3830
+NC_047040.1  93942475  ...................................C........................  93942534
+
+Query_1      3831      AGTATATTGTGGTCTTACTAGCCAAGGACAGCTAATAGCTGTAAAACAGGTGGCTTTGGA  3890
+NC_047040.1  93943252   .........C........T.......................G................  93943310
+NC_047040.1  93942535  ....                                                          93942538
+
+Query_1      3891      TACCTCTGATAAATTAGCTACTGAAAAAGAATATCGGAAACTGCAGGAAGAGGTAGATTT  3950
+NC_047040.1  93943311  ............G...A.................A................A........  93943370
+
+Query_1      3951      GCTCAAAGCACTGAAACATGTCAACATTGTGGCCTATTTGGGGACATGCTTGGAGGAGAA  4010
+NC_047040.1  93943371  ..........................C........................C........  93943430
+
+Query_1      4011      CATTGTGAGCATTTTCATGGAGTTTGTTCCTGGTGGCTCAATCTCTAGTATTATAAACCG  4070
+NC_047040.1  93943431  .G....A....................................................A  93943490
+
+Query_1      4071      TTTTGGGCCATTGCCTGAGATGGTGTTCTGTAAATACACAAAACAAATTCTGCAAGGTGT  4130
+NC_047040.1  93943491  ....................................T.......................  93943550
+
+Query_1      4131      TGCTTATCTCCATGAGAACTGTGTGGTGCATCGAGATATCAAAGGAAATAATGTTATGCT  4190
+NC_047040.1  93943551  .T....................................C.............A.......  93943610
+
+Query_1      4191      TATGCCAACTGGAATCATAAAGCTGATTGACTTTGGCTGTGCCAAGCGTTTGGCCTGGGC  4250
+NC_047040.1  93943611  ..............AA..........C..............T....T.............  93943670
+
+Query_1      4251      TGGCTTGAATGGCACCCACAGTGACATGCTGAAGTCCATGCATGGGACTCCATACTGGAT  4310
+NC_047040.1  93943671  ......A.....T......................................G..T.....  93943730
+
+Query_1      4311      GGCCCCGGAAGTCATCAACGAGTCTGGCTATGGACGGAAGTCAGACATCTGGAGCATTGG  4370
+NC_047040.1  93943731  ...T......AA......T..C............T...........G.............  93943790
+
+Query_1      4371      CTGCACTGTGTTTGAGATGGCCACAGGGAAGCCTCCACTGGCTTCCATGGACAGGATGGC  4430
+NC_047040.1  93943791  .................................C.....A....................  93943850
+
+Query_1      4431      AGCCATGTTTTACATTGGCGCACACCGAGGGCTGATGCCTTCTTTACCAGAACACTTCTC  4490
+NC_047040.1  93943851  .................................A......C...................  93943910
+
+Query_1      4491      AGAAAACGCAGCAGACTTCGTACGTGTGTGCCTCACCAGGGACCAGCATGAGCGACCTTC  4550
+NC_047040.1  93943911  .....................G...............-...                     93943950
+NC_047040.1  93948555                                       ...............A.......  93948577
+
+Query_1      4551      TGCTGTCCAGCTCCTGAAGCACTCCTTCTTGAAGAGAAGTCACTGA  4596
+NC_047040.1  93948578  .............................G............T...  93948623
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 10855447861972
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

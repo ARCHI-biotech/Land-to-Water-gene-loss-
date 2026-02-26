@@ -1,0 +1,64 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_013284.4_cds_NP_037416.1_1 [gene=POLM]
+[db_xref=CCDS:CCDS34625.1] [protein=DNA-directed DNA/RNA polymerase
+mu isoform 1] [protein_id=NP_037416.1] [location=93..1577]
+[gbkey=CDS]
+
+Length=1485
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047042.1 Tursiops truncatus isolate mTurTru1 chromosome 9, mTu...  167     1e-38
+
+
+
+Query_1      640      CAGGAGCTGCTGGAGCATGGAGTGTGTGAGGAGGTGGAGAGAGTTCGGCGCTCAGAGAGG  699
+NC_047042.1  9765838  ..............A..C...............................T...G......  9765897
+
+Query_1      700      TACCAGACCATGAAGCTCTTCACCCAGATCTTCGGGGTCGGTGTGAAGACTGCTGACCGG  759
+NC_047042.1  9765898  ......G........                                               9765912
+
+Query_1      760      TGGTACCGGGAAGGACTGCGAACCTTAGATGACCTCCGAGAGCAGCCCCAGAAACTAACC  819
+
+Query_1      820      CAACAGCAGAAAGCGGGGCTCCAGCACCACCAGGACCTGAGCACCCCAGTCCTGCGGTCC  879
+NC_047042.1  9769136                 ..A............................GGA..........A  9769180
+
+Query_1      880      GATGTAGATGCCCTGCAGCAGGTGGTGGAGGAAGCTGTGGGGCAGGCCCTGCCTGGGGCC  939
+NC_047042.1  9769181  .....G..GA............C........C...C..............T.........  9769240
+
+Query_1      940      ACCGTCACGCTGACCGGCGGCTTCCGCAGG  969
+NC_047042.1  9769241  ..G...G...................G...  9769270
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3460710217725
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -1,0 +1,96 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= exon_1
+
+Length=45
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047044.1 Tursiops truncatus isolate mTurTru1 chromosome 11, mT...  52.0    1e-05
+NC_047039.1 Tursiops truncatus isolate mTurTru1 chromosome 6, mTu...  52.0    1e-05
+NC_047050.1 Tursiops truncatus isolate mTurTru1 chromosome 17, mT...  48.1    2e-04
+NC_047042.1 Tursiops truncatus isolate mTurTru1 chromosome 9, mTu...  48.1    2e-04
+NC_047043.1 Tursiops truncatus isolate mTurTru1 chromosome 10, mT...  46.1    9e-04
+NC_047038.1 Tursiops truncatus isolate mTurTru1 chromosome 5, mTu...  46.1    9e-04
+
+
+
+Query_1      3          TATCATCTTACATCAGCACAAGAAGAAGAGTGAGCATAGCACA  45
+NC_047044.1  16662907   .....C.........T..................           16662940
+NC_047039.1  101322906  ........C......T..................           101322873
+NC_047050.1  6147223    ........C......T............G.......         6147258
+NC_047042.1  95054344   ........C...................                 95054317
+NC_047043.1  53858752   ........C......T............G.....T....      53858714
+NC_047038.1  107408410  ........C......T............G.....T.C......  107408368
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 64219481829
+
+
+Query= exon_2
+
+Length=105
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 204550911076
+
+
+Query= exon_3
+
+Length=143
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 294933871784
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

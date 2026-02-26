@@ -1,0 +1,51 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_000300.4_cds_NP_000291.1_1 [gene=PLA2G2A]
+[db_xref=CCDS:CCDS201.1] [protein=phospholipase A2, membrane
+associated precursor] [protein_id=NP_000291.1] [location=291..725]
+[gbkey=CDS]
+
+Length=435
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  54.5    7e-05
+
+
+
+Query_1      118        AGTTATGGCTTCTACGGCTGCCACTGTGGCGTGGGTGGCAGAGGATCCCCCAAGGAT  174
+NC_047034.1  168601715  ..C.................TT....C...TG...G..TCA....A...........  168601659
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 958533192019
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

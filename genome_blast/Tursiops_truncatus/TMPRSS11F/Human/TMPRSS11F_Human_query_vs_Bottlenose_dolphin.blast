@@ -1,0 +1,290 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= exon_1
+
+Length=60
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 76111862944
+
+
+Query= exon_2
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 290176389390
+
+
+Query= exon_3
+
+Length=119
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211686054555
+
+
+Query= exon_4
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 92761318884
+
+
+Query= exon_5
+
+Length=164
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 318718329330
+
+
+Query= exon_6
+
+Length=39
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 28541952936
+
+
+Query= exon_7
+
+Length=202
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047038.1 Tursiops truncatus isolate mTurTru1 chromosome 5, mTu...  294     2e-77
+NC_047040.1 Tursiops truncatus isolate mTurTru1 chromosome 7, mTu...  52.7    1e-04
+
+
+
+Query_7      2          CTGTGGAATAAGGATGACATCTTCAAACATGCCATTACCAGCATCCTCTTCTACTCAAAG  61
+NC_047038.1  85701820   .........................T.............................G....  85701761
+
+Query_7      62         AATTGTCCAAGGAAGGGAAACAGCTATGGAAGGGGAATGGCCATGGCAGGCCAGCCTCCA  121
+NC_047038.1  85701760   GG.............T....................G.......................  85701701
+NC_047038.1  85441546                               ..............C.....A..T.....T..  85441515
+NC_047038.1  85521316                        .....A......A..C...........A.T...TT.A..  85521278
+NC_047040.1  111249637                                       .............T......---  111249656
+
+Query_7      122        GCTC-AT-AGGGTCAGGC-CATCAGTGTGGAGCCAGCCTCATCAGTAACACATGGCTGCT  178
+NC_047038.1  85701700   ....-..-....G.....-........C.....T.....T...........T........  85701644
+NC_047038.1  85441514   A.AG-.--.CAA.--.T.-..C..A..........CT..G..T.......GC.....TG.  85441461
+NC_047038.1  85521277   .-----.-G..A.A.TCTT..C..C..C....GTGT.T..........AGAG...A.C..  85521224
+NC_047040.1  111249657  ....T..A.T.....ACA-....--.........GC..........GC.TAC...G..GC  111249713
+
+Query_7      179        CACAGCAGCTCACTGCTT  196
+NC_047038.1  85701643   ...G..C...........  85701626
+NC_047038.1  85441460   ...T..T........T..  85441443
+NC_047038.1  85521223   G.................  85521206
+NC_047040.1  111249714  .T....T..C.....T..  111249731
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 406722582414
+
+
+Query= exon_8
+
+Length=260
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047038.1 Tursiops truncatus isolate mTurTru1 chromosome 5, mTu...  342     6e-92
+
+
+
+Query_8      1         AAATAAAGACCCAACTCAATGGATTGCTACTTTTGGTGCAACTATAACACCACCCGCAGT  60
+NC_047038.1  85617828  ....C..-.T...CA........C..T..GC.....AA....A..C.AC..T..ATT.A.  85617770
+NC_047038.1  85697884    ............G.....................CA.G....................  85697827
+
+Query_8      61        GAAACGAAATGTGAGGAAAATTATTCTTCATGAGAATTACCATAGAGAAACAAATGAAAA  120
+NC_047038.1  85617769  ....A.....A.CGAA.G.......G.C.......GA..T..CTTCCC.G....A...T.  85617710
+NC_047038.1  85697826  .C......G..............CCT..................................  85697767
+
+Query_8      121       TGACATTGCTTTGGTTCAGCTCTCTACTGGAGTTGAGTTTTCAAATATAGTCCAGAGAGT  180
+NC_047038.1  85617709  C.........G.T..G..AT.A..AT.CA.C..CACC...A.TG..GAGA...GA.....  85617650
+NC_047038.1  85697766  ..............C.T....TG....CC.................G....T.--.....  85697709
+
+Query_8      181       TTGCCTCCCAGACTCATCTATAAAGTTGCCACCTAAAACAAGTGTGTTCGTCACAGGATT  240
+NC_047038.1  85617649  ...TT.G.....AG.C...G.GTCC..C.A...A..TT...C...C.AT...........  85617590
+NC_047038.1  85697708  ............T.....C...........GT.............A..G......A.G..  85697649
+
+Query_8      241       TGGATCCATTGTAGATGATG  260
+NC_047038.1  85617589  ....                  85617586
+NC_047038.1  85697648  ....................  85697629
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 544675271186
+
+
+Query= exon_9
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047038.1 Tursiops truncatus isolate mTurTru1 chromosome 5, mTu...  223     2e-56
+
+
+
+Query_9      1         GACCTATACAAAATACACTTCGGCAAGCCAGAGTGGAAACCATAAGCACTGATGTGTGTA  60
+NC_047038.1  85696408  ......C........G.....A.........G............................  85696349
+
+Query_9      61        ACAGAAAGGATGTGTATGATGGCCTGATAACTCCAGGAATGTTATGTGCTGGATTCATGG  120
+NC_047038.1  85696348  ................................T...........................  85696289
+NC_047038.1  85764026                            ........TA..................C.T..A  85763993
+
+Query_9      121       AAGGAAAAATAGATGCATGTAAG  143
+NC_047038.1  85696288  .T......G......T.......  85696266
+NC_047038.1  85763992  .......C.G......G..      85763974
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 268769934435
+
+
+Query= exon_10
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047038.1 Tursiops truncatus isolate mTurTru1 chromosome 5, mTu...  229     5e-58
+
+
+
+Query_10     1         GGAGATTCTGGTGGACCTCTGGTTT---ATGATAA-TCATG--ACATCTGGTACATTGTA  54
+NC_047038.1  85692233  .......G.................---.......-.....--...........C....C  85692180
+NC_047038.1  85613055  ..T........G......T.A...GGAA.G...CT-.A.A.--.T.C......TC.CA.T  85612999
+NC_047038.1  85727818     ..............A..A.C..---...CC..C..TA.GA.T......C..C....T  85727765
+
+Query_10     55        GGTATAGTAAGTTGGGGACAATCATGTGCACTTCCCAAAAAACCTGGAGTCTACACCAGA  114
+NC_047038.1  85692179  A............................T.................G........A...  85692120
+NC_047038.1  85612998  ..A..T..G..C......G.TAAC....GG.AAAAG..C.................A.A.  85612939
+NC_047038.1  85727764  ..A........C.....TG..GG.....GGAAAAAG..T.....A..T.....T..TT..  85727705
+
+Query_10     115       GTAACTAAGTATCGAGATTGGATTGCCTCAAAGACTGGTATGTAG  159
+NC_047038.1  85692119  ..G.G.C.........GC.......................C...  85692075
+NC_047038.1  85612938  ..GG..T.T..C...A.C......A.T....                85612908
+NC_047038.1  85727704  ..G...GCT.....T.GA...C..A....C.......          85727668
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 306825854355
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

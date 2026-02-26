@@ -1,0 +1,67 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|XM_057715320.1_cds_XP_057571303.1_1 [gene=REG4]
+[db_xref=GeneID:130840149] [protein=regenerating islet-derived
+protein 4] [protein_id=XP_057571303.1] [location=1..477] [gbkey=CDS]
+
+Length=477
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047034.1 Tursiops truncatus isolate mTurTru1 chromosome 1, mTu...  172     1e-40
+
+
+
+Query_1      71        TCATCCTGAGACCTAGCTGTGCTGCTGGATGGTTTTATCACAGGTCCTATTGCTATGGAT  130
+NC_047034.1  78613601  .......................A.............CT...A.....G......G....  78613660
+
+Query_1      131       ACTTCCGGAAGCTGAGAAACTGGACTGATGCTGAGCTCGAGTGTCAGTCATATGGAAATG  190
+NC_047034.1  78617386                                   ................G........C.  78617412
+NC_047034.1  78613661  ......A........AG......T...........                           78613695
+
+Query_1      191       GAACCCACCTGACATCTATTCTGAATTCAAAGGAAGCCAACACCATAGCGAAGTACATAG  250
+NC_047034.1  78617413  ..G........G.......C.......T.....................A.C........  78617472
+
+Query_1      251       GTGGCTATCAAAAAAACAAGCCTGTTTGGATTGGCCTGCATGACCCACAGAAGAGGCACC  310
+NC_047034.1  78617473  ......G.....G.........CA.A.....CTT...........TG......         78617525
+NC_047034.1  78619410                                                     ..G....A.  78619418
+
+Query_1      311       AGTGGCAGTGGAGCGATGGGTCTGTGTATATTTACAGAACCATGTCTGGCAGGTCTGTGG  370
+NC_047034.1  78619419  .....AC....CT.......G.CAC.............G.TC.........A...C....  78619478
+
+Query_1      371       GTAAGAACAAGTACTGTGCTGAGATGAACGCCA  403
+NC_047034.1  78619479  ..GG...........A.................  78619511
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1058429951485
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

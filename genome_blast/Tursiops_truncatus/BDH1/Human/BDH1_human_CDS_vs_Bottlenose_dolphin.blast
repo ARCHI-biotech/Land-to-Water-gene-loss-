@@ -1,0 +1,107 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|XM_047448680.1_cds_XP_047304636.1_1 [gene=BDH1]
+[db_xref=GeneID:622] [protein=D-beta-hydroxybutyrate dehydrogenase,
+mitochondrial isoform X2] [protein_id=XP_047304636.1]
+[location=3236..4267] [gbkey=CDS]
+
+Length=1032
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047037.1 Tursiops truncatus isolate mTurTru1 chromosome 4, mTu...  498     5e-138
+NC_047054.1 Tursiops truncatus isolate mTurTru1 chromosome 21, mT...  67.1    3e-08 
+
+
+
+Query_1      2         TGCTGGCCACCCGCCTCTCCAGACCCCTGTCACGGCTCCCAGGAAAAACCCTAAGTGCCT  61
+NC_047037.1  71059421  .....A.TG.....T..................A......GA.G........G.A.TT..  71059480
+
+Query_1      62        GTGATAGAGAAAATGGAGCAAGACGCCCACTATTGCTTGGTTCTACTTCCTTTATCCCGA  121
+NC_047037.1  71059481  C........T.......A....                                        71059502
+
+Query_1      122       TTGGCCGTCGGACTTATGCCAGTGCGGCGGAGCCGGTTGGCAGCAAAGCTGTCCTGGTCA  181
+NC_047037.1  71068445                                    .....C.............T......  71068470
+NC_047054.1  3269642                                                 ..T.......A.-.  3269654
+
+Query_1      182       CAGGCTGTGACTCTGGATTTGGGTTCTCATTGGCCAAGCATCTGCATTCAAAAGGCTTCC  241
+NC_047037.1  71068471  ............................C...............................  71068530
+NC_047054.1  3269655   TT.......T...AA.......T..-..C....ATG...-...C.T..............  3269712
+
+Query_1      242       TTGTGTTTGCTGGCTGCTTGATGAAGGACAAAGGCCATGATGGGGTCAAGGAGCTGGACA  301
+NC_047037.1  71068531  ....A..........A...........                                   71068557
+NC_047054.1  3269713   .CAA....T....A.....CC.C...A.....A.AGT..C..CTT..CT...T.CC.GG.  3269772
+
+Query_1      302       GCCTAAACAGTGACCGATTGAGAACCGTCCAGCTCAATGTCTGCAGCAGCGAAGAGGTGG  361
+NC_047054.1  3269773   T.A.G..G...A..A.C.G..-...TT...T.........T.A..CA...CT......    3269829
+
+Query_1      362       AGAAAGTGGTGGAGATTGTCCGCTCGAGCCTGAAGGACCCTGAGAAAGGCATGTGGGGCC  421
+NC_047037.1  71084431                                                  ..T...A.....  71084442
+
+Query_1      422       TCGTTAACAATGCCGGCATCTCAACGTTCGGGG-AGGTGGAGTTCACCAGCCTGGAGACC  480
+NC_047037.1  71084443  .G...........G.........G....T....G.T...............A........  71084502
+
+Query_1      481       TACAAGCAGGTGGCAGAAGTGAACCTTTGGGGCACAGTGCGGATGACGAAATCCTTTCTC  540
+NC_047037.1  71084503  ......G......TG.....A.....C...............GG...A...C........  71084562
+
+Query_1      541       CCCCTCATCCGAAGGGCCAAAGGCCGCGTCGTCAATATCAGCAGCATGCTGGGCCGCATG  600
+NC_047037.1  71085959                      ....T....G.....C.C..ATG.................  71085998
+NC_047037.1  71084563  ........TTAG.......C..                                        71084584
+
+Query_1      601       GCCAACCCGGCCCGCTCCCCGTACTGCATCACCAAGTTCGGGGTAGAGGCTTTCTCGGAC  660
+NC_047037.1  71085999  ...C..G.....G..G..................G...T...T----.........C...  71086054
+
+Query_1      661       TGCCTGCGCTATGAGATGTACCCCCTGGGCGTGAAGGTCAGCGTGGTGGAGCCCGGCAAC  720
+NC_047037.1  71086055  .....A.....C...G..C....A.....A.........G..........A.........  71086114
+
+Query_1      721       TTCATCGCTGCCACCAGCCTTTACAGCCCTGAGAGCATTCAGGCCATCGCCAAGAAGATG  780
+NC_047037.1  71086115  ........CA..........CC..G..G.....C....C..T..........GT......  71086174
+
+Query_1      781       TGGGAGGAGCTGCCTGAGGTCGTGCGCAAGGACTACGGCAAGAAGTACTTTGATGAAAAG  840
+NC_047037.1  71086175  .....C.............GG...................G............C..G.G.  71086234
+
+Query_1      841       ATCGCCAAGATGGAGACCTACTGCAGCAGTGGCTCCACAGACACGTCCCCTGTCATCGAT  900
+NC_047037.1  71086235  G...TG...................A...CA.......G...........CA.....AGC  71086294
+
+Query_1      901       GCTGTCACACACGCCCTGACCGCC-ACCACCCCCTACACCCGCTACCACCCCATGGACTA  959
+NC_047037.1  71086295  ........C...A........T..GG.T.......G.G.T....................  71086354
+
+Query_1      960       CTACTGGTGGCTGCGAATGCAGATCATGACCCACTTGCCTGGAGCCATCTCCGACATGAT  1019
+NC_047037.1  71086355  ..G...T...G.........G.....C............CA...TG.....T....G...  71086414
+
+Query_1      1020      CTACATCCGCTGA  1032
+NC_047037.1  71086415  ......A......  71086427
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2376115418088
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

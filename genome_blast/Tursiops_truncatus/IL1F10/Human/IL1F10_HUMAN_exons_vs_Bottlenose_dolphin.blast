@@ -1,0 +1,154 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= exon_1
+
+Length=47
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45191418623
+
+
+Query= exon_2
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047047.1 Tursiops truncatus isolate mTurTru1 chromosome 14, mT...  87.8    3e-16
+
+
+
+Query_2      3         AGGACCAGACACCACTGATTGCAGGAATGTGTTCCCTCCCCATGGCAAGATACTACAT  60
+NC_047047.1  11881986  ........T....C.................C................A.........  11882043
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 76111862944
+
+
+Query= exon_3
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047047.1 Tursiops truncatus isolate mTurTru1 chromosome 14, mT...  84.2    6e-15
+
+
+
+Query_3      1         AATTAAATATGCAGACCAGAAGGCTCTATACACAAGAGATGGCCAGCTGCTGGTGGGAGA  60
+NC_047047.1  11884060  ......GG.C.....T...........G.G...G.....CC....C..C........G..  11884119
+
+Query_3      61        TCCTGTTGCAGACAACTGCTGTGCAG  86
+NC_047047.1  11884120  ...C.CC............C......  11884145
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135574235292
+
+
+Query= exon_4
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047047.1 Tursiops truncatus isolate mTurTru1 chromosome 14, mT...  150     8e-35
+
+
+
+Query_4      1         AGAAGATCTGCATACTTCCTAACAGAGGCTTGGCCCGCACCAAGGTCCCCATTTTCCTGG  60
+NC_047047.1  11884393  ...T............C..C.........C...G..A.....GTT.....G.C.......  11884452
+
+Query_4      61        GGATCCAGGGAGGGAGCCGCTGCCTGGCATGTGTGGAGACAGAAGAGGGGCCTTCCCTAC  120
+NC_047047.1  11884453  .............C..T..T.........C............GG..............G.  11884512
+
+Query_4      121       AGCTGGAG  128
+NC_047047.1  11884513  ........  11884520
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 233092509510
+
+
+Query= exon_5
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047047.1 Tursiops truncatus isolate mTurTru1 chromosome 14, mT...  144     2e-32
+
+
+
+Query_5      77        CCGCCTTCAGGCTTGAGGCTGCTGCCTGGCCTGGCTGGTTCCTGTGTGGCCCGGCAGAGC  136
+NC_047047.1  11884798  .............G.........T....A....A......T..C......T.A..T....  11884857
+
+Query_5      137       CCCAGCAGCCAGTACAGCTCACCAAGGAGAGTGAGCCCTCAGCCCGTACCAAGTTTTACT  196
+NC_047047.1  11884858  ....AG....T....GA...........................T.C..TG..C.C....  11884917
+
+Query_5      197       TTGAACAGAGCTGGTAG  213
+NC_047047.1  11884918  G.........TC.....  11884934
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 432886023388
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

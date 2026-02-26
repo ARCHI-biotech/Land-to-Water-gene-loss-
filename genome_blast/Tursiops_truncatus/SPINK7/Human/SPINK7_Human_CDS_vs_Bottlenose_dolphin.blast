@@ -1,0 +1,61 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+           361 sequences; 2,378,505,825 total letters
+
+
+
+Query= lcl|NM_032566.3_cds_NP_115955.1_1 [gene=SPINK7]
+[db_xref=CCDS:CCDS4289.1] [protein=serine protease inhibitor
+Kazal-type 7 precursor] [protein_id=NP_115955.1] [location=62..319]
+[gbkey=CDS]
+
+Length=258
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_047036.1 Tursiops truncatus isolate mTurTru1 chromosome 3, mTu...  170     2e-40
+
+
+
+Query_1      1          ATGAAGATCACTGGGGGTCTCCTTCTGCTCTGTACAGTGGTCTATTTCTGTAGCAGCTCA  60
+NC_047036.1  124209586  ..........T.....A..........T............C.C..C......C.T.....  124209645
+
+Query_1      61         GAAGCTGCTAGTCTGTCTCCAAAAAAAGTGGACTGCAGCATTTACAAGAAGTATCCAGTG  120
+NC_047036.1  124211324                             ..A..............TG.....C.C......  124211356
+NC_047036.1  124209646  .                                                             124209646
+
+Query_1      121        GTGGCCATCCCCTGCCCCATCACATACCTACCAGTTTGTGGTTCTGACTACATCACCTAT  180
+NC_047036.1  124211357  .............................G..T........-..................  124211415
+
+Query_1      181        GGGAATGAATGTCACTTGTGTACCGAGAGCTTG  213
+NC_047036.1  124211416  ...........C......C...TT.........  124211448
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 539918281918
+
+
+  Database: GCF_011762595.2_mTurTru1.mat.Y_genomic.fna
+    Posted date:  Feb 3, 2026  5:31 PM
+  Number of letters in database: 2,378,505,825
+  Number of sequences in database:  361
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
